@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import Layout from "./Components/Layout/Layout"
+import Layout from "./Components/Layout/Layout";
 import ReactNodeGraph from "./Components/NodeGraph/NodeGraph";
+import MuiThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
+
+import theme from "./Theme/theme";
 import "./App.css";
 var exampleGraph = {
   nodes: [
@@ -11,7 +14,7 @@ var exampleGraph = {
       y: 100,
       fields: {
         in: [],
-        out: [{name: "output"}]
+        out: [{ name: "output" }]
       }
     },
     {
@@ -20,9 +23,7 @@ var exampleGraph = {
       x: 400,
       y: 400,
       fields: {
-        in: [
-          { name: "input" }
-        ],
+        in: [{ name: "input" }],
         out: []
       }
     }
@@ -95,21 +96,23 @@ class App extends Component {
 
   render() {
     return (
-      <Layout>
-      <ReactNodeGraph
-        data={this.state}
-        onNodeMove={(nid, pos) => this.onNodeMove(nid, pos)}
-        onNodeStartMove={nid => this.onNodeStartMove(nid)}
-        onNewConnector={(n1, o, n2, i) => this.onNewConnector(n1, o, n2, i)}
-        onRemoveConnector={connector => this.onRemoveConnector(connector)}
-        onNodeSelect={nid => {
-          this.handleNodeSelect(nid);
-        }}
-        onNodeDeselect={nid => {
-          this.handleNodeDeselect(nid);
-        }}
-      />
-      </Layout>
+      <MuiThemeProvider theme={theme}>
+        <Layout>
+          <ReactNodeGraph
+            data={this.state}
+            onNodeMove={(nid, pos) => this.onNodeMove(nid, pos)}
+            onNodeStartMove={nid => this.onNodeStartMove(nid)}
+            onNewConnector={(n1, o, n2, i) => this.onNewConnector(n1, o, n2, i)}
+            onRemoveConnector={connector => this.onRemoveConnector(connector)}
+            onNodeSelect={nid => {
+              this.handleNodeSelect(nid);
+            }}
+            onNodeDeselect={nid => {
+              this.handleNodeDeselect(nid);
+            }}
+          />
+        </Layout>
+      </MuiThemeProvider>
     );
   }
 }
