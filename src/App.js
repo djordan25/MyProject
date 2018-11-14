@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Layout from "./Components/Layout/Layout"
 import ReactNodeGraph from "./Components/NodeGraph/NodeGraph";
 import "./App.css";
 var exampleGraph = {
@@ -7,8 +7,8 @@ var exampleGraph = {
     {
       nid: 1,
       type: "Data",
-      x: 1479,
-      y: 351,
+      x: 100,
+      y: 100,
       fields: {
         in: [],
         out: [{name: "output"}]
@@ -17,8 +17,8 @@ var exampleGraph = {
     {
       nid: 14,
       type: "f(x)",
-      x: 549,
-      y: 478,
+      x: 400,
+      y: 400,
       fields: {
         in: [
           { name: "input" }
@@ -95,6 +95,7 @@ class App extends Component {
 
   render() {
     return (
+      <Layout>
       <ReactNodeGraph
         data={this.state}
         onNodeMove={(nid, pos) => this.onNodeMove(nid, pos)}
@@ -108,6 +109,7 @@ class App extends Component {
           this.handleNodeDeselect(nid);
         }}
       />
+      </Layout>
     );
   }
 }

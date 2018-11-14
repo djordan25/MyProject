@@ -1,0 +1,22 @@
+.title {
+    text-transform: uppercase;
+}
+
+.drawerTitleContainer {
+    padding-left: 24px;
+    height: 64px;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+}
+
+.flexCenter {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.closeDrawerBtn {
+    background-color: #fff;
+}
+
