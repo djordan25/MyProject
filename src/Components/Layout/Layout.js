@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import hoc from "../../hoc/Hoc";
+import Hoc from "../../hoc/Hoc";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import classes from "./Layout.css";
 import AppBar from "@material-ui/core/AppBar";
@@ -29,7 +29,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <hoc>
+      <Hoc>
         <CssBaseline />
         <AppBar position="absolute">
           <Toolbar
@@ -107,7 +107,7 @@ class Layout extends Component {
           <List>{secondaryListItems}</List>
         </Drawer>
         <main className={classes.Content}>{this.props.children}</main>
-      </hoc>
+      </Hoc>
     );
   }
 }

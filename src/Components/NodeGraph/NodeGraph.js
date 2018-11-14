@@ -197,7 +197,7 @@ class NodeGraph extends Component {
 
         {/* render our connectors */}
 
-        <SVGComponent height="100%" width="100%" ref="svgComponent">
+        <SVGComponent height="100vh" width="100vw" ref="svgComponent">
           {connectors.map(connector => {
             let fromNode = this.getNodebyId(nodes, connector.from_node);
             let toNode = this.getNodebyId(nodes, connector.to_node);
