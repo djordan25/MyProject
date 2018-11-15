@@ -2,6 +2,7 @@ import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import LibraryAddIcon from '@material-ui/icons/LibraryAdd';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 // import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -12,36 +13,37 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 
 export const mainListItems = (
   <div>
+    <ListSubheader>MODELS</ListSubheader>
     <ListItem button>
       <ListItemIcon>
-        <DashboardIcon />
+        <LibraryAddIcon />
       </ListItemIcon>
-      <ListItemText primary="Dashboard" />
+      <ListItemText primary="Add" />
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <ListItemText primary="Campaigns" />
+      <ListItemText primary="Subtract" />
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Segments" />
+      <ListItemText primary="Multiply" />
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary="Offers" />
+      <ListItemText primary="Divide" />
     </ListItem>
   </div>
 );
 
 export const secondaryListItems = (
   <div>
-    <ListSubheader inset>Saved reports</ListSubheader>
+    <ListSubheader >REPORTS</ListSubheader>
     <ListItem button>
       <ListItemIcon>
         <AssignmentIcon />

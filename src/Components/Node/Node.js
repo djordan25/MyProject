@@ -4,7 +4,13 @@ import onClickOutside from 'react-onclickoutside';
 import NodeInputList from '../NodeInputList/NodeInputList';
 import NodeOutputList from '../NodeOutputList/NodeOutputList';
 import Draggable from 'react-draggable';
+import { types } from 'util';
 
+todo create different node types
+
+-- node with digit inputs
+-- node represents function add/subtract
+-- output node - only displays
 
 class Node extends Component {
   constructor(props) {

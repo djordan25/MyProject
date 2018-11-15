@@ -4,23 +4,23 @@ import ReactNodeGraph from "./Components/NodeGraph/NodeGraph";
 import MuiThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
 
 import theme from "./Theme/theme";
-import "./App.css";
+import "./App.scss";
 var exampleGraph = {
   nodes: [
-    {
-      nid: 1,
-      type: "Data",
-      x: 100,
-      y: 100,
-      fields: {
-        in: [],
-        out: [{ name: "output" }]
-      }
-    },
+    // {
+    //   nid: 1,
+    //   type: "Data",
+    //   x: 100,
+    //   y: 100,
+    //   fields: {
+    //     in: [],
+    //     out: [{ name: "output" }]
+    //   }
+    // },
     {
       nid: 14,
-      type: "f(x)",
-      x: 400,
+      type: "Output",
+      x: 800,
       y: 400,
       fields: {
         in: [{ name: "input" }],
@@ -37,7 +37,7 @@ var exampleGraph = {
     // {"nid":89,"type":"Vector3","x":486,"y":188,"fields":{"in":[{"name":"xyz"},{"name":"x"},{"name":"y"},{"name":"z"}],"out":[{"name":"xyz"},{"name":"x"},{"name":"y"},{"name":"z"}]}}
   ],
   connections: [
-    { from_node: 1, from: "output", to_node: 14, to: "input" }
+    // { from_node: 1, from: "output", to_node: 14, to: "input" }
     // {"from_node":14,"from":"out","to_node":1,"to":"camera"},
     // {"from_node":14,"from":"out","to_node":35,"to":"in5"},
     // {"from_node":35,"from":"out","to_node":23,"to":"children"},
@@ -94,10 +94,48 @@ class App extends Component {
     console.log("node deselected : " + nid);
   }
 
+  handleNodeAdd(a, b) {
+    console.log("node add", a, b);
+    let nodes = this.state.nodes;
+
+    this.setState({
+      nodes: [...nodes, {
+        nid: Math.floor(Math.random() * 10000) + 1,
+        type: "Addition",
+        x: 300,
+        y: 300,
+        fields: {
+          in: [{ name: "var 1" }, { name: "var 2" }],
+          out: [{ name: "output" }]
+        }
+      }]
+    })
+  }
+
+  handleDataSourceAdd(evt) {
+    console.log("data add", evt);
+    let nodes = this.state.nodes;
+
+    this.setState({
+      nodes: [...nodes, {
+        nid: Math.floor(Math.random() * 10000) + 1,
+        type: "Data",
+        x: 400,
+        y: 400,
+        fields: {
+          in: [],
+          out: [{ name: "output" }]
+        }
+      }]
+    })
+  }
+
+
   render() {
     return (
       <MuiThemeProvider theme={theme}>
-        <Layout>
+        <Layout onNodeAdd={this.handleNodeAdd.bind(this)}
+                onDataSourceAdd={this.handleDataSourceAdd.bind(this)}>
           <ReactNodeGraph
             data={this.state}
             onNodeMove={(nid, pos) => this.onNodeMove(nid, pos)}
@@ -111,6 +149,7 @@ class App extends Component {
               this.handleNodeDeselect(nid);
             }}
           />
+
         </Layout>
       </MuiThemeProvider>
     );
