@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import onClickOutside from 'react-onclickoutside';
-
-import NodeInputList from '../NodeInputList/NodeInputList';
-import NodeOutputList from '../NodeOutputList/NodeOutputList';
+import PropTypes from 'prop-types';
+import NodeInputList from '../../NodeInputList/NodeInputList';
+import NodeOutputList from '../../NodeOutputList/NodeOutputList';
 import Draggable from 'react-draggable';
-import classes from './Node.module.scss';
-import { types } from 'util';
-
+import classes from './FunctionNode.module.scss';
+import { types, isNumber } from 'util';
 // todo create different node types
 
 // -- node with digit inputs
 // -- node represents function add/subtract
 // -- output node - only displays
 
-class Node extends Component {
+class FunctionNode extends Component {
   constructor(props) {
     super(props);
     this.state = {
       selected: false
     }
+    this.handleValueChange = this.handleValueChange.bind(this);
   }
 
   handleDragStart(event, ui) {
@@ -32,9 +32,11 @@ class Node extends Component {
   handleDrag(event, ui) {
     this.props.onNodeMove(this.props.index, { x: ui.x, y: ui.y });
   }
-
+  handleValueChange(evt) {
+    this.props.onNodeValueChanged(this.props.index, Number(evt.target.value));
+  }
   shouldComponentUpdate(nextProps, nextState) {
-    return this.state.selected !== nextState.selected;
+    return this.state.selected !== nextState.selected || this.props.nodeValue !== nextProps.nodeValue;
   }
 
   onStartConnector(index) {
@@ -59,6 +61,7 @@ class Node extends Component {
     }
     this.setState({ selected: false });
   }
+
 
   render() {
     let { selected } = this.state;
@@ -91,4 +94,4 @@ class Node extends Component {
   }
 }
 
-export default onClickOutside(Node);
+export default onClickOutside(FunctionNode);

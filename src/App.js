@@ -7,19 +7,44 @@ import theme from "./Theme/theme";
 import "./App.scss";
 var exampleGraph = {
   nodes: [
-    // {
-    //   nid: 1,
-    //   type: "Data",
-    //   x: 100,
-    //   y: 100,
-    //   fields: {
-    //     in: [],
-    //     out: [{ name: "output" }]
-    //   }
-    // },
+    {
+      nid: 1,
+      type: "Constant",
+      name: "My Value 1",
+      nodeValue: 100,
+      x: 200,
+      y: 300,
+      fields: {
+        in: [],
+        out: [{ name: "output" }]
+      }
+    }, {
+      nid: 3,
+      type: "Constant",
+      name: "My Value 2",
+      nodeValue: 22,
+      x: 166,
+      y: 542,
+      fields: {
+        in: [],
+        out: [{ name: "output" }]
+      }
+    }, {
+      nid: 2,
+      type: "Function",
+      name: "f(x,y)",
+      body: (x, y) => { return x + y; },
+      x: 562,
+      y: 531,
+      fields: {
+        in: [{ name: "X" }, { name: "Y" }],
+        out: [{ name: "output" }]
+      }
+    },
     {
       nid: 14,
-      type: "Output",
+      type: "Result",
+      name: "Result",
       x: 800,
       y: 400,
       fields: {
@@ -37,7 +62,9 @@ var exampleGraph = {
     // {"nid":89,"type":"Vector3","x":486,"y":188,"fields":{"in":[{"name":"xyz"},{"name":"x"},{"name":"y"},{"name":"z"}],"out":[{"name":"xyz"},{"name":"x"},{"name":"y"},{"name":"z"}]}}
   ],
   connections: [
-    // { from_node: 1, from: "output", to_node: 14, to: "input" }
+    { from_node: 1, from: "output", to_node: 2, to: "X" },
+    { from_node: 3, from: "output", to_node: 2, to: "Y" },
+    { from_node: 2, from: "output", to_node: 14, to: "input" }
     // {"from_node":14,"from":"out","to_node":1,"to":"camera"},
     // {"from_node":14,"from":"out","to_node":35,"to":"in5"},
     // {"from_node":35,"from":"out","to_node":23,"to":"children"},
@@ -119,7 +146,7 @@ class App extends Component {
     this.setState({
       nodes: [...nodes, {
         nid: Math.floor(Math.random() * 10000) + 1,
-        type: "Data",
+        type: "Constant",
         x: 400,
         y: 400,
         fields: {
@@ -135,7 +162,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <Layout onNodeAdd={this.handleNodeAdd.bind(this)}
-                onDataSourceAdd={this.handleDataSourceAdd.bind(this)}>
+          onDataSourceAdd={this.handleDataSourceAdd.bind(this)}>
           <ReactNodeGraph
             data={this.state}
             onNodeMove={(nid, pos) => this.onNodeMove(nid, pos)}

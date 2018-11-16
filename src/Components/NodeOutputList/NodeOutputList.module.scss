@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.nodeOutputWrapper {
+	height: 100%;
+	// float: left;
+}
+
+.nodeOutputList {
+	list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}

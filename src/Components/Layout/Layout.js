@@ -18,7 +18,6 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import LibraryAddIcon from '@material-ui/icons/LibraryAdd';
-import PlayCircleOutline from '@material-ui/icons/PlayCircleOutline';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import MemoryIcon from '@material-ui/icons/Memory';
@@ -39,6 +38,7 @@ class Layout extends Component {
   handleDrawerClose = () => {
     this.setState({ open: false });
   };
+
 
   render() {
     return (
@@ -74,23 +74,7 @@ class Layout extends Component {
             </IconButton>
           </Toolbar>
         </AppBar>
-        <AppBar position="absolute" style={{ top: 'auto', bottom: 0 }}>
-          <Toolbar
-            disableGutters={!this.state.open}
-            className={classes.drawerTitleContainer}
-          >
-            <div className={classes.flexCenter}>
-              <Button variant="extendedFab"
-                color="secondary"
-                style={{ color: "#ffffff" }}
-                aria-label="Simulate"
-                onClick={this.handleSimulate}
-              >
-                <PlayCircleOutline />
-              </Button>
-            </div>
-          </Toolbar>
-        </AppBar>
+
         <Drawer variant="temporary" open={this.state.open}
         >
           <div
@@ -120,7 +104,7 @@ class Layout extends Component {
               <ListItemIcon>
                 <MemoryIcon />
               </ListItemIcon>
-              <ListItemText primary="Add Static Number" />
+              <ListItemText primary="Add Constant" />
             </ListItem>
           </List>
           <Divider />
@@ -159,7 +143,7 @@ class Layout extends Component {
                 <ListItemIcon>
                   <AssignmentIcon />
                 </ListItemIcon>
-                <ListItemText primary="Offer Report" />
+                <ListItemText primary="Risk Report" />
               </ListItem>
               {/* <ListItem button>
       <ListItemIcon>

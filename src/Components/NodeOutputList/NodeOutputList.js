@@ -1,7 +1,7 @@
 import React from 'react';
 
 import NodeOutputListItem from './NodeOutputListItem/NodeOutputListItem';
-
+import classes from './NodeOutputList.module.scss';
 export default class NodeOutputList extends React.Component {
 
 	onMouseDown(i) {
@@ -12,11 +12,11 @@ export default class NodeOutputList extends React.Component {
 		let i = 0;
 
 		return (
-			<div className="nodeOutputWrapper">
-			    <ul className="nodeOutputList">
+			<div className={classes.nodeOutputWrapper}>
+				<ul className={classes.nodeOutputList}>
 					{this.props.items.map((item) => {
 						return (
-							<NodeOutputListItem onMouseDown={(i)=>this.onMouseDown(i)} key={i} index={i++} item={item} />
+							<NodeOutputListItem onMouseDown={(i) => this.onMouseDown(i)} key={i} index={i++} item={item} />
 						)
 					})}
 				</ul>

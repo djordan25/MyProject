@@ -1,0 +1,73 @@
+@import '../../../variables.scss';
+
+.node {
+	position: absolute; 
+	width:280px;
+    border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 6px 6px 28px -2px rgba(0,0,0,0.4);
+	-moz-box-shadow: 6px 6px 28px -2px rgba(0,0,0,0.4);
+	box-shadow: 6px 6px 28px -2px rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,.7);
+    user-select: none;
+}
+
+.node.selected {
+    border: 1px solid #666;
+    box-shadow: 0 0 8px 3px #555;
+}
+
+.node-seperator {
+	color: black;
+	border-color: black;
+}
+
+.nodeContent {
+	padding: 10px;
+	display: flex;
+	flex-flow: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.nodeTitle {
+	font-size:10px;
+}
+
+.nodeHeader {
+	cursor: all-scroll;
+
+	background: $green;
+	
+	padding-left: 10px;
+    text-transform: uppercase;
+
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+
+	border-bottom: 1px solid #353535;
+
+	padding-top: 3px;
+    height: 23px;
+
+    font-size: 13px;
+    letter-spacing: 1px;
+
+	color:white;
+	font-weight: 600;
+}
+
+
+// .textBox {
+// 	background: #333;
+// 	width: 100px;
+// 	color: #fff;
+//     box-sizing: border-box;
+//     border: none;
+//     padding: 12px 20px;
+//     margin: 8px 0;
+// }
+// .textBox:focus {
+// 	// background: #AAA;
+// 	border-color: $green;
+// }

@@ -1,0 +1,21 @@
+@import '../../../variables.scss';
+.a {
+	font-size:14px;
+	text-decoration: none;
+    background: transparent;
+    box-sizing: border-box;
+    color: #999999;
+}
+
+.a:hover {
+    text-decoration: none;
+    color: $cyan;
+}
+
+.i {
+    padding-right: 6px;
+}
+
+.li {
+    cursor: pointer;
+}

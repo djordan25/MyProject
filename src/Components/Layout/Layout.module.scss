@@ -7,15 +7,17 @@
     padding-left: 24px;
     height: 64px;
     justify-content: space-between;
-    background-color: $dark-teal;
+    background-color: $primary-color;
     color: #fff;
 }
 
 .flexCenter {
+    width:100%;
     display: flex;
     flex-flow: row;
     align-items: center;
 }
+
 
 .closeDrawerBtn {
     // background-color: #fff;

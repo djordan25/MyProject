@@ -1,0 +1,14 @@
+
+
+
+.bottomMenu {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    z-index: 1050;
+}
