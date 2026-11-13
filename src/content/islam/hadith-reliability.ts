@@ -4,7 +4,7 @@ export const hadithReliability: Topic = {
   id: 'islam-hadith-reliability',
   title: 'Can the Hadith Be Trusted?',
   icon: '⛓',
-  summary: 'Islam depends on the hadith — yet they were compiled two centuries after Muhammad from chains of oral reports, amid widespread fabrication.',
+  summary: 'Islam depends on the hadith — yet the authoritative collections were compiled two centuries after Muhammad from chains of largely oral reports, amid widespread fabrication.',
   lesson: [
     {
       heading: 'Why the hadith matter so much',
@@ -27,9 +27,9 @@ export const hadithReliability: Topic = {
       heading: '“Do not write anything from me”',
       body: [
         'Muhammad said: “Do not take down anything from me, and he who took down anything from me except the Qur’an, he should efface that” (Sahih Muslim 3004).',
-        'So the earliest Muslims were told not to write down his words. The bulk of the hadith therefore depended on oral transmission for generations before being written in the great collections.',
+        'So the earliest Muslims were told not to write down his words. Some companions did keep notes — Abu Huraira said Abdullah bin Amr “used to write them” (Sahih al-Bukhari 113) — but the bulk of the hadith was passed on largely orally for generations before being gathered into the great collections.',
       ],
-      references: ['Sahih Muslim 3004'],
+      references: ['Sahih Muslim 3004', 'Sahih al-Bukhari 113'],
     },
     {
       heading: 'Fabrication was a known problem',
@@ -61,8 +61,8 @@ export const hadithReliability: Topic = {
       id: 'hr-1',
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
       response:
-        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). Two centuries of oral transmission is a long time for any method to bridge.',
-      keyPoints: ['Acknowledge the effort.', 'Chains can be fabricated too.', 'Two centuries of oral transmission.'],
+        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). Up to two centuries of largely oral transmission, with only some early written notes, is a long time for any method to bridge.',
+      keyPoints: ['Acknowledge the effort.', 'Chains can be fabricated too.', 'Up to two centuries of largely oral transmission.'],
       references: ['Sahih al-Bukhari 107', 'Sahih Muslim 3004'],
     },
     {
@@ -100,7 +100,7 @@ export const hadithReliability: Topic = {
         'Write in Hebrew',
       ],
       answer: 1,
-      explanation: 'So hadith depended on oral transmission for generations.',
+      explanation: 'Hadith were mainly passed on orally for generations.',
     },
     {
       id: 'hr-q3',

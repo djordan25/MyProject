@@ -19,7 +19,7 @@ export const quranConsistency: Topic = {
       body: [
         'The Quran says the heavens and earth were created in six days (Quran 7:54; 50:38).',
         'But Quran 41:9-12 gives a breakdown: the earth in two days (41:9), then mountains and sustenance in four days (41:10), then the seven heavens in two days (41:12). That totals eight.',
-        'Muslim commentators reconcile this by saying the “four days” include the first two. But the text doesn’t say so; it lists them in sequence (“then”). The explanation is imported to rescue the text.',
+        'Muslim commentators reconcile this by saying the “four days” include the first two — expect that answer. But the text doesn’t say so; it lists them in sequence (“then”). The explanation is imported to rescue the text.',
       ],
       references: ['Quran 7:54', 'Quran 50:38', 'Quran 41:9-12'],
     },
@@ -35,7 +35,7 @@ export const quranConsistency: Topic = {
     {
       heading: 'Are Jews and Christians saved?',
       body: [
-        'Quran 2:62 and 5:69 say that Jews, Christians and Sabeans who believe in Allah and the Last Day and do righteousness “will have their reward with their Lord”.',
+        'Quran 2:62 and 5:69 say that Jews, Christians and Sabeans who believe in Allah and the Last Day and do righteousness need have no fear and will not grieve; 2:62 adds that they “will have their reward with their Lord”.',
         'Quran 3:85 says, “whoever desires other than Islam as religion — never will it be accepted from him.” Quran 5:72-73 says those who call the Messiah God, or say Allah is “the third of three”, have disbelieved.',
         'Muslims reconcile these by saying 2:62 refers only to people before Muhammad, or was abrogated. Either way, the plain reading of the verses points in opposite directions.',
       ],
@@ -80,7 +80,7 @@ export const quranConsistency: Topic = {
       id: 'qcn-3',
       objection: 'The Bible has contradictions too.',
       response:
-        'Let’s look at any passage you have in mind — Christians take that seriously. But notice the Bible never stakes its truth on having zero apparent difficulties the way Quran 4:82 does. Its claim rests on the person and resurrection of Jesus. Pointing at the Bible doesn’t answer whether the Quran passes its own test.',
+        'Let’s look at any passage you have in mind — Christians take that seriously. But notice the Bible never stakes its truth on containing no contradictions the way Quran 4:82 does. Its claim rests on the person and resurrection of Jesus. Pointing at the Bible doesn’t answer whether the Quran passes its own test.',
       keyPoints: ['Be willing to discuss.', 'Quran 4:82 sets the standard for itself.', 'Tu quoque doesn’t answer the question.'],
       references: ['Quran 4:82', '1 Corinthians 15:14-17'],
     },

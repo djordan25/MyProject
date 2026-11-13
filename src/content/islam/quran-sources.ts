@@ -4,7 +4,7 @@ export const quranSources: Topic = {
   id: 'islam-quran-sources',
   title: 'Borrowed Stories: Legends in the Quran',
   icon: '📜',
-  summary: 'Many Quranic stories match apocryphal gospels and Jewish legends that circulated before Muhammad — not the eyewitness Gospels.',
+  summary: 'Many Quranic stories match apocryphal gospels and Jewish legends that circulated before or during Muhammad’s time — not the eyewitness Gospels.',
   lesson: [
     {
       heading: 'The argument',
@@ -35,7 +35,7 @@ export const quranSources: Topic = {
       heading: 'The palm tree and the cradle',
       body: [
         'In the Quran, Mary gives birth beneath a palm tree, is told to shake the trunk for dates, and a stream is provided beneath her (Quran 19:22-26). Then the newborn Jesus speaks from the cradle to defend her (Quran 19:29-30; 3:46).',
-        'In the Gospel of Pseudo-Matthew, a palm tree bends down to feed Mary and a spring bursts out — but during the flight to Egypt, not at the birth. Jesus speaking from the cradle appears in the Syriac infancy-gospel tradition (preserved in the Arabic Infancy Gospel).',
+        'In the Gospel of Pseudo-Matthew, a palm tree bends down to feed Mary and a spring bursts out — but during the flight to Egypt, not at the birth. Jesus speaking from the cradle appears in the Arabic Infancy Gospel, which draws on earlier Syriac material (its dating relative to the Quran is debated).',
         'The Bible says Jesus was born in Bethlehem and laid in a manger (Luke 2:4-7).',
       ],
       references: ['Quran 19:22-26', 'Quran 19:29-30', 'Luke 2:4-7'],
@@ -43,10 +43,10 @@ export const quranSources: Topic = {
     {
       heading: 'Jewish legends',
       body: [
-        'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); the raven appears in later Jewish legend.',
-        'The next verse is even more revealing. Quran 5:32 says, “We decreed upon the Children of Israel that whoever kills a soul… it is as if he had slain mankind entirely.” That sentence is not in the Torah — it comes from the Mishnah, a rabbinic commentary (tractate Sanhedrin), where rabbis drew it from the Cain and Abel story. The Quran presents a rabbinic comment as God’s decree.',
+        'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); a raven teaching burial appears in Jewish legend (where it is Adam who learns from it).',
+        'The next verse is even more revealing. Quran 5:32 says, “We decreed upon the Children of Israel that whoever kills a soul… it is as if he had slain mankind entirely.” That sentence is not in the Torah — it comes from the Mishnah (Sanhedrin 4:5, compiled about AD 200), in a rabbinic passage that discusses Cain and Abel and the creation of a single Adam. The Quran presents a rabbinic teaching as God’s decree.',
         'Abraham in the fire: in the Quran, Abraham smashes idols and is thrown into a fire that Allah makes cool (Quran 21:68-69). Genesis says nothing of this. It is a Jewish midrash (Genesis Rabbah), possibly arising from the name “Ur” of the Chaldeans, which resembles a word for fire (Genesis 15:7).',
-        'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely follows the Targum Sheni, a later Jewish expansion of Esther — not the account in 1 Kings 10.',
+        'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely parallels a story in the Targum Sheni to Esther, a Jewish expansion whose date is debated but which preserves older Jewish lore — not the account in 1 Kings 10.',
         'Satan refusing to bow to Adam (Quran 2:34; 7:11-12) matches the Life of Adam and Eve, a Jewish-Christian legend, not Genesis.',
       ],
       references: ['Quran 5:31-32', 'Genesis 4:8-12', 'Quran 21:68-69', 'Genesis 15:7', 'Quran 27:20-23', '1 Kings 10:1-13', 'Quran 7:11-12'],
@@ -62,7 +62,7 @@ export const quranSources: Topic = {
     {
       heading: 'Muhammad’s contemporaries noticed',
       body: [
-        'His opponents said: “Legends of the former peoples which he has written down, and they are dictated to him morning and afternoon” (Quran 25:5; 16:24). They claimed a human taught him (Quran 16:103).',
+        'His opponents said: “Legends of the former peoples which he has written down, and they are dictated to him morning and afternoon” (Quran 25:5; cf. 16:24). They claimed a human taught him (Quran 16:103).',
         'And Muhammad encouraged his followers to “tell others the stories of Bani Israel… for it is not sinful to do so” (Sahih al-Bukhari 3461). Jewish and Christian stories clearly circulated in his environment.',
       ],
       references: ['Quran 25:5', 'Quran 16:24', 'Quran 16:103', 'Sahih al-Bukhari 3461'],
@@ -71,7 +71,7 @@ export const quranSources: Topic = {
       heading: 'What about the Gospel of Barnabas?',
       body: [
         'Muslims sometimes cite the “Gospel of Barnabas”, in which Jesus denies being the Messiah and foretells Muhammad. Be clear: this is not a source the Quran borrowed from — it is a much later forgery.',
-        'Its earliest manuscripts are late medieval (Italian and Spanish), it contains medieval European details, and it contradicts the Quran itself: it has Jesus deny being the Messiah, while the Quran calls Jesus the Messiah (Quran 3:45). No early Christian or Muslim writer quotes it.',
+        'Its only manuscripts date from the late 1500s (Italian) and an 18th-century Spanish copy, it contains medieval European details, and it contradicts the Quran itself: it has Jesus deny being the Messiah, while the Quran calls Jesus the Messiah (Quran 3:45). No early Christian or Muslim writer quotes it.',
         'Ask: if a Muslim rejects the four first-century Gospels as unreliable, why trust a document that surfaced over a thousand years later?',
       ],
       references: ['Quran 3:45', 'Luke 1:1-4'],
@@ -82,7 +82,7 @@ export const quranSources: Topic = {
       id: 'qs-1',
       objection: 'Maybe those apocryphal books preserved true stories that Allah confirmed in the Quran.',
       response:
-        'The Infancy Gospel of Thomas also has the boy Jesus cursing children so they die. Would you accept that as a true story? These works are legends written long after the events, with no link to eyewitnesses. When the Quran selects from that folklore — and even presents a rabbinic comment as God’s decree (Quran 5:32) — the natural explanation is that its author absorbed the stories around him.',
+        'The Infancy Gospel of Thomas also has the boy Jesus cursing children so they die. Would you accept that as a true story? These works are legends written long after the events, with no link to eyewitnesses. When the Quran selects from that folklore — and even presents a rabbinic teaching as God’s decree (Quran 5:32) — the natural explanation is that its author absorbed the stories around him.',
       keyPoints: ['Same sources contain absurd legends.', 'No eyewitness link.', 'Quran 5:32 quotes rabbinic commentary.'],
       references: ['Quran 5:32', 'Luke 1:1-4'],
     },
@@ -98,8 +98,8 @@ export const quranSources: Topic = {
       id: 'qs-3',
       objection: 'The Gospel of Barnabas proves Christians hid the truth about Muhammad.',
       response:
-        'Its manuscripts date from the late Middle Ages, and it contradicts the Quran: it denies that Jesus is the Messiah, while the Quran calls him the Messiah (Quran 3:45). If it contradicts the Quran, a Muslim shouldn’t rely on it either.',
-      keyPoints: ['Late medieval manuscripts.', 'Contradicts Quran 3:45.', 'Unreliable by Islamic standards too.'],
+        'Its only manuscripts date from the 1500s or later, and it contradicts the Quran: it denies that Jesus is the Messiah, while the Quran calls him the Messiah (Quran 3:45). If it contradicts the Quran, a Muslim shouldn’t rely on it either.',
+      keyPoints: ['Manuscripts from the 1500s or later.', 'Contradicts Quran 3:45.', 'Unreliable by Islamic standards too.'],
       references: ['Quran 3:45'],
     },
   ],
@@ -114,16 +114,16 @@ export const quranSources: Topic = {
     {
       id: 'qs-q2',
       question: 'Quran 5:32 (“whoever kills a soul… as if he had slain mankind”) matches…',
-      options: ['Genesis 4', 'A rabbinic commentary in the Mishnah', 'The Gospel of John', 'Psalm 23'],
+      options: ['Genesis 4', 'A rabbinic teaching in the Mishnah', 'The Gospel of John', 'Psalm 23'],
       answer: 1,
-      explanation: 'It is presented as God’s decree to Israel, but comes from rabbinic commentary.',
+      explanation: 'It is presented as God’s decree to Israel, but comes from rabbinic teaching (Mishnah Sanhedrin 4:5).',
     },
     {
       id: 'qs-q3',
       question: 'Why is the Gospel of Barnabas not a reliable source?',
       options: [
         'It is too early',
-        'It is a late medieval forgery that even contradicts the Quran',
+        'It is a forgery known only from manuscripts of the 1500s or later, and it contradicts the Quran',
         'It is written in Greek',
         'It agrees with the Bible',
       ],

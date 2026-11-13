@@ -39,10 +39,10 @@ export const quranHistory: Topic = {
     {
       heading: 'Beliefs no one held',
       body: [
-        '“The Jews say, ‘Ezra is the son of Allah’” (Quran 9:30). No known Jewish group has believed this. The Jewish scriptures present Ezra as a scribe and priest (Ezra 7:6), and Judaism has always rejected any human as God’s son in that sense.',
-        'Likewise the Quran pictures Christians worshipping Jesus and his mother as two gods besides Allah (Quran 5:116) — a belief Christians never held.',
+        '“The Jews say, ‘Ezra is the son of Allah’” (Quran 9:30). No Jewish source records any Jewish group holding this belief. The Jewish scriptures present Ezra as a scribe and priest (Ezra 7:6, 11), and Judaism has always rejected any human as God’s son in that sense.',
+        'Likewise the Quran pictures Christians worshipping Jesus and his mother as two gods besides Allah (Quran 5:116) — a belief no Christian church has taught.',
       ],
-      references: ['Quran 9:30', 'Ezra 7:6', 'Quran 5:116'],
+      references: ['Quran 9:30', 'Ezra 7:6', 'Ezra 7:11', 'Quran 5:116'],
     },
     {
       heading: 'Abraham and Ishmael in Mecca',
@@ -90,7 +90,7 @@ export const quranHistory: Topic = {
       id: 'qh-3',
       objection: 'Maybe some small Jewish sect in Arabia called Ezra the son of God.',
       response:
-        'Quran 9:30 doesn’t say “some Jews”; it says “the Jews say”, side by side with “the Christians say the Messiah is the son of Allah” — presented as the standard belief of each community. There is no record of Jews believing this, before or after Muhammad.',
+        'Quran 9:30 doesn’t say “some Jews”; it says “the Jews say”, side by side with “the Christians say the Messiah is the son of Allah” — presented as the standard belief of each community. No Jewish source records Jews believing this, before or after Muhammad.',
       keyPoints: ['The verse speaks generally.', 'Paired with mainstream Christian belief.', 'No historical evidence.'],
       references: ['Quran 9:30', 'Ezra 7:6'],
     },

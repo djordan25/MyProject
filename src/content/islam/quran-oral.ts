@@ -11,14 +11,14 @@ export const quranOral: Topic = {
       body: [
         'Muslims believe the Quran was revealed to Muhammad in portions over about 23 years (Quran 17:106; 25:32). It was recited aloud and memorised; Muhammad was even told not to hurry his tongue while receiving it (Quran 75:16-19).',
         'Some passages were written on whatever was at hand, but there was no complete, bound Quran when Muhammad died in AD 632. Zaid bin Thabit later gathered it “from palm stalks, thin white stones and also from the men who knew it by heart” (Sahih al-Bukhari 4986).',
-        'The Quran says, “upon Us is its collection” (Quran 75:17). Yet the hadith show the actual collection was a human effort, carried out after the Prophet’s death, under pressure, from scattered materials and fallible memories.',
+        'The Quran says, “upon Us is its collection” (Quran 75:17). Muslims usually read this as collection in Muhammad’s memory. Yet the hadith show the actual collection was a human effort, carried out after the Prophet’s death, under pressure, from scattered materials and fallible memories.',
       ],
       references: ['Quran 17:106', 'Quran 25:32', 'Quran 75:16-19', 'Sahih al-Bukhari 4986'],
     },
     {
       heading: 'The battle of Yamama: reciters killed',
       body: [
-        'Shortly after Muhammad’s death, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared “that a large part of the Qur’an may be lost” unless it was collected (Sahih al-Bukhari 4986).',
+        'Shortly after Muhammad’s death, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared that, unless it was collected, “a large part of the Qur’an may be lost” (Sahih al-Bukhari 4986).',
         'Notice what this admits: the Quran’s survival depended on living memorisers, and when they died, its loss was a real danger in the minds of the leading companions.',
         'Abu Bakr hesitated — “How can you do something which Allah’s Messenger did not do?” Zaid said that moving a mountain would have been easier than this task (Sahih al-Bukhari 4986).',
       ],
@@ -46,7 +46,7 @@ export const quranOral: Topic = {
       heading: 'Is it a “telephone game”?',
       body: [
         'Muslims often accuse the Bible of being like a game of telephone. Be fair: communal recitation is more stable than one person whispering to the next, because many people check each other.',
-        'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and did not count the last two surahs as Quran (Sahih al-Bukhari 4977); Umar admitted “we leave some of what [Ubai] recites” (Sahih al-Bukhari 5005). The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',
+        'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and, as Sahih al-Bukhari 4977 is usually understood, did not count the last two surahs as Quran; Umar admitted “we leave some of what [Ubai] recites” (Sahih al-Bukhari 5005). The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',
         'By contrast, the New Testament was written down within the lifetime of eyewitnesses (Luke 1:1-4; 1 John 1:1-3), and copied so widely that no one could control or destroy the variant copies.',
       ],
       references: ['Sahih al-Bukhari 4944', 'Sahih al-Bukhari 4977', 'Sahih al-Bukhari 5005', 'Luke 1:1-4', '1 John 1:1-3'],

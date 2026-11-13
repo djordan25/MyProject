@@ -27,10 +27,10 @@ export const muhammadWarfare: Topic = {
       body: [
         'The Quran regulates the spoils of war: “anything you obtain of war booty — then indeed, for Allah is one fifth of it and for the Messenger…” (Quran 8:41; see 8:1 and 48:20).',
         'Muhammad “suddenly attacked Bani Mustaliq without warning while they were heedless and their cattle were being watered… Their fighting men were killed and their women and children were taken as captives” (Sahih al-Bukhari 2541).',
-        'Captive women became lawful to their captors as those “your right hand possesses” (Quran 4:3; 33:50).',
+        'Captive women became lawful to their captors as those “your right hand possesses” (Quran 4:24; 23:5-6; 33:50).',
         'Muhammad said: “I have been made victorious with awe (cast in the hearts of the enemy), and while I was sleeping, the keys of the treasures of the world were brought to me” (Sahih al-Bukhari 2977). The Quran speaks of casting terror into the hearts of disbelievers and striking “upon the necks” (Quran 8:12; 47:4).',
       ],
-      references: ['Quran 8:41', 'Quran 48:20', 'Sahih al-Bukhari 2541', 'Quran 4:3', 'Quran 33:50', 'Sahih al-Bukhari 2977', 'Quran 8:12', 'Quran 47:4'],
+      references: ['Quran 8:41', 'Quran 48:20', 'Sahih al-Bukhari 2541', 'Quran 4:24', 'Quran 23:5-6', 'Quran 33:50', 'Sahih al-Bukhari 2977', 'Quran 8:12', 'Quran 47:4'],
     },
     {
       heading: 'Banu Qurayza and Ka’b bin al-Ashraf',
@@ -81,9 +81,9 @@ export const muhammadWarfare: Topic = {
       id: 'mw-4',
       objection: 'Muhammad forbade killing women and children and mutilating the dead.',
       response:
-        'That’s true, and it’s fair to acknowledge it — Sahih Muslim 1731 records those instructions. But the same hadith instructs his armies to fight those who disbelieve, inviting them to Islam, then demanding the jizya, and fighting if they refuse. Rules for conducting war don’t change the fact that Muhammad led wars to spread his rule. Jesus gave his followers no rules for war, because he gave them no war to fight.',
+        'That’s true, and it’s fair to acknowledge it — Sahih al-Bukhari 3015 records him forbidding the killing of women and children, and Sahih Muslim 1731 forbids mutilation and killing children. But Sahih Muslim 1731 instructs his armies to fight those who disbelieve, inviting them to Islam, then demanding the jizya, and fighting if they refuse. Rules for conducting war don’t change the fact that Muhammad led wars to spread his rule. Jesus gave his followers no rules for war, because he gave them no war to fight.',
       keyPoints: ['Acknowledge the restrictions honestly.', 'Same hadith commands offensive fighting.', 'Jesus gave no war to fight.'],
-      references: ['Sahih Muslim 1731', 'John 18:36'],
+      references: ['Sahih al-Bukhari 3015', 'Sahih Muslim 1731', 'John 18:36'],
     },
   ],
   quiz: [
