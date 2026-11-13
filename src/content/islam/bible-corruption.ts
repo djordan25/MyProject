@@ -66,7 +66,7 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-5',
-      objection: 'Mark 16:9-20 and John 7:53-8:11 aren’t in the earliest manuscripts. The Bible was added to!',
+      objection: 'Mark 16:9-20 and the story of the woman caught in adultery (John 8:1-11) aren’t in the earliest manuscripts. The Bible was added to!',
       response:
         'Yes — and every modern Bible tells you so in a footnote. We know these passages are later because we have so many early manuscripts to compare. That’s the strength of the evidence, not a weakness. No Christian doctrine depends on those passages. Compare: the Quran’s variant copies were burned (Sahih al-Bukhari 4987), so we can’t compare them in the same way.',
       keyPoints: ['Concede honestly; Bibles footnote them.', 'Known through abundant manuscripts.', 'No doctrine depends on them.'],

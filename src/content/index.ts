@@ -21,10 +21,17 @@ import { trinity } from './islam/trinity';
 import { deityObjections } from './islam/deity-objections';
 import { atonementObjections } from './islam/atonement-objections';
 import { bibleCorruption } from './islam/bible-corruption';
+import { quranOral } from './islam/quran-oral';
+import { quranConsistency } from './islam/quran-consistency';
+import { quranHistory } from './islam/quran-history';
+import { quranSources } from './islam/quran-sources';
+import { hadithReliability } from './islam/hadith-reliability';
+import { muhammadWarfare } from './islam/muhammad-warfare';
 
 export const topics: Topic[] = [
   existenceOfGod, identityOfJesus, reliabilityOfScripture, resurrection, problemOfEvil,
-  understandingIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, quranPreservation, muhammadTested,
+  understandingIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
+  quranOral, quranPreservation, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
   trinity, deityObjections, atonementObjections, bibleCorruption,

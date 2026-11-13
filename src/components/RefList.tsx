@@ -1,6 +1,8 @@
-import { KIND_LABEL, parseRef } from '../lib/references';
+import { parseRef } from '../lib/references';
+import { useOpenPassage } from './PassagePopup';
 
 export default function RefList({ refs, label = 'References' }: { refs?: string[]; label?: string }) {
+  const open = useOpenPassage();
   if (!refs?.length) return null;
   return (
     <div className="refs">
@@ -8,9 +10,9 @@ export default function RefList({ refs, label = 'References' }: { refs?: string[
       {refs.map((r) => {
         const p = parseRef(r);
         return p ? (
-          <a key={r} href={p.url} target="_blank" rel="noopener noreferrer" className={`chip ${p.kind}`} title={`Open in ${KIND_LABEL[p.kind]} source`}>
+          <button key={r} type="button" className={`chip ${p.kind}`} onClick={(e) => open(r, e.currentTarget)}>
             {r}
-          </a>
+          </button>
         ) : (
           <span key={r} className="chip">{r}</span>
         );

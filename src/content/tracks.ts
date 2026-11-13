@@ -20,7 +20,7 @@ export const tracks: Track[] = [
     icon: '☪',
     summary: 'An in-depth course on engaging Muslims: why Islam’s claims fail, why the arguments for it don’t hold, and why Christianity is true.',
     intro: [
-      'Every reference in this specialization comes from only three sources: the Bible, the Quran, and the two hadith collections Sunni Muslims regard as most authentic — Sahih al-Bukhari and Sahih Muslim. These are sources a Muslim cannot simply dismiss.',
+      'Every reference in this specialization comes from only three sources: the Bible, the Quran, and the two hadith collections Sunni Muslims regard as most authentic — Sahih al-Bukhari and Sahih Muslim. These are sources a Muslim cannot simply dismiss. (Where a lesson discusses legends the Quran borrowed from, those works are named for identification, not cited as authorities.)',
       'Quran quotations follow the Sahih International translation; hadith numbers follow sunnah.com. Tap any citation to read it in context.',
       '“Always being prepared to make a defense… yet do it with gentleness and respect” (1 Peter 3:15). We critique ideas, never people.',
     ],
@@ -34,7 +34,12 @@ export const tracks: Track[] = [
       {
         title: 'Why Islam is false',
         description: 'Problems in the Quran and the life of Muhammad, from Islam’s own sources.',
-        topicIds: ['islam-dilemma', 'islam-misunderstands-christianity', 'islam-crucifixion', 'islam-quran-preservation', 'islam-muhammad-tested'],
+        topicIds: ['islam-dilemma', 'islam-misunderstands-christianity', 'islam-crucifixion', 'islam-muhammad-tested', 'islam-muhammad-warfare'],
+      },
+      {
+        title: 'Reliability of the Quran and hadith',
+        description: 'How the Quran was collected and standardised, its internal and historical problems, the legends it borrowed, and why the hadith are on shaky ground.',
+        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
       },
       {
         title: 'Answering the arguments for Islam',
