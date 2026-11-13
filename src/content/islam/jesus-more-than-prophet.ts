@@ -11,8 +11,8 @@ export const jesusMoreThanProphet: Topic = {
       body: [
         'Born of a virgin (Quran 3:47; 19:20). Called the Messiah and “a word from Him” (Quran 3:45), “His word… and a soul from Him” (Quran 4:171).',
         'Called “a pure boy” — sinless (Quran 19:19). Sahih al-Bukhari 3431 says every child is touched by Satan at birth, except Mary and her son.',
-        'Creates life from clay and gives life to the dead (Quran 3:49; 5:110) — acts the Quran elsewhere ascribes to God as Creator.',
-        'Raised alive to Allah (Quran 4:158) and will return before the Hour (Quran 43:61). Sahih al-Bukhari 3448: he will descend and judge justly.',
+        'Creates life from clay and gives life to the dead (Quran 3:49; 5:110). The Quran adds “by permission of Allah” — yet no other prophet is described as giving life this way.',
+        'Raised alive to Allah (Quran 4:158) and a sign of the Hour (Quran 43:61) — understood by Muslims as his return. Sahih al-Bukhari 3448: he will descend and judge justly.',
         'Ask your Muslim friend: no other prophet — not even Muhammad — is described as sinless, as God’s Word, as creating life, or as returning to judge. Why is Jesus so unique?',
       ],
       references: ['Quran 3:45-49', 'Quran 4:171', 'Quran 19:19', 'Quran 4:158', 'Quran 43:61', 'Sahih al-Bukhari 3431', 'Sahih al-Bukhari 3448'],
@@ -67,7 +67,7 @@ export const jesusMoreThanProphet: Topic = {
       id: 'jp-3',
       objection: 'Jesus called himself “Son of Man”, which shows he was just a human.',
       response:
-        '“Son of Man” comes from Daniel 7:13-14, where one like a son of man comes with the clouds of heaven and receives everlasting dominion, glory and worship from all nations. When Jesus applied that title to himself before the high priest, he was condemned for blasphemy (Mark 14:62-64). It’s one of the highest claims he made.',
+        '“Son of Man” comes from Daniel 7:13-14, where one like a son of man comes with the clouds of heaven and receives everlasting dominion, glory and the service of all nations. When Jesus applied that title to himself before the high priest, he was condemned for blasphemy (Mark 14:62-64). It’s one of the highest claims he made.',
       keyPoints: ['Origin: Daniel 7:13-14.', 'Receives everlasting dominion and service.', 'Led to the blasphemy charge.'],
       references: ['Daniel 7:13-14', 'Mark 14:61-64'],
     },

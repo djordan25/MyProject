@@ -11,7 +11,7 @@ export const gospelOfGrace: Topic = {
       body: [
         'On Judgment Day deeds are weighed: “those whose scales are heavy — it is they who will be the successful. And those whose scales are light — they are the ones who will lose themselves” (Quran 7:8-9; 23:102-103).',
         'No Muslim can know in advance which way the scales will fall. Muhammad himself said, “The deeds of anyone of you will not save you,” and when asked “Even you?”, replied, “No, even I, unless Allah bestows His mercy on me” (Sahih al-Bukhari 6463; Sahih Muslim 2816).',
-        'He also said, “By Allah, though I am the Messenger of Allah, I do not know what Allah will do to me” (Sahih al-Bukhari 1243; Quran 46:9). And Quran 19:71 says of every person, “there is none of you except he will come to it” — Hell.',
+        'He also said, “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243; Quran 46:9). And Quran 19:71 says of every person, “there is none of you except he will come to it” — Hell.',
       ],
       references: ['Quran 7:8-9', 'Quran 23:102-103', 'Sahih al-Bukhari 6463', 'Sahih Muslim 2816', 'Sahih al-Bukhari 1243', 'Quran 46:9', 'Quran 19:71-72'],
     },
@@ -35,11 +35,11 @@ export const gospelOfGrace: Topic = {
     {
       heading: 'God’s love',
       body: [
-        'The Quran speaks of Allah loving those who do good and not loving disbelievers (Quran 3:31-32). His love is a response to obedience.',
+        'The Quran speaks of Allah loving those who follow the Messenger (Quran 3:31) and the doers of good (Quran 2:195), and not liking the disbelievers (Quran 3:32). His love is a response to obedience.',
         'The Bible says “God is love” (1 John 4:8) and that he loved us first, while we were his enemies (Romans 5:8-10; 1 John 4:10, 19). “For God so loved the world, that he gave his only Son” (John 3:16).',
         'Many Muslims have been drawn to Christ not first by an argument, but by this love and by the assurance it brings. Share it personally.',
       ],
-      references: ['Quran 3:31-32', '1 John 4:8-10', '1 John 4:19', 'Romans 5:8-10', 'John 3:16'],
+      references: ['Quran 3:31-32', 'Quran 2:195', '1 John 4:8-10', '1 John 4:19', 'Romans 5:8-10', 'John 3:16'],
     },
   ],
   objections: [

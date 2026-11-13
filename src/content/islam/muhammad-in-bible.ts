@@ -48,7 +48,7 @@ export const muhammadInBible: Topic = {
       id: 'mb-1',
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',
       response:
-        'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among you, from your brothers”), who speaks God’s words and knows God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
+        'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among you, from your brothers”), who speaks God’s words and knows God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
       keyPoints: ['Let the text define the likeness.', '“From among you” — an Israelite.', 'Acts 3:22-26 applies it to Jesus.'],
       references: ['Deuteronomy 18:15-18', 'Deuteronomy 34:10-12', 'Acts 3:22-26', 'Hebrews 3:1-6'],
     },

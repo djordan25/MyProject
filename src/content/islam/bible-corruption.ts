@@ -44,7 +44,7 @@ export const bibleCorruption: Topic = {
       id: 'bc-2',
       objection: 'Quran 2:79 condemns those who write the book with their own hands — that’s the Bible.',
       response:
-        'The verse condemns people who write something and falsely claim it’s from God. That describes a forgery by some people, not the genuine Torah — which the Quran elsewhere tells Jews to judge by (Quran 5:43).',
+        'The verse condemns people who write something and falsely claim it’s from God. That describes a forgery by some people, not the genuine Torah — in which the Quran says is “the judgement of Allah” (Quran 5:43-44).',
       keyPoints: ['A forgery by some, not the real Torah.', 'The Quran still affirms the Torah (5:43).', 'No mention of changing all copies.'],
       references: ['Quran 2:79', 'Quran 5:43'],
     },

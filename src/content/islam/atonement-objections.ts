@@ -38,7 +38,7 @@ export const atonementObjections: Topic = {
       id: 'ao-1',
       objection: 'Ezekiel 18:20 says no one bears another’s sin — the Bible contradicts the atonement.',
       response:
-        'Ezekiel 18 is about people being punished for their parents’ sins against their will — the Israelites were blaming their ancestors for their own judgment. It isn’t about a willing substitute. Jesus wasn’t forced; he laid down his life voluntarily (John 10:18). The same prophets who wrote Ezekiel 18 also wrote Isaiah 53, where the servant bears the sin of many.',
+        'Ezekiel 18 is about people being punished for their parents’ sins against their will — the Israelites were blaming their ancestors for their own judgment. It isn’t about a willing substitute. Jesus wasn’t forced; he laid down his life voluntarily (John 10:18). The same Prophets that contain Ezekiel 18 also contain Isaiah 53, where the servant bears the sin of many.',
       keyPoints: ['Context: involuntary inherited punishment.', 'Jesus was a willing substitute.', 'Isaiah 53 explicitly teaches substitution.'],
       references: ['Ezekiel 18:1-4', 'Ezekiel 18:20', 'John 10:17-18', 'Isaiah 53:12'],
     },

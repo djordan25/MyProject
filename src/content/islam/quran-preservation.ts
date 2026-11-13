@@ -17,7 +17,7 @@ export const quranPreservation: Topic = {
     {
       heading: 'Collected after Muhammad’s death',
       body: [
-        'The Quran was not compiled into one book in Muhammad’s lifetime. After many Quran reciters were killed at the battle of Yamama, Umar urged Abu Bakr to collect it. Zaid bin Thabit was assigned the task and said that, had they ordered him to move a mountain, it would not have been harder. He gathered it “from palm-leaf stalks, thin white stones and the chests of men”, and found the last verses of Surat at-Tawba with only one man (Sahih al-Bukhari 4986).',
+        'The Quran was not compiled into one book in Muhammad’s lifetime. After many Quran reciters were killed at the battle of Yamama, Umar urged Abu Bakr to collect it. Zaid bin Thabit was assigned the task and said that, had they ordered him to move a mountain, it would not have been harder. He gathered it “from palm stalks, thin white stones and also from the men who knew it by heart”, and found the last verses of Surat at-Tawba with only one man (Sahih al-Bukhari 4986).',
         'Later, when copying, Zaid found a verse missing that he had heard the Prophet recite — Quran 33:23 — and found it only with Khuzaima bin Thabit (Sahih al-Bukhari 4988).',
       ],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4988'],
@@ -33,11 +33,11 @@ export const quranPreservation: Topic = {
     {
       heading: 'Companions who disagreed',
       body: [
-        'Ibn Mas’ud, whom Muhammad praised as a leading Quran teacher, said he learned over seventy surahs directly from the Prophet (Sahih al-Bukhari 5000). Yet his companions recited Quran 92:3 differently from the standard text (Sahih al-Bukhari 4944), and Ibn Mas’ud did not count the last two surahs (113 and 114) as part of the Quran (Sahih al-Bukhari 4977).',
+        'Ibn Mas’ud, one of four men Muhammad named as teachers of the Quran (Sahih al-Bukhari 4999), said he learned over seventy surahs directly from the Prophet (Sahih al-Bukhari 5000). Yet his companions recited Quran 92:3 differently from the standard text (Sahih al-Bukhari 4944), and Ibn Mas’ud did not count the last two surahs (113 and 114) as part of the Quran (Sahih al-Bukhari 4977).',
         'Umar said Ubai bin Ka’b was “the best of us in recitation, yet we leave some of what he recites” (Sahih al-Bukhari 5005).',
         'The Quran was also recited in seven different modes (ahruf) — so differently that Umar nearly attacked Hisham bin Hakim over his recitation of Surat al-Furqan (Sahih al-Bukhari 4992).',
       ],
-      references: ['Sahih al-Bukhari 5000', 'Sahih al-Bukhari 4944', 'Sahih al-Bukhari 4977', 'Sahih al-Bukhari 5005', 'Sahih al-Bukhari 4992'],
+      references: ['Sahih al-Bukhari 4999', 'Sahih al-Bukhari 5000', 'Sahih al-Bukhari 4944', 'Sahih al-Bukhari 4977', 'Sahih al-Bukhari 5005', 'Sahih al-Bukhari 4992'],
     },
     {
       heading: 'Verses that were lost or forgotten',
@@ -71,7 +71,7 @@ export const quranPreservation: Topic = {
       id: 'qp-2',
       objection: 'Those missing verses were abrogated by Allah, so nothing was lost.',
       response:
-        'But Aisha says the five-sucklings verse was still being recited as part of the Quran when Muhammad died (Sahih Muslim 1452). Abrogation after his death would require a new revelation — and there were no more. Umar believed the stoning verse was part of the Book and should still be recited (Sahih al-Bukhari 6830). If he was right, it was lost; if he was wrong, the second caliph didn’t know what was in the Quran.',
+        'But Aisha says the five-sucklings verse was still being recited as part of the Quran when Muhammad died (Sahih Muslim 1452). Abrogation after his death would require a new revelation — and there were no more. Umar said the stoning verse had been revealed and recited as part of the Book, and that its ruling still stood (Sahih al-Bukhari 6830). If he was right, it was lost; if he was wrong, the second caliph didn’t know what was in the Quran.',
       keyPoints: ['Recited at the time of Muhammad’s death (Muslim 1452).', 'No revelation after his death.', 'Umar considered the stoning verse part of the Book.'],
       references: ['Sahih Muslim 1452', 'Sahih al-Bukhari 6830'],
     },

@@ -64,7 +64,7 @@ export const islamicDilemma: Topic = {
       id: 'id-3',
       objection: 'The Quran says the Jews “distort words from their places” (tahrif).',
       response:
-        'Look at the context of Quran 4:46: it describes them “twisting their tongues” — misusing words in speech. Quran 2:75 says they distorted the meaning after understanding it. That’s misinterpretation, not rewriting the text. Meanwhile the same Quran says no one can change God’s words (Quran 6:115) and tells the Jews the Torah they have contains God’s judgment (Quran 5:43).',
+        'Look at the context of Quran 4:46: it describes them “twisting their tongues” — misusing words in speech. Quran 2:75 says a party of them distorted God’s words after understanding them — it describes some people’s handling of the words, not every copy being rewritten. Meanwhile the same Quran says no one can change God’s words (Quran 6:115) and tells the Jews the Torah they have contains God’s judgment (Quran 5:43).',
       keyPoints: ['Tahrif verses describe twisting meaning or speech.', 'They target some Jews, not every manuscript.', 'Quran 5:43 affirms the Torah they possessed.'],
       references: ['Quran 4:46', 'Quran 2:75', 'Quran 5:43', 'Quran 6:115'],
     },

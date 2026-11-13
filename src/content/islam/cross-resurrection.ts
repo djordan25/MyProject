@@ -73,7 +73,7 @@ export const crossAndResurrection: Topic = {
       question: 'Which psalm describes pierced hands and feet and garments divided by lot?',
       options: ['Psalm 1', 'Psalm 22', 'Psalm 23', 'Psalm 119'],
       answer: 1,
-      explanation: 'Psalm 22:16-18, quoted by Jesus from the cross (Mark 15:34).',
+      explanation: 'Psalm 22:16-18. Jesus quoted the psalm’s first line (Psalm 22:1) from the cross (Mark 15:34).',
     },
     {
       id: 'cr-q2',

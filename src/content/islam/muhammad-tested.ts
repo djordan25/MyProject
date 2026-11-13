@@ -51,7 +51,7 @@ export const muhammadTested: Topic = {
       heading: 'A prophet who needed forgiveness — and lacked assurance',
       body: [
         'The Quran tells Muhammad to “ask forgiveness for your sin” (Quran 47:19; 40:55; see 48:2). He said he sought Allah’s forgiveness more than seventy times a day (Sahih al-Bukhari 6307).',
-        'He also said, “I do not know what will be done with me or with you” (Quran 46:9), and at the death of a companion: “By Allah, though I am the Messenger of Allah, I do not know what Allah will do to me” (Sahih al-Bukhari 1243).',
+        'He also said, “I do not know what will be done with me or with you” (Quran 46:9), and at the death of a companion: “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243).',
         'Jesus, by contrast, challenged his enemies, “Which one of you convicts me of sin?” (John 8:46), and spoke with certainty about where he was going (John 14:2-3). Even the hadith say only Mary and her son were untouched by Satan at birth (Sahih al-Bukhari 3431).',
       ],
       references: ['Quran 47:19', 'Quran 48:2', 'Quran 46:9', 'Sahih al-Bukhari 6307', 'Sahih al-Bukhari 1243', 'Sahih al-Bukhari 3431', 'John 8:46', 'Hebrews 4:15'],
