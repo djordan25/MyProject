@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom';
-import { getTopic, type Topic } from '../content';
+import { getTopic, trackForTopic, type Topic } from '../content';
 import { progress, useProgress } from '../lib/progress';
 import ObjectionDrill from '../components/ObjectionDrill';
 import Quiz from '../components/Quiz';
+import RefText from '../components/RefText';
+import RefList from '../components/RefList';
 import NotFound from './NotFound';
 
 export default function TopicPage() {
@@ -11,10 +13,11 @@ export default function TopicPage() {
   const topic = getTopic(topicId);
   if (!topic) return <NotFound />;
   const base = `/topic/${topic.id}`;
+  const track = trackForTopic(topic.id);
 
   return (
     <>
-      <Link to="/" className="back">← All topics</Link>
+      <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
       <h1><span aria-hidden>{topic.icon}</span> {topic.title}</h1>
       <nav className="tabs">
         <NavLink to={base} end>Learn</NavLink>
@@ -43,23 +46,21 @@ function Learn({ topic }: { topic: Topic }) {
       {topic.lesson.map((s) => (
         <section key={s.heading} className="card lesson">
           <h2>{s.heading}</h2>
-          {s.body.map((para, i) => <p key={i}>{para}</p>)}
+          {s.body.map((para, i) => <p key={i}><RefText text={para} /></p>)}
           {s.argument && (
             <ol className="argument">
-              {s.argument.map((a) => <li key={a}>{a}</li>)}
+              {s.argument.map((a) => <li key={a}><RefText text={a} /></li>)}
             </ol>
           )}
-          {s.scriptures && (
-            <p className="scriptures">
-              <strong>Scripture:</strong> {s.scriptures.join(' · ')}
-            </p>
-          )}
+          <RefList refs={s.references} />
         </section>
       ))}
-      <section className="card">
-        <h2>Further reading</h2>
-        <ul>{topic.furtherReading.map((r) => <li key={r}>{r}</li>)}</ul>
-      </section>
+      {topic.furtherReading && (
+        <section className="card">
+          <h2>Further reading</h2>
+          <ul>{topic.furtherReading.map((r) => <li key={r}>{r}</li>)}</ul>
+        </section>
+      )}
       <div className="row end">
         {read ? (
           <span className="badge got">Lesson complete ✓</span>

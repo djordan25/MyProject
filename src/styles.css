@@ -89,7 +89,6 @@ main { width: 100%; max-width: 860px; margin: 0 auto; padding: 1rem 16px 3rem; f
 .lesson p { margin: 0 0 0.75rem; }
 .argument { background: var(--bg); border-left: 4px solid var(--accent); border-radius: 8px; padding: 0.75rem 1rem 0.75rem 2.5rem; font-weight: 500; }
 .argument li:last-child { font-style: italic; }
-.scriptures { font-size: 0.9rem; color: var(--muted); }
 
 .objection { margin: 0 0 0.75rem; font-family: Georgia, serif; font-size: 1.25rem; border-left: 4px solid var(--primary); padding-left: 1rem; }
 .field { display: flex; flex-direction: column; gap: 0.35rem; margin: 1rem 0; font-size: 0.9rem; color: var(--muted); }
@@ -131,3 +130,35 @@ textarea {
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 1rem; }
 .stats .card { margin: 0; text-align: center; color: var(--muted); }
 .progress-row { display: flex; flex-direction: column; gap: 0.4rem; text-decoration: none; color: inherit; }
+
+/* Tracks */
+.track-list { display: flex; flex-direction: column; gap: 1rem; }
+.track-card { display: flex; gap: 1rem; text-decoration: none; color: inherit; margin: 0; transition: transform 0.15s, box-shadow 0.15s; }
+.track-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(0 0 0 / 0.08); }
+.track-card .topic-icon { font-size: 2.4rem; line-height: 1; }
+.track-body { flex: 1; display: flex; flex-direction: column; gap: 0.4rem; min-width: 0; }
+.track-body h2, .track-body p { margin: 0; }
+.track-body p { color: var(--muted); }
+.track-section { margin: 2rem 0 1rem; }
+.section-title { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.25rem; }
+.section-num {
+  display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%;
+  background: var(--primary); color: var(--primary-text); font: 700 0.95rem system-ui, sans-serif;
+}
+.intro p { margin: 0 0 0.6rem; }
+.intro p:last-child { margin: 0; font-style: italic; color: var(--muted); }
+.spacer { height: 0.75rem; }
+
+/* Citations */
+.cite { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; white-space: nowrap; }
+.refs { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 0.75rem; font-size: 0.85rem; color: var(--muted); }
+.chip {
+  display: inline-block; padding: 0.15rem 0.55rem; border-radius: 99px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--text); text-decoration: none; white-space: nowrap;
+}
+.chip:hover { border-color: var(--primary); }
+.chip.quran { border-color: color-mix(in srgb, var(--success) 45%, var(--border)); }
+.chip.bukhari, .chip.muslim { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); }
+
+.select { display: flex; align-items: center; gap: 0.4rem; }
+select { font: inherit; padding: 0.5rem; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }

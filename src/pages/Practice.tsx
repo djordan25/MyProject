@@ -1,23 +1,31 @@
 import { useMemo, useState } from 'react';
-import { topics } from '../content';
+import { useSearchParams } from 'react-router-dom';
+import { topics, tracks, topicsInTrack } from '../content';
 import { useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
 import ObjectionDrill from '../components/ObjectionDrill';
 
 type Mode = 'all' | 'review';
 
-/** Mixed drill: random objections across every topic, optionally only those not yet mastered. */
+/** Mixed drill: random objections across a track (or everything), optionally only those not yet mastered. */
 export default function Practice() {
   const p = useProgress();
+  const [params, setParams] = useSearchParams();
+  const trackId = params.get('track') ?? 'all';
   const [mode, setMode] = useState<Mode>('all');
   const [seed, setSeed] = useState(0);
   const [i, setI] = useState(0);
 
-  const all = useMemo(() => topics.flatMap((t) => t.objections.map((o) => ({ o, topic: t.title }))), []);
-  // Deck is fixed per session/mode; ratings during the session don't reshuffle it.
+  const pool = useMemo(() => {
+    const track = tracks.find((t) => t.id === trackId);
+    const ts = track ? topicsInTrack(track) : topics;
+    return ts.flatMap((t) => t.objections.map((o) => ({ o, topic: t.title })));
+  }, [trackId]);
+
+  // Deck is fixed per round; rating cards during the round must not reshuffle it.
   const deck = useMemo(
-    () => shuffle(mode === 'review' ? all.filter(({ o }) => p.drills[o.id] !== 'got') : all),
-    [mode, seed], // intentionally not p.drills: rating a card must not reshuffle the deck
+    () => shuffle(mode === 'review' ? pool.filter(({ o }) => p.drills[o.id] !== 'got') : pool),
+    [pool, mode, seed],
   );
 
   const restart = (m: Mode) => {
@@ -32,6 +40,19 @@ export default function Practice() {
     <>
       <h1>Practice</h1>
       <div className="row">
+        <label className="select">
+          <span className="muted">Track</span>
+          <select
+            value={trackId}
+            onChange={(e) => {
+              setParams(e.target.value === 'all' ? {} : { track: e.target.value });
+              setI(0);
+            }}
+          >
+            <option value="all">All tracks</option>
+            {tracks.map((t) => <option key={t.id} value={t.id}>{t.title}</option>)}
+          </select>
+        </label>
         <button className={`btn ${mode === 'all' ? 'primary' : ''}`} onClick={() => restart('all')}>All objections</button>
         <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Not yet mastered</button>
       </div>

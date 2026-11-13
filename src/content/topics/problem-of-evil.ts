@@ -11,7 +11,7 @@ export const problemOfEvil: Topic = {
       body: [
         'Some people raise evil as a philosophical argument; others are hurting. Listen first. Someone grieving needs compassion before a syllogism (Romans 12:15).',
       ],
-      scriptures: ['Romans 12:15', 'John 11:35'],
+      references: ['Romans 12:15', 'John 11:35'],
     },
     {
       heading: 'The logical problem',
@@ -26,7 +26,7 @@ export const problemOfEvil: Topic = {
         'Claim: even if possible, the amount of evil makes God improbable.',
         'Responses: (1) we are not in a position to know God has no good reason — a finite viewpoint can’t see the whole picture (Job 38-42). (2) The other evidence for God must be weighed too. (3) Christianity teaches that this life isn’t the whole story; suffering is temporary compared to eternity (Romans 8:18).',
       ],
-      scriptures: ['Genesis 50:20', 'Romans 8:18, 28', '2 Corinthians 4:17'],
+      references: ['Genesis 50:20', 'Romans 8:18, 28', '2 Corinthians 4:17'],
     },
     {
       heading: 'Turning the tables',
@@ -34,7 +34,7 @@ export const problemOfEvil: Topic = {
         'To call something truly evil assumes an objective moral standard — which points back to God (see the moral argument).',
         'Christianity uniquely offers a God who enters suffering himself. At the cross, God does not explain evil from a distance; he bears it, and promises to end it (Revelation 21:4).',
       ],
-      scriptures: ['Isaiah 53:3-5', 'Hebrews 4:15', 'Revelation 21:4'],
+      references: ['Isaiah 53:3-5', 'Hebrews 4:15', 'Revelation 21:4'],
     },
   ],
   objections: [

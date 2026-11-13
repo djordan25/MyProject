@@ -11,7 +11,7 @@ export const resurrection: Topic = {
       body: [
         'Christianity stands or falls on the resurrection (1 Corinthians 15:14-17). That makes it testable: if Jesus rose, his claims are vindicated.',
       ],
-      scriptures: ['1 Corinthians 15:14-17', 'Acts 17:31', 'Romans 1:4'],
+      references: ['1 Corinthians 15:14-17', 'Acts 17:31', 'Romans 1:4'],
     },
     {
       heading: 'The minimal facts',

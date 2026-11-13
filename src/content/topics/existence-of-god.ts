@@ -12,7 +12,7 @@ export const existenceOfGod: Topic = {
         'Many conversations stall because the other person doubts that God exists at all. Before discussing the Bible or Jesus, it often helps to show that belief in God is reasonable.',
         'No single argument has to carry the whole load. Like strands of a rope, several independent arguments together make a strong cumulative case.',
       ],
-      scriptures: ['Romans 1:20', 'Psalm 19:1', 'Acts 17:24-28'],
+      references: ['Romans 1:20', 'Psalm 19:1', 'Acts 17:24-28'],
     },
     {
       heading: 'The Kalam Cosmological Argument',
@@ -25,7 +25,7 @@ export const existenceOfGod: Topic = {
         'The universe began to exist.',
         'Therefore, the universe has a cause.',
       ],
-      scriptures: ['Genesis 1:1', 'Hebrews 11:3'],
+      references: ['Genesis 1:1', 'Hebrews 11:3'],
     },
     {
       heading: 'The Fine-Tuning Argument',
@@ -38,7 +38,7 @@ export const existenceOfGod: Topic = {
         'It is not due to physical necessity or chance.',
         'Therefore, it is due to design.',
       ],
-      scriptures: ['Isaiah 45:18', 'Jeremiah 33:25'],
+      references: ['Isaiah 45:18', 'Jeremiah 33:25'],
     },
     {
       heading: 'The Moral Argument',
@@ -52,7 +52,7 @@ export const existenceOfGod: Topic = {
         'Objective moral values and duties do exist.',
         'Therefore, God exists.',
       ],
-      scriptures: ['Romans 2:14-15'],
+      references: ['Romans 2:14-15'],
     },
   ],
   objections: [

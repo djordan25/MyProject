@@ -26,7 +26,7 @@ export const reliabilityOfScripture: Topic = {
         'Paul’s letters date from roughly AD 48-60, and he quotes even earlier creeds — 1 Corinthians 15:3-7 is widely dated to within a few years of the crucifixion.',
         'The Gospels were written within the lifetime of eyewitnesses (most scholars: c. AD 65-95). Luke explicitly says he investigated eyewitness accounts (Luke 1:1-4).',
       ],
-      scriptures: ['Luke 1:1-4', '1 Corinthians 15:3-8', '2 Peter 1:16', '1 John 1:1-3'],
+      references: ['Luke 1:1-4', '1 Corinthians 15:3-8', '2 Peter 1:16', '1 John 1:1-3'],
     },
     {
       heading: 'Archaeology and external confirmation',

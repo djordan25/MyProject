@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import type { Objection } from '../content';
 import { progress, useProgress, type DrillRating } from '../lib/progress';
+import RefText from './RefText';
+import RefList from './RefList';
 
 interface Props {
   objection: Objection;
@@ -36,11 +38,12 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
       ) : (
         <div className="reveal">
           <h3>Model response</h3>
-          <p>{objection.response}</p>
+          <p><RefText text={objection.response} /></p>
           <h4>Key points</h4>
           <ul>
-            {objection.keyPoints.map((k) => <li key={k}>{k}</li>)}
+            {objection.keyPoints.map((k) => <li key={k}><RefText text={k} /></li>)}
           </ul>
+          <RefList refs={objection.references} />
           <div className="row">
             <span className="muted">How did you do?</span>
             <button className="btn" onClick={() => rate('review')}>Needs review</button>

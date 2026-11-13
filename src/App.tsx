@@ -1,6 +1,7 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import TopicPage from './pages/TopicPage';
+import TrackPage from './pages/TrackPage';
 import Practice from './pages/Practice';
 import ProgressPage from './pages/ProgressPage';
 import NotFound from './pages/NotFound';
@@ -14,7 +15,7 @@ export default function App() {
           <span>Apologetics Trainer</span>
         </NavLink>
         <nav>
-          <NavLink to="/" end>Topics</NavLink>
+          <NavLink to="/" end>Tracks</NavLink>
           <NavLink to="/practice">Practice</NavLink>
           <NavLink to="/progress">Progress</NavLink>
         </nav>
@@ -22,6 +23,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/track/:trackId" element={<TrackPage />} />
           <Route path="/topic/:topicId/*" element={<TopicPage />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/progress" element={<ProgressPage />} />

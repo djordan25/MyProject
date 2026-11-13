@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { QuizQuestion } from '../content';
 import { shuffle } from '../lib/shuffle';
+import RefText from './RefText';
 
 interface Props {
   questions: QuizQuestion[];
@@ -72,7 +73,7 @@ export default function Quiz({ questions, onFinish }: Props) {
       </div>
       {answered && (
         <div className="reveal">
-          <p><strong>{picked === q.answer ? 'Correct.' : 'Not quite.'}</strong> {q.explanation}</p>
+          <p><strong>{picked === q.answer ? 'Correct.' : 'Not quite.'}</strong> <RefText text={q.explanation} /></p>
           <button className="btn primary" onClick={next}>{i + 1 < order.length ? 'Next question' : 'See results'}</button>
         </div>
       )}

@@ -19,7 +19,7 @@ export const identityOfJesus: Topic = {
         'Jesus did more than teach ethics. He forgave sins against others (Mark 2:5-7), applied the divine name to himself (“before Abraham was, I am” — John 8:58), claimed he would judge the world (Matthew 25:31-46), and accepted worship (John 20:28).',
         'Even in the earliest Gospel, Mark, his self-description as the “Son of Man” coming on the clouds (Mark 14:62, drawing on Daniel 7:13-14) led the high priest to charge him with blasphemy.',
       ],
-      scriptures: ['Mark 2:5-7', 'John 8:58', 'John 10:30-33', 'Mark 14:61-64', 'Colossians 1:15-20'],
+      references: ['Mark 2:5-7', 'John 8:58', 'John 10:30-33', 'Mark 14:61-64', 'Colossians 1:15-20'],
     },
     {
       heading: 'The trilemma',
