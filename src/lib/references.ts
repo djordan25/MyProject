@@ -31,7 +31,7 @@ const bookPattern = [...BIBLE_BOOKS].sort((a, b) => b.length - a.length).map(esc
 
 /** Matches a single citation inside running text. */
 export const CITATION_REGEX = new RegExp(
-  `(Quran \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?|Sahih al-Bukhari \\d{1,4}|Sahih Muslim \\d{1,4}|(?:${bookPattern}) \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?)`,
+  `(Quran \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?|Sahih al-Bukhari \\d{1,4}|Sahih Muslim \\d{1,4}|(?:${bookPattern}) \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?)(?![:\\d])`,
   'g',
 );
 
@@ -64,3 +64,47 @@ export const KIND_LABEL: Record<RefKind, string> = {
   bukhari: 'Hadith',
   muslim: 'Hadith',
 };
+
+export interface Segment {
+  text: string;
+  /** Full citation when this segment is a reference (shorthand like "25:32" is expanded to "Quran 25:32"). */
+  ref?: string;
+}
+
+const CONTINUATION = /^(\s*[;,]\s*(?:see\s+)?)(\d{1,3}:\d{1,3}(?:-\d{1,3})?|\d{1,4}(?:-\d{1,3})?)(?![\d:])/;
+
+/**
+ * Splits text into plain segments and citations, including shorthand follow-ons such as
+ * "Quran 47:19; 40:55", "Sahih al-Bukhari 4986, 4988" or "Mark 8:31; 9:31" / "John 1:1, 14".
+ */
+export function segmentCitations(text: string): Segment[] {
+  const out: Segment[] = [];
+  const parts = text.split(CITATION_REGEX);
+  for (let i = 0; i < parts.length; i++) {
+    if (i % 2 === 1) {
+      out.push({ text: parts[i], ref: parts[i] });
+      continue;
+    }
+    let rest = parts[i];
+    const prev = i > 0 ? parseRef(parts[i - 1]) : null;
+    const prevText = i > 0 ? parts[i - 1] : '';
+    let chapter = prev?.chapter;
+    let m: RegExpMatchArray | null;
+    while (prev && (m = rest.match(CONTINUATION))) {
+      const tok = m[2];
+      let ref: string | null = null;
+      if (prev.kind === 'quran' && tok.includes(':')) ref = `Quran ${tok}`;
+      else if ((prev.kind === 'bukhari' || prev.kind === 'muslim') && /^\d+$/.test(tok)) ref = prevText.replace(/\d+$/, tok);
+      else if (prev.kind === 'bible') {
+        const book = prevText.replace(/ \d+:.*$/, '');
+        ref = tok.includes(':') ? `${book} ${tok}` : `${book} ${chapter}:${tok}`;
+      }
+      if (!ref || !parseRef(ref)) break;
+      out.push({ text: m[1] }, { text: tok, ref });
+      if (tok.includes(':')) chapter = Number(tok.split(':')[0]);
+      rest = rest.slice(m[0].length);
+    }
+    if (rest) out.push({ text: rest });
+  }
+  return out;
+}

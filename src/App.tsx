@@ -5,9 +5,11 @@ import TrackPage from './pages/TrackPage';
 import Practice from './pages/Practice';
 import ProgressPage from './pages/ProgressPage';
 import NotFound from './pages/NotFound';
+import { PassageProvider } from './components/PassagePopup';
 
 export default function App() {
   return (
+    <PassageProvider>
     <div className="app">
       <header className="topbar">
         <NavLink to="/" className="brand">
@@ -35,5 +37,6 @@ export default function App() {
         it with gentleness and respect.” — 1 Peter 3:15
       </footer>
     </div>
+    </PassageProvider>
   );
 }
