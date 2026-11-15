@@ -28,6 +28,7 @@ import { quranHistory } from './islam/quran-history';
 import { quranSources } from './islam/quran-sources';
 import { hadithReliability } from './islam/hadith-reliability';
 import { muhammadWarfare } from './islam/muhammad-warfare';
+import { sharingTheGospel } from './islam/sharing-the-gospel';
 
 export const topics: Topic[] = [
   existenceOfGod, identityOfJesus, reliabilityOfScripture, howWeGotTheBible, resurrection, problemOfEvil,
@@ -35,7 +36,7 @@ export const topics: Topic[] = [
   quranOral, quranPreservation, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
-  trinity, deityObjections, atonementObjections, bibleCorruption,
+  trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,
 ];
 
 export { tracks };

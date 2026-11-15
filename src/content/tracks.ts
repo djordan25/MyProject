@@ -56,6 +56,11 @@ export const tracks: Track[] = [
         description: 'The most common Muslim objections — the Trinity, Jesus’ deity, the atonement, and the Bible’s reliability.',
         topicIds: ['islam-trinity', 'islam-deity-objections', 'islam-atonement', 'islam-bible-corruption'],
       },
+      {
+        title: 'Sharing the gospel',
+        description: 'Where every conversation should lead: the message itself, and what it costs a Muslim to believe it.',
+        topicIds: ['islam-sharing-the-gospel'],
+      },
     ],
   },
 ];
