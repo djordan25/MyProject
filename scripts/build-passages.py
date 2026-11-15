@@ -26,7 +26,10 @@ Isa Jer Lam Ezek Dan Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal Matt
 Col 1Thess 2Thess 1Tim 2Tim Titus Phlm Heb Jas 1Pet 2Pet 1John 2John 3John Jude Rev""".split()))
 assert len(OSIS) == 66
 book_pat = '|'.join(sorted([re.escape(b) for b in books if b != "Solomon's Song"] + [re.escape(a) for a in ALIASES], key=len, reverse=True))
-CITE = re.compile(rf"(Quran \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?|Sahih al-Bukhari \d{{1,4}}|Sahih Muslim \d{{1,4}}|(?:{book_pat}) \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?)(?!:?\d)")
+# Other hadith collections: display name -> name used in the sunnah.com data. Mirrors OTHER_COLLECTIONS in references.ts.
+OTHER = {'Sunan Abi Dawud': 'Sunan Abi Dawud', 'Jami at-Tirmidhi': 'Jami` at-Tirmidhi', 'Sunan Ibn Majah': 'Sunan Ibn Majah', 'Musnad Ahmad': 'Musnad Ahmad'}
+other_pat = '|'.join(OTHER)
+CITE = re.compile(rf"(Quran \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?|Sahih al-Bukhari \d{{1,4}}|Sahih Muslim \d{{1,4}}|(?:{other_pat}) \d{{1,5}}|(?:{book_pat}) \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?)(?!:?\d)")
 REF_LIST = re.compile(r"references: \[(.*?)\]", re.S)
 
 
@@ -50,9 +53,9 @@ def inline_citations(text):
             tok = m[2]
             if prev.startswith('Quran ') and ':' in tok:
                 ref = f'Quran {tok}'
-            elif prev.startswith('Sahih ') and tok.isdigit():
+            elif prev.startswith(('Sahih ',) + tuple(OTHER)) and tok.isdigit():
                 ref = re.sub(r'\d+$', tok, prev)
-            elif not prev.startswith(('Quran ', 'Sahih ')) and m0:
+            elif not prev.startswith(('Quran ', 'Sahih ') + tuple(OTHER)) and m0:
                 ref = f'{m0[1]} {tok}' if ':' in tok else f'{m0[1]} {chapter}:{tok}'
             else:
                 break
@@ -93,13 +96,15 @@ def bsb(book, chapter, verse):
 
 
 def hadith(collection, number):
-    rows = db.execute('select c3, c4, c8 from hadith_en_content where c8 like ?', (collection + '%',)).fetchall()
-    for prefix, content, ref in rows:
+    """Returns (text, grade) for a hadith by its sunnah.com reference number, or None."""
+    rows = db.execute('select c3, c4, c8, c7 from hadith_en_content where c8 like ?', (collection + '%',)).fetchall()
+    for prefix, content, ref, grade in rows:
         first = ref.split('\n')[0]
         nums = re.findall(r'\d+', first.split(',', 1)[1] if ',' in first else first)
         if str(number) in nums:
-            text = re.sub(r'<[^>]+>', '', f'{prefix or ""} {content}')
-            return re.sub(r'\s+', ' ', text).strip()
+            text = re.sub(r'\[\d+\]:.*$', '', f'{prefix or ""} {content}', flags=re.S)  # drop translator footnotes
+            text = re.sub(r'<[^>]+>|\[\d+\]', '', text)
+            return re.sub(r'\s+', ' ', text).strip(), re.sub(r'\s+', ' ', grade or '').strip()
     return None
 
 
@@ -111,8 +116,15 @@ def build(ref):
         return {'src': 'Quran · Sahih International', 'v': [[f'{s}:{i}', quran[s]['verses'][i - 1]['translation']] for i in range(a, b + 1)]}
     m = re.fullmatch(r'(Sahih al-Bukhari|Sahih Muslim) (\d+)', ref)
     if m:
-        t = hadith(m[1], m[2])
-        return t and {'src': f'{m[1]} · sunnah.com English', 't': t}
+        h = hadith(m[1], m[2])
+        return h and {'src': f'{m[1]} · sunnah.com English', 't': h[0]}
+    m = re.fullmatch(rf'({other_pat}) (\d+)', ref)
+    if m:
+        h = hadith(OTHER[m[1]], m[2])
+        if not h:
+            return None
+        grade = re.sub(r'\((Darussalam)\)\s*\(\1\)', r'(\1)', h[1])
+        return {'src': f'{m[1]} · sunnah.com English' + (f' · graded {grade}' if grade else ''), 't': h[0]}
     m = re.fullmatch(rf'({book_pat}) (\d+):(\d+)(?:-(\d+))?((?:, ?\d+(?:-\d+)?)*)', ref)
     if m:
         book, ch = ALIASES.get(m[1], m[1]), int(m[2])

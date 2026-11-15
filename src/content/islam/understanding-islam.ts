@@ -19,10 +19,20 @@ export const understandingIslam: Topic = {
       body: [
         'The Quran: believed to be the literal, uncreated word of Allah, revealed to Muhammad through the angel Gabriel (Jibril) between roughly AD 610 and 632. It has 114 surahs (chapters).',
         'The Sunnah: the example of Muhammad — what he said, did and approved — recorded in the hadith. Most of Islamic practice (how to pray, fast, etc.) comes from the hadith, not the Quran alone. The Quran itself commands obedience to the Messenger (Quran 3:32).',
-        'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections. That is why this course cites only these two collections: a Sunni Muslim cannot simply dismiss them.',
+        'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections. That is why this course leans on them first: a Sunni Muslim cannot simply dismiss them.',
         'A note on translation: Quran quotations here follow Sahih International, a translation most Muslims accept. Words in [square brackets] are the translators’ additions and are not in the Arabic. Sometimes they soften a difficulty, so notice them.',
       ],
       references: ['Quran 3:32', 'Quran 15:9'],
+    },
+    {
+      heading: 'Other Muslim sources, and how much weight they carry',
+      body: [
+        'Beyond the Quran and the two Sahih collections, Muslims draw on other writings. Know what each one is, because a Muslim may accept one and brush aside another.',
+        'Other hadith collections: Sunan Abi Dawud, Jami at-Tirmidhi, Sunan Ibn Majah, Sunan an-Nasa’i and Musnad Ahmad. Each hadith in them is graded by Muslim scholars as sahih (authentic), hasan (good) or da‘if (weak). When this course cites one, the popup shows its grade. A hadith graded sahih or hasan carries real weight; a weak one does not.',
+        'Biography (sira): the earliest life of Muhammad was written by Ibn Ishaq, about 120 years after his death, and survives in later editions and in the history of al-Tabari. Muslims value it for the story of Muhammad’s life, but hold it to a lower standard than the hadith, and will often reject a report from it that they dislike.',
+        'Commentary (tafsir): classical commentators such as al-Tabari, Ibn Kathir and the two Jalals explain the Quran verse by verse. They show how Muslims have traditionally read a verse, which answers the reply “that is only your interpretation”.',
+        'Use these in order of strength: the Quran first, then Bukhari and Muslim, then other graded hadith, then commentary and biography. Say which one you are quoting.',
+      ],
     },
     {
       heading: 'Core beliefs and practices',

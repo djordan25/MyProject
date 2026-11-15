@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { topics, tracks, topicsInTrack, type Topic } from '.';
+import { topics, tracks, type Topic } from '.';
 import { parseRef, segmentCitations } from '../lib/references';
 import bibleCounts from './data/bible-verse-counts.json';
 import quranCounts from './data/quran-verse-counts.json';
@@ -109,6 +109,14 @@ describe('glossary', () => {
   });
 });
 
+describe('other hadith collections', () => {
+  it('parses and links citations to graded collections', () => {
+    expect(parseRef('Sunan Abi Dawud 4449')).toMatchObject({ kind: 'hadith', url: 'https://sunnah.com/abudawud:4449' });
+    expect(parseRef('Jami at-Tirmidhi 3193')?.url).toBe('https://sunnah.com/tirmidhi:3193');
+    expect(segmentCitations('(Sunan Ibn Majah 1944)').some((s) => s.ref === 'Sunan Ibn Majah 1944')).toBe(true);
+  });
+});
+
 describe('misquotes', () => {
   it('accepts exact quotations and flags altered ones', () => {
     expect(misquotes('He said “And let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47).')).toEqual([]);
@@ -163,15 +171,4 @@ describe('content', () => {
     });
   }
 
-  for (const track of tracks.filter((tr) => tr.primarySourcesOnly)) {
-    describe(`${track.id} (primary sources only)`, () => {
-      for (const t of topicsInTrack(track)) {
-        it(`${t.id}: cites only the Bible, the Quran, Sahih al-Bukhari and Sahih Muslim`, () => {
-          expect(t.furtherReading).toBeUndefined();
-          const bad = citations(t).map((r) => [r, validate(r)]).filter(([, e]) => e);
-          expect(bad).toEqual([]);
-        });
-      }
-    });
-  }
 });

@@ -13,7 +13,7 @@ const PopupContext = createContext<(ref: string, anchor: HTMLElement) => void>((
 /** Opens the passage popup for a citation. */
 export const useOpenPassage = () => useContext(PopupContext);
 
-const SOURCE_SITE = { quran: 'quran.com', bukhari: 'sunnah.com', muslim: 'sunnah.com', bible: 'BibleGateway' } as const;
+const SOURCE_SITE = { quran: 'quran.com', bukhari: 'sunnah.com', muslim: 'sunnah.com', hadith: 'sunnah.com', bible: 'BibleGateway' } as const;
 
 export function PassageProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState<OpenState | null>(null);

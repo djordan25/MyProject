@@ -56,6 +56,4 @@ export interface Track {
   summary: string;
   intro?: string[];
   sections: TrackSection[];
-  /** When true, every reference must be the Bible, the Quran, Sahih al-Bukhari or Sahih Muslim (enforced by tests). */
-  primarySourcesOnly?: boolean;
 }

@@ -25,8 +25,11 @@ export default function About() {
           explanations.
         </p>
         <p>
-          The Islam Specialization cites only these three sources. Where a lesson names other ancient writings, it does
-          so to identify them, not to cite them as authorities.
+          These three are the backbone of the Islam Specialization. Some lessons also cite other hadith collections
+          (Abu Dawud, Tirmidhi, Ibn Majah, Musnad Ahmad), whose popups show how Muslim scholars grade each report, and
+          refer to classical Muslim commentaries, the early biography of Muhammad, and manuscript scholarship. Those
+          last three are described from the published literature; the app does not hold their text, so check them
+          before relying on a detail.
         </p>
       </section>
       <section className="card lesson">

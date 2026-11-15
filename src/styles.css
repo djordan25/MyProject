@@ -173,7 +173,7 @@ textarea {
 }
 .chip:hover { border-color: var(--primary); }
 .chip.quran { border-color: color-mix(in srgb, var(--success) 45%, var(--border)); }
-.chip.bukhari, .chip.muslim { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); }
+.chip.bukhari, .chip.muslim, .chip.hadith { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); }
 
 .select { display: flex; align-items: center; gap: 0.4rem; }
 select { font: inherit; padding: 0.5rem; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
@@ -203,7 +203,7 @@ button.chip { font: inherit; cursor: pointer; }
 .vnum { color: var(--accent); font-weight: 700; margin-right: 0.15rem; }
 .passage-link { display: block; padding: 0.65rem 1rem; border-top: 1px solid var(--border); font-weight: 600; text-decoration: none; }
 .passage.quran { border-top: 3px solid var(--success); }
-.passage.bukhari, .passage.muslim { border-top: 3px solid var(--accent); }
+.passage.bukhari, .passage.muslim, .passage.hadith { border-top: 3px solid var(--accent); }
 .passage.bible { border-top: 3px solid var(--primary); }
 
 @media (max-width: 639px) {
