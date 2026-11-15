@@ -9,12 +9,12 @@ export const crossAndResurrection: Topic = {
     {
       heading: 'Foretold by the prophets',
       body: [
-        'Psalm 22, written centuries before Jesus, describes the sufferer’s cry “My God, my God, why have you forsaken me?” (Psalm 22:1), mocking crowds (22:7-8), pierced hands and feet (22:16), and garments divided by lot (22:18). Jesus quoted its first line from the cross (Mark 15:34), and the Gospels record the rest being fulfilled (John 19:23-24).',
+        'Psalm 22, written centuries before Jesus, describes the sufferer’s cry “My God, my God, why have you forsaken me?” (Psalm 22:1), mocking crowds (22:7-8), pierced hands and feet (22:16), and garments divided by lot (22:18). Jesus quoted its first line from the cross (Mark 15:34), and the Gospels record the mocking and the dividing of his garments (Matthew 27:39-43; John 19:23-24).',
         'Be ready for one objection: the standard Hebrew (Masoretic) text of Psalm 22:16 reads “like a lion” where most English Bibles have “pierced”. “Pierced” follows the ancient Greek translation and an early Hebrew manuscript from the Dead Sea region. Whichever reading is original, the rest of the psalm still fits the crucifixion, and Zechariah 12:10 speaks plainly of one who is pierced.',
         'Isaiah 53 describes the servant who is “pierced for our transgressions”, “led like a lamb to the slaughter”, “cut off from the land of the living”, made “a guilt offering”, and who afterwards “will see His offspring, He will prolong His days” — death followed by life (Isaiah 53:5-11).',
         'Daniel 9:26 foretold that “the Messiah will be cut off” before the city and the sanctuary were destroyed — which happened in AD 70.',
       ],
-      references: ['Psalm 22:1-18', 'Mark 15:34', 'John 19:23-24', 'Isaiah 53:3-12', 'Daniel 9:26', 'Zechariah 12:10'],
+      references: ['Psalm 22:1-18', 'Mark 15:34', 'Matthew 27:39-43', 'John 19:23-24', 'Isaiah 53:3-12', 'Daniel 9:26', 'Zechariah 12:10'],
     },
     {
       heading: 'Predicted by Jesus',

@@ -46,7 +46,7 @@ export const quranOral: Topic = {
       heading: 'Is it a “telephone game”?',
       body: [
         'Muslims often accuse the Bible of being like a game of telephone. Be fair: communal recitation is more stable than one person whispering to the next, because many people check each other.',
-        'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and, as Sahih al-Bukhari 4977 is usually understood, did not count the last two surahs as Quran; Umar admitted “we leave some of what he recites” (Sahih al-Bukhari 5005). The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',
+        'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and, as Sahih al-Bukhari 4977 is usually understood, did not count the last two surahs as Quran; and Umar said of Ubai bin Ka’b, the best reciter among them, “we leave some of what he recites” (Sahih al-Bukhari 5005). The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',
         'By contrast, the New Testament was written down within the lifetime of eyewitnesses (Luke 1:1-4; 1 John 1:1-3), and copied so widely that no one could control or destroy the variant copies.',
       ],
       references: ['Sahih al-Bukhari 4944', 'Sahih al-Bukhari 4977', 'Sahih al-Bukhari 5005', 'Luke 1:1-4', '1 John 1:1-3'],

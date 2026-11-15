@@ -15,7 +15,7 @@ export const reliabilityOfScripture: Topic = {
     {
       heading: 'Manuscript evidence',
       body: [
-        'About 5,800 Greek manuscripts of the New Testament have been catalogued, plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: more than a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
+        'About 5,800 Greek manuscripts of the New Testament have been catalogued, plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: around a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
         'The gap between writing and earliest surviving copy is also short: P52, a fragment of John 18, is usually dated to the second century. For many classical works the gap is the better part of a thousand years.',
         'Textual variants are numerous, but the vast majority are spelling, word-order or obvious copying slips. No core Christian doctrine depends on a disputed reading.',
       ],

@@ -32,7 +32,7 @@ export const trinity: Topic = {
         'The Angel of the LORD is sent by God, yet speaks as God and is called God. He appears to Hagar, and she names the LORD who spoke to her “the God who sees me” (Genesis 16:7-13). He appears to Moses in the burning bush and says, “I am the God of your father” (Exodus 3:2-6). After seeing him, Samson’s father says, “we have seen God!” (Judges 13:21-22).',
         '“The LORD rained down sulfur and fire on Sodom and Gomorrah—from the LORD out of the heavens” (Genesis 19:24): the LORD on earth and the LORD in heaven.',
         'David calls the Messiah his Lord: “The LORD said to my Lord: ‘Sit at My right hand’” (Psalm 110:1). Jesus used this verse to show that the Messiah is more than David’s son (Mark 12:35-37).',
-        'God addresses another as God: “Your throne, O God, endures forever and ever… therefore God, your God, has anointed you” (Psalm 45:6-7). Hebrews 1:8-9 applies this to the Son.',
+        'The king is addressed as God, yet has a God: “Your throne, O God, endures forever and ever… therefore God, your God, has anointed you” (Psalm 45:6-7). Hebrews 1:8-9 presents these as God’s words about the Son.',
         'The LORD says he is sent by the LORD: “I am coming to dwell among you… and you will know that the LORD of Hosts has sent Me to you” (Zechariah 2:10-11). And in Isaiah the speaker says, “the Lord GOD has sent me, accompanied by His Spirit” (Isaiah 48:16).',
         'These are far stronger than “Let Us make man in Our image” (Genesis 1:26), which Muslims answer by pointing to the royal “We” in the Quran.',
       ],

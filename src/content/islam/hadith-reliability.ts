@@ -94,7 +94,7 @@ export const hadithReliability: Topic = {
       id: 'hr-4',
       objection: 'That hadith is weak. I don’t accept it.',
       response:
-        'It is in Sahih al-Bukhari (or Sahih Muslim), which Sunni scholars have treated for more than a thousand years as the most authentic books after the Quran. If a Sahih hadith can be set aside whenever it is uncomfortable, by what standard do we keep the ones that teach how to pray, or the ones that tell us how the Quran was collected (Sahih al-Bukhari 4986, 4987)? I’m only asking for consistency.',
+        'It is in Sahih al-Bukhari (or Sahih Muslim), which Sunni scholars have treated for about a thousand years as the most authentic books after the Quran. If a Sahih hadith can be set aside whenever it is uncomfortable, by what standard do we keep the ones that teach how to pray, or the ones that tell us how the Quran was collected (Sahih al-Bukhari 4986, 4987)? I’m only asking for consistency.',
       keyPoints: ['Sahih means authenticated by Islam’s own scholars.', 'Rejecting them selectively is arbitrary.', 'Islam’s practice and history rest on the same books.'],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987', 'Sahih al-Bukhari 8'],
     },

@@ -56,7 +56,7 @@ export const crucifixionDenial: Topic = {
       id: 'cd-3',
       objection: 'Jesus prayed to be saved from death, and God answers prayers — so he wasn’t crucified.',
       response:
-        'In Gethsemane Jesus prayed, “Not my will, but yours, be done” (Luke 22:42). He submitted to the Father’s will. Hebrews 5:7 says he was heard — he was saved out of death, by resurrection, not from dying. In fact, right after his arrest he said, “Shall I not drink the cup the Father has given Me?” (John 18:11).',
+        'In Gethsemane Jesus prayed, “not My will, but Yours be done” (Luke 22:42). He submitted to the Father’s will. Hebrews 5:7 says he was heard — he was saved out of death, by resurrection, not from dying. In fact, at his arrest he said, “Shall I not drink the cup the Father has given Me?” (John 18:11).',
       keyPoints: ['His prayer was submission: “not my will”.', 'Saved out of death through resurrection.', 'John 18:11 — he accepted the cup.'],
       references: ['Luke 22:42', 'Hebrews 5:7', 'John 18:11'],
     },

@@ -19,17 +19,17 @@ export const islamicDilemma: Topic = {
     {
       heading: 'The scripture “with them”: key Arabic terms',
       body: [
-        'The Quran does not merely affirm a long-lost original. Again and again it says it confirms the scripture that is “with” the Jews and Christians of Muhammad’s day (Arabic ma‘akum, “with you”; ma‘ahum, “with them”): “confirming that which is [already] with you” (Quran 2:41); “confirming that which is with them” (Quran 2:91). See also Quran 2:89, 2:101, 3:81 and Quran 4:47.',
+        'The Quran does not merely affirm a long-lost original. Again and again it says it confirms the scripture that is “with” the People of the Scripture in Muhammad’s day (Arabic ma‘akum, “with you”; ma‘ahum, “with them”): “confirming that which is [already] with you” (Quran 2:41); “confirming that which is with them” (Quran 2:91). See also Quran 2:89, 2:101 and Quran 4:47. Most of these verses address the Jews of Medina; for Christians the Quran makes the same point in Quran 5:47 and Quran 5:68.',
         'The Quran also calls itself musaddiq — “confirming” — what is literally “between its hands” (bayna yadayhi), an idiom for what lies in front of it. Translations usually render this “what was before it” (Quran 3:3; 35:31; 46:30). A Muslim may take that to mean “earlier in time”, so lean on the clearer “with you” and “with them” verses.',
         'Muhammad treated the Torah in front of him as genuine. He challenged the Jews: “So bring the Torah and recite it, if you should be truthful” (Quran 3:93). When Jews brought him a couple accused of adultery, he asked what they found in the Torah; it was brought and opened, the verse of stoning was found under the reader’s hand, and Muhammad judged by it (Sahih al-Bukhari 3635; 6841; 7543).',
-        'Quran 5:48 adds that the Quran is muhaymin over the earlier scripture. Sahih International translates this “a criterion over it”, and Muslims often say it means the Quran corrects the Bible. But the word means a guardian or witness, and the same verse begins by calling the Quran a confirmation of that scripture. A guardian protects what it guards; it does not contradict it.',
+        'Quran 5:48 adds that the Quran is muhaymin over the earlier scripture. Sahih International translates this “a criterion over it”, and Muslims often say it means the Quran corrects the Bible. But the word primarily means a guardian, overseer or witness, and the same verse begins by calling the Quran a confirmation of that scripture. A guardian protects what it guards; it does not contradict it.',
       ],
-      references: ['Quran 2:41', 'Quran 2:89', 'Quran 2:91', 'Quran 2:101', 'Quran 3:81', 'Quran 4:47', 'Quran 3:3', 'Quran 3:93', 'Quran 5:48', 'Sahih al-Bukhari 3635', 'Sahih al-Bukhari 6841', 'Sahih al-Bukhari 7543'],
+      references: ['Quran 2:41', 'Quran 2:89', 'Quran 2:91', 'Quran 2:101', 'Quran 4:47', 'Quran 3:3', 'Quran 3:93', 'Quran 5:48', 'Sahih al-Bukhari 3635', 'Sahih al-Bukhari 6841', 'Sahih al-Bukhari 7543'],
     },
     {
       heading: 'The dilemma',
       body: [
-        'The Bible that Christians possessed in the seventh century is the same Bible we have today: Greek manuscripts containing nearly the whole Bible, such as the fourth-century Codex Sinaiticus with its complete New Testament, were copied centuries before Muhammad and still exist. And that Bible teaches that Jesus is the divine Son of God who died on the cross for sins and rose again (John 1:1-14; 1 Corinthians 15:3-4).',
+        'The Bible that Christians possessed in the seventh century is the same Bible we have today: Greek Bibles such as the fourth-century Codex Sinaiticus (the complete New Testament and about half the Old) and Codex Vaticanus (most of both) were copied centuries before Muhammad and still exist. And that Bible teaches that Jesus is the divine Son of God who died on the cross for sins and rose again (John 1:1-14; 1 Corinthians 15:3-4).',
         'So either the Torah and Gospel in Christian hands were reliable in Muhammad’s day, or they were not.',
         'If they were reliable, Islam is false — because the Quran contradicts them on the most central points (the crucifixion, Jesus’ deity, salvation).',
         'If they were not reliable, Islam is false — because the Quran tells Christians to judge by a Gospel they supposedly don’t have, and tells Muhammad to check his revelation against corrupted books, and claims no one can change God’s words.',
@@ -95,7 +95,7 @@ export const islamicDilemma: Topic = {
       id: 'id-4',
       objection: 'The Quran is the criterion over earlier books (Quran 5:48), so we judge the Bible by the Quran.',
       response:
-        'The same verse says the Quran was sent “confirming that which preceded it of the Scripture”, and the Arabic word behind “criterion” there (muhaymin) means a guardian or witness. You can’t confirm and guard a book while calling it corrupt. And the Quran also tells Muhammad to check with those who read the earlier scripture when in doubt (Quran 10:94). The logic runs the other way: if the Quran confirms the Bible, then the Bible can test the Quran.',
+        'The same verse says the Quran was sent “confirming that which preceded it of the Scripture”, and the Arabic word behind “criterion” there (muhaymin) primarily means a guardian, overseer or witness. You can’t confirm and guard a book while calling it corrupt. And the Quran also tells Muhammad to check with those who read the earlier scripture when in doubt (Quran 10:94). The logic runs the other way: if the Quran confirms the Bible, then the Bible can test the Quran.',
       keyPoints: ['5:48 also says the Quran confirms the earlier scripture.', '10:94 sends Muhammad to the earlier scripture.', 'Confirmation implies the Bible was reliable.'],
       references: ['Quran 5:48', 'Quran 10:94'],
     },
@@ -121,7 +121,7 @@ export const islamicDilemma: Topic = {
       question: 'What do the Arabic phrases ma‘akum and ma‘ahum mean in verses like Quran 2:41 and 2:91?',
       options: ['“Before you” in time', '“With you” and “with them”', '“Hidden from you”', '“Changed by them”'],
       answer: 1,
-      explanation: 'The Quran confirms the scripture in the possession of Jews and Christians in Muhammad’s day.',
+      explanation: 'The Quran says it confirms the scripture the People of the Scripture already had in Muhammad’s day.',
     },
     {
       id: 'id-q1',

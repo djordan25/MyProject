@@ -56,7 +56,7 @@ export const quranPreservation: Topic = {
       id: 'qp-3',
       objection: 'Uthman only standardised the Quraysh dialect; the content was the same.',
       response:
-        'Then why burn the others? Hudhaifa feared Muslims would “differ about the Book (Qur’an) as Jews and the Christians did before” (Sahih al-Bukhari 4987) — that’s about the text, not accents. And companions like Ibn Mas’ud recited differently and rejected surahs 113-114 as Quran (Sahih al-Bukhari 4977). I’m not saying the Quran is wildly different — I’m saying letter-perfect preservation isn’t what Bukhari and Muslim describe.',
+        'Then why burn the others? Hudhaifa feared Muslims would “differ about the Book (Qur’an) as Jews and the Christians did before” (Sahih al-Bukhari 4987) — that’s about the text, not accents. And companions like Ibn Mas’ud recited differently and as Sahih al-Bukhari 4977 is usually understood, did not count surahs 113-114 as Quran. I’m not saying the Quran is wildly different — I’m saying letter-perfect preservation isn’t what Bukhari and Muslim describe.',
       keyPoints: ['Burning implies meaningful differences.', 'Ibn Mas’ud differed on contents.', 'Be measured: challenge “perfect”, not “roughly preserved”.'],
       references: ['Sahih al-Bukhari 4987', 'Sahih al-Bukhari 4977'],
     },

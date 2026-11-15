@@ -19,7 +19,7 @@ export const muhammadInBible: Topic = {
       body: [
         'Moses says: “The LORD your God will raise up for you a prophet like me from among your brothers” (Deuteronomy 18:15). The Hebrew reads more fully, “from your midst, from your brothers”. Muslims argue “brothers” means the Ishmaelites, Israel’s cousins.',
         'Context: the prophet comes from within Israel. In the same book, Israel’s king must come “from among your brothers; you are not to set over yourselves a foreigner who is not one of your brothers” (Deuteronomy 17:15). And the Levites “have no inheritance among their brothers” (Deuteronomy 18:2) — the other tribes of Israel. “Brothers” means fellow Israelites.',
-        'The prophet like Moses would know God “face to face” and do great signs and wonders (Deuteronomy 34:10-12). The Quran itself explains why such miraculous signs were withheld from Muhammad’s audience (Quran 17:59). Jesus performed signs and spoke what the Father gave him (John 12:49).',
+        'The prophet like Moses would be one whom the LORD knew “face to face”, and who did great signs and wonders (Deuteronomy 34:10-12). The Quran itself explains why such miraculous signs were withheld from Muhammad’s audience (Quran 17:59). Jesus performed signs and spoke what the Father gave him (John 12:49).',
         'The apostles applied this prophecy directly to Jesus (Acts 3:22-26).',
       ],
       references: ['Deuteronomy 18:15-18', 'Deuteronomy 17:15', 'Deuteronomy 18:2', 'Deuteronomy 34:10-12', 'Acts 3:22-26', 'John 12:49', 'Quran 17:59'],
@@ -48,7 +48,7 @@ export const muhammadInBible: Topic = {
       id: 'mb-1',
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',
       response:
-        'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among your brothers”), who speaks God’s words and knows God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
+        'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among your brothers”), who speaks God’s words and is known by God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
       keyPoints: ['Let the text define the likeness.', '“From among you” — an Israelite.', 'Acts 3:22-26 applies it to Jesus.'],
       references: ['Deuteronomy 18:15-18', 'Deuteronomy 34:10-12', 'Acts 3:22-26', 'Hebrews 3:1-6'],
     },

@@ -52,7 +52,7 @@ export const bibleCorruption: Topic = {
       id: 'bc-3',
       objection: 'Paul hijacked Jesus’ religion and invented Christianity.',
       response:
-        'The original apostles — Peter, James and John — accepted Paul and his message (Galatians 2:9), and Paul says he and they preached the same gospel (1 Corinthians 15:11). Peter also sets Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16). If a Muslim disputes who wrote 2 Peter, rest the case on Galatians and 1 Corinthians, which no scholar doubts Paul wrote. The death and resurrection of Jesus is found in the Gospels and in the preaching of Peter (Acts 2), not just in Paul. And remember the Quran says Jesus’ disciples were true believers whom God made victorious (Quran 61:14).',
+        'The Jerusalem leaders — Peter, John and James the Lord’s brother — accepted Paul and his message (Galatians 2:9), and Paul says he and they preached the same gospel (1 Corinthians 15:11). Peter also sets Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16). If a Muslim disputes who wrote 2 Peter, rest the case on Galatians and 1 Corinthians, which are virtually undisputed as Paul’s. The death and resurrection of Jesus is found in the Gospels and in the preaching of Peter (Acts 2), not just in Paul. And remember the Quran says Jesus’ disciples were true believers whom God made victorious (Quran 61:14).',
       keyPoints: ['Apostles endorsed Paul.', 'Peter preached the same gospel (Acts 2).', 'Quran 61:14 on the disciples.'],
       references: ['Galatians 2:9', '1 Corinthians 15:11', '2 Peter 3:15-16', 'Acts 2:22-36', 'Quran 61:14'],
     },

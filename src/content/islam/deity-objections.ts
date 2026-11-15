@@ -39,7 +39,7 @@ export const deityObjections: Topic = {
       id: 'do-2',
       objection: 'Jesus didn’t know the day or hour (Mark 13:32), so he can’t be all-knowing God.',
       response:
-        'In his human nature, Jesus “grew in wisdom” (Luke 2:52) and voluntarily limited the use of his divine knowledge. Notice how he ranks himself in that very verse: “not even the angels in heaven, nor the Son, but only the Father” — he places himself above the angels, as the Son alongside the Father.',
+        'In his human nature, Jesus “grew in wisdom” (Luke 2:52) and voluntarily limited the use of his divine knowledge. Notice how he ranks himself in Mark 13:32 itself: “not even the angels in heaven, nor the Son, but only the Father” — he places himself above the angels, as the Son alongside the Father.',
       keyPoints: ['Spoken in his human limitation.', 'Luke 2:52 — he grew in wisdom.', 'Ranks himself above angels.'],
       references: ['Mark 13:32', 'Luke 2:52', 'Philippians 2:7'],
     },
@@ -55,7 +55,7 @@ export const deityObjections: Topic = {
       id: 'do-4',
       objection: '“God is not a man” (Numbers 23:19).',
       response:
-        'Read the whole verse: “God is not a man, that He should lie, or a son of man, that He should change His mind” (Numbers 23:19). It says God isn’t like sinful humans who lie. It doesn’t say God cannot take on a human nature. The incarnation is God the Son adding humanity to himself without ceasing to be God (John 1:14; Colossians 2:9). Even in Islam’s sources God draws near to creation: Allah speaks to Moses from the fire and from the tree (Quran 27:8-9; 28:30), and “comes every night down on the nearest Heaven to us” (Sahih al-Bukhari 1145). If God can do that without ceasing to be God, the incarnation is not impossible.',
+        'Read the whole verse: “God is not a man, that He should lie, or a son of man, that He should change His mind” (Numbers 23:19). It says God isn’t like sinful humans who lie. It doesn’t say God cannot take on a human nature. The incarnation is God the Son adding humanity to himself without ceasing to be God (John 1:14; Colossians 2:9). Even in Islam’s sources God draws near to creation: Allah calls to Moses at the fire and from the tree (Quran 27:8-9; 28:30), and “comes every night down on the nearest Heaven to us” (Sahih al-Bukhari 1145). If God can do that without ceasing to be God, the incarnation is not impossible.',
       keyPoints: ['Context: God doesn’t lie like humans.', 'Not a statement about the incarnation.', 'Colossians 2:9 — fullness of deity bodily.'],
       references: ['Numbers 23:19', 'John 1:14', 'Colossians 2:9', 'Quran 27:8-9', 'Quran 28:30', 'Sahih al-Bukhari 1145'],
     },
@@ -79,8 +79,8 @@ export const deityObjections: Topic = {
       id: 'do-7',
       objection: 'Jesus called the Father “the only true God” (John 17:3). So Jesus is not God.',
       response:
-        'Christians agree that the Father is the only true God: there is only one God. The question is whether the Son shares that one divine being. In this same prayer Jesus says eternal life is knowing the Father and himself together, and two verses later he asks the Father to glorify him “with the glory I had with You before the world existed” (John 17:5). No mere prophet could pray that. Scripture also calls Jesus “our only Master and Lord” (Jude 1:4), which doesn’t stop the Father being Lord. And John calls Jesus “the true God and eternal life” (1 John 5:20).',
-      keyPoints: ['The Father is the only true God; the Son shares that being.', 'John 17:5: glory before the world existed.', 'Jude 1:4 and 1 John 5:20 use “only” and “true God” of Jesus.'],
+        'Christians agree that the Father is the only true God: there is only one God. The question is whether the Son shares that one divine being. In this same prayer Jesus says eternal life is knowing the Father and himself together, and two verses later he asks the Father to glorify him “with the glory I had with You before the world existed” (John 17:5). No mere prophet could pray that. Scripture also calls Jesus “our only Master and Lord” (Jude 1:4), which doesn’t stop the Father being Lord. And John, on the most natural reading, calls Jesus “the true God and eternal life” (1 John 5:20).',
+      keyPoints: ['The Father is the only true God; the Son shares that being.', 'John 17:5: glory before the world existed.', 'Jude 1:4 and 1 John 5:20 apply “only” and “true God” language to Jesus.'],
       references: ['John 17:3', 'John 17:5', 'Jude 1:4', '1 John 5:20'],
     },
     {
@@ -103,8 +103,8 @@ export const deityObjections: Topic = {
       id: 'do-10',
       objection: 'Peter called Jesus “a man certified by God” and God’s “servant” (Acts 2:22; 3:13). The first Christians didn’t think he was God.',
       response:
-        'Christians affirm that Jesus is truly man, and the Servant foretold by Isaiah. But read on in the same sermons. Peter calls him “the Author of life” (Acts 3:15) and “Lord of all” (Acts 10:36), and says God has made him “both Lord and Christ” (Acts 2:36). He applies to Jesus the promise that everyone who calls on the name of the Lord will be saved (Acts 2:21), then tells the crowd to be baptised in the name of Jesus (Acts 2:38). True man and true God.',
-      keyPoints: ['Truly man: Christians agree.', 'Same sermons: Author of life, Lord of all.', 'Calling on the LORD’s name applied to Jesus.'],
+        'Christians affirm that Jesus is truly man, and the Servant foretold by Isaiah. But read on. In those same sermons Peter calls him “the Author of life” (Acts 3:15) and says God has made him “both Lord and Christ” (Acts 2:36); later he calls him “Lord of all” (Acts 10:36). He applies to Jesus the promise that everyone who calls on the name of the Lord will be saved (Acts 2:21), then tells the crowd to be baptised in the name of Jesus (Acts 2:38). True man and true God.',
+      keyPoints: ['Truly man: Christians agree.', 'Peter’s own preaching: Author of life, Lord of all.', 'Calling on the LORD’s name applied to Jesus.'],
       references: ['Acts 2:22', 'Acts 3:13-15', 'Acts 10:36', 'Acts 2:36', 'Acts 2:21', 'Acts 2:38'],
     },
   ],
