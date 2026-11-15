@@ -40,6 +40,9 @@ export const problemOfEvil: Topic = {
   objections: [
     {
       id: 'poe-1',
+      followUps: [
+        { reply: 'Then why doesn’t he end it now?', answer: 'Ending all evil now would mean ending us, since evil runs through every human heart. Peter says the delay is patience: God is giving people time to turn to him (2 Peter 3:9).' },
+      ],
       objection: 'If God were all-good and all-powerful, he would stop all suffering.',
       response:
         'That assumes God couldn’t have any good reason for allowing suffering for a time. But if God made us free so we could truly love, then wrong choices were possible too. And Christianity says God will end suffering — he just hasn’t yet. The fact that we don’t see every reason doesn’t mean there aren’t any.',

@@ -60,6 +60,9 @@ export const identityOfJesus: Topic = {
     },
     {
       id: 'joj-3',
+      followUps: [
+        { reply: 'Maybe his followers exaggerated what he said.', answer: 'The claims are in the earliest sources, written while eyewitnesses were alive, and they are the reason he was condemned: the charge was blasphemy (Mark 14:61-64). Nobody crucifies a harmless teacher of ethics.' },
+      ],
       objection: 'Jesus was a good moral teacher, but not God.',
       response:
         'That’s the one option Jesus doesn’t seem to leave open. A merely good teacher wouldn’t claim to forgive everyone’s sins or say that people’s eternal destiny depends on their response to him. If those claims are false, he isn’t a good teacher. So the real question is whether he was telling the truth.',

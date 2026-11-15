@@ -58,6 +58,9 @@ export const existenceOfGod: Topic = {
   objections: [
     {
       id: 'eog-1',
+      followUps: [
+        { reply: 'Then why can’t the universe be the uncaused thing?', answer: 'Because the evidence points to the universe having a beginning, and whatever begins to exist needs a cause. An eternal universe was the standard atheist view until the evidence for a beginning became hard to resist.' },
+      ],
       objection: 'If everything needs a cause, then who caused God?',
       response:
         'The premise isn’t that everything needs a cause — only that whatever begins to exist does. God, by definition, is eternal and never began to exist, so he doesn’t need a cause. In fact, the atheist used to say the same about the universe; the evidence that the universe had a beginning is what makes the question pressing.',
@@ -80,6 +83,9 @@ export const existenceOfGod: Topic = {
     },
     {
       id: 'eog-3',
+      followUps: [
+        { reply: 'Morality evolved to help us survive.', answer: 'Evolution might explain why we feel that some things are wrong. It cannot make them actually wrong. If our moral sense is only a survival instinct, then cruelty is not evil, merely out of fashion among our species.' },
+      ],
       objection: 'I don’t need God to be a good person.',
       response:
         'I agree — you clearly can be a good person without believing in God. My question is different: if there is no God, what makes anything objectively good or evil in the first place? Belief in God isn’t needed to be moral, but God may be needed for morality to be more than opinion.',

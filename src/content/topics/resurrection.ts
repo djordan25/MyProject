@@ -41,6 +41,9 @@ export const resurrection: Topic = {
   objections: [
     {
       id: 'res-1',
+      followUps: [
+        { reply: 'Grief can make people see things.', answer: 'Grief visions happen to individuals. They do not happen to groups at the same time, they do not convince enemies like Paul, and they do not empty a tomb (1 Corinthians 15:5-8).' },
+      ],
       objection: 'The disciples just hallucinated.',
       response:
         'Hallucinations are private experiences, like dreams — you can’t share them with a group. Yet appearances were to groups, including over 500 at once. Hallucinations also don’t explain the empty tomb, or why enemies like Paul and sceptics like James came to believe.',
