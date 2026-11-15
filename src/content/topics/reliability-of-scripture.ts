@@ -40,7 +40,7 @@ export const reliabilityOfScripture: Topic = {
     {
       id: 'ros-1',
       followUps: [
-        { reply: 'The original manuscripts are lost, so you cannot know what they said.', answer: 'We have no original of any ancient book. What we have for the New Testament is thousands of copies from many places, early enough and independent enough of one another that the original wording can be recovered with great confidence.' },
+        { reply: 'The original manuscripts are lost, so you cannot know what they said.', answer: 'We have no original of any major work of ancient literature. What we have for the New Testament is thousands of copies from many places, early enough and independent enough of one another that the original wording can be recovered with great confidence.' },
       ],
       objection: 'The Bible has been translated so many times — it’s like a game of telephone.',
       response:

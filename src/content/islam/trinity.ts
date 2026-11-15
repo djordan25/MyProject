@@ -84,7 +84,7 @@ export const trinity: Topic = {
     {
       id: 'tr-4',
       followUps: [
-        { reply: 'If one verse was forged, the doctrine is forged.', answer: 'The doctrine was taught for centuries from other passages before that wording appeared in any Greek manuscript. Remove it, as modern Bibles do, and nothing changes: Matthew 28:19 and John 1:1 are in every manuscript we have.' },
+        { reply: 'If one verse was forged, the doctrine is forged.', answer: 'The doctrine was taught for centuries from other passages before that wording appeared in any Greek manuscript. Remove it, as modern Bibles do, and nothing changes: Matthew 28:19 and John 1:1 are in every manuscript that contains those passages.' },
       ],
       objection: '1 John 5:7 was added later — your proof text for the Trinity is a forgery.',
       response:

@@ -68,7 +68,7 @@ export const quranMisunderstands: Topic = {
     {
       id: 'qm-2',
       followUps: [
-        { reply: 'Arabs call people the brother or sister of an ancestor all the time.', answer: 'That could explain “sister of Aaron”. It does not explain why the Quran also gives her a father named Imran (Quran 66:12; 3:35), the name of the father of Moses, Aaron and Miriam (Numbers 26:59). One coincidence can be explained. Three together look like two women being merged.' },
+        { reply: 'Arabs call people the brother or sister of an ancestor all the time.', answer: 'That could explain “sister of Aaron”. It does not explain why the Quran also gives her a father named Imran (Quran 66:12; 3:35), the Arabic form of Amram, the father of Moses, Aaron and Miriam (Numbers 26:59). Her own name, Maryam, is Miriam’s too. One coincidence can be explained. Three together look like two women being merged.' },
       ],
       objection: '“Sister of Aaron” just means she was a righteous descendant of Aaron’s line — Muhammad explained it.',
       response:

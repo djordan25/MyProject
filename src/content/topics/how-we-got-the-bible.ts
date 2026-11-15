@@ -65,7 +65,7 @@ export const howWeGotTheBible: Topic = {
     {
       id: 'hb-2',
       followUps: [
-        { reply: 'The Gospel of Thomas may be as early as your Gospels.', answer: 'A few scholars argue that, but most date it to the second century, because it appears to know the finished Gospels and reflects later ideas. And it is a list of sayings with no cross and no resurrection, so even at its earliest it would not replace the accounts that have them.' },
+        { reply: 'The Gospel of Thomas may be as early as your Gospels.', answer: 'Some scholars argue that, but most date it to the second century, because it appears to know the finished Gospels and reflects later ideas. And it is a list of sayings with no account of the crucifixion or the resurrection, so even at its earliest it would not replace the accounts that have them.' },
       ],
       objection: 'There were dozens of other gospels that the church suppressed.',
       response:

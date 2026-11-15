@@ -46,7 +46,7 @@ export const bibleCorruption: Topic = {
     {
       id: 'bc-2',
       followUps: [
-        { reply: 'Then who are the people writing the book with their own hands?', answer: 'The verse does not say, and it does not name the Torah or the Gospel. The verse before it speaks of people who know the Scripture only through wishful thinking (Quran 2:78). Whoever they were, the Quran goes on telling Jews and Christians to judge by the Torah and the Gospel (Quran 5:43; 5:47).' },
+        { reply: 'Then who are the people writing the book with their own hands?', answer: 'The verse does not say, and it does not name the Torah or the Gospel. The verse before it speaks of people who know the Scripture only through wishful thinking (Quran 2:78). Whoever they were, the Quran goes on to say the Jews have the Torah, “in which is the judgement of Allah” (Quran 5:43), and tells Christians to judge by the Gospel (Quran 5:47).' },
       ],
       objection: 'Quran 2:79 condemns those who write the book with their own hands — that’s the Bible.',
       response:
@@ -90,7 +90,7 @@ export const bibleCorruption: Topic = {
     {
       id: 'bc-6',
       followUps: [
-        { reply: 'So Muhammad did not trust your scripture.', answer: 'In that hadith he tells Muslims to say, “We believe in Allah and what is revealed to us” (Sahih al-Bukhari 4485), quoting a verse that goes on to affirm what was given to Moses and Jesus (Quran 2:136). Withholding judgment on a rabbi’s explanation in Arabic is not the same as calling the Torah corrupt.' },
+        { reply: 'So Muhammad did not trust your scripture.', answer: 'In that hadith he tells Muslims to say, “We believe in Allah and what is revealed to us” (Sahih al-Bukhari 4485), quoting a verse that goes on to affirm what was given to Moses and Jesus (Quran 2:136). Withholding judgment on the Jews’ explanations in Arabic is not the same as calling the Torah corrupt.' },
       ],
       objection: 'Muhammad told us not to believe or disbelieve the People of the Book (Sahih al-Bukhari 4485).',
       response:

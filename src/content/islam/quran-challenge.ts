@@ -56,7 +56,7 @@ export const quranChallenge: Topic = {
     {
       id: 'qc-2',
       followUps: [
-        { reply: 'No unlettered man could know so much about the earlier prophets.', answer: 'He lived among Jews and Christians, and their stories were told wherever caravans stopped. The Quran records his critics saying that a man was teaching him (Quran 16:103). And what it tells of earlier prophets often matches later legends, not the Bible (see Borrowed Stories).' },
+        { reply: 'No unlettered man could know so much about the earlier prophets.', answer: 'He had contact with Jews and Christians, and their stories circulated by word of mouth. The Quran records his critics saying that a man was teaching him (Quran 16:103). And what it tells of earlier prophets often matches later legends, not the Bible (see Borrowed Stories).' },
       ],
       objection: 'Muhammad was illiterate (unlettered), so he could never have produced such a book himself.',
       response:

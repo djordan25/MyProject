@@ -134,7 +134,7 @@ export const deityObjections: Topic = {
     {
       id: 'do-11',
       followUps: [
-        { reply: 'Muslims pray the way the prophets prayed. Christians do not.', answer: 'Scripture shows people praying standing, kneeling and lying face down. Jesus taught that what matters is not the posture: true worshippers worship the Father in spirit and in truth (John 4:23-24).' },
+        { reply: 'Muslims pray the way the prophets prayed. Christians do not.', answer: 'Scripture shows people praying standing, kneeling and lying face down. Asked which place was right for worship, Jesus answered that true worshippers worship the Father in spirit and in truth (John 4:23-24). The same applies to posture.' },
       ],
       objection: 'Jesus prayed like a Muslim: he fell on his face before God (Matthew 26:39). He was a Muslim.',
       response:
