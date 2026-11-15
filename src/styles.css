@@ -211,3 +211,4 @@ button.chip { font: inherit; cursor: pointer; }
 @media (max-width: 520px) { .topbar nav a { padding: 0.35rem 0.45rem; } }
 .due-banner { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; text-decoration: none; color: inherit; border-left: 4px solid var(--accent); }
 .due-banner span { color: var(--primary); font-weight: 600; }
+.footer-links { margin-top: 0.5rem; font-style: normal; }

@@ -5,6 +5,7 @@ import TrackPage from './pages/TrackPage';
 import Practice from './pages/Practice';
 import ProgressPage from './pages/ProgressPage';
 import Search from './pages/Search';
+import About from './pages/About';
 import NotFound from './pages/NotFound';
 import { PassageProvider } from './components/PassagePopup';
 
@@ -32,12 +33,14 @@ export default function App() {
           <Route path="/practice" element={<Practice />} />
           <Route path="/progress" element={<ProgressPage />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <footer className="footer">
         “Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But
         respond with gentleness and respect.” — 1 Peter 3:15
+        <div className="footer-links"><NavLink to="/about">About and sources</NavLink></div>
       </footer>
     </div>
     </PassageProvider>
