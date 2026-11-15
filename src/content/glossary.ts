@@ -5,6 +5,7 @@ export interface Term {
 
 /** Islamic and apologetics terms used in the lessons, in plain English. */
 export const glossary: Term[] = [
+  { term: 'Ahmadiyya', meaning: 'A movement begun in nineteenth-century India by Mirza Ghulam Ahmad. Most other Muslims regard it as outside Islam. It teaches that Jesus survived the cross.' },
   { term: 'Ahl al-Kitab', meaning: '“People of the Scripture”: the Quran’s name for Jews and Christians.' },
   { term: 'Ahruf', meaning: 'The seven “ways” or modes in which the hadith say the Quran was revealed and recited.' },
   { term: 'Allah', meaning: 'The Arabic word for God. Arabic-speaking Christians also use it, but the Quran’s description of God differs from the Bible’s.' },
@@ -12,6 +13,7 @@ export const glossary: Term[] = [
   { term: 'Dawah', meaning: 'Inviting others to Islam; Muslim evangelism.' },
   { term: 'Hadith', meaning: 'A report of what Muhammad said, did or approved, passed on through a chain of narrators.' },
   { term: 'Hajj', meaning: 'The pilgrimage to Mecca, one of the five pillars of Islam.' },
+  { term: 'Imam', meaning: 'For Sunnis, a prayer leader or respected scholar. For Shia, one of the successors of Muhammad from his family, beginning with Ali.' },
   { term: 'Iman', meaning: 'Faith; the six articles of belief (Allah, angels, books, messengers, the Last Day, divine decree).' },
   { term: 'Injil', meaning: 'The Gospel, which the Quran says was given to Jesus.' },
   { term: 'Isa', meaning: 'The Quran’s name for Jesus.' },
@@ -24,12 +26,16 @@ export const glossary: Term[] = [
   { term: 'Mushaf', meaning: 'A written copy of the Quran.' },
   { term: 'Naskh', meaning: 'Abrogation: a later revelation replacing an earlier one (Quran 2:106).' },
   { term: 'Qira’at', meaning: 'The accepted readings of the Quran, known through transmissions such as Hafs and Warsh, which differ in some words and letters.' },
+  { term: 'Quranist', meaning: 'A Muslim who follows the Quran alone and rejects the hadith.' },
   { term: 'Sahih', meaning: '“Authentic”: the highest grade of hadith. In Sunni Islam, Sahih al-Bukhari and Sahih Muslim are the two most trusted collections.' },
   { term: 'Salah', meaning: 'Ritual prayer, obligatory five times a day; one of the five pillars.' },
   { term: 'Shahada', meaning: 'The testimony of faith: “There is no god but Allah, and Muhammad is the messenger of Allah.”' },
+  { term: 'Shia', meaning: 'The second-largest branch of Islam (roughly 10 to 15 percent), which holds that leadership after Muhammad belonged to Ali and the Imams of his family, and has its own hadith collections.' },
   { term: 'Shirk', meaning: 'Associating partners with Allah; the gravest sin in Islam, and how Muslims regard the Trinity.' },
   { term: 'Sira', meaning: 'The traditional biographies of Muhammad.' },
+  { term: 'Sufism', meaning: 'A mystical tradition found among both Sunni and Shia Muslims, stressing love for God and inward experience.' },
   { term: 'Sunnah', meaning: 'The example and practice of Muhammad, known through the hadith.' },
+  { term: 'Sunni', meaning: 'The majority branch of Islam (roughly 85 to 90 percent), following the Quran and the Sunnah as recorded in the Sunni hadith collections.' },
   { term: 'Surah', meaning: 'A chapter of the Quran. There are 114.' },
   { term: 'Tafsir', meaning: 'Commentary on the Quran by Muslim scholars.' },
   { term: 'Tahrif', meaning: 'The charge that Jews and Christians distorted their scriptures, in meaning or in text.' },
