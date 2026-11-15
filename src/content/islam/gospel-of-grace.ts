@@ -45,6 +45,9 @@ export const gospelOfGrace: Topic = {
   objections: [
     {
       id: 'gg-1',
+      followUps: [
+        { reply: 'Fear of the scales is what keeps people moral.', answer: 'Fear produces outward compliance, and only while someone is watching. The gospel changes what a person loves: “We love because He first loved us” (1 John 4:19). People who know they were forgiven at great cost do not treat sin lightly (Titus 2:11-14).' },
+      ],
       objection: 'If salvation is free, Christians can just sin as much as they like.',
       response:
         'Paul anticipated that exact objection: “Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1-2). Grace doesn’t just forgive; it transforms. Someone who has truly been rescued doesn’t want to go back. We obey God not to earn his love, but because we already have it (Ephesians 2:10; Titus 2:11-14).',
@@ -64,6 +67,9 @@ export const gospelOfGrace: Topic = {
     },
     {
       id: 'gg-3',
+      followUps: [
+        { reply: 'Even Paul was not sure of his own salvation.', answer: 'Paul wrote, “I know whom I have believed, and I am convinced that He is able to guard what I have entrusted to Him for that day” (2 Timothy 1:12). His confidence was in Christ, not in himself. That is the difference between assurance and arrogance.' },
+      ],
       objection: 'Being sure of salvation is arrogant; only God knows.',
       response:
         'It would be arrogant if it depended on how good I am. But my assurance rests on what Jesus has done, not on me. God wants us to know: “that you may know that you have eternal life” (1 John 5:13). Even Muhammad said his deeds could not save him (Sahih al-Bukhari 6463). If even he lacked assurance, what hope does anyone have by deeds? Jesus offers the certainty no one can earn.',

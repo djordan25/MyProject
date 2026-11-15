@@ -51,6 +51,9 @@ export const scientificMiracles: Topic = {
   objections: [
     {
       id: 'sm-1',
+      followUps: [
+        { reply: 'The Quran also says the universe is expanding.', answer: 'Quran 51:47 says Allah built the heaven and is its expander. Older translations take the same word to mean that Allah made it vast, or has vast power, and classical commentators did not read it as an expanding universe. A prediction that is recognised only after the discovery is not a prediction.' },
+      ],
       objection: 'Quran 21:30 describes the Big Bang: the heavens and earth were joined and then separated.',
       response:
         'The verse describes heaven and earth as once joined and then separated. Many ancient creation stories describe separating sky and earth — including Genesis 1, where God separates the waters above and below. The Big Bang isn’t a separation of earth from heaven; the earth formed billions of years later. And no classical scholar read this verse as the Big Bang until after the theory was known.',

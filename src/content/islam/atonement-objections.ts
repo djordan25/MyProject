@@ -66,6 +66,9 @@ export const atonementObjections: Topic = {
     },
     {
       id: 'ao-4',
+      followUps: [
+        { reply: 'Then who ran the universe while God was dead?', answer: 'The Son’s human body lay in the tomb; God did not cease to exist. The Father and the Spirit did not die, and the Son in his divine nature upholds all things (Hebrews 1:3). Death is the separation of soul and body, and that is what Jesus underwent as man.' },
+      ],
       objection: 'If Jesus is God, then God died — but God can’t die.',
       response:
         'Death in the Bible means separation — of soul from body — not ceasing to exist. Jesus died in his human nature: his body died while he himself continued to exist (Luke 23:46). The divine nature didn’t cease to exist. Because the person who died is God the Son, his sacrifice has infinite worth (Acts 20:28).',

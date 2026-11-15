@@ -79,6 +79,9 @@ export const hadithReliability: Topic = {
     },
     {
       id: 'hr-2',
+      followUps: [
+        { reply: 'Then choose: are the hadith reliable or not?', answer: 'That is your choice to make, because they are your sources. If they are reliable, Islam must accept what they say about how the Quran was collected (Sahih al-Bukhari 4987). If they are not, Islam has lost its record of that history. I only ask you to follow one answer consistently.' },
+      ],
       objection: 'You use the hadith when it suits you, but say they are unreliable. That’s inconsistent.',
       response:
         'Good question. I’m using them because you accept them as authentic — it’s an internal critique. I’m asking you to be consistent: if Bukhari is reliable, then its reports about lost verses and burned copies are reliable too. If it isn’t, then where does Islam get its knowledge of Muhammad and the Quran’s history? That’s the dilemma.',

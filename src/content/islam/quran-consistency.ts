@@ -81,6 +81,9 @@ export const quranConsistency: Topic = {
     },
     {
       id: 'qcn-3',
+      followUps: [
+        { reply: 'Then both books fail.', answer: 'Only one of them made the absence of contradiction its test. The gospel stakes everything on an event: “if Christ has not been raised, your faith is futile” (1 Corinthians 15:17). So test each by its own claim: the Quran by Quran 4:82, and the gospel by the resurrection.' },
+      ],
       objection: 'The Bible has contradictions too.',
       response:
         'Let’s look at any passage you have in mind — Christians take that seriously. But notice the Bible never stakes its truth on containing no contradictions the way Quran 4:82 does. Its claim rests on the person and resurrection of Jesus. Pointing at the Bible doesn’t answer whether the Quran passes its own test.',

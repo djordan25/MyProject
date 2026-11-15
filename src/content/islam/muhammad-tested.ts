@@ -92,6 +92,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-3',
+      followUps: [
+        { reply: 'Muslims believe the prophets were protected from sin.', answer: 'The Quran itself tells Muhammad to ask forgiveness for his sin (Quran 47:19), and speaks of his past and future sins being forgiven (Quran 48:2). It never says this of Jesus. Even on Islam’s own terms, one of them needed forgiveness and the other did not.' },
+      ],
       objection: 'The Bible’s prophets also sinned — David committed adultery!',
       response:
         'Exactly — and that’s why the Bible never presents David as the sinless, perfect example; it records his sin and his repentance (Psalm 51). The Bible’s point is that every prophet needs a Saviour. The only one who never needed forgiveness is Jesus. Even the Quran shows Muhammad asking forgiveness for his sins (Quran 47:19), while it never records Jesus doing so.',

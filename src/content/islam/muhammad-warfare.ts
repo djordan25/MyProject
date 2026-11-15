@@ -66,6 +66,9 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-2',
+      followUps: [
+        { reply: 'So God commanded violence in your book too.', answer: 'For one people, place and time, as a judgment, and Scripture says so (Deuteronomy 9:5). The Bible has no standing command to fight unbelievers until they submit. Quran 9:29 is not tied to one nation or one moment, and classical Islamic law treated it as a standing rule.' },
+      ],
       objection: 'The Old Testament is full of violence too — what about the conquest of Canaan?',
       response:
         'Don’t pretend the Old Testament has no hard passages. The conquest was a specific, limited judgment on particular nations for long-standing wickedness (Genesis 15:16; Deuteronomy 9:5), tied to one time and place. It was never a standing command for all believers everywhere. Christians follow Jesus, who fulfilled the Old Testament and told his followers to put away the sword and love their enemies (Matthew 26:52; 5:44). Muslims, by contrast, look to Muhammad as the timeless example (Quran 33:21).',

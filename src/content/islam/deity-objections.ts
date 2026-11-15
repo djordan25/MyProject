@@ -103,6 +103,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-8',
+      followUps: [
+        { reply: 'If Jesus has a God, he is a creature.', answer: 'Hebrews answers that directly. The one God addresses as God is also said to have a God (Hebrews 1:8-9), because the Son became man without ceasing to be what he was. The same letter says God made the universe through the Son (Hebrews 1:2). Creatures do not make the universe.' },
+      ],
       objection: 'Jesus said, “I am ascending to My Father and your Father, to My God and your God” (John 20:17). God does not have a God.',
       response:
         'As a true man, Jesus worships and prays to the Father. That is what the incarnation means. But notice that he doesn’t say “our Father” or “our God”: his relationship to the Father is not the same as ours. Eleven verses later Thomas says to him, “My Lord and my God!” (John 20:28), and Jesus accepts it. Hebrews holds both truths together: God says to the Son, “Your throne, O God, endures forever and ever” (Hebrews 1:8), and then speaks of “God, Your God” (Hebrews 1:9).',
