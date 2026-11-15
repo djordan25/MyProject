@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { topics, tracks, topicsInTrack } from '../content';
-import { useProgress } from '../lib/progress';
+import { isDue, useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
 import ObjectionDrill from '../components/ObjectionDrill';
 
@@ -24,7 +24,7 @@ export default function Practice() {
 
   // Deck is fixed per round; rating cards during the round must not reshuffle it.
   const deck = useMemo(
-    () => shuffle(mode === 'review' ? pool.filter(({ o }) => p.drills[o.id] !== 'got') : pool),
+    () => shuffle(mode === 'review' ? pool.filter(({ o }) => isDue(p, o.id)) : pool),
     [pool, mode, seed],
   );
 
@@ -54,11 +54,11 @@ export default function Practice() {
           </select>
         </label>
         <button className={`btn ${mode === 'all' ? 'primary' : ''}`} onClick={() => restart('all')}>All objections</button>
-        <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Not yet mastered</button>
+        <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Due for review</button>
       </div>
       {!card ? (
         <section className="card">
-          <h2>{deck.length === 0 ? 'Nothing to review — everything is mastered!' : 'Round complete'}</h2>
+          <h2>{deck.length === 0 ? 'Nothing is due. Mastered objections come back for review after 1, 3, 7, 14 and 30 days.' : 'Round complete'}</h2>
           <button className="btn primary" onClick={() => restart(mode)}>Start again</button>
         </section>
       ) : (
