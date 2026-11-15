@@ -34,6 +34,9 @@ export const bibleCorruption: Topic = {
   objections: [
     {
       id: 'bc-1',
+      followUps: [
+        { reply: 'So you admit that scribes could falsify scripture.', answer: 'Jeremiah accuses the teachers of handling the law falsely, and the next verse says they have “rejected the word of the LORD” (Jeremiah 8:9). You can only reject a word that is still there to be rejected.' },
+      ],
       objection: 'Jeremiah 8:8 admits “the lying pen of the scribes” corrupted the law.',
       response:
         'Read the context. Jeremiah is rebuking teachers who claimed to be wise because they had the law, while rejecting God’s word (Jeremiah 8:8-9). He’s condemning false teaching and handling of the law — and Jeremiah himself goes on quoting and appealing to the law. Muslims also don’t argue that the Torah of Jeremiah’s day was corrupt, since the Quran affirms the Torah centuries later (Quran 5:43).',

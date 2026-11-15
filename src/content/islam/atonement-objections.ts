@@ -44,6 +44,9 @@ export const atonementObjections: Topic = {
     },
     {
       id: 'ao-2',
+      followUps: [
+        { reply: 'So God punished himself? That makes no sense.', answer: 'The Father did not punish an unwilling victim: the Son laid down his life of his own accord (John 10:17-18). The one wronged by our sin bore its cost himself. That is what forgiveness always costs the one who forgives.' },
+      ],
       objection: 'It’s unjust to punish an innocent man for the guilty.',
       response:
         'It would be unjust to force punishment on an unwilling third party. But at the cross, the judge himself — God the Son — voluntarily takes the penalty. Imagine a judge who sentences a guilty man justly, then steps down and pays the fine himself. That’s both justice and love (Romans 3:26; 5:8). The Quran itself tells of a son ransomed by a sacrifice (Quran 37:107).',

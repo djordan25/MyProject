@@ -55,6 +55,9 @@ export const quranOral: Topic = {
   objections: [
     {
       id: 'qo-1',
+      followUps: [
+        { reply: 'Allah promised to preserve the Quran, so those reports must be mistaken.', answer: 'Then Sahih al-Bukhari is mistaken about how the Quran was collected (Sahih al-Bukhari 4986), and Islam loses its own account of its book. If the reports are right, the preservation was fragile. Which is it?' },
+      ],
       objection: 'The whole Quran was memorised by thousands of companions, so nothing could be lost.',
       response:
         'If that were true, Umar wouldn’t have feared that a large part of the Quran might be lost when the reciters died at Yamama, and Zaid wouldn’t have found some verses with only one man (Sahih al-Bukhari 4986, 4988). Those are reports in Bukhari, the most trusted hadith collection. They show the Quran’s preservation was fragile, not guaranteed.',

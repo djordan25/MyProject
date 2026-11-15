@@ -55,6 +55,9 @@ export const muhammadWarfare: Topic = {
   objections: [
     {
       id: 'mw-1',
+      followUps: [
+        { reply: 'Quran 9:29 was only about the Byzantines, who threatened Medina.', answer: 'The verse gives its own reason. It says to fight those who do not believe in Allah or the Last Day and do not adopt “the religion of truth” (Quran 9:29). The stated cause is what they believe, not an attack they made.' },
+      ],
       objection: 'Muhammad’s wars were all defensive.',
       response:
         'Some early battles can be described that way (Quran 22:39-40). But Quran 9:29 commands fighting the People of the Scripture because they don’t believe, “until they give the jizyah… while they are humbled” — that isn’t self-defence. Muhammad said he was ordered to fight people until they testify to Islam (Sahih al-Bukhari 25), and Bukhari records a raid on Bani Mustaliq “without warning while they were heedless” (Sahih al-Bukhari 2541).',

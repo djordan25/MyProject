@@ -78,6 +78,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-2',
+      followUps: [
+        { reply: 'Mary was young when she was betrothed to Joseph too.', answer: 'The Bible gives no age for Mary, so that is a guess. Aisha’s age is not a guess: it is narrated from Aisha herself in Islam’s most trusted collection (Sahih al-Bukhari 5133).' },
+      ],
       objection: 'Aisha’s age was normal in that culture.',
       response:
         'Cultural context explains why people at the time weren’t shocked — but Islam claims Muhammad is the perfect example for all people in all times. If his conduct is timeless, culture can’t be the defence; if culture is the defence, his example isn’t timeless. Jesus’ example of self-giving love, by contrast, has never needed a cultural excuse.',
