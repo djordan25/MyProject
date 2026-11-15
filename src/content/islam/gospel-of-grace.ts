@@ -70,6 +70,22 @@ export const gospelOfGrace: Topic = {
       keyPoints: ['Assurance rests on Christ, not self.', '1 John 5:13 — God wants us to know.', 'Sahih al-Bukhari 6463 — deeds can’t save.'],
       references: ['1 John 5:13', 'John 10:27-29', 'Sahih al-Bukhari 6463'],
     },
+    {
+      id: 'gg-4',
+      objection: 'Muslims follow Jesus better than Christians do. He was circumcised, never ate pork, and kept the law.',
+      response:
+        'Jesus kept the law of Moses perfectly because he came to fulfil it: “I have not come to abolish them, but to fulfill them” (Matthew 5:17). He also taught that food does not defile a person, and Mark adds, “Thus all foods are clean” (Mark 7:18-19). The apostles, who knew him, ruled that Gentile believers are not under the law of Moses but are saved “through the grace of the Lord Jesus” (Acts 15:10-11). Following Jesus means trusting him as he said, not copying the diet of first-century Jews. And if keeping what Jesus kept is the test, Islam fails it too: Jesus kept the Sabbath and the Passover, and Muslims keep neither.',
+      keyPoints: ['Jesus fulfilled the law (Matthew 5:17).', 'All foods declared clean (Mark 7:18-19).', 'Islam keeps neither Sabbath nor Passover.'],
+      references: ['Matthew 5:17', 'Mark 7:18-19', 'Acts 15:10-11', 'Colossians 2:16-17'],
+    },
+    {
+      id: 'gg-5',
+      objection: 'Paul says faith alone, but James says “a man is justified by his deeds and not by faith alone” (James 2:24). The Bible contradicts itself, and James agrees with Islam.',
+      response:
+        'Paul and James are answering different questions. Paul asks how a sinner is made right with God, and says it is “by faith apart from works of the law” (Romans 3:28). James asks how real faith can be told from empty talk, and says, “faith by itself, if it does not result in action, is dead” (James 2:17). Paul agrees: we are saved by grace and “created in Christ Jesus to do good works” (Ephesians 2:10). Neither man teaches that deeds are weighed on a scale to earn paradise. And they were not rivals: James gave Paul the right hand of fellowship (Galatians 2:9).',
+      keyPoints: ['Paul: how we are made right with God.', 'James: how real faith shows itself.', 'Neither teaches earning paradise on the scales.'],
+      references: ['James 2:17', 'James 2:24', 'Romans 3:28', 'Ephesians 2:8-10', 'Galatians 2:9'],
+    },
   ],
   quiz: [
     {
