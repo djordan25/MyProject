@@ -6,7 +6,9 @@ import RefText from '../components/RefText';
 export default function Glossary() {
   const [q, setQ] = useState('');
   const needle = q.trim().toLowerCase();
-  const terms = glossary.filter((t) => !needle || `${t.term} ${t.meaning}`.toLowerCase().includes(needle));
+  const terms = glossary
+    .filter((t) => !needle || `${t.term} ${t.meaning}`.toLowerCase().includes(needle))
+    .sort((a, b) => a.term.localeCompare(b.term));
   return (
     <>
       <Link to="/track/islam" className="back">← Islam Specialization</Link>
