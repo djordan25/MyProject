@@ -1,16 +1,19 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { topics } from '../content';
+import { glossary } from '../content/glossary';
 
 interface Entry {
-  kind: 'Lesson' | 'Objection';
+  kind: 'Lesson' | 'Objection' | 'Glossary';
   topic: string;
   title: string;
   text: string;
   to: string;
 }
 
-const index: Entry[] = topics.flatMap((t) => [
+const index: Entry[] = [
+  ...glossary.map((g) => ({ kind: 'Glossary' as const, topic: 'Islamic terms', title: g.term, text: g.meaning, to: '/glossary' })),
+  ...topics.flatMap((t) => [
   ...t.lesson.map((s) => ({
     kind: 'Lesson' as const,
     topic: t.title,
@@ -25,7 +28,8 @@ const index: Entry[] = topics.flatMap((t) => [
     text: [o.response, ...o.keyPoints, ...(o.references ?? []), ...(o.followUps ?? []).flatMap((f) => [f.reply, f.answer])].join(' '),
     to: `/topic/${t.id}/objections`,
   })),
-]);
+  ]),
+];
 
 function snippet(text: string, word: string): string {
   const i = text.toLowerCase().indexOf(word);

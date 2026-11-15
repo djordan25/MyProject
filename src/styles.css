@@ -15,7 +15,7 @@
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --bg: #12161d;
     --surface: #1b212b;
     --text: #e8e6e1;
@@ -30,6 +30,21 @@
     --danger-bg: #3a2222;
     color-scheme: dark;
   }
+}
+:root[data-theme='dark'] {
+  --bg: #12161d;
+  --surface: #1b212b;
+  --text: #e8e6e1;
+  --muted: #9aa5b3;
+  --border: #2c3442;
+  --primary: #6f9ad1;
+  --primary-text: #0d1117;
+  --accent: #e8c26a;
+  --success: #5cc08a;
+  --danger: #e07a7a;
+  --success-bg: #1d3226;
+  --danger-bg: #3a2222;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -233,3 +248,5 @@ button.chip { font: inherit; cursor: pointer; }
 .glossary dd { margin: 0.15rem 0 0; color: var(--muted); }
 .continue-label { display: flex; flex-direction: column; color: var(--text); font-weight: 400; }
 .due-banner .continue-label strong { color: var(--text); }
+
+.theme-toggle { font: inherit; font-size: 0.85rem; font-style: normal; background: none; border: 1px solid var(--border); border-radius: 99px; padding: 0.15rem 0.7rem; color: var(--muted); cursor: pointer; margin-left: 0.5rem; }

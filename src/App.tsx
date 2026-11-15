@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
+import { applyTheme, loadTheme, nextTheme } from './lib/theme';
 import Home from './pages/Home';
 import TopicPage from './pages/TopicPage';
 import TrackPage from './pages/TrackPage';
@@ -12,6 +14,7 @@ import NotFound from './pages/NotFound';
 import { PassageProvider } from './components/PassagePopup';
 
 export default function App() {
+  const [theme, setTheme] = useState(loadTheme);
   return (
     <PassageProvider>
     <div className="app">
@@ -44,7 +47,18 @@ export default function App() {
       <footer className="footer">
         “Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But
         respond with gentleness and respect.” — 1 Peter 3:15
-        <div className="footer-links"><NavLink to="/about">About and sources</NavLink> · <NavLink to="/glossary">Glossary</NavLink></div>
+        <div className="footer-links"><NavLink to="/about">About and sources</NavLink> · <NavLink to="/glossary">Glossary</NavLink>
+          <button
+            className="theme-toggle"
+            onClick={() => {
+              const t = nextTheme(theme);
+              applyTheme(t);
+              setTheme(t);
+            }}
+          >
+            Theme: {theme}
+          </button>
+        </div>
       </footer>
     </div>
     </PassageProvider>
