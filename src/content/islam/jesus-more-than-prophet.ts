@@ -62,6 +62,9 @@ export const jesusMoreThanProphet: Topic = {
   objections: [
     {
       id: 'jp-1',
+      followUps: [
+        { reply: 'Jesus did his miracles only by God’s permission, like every prophet.', answer: 'Prophets pray and God acts. Jesus acts on his own authority. He forgives sins himself and proves it by healing: “the Son of Man has authority on earth to forgive sins” (Mark 2:10). No prophet ever claimed that. The Son does nothing apart from the Father, but he does everything the Father does (John 5:19).' },
+      ],
       objection: 'Other prophets did miracles too. Moses parted the sea; that doesn’t make him God.',
       response:
         'True — miracles alone don’t prove deity. The issue is the claims Jesus made alongside them. Moses never forgave sins, accepted worship, claimed the divine name, or said he would judge the world. Jesus did all these. And the Quran itself describes Jesus creating living birds from clay (Quran 3:49) — something no other prophet is said to do.',

@@ -45,6 +45,9 @@ export const crossAndResurrection: Topic = {
   objections: [
     {
       id: 'cr-1',
+      followUps: [
+        { reply: 'Jews do not read Isaiah 53 that way.', answer: 'Many today read it as the nation of Israel. But the servant is innocent and suffers for the sins of God’s people (Isaiah 53:8-9), which the nation cannot be. And the first Jews to follow Jesus read it of him: Philip explained this very chapter to the Ethiopian and told him about Jesus (Acts 8:32-35).' },
+      ],
       objection: 'Psalm 22 and Isaiah 53 are about Israel or David, not Jesus.',
       response:
         'Isaiah 53 can’t be Israel: the servant suffers “for the transgression of my people” (Isaiah 53:8) — he is distinct from the people — and he is innocent, having “done no violence” (53:9), while Isaiah describes Israel as sinful (Isaiah 1:4). As for Psalm 22, David was never pierced in hands and feet or had his clothes gambled for; those details fit the crucifixion exactly.',

@@ -60,6 +60,9 @@ export const crucifixionDenial: Topic = {
     },
     {
       id: 'cd-3',
+      followUps: [
+        { reply: 'So God did not answer his prayer.', answer: 'God answered the prayer Jesus actually prayed: “Yet not as I will, but as You will” (Matthew 26:39). The Father’s will was the cross and then the resurrection. Hebrews says he was heard (Hebrews 5:7): brought out of death, not kept from dying.' },
+      ],
       objection: 'Jesus prayed to be saved from death, and God answers prayers — so he wasn’t crucified.',
       response:
         'In Gethsemane Jesus prayed, “not My will, but Yours be done” (Luke 22:42). He submitted to the Father’s will. Hebrews 5:7 says he was heard — he was saved out of death, by resurrection, not from dying. In fact, at his arrest he said, “Shall I not drink the cup the Father has given Me?” (John 18:11).',

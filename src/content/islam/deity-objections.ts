@@ -40,6 +40,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-2',
+      followUps: [
+        { reply: 'Someone who does not know something cannot be God.', answer: 'Peter, who heard that saying, later told him, “Lord, You know all things” (John 21:17), and Jesus accepted it. Scripture holds both together because he is both: truly man, who grew and learned, and truly God. An explanation that keeps only one half is not explaining the Jesus of the Gospels.' },
+      ],
       objection: 'Jesus didn’t know the day or hour (Mark 13:32), so he can’t be all-knowing God.',
       response:
         'In his human nature, Jesus “grew in wisdom” (Luke 2:52) and voluntarily limited the use of his divine knowledge. Notice how he ranks himself in Mark 13:32 itself: “not even the angels in heaven, nor the Son, but only the Father” — he places himself above the angels, as the Son alongside the Father.',
@@ -59,6 +62,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-4',
+      followUps: [
+        { reply: 'Becoming a man is beneath God.', answer: 'Who decides what is beneath God? Scripture says his greatness is shown in his stooping to save us: he “emptied Himself, taking the form of a servant” (Philippians 2:7). A God who would not stoop to rescue his creatures would be less great, not more.' },
+      ],
       objection: '“God is not a man” (Numbers 23:19).',
       response:
         'Read the whole verse: “God is not a man, that He should lie, or a son of man, that He should change His mind” (Numbers 23:19). It says God isn’t like sinful humans who lie. It doesn’t say God cannot take on a human nature. The incarnation is God the Son adding humanity to himself without ceasing to be God (John 1:14; Colossians 2:9). Even in Islam’s sources God draws near to creation: Allah calls to Moses at the fire and from the tree (Quran 27:8-9; 28:30), and “comes every night down on the nearest Heaven to us” (Sahih al-Bukhari 1145). If God can do that without ceasing to be God, the incarnation is not impossible.',
@@ -67,6 +73,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-5',
+      followUps: [
+        { reply: 'He plainly denied being good.', answer: 'He did not say, “I am not good.” He asked why the man called him good, then told him to give up everything and follow him to gain treasure in heaven (Mark 10:21). No mere prophet speaks like that. Elsewhere he calls himself “the good shepherd” (John 10:11).' },
+      ],
       objection: 'Jesus said “Why do you call Me good?… No one is good except God alone” (Mark 10:18).',
       response:
         'Jesus wasn’t denying he was good — elsewhere he calls himself the Good Shepherd (John 10:11) and challenges anyone to convict him of sin (John 8:46). He was making the rich man think: if only God is good, and you call me good, what are you saying about me? He then tells the man to follow him — claiming the authority only God has.',

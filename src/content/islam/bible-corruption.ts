@@ -64,6 +64,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-4',
+      followUps: [
+        { reply: 'Jesus preached one Gospel. Where is that book?', answer: 'Jesus never wrote a book, and no one in the first century says he did. What he preached was recorded by those who heard him. Mark opens with “the gospel of Jesus Christ” (Mark 1:1): the good news is about him. A book called the Injil, handed to Jesus, is an idea found only in the Quran, six hundred years later.' },
+      ],
       objection: 'There are four Gospels, but the Quran speaks of one Injil. Which is the real one?',
       response:
         'There is one gospel — the good news about Jesus — told in four accounts, as four witnesses describe one event. The New Testament itself speaks of “the gospel” in the singular (Mark 1:1; 1 Corinthians 15:1). The Christians the Quran addressed (Quran 5:47) were reading those very four accounts.',
@@ -72,6 +75,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-5',
+      followUps: [
+        { reply: 'If those passages were added, what else was?', answer: 'We know about those two passages because the manuscripts show it, and the same manuscripts show how stable everything else is. Other large additions would show up in the same way. The evidence is public, and every modern Bible marks the passages.' },
+      ],
       objection: 'Mark 16:9-20 and the story of the woman caught in adultery (John 8:1-11) aren’t in the earliest manuscripts. The Bible was added to!',
       response:
         'Yes — and every modern Bible tells you so in a footnote. We know these passages are later because we have so many early manuscripts to compare. That’s the strength of the evidence, not a weakness. No Christian doctrine depends on those passages. Compare: the Quran’s variant copies were burned (Sahih al-Bukhari 4987), so we can’t compare them in the same way.',

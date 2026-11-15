@@ -65,6 +65,9 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-3',
+      followUps: [
+        { reply: 'The Greek was changed after Muhammad appeared.', answer: 'Manuscripts of John copied centuries before Muhammad was born already read parakletos. Nobody could alter a text hundreds of years before the reason to alter it existed.' },
+      ],
       objection: 'The original Greek said periklytos (“praised one” = Ahmad), not parakletos.',
       response:
         'Not one of the thousands of Greek manuscripts of John reads periklytos — they all read parakletos (“helper, advocate”). And the context — the Spirit of truth, unseen by the world, dwelling in the disciples — doesn’t fit Muhammad regardless of the word.',
