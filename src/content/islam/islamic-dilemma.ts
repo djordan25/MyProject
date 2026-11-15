@@ -102,6 +102,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-4',
+      followUps: [
+        { reply: 'The Quran corrects what Christians changed. That is what a criterion does.', answer: 'Then show me the verse where the Quran says which words of the Gospel were changed and what they originally said. It never does. Instead it tells Christians to judge by the Gospel they have (Quran 5:47). A corrector that never names the errors, and sends you back to the book it is supposed to be correcting, is not correcting it.' },
+      ],
       objection: 'The Quran is the criterion over earlier books (Quran 5:48), so we judge the Bible by the Quran.',
       response:
         'The same verse says the Quran was sent “confirming that which preceded it of the Scripture”, and the Arabic word behind “criterion” there (muhaymin) primarily means a guardian, overseer or witness. You can’t confirm and guard a book while calling it corrupt. And the Quran also tells Muhammad to check with those who read the earlier scripture when in doubt (Quran 10:94). The logic runs the other way: if the Quran confirms the Bible, then the Bible can test the Quran.',

@@ -74,6 +74,9 @@ export const quranOral: Topic = {
     },
     {
       id: 'qo-3',
+      followUps: [
+        { reply: 'The seven ways were a mercy, to make recitation easy.', answer: 'That is what the hadith says (Sahih al-Bukhari 4992). But it means the Quran never had one fixed wording, and most of that variety was later removed: Uthman kept one written form and burned the rest (Sahih al-Bukhari 4987). If the other forms were revelation, then revelation was burned.' },
+      ],
       objection: 'The seven ahruf are just different dialects; the meaning is identical.',
       response:
         'Even if every difference were minor, it still means there was no single wording from the start — which is exactly what “perfectly preserved” usually claims. And the differences were serious enough that Umar nearly attacked another Muslim over them (Sahih al-Bukhari 4992) and that Uthman later destroyed competing copies (Sahih al-Bukhari 4987).',

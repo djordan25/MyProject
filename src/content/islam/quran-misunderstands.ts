@@ -75,6 +75,9 @@ export const quranMisunderstands: Topic = {
     },
     {
       id: 'qm-3',
+      followUps: [
+        { reply: 'Then stop calling him “Son”. It only confuses people.', answer: 'It is God’s own word for him. At Jesus’ baptism the voice from heaven says, “This is My beloved Son” (Matthew 3:16-17). We explain what God has revealed; we don’t rename it. And the Quran also uses family words without biology: it calls Mecca “the Mother of Cities” (Quran 6:92).' },
+      ],
       objection: 'If God has a Son, he must have a wife. That is what “son” means.',
       response:
         'Christians completely agree that God has no wife — the idea is blasphemous to us too. In the Bible, “Son” is not about biology but about sharing the same nature and an eternal relationship, the way “son of man” means a true human. Jesus is the eternal Word who was with God and was God before he took on flesh (John 1:1, 14). Interestingly, the Quran itself calls Jesus “His word” (Quran 4:171).',

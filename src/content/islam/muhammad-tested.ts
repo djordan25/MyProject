@@ -100,6 +100,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-4',
+      followUps: [
+        { reply: 'Allah protected the Prophet, so the magic could not really harm him.', answer: 'Yet Islam’s most trusted collection says a man’s spell made him imagine he had done things he had not done (Sahih al-Bukhari 5763). If Allah’s protection allowed that, it did not cover his mind. That is the difficulty, and it comes from the hadith, not from critics.' },
+      ],
       objection: 'The magic hadith only affected his worldly matters, not the revelation.',
       response:
         'That is an interpretation Muslim scholars added later; the hadith itself says he imagined doing things he had not done (Sahih al-Bukhari 5763). It doesn’t draw that line. If his perception of his own actions was affected, how do we know where the boundary was? Jesus had authority over every evil power.',

@@ -74,6 +74,9 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-3',
+      followUps: [
+        { reply: 'Jesus said he came to bring a sword.', answer: 'Read on from Matthew 10:34. The “sword” is division inside families when one member follows him (Matthew 10:35-36). He is describing what his followers will suffer, not what they should do. When a disciple actually drew a sword, Jesus told him to put it away (Matthew 26:52).' },
+      ],
       objection: 'Christians fought the Crusades and many other wars.',
       response:
         'Yes — and when Christians have killed in Christ’s name, they disobeyed his teaching (Matthew 5:44; 26:52). The question isn’t whether followers of a religion have done evil; all have. It’s what the founder taught and modelled. Jesus died for his enemies; Muhammad led armies against his.',

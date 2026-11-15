@@ -72,6 +72,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-3',
+      followUps: [
+        { reply: 'Then why did it take three hundred years to define it?', answer: 'Because a new denial arose that needed a precise answer. Long before, Christians were worshipping Jesus as God and baptising in the name of the Father, Son and Holy Spirit (Matthew 28:19). Defining a belief carefully is not inventing it.' },
+      ],
       objection: 'The Trinity was invented at the Council of Nicaea in 325.',
       response:
         'Nicaea didn’t invent the deity of Christ; it defended what Christians already believed against a new teaching (Arianism). Long before, the New Testament calls Jesus God (John 1:1; 20:28; Titus 2:13), and Christians were baptising in the name of Father, Son and Spirit (Matthew 28:19). The council put existing belief into precise words.',

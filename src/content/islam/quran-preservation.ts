@@ -68,6 +68,9 @@ export const quranPreservation: Topic = {
     },
     {
       id: 'qp-4',
+      followUps: [
+        { reply: 'Every copy of the Quran in the world today is identical.', answer: 'Printed Qurans differ by reading: the Hafs and Warsh readings, both accepted by Muslims, differ in some words and letters. And all of them descend from Uthman’s edition, made when the other copies were burned (Sahih al-Bukhari 4987). Agreement among copies of one edited text cannot tell you what was in the copies that were destroyed.' },
+      ],
       objection: 'The Bible has thousands of variants; the Quran has none.',
       response:
         'The Bible’s variants are visible because thousands of manuscripts survived and weren’t destroyed — that’s how we know what the original said. The Quran’s early variant copies were burned (Sahih al-Bukhari 4987), it was revealed in seven ways (Sahih al-Bukhari 4992), and it is still recited in several canonical readings. Apply the same standard to both books, and the Bible comes out very well.',

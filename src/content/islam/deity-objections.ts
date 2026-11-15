@@ -29,6 +29,9 @@ export const deityObjections: Topic = {
   objections: [
     {
       id: 'do-1',
+      followUps: [
+        { reply: 'Greater means greater. No one is greater than God.', answer: 'In the same Gospel Jesus says, “I and the Father are one” (John 10:30), and that all must honour the Son just as they honour the Father (John 5:23). So “greater” cannot mean a different kind of being. It describes the Son’s humbled position on earth, which in that very verse he says he is about to leave (John 14:28).' },
+      ],
       objection: 'Jesus said “The Father is greater than I” (John 14:28).',
       response:
         'Greater in position, not in nature. While on earth the Son had humbled himself as a servant (Philippians 2:7). Jesus is going back to the Father’s glory — that’s why the disciples should rejoice. A president is greater in position than a citizen, but not more human. And the same Gospel records Jesus saying “I and the Father are one” (John 10:30) and Thomas worshipping him as God (John 20:28).',
@@ -45,6 +48,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-3',
+      followUps: [
+        { reply: 'Then there are two Gods, one praying to the other.', answer: 'Two persons, one God. The Son speaking to the Father is what the Trinity means: the persons are distinct and love one another (John 17:24), and yet there is one divine being (Deuteronomy 6:4).' },
+      ],
       objection: 'Jesus prayed to God. Does God pray to himself?',
       response:
         'Jesus didn’t pray to himself; the Son prayed to the Father — two distinct persons. That fits the Trinity perfectly. As a true man, Jesus lived in perfect dependence on the Father, setting us an example. In John 17:5 he even prays, “glorify Me in Your presence with the glory I had with You before the world existed” — no mere prophet could pray that.',
