@@ -91,6 +91,14 @@ export const trinity: Topic = {
       keyPoints: ['Simplicity isn’t the test; revelation is.', 'Quran 4:171 — Word and Spirit.', 'The Bible identifies them as God.'],
       references: ['Quran 4:171', 'Quran 2:87', 'John 1:1', 'John 14:26'],
     },
+    {
+      id: 'tr-6',
+      objection: 'The Trinity was borrowed from pagan religions with their triads of gods.',
+      response:
+        'Pagan triads are three separate gods, often a father, a mother and a child. The Trinity is one God. The first Christians were Jews who would die before worshipping more than one God, and they drew their teaching from the Hebrew Scriptures: the LORD who is sent by the LORD (Zechariah 2:10-11), and the Angel of the LORD who is himself God (Exodus 3:2-6). If anything resembles the pagan pattern, it is the triad of God, Mary and Jesus that the Quran attacks (Quran 5:116), which no church has ever taught.',
+      keyPoints: ['Pagan triads are three gods; the Trinity is one.', 'The teaching comes from the Hebrew Scriptures.', 'Quran 5:116 attacks a triad Christians never held.'],
+      references: ['Deuteronomy 6:4', 'Zechariah 2:10-11', 'Exodus 3:2-6', 'Quran 5:116'],
+    },
   ],
   quiz: [
     {

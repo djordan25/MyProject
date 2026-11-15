@@ -110,6 +110,14 @@ export const deityObjections: Topic = {
       keyPoints: ['Truly man: Christians agree.', 'Peter’s own preaching: Author of life, Lord of all.', 'Calling on the LORD’s name applied to Jesus.'],
       references: ['Acts 2:22', 'Acts 3:13-15', 'Acts 10:36', 'Acts 2:36', 'Acts 2:21', 'Acts 2:38'],
     },
+    {
+      id: 'do-11',
+      objection: 'Jesus prayed like a Muslim: he fell on his face before God (Matthew 26:39). He was a Muslim.',
+      response:
+        'Falling face down in prayer was a Jewish posture long before Islam: Abraham, Moses and Joshua all did it (Genesis 17:3; Numbers 16:22; Joshua 5:14). A posture does not make someone a Muslim. Listen instead to what Jesus prayed. He called God “My Father”, which Islam rejects, saying God “neither begets nor is born” (Quran 112:3). And he prayed about the cup he was about to drink, his death on the cross, which Islam says never happened (Quran 4:157).',
+      keyPoints: ['Prostration was Jewish practice centuries before Islam.', 'Jesus prayed to God as “My Father”.', 'His prayer was about the death Islam denies.'],
+      references: ['Matthew 26:39', 'Genesis 17:3', 'Numbers 16:22', 'Joshua 5:14', 'Quran 112:3', 'Quran 4:157'],
+    },
   ],
   quiz: [
     {
