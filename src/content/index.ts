@@ -29,10 +29,11 @@ import { quranSources } from './islam/quran-sources';
 import { hadithReliability } from './islam/hadith-reliability';
 import { muhammadWarfare } from './islam/muhammad-warfare';
 import { sharingTheGospel } from './islam/sharing-the-gospel';
+import { branchesOfIslam } from './islam/branches';
 
 export const topics: Topic[] = [
   existenceOfGod, identityOfJesus, reliabilityOfScripture, howWeGotTheBible, resurrection, problemOfEvil,
-  understandingIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
+  understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
   quranOral, quranPreservation, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,

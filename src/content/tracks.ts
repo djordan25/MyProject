@@ -29,7 +29,7 @@ export const tracks: Track[] = [
       {
         title: 'Start here',
         description: 'Understand Islam accurately before you answer it.',
-        topicIds: ['islam-understanding'],
+        topicIds: ['islam-understanding', 'islam-branches'],
       },
       {
         title: 'Why Islam is false',
