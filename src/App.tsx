@@ -7,6 +7,7 @@ import ProgressPage from './pages/ProgressPage';
 import Search from './pages/Search';
 import About from './pages/About';
 import Glossary from './pages/Glossary';
+import MixedQuiz from './pages/MixedQuiz';
 import NotFound from './pages/NotFound';
 import { PassageProvider } from './components/PassagePopup';
 
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/about" element={<About />} />
           <Route path="/glossary" element={<Glossary />} />
+          <Route path="/quiz" element={<MixedQuiz />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
