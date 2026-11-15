@@ -38,6 +38,9 @@ export const identityOfJesus: Topic = {
   objections: [
     {
       id: 'joj-1',
+      followUps: [
+        { reply: 'John’s Gospel is late. The earliest Jesus made no such claims.', answer: 'The claims are in Mark, the earliest Gospel: he forgives sins on his own authority (Mark 2:5-7), and tells the high priest he will sit at the right hand of God and come with the clouds of heaven (Mark 14:62). And Paul, writing before any Gospel, already says he existed in the form of God (Philippians 2:6).' },
+      ],
       objection: 'Jesus never actually claimed to be God — that was invented later.',
       response:
         'Even if you only look at the earliest material, Jesus does things only God can do: he forgives sins committed against other people, he claims authority to judge everyone, and he describes himself with the divine Son of Man imagery from Daniel 7. His opponents understood the claim — that’s why they charged him with blasphemy. And Paul, writing in the 50s AD, already quotes hymns that worship Jesus as God.',
@@ -49,6 +52,9 @@ export const identityOfJesus: Topic = {
     },
     {
       id: 'joj-2',
+      followUps: [
+        { reply: 'All the sources are Christian, so they are biased.', answer: 'Tacitus and Josephus were not Christians, and both mention him. And having a point of view does not make a source false: nearly everything we know of ancient history comes from writers who cared about their subject. Historians test their sources; they do not discard them for having convictions.' },
+      ],
       objection: 'Jesus probably never even existed.',
       response:
         'That view is rejected by nearly every historian in the field, including sceptics like Bart Ehrman, who wrote a book defending Jesus’ existence. We have multiple independent sources within decades of his life, plus Roman and Jewish writers who mention him. By the standards of ancient history, Jesus is very well attested.',

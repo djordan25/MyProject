@@ -54,6 +54,9 @@ export const problemOfEvil: Topic = {
     },
     {
       id: 'poe-2',
+      followUps: [
+        { reply: 'A good God would have made a world without earthquakes.', answer: 'That would be a different world, without the stable natural order that makes life, science and responsible action possible. And Scripture’s own answer is that this world is not as it will be: creation itself is waiting to be set free (Romans 8:20-22).' },
+      ],
       objection: 'What about natural disasters? Those aren’t caused by free will.',
       response:
         'That’s a fair point. Some respond that a stable, law-governed world — needed for free, meaningful choices — will include things like earthquakes. The Bible also describes creation as fallen and groaning (Romans 8:20-22). Ultimately, we may not know every reason, but if God exists and is good, we can trust there is one.',

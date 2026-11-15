@@ -72,6 +72,9 @@ export const existenceOfGod: Topic = {
     },
     {
       id: 'eog-2',
+      followUps: [
+        { reply: 'A multiverse is still simpler than God.', answer: 'A multiverse is an unimaginably large number of unobservable universes, plus a mechanism to produce them that itself needs explaining. One eternal mind is a far simpler explanation, and it also explains why there is anything at all.' },
+      ],
       objection: 'Maybe we live in a multiverse, so fine-tuning is just what we’d expect somewhere.',
       response:
         'There is no direct evidence of a multiverse, so it is a speculative hypothesis. Even if one exists, the mechanism that generates universes would itself require fine-tuning. And a multiverse predicts we should far more likely be a small, briefly-existing observer (a “Boltzmann brain”) than an entire finely-tuned cosmos like ours.',
@@ -97,6 +100,9 @@ export const existenceOfGod: Topic = {
     },
     {
       id: 'eog-4',
+      followUps: [
+        { reply: 'Science has explained everything else. It will explain this too.', answer: 'Science explains how things inside the universe behave by using the laws of nature. It cannot use those laws to explain why there are laws, or why there is a universe for them to govern. That is not a gap waiting to be filled; it is a different kind of question.' },
+      ],
       objection: 'Science can explain the universe without God.',
       response:
         'Science explains how processes within the universe work, and that’s wonderful. But the question here is why there is a universe at all, and why its laws are suited to life. Science describes the laws; it can’t explain why there are laws or why anything exists. Many of the founders of modern science believed in God precisely because they expected a rational, orderly creation.',

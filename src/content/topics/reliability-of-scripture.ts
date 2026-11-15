@@ -50,6 +50,9 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       id: 'ros-2',
+      followUps: [
+        { reply: 'Even one changed word means we can’t trust it.', answer: 'Then no ancient book can be trusted, and no modern one either, since every printed book has misprints. What matters is whether we can tell what the original said. With thousands of copies to compare, in the vast majority of places we can, and the uncertain places are marked in the footnotes of any study Bible.' },
+      ],
       objection: 'There are more textual variants than words in the New Testament.',
       response:
         'That’s true, but it’s because we have so many manuscripts — more copies means more counted differences. The overwhelming majority are spelling or word-order changes that don’t affect meaning. Only a tiny fraction are both meaningful and viable, and none overturn any central Christian belief.',
@@ -61,6 +64,9 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       id: 'ros-3',
+      followUps: [
+        { reply: 'Thirty years is long enough for legends to grow.', answer: 'Legends grow when the eyewitnesses are gone. Thirty years after the crucifixion many of them were alive, including hostile ones. Paul points to more than five hundred witnesses, “most of whom are still living” (1 Corinthians 15:6). That is an invitation to check.' },
+      ],
       objection: 'The Gospels were written long after the events by people who weren’t there.',
       response:
         'Even on standard scholarly dating, the Gospels were written within 30-60 years — while eyewitnesses and opponents were still alive. Paul’s letters are earlier still and quote creeds that go back to the first few years after the crucifixion. Compare that to our main biographies of Alexander the Great, written about 400 years after his death.',
