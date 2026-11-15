@@ -55,6 +55,9 @@ export const quranChallenge: Topic = {
     },
     {
       id: 'qc-2',
+      followUps: [
+        { reply: 'No unlettered man could know so much about the earlier prophets.', answer: 'He lived among Jews and Christians, and their stories were told wherever caravans stopped. The Quran records his critics saying that a man was teaching him (Quran 16:103). And what it tells of earlier prophets often matches later legends, not the Bible (see Borrowed Stories).' },
+      ],
       objection: 'Muhammad was illiterate (unlettered), so he could never have produced such a book himself.',
       response:
         'Many great poets and storytellers in oral cultures were illiterate — Arabia had a rich tradition of oral poetry. The Quran was recited, not written, by Muhammad, and his opponents even accused him of being taught by someone (Quran 16:103). Literacy isn’t required for powerful speech, so it doesn’t prove a divine source.',

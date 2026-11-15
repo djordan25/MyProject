@@ -36,6 +36,9 @@ export const atonementObjections: Topic = {
   objections: [
     {
       id: 'ao-1',
+      followUps: [
+        { reply: 'The verse says no one bears another’s sin. That is clear.', answer: 'It says a son will not be punished for his father’s sin. The same Scriptures provide a goat that carries the people’s sins away (Leviticus 16:21-22) and promise a servant who bears the sin of many (Isaiah 53:12). A willing substitute provided by God is a different thing from an unwilling victim.' },
+      ],
       objection: 'Ezekiel 18:20 says no one bears another’s sin — the Bible contradicts the atonement.',
       response:
         'Ezekiel 18 is about people being punished for their parents’ sins against their will — the Israelites were blaming their ancestors for their own judgment. It isn’t about a willing substitute. Jesus wasn’t forced; he laid down his life voluntarily (John 10:18). The same Prophets that contain Ezekiel 18 also contain Isaiah 53, where the servant bears the sin of many.',

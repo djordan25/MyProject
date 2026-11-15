@@ -57,6 +57,9 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-2',
+      followUps: [
+        { reply: 'The Advocate speaks what he hears. The Holy Spirit does not speak.', answer: 'The Holy Spirit speaks throughout the New Testament: “the Holy Spirit said, ‘Set apart for Me Barnabas and Saul’” (Acts 13:2). And Jesus says this Advocate will be in the disciples (John 14:17). That cannot be said of any man.' },
+      ],
       objection: 'Jesus said the Advocate (Helper) could not come unless he left (John 16:7). The Holy Spirit was already present before, so it must be Muhammad.',
       response:
         'The Spirit was active in the Old Testament, but Jesus promised a new indwelling: “He abides with you and will be in you” (John 14:17). That’s what happened at Pentecost (Acts 2). And Jesus explicitly calls the Helper “the Holy Spirit” (John 14:26) and says the disciples already know him. Muhammad was born 500 years after those disciples died.',

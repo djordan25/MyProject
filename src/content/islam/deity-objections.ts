@@ -84,6 +84,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-6',
+      followUps: [
+        { reply: 'The mission to the nations was added later. Jesus himself only went to Jews.', answer: 'During his ministry Jesus praised a Roman centurion’s faith and said many would come from east and west into the kingdom (Matthew 8:10-11). He said he had other sheep, not of this fold, whom he must bring in (John 10:16). The mission to the nations was his plan from the start.' },
+      ],
       objection: 'Jesus said he was sent only to the lost sheep of Israel (Matthew 15:24) — he was just a prophet to the Jews.',
       response:
         'His earthly ministry was focused on Israel first, but in that very story he heals the Gentile woman’s daughter. After the resurrection he commands, “Therefore go and make disciples of all nations” (Matthew 28:19), and claims “all authority in heaven and on earth has been given to me” (Matthew 28:18). That’s universal lordship.',
@@ -130,6 +133,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-11',
+      followUps: [
+        { reply: 'Muslims pray the way the prophets prayed. Christians do not.', answer: 'Scripture shows people praying standing, kneeling and lying face down. Jesus taught that what matters is not the posture: true worshippers worship the Father in spirit and in truth (John 4:23-24).' },
+      ],
       objection: 'Jesus prayed like a Muslim: he fell on his face before God (Matthew 26:39). He was a Muslim.',
       response:
         'Falling face down before God runs through the Hebrew Scriptures, long before Islam: Abraham, Moses and Joshua all did it (Genesis 17:3; Numbers 16:22; Joshua 5:14). A posture does not make someone a Muslim. Listen instead to what Jesus prayed. He called God “My Father”, which Islam rejects, saying God “neither begets nor is born” (Quran 112:3). And he prayed about the cup he was about to drink, his death on the cross, which Islam says never happened (Quran 4:157).',

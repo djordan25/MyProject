@@ -83,6 +83,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-4',
+      followUps: [
+        { reply: 'If one verse was forged, the doctrine is forged.', answer: 'The doctrine was taught for centuries from other passages before that wording appeared in any Greek manuscript. Remove it, as modern Bibles do, and nothing changes: Matthew 28:19 and John 1:1 are in every manuscript we have.' },
+      ],
       objection: '1 John 5:7 was added later — your proof text for the Trinity is a forgery.',
       response:
         'You’re right that the King James wording of 1 John 5:7, which names the Father, the Word and the Holy Spirit, is a late addition, and modern translations omit it or footnote it. Christians who study manuscripts are open about that. But the doctrine never depended on it. Matthew 28:19, 2 Corinthians 13:14, John 1:1 and many other passages remain in every manuscript.',
@@ -91,6 +94,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-5',
+      followUps: [
+        { reply: 'A child can understand tawhid. Nobody understands the Trinity.', answer: 'A God we could fully understand would be no greater than our own minds. The Quran itself says people grasp nothing of Allah’s knowledge except what he wills (Quran 2:255). The question is not what is easiest to grasp but what God has revealed about himself.' },
+      ],
       objection: 'Pure monotheism (tawhid) is simpler and more natural than the Trinity.',
       response:
         'Simpler doesn’t mean truer — the question is what God has revealed. And notice the Quran itself speaks of God’s Word and Spirit in exalted ways: Jesus is “His word” and “a soul from Him” (Quran 4:171), and God supported Jesus with the “Pure Spirit” (Quran 2:87). The Bible reveals who that Word and Spirit truly are: God himself.',

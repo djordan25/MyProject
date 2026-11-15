@@ -76,6 +76,9 @@ export const understandingIslam: Topic = {
     },
     {
       id: 'iu-3',
+      followUps: [
+        { reply: 'We honour Jesus by refusing to call him God.', answer: 'Jesus said the opposite: all are to honour the Son just as they honour the Father, and “Whoever does not honor the Son does not honor the Father who sent Him” (John 5:23). To give him less than he claimed is not honour.' },
+      ],
       objection: 'We Muslims love and respect Jesus more than you think.',
       response:
         'I really appreciate that — it’s something we share. The Quran calls Jesus the Messiah, a word from God, born of a virgin, a worker of miracles. I’d love to look together at who Jesus said he was in the earliest records of his life. If we both respect him, his own words should matter most to us.',

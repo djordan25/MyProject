@@ -84,6 +84,9 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       id: 'jp-3',
+      followUps: [
+        { reply: 'Ezekiel is called “son of man” too.', answer: 'Ezekiel is addressed as a son of man, meaning a human being. Jesus calls himself the Son of Man who will sit at the right hand of God and come with the clouds of heaven (Mark 14:62). That is the figure of Daniel 7:13-14, not Ezekiel, and the high priest understood the difference.' },
+      ],
       objection: 'Jesus called himself “Son of Man”, which shows he was just a human.',
       response:
         '“Son of Man” comes from Daniel 7:13-14, where one like a son of man comes with the clouds of heaven and receives everlasting dominion, glory and the service of all nations. When Jesus applied that title to himself before the high priest, he was condemned for blasphemy (Mark 14:62-64). It’s one of the highest claims he made.',
