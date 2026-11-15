@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isDue, nextReview, type Progress } from './progress';
+import { isDue, nextReview, progress, type Progress } from './progress';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -26,5 +26,21 @@ describe('spaced repetition', () => {
     expect(isDue(p, 'old', now)).toBe(true);
     expect(isDue(p, 'legacy', now)).toBe(true);
     expect(isDue(p, 'fresh', now)).toBe(false);
+  });
+});
+
+describe('backup', () => {
+  it('round-trips progress and rejects invalid files', () => {
+    progress.reset();
+    progress.markLessonRead('some-topic');
+    progress.rateDrill('some-objection', 'got');
+    const backup = progress.exportJson();
+    progress.reset();
+    expect(JSON.parse(progress.exportJson()).lessonsRead).toEqual({});
+    expect(progress.importJson(backup)).toBe(true);
+    expect(JSON.parse(progress.exportJson()).lessonsRead).toEqual({ 'some-topic': true });
+    expect(progress.importJson('not json')).toBe(false);
+    expect(progress.importJson('{"foo":1}')).toBe(false);
+    progress.reset();
   });
 });

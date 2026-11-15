@@ -67,6 +67,19 @@ export const progress = {
       review: { ...state.review, [objectionId]: nextReview(state.review[objectionId], rating, Date.now()) },
     }),
   reset: () => set(empty),
+  /** Current progress as a JSON string, for backing up or moving to another device. */
+  exportJson: () => JSON.stringify(state),
+  /** Replaces progress with a backup made by exportJson. Returns false if the text is not a valid backup. */
+  importJson: (text: string): boolean => {
+    try {
+      const data = JSON.parse(text);
+      if (!data || typeof data !== 'object' || typeof data.drills !== 'object' || typeof data.lessonsRead !== 'object') return false;
+      set({ ...empty, ...data });
+      return true;
+    } catch {
+      return false;
+    }
+  },
 };
 
 export function useProgress(): Progress {

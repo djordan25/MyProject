@@ -40,8 +40,38 @@ export default function ProgressPage() {
           })}
         </section>
       ))}
-      <p className="muted">Progress is saved on this device only.</p>
-      <button className="btn" onClick={() => confirm('Reset all progress?') && progress.reset()}>Reset progress</button>
+      <p className="muted">Progress is saved on this device only. Download a backup to keep it safe or move it to another device.</p>
+      <div className="row">
+        <button
+          className="btn"
+          onClick={() => {
+            const url = URL.createObjectURL(new Blob([progress.exportJson()], { type: 'application/json' }));
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'apologetics-progress.json';
+            a.click();
+            URL.revokeObjectURL(url);
+          }}
+        >
+          Download backup
+        </button>
+        <label className="btn">
+          Restore from backup
+          <input
+            type="file"
+            accept="application/json,.json"
+            hidden
+            onChange={async (e) => {
+              const file = e.target.files?.[0];
+              e.target.value = '';
+              if (!file) return;
+              if (!confirm('Replace the progress on this device with the backup?')) return;
+              if (!progress.importJson(await file.text())) alert('That file is not a valid progress backup.');
+            }}
+          />
+        </label>
+        <button className="btn" onClick={() => confirm('Reset all progress?') && progress.reset()}>Reset progress</button>
+      </div>
     </>
   );
 }
