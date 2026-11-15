@@ -28,7 +28,7 @@ export const quranPreservation: Topic = {
       heading: 'Verses that were lost',
       body: [
         'The verse of stoning: Umar said, “Allah sent Muhammad with truth and He sent down the Book upon him, and the verse of stoning was included in what was sent down to him.” He feared people would one day say, “We do not find the punishment of stoning in the Book of Allah” (Sahih Muslim 1691; see Sahih al-Bukhari 6830). It is not in the Quran today.',
-        'The verse of suckling: Aisha said a verse on ten sucklings was revealed, then replaced by five, “and Allah’s Messenger died and it was before that time found in the Holy Qur’an” (Sahih Muslim 1452). It is not in the Quran today.',
+        'The verse of suckling: Aisha said a verse on ten sucklings was revealed, then replaced by five, “and Allah’s Messenger died and it was before that time (found) in the Holy Qur’an” (Sahih Muslim 1452). It is not in the Quran today.',
         'A forgotten surah: Abu Musa al-Ash’ari said they used to recite a surah similar in length to Surat Bara’at (at-Tawba), which he had forgotten except for one line (Sahih Muslim 1050).',
         'Muhammad himself said a man’s recitation reminded him of verses “which I was caused to forget” (Sahih al-Bukhari 5038). The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
       ],
@@ -56,7 +56,7 @@ export const quranPreservation: Topic = {
       id: 'qp-3',
       objection: 'Uthman only standardised the Quraysh dialect; the content was the same.',
       response:
-        'Then why burn the others? Hudhaifa feared Muslims would “differ about the Book as Jews and Christians did” (Sahih al-Bukhari 4987) — that’s about the text, not accents. And companions like Ibn Mas’ud recited differently and rejected surahs 113-114 as Quran (Sahih al-Bukhari 4977). I’m not saying the Quran is wildly different — I’m saying letter-perfect preservation isn’t what Bukhari and Muslim describe.',
+        'Then why burn the others? Hudhaifa feared Muslims would “differ about the Book (Qur’an) as Jews and the Christians did before” (Sahih al-Bukhari 4987) — that’s about the text, not accents. And companions like Ibn Mas’ud recited differently and rejected surahs 113-114 as Quran (Sahih al-Bukhari 4977). I’m not saying the Quran is wildly different — I’m saying letter-perfect preservation isn’t what Bukhari and Muslim describe.',
       keyPoints: ['Burning implies meaningful differences.', 'Ibn Mas’ud differed on contents.', 'Be measured: challenge “perfect”, not “roughly preserved”.'],
       references: ['Sahih al-Bukhari 4987', 'Sahih al-Bukhari 4977'],
     },

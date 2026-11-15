@@ -33,8 +33,8 @@ export default function App() {
         </Routes>
       </main>
       <footer className="footer">
-        “Always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do
-        it with gentleness and respect.” — 1 Peter 3:15
+        “Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But
+        respond with gentleness and respect.” — 1 Peter 3:15
       </footer>
     </div>
     </PassageProvider>

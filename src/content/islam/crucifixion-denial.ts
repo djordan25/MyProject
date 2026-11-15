@@ -27,7 +27,7 @@ export const crucifixionDenial: Topic = {
     {
       heading: 'The Quran’s own problems',
       body: [
-        'Divine deception: if God made someone else look like Jesus, then God deceived Jesus’ mother, his disciples and the watching crowd. That deception produced the entire Christian faith. Quran 3:54 says “Allah is the best of planners.” Would a God of truth found a worldwide false religion by trickery?',
+        'Divine deception: if God made someone else look like Jesus, then God deceived Jesus’ mother, his disciples and the watching crowd. That deception produced the entire Christian faith. Quran 3:54 says “Allah is the best of planners.” (The Arabic word, makr, normally means scheming or deceiving; translators soften it.) Would a God of truth found a worldwide false religion by trickery?',
         'The disciples: the Quran praises Jesus’ disciples as true believers whom Allah supported until “they became dominant” (Quran 61:14; 3:52-55). Yet those very disciples proclaimed the death and resurrection of Jesus (Acts 2:23-24, 32). If God supported them, he supported their message.',
         'Quran 19:33: Jesus says “peace is on me the day I was born and the day I will die and the day I am raised alive.” The order — birth, death, raised alive — fits the Christian account naturally.',
         'Quran 3:55 uses the word mutawaffika (“I will take you”), the same root used for God taking souls at death (Quran 39:42).',
@@ -40,7 +40,7 @@ export const crucifixionDenial: Topic = {
       id: 'cd-1',
       objection: 'God would never allow his righteous prophet to be humiliated on a cross.',
       response:
-        'That sounds reverent, but the Quran itself says Israel killed prophets (Quran 2:87). God’s ways are not our ways. The cross wasn’t defeat — it was God’s plan to defeat sin and death. Jesus said, “No one takes my life from me, but I lay it down of my own accord” (John 10:18). Then God vindicated him by raising him from the dead.',
+        'That sounds reverent, but the Quran itself says Israel killed prophets (Quran 2:87). God’s ways are not our ways. The cross wasn’t defeat — it was God’s plan to defeat sin and death. Jesus said, “No one takes it from Me, but I lay it down of My own accord” (John 10:18). Then God vindicated him by raising him from the dead.',
       keyPoints: ['Quran 2:87: prophets were killed.', 'The cross was voluntary (John 10:18).', 'The resurrection is God’s vindication.'],
       references: ['Quran 2:87', 'John 10:17-18', 'Isaiah 53:10', 'Acts 2:23-24'],
     },
@@ -56,7 +56,7 @@ export const crucifixionDenial: Topic = {
       id: 'cd-3',
       objection: 'Jesus prayed to be saved from death, and God answers prayers — so he wasn’t crucified.',
       response:
-        'In Gethsemane Jesus prayed, “Not my will, but yours, be done” (Luke 22:42). He submitted to the Father’s will. Hebrews 5:7 says he was heard — he was saved out of death, by resurrection, not from dying. In fact, right after his arrest he said, “Shall I not drink the cup that the Father has given me?” (John 18:11).',
+        'In Gethsemane Jesus prayed, “Not my will, but yours, be done” (Luke 22:42). He submitted to the Father’s will. Hebrews 5:7 says he was heard — he was saved out of death, by resurrection, not from dying. In fact, right after his arrest he said, “Shall I not drink the cup the Father has given Me?” (John 18:11).',
       keyPoints: ['His prayer was submission: “not my will”.', 'Saved out of death through resurrection.', 'John 18:11 — he accepted the cup.'],
       references: ['Luke 22:42', 'Hebrews 5:7', 'John 18:11'],
     },

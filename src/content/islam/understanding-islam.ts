@@ -20,6 +20,7 @@ export const understandingIslam: Topic = {
         'The Quran: believed to be the literal, uncreated word of Allah, revealed to Muhammad through the angel Gabriel (Jibril) between roughly AD 610 and 632. It has 114 surahs (chapters).',
         'The Sunnah: the example of Muhammad — what he said, did and approved — recorded in the hadith. Most of Islamic practice (how to pray, fast, etc.) comes from the hadith, not the Quran alone. The Quran itself commands obedience to the Messenger (Quran 3:32).',
         'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections. That is why this course cites only these two collections: a Sunni Muslim cannot simply dismiss them.',
+        'A note on translation: Quran quotations here follow Sahih International, a translation most Muslims accept. Words in [square brackets] are the translators’ additions and are not in the Arabic. Sometimes they soften a difficulty, so notice them.',
       ],
       references: ['Quran 3:32', 'Quran 15:9'],
     },

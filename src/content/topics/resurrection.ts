@@ -31,7 +31,7 @@ export const resurrection: Topic = {
       body: [
         'Any theory has to explain all the facts. Natural alternatives each explain one or two at best:',
         'Hallucination: hallucinations are individual, not group experiences, and wouldn’t empty a tomb or convert hostile sceptics like Paul and James.',
-        'Stolen body / conspiracy: the disciples suffered and many died for the claim; people don’t die for what they know is a lie.',
+        'Stolen body / conspiracy: the disciples were willing to suffer and die for the claim, and the deaths of Peter, Paul and James are well attested; people don’t die for what they know is a lie.',
         'Swoon (Jesus didn’t really die): Roman executioners were expert, and a half-dead man would not inspire belief in a glorious resurrection.',
         'Wrong tomb: the authorities could simply have produced the body.',
         'The resurrection explains all the facts — and, given that God exists, it is not ruled out in advance.',
@@ -93,7 +93,7 @@ export const resurrection: Topic = {
       question: 'According to 1 Corinthians 15, the risen Jesus appeared to more than how many people at once?',
       options: ['12', '70', '500', '5,000'],
       answer: 2,
-      explanation: '1 Corinthians 15:6 — “more than five hundred brothers at one time, most of whom are still alive”.',
+      explanation: '1 Corinthians 15:6 — “more than five hundred brothers at once, most of whom are still living”.',
     },
     {
       id: 'res-q4',

@@ -5,6 +5,8 @@ export interface Passage {
   v?: [string, string][];
   /** Full text (hadith). */
   t?: string;
+  /** Textual note, e.g. for passages missing from the earliest manuscripts. */
+  note?: string;
 }
 
 let cache: Promise<Record<string, Passage>> | null = null;

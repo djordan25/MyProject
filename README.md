@@ -2,7 +2,7 @@
 
 A web app for learning Christian apologetics: short lessons, objection drills, and quizzes, with progress saved on the device. Installable as a PWA and works offline.
 
-> “Always being prepared to make a defense… yet do it with gentleness and respect.” — 1 Peter 3:15
+> “Always be prepared to give a defense… But respond with gentleness and respect.” — 1 Peter 3:15
 
 ## Stack
 
@@ -34,7 +34,7 @@ All training content lives in `src/content/topics/*.ts`, one file per topic (see
 
 Tapping a Bible, Quran or hadith citation shows the passage text in a popup, with a link to the source site. The texts are bundled in `src/content/data/passages.json` so they work offline:
 
-- Bible: World English Bible (public domain)
+- Bible: Berean Standard Bible (public domain since 2023). Lesson quotations use the same translation.
 - Quran: Sahih International
 - Hadith: sunnah.com English text and numbering (Sahih al-Bukhari, Sahih Muslim)
 
@@ -45,7 +45,7 @@ scripts/fetch-sources.sh            # once: downloads the source texts into .sou
 python3 scripts/build-passages.py
 ```
 
-`npm test` fails if any citation is missing its passage text, or cites a verse or hadith that doesn't exist.
+`npm test` fails if any citation is missing its passage text, cites a verse or hadith that doesn't exist, or if a quotation followed by a citation doesn't match the wording of the cited passage.
 
 ## Deploy
 

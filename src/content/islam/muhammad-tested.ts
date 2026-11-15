@@ -26,9 +26,9 @@ export const muhammadTested: Topic = {
       heading: 'Muhammad’s own doubts about the source',
       body: [
         'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija and her Christian cousin Waraqa who reassured him that it was the angel (Sahih al-Bukhari 3).',
-        'Compare the prophets of the Bible, who knew the One who spoke to them (Exodus 3:4-6; Isaiah 6:1-8).',
+        'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). Muhammad’s assurance came from his wife and her cousin.',
       ],
-      references: ['Sahih al-Bukhari 3', 'Exodus 3:4-6', 'Isaiah 6:1-8'],
+      references: ['Sahih al-Bukhari 3', 'Isaiah 6:5', 'Daniel 10:8-9', 'Luke 1:11-13', 'Luke 1:28-30'],
     },
     {
       heading: 'Under a spell',
@@ -51,18 +51,18 @@ export const muhammadTested: Topic = {
       heading: 'A prophet who needed forgiveness — and lacked assurance',
       body: [
         'The Quran tells Muhammad to “ask forgiveness for your sin” (Quran 47:19; 40:55; see 48:2). He said he sought Allah’s forgiveness more than seventy times a day (Sahih al-Bukhari 6307).',
-        'He also said, “I do not know what will be done with me or with you” (Quran 46:9), and at the death of a companion: “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243).',
-        'Jesus, by contrast, challenged his enemies, “Which one of you convicts me of sin?” (John 8:46), and spoke with certainty about where he was going (John 14:2-3). Even the hadith say only Mary and her son were untouched by Satan at birth (Sahih al-Bukhari 3431).',
+        'He also said, “nor do I know what will be done with me or with you” (Quran 46:9), and at the death of a companion: “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243). Muslims reply that Quran 48:2 later promised Muhammad forgiveness. Even so, that promise was to him alone; the ordinary Muslim is left with the scales (see Salvation: Scales or Grace?).',
+        'Jesus, by contrast, challenged his enemies, “Which of you can prove Me guilty of sin?” (John 8:46), and spoke with certainty about where he was going (John 14:2-3). Even the hadith say only Mary and her son were untouched by Satan at birth (Sahih al-Bukhari 3431).',
       ],
       references: ['Quran 47:19', 'Quran 48:2', 'Quran 46:9', 'Sahih al-Bukhari 6307', 'Sahih al-Bukhari 1243', 'Sahih al-Bukhari 3431', 'John 8:46', 'Hebrews 4:15'],
     },
     {
       heading: 'Revelations that served the messenger',
       body: [
-        'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd, and 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
+        'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd, and Quran 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
         'When Quran 33:51 came, giving Muhammad freedom regarding his wives’ turns, Aisha said: “I feel that your Lord hastens in fulfilling your wishes and desires” (Sahih al-Bukhari 4788).',
         'Sahih al-Bukhari 5133 states that Muhammad married Aisha when she was six and consummated the marriage when she was nine. Raise this with care — not to inflame, but because Muslims hold Muhammad as the perfect moral example for all time. Is this an example for all time?',
-        'Contrast Jesus, who “came not to be served but to serve, and to give his life as a ransom for many” (Mark 10:45).',
+        'Contrast Jesus, who “did not come to be served, but to serve, and to give His life as a ransom for many” (Mark 10:45).',
       ],
       references: ['Quran 33:37', 'Quran 33:50-51', 'Sahih al-Bukhari 4788', 'Sahih al-Bukhari 5133', 'Mark 10:45', 'Philippians 2:5-8'],
     },
@@ -100,6 +100,14 @@ export const muhammadTested: Topic = {
       keyPoints: ['The hadith draws no such boundary.', 'Perception itself was affected.', 'Contrast Jesus’ authority over spirits.'],
       references: ['Sahih al-Bukhari 5763', 'Mark 1:27'],
     },
+    {
+      id: 'mt-5',
+      objection: 'The Bible is worse. Moses told his soldiers to keep the young girls for themselves (Numbers 31:17-18).',
+      response:
+        'That is a hard passage, and I won’t pretend otherwise. It records a judgment in one war under the old covenant. It is not given as a pattern for believers, and Moses is never held up as the sinless example for all time. Christians follow Jesus, who fulfilled the law and never took a life or a captive. Islam presents Muhammad as the “excellent pattern” for every believer in every age (Quran 33:21), so his conduct is a standing example, not a past event.',
+      keyPoints: ['Admit the passage is hard.', 'A recorded judgment, not a timeless example.', 'Quran 33:21 makes Muhammad the pattern.'],
+      references: ['Numbers 31:17-18', 'Quran 33:21', '1 Peter 2:21-23'],
+    },
   ],
   quiz: [
     {
@@ -118,7 +126,7 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-q3',
-      question: 'Which verse has Muhammad say “I do not know what will be done with me or with you”?',
+      question: 'Which verse has Muhammad say “nor do I know what will be done with me or with you”?',
       options: ['Quran 46:9', 'Quran 3:55', 'Quran 4:157', 'Quran 1:6'],
       answer: 0,
       explanation: 'Also Sahih al-Bukhari 1243.',

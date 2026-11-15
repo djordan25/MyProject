@@ -15,8 +15,8 @@ export const reliabilityOfScripture: Topic = {
     {
       heading: 'Manuscript evidence',
       body: [
-        'There are over 5,800 Greek manuscripts of the New Testament, plus thousands in Latin and other languages. Most ancient works survive in a handful to a few hundred copies.',
-        'The gap between writing and earliest surviving copy is also short: fragments such as P52 (part of John 18) are commonly dated to the first half of the second century. For many classical works the gap is many centuries.',
+        'About 5,800 Greek manuscripts of the New Testament have been catalogued, plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: more than a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
+        'The gap between writing and earliest surviving copy is also short: P52, a fragment of John 18, is usually dated to the second century. For many classical works the gap is the better part of a thousand years.',
         'Textual variants are numerous, but the vast majority are spelling, word-order or obvious copying slips. No core Christian doctrine depends on a disputed reading.',
       ],
     },
@@ -86,9 +86,9 @@ export const reliabilityOfScripture: Topic = {
     {
       id: 'ros-q1',
       question: 'Roughly how many Greek manuscripts of the New Testament exist?',
-      options: ['About 50', 'About 600', 'Over 5,800', 'Over 100,000'],
+      options: ['About 50', 'About 600', 'About 5,800', 'Over 100,000'],
       answer: 2,
-      explanation: 'Over 5,800 Greek manuscripts, far more than any other ancient work.',
+      explanation: 'About 5,800 catalogued Greek manuscripts. Most are medieval, but they include early papyri and fourth-century codices.',
     },
     {
       id: 'ros-q2',

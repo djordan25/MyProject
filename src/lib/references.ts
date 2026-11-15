@@ -31,7 +31,7 @@ const bookPattern = [...BIBLE_BOOKS].sort((a, b) => b.length - a.length).map(esc
 
 /** Matches a single citation inside running text. */
 export const CITATION_REGEX = new RegExp(
-  `(Quran \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?|Sahih al-Bukhari \\d{1,4}|Sahih Muslim \\d{1,4}|(?:${bookPattern}) \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?)(?![:\\d])`,
+  `(Quran \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?|Sahih al-Bukhari \\d{1,4}|Sahih Muslim \\d{1,4}|(?:${bookPattern}) \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?)(?!:?\\d)`,
   'g',
 );
 

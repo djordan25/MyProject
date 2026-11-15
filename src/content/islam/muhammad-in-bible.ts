@@ -17,20 +17,20 @@ export const muhammadInBible: Topic = {
     {
       heading: 'Deuteronomy 18:15-18: “a prophet like me”',
       body: [
-        'Moses says: “The LORD your God will raise up for you a prophet like me from among you, from your brothers” (Deuteronomy 18:15). Muslims argue “brothers” means the Ishmaelites, Israel’s cousins.',
-        'Context: “from among you”. In the same book, Israel’s king must come “from among your brothers… you may not put a foreigner over you, who is not your brother” (Deuteronomy 17:15). And the Levites “shall have no inheritance among their brothers” (Deuteronomy 18:2) — the other tribes of Israel. “Brothers” means fellow Israelites.',
+        'Moses says: “The LORD your God will raise up for you a prophet like me from among your brothers” (Deuteronomy 18:15). The Hebrew reads more fully, “from your midst, from your brothers”. Muslims argue “brothers” means the Ishmaelites, Israel’s cousins.',
+        'Context: the prophet comes from within Israel. In the same book, Israel’s king must come “from among your brothers; you are not to set over yourselves a foreigner who is not one of your brothers” (Deuteronomy 17:15). And the Levites “have no inheritance among their brothers” (Deuteronomy 18:2) — the other tribes of Israel. “Brothers” means fellow Israelites.',
         'The prophet like Moses would know God “face to face” and do great signs and wonders (Deuteronomy 34:10-12). The Quran itself explains why such miraculous signs were withheld from Muhammad’s audience (Quran 17:59). Jesus performed signs and spoke what the Father gave him (John 12:49).',
         'The apostles applied this prophecy directly to Jesus (Acts 3:22-26).',
       ],
       references: ['Deuteronomy 18:15-18', 'Deuteronomy 17:15', 'Deuteronomy 18:2', 'Deuteronomy 34:10-12', 'Acts 3:22-26', 'John 12:49', 'Quran 17:59'],
     },
     {
-      heading: 'John 14-16: the Helper (Paraclete)',
+      heading: 'John 14-16: the Advocate (Paraclete)',
       body: [
-        'Jesus promised “another Helper, to be with you forever” (John 14:16). Some Muslims claim this is Muhammad, linking Quran 61:6 (“Ahmad”).',
-        'But read the very next verse: he is “the Spirit of truth, whom the world cannot receive, because it neither sees him nor knows him. You know him, for he dwells with you and will be in you” (John 14:17). Muhammad was seen by the world and was not known by the disciples 600 years earlier.',
-        'Jesus names him plainly: “the Helper, the Holy Spirit, whom the Father will send in my name” (John 14:26). He would come to the disciples themselves within days (Acts 1:4-5, 8) — fulfilled at Pentecost (Acts 2:1-4).',
-        'The Helper would glorify Jesus (John 16:14). Muhammad’s message denied Jesus’ divine sonship and his death.',
+        'Jesus promised “another Advocate to be with you forever” (John 14:16). The Greek word is parakletos, also translated Helper or Comforter. Some Muslims claim this is Muhammad, linking Quran 61:6 (“Ahmad”).',
+        'But read the very next verse: he is “the Spirit of truth. The world cannot receive Him, because it neither sees Him nor knows Him. But you do know Him, for He abides with you and will be in you” (John 14:17). Muhammad was seen by the world and was not known by the disciples 600 years earlier.',
+        'Jesus names him plainly: “the Advocate, the Holy Spirit, whom the Father will send in My name” (John 14:26). He would come to the disciples themselves within days (Acts 1:4-5, 8) — fulfilled at Pentecost (Acts 2:1-4).',
+        'The Advocate would glorify Jesus (John 16:14). Muhammad’s message denied Jesus’ divine sonship and his death.',
       ],
       references: ['John 14:16-17', 'John 14:26', 'John 16:7-14', 'Acts 1:4-8', 'Acts 2:1-4'],
     },
@@ -48,15 +48,15 @@ export const muhammadInBible: Topic = {
       id: 'mb-1',
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',
       response:
-        'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among you, from your brothers”), who speaks God’s words and knows God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
+        'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among your brothers”), who speaks God’s words and knows God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
       keyPoints: ['Let the text define the likeness.', '“From among you” — an Israelite.', 'Acts 3:22-26 applies it to Jesus.'],
       references: ['Deuteronomy 18:15-18', 'Deuteronomy 34:10-12', 'Acts 3:22-26', 'Hebrews 3:1-6'],
     },
     {
       id: 'mb-2',
-      objection: 'Jesus said the Helper could not come unless he left (John 16:7). The Holy Spirit was already present before, so it must be Muhammad.',
+      objection: 'Jesus said the Advocate (Helper) could not come unless he left (John 16:7). The Holy Spirit was already present before, so it must be Muhammad.',
       response:
-        'The Spirit was active in the Old Testament, but Jesus promised a new indwelling: “he dwells with you and will be in you” (John 14:17). That’s what happened at Pentecost (Acts 2). And Jesus explicitly calls the Helper “the Holy Spirit” (John 14:26) and says the disciples already know him. Muhammad was born 500 years after those disciples died.',
+        'The Spirit was active in the Old Testament, but Jesus promised a new indwelling: “He abides with you and will be in you” (John 14:17). That’s what happened at Pentecost (Acts 2). And Jesus explicitly calls the Helper “the Holy Spirit” (John 14:26) and says the disciples already know him. Muhammad was born 500 years after those disciples died.',
       keyPoints: ['New indwelling, not first appearance.', 'Explicitly named the Holy Spirit (14:26).', 'Disciples would receive him personally.'],
       references: ['John 14:17', 'John 14:26', 'John 16:7', 'Acts 2:1-4'],
     },
@@ -87,10 +87,10 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-q2',
-      question: 'In John 14:26, Jesus identifies the Helper as…',
+      question: 'In John 14:26, Jesus identifies the Advocate as…',
       options: ['A future prophet', 'The Holy Spirit', 'John the Baptist', 'An angel'],
       answer: 1,
-      explanation: '“The Helper, the Holy Spirit, whom the Father will send in my name.”',
+      explanation: '“The Advocate, the Holy Spirit, whom the Father will send in My name.”',
     },
     {
       id: 'mb-q3',
@@ -101,7 +101,7 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-q4',
-      question: 'According to John 14:17, the Helper is someone the world…',
+      question: 'According to John 14:17, the Advocate is someone the world…',
       options: ['Will follow', 'Cannot see or know', 'Will crown king', 'Will write down'],
       answer: 1,
       explanation: 'Muhammad was seen and known by the world — the Spirit is not.',
