@@ -58,7 +58,7 @@ export const quranPreservation: Topic = {
     {
       id: 'qp-3',
       followUps: [
-        { reply: 'The burned copies only had personal notes mixed in.', answer: 'The hadith does not say that. It says Uthman ordered that “all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987), because Muslims were differing over the Book itself.' },
+        { reply: 'The burned copies only had personal notes mixed in.', answer: 'The hadith does not say that. It says Uthman ordered that “all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987), because Muslims differed in their recitation and Hudhaifa feared they would come to differ about the Book.' },
       ],
       objection: 'Uthman only standardised the Quraysh dialect; the content was the same.',
       response:

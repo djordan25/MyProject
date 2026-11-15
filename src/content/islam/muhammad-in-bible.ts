@@ -47,7 +47,7 @@ export const muhammadInBible: Topic = {
     {
       id: 'mb-1',
       followUps: [
-        { reply: '“Brothers” of Israel means the Ishmaelites, their cousins.', answer: 'In Deuteronomy itself, Israel’s king must come from among their brothers and must not be a foreigner (Deuteronomy 17:15). Israel never took that to allow an Ishmaelite king. “Brothers” means fellow Israelites.' },
+        { reply: '“Brothers” of Israel means the Ishmaelites, their cousins.', answer: 'In Deuteronomy itself, Israel’s king must come from among their brothers and must not be a foreigner (Deuteronomy 17:15). Israel never took that to allow an Ishmaelite king. Here “brothers” means fellow Israelites.' },
       ],
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',
       response:

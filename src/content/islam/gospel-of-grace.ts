@@ -74,9 +74,9 @@ export const gospelOfGrace: Topic = {
       id: 'gg-4',
       objection: 'Muslims follow Jesus better than Christians do. He was circumcised, never ate pork, and kept the law.',
       response:
-        'Jesus kept the law of Moses perfectly because he came to fulfil it: “I have not come to abolish them, but to fulfill them” (Matthew 5:17). He also taught that food does not defile a person, and Mark adds, “Thus all foods are clean” (Mark 7:18-19). The apostles, who knew him, ruled that Gentile believers are not under the law of Moses but are saved “through the grace of the Lord Jesus” (Acts 15:10-11). Following Jesus means trusting him as he said, not copying the diet of first-century Jews. And if keeping what Jesus kept is the test, Islam fails it too: Jesus kept the Sabbath and the Passover, and Muslims keep neither.',
+        'Jesus kept the law of Moses perfectly because he came to fulfil it: “I have not come to abolish them, but to fulfill them” (Matthew 5:17). He also taught that food does not defile a person, and Mark adds, “Thus all foods are clean” (Mark 7:18-19). At the Jerusalem council Peter said the yoke of the law should not be laid on Gentile believers, who are saved “through the grace of the Lord Jesus” (Acts 15:10-11). Following Jesus means trusting him as he said, not copying the diet of first-century Jews. And if keeping what Jesus kept is the test, Islam fails it too: Jesus kept the Sabbath and the Passover (Luke 4:16; 22:7-8), and Muslims keep neither.',
       keyPoints: ['Jesus fulfilled the law (Matthew 5:17).', 'All foods declared clean (Mark 7:18-19).', 'Islam keeps neither Sabbath nor Passover.'],
-      references: ['Matthew 5:17', 'Mark 7:18-19', 'Acts 15:10-11', 'Colossians 2:16-17'],
+      references: ['Matthew 5:17', 'Mark 7:18-19', 'Acts 15:10-11', 'Colossians 2:16-17', 'Luke 4:16', 'Luke 22:7-8'],
     },
     {
       id: 'gg-5',

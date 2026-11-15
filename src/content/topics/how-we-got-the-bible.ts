@@ -4,7 +4,7 @@ export const howWeGotTheBible: Topic = {
   id: 'how-we-got-the-bible',
   title: 'How We Got the Bible',
   icon: '📚',
-  summary: 'Who wrote it, who decided which books belong, how it was copied, and why “lost gospels” were never lost.',
+  summary: 'Who wrote it, who decided which books belong, how it was copied, and why the “lost gospels” were never part of the Bible.',
   lesson: [
     {
       heading: 'From the authors to us',
@@ -28,7 +28,7 @@ export const howWeGotTheBible: Topic = {
     {
       heading: 'Copying and textual criticism',
       body: [
-        'Because the books were copied by hand, copies differ in small ways: spellings, word order, a skipped line. With about 5,800 Greek manuscripts to compare, scholars can see where copies differ and work back to the original wording. This work is called textual criticism.',
+        'Because the books were copied by hand, copies differ in small ways: spellings, word order, a skipped line. With about 5,800 Greek manuscripts of the New Testament to compare, scholars can see where copies differ and work back to the original wording. This work is called textual criticism.',
         'Christians are open about the results. The two longest passages missing from the earliest manuscripts are the ending of Mark (Mark 16:9-20) and the story of the woman caught in adultery (John 8:1-11). Modern Bibles mark both. No Christian teaching depends on either.',
         'The abundance of copies is a strength. A text controlled by one authority could be changed without trace. A text copied freely across three continents cannot.',
       ],
@@ -37,7 +37,7 @@ export const howWeGotTheBible: Topic = {
     {
       heading: 'Translations',
       body: [
-        'Modern Bibles are not translations of translations. Each is translated directly from the Hebrew, Aramaic and Greek texts.',
+        'Mainstream modern Bibles are not translations of translations. Each is translated directly from the Hebrew, Aramaic and Greek texts.',
         'English versions differ because translators make different choices: some follow the original word order closely, others aim for natural English. Comparing two or three good translations usually shows that they agree on the meaning.',
       ],
     },
@@ -45,7 +45,7 @@ export const howWeGotTheBible: Topic = {
       heading: 'The “lost gospels”',
       body: [
         'Books such as the Gospel of Thomas, the Gospel of Judas and the Gospel of Mary are sometimes presented as suppressed alternatives to the four Gospels. They were written in the second century or later, long after the apostles had died, by authors who borrowed famous names.',
-        'They were never part of the Bible and then removed. Early Christians knew them, and rejected them because they came too late and contradicted what the apostles taught. The four Gospels are the only accounts of Jesus that come from the first century.',
+        'They were never part of the Bible and then removed. Early Christians knew them, and rejected them because they came too late and contradicted what the apostles taught. The four Gospels are the only narrative accounts of Jesus’ life generally dated to the first century.',
       ],
       references: ['Luke 1:1-4', '2 Peter 1:16'],
     },
@@ -55,7 +55,7 @@ export const howWeGotTheBible: Topic = {
       id: 'hb-1',
       objection: 'Constantine and the Council of Nicaea decided which books went into the Bible.',
       response:
-        'That is a modern myth. Nicaea in AD 325 dealt with Arius’s teaching about Christ, and none of its records mention choosing books. The four Gospels and Paul’s letters were being read as Scripture across the churches more than a century before Constantine was born. Irenaeus named the four Gospels around AD 180, and Peter already speaks of Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16).',
+        'That is a modern myth. Nicaea in AD 325 dealt with Arius’s teaching about Christ, and none of its records mention choosing books. The four Gospels and Paul’s letters were being read as Scripture across the churches more than a century before Nicaea. Irenaeus named the four Gospels around AD 180, and Peter already speaks of Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16).',
       keyPoints: ['Nicaea was about Arius, not the canon.', 'Four Gospels named around AD 180.', 'Recognition began within the New Testament itself.'],
       references: ['2 Peter 3:15-16', '1 Timothy 5:18'],
       followUps: [
@@ -66,16 +66,16 @@ export const howWeGotTheBible: Topic = {
       id: 'hb-2',
       objection: 'There were dozens of other gospels that the church suppressed.',
       response:
-        'There were other writings called gospels, but they come from the second century or later, written by people who never met Jesus or the apostles. Early Christians knew about them and said so openly. Nothing was hidden: you can read them today. Compare them with Luke, who investigated eyewitness testimony (Luke 1:1-4), and the difference is clear.',
-      keyPoints: ['Written a century or more too late.', 'Known and openly rejected, not hidden.', 'Only the four Gospels are first-century.'],
+        'There were other writings called gospels, but they come from the second century or later, written by people who never met Jesus or the apostles. Early Christians knew about them, and discussed and rejected them openly; nothing was secretly removed. Compare them with Luke, who investigated eyewitness testimony (Luke 1:1-4), and the difference is clear.',
+      keyPoints: ['Written a century or more too late.', 'Known and openly rejected, not hidden.', 'Only the four Gospels are first-century accounts of his life.'],
       references: ['Luke 1:1-4', '2 Peter 1:16'],
     },
     {
       id: 'hb-3',
       objection: 'There are so many Bible versions. Which one is the real Bible?',
       response:
-        'They are translations of the same Hebrew and Greek text, in the way several English translations of one Russian novel are the same novel. Differences are in style, not substance. Pick any mainstream translation and you will find the same Jesus, the same cross and the same resurrection.',
-      keyPoints: ['One text, many translations.', 'Differences are of style.', 'The message is the same in all.'],
+        'They are translations of the same Hebrew and Greek writings, in the way several English translations of one Russian novel are the same novel. Almost all differences are of style; the few that come from differences between manuscripts are footnoted and change no teaching. Pick any mainstream translation and you will find the same Jesus, the same cross and the same resurrection.',
+      keyPoints: ['One text, many translations.', 'Almost all differences are of style.', 'The message is the same in all.'],
     },
     {
       id: 'hb-4',
