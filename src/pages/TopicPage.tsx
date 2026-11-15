@@ -23,11 +23,13 @@ export default function TopicPage() {
         <NavLink to={base} end>Learn</NavLink>
         <NavLink to={`${base}/objections`}>Objections ({topic.objections.length})</NavLink>
         <NavLink to={`${base}/quiz`}>Quiz</NavLink>
+        <NavLink to={`${base}/summary`}>Summary</NavLink>
       </nav>
       <Routes>
         <Route index element={<Learn topic={topic} />} />
         <Route path="objections" element={<Objections topic={topic} />} />
         <Route path="quiz" element={<Quiz key={topic.id} questions={topic.quiz} onFinish={(s) => progress.recordQuiz(topic.id, s)} />} />
+        <Route path="summary" element={<Summary topic={topic} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
@@ -81,6 +83,46 @@ function Objections({ topic }: { topic: Topic }) {
       <div className="row end">
         <Link className="btn primary" to={`/topic/${topic.id}/quiz`}>Take the quiz →</Link>
       </div>
+    </>
+  );
+}
+
+/** One-page review: each argument and each objection with its key points. Prints cleanly. */
+function Summary({ topic }: { topic: Topic }) {
+  return (
+    <>
+      <div className="row no-print">
+        <p className="muted">A one-page review of this topic. Tap a reference to read it.</p>
+        <button className="btn" onClick={() => window.print()}>Print</button>
+      </div>
+      <section className="card summary">
+        <h2>Main points</h2>
+        <ul>
+          {topic.lesson.map((s) => (
+            <li key={s.heading}>
+              <strong>{s.heading}</strong>
+              {s.argument && (
+                <ol>
+                  {s.argument.map((a) => <li key={a}><RefText text={a} /></li>)}
+                </ol>
+              )}
+              <RefList refs={s.references} label="See" />
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section className="card summary">
+        <h2>Objections and key points</h2>
+        {topic.objections.map((o) => (
+          <div key={o.id} className="summary-item">
+            <strong>“{o.objection}”</strong>
+            <ul>
+              {o.keyPoints.map((k) => <li key={k}><RefText text={k} /></li>)}
+            </ul>
+            <RefList refs={o.references} label="See" />
+          </div>
+        ))}
+      </section>
     </>
   );
 }
