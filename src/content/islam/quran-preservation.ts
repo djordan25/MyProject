@@ -10,7 +10,7 @@ export const quranPreservation: Topic = {
       heading: 'The claim',
       body: [
         '“Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9). Many Muslims argue the Quran has been preserved perfectly, without a single letter changed — proof of its divine origin, while the Bible was corrupted.',
-        'The goal here isn’t to mock the Quran, but to show that this claim does not match what Sahih al-Bukhari and Sahih Muslim themselves report.',
+        'This claim does not match what Sahih al-Bukhari and Sahih Muslim themselves report.',
       ],
       references: ['Quran 15:9'],
     },

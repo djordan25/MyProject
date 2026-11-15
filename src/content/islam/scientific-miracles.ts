@@ -36,7 +36,7 @@ export const scientificMiracles: Topic = {
       body: [
         '“If a house fly falls in the drink of anyone of you, he should dip it… for one of its wings has a disease and the other has the cure” (Sahih al-Bukhari 3320).',
         'Adam was created sixty cubits tall, and people have been decreasing in stature ever since (Sahih al-Bukhari 3326). Human remains from the ancient world show no such giant ancestors.',
-        'Use these gently. The point is not that the Bible is a science textbook — it isn’t. The point is that a Muslim who argues that the Quran proves itself by science must accept the same scrutiny of the scientific statements in Islam’s authoritative sources.',
+        'The point is not that the Bible is a science textbook — it isn’t. The point is that a Muslim who argues that the Quran proves itself by science must accept the same scrutiny of the scientific statements in Islam’s authoritative sources.',
       ],
       references: ['Sahih al-Bukhari 3320', 'Sahih al-Bukhari 3326'],
     },
