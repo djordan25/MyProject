@@ -1,17 +1,25 @@
 import { Link } from 'react-router-dom';
-import { tracks, topicsInTrack } from '../content';
-import { useProgress } from '../lib/progress';
+import { topics, tracks, topicsInTrack } from '../content';
+import { isDue, useProgress } from '../lib/progress';
 import { trackCompletion } from '../lib/trackProgress';
 import ProgressBar from '../components/ProgressBar';
 
 export default function Home() {
   const p = useProgress();
+  // Objections already practised at least once whose review date has arrived.
+  const due = topics.flatMap((t) => t.objections).filter((o) => p.drills[o.id] && isDue(p, o.id)).length;
   return (
     <>
       <section className="hero">
         <h1>Be ready with an answer</h1>
         <p>Learn the arguments, practise responding to real objections, and test yourself — a few minutes at a time.</p>
       </section>
+      {due > 0 && (
+        <Link to="/practice?mode=review" className="card due-banner">
+          <strong>{due} objection{due === 1 ? '' : 's'} due for review</strong>
+          <span>Practise now →</span>
+        </Link>
+      )}
       <div className="track-list">
         {tracks.map((t) => {
           const done = trackCompletion(p, t);

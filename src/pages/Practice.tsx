@@ -12,7 +12,7 @@ export default function Practice() {
   const p = useProgress();
   const [params, setParams] = useSearchParams();
   const trackId = params.get('track') ?? 'all';
-  const [mode, setMode] = useState<Mode>('all');
+  const [mode, setMode] = useState<Mode>(params.get('mode') === 'review' ? 'review' : 'all');
   const [seed, setSeed] = useState(0);
   const [i, setI] = useState(0);
 
