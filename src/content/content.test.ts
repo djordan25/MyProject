@@ -12,7 +12,7 @@ const quran = quranCounts as number[];
 function citations(t: Topic): string[] {
   const text = [
     ...t.lesson.flatMap((s) => [...s.body, ...(s.argument ?? [])]),
-    ...t.objections.flatMap((o) => [o.response, ...o.keyPoints]),
+    ...t.objections.flatMap((o) => [o.response, ...o.keyPoints, ...(o.followUps ?? []).map((f) => f.answer)]),
     ...t.quiz.map((q) => q.explanation),
   ].join('\n');
   const inline = segmentCitations(text).flatMap((s) => (s.ref ? [s.ref] : []));
@@ -141,7 +141,7 @@ describe('content', () => {
     it(`${t.id}: quotations followed by a citation match the cited passage`, () => {
       const texts = [
         ...t.lesson.flatMap((s) => [...s.body, ...(s.argument ?? [])]),
-        ...t.objections.flatMap((o) => [o.objection, o.response, ...o.keyPoints]),
+        ...t.objections.flatMap((o) => [o.objection, o.response, ...o.keyPoints, ...(o.followUps ?? []).flatMap((f) => [f.reply, f.answer])]),
         ...t.quiz.flatMap((q) => [q.question, q.explanation]),
       ];
       expect(texts.flatMap(misquotes)).toEqual([]);

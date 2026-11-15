@@ -199,3 +199,8 @@ button.chip { font: inherit; cursor: pointer; }
   }
 }
 .passage-body .passage-note { margin-top: 0.6rem; font-size: 0.85rem; font-style: italic; color: var(--muted); }
+
+/* Follow-up replies in drills */
+.followup { margin-top: 0.75rem; border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem 0.8rem; background: var(--bg); }
+.followup summary { cursor: pointer; font-weight: 600; }
+.followup p { margin: 0.5rem 0 0; }

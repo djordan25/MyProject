@@ -46,6 +46,9 @@ export const muhammadInBible: Topic = {
   objections: [
     {
       id: 'mb-1',
+      followUps: [
+        { reply: '“Brothers” of Israel means the Ishmaelites, their cousins.', answer: 'In Deuteronomy itself, Israel’s king must come from among their brothers and must not be a foreigner (Deuteronomy 17:15). Israel never took that to allow an Ishmaelite king. “Brothers” means fellow Israelites.' },
+      ],
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',
       response:
         'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among your brothers”), who speaks God’s words and is known by God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',

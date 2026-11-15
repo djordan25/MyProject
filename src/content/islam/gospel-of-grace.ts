@@ -53,6 +53,9 @@ export const gospelOfGrace: Topic = {
     },
     {
       id: 'gg-2',
+      followUps: [
+        { reply: 'A king can pardon whoever he wants.', answer: 'A king who simply pardons a murderer leaves the victim without justice. God is the Judge of all the earth, who must do what is right (Genesis 18:25). At the cross he pays the debt himself, so the pardon is just (Romans 3:26).' },
+      ],
       objection: 'Allah is the Most Merciful; he can forgive whoever he wills without a sacrifice.',
       response:
         'If a judge simply let guilty criminals go because he felt merciful, we wouldn’t call him good — we’d call him unjust. God is perfectly just as well as merciful. At the cross, both are satisfied: sin is truly paid for, and sinners are truly forgiven (Romans 3:26). Even the Quran describes God ransoming Abraham’s son “with a great sacrifice” (Quran 37:107).',

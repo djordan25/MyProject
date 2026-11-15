@@ -58,6 +58,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-2',
+      followUps: [
+        { reply: 'Three persons means three gods, however you word it.', answer: 'Only if each person were a separate being. Scripture insists there is one God (Deuteronomy 6:4), and yet shows the LORD sent by the LORD (Zechariah 2:10-11). We hold both because the text does.' },
+      ],
       objection: '1 + 1 + 1 = 3. You believe in three gods.',
       response:
         'If we said three gods are one god, or three persons are one person, that would be a contradiction. We say one Being, three Persons: one “what”, three “whos”. You only reach three gods by adding beings, and there is only one divine being. I won’t offer an analogy, because everything in creation falls short of the Creator. I’d rather show you where Scripture teaches it, starting in the Old Testament with the Angel of the LORD, who is sent by God and yet is God (Exodus 3:2-6).',

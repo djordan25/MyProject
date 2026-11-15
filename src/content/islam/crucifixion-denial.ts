@@ -46,6 +46,9 @@ export const crucifixionDenial: Topic = {
     },
     {
       id: 'cd-2',
+      followUps: [
+        { reply: 'Allah is able to do all things. He could make someone look like Jesus.', answer: 'The question is not what God can do but what he did. A God who cannot lie (Titus 1:2) would not deceive Jesus’ mother and disciples into founding a false religion.' },
+      ],
       objection: 'Someone else — maybe Judas — was made to look like Jesus and crucified instead.',
       response:
         'Think about what that means. God would have deceived Mary, the apostles and everyone present, and then let the deception spread into the world’s largest religion for 600 years before correcting it. And the substitute presumably let himself be crucified without ever saying, “I’m not Jesus!” Every eyewitness source says it was Jesus. One verse written six centuries later can’t overturn that.',

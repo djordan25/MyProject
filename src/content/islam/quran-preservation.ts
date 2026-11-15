@@ -46,6 +46,9 @@ export const quranPreservation: Topic = {
   objections: [
     {
       id: 'qp-2',
+      followUps: [
+        { reply: 'The recitation was abrogated during the Prophet’s lifetime.', answer: 'Aisha says the five-sucklings verse was still in the Quran and being recited when the Messenger died (Sahih Muslim 1452). After his death no revelation could abrogate it. So who removed it?' },
+      ],
       objection: 'Those missing verses were abrogated by Allah, so nothing was lost.',
       response:
         'But Aisha says the five-sucklings verse was still being recited as part of the Quran when Muhammad died (Sahih Muslim 1452). Abrogation after his death would require a new revelation — and there were no more. Umar said the stoning verse was revealed and recited as part of the Book and that its ruling still stood (Sahih al-Bukhari 6830). If its words were removed but its ruling remains, how is that “perfect preservation”?',

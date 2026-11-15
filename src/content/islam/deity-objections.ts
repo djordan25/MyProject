@@ -77,6 +77,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-7',
+      followUps: [
+        { reply: '“Only true God” excludes everyone else, including Jesus.', answer: 'Then Jude 1:4, which calls Jesus our only Master and Lord, would exclude the Father from being Lord. “Only” rules out false gods, not the Son, who shared the Father’s glory “before the world existed” (John 17:5).' },
+      ],
       objection: 'Jesus called the Father “the only true God” (John 17:3). So Jesus is not God.',
       response:
         'Christians agree that the Father is the only true God: there is only one God. The question is whether the Son shares that one divine being. In this same prayer Jesus says eternal life is knowing the Father and himself together, and two verses later he asks the Father to glorify him “with the glory I had with You before the world existed” (John 17:5). No mere prophet could pray that. Scripture also calls Jesus “our only Master and Lord” (Jude 1:4), which doesn’t stop the Father being Lord. And John, on the most natural reading, calls Jesus “the true God and eternal life” (1 John 5:20).',

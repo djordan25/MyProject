@@ -44,6 +44,12 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
             {objection.keyPoints.map((k) => <li key={k}><RefText text={k} /></li>)}
           </ul>
           <RefList refs={objection.references} />
+          {objection.followUps?.map((f) => (
+            <details key={f.reply} className="followup">
+              <summary>If they reply: “{f.reply}”</summary>
+              <p><RefText text={f.answer} /></p>
+            </details>
+          ))}
           <div className="row">
             <span className="muted">How did you do?</span>
             <button className="btn" onClick={() => rate('review')}>Needs review</button>

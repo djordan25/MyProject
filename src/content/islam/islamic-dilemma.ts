@@ -69,6 +69,9 @@ export const islamicDilemma: Topic = {
   objections: [
     {
       id: 'id-1',
+      followUps: [
+        { reply: 'The Gospel was given to Jesus. Your four Gospels were written by other men.', answer: 'The Quran never says the Gospel of Muhammad’s day was a different book from the one Christians had. It tells those Christians to judge by what Allah revealed in it (Quran 5:47). Which Gospel could they open and judge by in the seventh century, other than the one they possessed?' },
+      ],
       objection: 'The Injil the Quran mentions was the original revelation given to Jesus, which is now lost.',
       response:
         'If it was lost before Muhammad, why does the Quran command Christians in Muhammad’s day to judge by what God revealed in it (Quran 5:47)? Why tell them they’re standing on nothing until they uphold it (Quran 5:68)? You can’t judge by a book that doesn’t exist. The only Gospel the Christians of Arabia had was the one we have now.',
@@ -77,6 +80,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-2',
+      followUps: [
+        { reply: 'Then it was corrupted before Muhammad.', answer: 'Then the Quran affirmed a corrupt book. It says it confirms what is “with” them (Quran 2:41) and that no one can change Allah’s words (Quran 6:115). Either way the Quran is mistaken.' },
+      ],
       objection: 'The Bible was corrupted after Muhammad’s time.',
       response:
         'That’s historically impossible. We have manuscripts containing the whole New Testament and most of the Old, copied centuries before Muhammad was born, and thousands of New Testament manuscripts spread across the world. They teach the same things about Jesus’ death and deity. And if the Bible was reliable in Muhammad’s day, then the Quran is contradicting reliable scripture.',
@@ -85,6 +91,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-3',
+      followUps: [
+        { reply: 'Ibn Abbas said they changed their scripture.', answer: 'That is Sahih al-Bukhari 7363, a companion’s remark. But Muhammad himself had the Torah brought and judged by it (Sahih al-Bukhari 3635). If he treated the Torah in front of him as Allah’s law, a later remark cannot overturn that, or the Quran’s command in Quran 5:47.' },
+      ],
       objection: 'The Quran says the Jews “distort words from their places” (tahrif).',
       response:
         'Look at the context of Quran 4:46: it describes them “twisting their tongues” — misusing words in speech. Quran 2:75 says a party of them distorted God’s words after understanding them — it describes some people’s handling of the words, not every copy being rewritten. Meanwhile the same Quran says no one can change God’s words (Quran 6:115) and tells the Jews the Torah they have contains God’s judgment (Quran 5:43).',
