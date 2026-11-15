@@ -67,6 +67,9 @@ export const scientificMiracles: Topic = {
     },
     {
       id: 'sm-3',
+      followUps: [
+        { reply: 'So you admit the Bible is unscientific.', answer: 'I’m saying the Bible is not making scientific claims in its poetry, any more than we do when we say the sun rises. Muslims who argue from scientific miracles say the Quran does make such claims. That argument has to stand or fall on verses like Quran 18:86 and Quran 86:6-7.' },
+      ],
       objection: 'The Bible also has scientific errors, like the earth having pillars.',
       response:
         'The Bible uses poetic and everyday language — like we still say “the sun rises”. Christians don’t claim the Bible contains hidden modern science as proof of inspiration. But Muslims who make the scientific-miracle argument are making that claim for the Quran, so the same standard must apply to it and to the Sahih hadith.',

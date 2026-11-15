@@ -53,6 +53,9 @@ export const crossAndResurrection: Topic = {
     },
     {
       id: 'cr-2',
+      followUps: [
+        { reply: 'Then your witnesses were only women, whose testimony did not count.', answer: 'That is a reason to trust the account. Nobody inventing a story in the first century would have made women the witnesses to the burial and the empty tomb (Mark 15:47; 16:1-8). The Gospels record it that way because that is what happened.' },
+      ],
       objection: 'The disciples all fled; none of them saw the crucifixion.',
       response:
         'Most fled, but not all. John, Mary the mother of Jesus and other women stood by the cross (John 19:25-27), and the women watched where he was buried (Mark 15:47). John says he is reporting as an eyewitness (John 19:35). Roman soldiers and Jerusalem crowds also saw it — it was a public execution.',

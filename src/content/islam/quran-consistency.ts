@@ -62,6 +62,9 @@ export const quranConsistency: Topic = {
   objections: [
     {
       id: 'qcn-1',
+      followUps: [
+        { reply: 'Scholars of the Quran have an explanation for every one of those verses.', answer: 'I’m sure they do, and I would like to hear them. But notice that explanations are needed at all. Quran 4:82 sets the test as a book without contradiction, and a book that needs centuries of explanation to remove its contradictions has not plainly passed.' },
+      ],
       objection: 'These aren’t contradictions — you just don’t understand the Arabic and the context.',
       response:
         'That’s possible for some passages, and I want to learn. But some of these aren’t about subtle Arabic: the days listed in Quran 41:9-12 add up to eight unless you assume an overlap the text doesn’t state. And the hundred-lashes verse (Quran 24:2) versus stoning in Bukhari isn’t a translation issue. If the explanation requires adding words the text doesn’t contain, is it really the plain, clear book the Quran claims to be?',

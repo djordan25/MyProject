@@ -80,6 +80,9 @@ export const quranSources: Topic = {
   objections: [
     {
       id: 'qs-1',
+      followUps: [
+        { reply: 'Then how did Muhammad know stories that are not in the Bible?', answer: 'Because those stories were being told around him. His own critics said he was repeating “legends of the former peoples” (Quran 25:5), and he told his followers to pass on the stories of the Israelites (Sahih al-Bukhari 3461).' },
+      ],
       objection: 'Maybe those apocryphal books preserved true stories that Allah confirmed in the Quran.',
       response:
         'The Infancy Gospel of Thomas also has the boy Jesus cursing children so they die. Would you accept that as a true story? These works are legends written long after the events, with no link to eyewitnesses. When the Quran selects from that folklore — and even presents a rabbinic teaching as God’s decree (Quran 5:32) — the natural explanation is that its author absorbed the stories around him.',

@@ -56,6 +56,9 @@ export const quranMisunderstands: Topic = {
   objections: [
     {
       id: 'qm-1',
+      followUps: [
+        { reply: 'Some Christians do pray to Mary.', answer: 'Some ask Mary to pray for them, but no church teaches that she is a god or a member of the Trinity. The Quran’s charge is that Christians take Jesus and his mother as “deities besides Allah” (Quran 5:116). That describes no Christian creed, then or now.' },
+      ],
       objection: 'Quran 5:116 is not describing the Trinity; it’s condemning Christians who worshipped Mary.',
       response:
         'Even if some fringe group venerated Mary, the Quran presents this as what Christians in general believe about Jesus and his mother being “deities besides Allah”, right next to its condemnation of saying “Allah is the third of three” (Quran 5:73). The all-knowing God would correct the actual Christian doctrine — Father, Son and Spirit — not an aberration. The Quran never once mentions the Father, Son and Holy Spirit as the Trinity.',

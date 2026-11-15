@@ -53,6 +53,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-3',
+      followUps: [
+        { reply: 'Paul never even met Jesus.', answer: 'Paul says the risen Jesus appeared to him (1 Corinthians 15:8). He then set his message before those who had walked with Jesus, and they accepted it and gave him the right hand of fellowship (Galatians 2:9).' },
+      ],
       objection: 'Paul hijacked Jesus’ religion and invented Christianity.',
       response:
         'The Jerusalem leaders — Peter, John and James the Lord’s brother — accepted Paul and his message (Galatians 2:9), and Paul says he and they preached the same gospel (1 Corinthians 15:11). Peter also sets Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16). If a Muslim disputes who wrote 2 Peter, rest the case on Galatians and 1 Corinthians, which are virtually undisputed as Paul’s. The death and resurrection of Jesus is found in the Gospels and in the preaching of Peter (Acts 2), not just in Paul. And remember the Quran says Jesus’ disciples were true believers whom God made victorious (Quran 61:14).',
