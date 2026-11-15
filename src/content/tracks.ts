@@ -5,12 +5,12 @@ export const tracks: Track[] = [
     id: 'foundations',
     title: 'Foundations',
     icon: '✦',
-    summary: 'The core case for Christianity: God’s existence, who Jesus is, the reliability of Scripture, the resurrection, and the problem of evil.',
+    summary: 'The core case for Christianity: God’s existence, who Jesus is, the reliability of Scripture, how we got the Bible, the resurrection, and the problem of evil.',
     sections: [
       {
         title: 'Core apologetics',
         description: 'Start here if you are new to apologetics.',
-        topicIds: ['existence-of-god', 'identity-of-jesus', 'reliability-of-scripture', 'resurrection', 'problem-of-evil'],
+        topicIds: ['existence-of-god', 'identity-of-jesus', 'reliability-of-scripture', 'how-we-got-the-bible', 'resurrection', 'problem-of-evil'],
       },
     ],
   },
