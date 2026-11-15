@@ -65,6 +65,9 @@ export const sharingTheGospel: Topic = {
     },
     {
       id: 'sg-2',
+      followUps: [
+        { reply: 'It is arrogant to say that only your way is right.', answer: 'Islam says the same of itself: “whoever desires other than Islam as religion - never will it be accepted from him” (Quran 3:85). So we agree that not every way can be right. The only question is which claim is true, and that is worth examining together.' },
+      ],
       objection: 'We both believe in one God. Why can’t we each just follow our own religion?',
       response:
         'Because our religions say opposite things about the most important question: who Jesus is and whether he died and rose. They cannot both be right. Jesus did not say he was one way among many; he said no one comes to the Father except through him (John 14:6), and his apostles said there is “no other name under heaven given to men by which we must be saved” (Acts 4:12). If that is true, the kindest thing I can do is tell you.',

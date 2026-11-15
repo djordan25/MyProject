@@ -68,6 +68,9 @@ export const problemOfEvil: Topic = {
     },
     {
       id: 'poe-3',
+      followUps: [
+        { reply: 'Where was God when it happened?', answer: 'I don’t know why he allowed it. I do know where he was when his own Son died: he did not look away, and he turned that death into the rescue of the world. He promises to wipe away every tear (Revelation 21:4), and he keeps his promises.' },
+      ],
       objection: 'I lost someone I loved. How can you say God is good?',
       response:
         'I’m so sorry. I won’t pretend to have a neat answer for your pain. What I can say is that Jesus himself wept at his friend’s grave, even knowing he would raise him. God isn’t distant from suffering — he entered it on the cross. And he promises a day when he will wipe every tear away. I’d love to walk with you through this, if you’re open to it.',

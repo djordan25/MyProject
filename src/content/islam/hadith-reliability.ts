@@ -90,6 +90,9 @@ export const hadithReliability: Topic = {
     },
     {
       id: 'hr-3',
+      followUps: [
+        { reply: 'Your Gospels are anonymous. At least the hadith name their narrators.', answer: 'A chain of names can be invented as easily as a saying, which is why Muslim scholars set aside the great majority of the reports they examined. No surviving copy of the Gospels that has a title names anyone but Matthew, Mark, Luke or John. And Luke tells us how he worked: from those who were eyewitnesses from the beginning (Luke 1:1-4).' },
+      ],
       objection: 'The New Testament also came from oral tradition before it was written down.',
       response:
         'Yes, but the gap is decades, not centuries, and the writers were eyewitnesses or their close associates who could be checked by living witnesses (Luke 1:1-4; 1 Corinthians 15:6). Paul’s letters were written within about 20-30 years of Jesus’ death. Bukhari’s collection came about two centuries after Muhammad.',

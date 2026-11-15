@@ -71,6 +71,9 @@ export const crucifixionDenial: Topic = {
     },
     {
       id: 'cd-4',
+      followUps: [
+        { reply: 'His tomb is in Kashmir.', answer: 'The claim that a shrine in Kashmir is the tomb of Jesus was first made in the nineteenth century. Against it stand accounts written within a lifetime of the event: the centurion confirmed to Pilate that Jesus was dead (Mark 15:44-45), and a spear was driven into his side (John 19:33-34).' },
+      ],
       objection: 'Jesus only swooned on the cross and was revived (Ahmadi view).',
       response:
         'Roman soldiers were professional executioners who confirmed death; a spear was thrust into Jesus’ side (John 19:33-34). A half-dead, badly wounded man could not have convinced his disciples that he had conquered death. And mainstream Sunni Islam rejects this view anyway, since Quran 4:157 says he was not crucified at all.',

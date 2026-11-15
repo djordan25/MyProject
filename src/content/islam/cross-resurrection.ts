@@ -67,6 +67,9 @@ export const crossAndResurrection: Topic = {
     },
     {
       id: 'cr-3',
+      followUps: [
+        { reply: 'Then how many women went to the tomb?', answer: 'Several. Luke names three and adds “the other women with them” (Luke 24:10). John tells the story through Mary Magdalene, who herself says, “we do not know where they have put Him” (John 20:2). Each writer names the people he is following; none says his list is complete.' },
+      ],
       objection: 'The Gospels contradict each other on the resurrection details.',
       response:
         'They differ in which details they include — the number of women and angels mentioned, for example — which is typical of independent eyewitness accounts. They all agree on the core: Jesus died, was buried, the tomb was found empty by women on the first day of the week, and he appeared alive to his followers. Differences in secondary details don’t undermine the central facts.',

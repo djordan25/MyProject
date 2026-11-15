@@ -86,6 +86,9 @@ export const gospelOfGrace: Topic = {
     },
     {
       id: 'gg-5',
+      followUps: [
+        { reply: 'James says a man is justified by deeds. That is the opposite of Paul.', answer: 'James’s own example is Abraham offering Isaac (James 2:21), which happened long after Abraham was counted righteous for believing God (Genesis 15:6). The deed showed the faith that was already there. Paul and James both quote that same verse, and they mean the same thing by it.' },
+      ],
       objection: 'Paul says faith alone, but James says “a man is justified by his deeds and not by faith alone” (James 2:24). The Bible contradicts itself, and James agrees with Islam.',
       response:
         'Paul and James are answering different questions. Paul asks how a sinner is made right with God, and says it is “by faith apart from works of the law” (Romans 3:28). James asks how real faith can be told from empty talk, and says, “faith by itself, if it does not result in action, is dead” (James 2:17). Paul agrees: we are saved by grace and “created in Christ Jesus to do good works” (Ephesians 2:10). Neither man teaches that deeds are weighed on a scale to earn paradise. And they were not rivals: James gave Paul the right hand of fellowship (Galatians 2:9).',

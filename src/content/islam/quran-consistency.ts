@@ -73,6 +73,9 @@ export const quranConsistency: Topic = {
     },
     {
       id: 'qcn-2',
+      followUps: [
+        { reply: 'The Bible changed its laws too. Christians do not keep the Sabbath or the food laws.', answer: 'The Old Testament itself announced that a new covenant was coming (Jeremiah 31:31-34), and Jesus said he came to fulfil the law, not to abolish it (Matthew 5:17). That is one change, foretold centuries ahead. Abrogation is verses replacing verses within a single book over about twenty-three years.' },
+      ],
       objection: 'Abrogation isn’t contradiction; Allah gradually revealed His law.',
       response:
         'If Allah’s words can’t be changed (Quran 6:115), how can verses be replaced? And Quran 4:82 says a book from God would not have much contradiction — abrogation is a mechanism invented to handle verses that otherwise contradict. The Bible does describe a new covenant, but it’s announced in advance (Jeremiah 31:31-34) and fulfilled in Christ, not verses swapped within one book over 23 years.',

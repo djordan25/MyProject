@@ -100,6 +100,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-7',
+      followUps: [
+        { reply: 'If you can’t agree on the list, how can it be God’s word?', answer: 'We agree on every book that tells us about Jesus. The dispute concerns a few older Jewish books, and both sides have always known about it. Disagreement about the edge of a library does not put its centre in doubt.' },
+      ],
       objection: 'Which Bible? Catholics have 73 books and Protestants have 66. You can’t even agree on your own scripture.',
       response:
         'Catholics, Protestants and Orthodox all agree on the 27 books of the New Testament, which is where the gospel of Jesus’ death and resurrection is taught. The difference is a handful of Jewish writings from before Jesus, which Catholics include and Protestants print separately or leave out. Jesus himself spoke of the Scriptures as “the Law of Moses, the Prophets, and the Psalms” (Luke 24:44), the Hebrew Bible entrusted to the Jews (Romans 3:2). None of the disputed books changes who Jesus is or what he did. And the Quran’s problem remains whichever list you choose: both Bibles teach the cross and the deity of Christ.',

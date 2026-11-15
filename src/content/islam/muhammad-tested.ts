@@ -114,6 +114,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-5',
+      followUps: [
+        { reply: 'So you accept that God can command such things.', answer: 'God has the right to judge, and in the Old Testament he sometimes did so through Israel’s wars. He has given the church no such commission. Jesus sends his followers to make disciples of all nations by teaching (Matthew 28:19-20), and he told his disciple to put away the sword (Matthew 26:52).' },
+      ],
       objection: 'The Bible is worse. Moses told his soldiers to keep the young girls for themselves (Numbers 31:17-18).',
       response:
         'That is a hard passage, and I won’t pretend otherwise. It records a judgment in one war under the old covenant. It is not given as a pattern for believers, and Moses is never held up as the sinless example for all time. Christians follow Jesus, who fulfilled the law and never took a life or a captive. Islam presents Muhammad as the “excellent pattern” for every believer in every age (Quran 33:21), so his conduct is a standing example, not a past event.',

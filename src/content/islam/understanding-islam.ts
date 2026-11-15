@@ -57,6 +57,9 @@ export const understandingIslam: Topic = {
   objections: [
     {
       id: 'iu-1',
+      followUps: [
+        { reply: 'You only read what Islam’s critics write.', answer: 'I’m quoting the Quran and Sahih al-Bukhari, not their critics. If I have misread either, show me in the text and I will change what I say.' },
+      ],
       objection: 'You Christians just attack Islam because you don’t understand it.',
       response:
         'That’s a fair challenge, and sometimes it’s true. I want to understand Islam the way you do. That’s why I try to use only the Quran and the hadith collections Sunni Muslims consider most authentic — Sahih al-Bukhari and Sahih Muslim. If I misrepresent something, please correct me. Can I ask you how you understand this passage?',
