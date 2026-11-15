@@ -89,6 +89,7 @@ function Objections({ topic }: { topic: Topic }) {
 
 /** One-page review: each argument and each objection with its key points. Prints cleanly. */
 function Summary({ topic }: { topic: Topic }) {
+  const p = useProgress();
   return (
     <>
       <div className="row no-print">
@@ -122,6 +123,16 @@ function Summary({ topic }: { topic: Topic }) {
             <RefList refs={o.references} label="See" />
           </div>
         ))}
+      </section>
+      <section className="card summary">
+        <h2>My notes</h2>
+        <textarea
+          rows={5}
+          value={p.notes[topic.id] ?? ''}
+          onChange={(e) => progress.setNote(topic.id, e.target.value)}
+          placeholder="Your own notes on this topic. Saved on this device and included in your progress backup."
+          aria-label="My notes"
+        />
       </section>
     </>
   );
