@@ -5,12 +5,32 @@ export const tracks: Track[] = [
     id: 'foundations',
     title: 'Foundations',
     icon: '✦',
-    summary: 'The core case for Christianity: God’s existence, who Jesus is, the reliability of Scripture, how we got the Bible, the resurrection, and the problem of evil.',
+    summary: 'The core case for Christianity: truth, God’s existence, science, the Bible, who Jesus is, the resurrection, and the hard questions people ask.',
     sections: [
       {
-        title: 'Core apologetics',
-        description: 'Start here if you are new to apologetics.',
-        topicIds: ['existence-of-god', 'identity-of-jesus', 'reliability-of-scripture', 'how-we-got-the-bible', 'resurrection', 'problem-of-evil'],
+        title: 'Starting points',
+        description: 'Whether truth can be known at all.',
+        topicIds: ['truth-and-relativism'],
+      },
+      {
+        title: 'Does God exist?',
+        description: 'The case for a Creator, and whether science counts against it.',
+        topicIds: ['existence-of-god', 'science-and-faith'],
+      },
+      {
+        title: 'Can we trust the Bible?',
+        description: 'How the Bible came to us and why its record of Jesus is reliable.',
+        topicIds: ['reliability-of-scripture', 'how-we-got-the-bible'],
+      },
+      {
+        title: 'Who is Jesus?',
+        description: 'His claims and his resurrection.',
+        topicIds: ['identity-of-jesus', 'resurrection'],
+      },
+      {
+        title: 'Hard questions',
+        description: 'The objections people feel most deeply.',
+        topicIds: ['problem-of-evil'],
       },
     ],
   },
