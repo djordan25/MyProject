@@ -71,7 +71,7 @@ export const muhammadTested: Topic = {
     {
       id: 'mt-1',
       followUps: [
-        { reply: 'Christianity spread by empire too.', answer: 'For its first three centuries Christianity spread without an army, while Christians were being killed for it. Jesus told Peter to put his sword away (Matthew 26:52). Islam’s first decades were military campaigns led by its prophet himself (Sahih al-Bukhari 3949).' },
+        { reply: 'Christianity spread by empire too.', answer: 'For its first three centuries Christianity spread without an army, while Christians were being killed for it. Jesus told Peter to put his sword away (Matthew 26:52). In its first decade in power, Islam’s prophet himself led nineteen military campaigns (Sahih al-Bukhari 3949).' },
       ],
       objection: 'Muhammad was the most successful man in history; his success proves Allah was with him.',
       response:
