@@ -35,10 +35,11 @@ export const quranChallenge: Topic = {
       heading: 'The prophecy of the Byzantines (Quran 30:2-4)',
       body: [
         '“The Byzantines have been defeated in the nearest land. But they, after their defeat, will overcome within three to nine years” (Quran 30:2-4). Muslims point to Byzantium’s later victory over Persia as fulfilment.',
+        'The hadith show how unclear the prediction was to those who first heard it. Abu Bakr wagered with the Meccans that the Romans would win. One report says he set the term at five years and another at six; the time passed with no Roman victory, and the Meccans collected their winnings before the Romans finally prevailed (Jami at-Tirmidhi 3193; 3194). A prophecy whose first hearers could not tell when it would come true is hard to call precise.',
         'This is a general prediction about an ongoing war between two superpowers that had traded victories for centuries. Predicting that one side would recover is not the kind of specific, unlikely prophecy that requires God.',
         'Compare biblical prophecy: specific details given centuries in advance — the Messiah’s birthplace (Micah 5:2), his pierced hands and feet and divided garments (Psalm 22:16-18), his death for sins and burial with the rich (Isaiah 53:5-9).',
       ],
-      references: ['Quran 30:2-4', 'Micah 5:2', 'Psalm 22:16-18', 'Isaiah 53:5-9'],
+      references: ['Quran 30:2-4', 'Jami at-Tirmidhi 3193', 'Jami at-Tirmidhi 3194', 'Micah 5:2', 'Psalm 22:16-18', 'Isaiah 53:5-9'],
     },
   ],
   objections: [

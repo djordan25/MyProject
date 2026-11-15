@@ -27,8 +27,19 @@ export const muhammadTested: Topic = {
       body: [
         'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija and her Christian cousin Waraqa who reassured him that it was the angel (Sahih al-Bukhari 3).',
         'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). Muhammad’s assurance came from his wife and her cousin.',
+        'Bukhari also records that when the revelations paused, Muhammad became so sad that “he intended several times to throw himself from the tops of high mountains” (Sahih al-Bukhari 6982). Muslim scholars point out that this part of the report comes from the narrator al-Zuhri without a full chain. The earliest biography, by Ibn Ishaq, tells of the same despair.',
       ],
-      references: ['Sahih al-Bukhari 3', 'Isaiah 6:5', 'Daniel 10:8-9', 'Luke 1:11-13', 'Luke 1:28-30'],
+      references: ['Sahih al-Bukhari 3', 'Sahih al-Bukhari 6982', 'Isaiah 6:5', 'Daniel 10:8-9', 'Luke 1:11-13', 'Luke 1:28-30'],
+    },
+    {
+      heading: 'The “Satanic verses”',
+      body: [
+        'Early Muslim historians, among them Ibn Ishaq (as preserved by al-Tabari) and Ibn Sa‘d, report that Muhammad once recited words honouring three goddesses of Mecca as exalted beings whose intercession could be hoped for, and that the pagans of Mecca then bowed down together with the Muslims. Afterwards, they say, he was told that Satan had put the words on his tongue, and the words were withdrawn.',
+        'Bukhari confirms the bowing without giving the reason: when Muhammad finished reciting Surat an-Najm, “all the Muslims and pagans” prostrated with him (Sahih al-Bukhari 4862). At that point the Quran now names the three goddesses and dismisses them (Quran 53:19-23). Another verse says that whenever a messenger recited, Satan threw something into it, which Allah then abolished (Quran 22:52).',
+        'Be accurate about its standing. Most Muslim scholars today reject the story as poorly attested, though several early scholars recorded it. Present it as what early Muslim sources report, not as an agreed fact, and ask what else explains Quran 22:52 and the pagans bowing.',
+        'The Bible’s test is direct: a prophet who speaks in the name of other gods is not to be followed (Deuteronomy 18:20).',
+      ],
+      references: ['Sahih al-Bukhari 4862', 'Quran 53:19-23', 'Quran 22:52', 'Deuteronomy 18:20'],
     },
     {
       heading: 'Under a spell',
