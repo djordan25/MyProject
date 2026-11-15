@@ -68,6 +68,9 @@ export const hadithReliability: Topic = {
   objections: [
     {
       id: 'hr-1',
+      followUps: [
+        { reply: 'Christians have nothing like the isnad.', answer: 'Christians have something better than chains of names recorded two centuries later: documents written within the lifetime of the eyewitnesses (Luke 1:1-4), while many of those witnesses could still be questioned (1 Corinthians 15:6).' },
+      ],
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
       response:
         'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). Up to two centuries of largely oral transmission, with only some early written notes, is a long time for any method to bridge.',

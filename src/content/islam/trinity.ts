@@ -50,6 +50,9 @@ export const trinity: Topic = {
   objections: [
     {
       id: 'tr-1',
+      followUps: [
+        { reply: 'If it mattered, God would have used the word.', answer: 'The word tawhid is not in the Quran either, yet it is the centre of Islam. What matters is whether the teaching is there. Jesus commands baptism “in the name of the Father, and of the Son, and of the Holy Spirit” (Matthew 28:19): one name, three persons.' },
+      ],
       objection: 'The word “Trinity” isn’t in the Bible.',
       response:
         'True — and the word “tawhid” isn’t in the Quran either, yet Muslims rightly use it to summarise what the Quran teaches about God’s oneness. “Trinity” is a summary word for what the Bible teaches: one God; the Father, Son and Spirit are each God; and they are distinct persons. The question is whether the teaching is there, not the word.',

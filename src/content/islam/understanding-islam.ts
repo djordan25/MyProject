@@ -65,6 +65,9 @@ export const understandingIslam: Topic = {
     },
     {
       id: 'iu-2',
+      followUps: [
+        { reply: 'The Quran is fully detailed. It needs nothing else.', answer: 'Then show me from the Quran alone how many daily prayers there are and what to say in them. And the Quran itself commands obedience to the Messenger (Quran 3:32). How do you obey him without knowing what he said?' },
+      ],
       objection: 'We only follow the Quran; the hadith are not reliable.',
       response:
         'Some Muslims take that position, but the Quran itself repeatedly commands obedience to the Messenger as well as to Allah (Quran 3:32). Without the hadith, you couldn’t know how to perform the five daily prayers — the Quran doesn’t give the details. That’s why the vast majority of Muslims throughout history have accepted Sahih al-Bukhari and Sahih Muslim as authentic.',

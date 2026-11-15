@@ -38,6 +38,9 @@ export const crucifixionDenial: Topic = {
   objections: [
     {
       id: 'cd-1',
+      followUps: [
+        { reply: 'Allah honoured Jesus by raising him up alive. That is the greater honour.', answer: 'The Bible agrees that God honoured Jesus by raising him, but after his death, not in place of it (Philippians 2:8-9). And the Quran itself says prophets were killed (Quran 2:87), so death is no dishonour to a prophet.' },
+      ],
       objection: 'God would never allow his righteous prophet to be humiliated on a cross.',
       response:
         'That sounds reverent, but the Quran itself says Israel killed prophets (Quran 2:87). God’s ways are not our ways. The cross wasn’t defeat — it was God’s plan to defeat sin and death. Jesus said, “No one takes it from Me, but I lay it down of My own accord” (John 10:18). Then God vindicated him by raising him from the dead.',

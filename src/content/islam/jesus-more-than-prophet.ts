@@ -70,6 +70,9 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       id: 'jp-2',
+      followUps: [
+        { reply: 'Adam was also created by the word “Be”.', answer: 'Yes (Quran 3:59), and yet the Quran never calls Adam God’s Word. Only Jesus is given that title (Quran 3:45; 4:171). Being made by a word and being called the Word are different things.' },
+      ],
       objection: '“Word of God” in Quran 4:171 just means Jesus was created by God’s command “Be!”',
       response:
         'Every person is created by God’s command — yet the Quran gives only Jesus the title “His word” and “a soul from Him”. That uniqueness points somewhere. The Gospel of John explains it: “In the beginning was the Word, and the Word was with God, and the Word was God… The Word became flesh” (John 1:1, 14). God’s Word is eternal, as God himself is.',

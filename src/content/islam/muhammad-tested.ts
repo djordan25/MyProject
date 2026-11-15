@@ -70,6 +70,9 @@ export const muhammadTested: Topic = {
   objections: [
     {
       id: 'mt-1',
+      followUps: [
+        { reply: 'Christianity spread by empire too.', answer: 'For its first three centuries Christianity spread without an army, while Christians were being killed for it. Jesus told Peter to put his sword away (Matthew 26:52). Islam’s first decades were military campaigns led by its prophet himself (Sahih al-Bukhari 3949).' },
+      ],
       objection: 'Muhammad was the most successful man in history; his success proves Allah was with him.',
       response:
         'Success isn’t proof of truth — many empires have spread rapidly. By that logic, Rome’s gods were true while Rome was winning. And Jesus never sought political power; his kingdom is “not of this world” (John 18:36). The test of a prophet is truth and faithfulness to God’s revelation, not military or political success.',
