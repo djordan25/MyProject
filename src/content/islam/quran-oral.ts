@@ -67,7 +67,7 @@ export const quranOral: Topic = {
     {
       id: 'qo-2',
       followUps: [
-        { reply: 'The Prophet reviewed the whole Quran with Gabriel every year.', answer: 'If a complete, checked Quran had been left behind, Abu Bakr would not have said that collecting it was something the Messenger never did, and Zaid would not have had to search for verses and find some with only one man (Sahih al-Bukhari 4986).' },
+        { reply: 'The Prophet reviewed the whole Quran with Gabriel every year.', answer: 'If a complete, checked Quran had been left behind, Abu Bakr would not have said that collecting it was something the Messenger never did, and Zaid would not have had to search for verses and find the closing verses of Surah 9 with only one man (Sahih al-Bukhari 4986).' },
       ],
       objection: 'The Quran was written down during Muhammad’s life, so it never depended on memory alone.',
       response:

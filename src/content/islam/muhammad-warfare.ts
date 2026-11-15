@@ -67,7 +67,7 @@ export const muhammadWarfare: Topic = {
     {
       id: 'mw-2',
       followUps: [
-        { reply: 'So God commanded violence in your book too.', answer: 'For one people, place and time, as a judgment, and Scripture says so (Deuteronomy 9:5). The Bible has no standing command to fight unbelievers until they submit. Quran 9:29 is not tied to one nation or one moment, and classical Islamic law treated it as a standing rule.' },
+        { reply: 'So God commanded violence in your book too.', answer: 'For one people, place and time, as a judgment, and Scripture says so (Deuteronomy 9:5). The Bible has no standing command to fight unbelievers until they submit. Quran 9:29 names no single nation or moment, and classical Islamic law treated it as a standing rule.' },
       ],
       objection: 'The Old Testament is full of violence too — what about the conquest of Canaan?',
       response:

@@ -16,7 +16,7 @@ export const branchesOfIslam: Topic = {
     {
       heading: 'Sunni Muslims',
       body: [
-        'Sunnis follow the Quran and the Sunnah, the example of Muhammad, as recorded in six major hadith collections. Bukhari and Muslim are the most trusted of the six. Sunnis belong to one of four schools of law (Hanafi, Maliki, Shafi‘i and Hanbali), which differ on practice more than on belief.',
+        'Sunnis follow the Quran and the Sunnah, the example of Muhammad, as recorded in six major hadith collections. Bukhari and Muslim are the most trusted of the six. Most Sunnis follow one of four schools of law (Hanafi, Maliki, Shafi‘i and Hanbali), which differ on practice more than on belief.',
         'Every lesson in this course applies directly to Sunnis.',
       ],
     },
@@ -25,7 +25,7 @@ export const branchesOfIslam: Topic = {
       body: [
         'Shia Muslims are roughly 10 to 15 percent of the Muslim world, and the majority in Iran and Iraq. They believe leadership after Muhammad belonged to his cousin and son-in-law Ali and to a line of Imams from his family. Most are “Twelvers”, who recognise twelve Imams.',
         'Shia Muslims have their own hadith collections and do not trust many of the narrators Sunnis rely on. “Sahih al-Bukhari says” carries little weight with them.',
-        'What still applies: everything argued from the Quran. The Quran’s affirmation of the Torah and Gospel (Quran 5:47), its denial of the crucifixion (Quran 4:157), its picture of Christian belief and its internal difficulties are the same for Shia and Sunni.',
+        'What still applies: everything argued from the Quran. The Quran’s affirmation of the Gospel (Quran 5:47), its denial of the crucifixion (Quran 4:157), its picture of Christian belief and its internal difficulties are the same for Shia and Sunni.',
         'Notice, too, what the split shows. The two largest bodies of Muslims disagree about which reports of Muhammad’s words are genuine. That is the problem of the hadith in plain view.',
       ],
       references: ['Quran 5:47', 'Quran 4:157'],
@@ -41,7 +41,7 @@ export const branchesOfIslam: Topic = {
     {
       heading: 'Ahmadi Muslims',
       body: [
-        'The Ahmadiyya movement began in India in the late nineteenth century with Mirza Ghulam Ahmad, whom its members regard as a promised reformer. Most other Muslims consider Ahmadis to be outside Islam, and they are persecuted in several countries.',
+        'The Ahmadiyya movement began in India in the late nineteenth century with Mirza Ghulam Ahmad, whom its members regard as the Promised Messiah and Mahdi. Most other Muslims consider Ahmadis to be outside Islam, and they are persecuted in several countries.',
         'Ahmadis teach that Jesus was crucified but survived, later travelling east and dying a natural death. So with an Ahmadi you are answering the “swoon” theory, which the lesson Denying the Crucifixion covers.',
       ],
     },
