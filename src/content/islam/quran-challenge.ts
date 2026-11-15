@@ -66,6 +66,9 @@ export const quranChallenge: Topic = {
     },
     {
       id: 'qc-3',
+      followUps: [
+        { reply: 'No one could have guessed it. Persia had crushed the Byzantines.', answer: 'The verse gives itself a wide window, “within three to nine years” (Quran 30:4), for one of two empires that had been trading victories for generations to win the next round. That is a forecast, not a miracle. Compare a prophecy that names the town where the Messiah would be born, about seven centuries ahead (Micah 5:2).' },
+      ],
       objection: 'The Byzantine prophecy was fulfilled precisely; how could Muhammad know?',
       response:
         'The Byzantines and Persians had been at war for generations, swinging back and forth. A prediction that the defeated side would recover is a reasonable guess, not a miracle. Compare the Bible, which foretold where the Messiah would be born and how he would die, centuries in advance (Micah 5:2; Isaiah 53).',

@@ -113,6 +113,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-5',
+      followUps: [
+        { reply: 'The Quran is the final revelation, so it overrules what came before.', answer: 'A later message can add to an earlier one. It cannot contradict it and still call it true. The Quran does not say the Gospel used to be right; it tells the people of the Gospel, in Muhammad’s own day, to judge by it (Quran 5:47). And what the Gospel says about the cross is a claim about history, which no later book can overrule.' },
+      ],
       objection: 'The Quran only confirms the parts of the Bible that agree with it.',
       response:
         'Where does the Quran say “only the parts that agree”? It says it confirms what is “with you” (Quran 2:41; 4:47), tells Christians to judge by the Gospel (Quran 5:47), and says they stand on nothing unless they uphold the Torah, the Gospel and what was revealed to them (Quran 5:68). If only the agreeing parts count, the Quran is merely confirming itself, which is no confirmation at all. And Muhammad didn’t test the Torah against the Quran: he called for the Torah and judged by it (Sahih al-Bukhari 7543).',

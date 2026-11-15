@@ -91,6 +91,9 @@ export const quranSources: Topic = {
     },
     {
       id: 'qs-2',
+      followUps: [
+        { reply: 'Those legends were in Greek and Syriac, which he did not know.', answer: 'Stories cross languages by being retold, not by being read. Jews and Christians lived in Arabia and along its trade routes, and the Quran itself records the charge that a foreigner was teaching him (Quran 16:103). A merchant hears many stories.' },
+      ],
       objection: 'Muhammad was illiterate, so he couldn’t have read these books.',
       response:
         'He didn’t need to read them. These stories circulated orally among Jews and Christians in Arabia, and the Quran itself says his opponents accused him of being taught by a foreigner and of repeating “legends of the former peoples” (Quran 16:103; 25:5). Muhammad also told his followers to retell the stories of the Israelites (Sahih al-Bukhari 3461).',
@@ -99,6 +102,9 @@ export const quranSources: Topic = {
     },
     {
       id: 'qs-3',
+      followUps: [
+        { reply: 'The church banned the Gospel of Barnabas, which is why it was hidden.', answer: 'Early lists mention a book of that name, but nothing of its contents survives. The book quoted today has medieval details and mistakes about first-century Palestine, and it gives the title Messiah to Muhammad, which the Quran gives to Jesus (Quran 3:45). A book that contradicts the Quran cannot be the Gospel the Quran confirms.' },
+      ],
       objection: 'The Gospel of Barnabas proves Christians hid the truth about Muhammad.',
       response:
         'Its only manuscripts date from the 1500s or later, and it contradicts the Quran: it denies that Jesus is the Messiah, while the Quran calls him the Messiah (Quran 3:45). If it contradicts the Quran, a Muslim shouldn’t rely on it either.',

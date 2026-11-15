@@ -88,6 +88,9 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-4',
+      followUps: [
+        { reply: 'Those rules show that Islamic warfare was more humane than others.', answer: 'Perhaps it was, by the standards of the time. But the question is not whether Muhammad fought more gently than his neighbours. It is whether a prophet of God spreads his message by fighting at all. The same hadith that forbids mutilation tells his commanders to fight those who disbelieve (Sahih Muslim 1731). Jesus sent his followers out to teach (Matthew 28:19-20).' },
+      ],
       objection: 'Muhammad forbade killing women and children and mutilating the dead.',
       response:
         'That’s true, and it’s fair to acknowledge it — Sahih al-Bukhari 3015 records him forbidding the killing of women and children, and Sahih Muslim 1731 forbids mutilation and killing children. But Sahih Muslim 1731 instructs his armies to fight those who disbelieve, inviting them to Islam, then demanding the jizya, and fighting if they refuse. Rules for conducting war don’t change the fact that Muhammad led wars to spread his rule. Jesus gave his followers no rules for war, because he gave them no war to fight.',

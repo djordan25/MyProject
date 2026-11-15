@@ -57,6 +57,9 @@ export const branchesOfIslam: Topic = {
   objections: [
     {
       id: 'ib-1',
+      followUps: [
+        { reply: 'Our Imams explained the Quran, and they taught that the Gospel was changed.', answer: 'Then the question is whether that teaching fits the Quran’s own words. It tells the people of the Gospel to judge by it (Quran 5:47) and says none can alter Allah’s words (Quran 6:115). If a later teacher says the opposite, which do you follow: the teacher or the Quran?' },
+      ],
       objection: 'I am Shia. Bukhari and Muslim are Sunni books, and I don’t accept them.',
       response:
         'That’s helpful to know, thank you. Then let’s stay with the Quran, which we can both open. It tells the people of the Gospel to judge by what Allah revealed in it (Quran 5:47), and says no one can change Allah’s words (Quran 6:115). Yet it denies what that Gospel teaches about Jesus’ death (Quran 4:157). How do you put those together?',
@@ -65,6 +68,9 @@ export const branchesOfIslam: Topic = {
     },
     {
       id: 'ib-2',
+      followUps: [
+        { reply: 'Sunni and Shia still share one Quran.', answer: 'They do, and Christians share one Bible. That is the fair comparison. The difference lies a step further back: Muslims disagree about which accounts of their prophet’s words and deeds are genuine, and those accounts are where the prayers, the law and the story of the Quran itself come from.' },
+      ],
       objection: 'Christians are split into thousands of denominations. Our divisions are nothing by comparison.',
       response:
         'Christians do differ, and I won’t pretend otherwise. But Catholics, Orthodox and Protestants read the same Gospels and confess the same thing about Jesus: that he died for our sins and rose again (1 Corinthians 15:3-4). My point about Sunni and Shia is narrower. They disagree over which records of Muhammad’s words are authentic, and Islam’s law and practice depend on those records.',

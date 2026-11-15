@@ -76,6 +76,9 @@ export const sharingTheGospel: Topic = {
     },
     {
       id: 'sg-3',
+      followUps: [
+        { reply: 'Would I have to change my name and leave my culture?', answer: 'No. Following Jesus does not mean becoming Western. The first Christians were Middle Eastern, and God’s people come from every nation, tribe, people and language (Revelation 7:9). You would give up what dishonours God, as every believer must, and keep everything good in your culture.' },
+      ],
       objection: 'If I became a Christian, what would I even have to do?',
       response:
         'Not a list of rituals. You would turn to God, admitting your sin, and trust Jesus: that he died for you and rose again, and that he is Lord (Romans 10:9). Then you would be baptised and join his people, and begin to follow him. It is a gift you receive (Romans 6:23), not a ladder you climb. Would you like to pray about it now, or read more of the Gospel first?',
