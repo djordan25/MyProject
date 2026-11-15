@@ -47,7 +47,7 @@ export const understandingIslam: Topic = {
       body: [
         'Ask questions before making statements: “What do you mean by that?” and “How did you come to that conclusion?”',
         'Use their sources. A Muslim is far more likely to be persuaded by the Quran and Sahih hadith than by a Western scholar.',
-        'Never mock Muhammad or the Quran. State facts from the sources calmly and let them speak.',
+        'Tell the truth plainly. Stating what Islam’s own sources say about Muhammad, and judging it morally, is not mockery or insult: it is honesty. Quote the sources and let them speak.',
         'Bring the conversation back to Jesus: who he is and what he has done. Arguments clear the way; the gospel is the destination.',
         'Pray. Conversion is the work of the Holy Spirit, not of clever arguments.',
       ],

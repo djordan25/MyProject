@@ -7,9 +7,9 @@ export const muhammadWarfare: Topic = {
   summary: 'Islam’s own sources describe Muhammad leading military campaigns, taking booty and captives, and ordering killings. Compare the Prince of Peace.',
   lesson: [
     {
-      heading: 'Approach with care',
+      heading: 'Why this matters',
       body: [
-        'Many Muslims are peaceful people who are troubled by violence done in Islam’s name. This topic is not about them — it is about the example of Islam’s founder, whom the Quran calls “an excellent pattern” for believers (Quran 33:21). Present the sources calmly and let them speak.',
+        'The Quran calls Muhammad “an excellent pattern” for believers (Quran 33:21), so his conduct is the standard Islam itself sets. Calling him a warlord is not an insult: it is what Islam’s most trusted sources describe. This lesson is about that example, not about ordinary Muslims, many of whom are peaceful people troubled by violence done in Islam’s name.',
       ],
       references: ['Quran 33:21', '1 Peter 3:15'],
     },

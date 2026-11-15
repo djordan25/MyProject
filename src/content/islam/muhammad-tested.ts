@@ -43,7 +43,7 @@ export const muhammadTested: Topic = {
       body: [
         'The Quran sets its own test: “If Muhammad had made up about Us some [false] sayings, We would have seized him by the right hand; then We would have cut from him the aorta” (Quran 69:44-46).',
         'In his final illness, Muhammad said: “O Aisha! I still feel the pain caused by the food I ate at Khaibar, and at this time, I feel as if my aorta is being cut from that poison” (Sahih al-Bukhari 4428).',
-        'Present this soberly. The point is not to gloat over a man’s death, but to ask: by the Quran’s own stated criterion, what does Muhammad’s description of his death suggest?',
+        'The question to ask: by the Quran’s own stated criterion, what does Muhammad’s description of his death suggest?',
       ],
       references: ['Quran 69:44-47', 'Sahih al-Bukhari 4428'],
     },
@@ -61,7 +61,7 @@ export const muhammadTested: Topic = {
       body: [
         'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd, and Quran 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
         'When Quran 33:51 came, giving Muhammad freedom regarding his wives’ turns, Aisha said: “I feel that your Lord hastens in fulfilling your wishes and desires” (Sahih al-Bukhari 4788).',
-        'Sahih al-Bukhari 5133 states that Muhammad married Aisha when she was six and consummated the marriage when she was nine. Raise this with care — not to inflame, but because Muslims hold Muhammad as the perfect moral example for all time. Is this an example for all time?',
+        'Sahih al-Bukhari 5133 states that Muhammad married Aisha when she was six and consummated the marriage when she was nine. This is not an insult; it is what Islam’s most trusted hadith collection records. It matters because Muslims hold Muhammad as the perfect moral example for all time. Is this an example for all time?',
         'Contrast Jesus, who “did not come to be served, but to serve, and to give His life as a ransom for many” (Mark 10:45).',
       ],
       references: ['Quran 33:37', 'Quran 33:50-51', 'Sahih al-Bukhari 4788', 'Sahih al-Bukhari 5133', 'Mark 10:45', 'Philippians 2:5-8'],
@@ -81,7 +81,7 @@ export const muhammadTested: Topic = {
       objection: 'Aisha’s age was normal in that culture.',
       response:
         'Cultural context explains why people at the time weren’t shocked — but Islam claims Muhammad is the perfect example for all people in all times. If his conduct is timeless, culture can’t be the defence; if culture is the defence, his example isn’t timeless. Jesus’ example of self-giving love, by contrast, has never needed a cultural excuse.',
-      keyPoints: ['Muhammad presented as the timeless example.', 'Cultural relativism undercuts that.', 'Raise respectfully, briefly, and move to Jesus.'],
+      keyPoints: ['Muhammad presented as the timeless example.', 'Cultural relativism undercuts that.', 'State it plainly, then point to Jesus.'],
       references: ['Sahih al-Bukhari 5133', '1 Peter 2:21-23'],
     },
     {
