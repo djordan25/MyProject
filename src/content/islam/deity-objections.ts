@@ -118,7 +118,7 @@ export const deityObjections: Topic = {
     {
       id: 'do-9',
       followUps: [
-        { reply: 'Then he is dependent, and God depends on no one.', answer: 'The verse describes the Son’s relationship to the Father, not a creature’s weakness. The same passage says the Son has life in himself, as the Father has (John 5:26), and that the dead will hear his voice and live (John 5:25). No dependent creature gives life to the dead by his own voice.' },
+        { reply: 'Then he is dependent, and God depends on no one.', answer: 'The verse describes the Son’s relationship to the Father, not a creature’s weakness. The same passage says the Father has granted the Son to have life in himself, just as the Father has (John 5:26), and that the dead will hear his voice and live (John 5:25). No creature has life in himself, or raises the dead by his voice.' },
       ],
       objection: 'Jesus said, “I can do nothing by Myself” (John 5:30). God can do anything.',
       response:
@@ -129,7 +129,7 @@ export const deityObjections: Topic = {
     {
       id: 'do-10',
       followUps: [
-        { reply: 'A servant of God cannot be God.', answer: 'Paul says he became one: existing in the form of God, he “emptied Himself, taking the form of a servant” (Philippians 2:7). Servant is the role he took, not all that he is. And Isaiah’s Servant is the one who bears the sin of many (Isaiah 53:12), which no mere prophet could do.' },
+        { reply: 'A servant of God cannot be God.', answer: 'Paul says he became one: existing in the form of God, he “emptied Himself, taking the form of a servant” (Philippians 2:6-7). Servant is the role he took, not all that he is. And Isaiah’s Servant is the one who bears the sin of many (Isaiah 53:12), which no mere prophet could do.' },
       ],
       objection: 'Peter called Jesus “a man certified by God” and God’s “servant” (Acts 2:22; 3:13). The first Christians didn’t think he was God.',
       response:

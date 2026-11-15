@@ -76,7 +76,7 @@ export const howWeGotTheBible: Topic = {
     {
       id: 'hb-3',
       followUps: [
-        { reply: 'The King James Bible has verses that modern Bibles leave out.', answer: 'It does, a small number, because its translators worked from a handful of late manuscripts. Much older manuscripts found since then do not have those verses, so modern Bibles move them to the footnotes. Nothing is hidden, and no teaching rests on any of them.' },
+        { reply: 'The King James Bible has verses that modern Bibles leave out.', answer: 'It does, a small number, because its translators worked from a printed Greek text based on a handful of late manuscripts. Much older manuscripts found since then do not have those verses, so modern Bibles move them to the footnotes. Nothing is hidden, and no teaching rests on any of them.' },
       ],
       objection: 'There are so many Bible versions. Which one is the real Bible?',
       response:

@@ -79,7 +79,7 @@ export const gospelOfGrace: Topic = {
     {
       id: 'gg-4',
       followUps: [
-        { reply: 'Jesus said not one letter of the law would pass away.', answer: 'He said nothing would disappear from the law “until everything is accomplished” (Matthew 5:18), and on the cross he said, “It is finished” (John 19:30). The law pointed to him, and he completed it. That is why Peter argued that its yoke should not be laid on Gentile believers (Acts 15:10-11).' },
+        { reply: 'Jesus said not one letter of the law would pass away.', answer: 'He said, “until heaven and earth pass away, not a single jot, not a stroke of a pen, will disappear from the Law until everything is accomplished” (Matthew 5:18), having just said that he came to fulfil the Law (Matthew 5:17). He did not abolish it; he completed what it pointed to, and on the cross he said, “It is finished” (John 19:30). Accordingly, Peter argued that its yoke should not be laid on Gentile believers (Acts 15:10-11).' },
       ],
       objection: 'Muslims follow Jesus better than Christians do. He was circumcised, never ate pork, and kept the law.',
       response:

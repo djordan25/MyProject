@@ -80,7 +80,7 @@ export const muhammadInBible: Topic = {
     {
       id: 'mb-4',
       followUps: [
-        { reply: 'The servant brings a law to the coastlands. That is the Sharia.', answer: 'Isaiah’s servant does not raise his voice in the streets and will not break a bruised reed (Isaiah 42:2-3). Matthew says this was fulfilled in Jesus, who withdrew quietly and healed the crowds (Matthew 12:15-21). And the same servant goes on to die for the sins of others (Isaiah 53:5-6), which Islam denies of Jesus and never claims for Muhammad.' },
+        { reply: 'The servant brings a law to the coastlands. That is the Sharia.', answer: 'The law the coastlands wait for belongs to a servant who does not raise his voice in the streets and will not break a bruised reed (Isaiah 42:2-4). Matthew quotes the passage through to its last line, about the nations putting their hope in him, and says it was fulfilled in Jesus (Matthew 12:15-21). And the same servant goes on to be cut off for the sins of others (Isaiah 53:8), which Islam denies of Jesus and never claims for Muhammad.' },
       ],
       objection: 'Isaiah 42 speaks of a servant connected to Kedar (Arabia) — that is Muhammad.',
       response:

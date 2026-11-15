@@ -106,7 +106,7 @@ export const trinity: Topic = {
     {
       id: 'tr-6',
       followUps: [
-        { reply: 'The Trinity looks just like the Hindu and Egyptian triads.', answer: 'Those are groups of separate gods, with their own origins, spouses and rivalries. The Trinity is one God who has always existed as Father, Son and Spirit. A shared number proves no borrowing. The first Christians took their teaching from the Hebrew Scriptures and from Jesus’ command to baptise in the name of the Father, the Son and the Holy Spirit (Matthew 28:19).' },
+        { reply: 'The Trinity looks just like the Hindu and Egyptian triads.', answer: 'The Egyptian triads are families of separate gods, and the Hindu Trimurti is three forms of one impersonal reality. Neither is one personal God who has always existed as Father, Son and Spirit. A shared number proves no borrowing. The first Christians took their teaching from the Hebrew Scriptures and from Jesus’ command to baptise in the name of the Father, the Son and the Holy Spirit (Matthew 28:19).' },
       ],
       objection: 'The Trinity was borrowed from pagan religions with their triads of gods.',
       response:

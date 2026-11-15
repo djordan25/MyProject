@@ -102,7 +102,7 @@ export const hadithReliability: Topic = {
     {
       id: 'hr-4',
       followUps: [
-        { reply: 'Scholars have criticised some hadith even in Bukhari.', answer: 'A small number, on technical grounds, and other scholars answered them. The reports of how the Quran was collected are accepted across Sunni scholarship (Sahih al-Bukhari 4986, 4987). Set those aside and you have no account at all of how the Quran became a book.' },
+        { reply: 'Scholars have criticised some hadith even in Bukhari.', answer: 'A small number, on technical grounds, and other scholars answered them. The reports of how the Quran was collected are accepted across Sunni scholarship (Sahih al-Bukhari 4986, 4987). Set those aside and you lose the standard account of how the Quran became a book.' },
       ],
       objection: 'That hadith is weak. I don’t accept it.',
       response:

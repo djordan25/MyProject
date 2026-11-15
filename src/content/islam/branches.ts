@@ -69,7 +69,7 @@ export const branchesOfIslam: Topic = {
     {
       id: 'ib-2',
       followUps: [
-        { reply: 'Sunni and Shia still share one Quran.', answer: 'They do, and Christians share one Bible. That is the fair comparison. The difference lies a step further back: Muslims disagree about which accounts of their prophet’s words and deeds are genuine, and those accounts are where the prayers, the law and the story of the Quran itself come from.' },
+        { reply: 'Sunni and Shia still share one Quran.', answer: 'They do, and Christians share the same New Testament. That is the fair comparison. The difference lies a step further back: Muslims disagree about which accounts of their prophet’s words and deeds are genuine, and those accounts are where the prayers, the law and the story of the Quran itself come from.' },
       ],
       objection: 'Christians are split into thousands of denominations. Our divisions are nothing by comparison.',
       response:
