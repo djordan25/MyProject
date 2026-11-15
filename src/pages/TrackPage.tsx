@@ -18,6 +18,7 @@ export default function TrackPage() {
       )}
       <div className="row">
         <Link className="btn" to={`/practice?track=${track.id}`}>Practise objections from this track →</Link>
+        {track.id === 'islam' && <Link className="btn" to="/glossary">Glossary of Islamic terms</Link>}
       </div>
       {track.sections.map((s, i) => (
         <section key={s.title} className="track-section">

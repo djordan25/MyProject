@@ -4,6 +4,7 @@ import { parseRef, segmentCitations } from '../lib/references';
 import bibleCounts from './data/bible-verse-counts.json';
 import quranCounts from './data/quran-verse-counts.json';
 import passages from './data/passages.json';
+import { glossary } from './glossary';
 
 const bible = bibleCounts as Record<string, number[]>;
 const quran = quranCounts as number[];
@@ -97,6 +98,14 @@ describe('segmentCitations', () => {
   it('keeps the original text intact', () => {
     const t = 'See (Quran 6:34, 6:115) and Sahih Muslim 1452, 1050.';
     expect(segmentCitations(t).map((s) => s.text).join('')).toBe(t);
+  });
+});
+
+describe('glossary', () => {
+  it('has unique terms and only valid citations with passage text', () => {
+    expect(new Set(glossary.map((g) => g.term)).size).toBe(glossary.length);
+    const refs = glossary.flatMap((g) => segmentCitations(g.meaning).flatMap((s) => (s.ref ? [s.ref] : [])));
+    expect(refs.filter((r) => validate(r) || !(r in passageData))).toEqual([]);
   });
 });
 
