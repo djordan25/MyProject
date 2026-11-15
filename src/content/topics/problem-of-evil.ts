@@ -40,6 +40,9 @@ export const problemOfEvil: Topic = {
   objections: [
     {
       id: 'poe-1',
+      followUps: [
+        { reply: 'Then why doesn’t he end it now?', answer: 'Ending all evil now would mean ending us, since evil runs through every human heart. Peter says the delay is patience: God is giving people time to turn to him (2 Peter 3:9).' },
+      ],
       objection: 'If God were all-good and all-powerful, he would stop all suffering.',
       response:
         'That assumes God couldn’t have any good reason for allowing suffering for a time. But if God made us free so we could truly love, then wrong choices were possible too. And Christianity says God will end suffering — he just hasn’t yet. The fact that we don’t see every reason doesn’t mean there aren’t any.',
@@ -51,6 +54,9 @@ export const problemOfEvil: Topic = {
     },
     {
       id: 'poe-2',
+      followUps: [
+        { reply: 'A good God would have made a world without earthquakes.', answer: 'That would be a different world, without the stable natural order that makes life, science and responsible action possible. And Scripture’s own answer is that this world is not as it will be: creation itself is waiting to be set free (Romans 8:20-22).' },
+      ],
       objection: 'What about natural disasters? Those aren’t caused by free will.',
       response:
         'That’s a fair point. Some respond that a stable, law-governed world — needed for free, meaningful choices — will include things like earthquakes. The Bible also describes creation as fallen and groaning (Romans 8:20-22). Ultimately, we may not know every reason, but if God exists and is good, we can trust there is one.',
@@ -62,6 +68,9 @@ export const problemOfEvil: Topic = {
     },
     {
       id: 'poe-3',
+      followUps: [
+        { reply: 'Where was God when it happened?', answer: 'I don’t know why he allowed it. I do know where he was when his own Son died: he did not look away, and he turned that death into the rescue of the world. He promises to wipe away every tear (Revelation 21:4), and he keeps his promises.' },
+      ],
       objection: 'I lost someone I loved. How can you say God is good?',
       response:
         'I’m so sorry. I won’t pretend to have a neat answer for your pain. What I can say is that Jesus himself wept at his friend’s grave, even knowing he would raise him. God isn’t distant from suffering — he entered it on the cross. And he promises a day when he will wipe every tear away. I’d love to walk with you through this, if you’re open to it.',

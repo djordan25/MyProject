@@ -62,6 +62,9 @@ export const quranConsistency: Topic = {
   objections: [
     {
       id: 'qcn-1',
+      followUps: [
+        { reply: 'Scholars of the Quran have an explanation for every one of those verses.', answer: 'I’m sure they do, and I would like to hear them. But notice that explanations are needed at all. Quran 4:82 says a book from anyone but Allah would contain much contradiction, and a book that needs centuries of explanation to remove its contradictions has not plainly passed that test.' },
+      ],
       objection: 'These aren’t contradictions — you just don’t understand the Arabic and the context.',
       response:
         'That’s possible for some passages, and I want to learn. But some of these aren’t about subtle Arabic: the days listed in Quran 41:9-12 add up to eight unless you assume an overlap the text doesn’t state. And the hundred-lashes verse (Quran 24:2) versus stoning in Bukhari isn’t a translation issue. If the explanation requires adding words the text doesn’t contain, is it really the plain, clear book the Quran claims to be?',
@@ -70,6 +73,9 @@ export const quranConsistency: Topic = {
     },
     {
       id: 'qcn-2',
+      followUps: [
+        { reply: 'The Bible changed its laws too. Christians do not keep the Sabbath or the food laws.', answer: 'The Old Testament itself announced that a new covenant was coming (Jeremiah 31:31-34), and Jesus said he came to fulfil the law, not to abolish it (Matthew 5:17). That is one change, foretold centuries ahead. Abrogation is verses replacing verses within a single book over about twenty-three years.' },
+      ],
       objection: 'Abrogation isn’t contradiction; Allah gradually revealed His law.',
       response:
         'If Allah’s words can’t be changed (Quran 6:115), how can verses be replaced? And Quran 4:82 says a book from God would not have much contradiction — abrogation is a mechanism invented to handle verses that otherwise contradict. The Bible does describe a new covenant, but it’s announced in advance (Jeremiah 31:31-34) and fulfilled in Christ, not verses swapped within one book over 23 years.',
@@ -78,6 +84,9 @@ export const quranConsistency: Topic = {
     },
     {
       id: 'qcn-3',
+      followUps: [
+        { reply: 'Then both books fail.', answer: 'Only one of them made the absence of contradiction its test. The gospel stakes everything on an event: “if Christ has not been raised, your faith is futile” (1 Corinthians 15:17). So test each by its own claim: the Quran by Quran 4:82, and the gospel by the resurrection.' },
+      ],
       objection: 'The Bible has contradictions too.',
       response:
         'Let’s look at any passage you have in mind — Christians take that seriously. But notice the Bible never stakes its truth on containing no contradictions the way Quran 4:82 does. Its claim rests on the person and resurrection of Jesus. Pointing at the Bible doesn’t answer whether the Quran passes its own test.',

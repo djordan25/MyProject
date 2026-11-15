@@ -62,6 +62,9 @@ export const jesusMoreThanProphet: Topic = {
   objections: [
     {
       id: 'jp-1',
+      followUps: [
+        { reply: 'Jesus did his miracles only by God’s permission, like every prophet.', answer: 'Prophets pray and God acts. Jesus speaks and acts as one who holds the authority himself. He forgives sins himself and proves it by healing: “the Son of Man has authority on earth to forgive sins” (Mark 2:10). No prophet ever claimed that. The Son does nothing apart from the Father, but he does everything the Father does (John 5:19).' },
+      ],
       objection: 'Other prophets did miracles too. Moses parted the sea; that doesn’t make him God.',
       response:
         'True — miracles alone don’t prove deity. The issue is the claims Jesus made alongside them. Moses never forgave sins, accepted worship, claimed the divine name, or said he would judge the world. Jesus did all these. And the Quran itself describes Jesus creating living birds from clay (Quran 3:49) — something no other prophet is said to do.',
@@ -70,6 +73,9 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       id: 'jp-2',
+      followUps: [
+        { reply: 'Adam was also created by the word “Be”.', answer: 'Yes (Quran 3:59), and yet the Quran never calls Adam God’s Word. Only Jesus is given that title (Quran 3:45; 4:171). Being made by a word and being called the Word are different things.' },
+      ],
       objection: '“Word of God” in Quran 4:171 just means Jesus was created by God’s command “Be!”',
       response:
         'Every person is created by God’s command — yet the Quran gives only Jesus the title “His word” and “a soul from Him”. That uniqueness points somewhere. The Gospel of John explains it: “In the beginning was the Word, and the Word was with God, and the Word was God… The Word became flesh” (John 1:1, 14). God’s Word is eternal, as God himself is.',
@@ -78,6 +84,9 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       id: 'jp-3',
+      followUps: [
+        { reply: 'Ezekiel is called “son of man” too.', answer: 'Ezekiel is addressed as a son of man, meaning a human being. Jesus calls himself the Son of Man who will sit at the right hand of God and come with the clouds of heaven (Mark 14:62). That is the figure of Daniel 7:13-14, not Ezekiel, and the high priest understood the difference.' },
+      ],
       objection: 'Jesus called himself “Son of Man”, which shows he was just a human.',
       response:
         '“Son of Man” comes from Daniel 7:13-14, where one like a son of man comes with the clouds of heaven and receives everlasting dominion, glory and the service of all nations. When Jesus applied that title to himself before the high priest, he was condemned for blasphemy (Mark 14:62-64). It’s one of the highest claims he made.',

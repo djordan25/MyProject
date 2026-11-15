@@ -34,6 +34,9 @@ export const bibleCorruption: Topic = {
   objections: [
     {
       id: 'bc-1',
+      followUps: [
+        { reply: 'So you admit that scribes could falsify scripture.', answer: 'Jeremiah accuses the teachers of handling the law falsely, and the next verse says they have “rejected the word of the LORD” (Jeremiah 8:9). You can only reject a word that is still there to be rejected.' },
+      ],
       objection: 'Jeremiah 8:8 admits “the lying pen of the scribes” corrupted the law.',
       response:
         'Read the context. Jeremiah is rebuking teachers who claimed to be wise because they had the law, while rejecting God’s word (Jeremiah 8:8-9). He’s condemning false teaching and handling of the law — and Jeremiah himself goes on quoting and appealing to the law. Muslims also don’t argue that the Torah of Jeremiah’s day was corrupt, since the Quran affirms the Torah centuries later (Quran 5:43).',
@@ -42,6 +45,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-2',
+      followUps: [
+        { reply: 'Then who are the people writing the book with their own hands?', answer: 'The verse does not say, and it does not name the Torah or the Gospel. The verse before it speaks of people who know the Scripture only through wishful thinking (Quran 2:78). Whoever they were, the Quran goes on to say the Jews have the Torah, “in which is the judgement of Allah” (Quran 5:43), and tells Christians to judge by the Gospel (Quran 5:47).' },
+      ],
       objection: 'Quran 2:79 condemns those who write the book with their own hands — that’s the Bible.',
       response:
         'The verse condemns people who write something and falsely claim it’s from God. That describes a forgery by some people, not the genuine Torah, which the Quran says contains “the judgement of Allah” (Quran 5:43-44).',
@@ -50,6 +56,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-3',
+      followUps: [
+        { reply: 'Paul never even met Jesus.', answer: 'Paul says the risen Jesus appeared to him (1 Corinthians 15:8). He then set his message before the leaders in Jerusalem (Galatians 2:2), and they accepted it and gave him the right hand of fellowship (Galatians 2:9).' },
+      ],
       objection: 'Paul hijacked Jesus’ religion and invented Christianity.',
       response:
         'The Jerusalem leaders — Peter, John and James the Lord’s brother — accepted Paul and his message (Galatians 2:9), and Paul says he and they preached the same gospel (1 Corinthians 15:11). Peter also sets Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16). If a Muslim disputes who wrote 2 Peter, rest the case on Galatians and 1 Corinthians, which are virtually undisputed as Paul’s. The death and resurrection of Jesus is found in the Gospels and in the preaching of Peter (Acts 2), not just in Paul. And remember the Quran says Jesus’ disciples were true believers whom God made victorious (Quran 61:14).',
@@ -58,6 +67,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-4',
+      followUps: [
+        { reply: 'Jesus preached one Gospel. Where is that book?', answer: 'Jesus never wrote a book, and no one in the first century says he did. What he preached was recorded by those who heard him and by their companions. Mark opens with “the gospel of Jesus Christ” (Mark 1:1): the good news is about him. A book called the Injil, handed to Jesus, is an idea that first appears in the Quran, six hundred years later.' },
+      ],
       objection: 'There are four Gospels, but the Quran speaks of one Injil. Which is the real one?',
       response:
         'There is one gospel — the good news about Jesus — told in four accounts, as four witnesses describe one event. The New Testament itself speaks of “the gospel” in the singular (Mark 1:1; 1 Corinthians 15:1). The Christians the Quran addressed (Quran 5:47) were reading those very four accounts.',
@@ -66,6 +78,9 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-5',
+      followUps: [
+        { reply: 'If those passages were added, what else was?', answer: 'We know about those two passages because the manuscripts show it, and the same manuscripts show how stable everything else is. A few short verses are flagged in the same way, and any other addition would show up too. The evidence is public, and every modern Bible marks the passages.' },
+      ],
       objection: 'Mark 16:9-20 and the story of the woman caught in adultery (John 8:1-11) aren’t in the earliest manuscripts. The Bible was added to!',
       response:
         'Yes — and every modern Bible tells you so in a footnote. We know these passages are later because we have so many early manuscripts to compare. That’s the strength of the evidence, not a weakness. No Christian doctrine depends on those passages. Compare: the Quran’s variant copies were burned (Sahih al-Bukhari 4987), so we can’t compare them in the same way.',
@@ -74,11 +89,25 @@ export const bibleCorruption: Topic = {
     },
     {
       id: 'bc-6',
+      followUps: [
+        { reply: 'So Muhammad did not trust your scripture.', answer: 'In that hadith he tells Muslims to say, “We believe in Allah and what is revealed to us” (Sahih al-Bukhari 4485), quoting a verse that goes on to affirm what was given to Moses and Jesus (Quran 2:136). Withholding judgment on the Jews’ explanations in Arabic is not the same as calling the Torah corrupt.' },
+      ],
       objection: 'Muhammad told us not to believe or disbelieve the People of the Book (Sahih al-Bukhari 4485).',
       response:
         'That hadith is about Jews explaining the Torah in Arabic — commentary Muslims couldn’t verify — not a verdict that the scripture itself was corrupt. And the Quran is more direct: it tells Christians to judge by the Gospel (Quran 5:47) and Muhammad to ask those who read the earlier scripture (Quran 10:94). The Quran outranks a hadith.',
       keyPoints: ['Context: Arabic explanations of Hebrew text.', 'Not a verdict of corruption.', 'Quran 5:47 and 10:94 affirm the text.'],
       references: ['Sahih al-Bukhari 4485', 'Quran 5:47', 'Quran 10:94'],
+    },
+    {
+      id: 'bc-7',
+      followUps: [
+        { reply: 'If you can’t agree on the list, how can it be God’s word?', answer: 'We agree on every book that tells us about Jesus. The dispute concerns a few older Jewish books, and both sides have always known about it. Disagreement about the edge of a library does not put its centre in doubt.' },
+      ],
+      objection: 'Which Bible? Catholics have 73 books and Protestants have 66. You can’t even agree on your own scripture.',
+      response:
+        'Catholics, Protestants and Orthodox all agree on the 27 books of the New Testament, which is where the gospel of Jesus’ death and resurrection is taught. The difference is a handful of Jewish writings from before Jesus, which Catholics include and Protestants print separately or leave out. Jesus himself spoke of the Scriptures as “the Law of Moses, the Prophets, and the Psalms” (Luke 24:44), the Hebrew Bible entrusted to the Jews (Romans 3:2). None of the disputed books changes who Jesus is or what he did. And the Quran’s problem remains whichever list you choose: both Bibles teach the cross and the deity of Christ.',
+      keyPoints: ['The same 27 New Testament books.', 'The difference is a few Jewish books from before Jesus.', 'No disputed book alters the gospel.'],
+      references: ['Luke 24:44', 'Romans 3:2'],
     },
   ],
   quiz: [

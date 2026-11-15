@@ -7,10 +7,34 @@ export interface Progress {
   /** Best quiz score per topic, as a fraction 0..1. */
   quizBest: Record<string, number>;
   drills: Record<string, DrillRating>;
+  /** Spaced-repetition state per objection: when it is next due, and how many times in a row it was known. */
+  review: Record<string, ReviewState>;
+  /** The learner's own notes, per topic. */
+  notes: Record<string, string>;
+}
+
+export interface ReviewState {
+  due: number;
+  streak: number;
+}
+
+const DAY = 24 * 60 * 60 * 1000;
+/** Days until the next review after 1, 2, 3… correct answers in a row. */
+const INTERVALS = [1, 3, 7, 14, 30];
+
+export function nextReview(prev: ReviewState | undefined, rating: DrillRating, now: number): ReviewState {
+  if (rating === 'review') return { due: now, streak: 0 };
+  const streak = (prev?.streak ?? 0) + 1;
+  return { due: now + INTERVALS[Math.min(streak, INTERVALS.length) - 1] * DAY, streak };
+}
+
+/** Due if never mastered, marked for review, or its review date has arrived. */
+export function isDue(p: Progress, objectionId: string, now = Date.now()): boolean {
+  return p.drills[objectionId] !== 'got' || (p.review[objectionId]?.due ?? 0) <= now;
 }
 
 const KEY = 'apologetics-progress-v1';
-const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {} };
+const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {} };
 
 function load(): Progress {
   try {
@@ -39,8 +63,26 @@ export const progress = {
   recordQuiz: (topicId: string, score: number) =>
     set({ ...state, quizBest: { ...state.quizBest, [topicId]: Math.max(score, state.quizBest[topicId] ?? 0) } }),
   rateDrill: (objectionId: string, rating: DrillRating) =>
-    set({ ...state, drills: { ...state.drills, [objectionId]: rating } }),
+    set({
+      ...state,
+      drills: { ...state.drills, [objectionId]: rating },
+      review: { ...state.review, [objectionId]: nextReview(state.review[objectionId], rating, Date.now()) },
+    }),
+  setNote: (topicId: string, text: string) => set({ ...state, notes: { ...state.notes, [topicId]: text } }),
   reset: () => set(empty),
+  /** Current progress as a JSON string, for backing up or moving to another device. */
+  exportJson: () => JSON.stringify(state),
+  /** Replaces progress with a backup made by exportJson. Returns false if the text is not a valid backup. */
+  importJson: (text: string): boolean => {
+    try {
+      const data = JSON.parse(text);
+      if (!data || typeof data !== 'object' || typeof data.drills !== 'object' || typeof data.lessonsRead !== 'object') return false;
+      set({ ...empty, ...data });
+      return true;
+    } catch {
+      return false;
+    }
+  },
 };
 
 export function useProgress(): Progress {

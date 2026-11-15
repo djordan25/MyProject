@@ -56,6 +56,9 @@ export const quranMisunderstands: Topic = {
   objections: [
     {
       id: 'qm-1',
+      followUps: [
+        { reply: 'Some Christians do pray to Mary.', answer: 'Some ask Mary to pray for them, but no church teaches that she is a god or a member of the Trinity. The Quran’s charge is that Christians take Jesus and his mother as “deities besides Allah” (Quran 5:116). That describes no Christian creed, then or now.' },
+      ],
       objection: 'Quran 5:116 is not describing the Trinity; it’s condemning Christians who worshipped Mary.',
       response:
         'Even if some fringe group venerated Mary, the Quran presents this as what Christians in general believe about Jesus and his mother being “deities besides Allah”, right next to its condemnation of saying “Allah is the third of three” (Quran 5:73). The all-knowing God would correct the actual Christian doctrine — Father, Son and Spirit — not an aberration. The Quran never once mentions the Father, Son and Holy Spirit as the Trinity.',
@@ -64,6 +67,9 @@ export const quranMisunderstands: Topic = {
     },
     {
       id: 'qm-2',
+      followUps: [
+        { reply: 'Arabs call people the brother or sister of an ancestor all the time.', answer: 'That could explain “sister of Aaron”. It does not explain why the Quran also gives her a father named Imran (Quran 66:12; 3:35), the Arabic form of Amram, the father of Moses, Aaron and Miriam (Numbers 26:59). Her own name, Maryam, is Miriam’s too. One coincidence can be explained. Three together look like two women being merged.' },
+      ],
       objection: '“Sister of Aaron” just means she was a righteous descendant of Aaron’s line — Muhammad explained it.',
       response:
         'I know Sahih Muslim 2135 gives that explanation. But notice that Christians in Muhammad’s own day immediately saw the problem. And the Quran doesn’t stop at “sister of Aaron” — it also calls her “daughter of Imran” (Quran 66:12), the name of Miriam’s father. Mary’s name, her brother and her father all line up with Moses’ sister. That’s a strong sign of confusion between two women.',
@@ -72,6 +78,9 @@ export const quranMisunderstands: Topic = {
     },
     {
       id: 'qm-3',
+      followUps: [
+        { reply: 'Then stop calling him “Son”. It only confuses people.', answer: 'It is God’s own word for him. At Jesus’ baptism the voice from heaven says, “This is My beloved Son” (Matthew 3:16-17). We explain what God has revealed; we don’t rename it. And the Quran also uses family words without biology: it calls Mecca “the Mother of Cities” (Quran 6:92).' },
+      ],
       objection: 'If God has a Son, he must have a wife. That is what “son” means.',
       response:
         'Christians completely agree that God has no wife — the idea is blasphemous to us too. In the Bible, “Son” is not about biology but about sharing the same nature and an eternal relationship, the way “son of man” means a true human. Jesus is the eternal Word who was with God and was God before he took on flesh (John 1:1, 14). Interestingly, the Quran itself calls Jesus “His word” (Quran 4:171).',

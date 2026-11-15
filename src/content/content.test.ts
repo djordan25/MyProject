@@ -4,6 +4,7 @@ import { parseRef, segmentCitations } from '../lib/references';
 import bibleCounts from './data/bible-verse-counts.json';
 import quranCounts from './data/quran-verse-counts.json';
 import passages from './data/passages.json';
+import { glossary } from './glossary';
 
 const bible = bibleCounts as Record<string, number[]>;
 const quran = quranCounts as number[];
@@ -12,7 +13,7 @@ const quran = quranCounts as number[];
 function citations(t: Topic): string[] {
   const text = [
     ...t.lesson.flatMap((s) => [...s.body, ...(s.argument ?? [])]),
-    ...t.objections.flatMap((o) => [o.response, ...o.keyPoints]),
+    ...t.objections.flatMap((o) => [o.response, ...o.keyPoints, ...(o.followUps ?? []).map((f) => f.answer)]),
     ...t.quiz.map((q) => q.explanation),
   ].join('\n');
   const inline = segmentCitations(text).flatMap((s) => (s.ref ? [s.ref] : []));
@@ -100,6 +101,14 @@ describe('segmentCitations', () => {
   });
 });
 
+describe('glossary', () => {
+  it('has unique terms and only valid citations with passage text', () => {
+    expect(new Set(glossary.map((g) => g.term)).size).toBe(glossary.length);
+    const refs = glossary.flatMap((g) => segmentCitations(g.meaning).flatMap((s) => (s.ref ? [s.ref] : [])));
+    expect(refs.filter((r) => validate(r) || !(r in passageData))).toEqual([]);
+  });
+});
+
 describe('misquotes', () => {
   it('accepts exact quotations and flags altered ones', () => {
     expect(misquotes('He said “And let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47).')).toEqual([]);
@@ -141,7 +150,7 @@ describe('content', () => {
     it(`${t.id}: quotations followed by a citation match the cited passage`, () => {
       const texts = [
         ...t.lesson.flatMap((s) => [...s.body, ...(s.argument ?? [])]),
-        ...t.objections.flatMap((o) => [o.objection, o.response, ...o.keyPoints]),
+        ...t.objections.flatMap((o) => [o.objection, o.response, ...o.keyPoints, ...(o.followUps ?? []).flatMap((f) => [f.reply, f.answer])]),
         ...t.quiz.flatMap((q) => [q.question, q.explanation]),
       ];
       expect(texts.flatMap(misquotes)).toEqual([]);

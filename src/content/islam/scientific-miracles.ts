@@ -36,7 +36,7 @@ export const scientificMiracles: Topic = {
       body: [
         '“If a house fly falls in the drink of anyone of you, he should dip it… for one of its wings has a disease and the other has the cure” (Sahih al-Bukhari 3320).',
         'Adam was created sixty cubits tall, and people have been decreasing in stature ever since (Sahih al-Bukhari 3326). Human remains from the ancient world show no such giant ancestors.',
-        'Use these gently. The point is not that the Bible is a science textbook — it isn’t. The point is that a Muslim who argues that the Quran proves itself by science must accept the same scrutiny of the scientific statements in Islam’s authoritative sources.',
+        'The point is not that the Bible is a science textbook — it isn’t. The point is that a Muslim who argues that the Quran proves itself by science must accept the same scrutiny of the scientific statements in Islam’s authoritative sources.',
       ],
       references: ['Sahih al-Bukhari 3320', 'Sahih al-Bukhari 3326'],
     },
@@ -51,6 +51,9 @@ export const scientificMiracles: Topic = {
   objections: [
     {
       id: 'sm-1',
+      followUps: [
+        { reply: 'The Quran also says the universe is expanding.', answer: 'Quran 51:47 says Allah built the heaven and is its expander. Older translations take the same word to mean that Allah made it vast, or has vast power, and classical commentators did not read it as an expanding universe. A prediction that is recognised only after the discovery is not a prediction.' },
+      ],
       objection: 'Quran 21:30 describes the Big Bang: the heavens and earth were joined and then separated.',
       response:
         'The verse describes heaven and earth as once joined and then separated. Many ancient creation stories describe separating sky and earth — including Genesis 1, where God separates the waters above and below. The Big Bang isn’t a separation of earth from heaven; the earth formed billions of years later. And no classical scholar read this verse as the Big Bang until after the theory was known.',
@@ -67,6 +70,9 @@ export const scientificMiracles: Topic = {
     },
     {
       id: 'sm-3',
+      followUps: [
+        { reply: 'So you admit the Bible is unscientific.', answer: 'I’m saying the Bible is not making scientific claims in its poetry, any more than we do when we say the sun rises. Muslims who argue from scientific miracles say the Quran does make such claims. That argument has to stand or fall on verses like Quran 18:86 and Quran 86:6-7.' },
+      ],
       objection: 'The Bible also has scientific errors, like the earth having pillars.',
       response:
         'The Bible uses poetic and everyday language — like we still say “the sun rises”. Christians don’t claim the Bible contains hidden modern science as proof of inspiration. But Muslims who make the scientific-miracle argument are making that claim for the Quran, so the same standard must apply to it and to the Sahih hadith.',

@@ -58,6 +58,9 @@ export const existenceOfGod: Topic = {
   objections: [
     {
       id: 'eog-1',
+      followUps: [
+        { reply: 'Then why can’t the universe be the uncaused thing?', answer: 'Because the evidence points to the universe having a beginning, and whatever begins to exist needs a cause. An eternal universe was the standard atheist view until the evidence for a beginning became hard to resist.' },
+      ],
       objection: 'If everything needs a cause, then who caused God?',
       response:
         'The premise isn’t that everything needs a cause — only that whatever begins to exist does. God, by definition, is eternal and never began to exist, so he doesn’t need a cause. In fact, the atheist used to say the same about the universe; the evidence that the universe had a beginning is what makes the question pressing.',
@@ -69,6 +72,9 @@ export const existenceOfGod: Topic = {
     },
     {
       id: 'eog-2',
+      followUps: [
+        { reply: 'A multiverse is still simpler than God.', answer: 'A multiverse is an unimaginably large number of unobservable universes, plus a mechanism to produce them that itself needs explaining. One eternal mind is a far simpler explanation, and it also explains why there is anything at all.' },
+      ],
       objection: 'Maybe we live in a multiverse, so fine-tuning is just what we’d expect somewhere.',
       response:
         'There is no direct evidence of a multiverse, so it is a speculative hypothesis. Even if one exists, the mechanism that generates universes would itself require fine-tuning. And a multiverse predicts we should far more likely be a small, briefly-existing observer (a “Boltzmann brain”) than an entire finely-tuned cosmos like ours.',
@@ -80,6 +86,9 @@ export const existenceOfGod: Topic = {
     },
     {
       id: 'eog-3',
+      followUps: [
+        { reply: 'Morality evolved to help us survive.', answer: 'Evolution might explain why we feel that some things are wrong. It cannot make them actually wrong. If our moral sense is only a survival instinct, then cruelty is not evil, merely out of fashion among our species.' },
+      ],
       objection: 'I don’t need God to be a good person.',
       response:
         'I agree — you clearly can be a good person without believing in God. My question is different: if there is no God, what makes anything objectively good or evil in the first place? Belief in God isn’t needed to be moral, but God may be needed for morality to be more than opinion.',
@@ -91,6 +100,9 @@ export const existenceOfGod: Topic = {
     },
     {
       id: 'eog-4',
+      followUps: [
+        { reply: 'Science has explained everything else. It will explain this too.', answer: 'Science explains how things inside the universe behave by using the laws of nature. It cannot use those laws to explain why there are laws, or why there is a universe for them to govern. That is not a gap waiting to be filled; it is a different kind of question.' },
+      ],
       objection: 'Science can explain the universe without God.',
       response:
         'Science explains how processes within the universe work, and that’s wonderful. But the question here is why there is a universe at all, and why its laws are suited to life. Science describes the laws; it can’t explain why there are laws or why anything exists. Many of the founders of modern science believed in God precisely because they expected a rational, orderly creation.',

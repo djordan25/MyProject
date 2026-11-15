@@ -5,12 +5,12 @@ export const tracks: Track[] = [
     id: 'foundations',
     title: 'Foundations',
     icon: '✦',
-    summary: 'The core case for Christianity: God’s existence, who Jesus is, the reliability of Scripture, the resurrection, and the problem of evil.',
+    summary: 'The core case for Christianity: God’s existence, who Jesus is, the reliability of Scripture, how we got the Bible, the resurrection, and the problem of evil.',
     sections: [
       {
         title: 'Core apologetics',
         description: 'Start here if you are new to apologetics.',
-        topicIds: ['existence-of-god', 'identity-of-jesus', 'reliability-of-scripture', 'resurrection', 'problem-of-evil'],
+        topicIds: ['existence-of-god', 'identity-of-jesus', 'reliability-of-scripture', 'how-we-got-the-bible', 'resurrection', 'problem-of-evil'],
       },
     ],
   },
@@ -29,7 +29,7 @@ export const tracks: Track[] = [
       {
         title: 'Start here',
         description: 'Understand Islam accurately before you answer it.',
-        topicIds: ['islam-understanding'],
+        topicIds: ['islam-understanding', 'islam-branches'],
       },
       {
         title: 'Why Islam is false',
@@ -55,6 +55,11 @@ export const tracks: Track[] = [
         title: 'Answering objections to Christianity',
         description: 'The most common Muslim objections — the Trinity, Jesus’ deity, the atonement, and the Bible’s reliability.',
         topicIds: ['islam-trinity', 'islam-deity-objections', 'islam-atonement', 'islam-bible-corruption'],
+      },
+      {
+        title: 'Sharing the gospel',
+        description: 'Where every conversation should lead: the message itself, and what it costs a Muslim to believe it.',
+        topicIds: ['islam-sharing-the-gospel'],
       },
     ],
   },

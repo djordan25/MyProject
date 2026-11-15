@@ -39,6 +39,9 @@ export const reliabilityOfScripture: Topic = {
   objections: [
     {
       id: 'ros-1',
+      followUps: [
+        { reply: 'The original manuscripts are lost, so you cannot know what they said.', answer: 'We have no original of any major work of ancient literature. What we have for the New Testament is thousands of copies from many places, early enough and independent enough of one another that the original wording can be recovered with great confidence.' },
+      ],
       objection: 'The Bible has been translated so many times — it’s like a game of telephone.',
       response:
         'Actually, modern translations aren’t made from translations of translations. They go back to the Greek and Hebrew manuscripts directly. And unlike the telephone game, we have thousands of early copies we can compare, so scholars can reconstruct the original wording with a very high degree of confidence.',
@@ -50,6 +53,9 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       id: 'ros-2',
+      followUps: [
+        { reply: 'Even one changed word means we can’t trust it.', answer: 'Then no ancient book can be trusted, and no modern one either, since every printed book has misprints. What matters is whether we can tell what the original said. With thousands of copies to compare, in the vast majority of places we can, and the uncertain places are marked in the footnotes of any study Bible.' },
+      ],
       objection: 'There are more textual variants than words in the New Testament.',
       response:
         'That’s true, but it’s because we have so many manuscripts — more copies means more counted differences. The overwhelming majority are spelling or word-order changes that don’t affect meaning. Only a tiny fraction are both meaningful and viable, and none overturn any central Christian belief.',
@@ -61,6 +67,9 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       id: 'ros-3',
+      followUps: [
+        { reply: 'Thirty years is long enough for legends to grow.', answer: 'Legends grow when the eyewitnesses are gone. Thirty years after the crucifixion many of them were alive, including hostile ones. Paul points to more than five hundred witnesses, “most of whom are still living” (1 Corinthians 15:6). That is an invitation to check.' },
+      ],
       objection: 'The Gospels were written long after the events by people who weren’t there.',
       response:
         'Even on standard scholarly dating, the Gospels were written within 30-60 years — while eyewitnesses and opponents were still alive. Paul’s letters are earlier still and quote creeds that go back to the first few years after the crucifixion. Compare that to our main biographies of Alexander the Great, written about 400 years after his death.',
@@ -72,6 +81,9 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       id: 'ros-4',
+      followUps: [
+        { reply: 'Show me one contradiction you can actually resolve.', answer: 'Matthew mentions one angel at the tomb, and Luke mentions two men in radiant apparel, later called angels (Matthew 28:2; Luke 24:4, 23). Mentioning one does not deny that there were two; reporters do this every day. A contradiction would be one writer saying there was only one.' },
+      ],
       objection: 'The Gospels contradict each other.',
       response:
         'They differ in detail, which is what you’d expect from independent witnesses — identical accounts would suggest collusion. Many apparent contradictions are resolved by noticing different emphases or the normal conventions of ancient biography. Importantly, the core facts — Jesus’ ministry, death, burial, and the empty tomb — are consistent across them.',

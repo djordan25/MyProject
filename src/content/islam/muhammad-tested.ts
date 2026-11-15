@@ -70,6 +70,9 @@ export const muhammadTested: Topic = {
   objections: [
     {
       id: 'mt-1',
+      followUps: [
+        { reply: 'Christianity spread by empire too.', answer: 'For its first three centuries Christianity spread without an army, while Christians were being killed for it. Jesus told Peter to put his sword away (Matthew 26:52; John 18:10-11). In its first decade in power, Islam’s prophet himself led nineteen military campaigns (Sahih al-Bukhari 3949).' },
+      ],
       objection: 'Muhammad was the most successful man in history; his success proves Allah was with him.',
       response:
         'Success isn’t proof of truth — many empires have spread rapidly. By that logic, Rome’s gods were true while Rome was winning. And Jesus never sought political power; his kingdom is “not of this world” (John 18:36). The test of a prophet is truth and faithfulness to God’s revelation, not military or political success.',
@@ -78,6 +81,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-2',
+      followUps: [
+        { reply: 'Mary was young when she was betrothed to Joseph too.', answer: 'The Bible gives no age for Mary, so that is a guess. Aisha’s age is not a guess: it is narrated from Aisha herself in Islam’s most trusted collection (Sahih al-Bukhari 5133).' },
+      ],
       objection: 'Aisha’s age was normal in that culture.',
       response:
         'Cultural context explains why people at the time weren’t shocked — but Islam claims Muhammad is the perfect example for all people in all times. If his conduct is timeless, culture can’t be the defence; if culture is the defence, his example isn’t timeless. Jesus’ example of self-giving love, by contrast, has never needed a cultural excuse.',
@@ -86,6 +92,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-3',
+      followUps: [
+        { reply: 'Muslims believe the prophets were protected from sin.', answer: 'The Quran itself tells Muhammad to ask forgiveness for his sin (Quran 47:19), and speaks of his past and future sins being forgiven (Quran 48:2). It never says this of Jesus. Even on the Quran’s own wording, one of them needed forgiveness and the other did not.' },
+      ],
       objection: 'The Bible’s prophets also sinned — David committed adultery!',
       response:
         'Exactly — and that’s why the Bible never presents David as the sinless, perfect example; it records his sin and his repentance (Psalm 51). The Bible’s point is that every prophet needs a Saviour. The only one who never needed forgiveness is Jesus. Even the Quran shows Muhammad asking forgiveness for his sins (Quran 47:19), while it never records Jesus doing so.',
@@ -94,6 +103,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-4',
+      followUps: [
+        { reply: 'Allah protected the Prophet, so the magic could not really harm him.', answer: 'Yet Islam’s most trusted collection says a man’s spell made him imagine he had done things he had not done (Sahih al-Bukhari 5763). If Allah’s protection allowed that, it did not cover his mind. That is the difficulty, and it comes from the hadith, not from critics.' },
+      ],
       objection: 'The magic hadith only affected his worldly matters, not the revelation.',
       response:
         'That is an interpretation Muslim scholars added later; the hadith itself says he imagined doing things he had not done (Sahih al-Bukhari 5763). It doesn’t draw that line. If his perception of his own actions was affected, how do we know where the boundary was? Jesus had authority over every evil power.',
@@ -102,6 +114,9 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-5',
+      followUps: [
+        { reply: 'So you accept that God can command such things.', answer: 'God has the right to judge, and in the Old Testament he sometimes did so through Israel’s wars. He has given the church no such commission. Jesus sends his followers to make disciples of all nations by teaching (Matthew 28:19-20), and he told his disciple to put away the sword (Matthew 26:52).' },
+      ],
       objection: 'The Bible is worse. Moses told his soldiers to keep the young girls for themselves (Numbers 31:17-18).',
       response:
         'That is a hard passage, and I won’t pretend otherwise. It records a judgment in one war under the old covenant. It is not given as a pattern for believers, and Moses is never held up as the sinless example for all time. Christians follow Jesus, who fulfilled the law and never took a life or a captive. Islam presents Muhammad as the “excellent pattern” for every believer in every age (Quran 33:21), so his conduct is a standing example, not a past event.',

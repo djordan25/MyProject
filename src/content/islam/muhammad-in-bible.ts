@@ -46,6 +46,9 @@ export const muhammadInBible: Topic = {
   objections: [
     {
       id: 'mb-1',
+      followUps: [
+        { reply: '“Brothers” of Israel means the Ishmaelites, their cousins.', answer: 'In Deuteronomy itself, Israel’s king must come from among their brothers and must not be a foreigner (Deuteronomy 17:15). Israel never took that to allow an Ishmaelite king. Here “brothers” means fellow Israelites.' },
+      ],
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',
       response:
         'Similarities like marriage or death apply to countless people. The text itself defines the likeness: an Israelite (“from among your brothers”), who speaks God’s words and is known by God face to face, with signs and wonders (Deuteronomy 18:15-18; 34:10-12). Jesus fits: he was an Israelite, a mediator of a covenant like Moses (Hebrews 8:6), faithful over God’s house as a son (Hebrews 3:1-6), and did mighty signs. The apostles identify him as that prophet (Acts 3:22-26).',
@@ -54,6 +57,9 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-2',
+      followUps: [
+        { reply: 'The Advocate speaks what he hears. The Holy Spirit does not speak.', answer: 'The Holy Spirit speaks throughout the New Testament: “the Holy Spirit said, ‘Set apart for Me Barnabas and Saul’” (Acts 13:2). And Jesus says this Advocate will be in the disciples (John 14:17). That cannot be said of any man.' },
+      ],
       objection: 'Jesus said the Advocate (Helper) could not come unless he left (John 16:7). The Holy Spirit was already present before, so it must be Muhammad.',
       response:
         'The Spirit was active in the Old Testament, but Jesus promised a new indwelling: “He abides with you and will be in you” (John 14:17). That’s what happened at Pentecost (Acts 2). And Jesus explicitly calls the Helper “the Holy Spirit” (John 14:26) and says the disciples already know him. Muhammad was born 500 years after those disciples died.',
@@ -62,6 +68,9 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-3',
+      followUps: [
+        { reply: 'The Greek was changed after Muhammad appeared.', answer: 'Manuscripts of John copied centuries before Muhammad was born already read parakletos. Nobody could alter a text hundreds of years before the reason to alter it existed.' },
+      ],
       objection: 'The original Greek said periklytos (“praised one” = Ahmad), not parakletos.',
       response:
         'Not one of the thousands of Greek manuscripts of John reads periklytos — they all read parakletos (“helper, advocate”). And the context — the Spirit of truth, unseen by the world, dwelling in the disciples — doesn’t fit Muhammad regardless of the word.',

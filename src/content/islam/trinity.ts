@@ -50,6 +50,9 @@ export const trinity: Topic = {
   objections: [
     {
       id: 'tr-1',
+      followUps: [
+        { reply: 'If it mattered, God would have used the word.', answer: 'The word tawhid is not in the Quran either, yet it is the centre of Islam. What matters is whether the teaching is there. Jesus commands baptism “in the name of the Father, and of the Son, and of the Holy Spirit” (Matthew 28:19): one name, three persons.' },
+      ],
       objection: 'The word “Trinity” isn’t in the Bible.',
       response:
         'True — and the word “tawhid” isn’t in the Quran either, yet Muslims rightly use it to summarise what the Quran teaches about God’s oneness. “Trinity” is a summary word for what the Bible teaches: one God; the Father, Son and Spirit are each God; and they are distinct persons. The question is whether the teaching is there, not the word.',
@@ -58,6 +61,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-2',
+      followUps: [
+        { reply: 'Three persons means three gods, however you word it.', answer: 'Only if each person were a separate being. Scripture insists there is one God (Deuteronomy 6:4), and yet shows the LORD sent by the LORD (Zechariah 2:10-11). We hold both because the text does.' },
+      ],
       objection: '1 + 1 + 1 = 3. You believe in three gods.',
       response:
         'If we said three gods are one god, or three persons are one person, that would be a contradiction. We say one Being, three Persons: one “what”, three “whos”. You only reach three gods by adding beings, and there is only one divine being. I won’t offer an analogy, because everything in creation falls short of the Creator. I’d rather show you where Scripture teaches it, starting in the Old Testament with the Angel of the LORD, who is sent by God and yet is God (Exodus 3:2-6).',
@@ -66,6 +72,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-3',
+      followUps: [
+        { reply: 'Then why did it take three hundred years to define it?', answer: 'Because a new denial arose that needed a precise answer. Long before, Christians were worshipping Jesus as God and baptising in the name of the Father, Son and Holy Spirit (Matthew 28:19). Defining a belief carefully is not inventing it.' },
+      ],
       objection: 'The Trinity was invented at the Council of Nicaea in 325.',
       response:
         'Nicaea didn’t invent the deity of Christ; it defended what Christians already believed against a new teaching (Arianism). Long before, the New Testament calls Jesus God (John 1:1; 20:28; Titus 2:13), and Christians were baptising in the name of Father, Son and Spirit (Matthew 28:19). The council put existing belief into precise words.',
@@ -74,6 +83,9 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-4',
+      followUps: [
+        { reply: 'If one verse was forged, the doctrine is forged.', answer: 'The doctrine was taught for centuries from other passages before that wording appeared in any Greek manuscript. Remove it, as modern Bibles do, and nothing changes: Matthew 28:19 and John 1:1 are in every manuscript that contains those passages.' },
+      ],
       objection: '1 John 5:7 was added later — your proof text for the Trinity is a forgery.',
       response:
         'You’re right that the King James wording of 1 John 5:7, which names the Father, the Word and the Holy Spirit, is a late addition, and modern translations omit it or footnote it. Christians who study manuscripts are open about that. But the doctrine never depended on it. Matthew 28:19, 2 Corinthians 13:14, John 1:1 and many other passages remain in every manuscript.',
@@ -82,11 +94,22 @@ export const trinity: Topic = {
     },
     {
       id: 'tr-5',
+      followUps: [
+        { reply: 'A child can understand tawhid. Nobody understands the Trinity.', answer: 'A God we could fully understand would be no greater than our own minds. The Quran itself says people grasp nothing of Allah’s knowledge except what he wills (Quran 2:255). The question is not what is easiest to grasp but what God has revealed about himself.' },
+      ],
       objection: 'Pure monotheism (tawhid) is simpler and more natural than the Trinity.',
       response:
         'Simpler doesn’t mean truer — the question is what God has revealed. And notice the Quran itself speaks of God’s Word and Spirit in exalted ways: Jesus is “His word” and “a soul from Him” (Quran 4:171), and God supported Jesus with the “Pure Spirit” (Quran 2:87). The Bible reveals who that Word and Spirit truly are: God himself.',
       keyPoints: ['Simplicity isn’t the test; revelation is.', 'Quran 4:171 — Word and Spirit.', 'The Bible identifies them as God.'],
       references: ['Quran 4:171', 'Quran 2:87', 'John 1:1', 'John 14:26'],
+    },
+    {
+      id: 'tr-6',
+      objection: 'The Trinity was borrowed from pagan religions with their triads of gods.',
+      response:
+        'Pagan triads are three separate gods, often a father, a mother and a child. The Trinity is one God. The first Christians were Jews who would die before worshipping more than one God, and they drew their teaching from the Hebrew Scriptures: the LORD who is sent by the LORD (Zechariah 2:10-11), and the Angel of the LORD who is himself God (Exodus 3:2-6). If anything resembles the pagan pattern of a divine father, mother and child, it is the worship of Jesus and his mother as gods beside Allah that the Quran attacks (Quran 5:116), which no church has ever taught.',
+      keyPoints: ['Pagan triads are three gods; the Trinity is one.', 'The teaching comes from the Hebrew Scriptures.', 'Quran 5:116 attacks a belief Christians never held.'],
+      references: ['Deuteronomy 6:4', 'Zechariah 2:10-11', 'Exodus 3:2-6', 'Quran 5:116'],
     },
   ],
   quiz: [

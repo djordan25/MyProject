@@ -45,6 +45,9 @@ export const gospelOfGrace: Topic = {
   objections: [
     {
       id: 'gg-1',
+      followUps: [
+        { reply: 'Fear of the scales is what keeps people moral.', answer: 'Fear produces outward compliance, and only while someone is watching. The gospel changes what a person loves: “We love because He first loved us” (1 John 4:19). People who know they were forgiven at great cost do not treat sin lightly (Titus 2:11-14).' },
+      ],
       objection: 'If salvation is free, Christians can just sin as much as they like.',
       response:
         'Paul anticipated that exact objection: “Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1-2). Grace doesn’t just forgive; it transforms. Someone who has truly been rescued doesn’t want to go back. We obey God not to earn his love, but because we already have it (Ephesians 2:10; Titus 2:11-14).',
@@ -53,6 +56,9 @@ export const gospelOfGrace: Topic = {
     },
     {
       id: 'gg-2',
+      followUps: [
+        { reply: 'A king can pardon whoever he wants.', answer: 'A king who simply pardons a murderer leaves the victim without justice. God is the Judge of all the earth, who must do what is right (Genesis 18:25). At the cross he pays the debt himself, so the pardon is just (Romans 3:26).' },
+      ],
       objection: 'Allah is the Most Merciful; he can forgive whoever he wills without a sacrifice.',
       response:
         'If a judge simply let guilty criminals go because he felt merciful, we wouldn’t call him good — we’d call him unjust. God is perfectly just as well as merciful. At the cross, both are satisfied: sin is truly paid for, and sinners are truly forgiven (Romans 3:26). Even the Quran describes God ransoming Abraham’s son “with a great sacrifice” (Quran 37:107).',
@@ -61,11 +67,33 @@ export const gospelOfGrace: Topic = {
     },
     {
       id: 'gg-3',
+      followUps: [
+        { reply: 'Even Paul was not sure of his own salvation.', answer: 'Paul wrote, “I know whom I have believed, and I am convinced that He is able to guard what I have entrusted to Him for that day” (2 Timothy 1:12). His confidence was in Christ, not in himself. That is the difference between assurance and arrogance.' },
+      ],
       objection: 'Being sure of salvation is arrogant; only God knows.',
       response:
         'It would be arrogant if it depended on how good I am. But my assurance rests on what Jesus has done, not on me. God wants us to know: “that you may know that you have eternal life” (1 John 5:13). Even Muhammad said his deeds could not save him (Sahih al-Bukhari 6463). If even he lacked assurance, what hope does anyone have by deeds? Jesus offers the certainty no one can earn.',
       keyPoints: ['Assurance rests on Christ, not self.', '1 John 5:13 — God wants us to know.', 'Sahih al-Bukhari 6463 — deeds can’t save.'],
       references: ['1 John 5:13', 'John 10:27-29', 'Sahih al-Bukhari 6463'],
+    },
+    {
+      id: 'gg-4',
+      objection: 'Muslims follow Jesus better than Christians do. He was circumcised, never ate pork, and kept the law.',
+      response:
+        'Jesus kept the law of Moses perfectly because he came to fulfil it: “I have not come to abolish them, but to fulfill them” (Matthew 5:17). He also taught that food does not defile a person, and Mark adds, “Thus all foods are clean” (Mark 7:18-19). At the Jerusalem council Peter said the yoke of the law should not be laid on Gentile believers, who are saved “through the grace of the Lord Jesus” (Acts 15:10-11). Following Jesus means trusting him as he said, not copying the diet of first-century Jews. And if keeping what Jesus kept is the test, Islam fails it too: Jesus kept the Sabbath and the Passover (Luke 4:16; 22:7-8), and Muslims keep neither.',
+      keyPoints: ['Jesus fulfilled the law (Matthew 5:17).', 'All foods declared clean (Mark 7:18-19).', 'Islam keeps neither Sabbath nor Passover.'],
+      references: ['Matthew 5:17', 'Mark 7:18-19', 'Acts 15:10-11', 'Colossians 2:16-17', 'Luke 4:16', 'Luke 22:7-8'],
+    },
+    {
+      id: 'gg-5',
+      followUps: [
+        { reply: 'James says a man is justified by deeds. That is the opposite of Paul.', answer: 'James’s own example is Abraham offering Isaac (James 2:21), which happened long after Abraham was counted righteous for believing God (Genesis 15:6). The deed showed the faith that was already there. Paul and James both quote that same verse, and they mean the same thing by it.' },
+      ],
+      objection: 'Paul says faith alone, but James says “a man is justified by his deeds and not by faith alone” (James 2:24). The Bible contradicts itself, and James agrees with Islam.',
+      response:
+        'Paul and James are answering different questions. Paul asks how a sinner is made right with God, and says it is “by faith apart from works of the law” (Romans 3:28). James asks how real faith can be told from empty talk, and says, “faith by itself, if it does not result in action, is dead” (James 2:17). Paul agrees: we are saved by grace and “created in Christ Jesus to do good works” (Ephesians 2:10). Neither man teaches that deeds are weighed on a scale to earn paradise. And they were not rivals: James gave Paul the right hand of fellowship (Galatians 2:9).',
+      keyPoints: ['Paul: how we are made right with God.', 'James: how real faith shows itself.', 'Neither teaches earning paradise on the scales.'],
+      references: ['James 2:17', 'James 2:24', 'Romans 3:28', 'Ephesians 2:8-10', 'Galatians 2:9'],
     },
   ],
   quiz: [

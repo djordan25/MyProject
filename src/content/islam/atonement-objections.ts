@@ -36,6 +36,9 @@ export const atonementObjections: Topic = {
   objections: [
     {
       id: 'ao-1',
+      followUps: [
+        { reply: 'The verse says no one bears another’s sin. That is clear.', answer: 'It says a son will not be punished for his father’s sin. The same Scriptures provide a goat that carries the people’s sins away (Leviticus 16:21-22) and promise a servant who bears the sin of many (Isaiah 53:12). A willing substitute provided by God is a different thing from an unwilling victim.' },
+      ],
       objection: 'Ezekiel 18:20 says no one bears another’s sin — the Bible contradicts the atonement.',
       response:
         'Ezekiel 18 is about people being punished for their parents’ sins against their will — the Israelites were blaming their ancestors for their own judgment. It isn’t about a willing substitute. Jesus wasn’t forced; he laid down his life voluntarily (John 10:18). The same Prophets that contain Ezekiel 18 also contain Isaiah 53, where the servant bears the sin of many.',
@@ -44,6 +47,9 @@ export const atonementObjections: Topic = {
     },
     {
       id: 'ao-2',
+      followUps: [
+        { reply: 'So God punished himself? That makes no sense.', answer: 'The Father did not punish an unwilling victim: the Son laid down his life of his own accord (John 10:17-18). The one wronged by our sin bore its cost himself. That is what forgiveness always costs the one who forgives.' },
+      ],
       objection: 'It’s unjust to punish an innocent man for the guilty.',
       response:
         'It would be unjust to force punishment on an unwilling third party. But at the cross, the judge himself — God the Son — voluntarily takes the penalty. Imagine a judge who sentences a guilty man justly, then steps down and pays the fine himself. That’s both justice and love (Romans 3:26; 5:8). The Quran itself tells of a son ransomed by a sacrifice (Quran 37:107).',
@@ -52,6 +58,9 @@ export const atonementObjections: Topic = {
     },
     {
       id: 'ao-3',
+      followUps: [
+        { reply: 'Allah forgave Adam without any sacrifice.', answer: 'In Genesis, before sending Adam and Eve out of the garden, God clothed them in garments of skin (Genesis 3:21), which implies an animal died. From the beginning, covering sin was costly. And every year Muslims remember Abraham’s son being ransomed by a great sacrifice (Quran 37:107).' },
+      ],
       objection: 'God can forgive anyone he wants. He doesn’t need a sacrifice.',
       response:
         'God is not just merciful but perfectly just and holy (Habakkuk 1:13). A judge who waived every penalty wouldn’t be good. Throughout the Bible God provides forgiveness through sacrifice (Leviticus 17:11; Hebrews 9:22). The cross shows that God takes sin seriously and takes sinners seriously — he pays the price himself.',
@@ -60,6 +69,9 @@ export const atonementObjections: Topic = {
     },
     {
       id: 'ao-4',
+      followUps: [
+        { reply: 'Then who ran the universe while God was dead?', answer: 'The Son’s human body lay in the tomb; God did not cease to exist. The Father and the Spirit did not die, and the Son in his divine nature upholds all things (Hebrews 1:3). Death is the separation of soul and body, and that is what Jesus underwent as man.' },
+      ],
       objection: 'If Jesus is God, then God died — but God can’t die.',
       response:
         'Death in the Bible means separation — of soul from body — not ceasing to exist. Jesus died in his human nature: his body died while he himself continued to exist (Luke 23:46). The divine nature didn’t cease to exist. Because the person who died is God the Son, his sacrifice has infinite worth (Acts 20:28).',

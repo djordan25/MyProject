@@ -5,6 +5,7 @@ import { reliabilityOfScripture } from './topics/reliability-of-scripture';
 import { resurrection } from './topics/resurrection';
 import { problemOfEvil } from './topics/problem-of-evil';
 import { identityOfJesus } from './topics/identity-of-jesus';
+import { howWeGotTheBible } from './topics/how-we-got-the-bible';
 import { understandingIslam } from './islam/understanding-islam';
 import { islamicDilemma } from './islam/islamic-dilemma';
 import { quranMisunderstands } from './islam/quran-misunderstands';
@@ -27,14 +28,16 @@ import { quranHistory } from './islam/quran-history';
 import { quranSources } from './islam/quran-sources';
 import { hadithReliability } from './islam/hadith-reliability';
 import { muhammadWarfare } from './islam/muhammad-warfare';
+import { sharingTheGospel } from './islam/sharing-the-gospel';
+import { branchesOfIslam } from './islam/branches';
 
 export const topics: Topic[] = [
-  existenceOfGod, identityOfJesus, reliabilityOfScripture, resurrection, problemOfEvil,
-  understandingIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
+  existenceOfGod, identityOfJesus, reliabilityOfScripture, howWeGotTheBible, resurrection, problemOfEvil,
+  understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
   quranOral, quranPreservation, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
-  trinity, deityObjections, atonementObjections, bibleCorruption,
+  trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,
 ];
 
 export { tracks };

@@ -44,7 +44,7 @@ export const muhammadWarfare: Topic = {
     {
       heading: 'The contrast with Jesus',
       body: [
-        'Jesus had the power to call on “more than twelve legions of angels”, yet told Peter, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
+        'Jesus had the power to call on “more than twelve legions of angels”, yet told his disciple, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
         '“My kingdom is not of this world; if it were, My servants would fight” (John 18:36).',
         'When his disciples wanted to call down fire on a village that rejected him, Jesus rebuked them (Luke 9:52-56). He taught, “Love your enemies and pray for those who persecute you” (Matthew 5:44), and prayed for his executioners, “Father, forgive them” (Luke 23:34).',
         'Jesus conquered not by killing his enemies but by dying for them (Romans 5:10). That is the deepest contrast between the two founders.',
@@ -55,6 +55,9 @@ export const muhammadWarfare: Topic = {
   objections: [
     {
       id: 'mw-1',
+      followUps: [
+        { reply: 'Quran 9:29 was only about the Byzantines, who threatened Medina.', answer: 'The verse gives its own reason. It says to fight those who do not believe in Allah or the Last Day and do not adopt “the religion of truth” (Quran 9:29). The stated cause is what they believe, not an attack they made.' },
+      ],
       objection: 'Muhammad’s wars were all defensive.',
       response:
         'Some early battles can be described that way (Quran 22:39-40). But Quran 9:29 commands fighting the People of the Scripture because they don’t believe, “until they give the jizyah… while they are humbled” — that isn’t self-defence. Muhammad said he was ordered to fight people until they testify to Islam (Sahih al-Bukhari 25), and Bukhari records a raid on Bani Mustaliq “without warning while they were heedless” (Sahih al-Bukhari 2541).',
@@ -63,6 +66,9 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-2',
+      followUps: [
+        { reply: 'So God commanded violence in your book too.', answer: 'For one people, place and time, as a judgment, and Scripture says so (Deuteronomy 9:5). The Bible has no standing command to fight unbelievers until they submit. Quran 9:29 names no single nation or moment, and classical Islamic law treated it as a standing rule.' },
+      ],
       objection: 'The Old Testament is full of violence too — what about the conquest of Canaan?',
       response:
         'Don’t pretend the Old Testament has no hard passages. The conquest was a specific, limited judgment on particular nations for long-standing wickedness (Genesis 15:16; Deuteronomy 9:5), tied to one time and place. It was never a standing command for all believers everywhere. Christians follow Jesus, who fulfilled the Old Testament and told his followers to put away the sword and love their enemies (Matthew 26:52; 5:44). Muslims, by contrast, look to Muhammad as the timeless example (Quran 33:21).',
@@ -71,6 +77,9 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-3',
+      followUps: [
+        { reply: 'Jesus said he came to bring a sword.', answer: 'Read on from Matthew 10:34. The “sword” is division inside families when one member follows him (Matthew 10:35-36). He is describing what his followers will suffer, not what they should do. When a disciple actually drew a sword, Jesus told him to put it away (Matthew 26:52).' },
+      ],
       objection: 'Christians fought the Crusades and many other wars.',
       response:
         'Yes — and when Christians have killed in Christ’s name, they disobeyed his teaching (Matthew 5:44; 26:52). The question isn’t whether followers of a religion have done evil; all have. It’s what the founder taught and modelled. Jesus died for his enemies; Muhammad led armies against his.',

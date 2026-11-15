@@ -1,18 +1,18 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { topics, tracks, topicsInTrack } from '../content';
-import { useProgress } from '../lib/progress';
+import { isDue, useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
 import ObjectionDrill from '../components/ObjectionDrill';
 
-type Mode = 'all' | 'review';
+type Mode = 'all' | 'new' | 'review';
 
-/** Mixed drill: random objections across a track (or everything), optionally only those not yet mastered. */
+/** Mixed drill: random objections across a track (or everything): all of them, only new ones, or only those due for review. */
 export default function Practice() {
   const p = useProgress();
   const [params, setParams] = useSearchParams();
   const trackId = params.get('track') ?? 'all';
-  const [mode, setMode] = useState<Mode>('all');
+  const [mode, setMode] = useState<Mode>(params.get('mode') === 'review' ? 'review' : 'all');
   const [seed, setSeed] = useState(0);
   const [i, setI] = useState(0);
 
@@ -24,7 +24,14 @@ export default function Practice() {
 
   // Deck is fixed per round; rating cards during the round must not reshuffle it.
   const deck = useMemo(
-    () => shuffle(mode === 'review' ? pool.filter(({ o }) => p.drills[o.id] !== 'got') : pool),
+    () =>
+      shuffle(
+        mode === 'review'
+          ? pool.filter(({ o }) => p.drills[o.id] && isDue(p, o.id))
+          : mode === 'new'
+            ? pool.filter(({ o }) => !p.drills[o.id])
+            : pool,
+      ),
     [pool, mode, seed],
   );
 
@@ -54,11 +61,16 @@ export default function Practice() {
           </select>
         </label>
         <button className={`btn ${mode === 'all' ? 'primary' : ''}`} onClick={() => restart('all')}>All objections</button>
-        <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Not yet mastered</button>
+        <button className={`btn ${mode === 'new' ? 'primary' : ''}`} onClick={() => restart('new')}>New</button>
+        <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Due for review</button>
       </div>
       {!card ? (
         <section className="card">
-          <h2>{deck.length === 0 ? 'Nothing to review — everything is mastered!' : 'Round complete'}</h2>
+          <h2>{deck.length > 0
+              ? 'Round complete'
+              : mode === 'new'
+                ? 'You have practised every objection here.'
+                : 'Nothing is due. Objections you know come back for review after 1, 3, 7, 14 and 30 days.'}</h2>
           <button className="btn primary" onClick={() => restart(mode)}>Start again</button>
         </section>
       ) : (

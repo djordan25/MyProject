@@ -61,7 +61,7 @@ export const islamicDilemma: Topic = {
       body: [
         '“The Injil was a book given to Jesus, not the four Gospels.” But the Quran addresses “the People of the Gospel” living in Muhammad’s day and tells them to judge by what is in it (Quran 5:47). Those people used the four Gospels. There is no other Injil they could have consulted.',
         '“The Quran says they distorted the words.” Read those verses closely. Quran 2:75, 4:46 and 5:13 speak of some Jews distorting words — twisting meaning or speech (“twisting their tongues”, Quran 4:46) — not rewriting every copy of the text. Quran 2:79 condemns some who write a book with their own hands and pass it off as from God — that describes a forgery, not the corruption of the genuine Torah everyone could still consult.',
-        'Expect Muslims to cite Sahih al-Bukhari 7363, where Ibn Abbas says the People of the Scripture changed and distorted their scripture. That is a companion’s statement, and it has to be weighed against the Quran itself (Quran 5:47; 6:115) and against Muhammad’s own practice of calling for the Torah and judging by it (Sahih al-Bukhari 3635).',
+        'Expect Muslims to cite Sahih al-Bukhari 7363, where Ibn Abbas says Allah has told the Muslims that the People of the Scripture changed and distorted their scripture. He seems to have Quran 2:79 in mind, which condemns some who write a book with their own hands; it does not say the Torah itself was rewritten. His statement has to be weighed against the Quran itself (Quran 5:47; 6:115) and against Muhammad’s own practice of calling for the Torah and judging by it (Sahih al-Bukhari 7543).',
       ],
       references: ['Quran 2:75', 'Quran 2:79', 'Quran 4:46', 'Quran 5:13', 'Sahih al-Bukhari 7363'],
     },
@@ -69,6 +69,9 @@ export const islamicDilemma: Topic = {
   objections: [
     {
       id: 'id-1',
+      followUps: [
+        { reply: 'The Gospel was given to Jesus. Your four Gospels were written by other men.', answer: 'The Quran never says the Gospel given to Jesus was a different book from the one Christians had in Muhammad’s day. It tells those Christians to judge by what Allah revealed in it (Quran 5:47). Which Gospel could they open and judge by in the seventh century, other than the one they possessed?' },
+      ],
       objection: 'The Injil the Quran mentions was the original revelation given to Jesus, which is now lost.',
       response:
         'If it was lost before Muhammad, why does the Quran command Christians in Muhammad’s day to judge by what God revealed in it (Quran 5:47)? Why tell them they’re standing on nothing until they uphold it (Quran 5:68)? You can’t judge by a book that doesn’t exist. The only Gospel the Christians of Arabia had was the one we have now.',
@@ -77,6 +80,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-2',
+      followUps: [
+        { reply: 'Then it was corrupted before Muhammad.', answer: 'Then the Quran affirmed a corrupt book. It says it confirms what is “with” them (Quran 2:41) and that no one can change Allah’s words (Quran 6:115). Either way the Quran is mistaken.' },
+      ],
       objection: 'The Bible was corrupted after Muhammad’s time.',
       response:
         'That’s historically impossible. We have manuscripts containing the whole New Testament and most of the Old, copied centuries before Muhammad was born, and thousands of New Testament manuscripts spread across the world. They teach the same things about Jesus’ death and deity. And if the Bible was reliable in Muhammad’s day, then the Quran is contradicting reliable scripture.',
@@ -85,6 +91,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-3',
+      followUps: [
+        { reply: 'Ibn Abbas said they changed their scripture.', answer: 'That is Sahih al-Bukhari 7363, where Ibn Abbas is applying Quran 2:79, a verse about some who wrote a book with their own hands. But Muhammad himself said, “Bring here the Torah and recite it, if you are truthful” (Sahih al-Bukhari 7543), and he judged by it. If he treated the Torah in front of him as Allah’s law, Ibn Abbas’s reading of one verse cannot overturn that, or the Quran’s command in Quran 5:47.' },
+      ],
       objection: 'The Quran says the Jews “distort words from their places” (tahrif).',
       response:
         'Look at the context of Quran 4:46: it describes them “twisting their tongues” — misusing words in speech. Quran 2:75 says a party of them distorted God’s words after understanding them — it describes some people’s handling of the words, not every copy being rewritten. Meanwhile the same Quran says no one can change God’s words (Quran 6:115) and tells the Jews the Torah they have contains God’s judgment (Quran 5:43).',
@@ -93,6 +102,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-4',
+      followUps: [
+        { reply: 'The Quran corrects what Christians changed. That is what a criterion does.', answer: 'Then show me the verse where the Quran says which words of the Gospel were changed and what they originally said. It never does. Instead it tells Christians to judge by what Allah revealed in the Gospel (Quran 5:47), which assumes they had it. A corrector that never names the errors, and sends you back to the book it is supposed to be correcting, is not correcting it.' },
+      ],
       objection: 'The Quran is the criterion over earlier books (Quran 5:48), so we judge the Bible by the Quran.',
       response:
         'The same verse says the Quran was sent “confirming that which preceded it of the Scripture”, and the Arabic word behind “criterion” there (muhaymin) primarily means a guardian, overseer or witness. You can’t confirm and guard a book while calling it corrupt. And the Quran also tells Muhammad to check with those who read the earlier scripture when in doubt (Quran 10:94). The logic runs the other way: if the Quran confirms the Bible, then the Bible can test the Quran.',
@@ -103,18 +115,18 @@ export const islamicDilemma: Topic = {
       id: 'id-5',
       objection: 'The Quran only confirms the parts of the Bible that agree with it.',
       response:
-        'Where does the Quran say “only the parts that agree”? It says it confirms what is “with you” (Quran 2:41; 4:47), tells Christians to judge by the Gospel (Quran 5:47), and says that without the Torah and the Gospel they stand on nothing (Quran 5:68). If only the agreeing parts count, the Quran is merely confirming itself, which is no confirmation at all. And Muhammad didn’t test the Torah against the Quran: he had the Torah brought and judged by it (Sahih al-Bukhari 3635).',
-      keyPoints: ['The Quran confirms what is “with you”.', 'No verse limits this to agreeing parts.', 'Muhammad judged by the Torah itself (Bukhari 3635).'],
-      references: ['Quran 2:41', 'Quran 4:47', 'Quran 5:47', 'Quran 5:68', 'Sahih al-Bukhari 3635'],
+        'Where does the Quran say “only the parts that agree”? It says it confirms what is “with you” (Quran 2:41; 4:47), tells Christians to judge by the Gospel (Quran 5:47), and says they stand on nothing unless they uphold the Torah, the Gospel and what was revealed to them (Quran 5:68). If only the agreeing parts count, the Quran is merely confirming itself, which is no confirmation at all. And Muhammad didn’t test the Torah against the Quran: he called for the Torah and judged by it (Sahih al-Bukhari 7543).',
+      keyPoints: ['The Quran confirms what is “with you”.', 'No verse limits this to agreeing parts.', 'Muhammad judged by the Torah itself (Bukhari 7543).'],
+      references: ['Quran 2:41', 'Quran 4:47', 'Quran 5:47', 'Quran 5:68', 'Sahih al-Bukhari 7543'],
     },
   ],
   quiz: [
     {
       id: 'id-q6',
-      question: 'In Sahih al-Bukhari 3635, how did Muhammad settle the case of the Jewish couple?',
+      question: 'In Sahih al-Bukhari 7543, how did Muhammad settle the case of the Jewish couple?',
       options: ['By a new revelation', 'By having the Torah brought and judging by it', 'By asking Abu Bakr', 'By refusing to judge'],
       answer: 1,
-      explanation: 'He asked what the Torah said, it was opened, and he judged by it (see also Quran 3:93).',
+      explanation: 'He said, “Bring here the Torah and recite it”, and judged by what it said (see also Sahih al-Bukhari 3635 and Quran 3:93).',
     },
     {
       id: 'id-q7',

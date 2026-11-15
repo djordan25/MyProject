@@ -55,6 +55,9 @@ export const quranOral: Topic = {
   objections: [
     {
       id: 'qo-1',
+      followUps: [
+        { reply: 'Allah promised to preserve the Quran, so those reports must be mistaken.', answer: 'Then Sahih al-Bukhari is mistaken about how the Quran was collected (Sahih al-Bukhari 4986), and Islam loses its own account of its book. If the reports are right, the preservation was fragile. Which is it?' },
+      ],
       objection: 'The whole Quran was memorised by thousands of companions, so nothing could be lost.',
       response:
         'If that were true, Umar wouldn’t have feared that a large part of the Quran might be lost when the reciters died at Yamama, and Zaid wouldn’t have found some verses with only one man (Sahih al-Bukhari 4986, 4988). Those are reports in Bukhari, the most trusted hadith collection. They show the Quran’s preservation was fragile, not guaranteed.',
@@ -63,6 +66,9 @@ export const quranOral: Topic = {
     },
     {
       id: 'qo-2',
+      followUps: [
+        { reply: 'The Prophet reviewed the whole Quran with Gabriel every year.', answer: 'If a complete, checked Quran had been left behind, Abu Bakr would not have said that collecting it was something the Messenger never did, and Zaid would not have had to search for verses and find the closing verses of Surah 9 with only one man (Sahih al-Bukhari 4986).' },
+      ],
       objection: 'The Quran was written down during Muhammad’s life, so it never depended on memory alone.',
       response:
         'Some parts were written, but on scattered materials — palm stalks and stones — and not gathered into one book. Abu Bakr himself asked how he could do something the Messenger never did (Sahih al-Bukhari 4986). The collection only happened after the reciters started dying.',
@@ -71,6 +77,9 @@ export const quranOral: Topic = {
     },
     {
       id: 'qo-3',
+      followUps: [
+        { reply: 'The seven ways were a mercy, to make recitation easy.', answer: 'That is what the hadith says (Sahih al-Bukhari 4992). But it means the Quran did not begin with one fixed wording, and whatever lay outside Uthman’s text was removed: he kept one written form and burned the rest (Sahih al-Bukhari 4987). If the other forms were revelation, then revelation was burned.' },
+      ],
       objection: 'The seven ahruf are just different dialects; the meaning is identical.',
       response:
         'Even if every difference were minor, it still means there was no single wording from the start — which is exactly what “perfectly preserved” usually claims. And the differences were serious enough that Umar nearly attacked another Muslim over them (Sahih al-Bukhari 4992) and that Uthman later destroyed competing copies (Sahih al-Bukhari 4987).',

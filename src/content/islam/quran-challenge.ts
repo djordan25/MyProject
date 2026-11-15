@@ -44,6 +44,9 @@ export const quranChallenge: Topic = {
   objections: [
     {
       id: 'qc-1',
+      followUps: [
+        { reply: 'You can’t judge the Quran because you don’t know Arabic.', answer: 'Then the proof only works for Arabic speakers, yet Muhammad is told to say, “O mankind, indeed I am the Messenger of Allah to you all” (Quran 7:158). A miracle most of the world must take on someone else’s word is a weak proof. What the Quran says about Jesus can be tested by anyone.' },
+      ],
       objection: 'No one in 1,400 years has met the Quran’s challenge.',
       response:
         'Who decides whether it’s been met? If the judge is a Muslim who already believes it can’t be done, it never will be. Every great work of literature is “unmatched” in some sense — that shows genius, not divine origin. The more important question is whether the Quran’s content is true. If it denies that Jesus died on the cross — something every first-century source affirms — its beauty doesn’t make it right.',
@@ -52,6 +55,9 @@ export const quranChallenge: Topic = {
     },
     {
       id: 'qc-2',
+      followUps: [
+        { reply: 'No unlettered man could know so much about the earlier prophets.', answer: 'He had contact with Jews and Christians, and their stories circulated by word of mouth. The Quran records his critics saying that a man was teaching him (Quran 16:103). And what it tells of earlier prophets often matches later legends, not the Bible (see Borrowed Stories).' },
+      ],
       objection: 'Muhammad was illiterate (unlettered), so he could never have produced such a book himself.',
       response:
         'Many great poets and storytellers in oral cultures were illiterate — Arabia had a rich tradition of oral poetry. The Quran was recited, not written, by Muhammad, and his opponents even accused him of being taught by someone (Quran 16:103). Literacy isn’t required for powerful speech, so it doesn’t prove a divine source.',

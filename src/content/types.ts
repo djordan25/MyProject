@@ -14,6 +14,13 @@ export interface Objection {
   response: string;
   keyPoints: string[];
   references?: string[];
+  /** What the other person is likely to say next, and how to answer it. */
+  followUps?: FollowUp[];
+}
+
+export interface FollowUp {
+  reply: string;
+  answer: string;
 }
 
 export interface QuizQuestion {

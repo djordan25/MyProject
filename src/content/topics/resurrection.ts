@@ -41,6 +41,9 @@ export const resurrection: Topic = {
   objections: [
     {
       id: 'res-1',
+      followUps: [
+        { reply: 'Grief can make people see things.', answer: 'Grief visions happen to individuals. They do not happen to groups at the same time (1 Corinthians 15:5-8), they do not convince enemies like Paul, and they do not empty a tomb.' },
+      ],
       objection: 'The disciples just hallucinated.',
       response:
         'Hallucinations are private experiences, like dreams — you can’t share them with a group. Yet appearances were to groups, including over 500 at once. Hallucinations also don’t explain the empty tomb, or why enemies like Paul and sceptics like James came to believe.',
@@ -52,6 +55,9 @@ export const resurrection: Topic = {
     },
     {
       id: 'res-2',
+      followUps: [
+        { reply: 'Any natural explanation is more likely than a miracle.', answer: 'Only if you already know there is no God. If God exists, raising Jesus is well within his power, and the question becomes one of evidence. The natural explanations have each been tried, and each fails to explain the empty tomb, the appearances and the changed lives together.' },
+      ],
       objection: 'Dead people don’t rise — that’s just impossible.',
       response:
         'You’re right that dead people don’t rise naturally — and the disciples knew that too. The claim isn’t that Jesus rose naturally, but that God raised him. So the question really depends on whether God exists. If he does, a resurrection isn’t impossible; it’s a matter of evidence.',
@@ -63,6 +69,9 @@ export const resurrection: Topic = {
     },
     {
       id: 'res-3',
+      followUps: [
+        { reply: 'Maybe the disciples were sincerely mistaken.', answer: 'Mistaken about what? They did not claim a feeling or a vision in the night. They claimed that he showed them his hands and feet, invited them to touch him, and ate in front of them (Luke 24:39-43). You can be mistaken about a doctrine you were taught. It is hard to be mistaken about that.' },
+      ],
       objection: 'Lots of people die for their beliefs — that doesn’t make them true.',
       response:
         'True, but there’s a key difference. Others die for beliefs they received from someone else. The apostles were in a position to know whether they’d seen the risen Jesus. People may die for a lie they believe, but not for what they know is a lie.',

@@ -29,6 +29,9 @@ export const deityObjections: Topic = {
   objections: [
     {
       id: 'do-1',
+      followUps: [
+        { reply: 'Greater means greater. No one is greater than God.', answer: 'In the same Gospel Jesus says, “I and the Father are one” (John 10:30), and that all must honour the Son just as they honour the Father (John 5:23). So “greater” cannot mean a different kind of being. It describes the Son’s humbled position on earth, which in that very verse he says he is about to leave (John 14:28).' },
+      ],
       objection: 'Jesus said “The Father is greater than I” (John 14:28).',
       response:
         'Greater in position, not in nature. While on earth the Son had humbled himself as a servant (Philippians 2:7). Jesus is going back to the Father’s glory — that’s why the disciples should rejoice. A president is greater in position than a citizen, but not more human. And the same Gospel records Jesus saying “I and the Father are one” (John 10:30) and Thomas worshipping him as God (John 20:28).',
@@ -37,6 +40,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-2',
+      followUps: [
+        { reply: 'Someone who does not know something cannot be God.', answer: 'Peter, who heard that saying, later told him, “Lord, You know all things” (John 21:17), and Jesus accepted it. Scripture holds both together because he is both: truly man, who grew and learned, and truly God. An explanation that keeps only one half is not explaining the Jesus of the Gospels.' },
+      ],
       objection: 'Jesus didn’t know the day or hour (Mark 13:32), so he can’t be all-knowing God.',
       response:
         'In his human nature, Jesus “grew in wisdom” (Luke 2:52) and voluntarily limited the use of his divine knowledge. Notice how he ranks himself in Mark 13:32 itself: “not even the angels in heaven, nor the Son, but only the Father” — he places himself above the angels, as the Son alongside the Father.',
@@ -45,6 +51,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-3',
+      followUps: [
+        { reply: 'Then there are two Gods, one praying to the other.', answer: 'Two persons, one God. The Son speaking to the Father is what the Trinity means: the persons are distinct, and the Father loved the Son before the world began (John 17:24), and yet there is one divine being (Deuteronomy 6:4).' },
+      ],
       objection: 'Jesus prayed to God. Does God pray to himself?',
       response:
         'Jesus didn’t pray to himself; the Son prayed to the Father — two distinct persons. That fits the Trinity perfectly. As a true man, Jesus lived in perfect dependence on the Father, setting us an example. In John 17:5 he even prays, “glorify Me in Your presence with the glory I had with You before the world existed” — no mere prophet could pray that.',
@@ -53,6 +62,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-4',
+      followUps: [
+        { reply: 'Becoming a man is beneath God.', answer: 'Who decides what is beneath God? Scripture says his greatness is shown in his stooping to save us: he “emptied Himself, taking the form of a servant” (Philippians 2:7). A God who would not stoop to rescue his creatures would be less great, not more.' },
+      ],
       objection: '“God is not a man” (Numbers 23:19).',
       response:
         'Read the whole verse: “God is not a man, that He should lie, or a son of man, that He should change His mind” (Numbers 23:19). It says God isn’t like sinful humans who lie. It doesn’t say God cannot take on a human nature. The incarnation is God the Son adding humanity to himself without ceasing to be God (John 1:14; Colossians 2:9). Even in Islam’s sources God draws near to creation: Allah calls to Moses at the fire and from the tree (Quran 27:8-9; 28:30), and “comes every night down on the nearest Heaven to us” (Sahih al-Bukhari 1145). If God can do that without ceasing to be God, the incarnation is not impossible.',
@@ -61,6 +73,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-5',
+      followUps: [
+        { reply: 'He plainly denied being good.', answer: 'He did not say, “I am not good.” He asked why the man called him good, then told him to give up everything and follow him to gain treasure in heaven (Mark 10:21). No mere prophet speaks like that. Elsewhere he calls himself “the good shepherd” (John 10:11).' },
+      ],
       objection: 'Jesus said “Why do you call Me good?… No one is good except God alone” (Mark 10:18).',
       response:
         'Jesus wasn’t denying he was good — elsewhere he calls himself the Good Shepherd (John 10:11) and challenges anyone to convict him of sin (John 8:46). He was making the rich man think: if only God is good, and you call me good, what are you saying about me? He then tells the man to follow him — claiming the authority only God has.',
@@ -69,6 +84,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-6',
+      followUps: [
+        { reply: 'The mission to the nations was added later. Jesus himself only went to Jews.', answer: 'During his ministry Jesus praised a Roman centurion’s faith and said many would come from east and west into the kingdom (Matthew 8:10-11). He said he had other sheep, not of this fold, whom he must bring in (John 10:16). The mission to the nations was his plan from the start.' },
+      ],
       objection: 'Jesus said he was sent only to the lost sheep of Israel (Matthew 15:24) — he was just a prophet to the Jews.',
       response:
         'His earthly ministry was focused on Israel first, but in that very story he heals the Gentile woman’s daughter. After the resurrection he commands, “Therefore go and make disciples of all nations” (Matthew 28:19), and claims “all authority in heaven and on earth has been given to me” (Matthew 28:18). That’s universal lordship.',
@@ -77,6 +95,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-7',
+      followUps: [
+        { reply: '“Only true God” excludes everyone else, including Jesus.', answer: 'Then Jude 1:4, which calls Jesus our only Master and Lord, would exclude the Father from being Lord. “Only” rules out false gods, not the Son, who shared the Father’s glory “before the world existed” (John 17:5).' },
+      ],
       objection: 'Jesus called the Father “the only true God” (John 17:3). So Jesus is not God.',
       response:
         'Christians agree that the Father is the only true God: there is only one God. The question is whether the Son shares that one divine being. In this same prayer Jesus says eternal life is knowing the Father and himself together, and two verses later he asks the Father to glorify him “with the glory I had with You before the world existed” (John 17:5). No mere prophet could pray that. Scripture also calls Jesus “our only Master and Lord” (Jude 1:4), which doesn’t stop the Father being Lord. And John, on the most natural reading, calls Jesus “the true God and eternal life” (1 John 5:20).',
@@ -85,6 +106,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-8',
+      followUps: [
+        { reply: 'If Jesus has a God, he is a creature.', answer: 'Hebrews answers that directly. The one God addresses as God is also said to have a God (Hebrews 1:8-9), because the Son became man without ceasing to be what he was. The same letter says God made the universe through the Son (Hebrews 1:2). Creatures do not make the universe.' },
+      ],
       objection: 'Jesus said, “I am ascending to My Father and your Father, to My God and your God” (John 20:17). God does not have a God.',
       response:
         'As a true man, Jesus worships and prays to the Father. That is what the incarnation means. But notice that he doesn’t say “our Father” or “our God”: his relationship to the Father is not the same as ours. Eleven verses later Thomas says to him, “My Lord and my God!” (John 20:28), and Jesus accepts it. Hebrews holds both truths together: God says to the Son, “Your throne, O God, endures forever and ever” (Hebrews 1:8), and then speaks of “God, Your God” (Hebrews 1:9).',
@@ -106,6 +130,17 @@ export const deityObjections: Topic = {
         'Christians affirm that Jesus is truly man, and the Servant foretold by Isaiah. But read on. In those same sermons Peter calls him “the Author of life” (Acts 3:15) and says God has made him “both Lord and Christ” (Acts 2:36); later he calls him “Lord of all” (Acts 10:36). He applies to Jesus the promise that everyone who calls on the name of the Lord will be saved (Acts 2:21), then tells the crowd to be baptised in the name of Jesus (Acts 2:38). True man and true God.',
       keyPoints: ['Truly man: Christians agree.', 'Peter’s own preaching: Author of life, Lord of all.', 'Calling on the LORD’s name applied to Jesus.'],
       references: ['Acts 2:22', 'Acts 3:13-15', 'Acts 10:36', 'Acts 2:36', 'Acts 2:21', 'Acts 2:38'],
+    },
+    {
+      id: 'do-11',
+      followUps: [
+        { reply: 'Muslims pray the way the prophets prayed. Christians do not.', answer: 'Scripture shows people praying standing, kneeling and lying face down. Asked which place was right for worship, Jesus answered that true worshippers worship the Father in spirit and in truth (John 4:23-24). The same applies to posture.' },
+      ],
+      objection: 'Jesus prayed like a Muslim: he fell on his face before God (Matthew 26:39). He was a Muslim.',
+      response:
+        'Falling face down before God runs through the Hebrew Scriptures, long before Islam: Abraham, Moses and Joshua all did it (Genesis 17:3; Numbers 16:22; Joshua 5:14). A posture does not make someone a Muslim. Listen instead to what Jesus prayed. He called God “My Father”, which Islam rejects, saying God “neither begets nor is born” (Quran 112:3). And he prayed about the cup he was about to drink, his death on the cross, which Islam says never happened (Quran 4:157).',
+      keyPoints: ['Falling face down before God is in the Hebrew Scriptures, centuries before Islam.', 'Jesus prayed to God as “My Father”.', 'His prayer was about the death Islam denies.'],
+      references: ['Matthew 26:39', 'Genesis 17:3', 'Numbers 16:22', 'Joshua 5:14', 'Quran 112:3', 'Quran 4:157'],
     },
   ],
   quiz: [

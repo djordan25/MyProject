@@ -57,6 +57,9 @@ export const understandingIslam: Topic = {
   objections: [
     {
       id: 'iu-1',
+      followUps: [
+        { reply: 'You only read what Islam’s critics write.', answer: 'I’m quoting the Quran and Sahih al-Bukhari, not their critics. If I have misread either, show me in the text and I will change what I say.' },
+      ],
       objection: 'You Christians just attack Islam because you don’t understand it.',
       response:
         'That’s a fair challenge, and sometimes it’s true. I want to understand Islam the way you do. That’s why I try to use only the Quran and the hadith collections Sunni Muslims consider most authentic — Sahih al-Bukhari and Sahih Muslim. If I misrepresent something, please correct me. Can I ask you how you understand this passage?',
@@ -65,6 +68,9 @@ export const understandingIslam: Topic = {
     },
     {
       id: 'iu-2',
+      followUps: [
+        { reply: 'The Quran is fully detailed. It needs nothing else.', answer: 'Then show me from the Quran alone how many daily prayers there are and what to say in them. And the Quran itself commands obedience to the Messenger (Quran 3:32). How do you obey him without knowing what he said?' },
+      ],
       objection: 'We only follow the Quran; the hadith are not reliable.',
       response:
         'Some Muslims take that position, but the Quran itself repeatedly commands obedience to the Messenger as well as to Allah (Quran 3:32). Without the hadith, you couldn’t know how to perform the five daily prayers — the Quran doesn’t give the details. That’s why the vast majority of Muslims throughout history have accepted Sahih al-Bukhari and Sahih Muslim as authentic.',
@@ -73,6 +79,9 @@ export const understandingIslam: Topic = {
     },
     {
       id: 'iu-3',
+      followUps: [
+        { reply: 'We honour Jesus by refusing to call him God.', answer: 'Jesus said the opposite: all are to honour the Son just as they honour the Father, and “Whoever does not honor the Son does not honor the Father who sent Him” (John 5:23). To give him less than he claimed is not honour.' },
+      ],
       objection: 'We Muslims love and respect Jesus more than you think.',
       response:
         'I really appreciate that — it’s something we share. The Quran calls Jesus the Messiah, a word from God, born of a virgin, a worker of miracles. I’d love to look together at who Jesus said he was in the earliest records of his life. If we both respect him, his own words should matter most to us.',

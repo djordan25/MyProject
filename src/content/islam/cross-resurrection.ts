@@ -45,6 +45,9 @@ export const crossAndResurrection: Topic = {
   objections: [
     {
       id: 'cr-1',
+      followUps: [
+        { reply: 'Jews do not read Isaiah 53 that way.', answer: 'Many today read it as the nation of Israel. But the servant is innocent and suffers for the sins of God’s people (Isaiah 53:8-9), which the nation cannot be. And the first Jews to follow Jesus read it of him: Philip explained this very chapter to the Ethiopian and told him about Jesus (Acts 8:32-35).' },
+      ],
       objection: 'Psalm 22 and Isaiah 53 are about Israel or David, not Jesus.',
       response:
         'Isaiah 53 can’t be Israel: the servant suffers “for the transgression of my people” (Isaiah 53:8) — he is distinct from the people — and he is innocent, having “done no violence” (53:9), while Isaiah describes Israel as sinful (Isaiah 1:4). As for Psalm 22, David was never pierced in hands and feet or had his clothes gambled for; those details fit the crucifixion exactly.',
@@ -53,6 +56,9 @@ export const crossAndResurrection: Topic = {
     },
     {
       id: 'cr-2',
+      followUps: [
+        { reply: 'Then your witnesses were only women, whose testimony did not count.', answer: 'Not only women: John was there and writes as an eyewitness (John 19:26; John 19:35). And the women are a reason to trust the account. Someone inventing a story in the first century would hardly have made women the witnesses at the cross, the burial and the empty tomb (Mark 15:40; 15:47; 16:1-8). The Gospels record it that way because that is what happened.' },
+      ],
       objection: 'The disciples all fled; none of them saw the crucifixion.',
       response:
         'Most fled, but not all. John, Mary the mother of Jesus and other women stood by the cross (John 19:25-27), and the women watched where he was buried (Mark 15:47). John says he is reporting as an eyewitness (John 19:35). Roman soldiers and Jerusalem crowds also saw it — it was a public execution.',
@@ -61,6 +67,9 @@ export const crossAndResurrection: Topic = {
     },
     {
       id: 'cr-3',
+      followUps: [
+        { reply: 'Then how many women went to the tomb?', answer: 'Several. Luke names three and adds “the other women with them” (Luke 24:10). John tells the story through Mary Magdalene, who herself says, “we do not know where they have put Him” (John 20:2). Each writer names the people he is following; none says his list is complete.' },
+      ],
       objection: 'The Gospels contradict each other on the resurrection details.',
       response:
         'They differ in which details they include — the number of women and angels mentioned, for example — which is typical of independent eyewitness accounts. They all agree on the core: Jesus died, was buried, the tomb was found empty by women on the first day of the week, and he appeared alive to his followers. Differences in secondary details don’t undermine the central facts.',

@@ -56,7 +56,7 @@ export const quranHistory: Topic = {
       heading: 'A promise the Gospel never made',
       body: [
         'Quran 9:111 says Allah has purchased the believers’ lives in exchange for Paradise: “They fight in the cause of Allah, so they kill and are killed. [It is] a true promise [binding] upon Him in the Torah and the Gospel and the Qur’an.”',
-        'The Gospel contains no such promise. Jesus told Peter to put away his sword (Matthew 26:52) and taught, “Love your enemies” (Matthew 5:44). Paradise is promised to those who trust in Christ, not to those who kill for him (John 3:16; Luke 23:42-43).',
+        'The Gospel contains no such promise. Jesus told Peter to put away his sword (Matthew 26:52; John 18:10-11) and taught, “Love your enemies” (Matthew 5:44). Paradise is promised to those who trust in Christ, not to those who kill for him (John 3:16; Luke 23:42-43).',
       ],
       references: ['Quran 9:111', 'Matthew 26:52', 'Matthew 5:43-44', 'Luke 23:42-43'],
     },
@@ -93,6 +93,17 @@ export const quranHistory: Topic = {
         'Quran 9:30 doesn’t say “some Jews”; it says “the Jews say”, side by side with “the Christians say the Messiah is the son of Allah” — presented as the standard belief of each community. No Jewish source records Jews believing this, before or after Muhammad.',
       keyPoints: ['The verse speaks generally.', 'Paired with mainstream Christian belief.', 'No historical evidence.'],
       references: ['Quran 9:30', 'Ezra 7:6'],
+    },
+    {
+      id: 'qh-4',
+      objection: 'Abraham was told to sacrifice Ishmael, not Isaac. The Jews changed the name.',
+      response:
+        'Genesis names him: “Take your son… your only son Isaac” (Genesis 22:2), and the New Testament says the same (Hebrews 11:17; James 2:21). The Quran, by contrast, never names the son in its account (Quran 37:102). So the only texts that name him say Isaac. And the Quran tells Muhammad, if he is in doubt, to ask those who read the earlier Scripture (Quran 10:94). Every one of them would have answered: Isaac.',
+      keyPoints: ['Genesis 22:2 names Isaac.', 'The Quran never names the son.', 'Quran 10:94 sends Muhammad to the earlier Scripture.'],
+      references: ['Genesis 22:2', 'Hebrews 11:17', 'James 2:21', 'Quran 37:102', 'Quran 10:94'],
+      followUps: [
+        { reply: 'Isaac was never Abraham’s only son. Ishmael was born first.', answer: 'By then Ishmael had been sent away (Genesis 21:14), and God had told Abraham that his offspring would be reckoned through Isaac (Genesis 21:12). Isaac was the only son of the promise, and the only son still with him.' },
+      ],
     },
   ],
   quiz: [

@@ -38,14 +38,20 @@ export const crucifixionDenial: Topic = {
   objections: [
     {
       id: 'cd-1',
+      followUps: [
+        { reply: 'Allah honoured Jesus by raising him up alive. That is the greater honour.', answer: 'The Bible agrees that God honoured Jesus by raising him, but after his death, not in place of it (Philippians 2:8-9). And the Quran itself says messengers were killed (Quran 2:87), so death is no dishonour to a messenger of God.' },
+      ],
       objection: 'God would never allow his righteous prophet to be humiliated on a cross.',
       response:
-        'That sounds reverent, but the Quran itself says Israel killed prophets (Quran 2:87). God’s ways are not our ways. The cross wasn’t defeat — it was God’s plan to defeat sin and death. Jesus said, “No one takes it from Me, but I lay it down of My own accord” (John 10:18). Then God vindicated him by raising him from the dead.',
-      keyPoints: ['Quran 2:87: prophets were killed.', 'The cross was voluntary (John 10:18).', 'The resurrection is God’s vindication.'],
+        'That sounds reverent, but the Quran itself says Israel killed messengers of God (Quran 2:87). God’s ways are not our ways. The cross wasn’t defeat — it was God’s plan to defeat sin and death. Jesus said, “No one takes it from Me, but I lay it down of My own accord” (John 10:18). Then God vindicated him by raising him from the dead.',
+      keyPoints: ['Quran 2:87: messengers were killed.', 'The cross was voluntary (John 10:18).', 'The resurrection is God’s vindication.'],
       references: ['Quran 2:87', 'John 10:17-18', 'Isaiah 53:10', 'Acts 2:23-24'],
     },
     {
       id: 'cd-2',
+      followUps: [
+        { reply: 'Allah is able to do all things. He could make someone look like Jesus.', answer: 'The question is not what God can do but what he did. A God who cannot lie (Titus 1:2) would not deceive Jesus’ mother and disciples into founding a false religion.' },
+      ],
       objection: 'Someone else — maybe Judas — was made to look like Jesus and crucified instead.',
       response:
         'Think about what that means. God would have deceived Mary, the apostles and everyone present, and then let the deception spread into the world’s largest religion for 600 years before correcting it. And the substitute presumably let himself be crucified without ever saying, “I’m not Jesus!” Every eyewitness source says it was Jesus. One verse written six centuries later can’t overturn that.',
@@ -54,6 +60,9 @@ export const crucifixionDenial: Topic = {
     },
     {
       id: 'cd-3',
+      followUps: [
+        { reply: 'So God did not answer his prayer.', answer: 'God answered the prayer Jesus actually prayed: “Yet not as I will, but as You will” (Matthew 26:39). The Father’s will was the cross and then the resurrection. Hebrews says he was heard (Hebrews 5:7): brought out of death, not kept from dying.' },
+      ],
       objection: 'Jesus prayed to be saved from death, and God answers prayers — so he wasn’t crucified.',
       response:
         'In Gethsemane Jesus prayed, “not My will, but Yours be done” (Luke 22:42). He submitted to the Father’s will. Hebrews 5:7 says he was heard — he was saved out of death, by resurrection, not from dying. In fact, at his arrest he said, “Shall I not drink the cup the Father has given Me?” (John 18:11).',
@@ -62,6 +71,9 @@ export const crucifixionDenial: Topic = {
     },
     {
       id: 'cd-4',
+      followUps: [
+        { reply: 'His tomb is in Kashmir.', answer: 'The claim that a shrine in Kashmir is the tomb of Jesus was first made in the nineteenth century. Against it stand accounts written within a lifetime of the event: the centurion confirmed to Pilate that Jesus was dead (Mark 15:44-45), and a spear was driven into his side (John 19:33-34).' },
+      ],
       objection: 'Jesus only swooned on the cross and was revived (Ahmadi view).',
       response:
         'Roman soldiers were professional executioners who confirmed death; a spear was thrust into Jesus’ side (John 19:33-34). A half-dead, badly wounded man could not have convinced his disciples that he had conquered death. And mainstream Sunni Islam rejects this view anyway, since Quran 4:157 says he was not crucified at all.',

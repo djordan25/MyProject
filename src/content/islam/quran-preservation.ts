@@ -10,7 +10,7 @@ export const quranPreservation: Topic = {
       heading: 'The claim',
       body: [
         '“Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9). Many Muslims argue the Quran has been preserved perfectly, without a single letter changed — proof of its divine origin, while the Bible was corrupted.',
-        'The goal here isn’t to mock the Quran, but to show that this claim does not match what Sahih al-Bukhari and Sahih Muslim themselves report.',
+        'This claim does not match what Sahih al-Bukhari and Sahih Muslim themselves report.',
       ],
       references: ['Quran 15:9'],
     },
@@ -46,6 +46,9 @@ export const quranPreservation: Topic = {
   objections: [
     {
       id: 'qp-2',
+      followUps: [
+        { reply: 'The recitation was abrogated during the Prophet’s lifetime.', answer: 'Aisha says the five-sucklings verse was still in the Quran and being recited when the Messenger died (Sahih Muslim 1452). After his death no revelation could abrogate it. So who removed it?' },
+      ],
       objection: 'Those missing verses were abrogated by Allah, so nothing was lost.',
       response:
         'But Aisha says the five-sucklings verse was still being recited as part of the Quran when Muhammad died (Sahih Muslim 1452). Abrogation after his death would require a new revelation — and there were no more. Umar said the stoning verse was revealed and recited as part of the Book and that its ruling still stood (Sahih al-Bukhari 6830). If its words were removed but its ruling remains, how is that “perfect preservation”?',
@@ -54,6 +57,9 @@ export const quranPreservation: Topic = {
     },
     {
       id: 'qp-3',
+      followUps: [
+        { reply: 'The burned copies only had personal notes mixed in.', answer: 'The hadith does not say that. It says Uthman ordered that “all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987), because Muslims differed in their recitation and Hudhaifa feared they would come to differ about the Book.' },
+      ],
       objection: 'Uthman only standardised the Quraysh dialect; the content was the same.',
       response:
         'Then why burn the others? Hudhaifa feared Muslims would “differ about the Book (Qur’an) as Jews and the Christians did before” (Sahih al-Bukhari 4987) — that’s about the text, not accents. And companions like Ibn Mas’ud recited differently and as Sahih al-Bukhari 4977 is usually understood, did not count surahs 113-114 as Quran. I’m not saying the Quran is wildly different — I’m saying letter-perfect preservation isn’t what Bukhari and Muslim describe.',
@@ -62,6 +68,9 @@ export const quranPreservation: Topic = {
     },
     {
       id: 'qp-4',
+      followUps: [
+        { reply: 'Every copy of the Quran in the world today is identical.', answer: 'Printed Qurans differ by reading: the Hafs and Warsh readings, both accepted by Muslims, differ in some words and letters. And all of them descend from Uthman’s edition, made when the other copies were burned (Sahih al-Bukhari 4987). Agreement among copies of one edited text cannot tell you what was in the copies that were destroyed.' },
+      ],
       objection: 'The Bible has thousands of variants; the Quran has none.',
       response:
         'The Bible’s variants are visible because thousands of manuscripts survived and weren’t destroyed — that’s how we know what the original said. The Quran’s early variant copies were burned (Sahih al-Bukhari 4987), it was revealed in seven ways (Sahih al-Bukhari 4992), and it is still recited in several canonical readings. Apply the same standard to both books, and the Bible comes out very well.',

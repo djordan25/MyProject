@@ -68,6 +68,9 @@ export const hadithReliability: Topic = {
   objections: [
     {
       id: 'hr-1',
+      followUps: [
+        { reply: 'Christians have nothing like the isnad.', answer: 'Christians have something better than chains of names recorded two centuries later: documents written within the lifetime of the eyewitnesses (Luke 1:1-4), while many of those witnesses could still be questioned (1 Corinthians 15:6).' },
+      ],
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
       response:
         'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). Up to two centuries of largely oral transmission, with only some early written notes, is a long time for any method to bridge.',
@@ -76,6 +79,9 @@ export const hadithReliability: Topic = {
     },
     {
       id: 'hr-2',
+      followUps: [
+        { reply: 'Then choose: are the hadith reliable or not?', answer: 'That is your choice to make, because they are your sources. If they are reliable, Islam must accept what they say about how the Quran was collected (Sahih al-Bukhari 4987). If they are not, Islam has lost its record of that history. I only ask you to follow one answer consistently.' },
+      ],
       objection: 'You use the hadith when it suits you, but say they are unreliable. That’s inconsistent.',
       response:
         'Good question. I’m using them because you accept them as authentic — it’s an internal critique. I’m asking you to be consistent: if Bukhari is reliable, then its reports about lost verses and burned copies are reliable too. If it isn’t, then where does Islam get its knowledge of Muhammad and the Quran’s history? That’s the dilemma.',
@@ -84,6 +90,9 @@ export const hadithReliability: Topic = {
     },
     {
       id: 'hr-3',
+      followUps: [
+        { reply: 'Your Gospels are anonymous. At least the hadith name their narrators.', answer: 'A chain of names can be invented as easily as a saying, which is why Muslim scholars set aside the great majority of the reports they examined. No surviving copy of the Gospels that has a title names anyone but Matthew, Mark, Luke or John. And Luke tells us how he worked: from those who were eyewitnesses from the beginning (Luke 1:1-4).' },
+      ],
       objection: 'The New Testament also came from oral tradition before it was written down.',
       response:
         'Yes, but the gap is decades, not centuries, and the writers were eyewitnesses or their close associates who could be checked by living witnesses (Luke 1:1-4; 1 Corinthians 15:6). Paul’s letters were written within about 20-30 years of Jesus’ death. Bukhari’s collection came about two centuries after Muhammad.',
