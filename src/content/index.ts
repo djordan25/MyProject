@@ -30,11 +30,12 @@ import { hadithReliability } from './islam/hadith-reliability';
 import { muhammadWarfare } from './islam/muhammad-warfare';
 import { sharingTheGospel } from './islam/sharing-the-gospel';
 import { branchesOfIslam } from './islam/branches';
+import { quranManuscripts } from './islam/quran-manuscripts';
 
 export const topics: Topic[] = [
   existenceOfGod, identityOfJesus, reliabilityOfScripture, howWeGotTheBible, resurrection, problemOfEvil,
   understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
-  quranOral, quranPreservation, quranConsistency, quranHistory, quranSources, hadithReliability,
+  quranOral, quranPreservation, quranManuscripts, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
   trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,

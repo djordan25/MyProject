@@ -38,7 +38,7 @@ export const tracks: Track[] = [
       {
         title: 'Reliability of the Quran and hadith',
         description: 'How the Quran was collected and standardised, its internal and historical problems, the legends it borrowed, and why the hadith are on shaky ground.',
-        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
+        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-manuscripts', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
       },
       {
         title: 'Answering the arguments for Islam',
