@@ -10,13 +10,13 @@ export const identityOfJesus: Topic = {
       heading: 'Jesus of history',
       body: [
         'Virtually all historians — Christian or not — agree that Jesus of Nazareth existed, was baptised by John, gathered disciples, and was crucified under Pontius Pilate.',
-        'Besides the New Testament, early non-Christian sources mention him: Tacitus (Annals 15.44), Josephus (Antiquities 18.63; 20.200), and Pliny the Younger (Letters 10.96).',
+        'Besides the New Testament, early non-Christian sources mention him: Tacitus (Annals 15.44), Josephus (Antiquities 18.63; 20.200), and Pliny the Younger (Letters 10.96). Josephus’ first passage shows signs of later Christian editing, but most scholars accept an authentic core that mentions Jesus’ execution under Pilate.',
       ],
     },
     {
       heading: 'Jesus’ claims about himself',
       body: [
-        'Jesus did more than teach ethics. He forgave sins against others (Mark 2:5-7), applied the divine name to himself (“before Abraham was, I am” — John 8:58), claimed he would judge the world (Matthew 25:31-46), and accepted worship (John 20:28).',
+        'Jesus did more than teach ethics. He forgave sins against others (Mark 2:5-7), applied the divine name to himself (“before Abraham was born, I am” — John 8:58), claimed he would judge the world (Matthew 25:31-46), and accepted worship (John 20:28).',
         'Even in the earliest Gospel, Mark, his self-description as the “Son of Man” coming on the clouds (Mark 14:62, drawing on Daniel 7:13-14) led the high priest to charge him with blasphemy.',
       ],
       references: ['Mark 2:5-7', 'John 8:58', 'John 10:30-33', 'Mark 14:61-64', 'Colossians 1:15-20'],
@@ -80,7 +80,7 @@ export const identityOfJesus: Topic = {
     },
     {
       id: 'joj-q2',
-      question: 'In John 8:58 Jesus says “before Abraham was, I am.” Why is this significant?',
+      question: 'In John 8:58 Jesus says “before Abraham was born, I am.” Why is this significant?',
       options: [
         'It shows he was older than Abraham’s descendants.',
         'It echoes the divine name revealed in Exodus 3:14.',

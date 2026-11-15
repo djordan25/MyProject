@@ -10,14 +10,14 @@ export const bibleCorruption: Topic = {
       heading: 'Why the claim exists',
       body: [
         'Because the Bible contradicts the Quran on Jesus’ deity and crucifixion, Muslims conclude the Bible must have been changed (tahrif). Ask a gentle question first: “When was it corrupted, by whom, and how do you know?”',
-        'If before Muhammad, the Quran wouldn’t affirm the scriptures in Christian hands (Quran 5:47, 5:68, 10:94). If after Muhammad, we have complete manuscripts from centuries before him that say the same thing. (See The Islamic Dilemma.)',
+        'If before Muhammad, the Quran wouldn’t affirm the scriptures in Christian hands (Quran 5:47, 5:68, 10:94). If after Muhammad, we have manuscripts from centuries before him that say the same thing. (See The Islamic Dilemma.)',
       ],
       references: ['Quran 5:47', 'Quran 5:68', 'Quran 10:94'],
     },
     {
       heading: 'God preserves his word',
       body: [
-        '“The grass withers, the flower fades, but the word of our God will stand forever” (Isaiah 40:8). “Heaven and earth will pass away, but my words will not pass away” (Matthew 24:35).',
+        '“The grass withers and the flowers fall, but the word of our God stands forever” (Isaiah 40:8). “Heaven and earth will pass away, but My words will never pass away” (Matthew 24:35).',
         'The Quran agrees no one can change Allah’s words (Quran 6:115; 18:27). If God couldn’t protect the Torah and Gospel, why trust him to protect the Quran?',
       ],
       references: ['Isaiah 40:8', 'Matthew 24:35', '1 Peter 1:24-25', 'Quran 6:115', 'Quran 18:27'],
@@ -25,8 +25,8 @@ export const bibleCorruption: Topic = {
     {
       heading: 'Paul and the apostles',
       body: [
-        'Many Muslims claim Paul corrupted Jesus’ message. But Paul visited Peter and James in Jerusalem (Galatians 1:18-19), and the apostles gave him “the right hand of fellowship” (Galatians 2:9). Peter calls Paul “our beloved brother” and places his letters alongside “the other Scriptures” (2 Peter 3:15-16).',
-        'Paul says the gospel of Christ’s death and resurrection is what all the apostles preached: “Whether then it was I or they, so we preach and so you believed” (1 Corinthians 15:11).',
+        'Many Muslims claim Paul corrupted Jesus’ message. But Paul visited Peter and James in Jerusalem (Galatians 1:18-19), and the apostles gave him “the right hand of fellowship” (Galatians 2:9). Peter calls Paul “our beloved brother” and places his letters alongside “the rest of the Scriptures” (2 Peter 3:15-16).',
+        'Paul says the gospel of Christ’s death and resurrection is what all the apostles preached: “Whether, then, it was I or they, this is what we preach, and this is what you believed” (1 Corinthians 15:11).',
       ],
       references: ['Galatians 1:18-19', 'Galatians 2:9', '2 Peter 3:15-16', '1 Corinthians 15:3-11'],
     },
@@ -52,9 +52,9 @@ export const bibleCorruption: Topic = {
       id: 'bc-3',
       objection: 'Paul hijacked Jesus’ religion and invented Christianity.',
       response:
-        'The original apostles — Peter, James and John — accepted Paul and his message (Galatians 2:9), and Peter called his letters Scripture (2 Peter 3:15-16). The death and resurrection of Jesus is found in the Gospels and in the preaching of Peter (Acts 2), not just in Paul. And remember the Quran says Jesus’ disciples were true believers whom God made victorious (Quran 61:14).',
+        'The Jerusalem leaders — Peter, John and James the Lord’s brother — accepted Paul and his message (Galatians 2:9), and Paul says he and they preached the same gospel (1 Corinthians 15:11). Peter also sets Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16). If a Muslim disputes who wrote 2 Peter, rest the case on Galatians and 1 Corinthians, which are virtually undisputed as Paul’s. The death and resurrection of Jesus is found in the Gospels and in the preaching of Peter (Acts 2), not just in Paul. And remember the Quran says Jesus’ disciples were true believers whom God made victorious (Quran 61:14).',
       keyPoints: ['Apostles endorsed Paul.', 'Peter preached the same gospel (Acts 2).', 'Quran 61:14 on the disciples.'],
-      references: ['Galatians 2:9', '2 Peter 3:15-16', 'Acts 2:22-36', 'Quran 61:14'],
+      references: ['Galatians 2:9', '1 Corinthians 15:11', '2 Peter 3:15-16', 'Acts 2:22-36', 'Quran 61:14'],
     },
     {
       id: 'bc-4',
@@ -113,7 +113,7 @@ export const bibleCorruption: Topic = {
       question: 'According to 1 Corinthians 15:11, Paul preached…',
       options: ['A different gospel from the apostles', 'The same message as the other apostles', 'Only to Jews', 'A new law'],
       answer: 1,
-      explanation: '“Whether then it was I or they, so we preach.”',
+      explanation: '“Whether, then, it was I or they, this is what we preach.”',
     },
   ],
 };

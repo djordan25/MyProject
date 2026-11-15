@@ -20,6 +20,7 @@ export const understandingIslam: Topic = {
         'The Quran: believed to be the literal, uncreated word of Allah, revealed to Muhammad through the angel Gabriel (Jibril) between roughly AD 610 and 632. It has 114 surahs (chapters).',
         'The Sunnah: the example of Muhammad — what he said, did and approved — recorded in the hadith. Most of Islamic practice (how to pray, fast, etc.) comes from the hadith, not the Quran alone. The Quran itself commands obedience to the Messenger (Quran 3:32).',
         'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections. That is why this course cites only these two collections: a Sunni Muslim cannot simply dismiss them.',
+        'A note on translation: Quran quotations here follow Sahih International, a translation most Muslims accept. Words in [square brackets] are the translators’ additions and are not in the Arabic. Sometimes they soften a difficulty, so notice them.',
       ],
       references: ['Quran 3:32', 'Quran 15:9'],
     },
@@ -46,7 +47,7 @@ export const understandingIslam: Topic = {
       body: [
         'Ask questions before making statements: “What do you mean by that?” and “How did you come to that conclusion?”',
         'Use their sources. A Muslim is far more likely to be persuaded by the Quran and Sahih hadith than by a Western scholar.',
-        'Never mock Muhammad or the Quran. State facts from the sources calmly and let them speak.',
+        'Tell the truth plainly. Stating what Islam’s own sources say about Muhammad, and judging it morally, is not mockery or insult: it is honesty. Quote the sources and let them speak.',
         'Bring the conversation back to Jesus: who he is and what he has done. Arguments clear the way; the gospel is the destination.',
         'Pray. Conversion is the work of the Holy Spirit, not of clever arguments.',
       ],

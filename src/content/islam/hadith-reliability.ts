@@ -4,7 +4,7 @@ export const hadithReliability: Topic = {
   id: 'islam-hadith-reliability',
   title: 'Can the Hadith Be Trusted?',
   icon: '⛓',
-  summary: 'Islam depends on the hadith — yet the authoritative collections were compiled two centuries after Muhammad from chains of largely oral reports, amid widespread fabrication.',
+  summary: 'Islam depends on the hadith, yet the authoritative collections were compiled two centuries after Muhammad. What that means, and how to use it without undermining your own argument.',
   lesson: [
     {
       heading: 'Why the hadith matter so much',
@@ -19,7 +19,7 @@ export const hadithReliability: Topic = {
       body: [
         'Muhammad died in AD 632. Al-Bukhari, compiler of Sahih al-Bukhari, died in AD 870; Muslim ibn al-Hajjaj died in AD 875. Their collections were compiled roughly 200 to 240 years after Muhammad’s death. Earlier, smaller collections existed, but the authoritative Sahih collections come from this much later period.',
         'Each hadith comes with a chain of narrators (isnad): “Narrated A: B told me that C said that he heard D…” — often six or more links of people passing a report orally across generations. Muslims rightly object to “telephone game” transmission of the Bible; here the comparison actually applies.',
-        'For contrast, the New Testament documents were written within the lifetime of eyewitnesses — Paul could point to over 500 witnesses “most of whom are still alive” (1 Corinthians 15:6; see also Luke 1:1-4).',
+        'For contrast, the New Testament documents were written within the lifetime of eyewitnesses — Paul could point to over 500 witnesses “most of whom are still living” (1 Corinthians 15:6; see also Luke 1:1-4).',
       ],
       references: ['1 Corinthians 15:6', 'Luke 1:1-4'],
     },
@@ -34,7 +34,7 @@ export const hadithReliability: Topic = {
     {
       heading: 'Fabrication was a known problem',
       body: [
-        'Muhammad repeatedly warned: “Whoever tells a lie against me intentionally, let him occupy his seat in Hell-fire” (Sahih al-Bukhari 107; 110). Az-Zubair said this warning was why he narrated so few hadith (Sahih al-Bukhari 107), and Anas said the same (Sahih al-Bukhari 108). The warning only makes sense if false reports were a real danger.',
+        'Muhammad repeatedly warned: “Whoever tells a lie against me intentionally, then (surely) let him occupy his seat in Hell-fire” (Sahih al-Bukhari 108; see also 107 and 110). Az-Zubair said this warning was why he narrated so few hadith (Sahih al-Bukhari 107), and Anas said the same (Sahih al-Bukhari 108). The warning only makes sense if false reports were a real danger.',
         'Muslim tradition itself reports that al-Bukhari examined hundreds of thousands of reports and accepted only a small fraction. Islamic scholars openly acknowledge that fabricated hadith were produced in large numbers for political, sectarian and personal reasons.',
         'Different Muslim groups accept different hadith: Shia Muslims reject much of Bukhari and Muslim and have their own collections, while “Quran-only” Muslims reject hadith altogether. There is no agreed body of reliable reports.',
       ],
@@ -54,6 +54,15 @@ export const hadithReliability: Topic = {
         'Either way, Islam’s claim to a perfectly preserved and verified revelation is undermined.',
       ],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987', 'Sahih Muslim 1452', 'Sahih al-Bukhari 5763', 'Sahih al-Bukhari 4428'],
+    },
+    {
+      heading: 'How to use this, and how not to',
+      body: [
+        'Christians answer Islam in two ways. The internal critique takes Islam’s sources at face value: “Your own most authentic books say this.” The historical critique asks whether those sources are reliable at all. Both are legitimate, but they pull in opposite directions, so don’t mix them carelessly.',
+        'If you tell a Muslim the hadith are unreliable and then quote Sahih al-Bukhari to prove that verses were lost, you hand them an easy exit: “You said yourself the hadith can’t be trusted.”',
+        'In most conversations, lead with the internal critique. Sunni Muslims accept Sahih al-Bukhari and Sahih Muslim as authentic, so hold them to what those books say.',
+        'Keep the material in this lesson for two situations. First, when a Muslim claims that Islam’s sources are historically certain while the Bible’s are not: ask for one standard applied to both. Second, when a Muslim dismisses a Sahih hadith as “weak” to escape a problem: ask what is left of Islam’s history, law and prayer without Bukhari and Muslim.',
+      ],
     },
   ],
   objections: [
@@ -80,6 +89,14 @@ export const hadithReliability: Topic = {
         'Yes, but the gap is decades, not centuries, and the writers were eyewitnesses or their close associates who could be checked by living witnesses (Luke 1:1-4; 1 Corinthians 15:6). Paul’s letters were written within about 20-30 years of Jesus’ death. Bukhari’s collection came about two centuries after Muhammad.',
       keyPoints: ['Decades versus centuries.', 'Eyewitnesses still alive.', 'Paul within 20-30 years.'],
       references: ['Luke 1:1-4', '1 Corinthians 15:6', '2 Peter 1:16'],
+    },
+    {
+      id: 'hr-4',
+      objection: 'That hadith is weak. I don’t accept it.',
+      response:
+        'It is in Sahih al-Bukhari (or Sahih Muslim), which Sunni scholars have treated for about a thousand years as the most authentic books after the Quran. If a Sahih hadith can be set aside whenever it is uncomfortable, by what standard do we keep the ones that teach how to pray, or the ones that tell us how the Quran was collected (Sahih al-Bukhari 4986, 4987)? I’m only asking for consistency.',
+      keyPoints: ['Sahih means authenticated by Islam’s own scholars.', 'Rejecting them selectively is arbitrary.', 'Islam’s practice and history rest on the same books.'],
+      references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987', 'Sahih al-Bukhari 8'],
     },
   ],
   quiz: [

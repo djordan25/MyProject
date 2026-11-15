@@ -10,10 +10,10 @@ export const jesusMoreThanProphet: Topic = {
       heading: 'Jesus in the Quran: unlike any other prophet',
       body: [
         'Born of a virgin (Quran 3:47; 19:20). Called the Messiah and “a word from Him” (Quran 3:45), “His word… and a soul from Him” (Quran 4:171).',
-        'Called “a pure boy” — sinless (Quran 19:19). Sahih al-Bukhari 3431 says every child is touched by Satan at birth, except Mary and her son.',
+        'Called “a pure boy” (Quran 19:19). The Quran never records Jesus sinning or asking forgiveness, while it tells Muhammad to ask forgiveness for his sin (Quran 47:19). Sahih al-Bukhari 3431 says every child is touched by Satan at birth, except Mary and her son.',
         'Creates life from clay and gives life to the dead (Quran 3:49; 5:110). The Quran adds “by permission of Allah” — yet no other prophet is described as giving life this way.',
         'Raised alive to Allah (Quran 4:158) and a sign of the Hour (Quran 43:61) — understood by Muslims as his return. Sahih al-Bukhari 3448: he will descend and judge justly.',
-        'Ask your Muslim friend: no other prophet — not even Muhammad — is described as sinless, as God’s Word, as creating life, or as returning to judge. Why is Jesus so unique?',
+        'Ask your Muslim friend: no other prophet is called God’s Word, said to give life, or expected to return. Why is Jesus so unique? Use this as a conversation opener, not a proof. Muslims will answer that all prophets are protected from sin and that Jesus acted “by permission of Allah”, and the Quran’s titles do not mean to them what they mean in the Bible. The proof is what Jesus himself said and did, below.',
       ],
       references: ['Quran 3:45-49', 'Quran 4:171', 'Quran 19:19', 'Quran 4:158', 'Quran 43:61', 'Sahih al-Bukhari 3431', 'Sahih al-Bukhari 3448'],
     },
@@ -30,17 +30,30 @@ export const jesusMoreThanProphet: Topic = {
     {
       heading: 'Jesus said who he was',
       body: [
-        '“Before Abraham was, I am” (John 8:58) — taking the divine name of Exodus 3:14. The crowd picked up stones to stone him.',
-        '“I and the Father are one” — again they picked up stones, “because you, being a man, make yourself God” (John 10:30-33).',
+        '“Before Abraham was born, I am” (John 8:58) — taking the divine name of Exodus 3:14. The crowd picked up stones to stone him.',
+        '“I and the Father are one” — again they picked up stones, “because You, who are a man, declare Yourself to be God” (John 10:30-33).',
         'Before the high priest, asked if he was the Christ, the Son of the Blessed, Jesus answered “I am”, and claimed to be the Son of Man who would sit at God’s right hand and come with the clouds of heaven (Mark 14:61-64; Daniel 7:13-14). He was condemned for blasphemy.',
-        '“Whoever has seen me has seen the Father” (John 14:9).',
+        '“Anyone who has seen Me has seen the Father” (John 14:9).',
       ],
       references: ['John 8:58', 'Exodus 3:14', 'John 10:30-33', 'Mark 14:61-64', 'Daniel 7:13-14', 'John 14:9'],
     },
     {
+      heading: 'The New Testament identifies Jesus as the LORD',
+      body: [
+        'The apostles were Jewish monotheists. Yet they took Old Testament passages about the LORD (Yahweh) and applied them to Jesus.',
+        '“Prepare the way for the LORD” (Isaiah 40:3) is fulfilled when John the Baptist prepares the way for Jesus (Mark 1:2-3).',
+        'The LORD swears, “Every knee will bow before Me, every tongue will swear allegiance” (Isaiah 45:23). Paul says every knee will bow at the name of Jesus and every tongue confess that he is Lord (Philippians 2:10-11).',
+        '“Everyone who calls on the name of the LORD will be saved” (Joel 2:32) is applied to calling on Jesus as Lord (Romans 10:9-13).',
+        'Isaiah saw the LORD seated on his throne (Isaiah 6:1-5). John says Isaiah “saw Jesus’ glory and spoke about Him” (John 12:41).',
+        'The psalm that praises the LORD as the unchanging Creator (Psalm 102:25-27) is quoted as words spoken about the Son (Hebrews 1:10-12).',
+        'The LORD says, “I am the first and I am the last” (Isaiah 44:6). The risen Jesus says, “I am the First and the Last” (Revelation 1:17).',
+      ],
+      references: ['Isaiah 40:3', 'Mark 1:2-3', 'Isaiah 45:23', 'Philippians 2:10-11', 'Joel 2:32', 'Romans 10:9-13', 'Isaiah 6:1-5', 'John 12:41', 'Psalm 102:25-27', 'Hebrews 1:10-12', 'Isaiah 44:6', 'Revelation 1:17'],
+    },
+    {
       heading: 'The Old Testament expected a divine Messiah',
       body: [
-        'The child born would be called “Mighty God, Everlasting Father” (Isaiah 9:6). The Son of Man in Daniel 7 receives everlasting dominion and is served by all peoples (Daniel 7:13-14). The ruler from Bethlehem has origins “from of old, from ancient days” (Micah 5:2).',
+        'The child born would be called “Mighty God, Everlasting Father” (Isaiah 9:6). The Son of Man in Daniel 7 receives everlasting dominion and is served by all peoples (Daniel 7:13-14). The ruler from Bethlehem is one “whose origins are of old, from the days of eternity” (Micah 5:2).',
         'The New Testament writers, all Jewish monotheists, proclaim him as God: John 1:1; Philippians 2:5-11; Colossians 2:9; Titus 2:13; Hebrews 1:8.',
       ],
       references: ['Isaiah 9:6', 'Daniel 7:13-14', 'Micah 5:2', 'John 1:1', 'Philippians 2:5-11', 'Colossians 2:9', 'Titus 2:13', 'Hebrews 1:8'],
@@ -59,7 +72,7 @@ export const jesusMoreThanProphet: Topic = {
       id: 'jp-2',
       objection: '“Word of God” in Quran 4:171 just means Jesus was created by God’s command “Be!”',
       response:
-        'Every person is created by God’s command — yet the Quran gives only Jesus the title “His word” and “a soul from Him”. That uniqueness points somewhere. The Gospel of John explains it: “In the beginning was the Word, and the Word was with God, and the Word was God… And the Word became flesh” (John 1:1, 14). God’s Word is eternal, as God himself is.',
+        'Every person is created by God’s command — yet the Quran gives only Jesus the title “His word” and “a soul from Him”. That uniqueness points somewhere. The Gospel of John explains it: “In the beginning was the Word, and the Word was with God, and the Word was God… The Word became flesh” (John 1:1, 14). God’s Word is eternal, as God himself is.',
       keyPoints: ['Only Jesus has this title.', 'John 1:1, 14 explains it.', 'God’s Word is not a created thing.'],
       references: ['Quran 4:171', 'Quran 3:59', 'John 1:1-14'],
     },

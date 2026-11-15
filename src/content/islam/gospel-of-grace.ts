@@ -10,15 +10,15 @@ export const gospelOfGrace: Topic = {
       heading: 'Salvation in Islam',
       body: [
         'On Judgment Day deeds are weighed: “those whose scales are heavy — it is they who will be the successful. And those whose scales are light — they are the ones who will lose themselves” (Quran 7:8-9; 23:102-103).',
-        'No Muslim can know in advance which way the scales will fall. Muhammad himself said, “The deeds of anyone of you will not save you,” and when asked “Even you?”, replied, “No, even I, unless Allah bestows His mercy on me” (Sahih al-Bukhari 6463; Sahih Muslim 2816).',
-        'He also said, “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243; Quran 46:9). And Quran 19:71 says of every person, “there is none of you except he will come to it” — Hell.',
+        'Muslims stress that Allah is merciful, and that no one is saved without his mercy. But no Muslim can know in advance which way the scales will fall, or whether that mercy will be given. Muhammad himself said, “The deeds of anyone of you will not save you,” and when asked “Even you?”, replied, “No, even I (will not be saved) unless and until Allah bestows His Mercy on me” (Sahih al-Bukhari 6463; Sahih Muslim 2816).',
+        'He also said, “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243; see Quran 46:9). Muslims reply that Quran 48:2 later promised him forgiveness, but that promise was to Muhammad alone. For everyone else, Quran 19:71 says “there is none of you except he will come to it”, which Muslims understand as every person passing over Hell before the God-fearing are saved (Quran 19:72).',
       ],
-      references: ['Quran 7:8-9', 'Quran 23:102-103', 'Sahih al-Bukhari 6463', 'Sahih Muslim 2816', 'Sahih al-Bukhari 1243', 'Quran 46:9', 'Quran 19:71-72'],
+      references: ['Quran 7:8-9', 'Quran 23:102-103', 'Sahih al-Bukhari 6463', 'Sahih Muslim 2816', 'Sahih al-Bukhari 1243', 'Quran 46:9', 'Quran 48:2', 'Quran 19:71-72'],
     },
     {
       heading: 'The problem with scales',
       body: [
-        'God is perfectly holy; a single sin breaks his law (James 2:10). Good deeds cannot erase guilt any more than a criminal’s later kindness erases his crime before a just judge. “All have sinned and fall short of the glory of God” (Romans 3:23), and “by works of the law no human being will be justified” (Romans 3:20).',
+        'God is perfectly holy; a single sin breaks his law (James 2:10). Good deeds cannot erase guilt any more than a criminal’s later kindness erases his crime before a just judge. “All have sinned and fall short of the glory of God” (Romans 3:23), and “no one will be justified in His sight by works of the law” (Romans 3:20).',
         'So the question isn’t whether God is merciful — both faiths say he is. The question is how a just God can show mercy without ignoring justice.',
       ],
       references: ['James 2:10', 'Romans 3:20-23', 'Habakkuk 1:13', 'Isaiah 64:6'],
@@ -26,9 +26,9 @@ export const gospelOfGrace: Topic = {
     {
       heading: 'The gospel answer',
       body: [
-        'God himself provides the payment. “God shows his love for us in that while we were still sinners, Christ died for us” (Romans 5:8). God is both “just and the justifier of the one who has faith in Jesus” (Romans 3:26).',
-        'Salvation is a gift: “by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works” (Ephesians 2:8-9).',
-        'And it brings assurance: “I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life” (1 John 5:13). “There is therefore now no condemnation for those who are in Christ Jesus” (Romans 8:1).',
+        'God himself provides the payment. “God proves His love for us in this: While we were still sinners, Christ died for us” (Romans 5:8). At the cross God acted “so as to be just and to justify the one who has faith in Jesus” (Romans 3:26).',
+        'Salvation is a gift: “it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God, not by works” (Ephesians 2:8-9).',
+        'And it brings assurance: “I have written these things to you who believe in the name of the Son of God, so that you may know that you have eternal life” (1 John 5:13). “Therefore, there is now no condemnation for those who are in Christ Jesus” (Romans 8:1).',
       ],
       references: ['Romans 5:8', 'Romans 3:24-26', 'Ephesians 2:8-9', '1 John 5:13', 'Romans 8:1', 'John 5:24'],
     },
@@ -36,7 +36,7 @@ export const gospelOfGrace: Topic = {
       heading: 'God’s love',
       body: [
         'The Quran speaks of Allah loving those who follow the Messenger (Quran 3:31) and the doers of good (Quran 2:195), and not liking the disbelievers (Quran 3:32). His love is a response to obedience.',
-        'The Bible says “God is love” (1 John 4:8) and that he loved us first, while we were his enemies (Romans 5:8-10; 1 John 4:10, 19). “For God so loved the world, that he gave his only Son” (John 3:16).',
+        'The Bible says “God is love” (1 John 4:8) and that he loved us first, while we were his enemies (Romans 5:8-10; 1 John 4:10, 19). “For God so loved the world that He gave His one and only Son” (John 3:16).',
         'Many Muslims have been drawn to Christ not first by an argument, but by this love and by the assurance it brings. Share it personally.',
       ],
       references: ['Quran 3:31-32', 'Quran 2:195', '1 John 4:8-10', '1 John 4:19', 'Romans 5:8-10', 'John 3:16'],
@@ -47,7 +47,7 @@ export const gospelOfGrace: Topic = {
       id: 'gg-1',
       objection: 'If salvation is free, Christians can just sin as much as they like.',
       response:
-        'Paul anticipated that exact objection: “Are we to continue in sin that grace may abound? By no means!” (Romans 6:1-2). Grace doesn’t just forgive; it transforms. Someone who has truly been rescued doesn’t want to go back. We obey God not to earn his love, but because we already have it (Ephesians 2:10; Titus 2:11-14).',
+        'Paul anticipated that exact objection: “Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1-2). Grace doesn’t just forgive; it transforms. Someone who has truly been rescued doesn’t want to go back. We obey God not to earn his love, but because we already have it (Ephesians 2:10; Titus 2:11-14).',
       keyPoints: ['Romans 6:1-2 answers it directly.', 'Grace transforms.', 'Good works flow from salvation, not toward it.'],
       references: ['Romans 6:1-2', 'Ephesians 2:10', 'Titus 2:11-14'],
     },
@@ -86,7 +86,7 @@ export const gospelOfGrace: Topic = {
     {
       id: 'gg-q3',
       question: 'Romans 3:26 says God is both…',
-      options: ['Hidden and unknowable', 'Just and the justifier of the one who has faith in Jesus', 'Merciful and arbitrary', 'Near and distant'],
+      options: ['Hidden and unknowable', 'Just, and the one who justifies those who have faith in Jesus', 'Merciful and arbitrary', 'Near and distant'],
       answer: 1,
       explanation: 'The cross reconciles justice and mercy.',
     },
@@ -95,7 +95,7 @@ export const gospelOfGrace: Topic = {
       question: 'Which verse answers “Shall we sin that grace may abound?”',
       options: ['Romans 6:1-2', 'John 1:1', 'Acts 1:8', 'Hebrews 11:1'],
       answer: 0,
-      explanation: '“By no means!”',
+      explanation: '“Certainly not!”',
     },
   ],
 };

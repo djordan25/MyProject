@@ -1,10 +1,11 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // Relative base + HashRouter = deploys to any static host (GitHub Pages, Netlify, Cloudflare Pages) with no config.
 export default defineConfig({
   base: './',
+  test: { include: ['src/**/*.test.ts'] },
   plugins: [
     react(),
     VitePWA({

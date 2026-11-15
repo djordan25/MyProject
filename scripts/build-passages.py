@@ -7,7 +7,8 @@ The app shows this text in a popup when a citation is tapped. Run after adding o
     python3 scripts/build-passages.py
 
 Sources:
-  Bible  - World English Bible (public domain), npm package "world-english-bible"
+  Bible  - Berean Standard Bible (public domain since 30 April 2023, berean.bible), text from the
+           npm package "@bible-help/get-bible-verses"
   Quran  - Sahih International English translation, npm package "quran-json"
   Hadith - sunnah.com English text and numbering, npm package "hadith" (SQLite database)
 """
@@ -20,9 +21,12 @@ OUT = ROOT / 'src/content/data/passages.json'
 
 books = list(json.loads((ROOT / 'src/content/data/bible-verse-counts.json').read_text()))
 ALIASES = {'Psalm': 'Psalms', 'Song of Songs': "Solomon's Song", 'Song of Solomon': "Solomon's Song"}
-WEB_FILE = {"Solomon's Song": 'songofsolomon'}
+OSIS = dict(zip(books, """Gen Exod Lev Num Deut Josh Judg Ruth 1Sam 2Sam 1Kgs 2Kgs 1Chr 2Chr Ezra Neh Esth Job Ps Prov Eccl Song
+Isa Jer Lam Ezek Dan Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal Matt Mark Luke John Acts Rom 1Cor 2Cor Gal Eph Phil
+Col 1Thess 2Thess 1Tim 2Tim Titus Phlm Heb Jas 1Pet 2Pet 1John 2John 3John Jude Rev""".split()))
+assert len(OSIS) == 66
 book_pat = '|'.join(sorted([re.escape(b) for b in books if b != "Solomon's Song"] + [re.escape(a) for a in ALIASES], key=len, reverse=True))
-CITE = re.compile(rf"(Quran \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?|Sahih al-Bukhari \d{{1,4}}|Sahih Muslim \d{{1,4}}|(?:{book_pat}) \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?)(?![:\d])")
+CITE = re.compile(rf"(Quran \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?|Sahih al-Bukhari \d{{1,4}}|Sahih Muslim \d{{1,4}}|(?:{book_pat}) \d{{1,3}}:\d{{1,3}}(?:-\d{{1,3}})?)(?!:?\d)")
 REF_LIST = re.compile(r"references: \[(.*?)\]", re.S)
 
 
@@ -73,19 +77,19 @@ def collect_citations():
 
 quran = {s['id']: s for s in json.loads((SRC / 'quran-json/package/dist/quran_en.json').read_text())}
 db = sqlite3.connect(f"file:{SRC / 'hadith/package/data/hadith.db'}?mode=ro", uri=True)
-web_cache = {}
+BSB_DIR = SRC / 'bsb/package/data'
+bsb_verses = json.loads((BSB_DIR / 'berean/berean_verses.json').read_text(encoding='utf8'))['verses']
+bsb_index = json.loads((BSB_DIR / 'clarkson/index_conversions.json').read_text(encoding='utf8'))['osisRef']
+
+# Passages the earliest manuscripts lack; the popup says so.
+LATE = [('Mark', 16, 9, 20), ('John', 7, 53, 53), ('John', 8, 1, 11)]
+LATE_NOTE = 'Not found in the earliest manuscripts; most modern Bibles bracket or footnote this passage.'
+OMITTED_NOTE = 'A verse here is not in the earliest manuscripts and is left out of the main text of modern translations.'
 
 
-def web_chapter(book, chapter):
-    key = (book, chapter)
-    if key not in web_cache:
-        name = WEB_FILE.get(book, book.lower().replace(' ', ''))
-        verses = {}
-        for e in json.loads((SRC / f'world-english-bible/package/json/{name}.json').read_text()):
-            if e.get('chapterNumber') == chapter and 'value' in e:
-                verses[e['verseNumber']] = (verses.get(e['verseNumber'], '') + ' ' + e['value']).strip()
-        web_cache[key] = {v: re.sub(r'\s+', ' ', t) for v, t in verses.items()}
-    return web_cache[key]
+def bsb(book, chapter, verse):
+    i = bsb_index.get(f'{OSIS[book]}.{chapter}.{verse}')
+    return None if i is None else re.sub(r'\s+', ' ', bsb_verses[i]).strip()
 
 
 def hadith(collection, number):
@@ -116,9 +120,24 @@ def build(ref):
         for part in re.findall(r'\d+(?:-\d+)?', m[5] or ''):
             a, _, b = part.partition('-')
             spans.append((int(a), int(b or a)))
-        verses = web_chapter(book, ch)
-        out = [[f'{ch}:{i}', verses[i]] for a, b in spans for i in range(a, b + 1) if i in verses]
-        return out and {'src': 'World English Bible', 'v': out}
+        out, note = [], None
+        for a, b in spans:
+            for i in range(a, b + 1):
+                text = bsb(book, ch, i)
+                if text is None:
+                    continue
+                if not text:
+                    note = OMITTED_NOTE
+                    continue
+                if any(book == lb and ch == lc and la <= i <= lz for lb, lc, la, lz in LATE):
+                    note = LATE_NOTE
+                out.append([f'{ch}:{i}', text])
+        if not out:
+            return None
+        res = {'src': 'Berean Standard Bible', 'v': out}
+        if note:
+            res['note'] = note
+        return res
     return None
 
 

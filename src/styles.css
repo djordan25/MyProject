@@ -198,3 +198,4 @@ button.chip { font: inherit; cursor: pointer; }
     max-height: 75vh; border-radius: var(--radius) var(--radius) 0 0; padding-bottom: env(safe-area-inset-bottom);
   }
 }
+.passage-body .passage-note { margin-top: 0.6rem; font-size: 0.85rem; font-style: italic; color: var(--muted); }

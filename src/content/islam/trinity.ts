@@ -22,9 +22,21 @@ export const trinity: Topic = {
         'The Father is God (John 6:27; 1 Corinthians 8:6). The Son is God (John 1:1; 20:28; Hebrews 1:8). The Holy Spirit is God — lying to the Spirit is lying to God (Acts 5:3-4) — and is a person who teaches, speaks and can be grieved (John 14:26; Acts 13:2; Ephesians 4:30).',
         'They are distinct: at Jesus’ baptism the Son is baptised, the Spirit descends, and the Father speaks from heaven (Matthew 3:16-17).',
         'They are named together as one: baptise “in the name (singular) of the Father and of the Son and of the Holy Spirit” (Matthew 28:19); see also 2 Corinthians 13:14.',
-        'Hints in the Old Testament: “Let us make man in our image” (Genesis 1:26); “the Lord GOD has sent me, and his Spirit” (Isaiah 48:16).',
       ],
-      references: ['Matthew 3:16-17', 'Matthew 28:19', '2 Corinthians 13:14', 'John 1:1', 'Acts 5:3-4', 'Genesis 1:26', 'Isaiah 48:16'],
+      references: ['Matthew 3:16-17', 'Matthew 28:19', '2 Corinthians 13:14', 'John 1:1', 'Acts 5:3-4'],
+    },
+    {
+      heading: 'One God, more than one person: the Old Testament',
+      body: [
+        'The Trinity was not invented by the New Testament. The Hebrew Scriptures, read by Jews long before Jesus, already show the one God as more than one person. Lead with these passages when talking with Muslims.',
+        'The Angel of the LORD is sent by God, yet speaks as God and is called God. He appears to Hagar, and she names the LORD who spoke to her “the God who sees me” (Genesis 16:7-13). He appears to Moses in the burning bush and says, “I am the God of your father” (Exodus 3:2-6). After seeing him, Samson’s father says, “we have seen God!” (Judges 13:21-22).',
+        '“The LORD rained down sulfur and fire on Sodom and Gomorrah—from the LORD out of the heavens” (Genesis 19:24): the LORD on earth and the LORD in heaven.',
+        'David calls the Messiah his Lord: “The LORD said to my Lord: ‘Sit at My right hand’” (Psalm 110:1). Jesus used this verse to show that the Messiah is more than David’s son (Mark 12:35-37).',
+        'The king is addressed as God, yet has a God: “Your throne, O God, endures forever and ever… therefore God, your God, has anointed you” (Psalm 45:6-7). Hebrews 1:8-9 presents these as God’s words about the Son.',
+        'The LORD says he is sent by the LORD: “I am coming to dwell among you… and you will know that the LORD of Hosts has sent Me to you” (Zechariah 2:10-11). And in Isaiah the speaker says, “the Lord GOD has sent me, accompanied by His Spirit” (Isaiah 48:16).',
+        'These are far stronger than “Let Us make man in Our image” (Genesis 1:26), which Muslims answer by pointing to the royal “We” in the Quran.',
+      ],
+      references: ['Genesis 16:7-13', 'Exodus 3:2-6', 'Judges 13:21-22', 'Genesis 19:24', 'Psalm 110:1', 'Mark 12:35-37', 'Psalm 45:6-7', 'Hebrews 1:8-9', 'Zechariah 2:10-11', 'Isaiah 48:16', 'Genesis 1:26'],
     },
     {
       heading: 'Why it matters',
@@ -48,9 +60,9 @@ export const trinity: Topic = {
       id: 'tr-2',
       objection: '1 + 1 + 1 = 3. You believe in three gods.',
       response:
-        'If we said three gods are one god, that would be a contradiction. But we say one Being, three Persons. Try 1 × 1 × 1 = 1. Better still, think of it not as maths but as what God has revealed about himself. A Muslim already accepts that God has attributes — hearing, seeing, will — without being many gods. Christians say God has revealed that within his one being are three persons.',
-      keyPoints: ['One what, three whos.', 'Not three gods.', 'God’s nature is revealed, not deduced.'],
-      references: ['Deuteronomy 6:4', 'Matthew 3:16-17'],
+        'If we said three gods are one god, or three persons are one person, that would be a contradiction. We say one Being, three Persons: one “what”, three “whos”. You only reach three gods by adding beings, and there is only one divine being. I won’t offer an analogy, because everything in creation falls short of the Creator. I’d rather show you where Scripture teaches it, starting in the Old Testament with the Angel of the LORD, who is sent by God and yet is God (Exodus 3:2-6).',
+      keyPoints: ['One what, three whos.', 'Counting persons is not counting gods.', 'Skip analogies; go to the text.'],
+      references: ['Deuteronomy 6:4', 'Exodus 3:2-6', 'Matthew 3:16-17'],
     },
     {
       id: 'tr-3',
@@ -64,7 +76,7 @@ export const trinity: Topic = {
       id: 'tr-4',
       objection: '1 John 5:7 was added later — your proof text for the Trinity is a forgery.',
       response:
-        'You’re right that the wording about “the Father, the Word and the Holy Spirit” in 1 John 5:7 (found in the King James Version) is a late addition, and modern translations omit it or footnote it. Christians who study manuscripts are open about that. But the doctrine never depended on it. Matthew 28:19, 2 Corinthians 13:14, John 1:1 and many other passages remain in every manuscript.',
+        'You’re right that the King James wording of 1 John 5:7, which names the Father, the Word and the Holy Spirit, is a late addition, and modern translations omit it or footnote it. Christians who study manuscripts are open about that. But the doctrine never depended on it. Matthew 28:19, 2 Corinthians 13:14, John 1:1 and many other passages remain in every manuscript.',
       keyPoints: ['Concede honestly — it is a late addition.', 'Modern translations note it.', 'Doctrine rests on many other passages.'],
       references: ['Matthew 28:19', '2 Corinthians 13:14', 'John 1:1'],
     },
@@ -78,6 +90,13 @@ export const trinity: Topic = {
     },
   ],
   quiz: [
+    {
+      id: 'tr-q5',
+      question: 'Which Old Testament figure is sent by God, yet speaks as God and is called God?',
+      options: ['Melchizedek', 'The Angel of the LORD', 'Elijah', 'The high priest'],
+      answer: 1,
+      explanation: 'See Genesis 16:7-13, Exodus 3:2-6 and Judges 13:21-22.',
+    },
     {
       id: 'tr-q1',
       question: 'Which statement best summarises the Trinity?',

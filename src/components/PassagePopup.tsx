@@ -121,6 +121,7 @@ function Popup({ state, onClose }: { state: OpenState; onClose: () => void }) {
               ))}
             </p>
           )}
+          {passage?.note && <p className="passage-note">{passage.note}</p>}
         </div>
         {parsed && (
           <a className="passage-link" href={parsed.url} target="_blank" rel="noopener noreferrer">

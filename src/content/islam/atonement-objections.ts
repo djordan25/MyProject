@@ -17,9 +17,9 @@ export const atonementObjections: Topic = {
     {
       heading: 'Sacrifice runs through the whole Bible',
       body: [
-        'From the beginning, God taught that sin brings death and that forgiveness comes through a substitute: the Passover lamb (Exodus 12:13), the sacrifices of the law — “it is the blood that makes atonement for the life” (Leviticus 17:11), and the Day of Atonement (Leviticus 16).',
-        '“Without the shedding of blood there is no forgiveness of sins” (Hebrews 9:22). Those animal sacrifices pointed forward to the one perfect sacrifice (Hebrews 10:1-14).',
-        'Isaiah 53 explicitly describes a substitute: “he was pierced for our transgressions… the LORD has laid on him the iniquity of us all… he bore the sin of many” (Isaiah 53:5-6, 12).',
+        'From the beginning, God taught that sin brings death and that forgiveness comes through a substitute: the Passover lamb (Exodus 12:13), the sacrifices of the law — “it is the blood that makes atonement for the soul” (Leviticus 17:11), and the Day of Atonement (Leviticus 16).',
+        '“Without the shedding of blood there is no forgiveness” (Hebrews 9:22). Those animal sacrifices pointed forward to the one perfect sacrifice (Hebrews 10:1-14).',
+        'Isaiah 53 explicitly describes a substitute: “He was pierced for our transgressions… the LORD has laid upon Him the iniquity of us all… He bore the sin of many” (Isaiah 53:5-6, 12).',
         'John the Baptist introduced Jesus as “the Lamb of God, who takes away the sin of the world” (John 1:29).',
       ],
       references: ['Exodus 12:13', 'Leviticus 17:11', 'Leviticus 16:21-22', 'Hebrews 9:22', 'Hebrews 10:1-14', 'Isaiah 53:5-12', 'John 1:29'],
@@ -28,7 +28,7 @@ export const atonementObjections: Topic = {
       heading: 'A sacrifice in the Quran',
       body: [
         'The Quran tells of Abraham preparing to sacrifice his son, and then says: “We ransomed him with a great sacrifice” (Quran 37:107). Muslims commemorate this every year at Eid al-Adha.',
-        'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice. Ask: what made it a “great” sacrifice? Genesis 22 tells the same story, and there Abraham says, “God will provide for himself the lamb” (Genesis 22:8). Christ is that Lamb.',
+        'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice. Ask: what made it a “great” sacrifice? Genesis 22 tells the same story, and there Abraham says, “God Himself will provide the lamb” (Genesis 22:8). Christ is that Lamb.',
       ],
       references: ['Quran 37:101-107', 'Genesis 22:1-14', 'John 1:29'],
     },
@@ -89,7 +89,7 @@ export const atonementObjections: Topic = {
     },
     {
       id: 'ao-q3',
-      question: 'Which verse says “it is the blood that makes atonement for the life”?',
+      question: 'Which verse says “it is the blood that makes atonement for the soul”?',
       options: ['Leviticus 17:11', 'Deuteronomy 6:4', 'Psalm 51:10', 'Proverbs 1:7'],
       answer: 0,
       explanation: 'The sacrificial system points to Christ.',

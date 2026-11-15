@@ -143,7 +143,7 @@ export const existenceOfGod: Topic = {
       question: 'Which verse is often cited for God being revealed through creation?',
       options: ['John 3:16', 'Romans 1:20', 'Matthew 28:19', 'Ephesians 2:8'],
       answer: 1,
-      explanation: '“His invisible attributes… have been clearly perceived… in the things that have been made.” (Romans 1:20)',
+      explanation: '“God’s invisible qualities… have been clearly seen, being understood from His workmanship.” (Romans 1:20)',
     },
   ],
   furtherReading: [

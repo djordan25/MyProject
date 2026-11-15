@@ -9,11 +9,12 @@ export const crossAndResurrection: Topic = {
     {
       heading: 'Foretold by the prophets',
       body: [
-        'Psalm 22, written centuries before crucifixion was invented, describes the sufferer’s cry “My God, my God, why have you forsaken me?” (Psalm 22:1), mocking crowds (22:7-8), pierced hands and feet (22:16), and garments divided by lot (22:18). Jesus quoted its first line from the cross (Mark 15:34), and the Gospels record the rest being fulfilled (John 19:23-24).',
-        'Isaiah 53 describes the servant who is “pierced for our transgressions”, “led like a lamb to the slaughter”, “cut off out of the land of the living”, made “an offering for guilt”, and who afterwards “shall see his offspring; he shall prolong his days” — death followed by life (Isaiah 53:5-11).',
-        'Daniel 9:26 foretold that “an anointed one shall be cut off” before the city and the sanctuary were destroyed — which happened in AD 70.',
+        'Psalm 22, written centuries before Jesus, describes the sufferer’s cry “My God, my God, why have you forsaken me?” (Psalm 22:1), mocking crowds (22:7-8), pierced hands and feet (22:16), and garments divided by lot (22:18). Jesus quoted its first line from the cross (Mark 15:34), and the Gospels record the mocking and the dividing of his garments (Matthew 27:39-43; John 19:23-24).',
+        'Be ready for one objection: the standard Hebrew (Masoretic) text of Psalm 22:16 reads “like a lion” where most English Bibles have “pierced”. “Pierced” follows the ancient Greek translation and an early Hebrew manuscript from the Dead Sea region. Whichever reading is original, the rest of the psalm still fits the crucifixion, and Zechariah 12:10 speaks plainly of one who is pierced.',
+        'Isaiah 53 describes the servant who is “pierced for our transgressions”, “led like a lamb to the slaughter”, “cut off from the land of the living”, made “a guilt offering”, and who afterwards “will see His offspring, He will prolong His days” — death followed by life (Isaiah 53:5-11).',
+        'Daniel 9:26 foretold that “the Messiah will be cut off” before the city and the sanctuary were destroyed — which happened in AD 70.',
       ],
-      references: ['Psalm 22:1-18', 'Mark 15:34', 'John 19:23-24', 'Isaiah 53:3-12', 'Daniel 9:26', 'Zechariah 12:10'],
+      references: ['Psalm 22:1-18', 'Mark 15:34', 'Matthew 27:39-43', 'John 19:23-24', 'Isaiah 53:3-12', 'Daniel 9:26', 'Zechariah 12:10'],
     },
     {
       heading: 'Predicted by Jesus',
@@ -26,7 +27,7 @@ export const crossAndResurrection: Topic = {
     {
       heading: 'Witnessed by the apostles',
       body: [
-        'Paul passes on an early creed: “Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day… and that he appeared to Cephas, then to the twelve. Then he appeared to more than five hundred brothers at one time, most of whom are still alive” (1 Corinthians 15:3-6). Paul invites verification from living witnesses.',
+        'Paul passes on an early creed: “Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures, and that He appeared to Cephas and then to the Twelve. After that, He appeared to more than five hundred brothers at once, most of whom are still living” (1 Corinthians 15:3-6). Paul invites verification from living witnesses.',
         'The apostles preached the death and resurrection in Jerusalem itself, weeks after the event, where it could be checked (Acts 2:22-32). They suffered for this testimony (Acts 5:40-42).',
         'Remember the Quran’s claim that God supported Jesus’ disciples until they prevailed (Quran 61:14). Their message was the crucified and risen Christ.',
       ],
@@ -35,8 +36,8 @@ export const crossAndResurrection: Topic = {
     {
       heading: 'Why it matters',
       body: [
-        'The resurrection is God’s public vindication of Jesus’ claims: he “was declared to be the Son of God in power… by his resurrection from the dead” (Romans 1:4). God “has given assurance to all by raising him from the dead” (Acts 17:31).',
-        'Without the cross there is no atonement; without the resurrection “your faith is futile and you are still in your sins” (1 Corinthians 15:17). That’s why the cross can’t be negotiated away in conversation with Muslims — it is the gospel.',
+        'The resurrection is God’s public vindication of Jesus’ claims: he “was declared with power to be the Son of God by His resurrection from the dead” (Romans 1:4). God “has given proof of this to everyone by raising Him from the dead” (Acts 17:31).',
+        'Without the cross there is no atonement; without the resurrection “your faith is futile; you are still in your sins” (1 Corinthians 15:17). That’s why the cross can’t be negotiated away in conversation with Muslims — it is the gospel.',
       ],
       references: ['Romans 1:4', 'Acts 17:31', '1 Corinthians 15:14-17'],
     },

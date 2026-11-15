@@ -7,9 +7,9 @@ export const muhammadWarfare: Topic = {
   summary: 'Islam’s own sources describe Muhammad leading military campaigns, taking booty and captives, and ordering killings. Compare the Prince of Peace.',
   lesson: [
     {
-      heading: 'Approach with care',
+      heading: 'Why this matters',
       body: [
-        'Many Muslims are peaceful people who are troubled by violence done in Islam’s name. This topic is not about them — it is about the example of Islam’s founder, whom the Quran calls “an excellent pattern” for believers (Quran 33:21). Present the sources calmly and let them speak.',
+        'The Quran calls Muhammad “an excellent pattern” for believers (Quran 33:21), so his conduct is the standard Islam itself sets. Calling him a warlord is not an insult: it is what Islam’s most trusted sources describe. This lesson is about that example, not about ordinary Muslims, many of whom are peaceful people troubled by violence done in Islam’s name.',
       ],
       references: ['Quran 33:21', '1 Peter 3:15'],
     },
@@ -44,8 +44,8 @@ export const muhammadWarfare: Topic = {
     {
       heading: 'The contrast with Jesus',
       body: [
-        'Jesus had the power to call on “more than twelve legions of angels”, yet told Peter, “Put your sword back into its place. For all who take the sword will perish by the sword” (Matthew 26:52-53).',
-        '“My kingdom is not of this world. If my kingdom were of this world, my servants would have been fighting” (John 18:36).',
+        'Jesus had the power to call on “more than twelve legions of angels”, yet told Peter, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
+        '“My kingdom is not of this world; if it were, My servants would fight” (John 18:36).',
         'When his disciples wanted to call down fire on a village that rejected him, Jesus rebuked them (Luke 9:52-56). He taught, “Love your enemies and pray for those who persecute you” (Matthew 5:44), and prayed for his executioners, “Father, forgive them” (Luke 23:34).',
         'Jesus conquered not by killing his enemies but by dying for them (Romans 5:10). That is the deepest contrast between the two founders.',
       ],
@@ -65,7 +65,7 @@ export const muhammadWarfare: Topic = {
       id: 'mw-2',
       objection: 'The Old Testament is full of violence too — what about the conquest of Canaan?',
       response:
-        'The conquest was a specific, limited judgment on particular nations for long-standing wickedness (Genesis 15:16; Deuteronomy 9:5), tied to one time and place. It was never a standing command for all believers everywhere. Christians follow Jesus, who fulfilled the Old Testament and told his followers to put away the sword and love their enemies (Matthew 26:52; 5:44). Muslims, by contrast, look to Muhammad as the timeless example (Quran 33:21).',
+        'Don’t pretend the Old Testament has no hard passages. The conquest was a specific, limited judgment on particular nations for long-standing wickedness (Genesis 15:16; Deuteronomy 9:5), tied to one time and place. It was never a standing command for all believers everywhere. Christians follow Jesus, who fulfilled the Old Testament and told his followers to put away the sword and love their enemies (Matthew 26:52; 5:44). Muslims, by contrast, look to Muhammad as the timeless example (Quran 33:21).',
       keyPoints: ['Specific, limited judgment.', 'Not a universal command.', 'Christians follow Jesus’ example.'],
       references: ['Genesis 15:16', 'Deuteronomy 9:5', 'Matthew 26:52', 'Quran 33:21'],
     },
@@ -106,12 +106,12 @@ export const muhammadWarfare: Topic = {
       question: 'What did Jesus say to Peter in Matthew 26:52?',
       options: [
         '“Strike them down.”',
-        '“Put your sword back into its place.”',
+        '“Put your sword back in its place.”',
         '“Take their possessions.”',
         '“Defend yourselves.”',
       ],
       answer: 1,
-      explanation: '“For all who take the sword will perish by the sword.”',
+      explanation: '“For all who draw the sword will die by the sword.”',
     },
     {
       id: 'mw-q4',

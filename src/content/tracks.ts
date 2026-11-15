@@ -21,8 +21,8 @@ export const tracks: Track[] = [
     summary: 'An in-depth course on engaging Muslims: why Islam’s claims fail, why the arguments for it don’t hold, and why Christianity is true.',
     intro: [
       'Every reference in this specialization comes from only three sources: the Bible, the Quran, and the two hadith collections Sunni Muslims regard as most authentic — Sahih al-Bukhari and Sahih Muslim. These are sources a Muslim cannot simply dismiss. (Where a lesson discusses legends the Quran borrowed from, those works are named for identification, not cited as authorities.)',
-      'Quran quotations follow the Sahih International translation; hadith numbers follow sunnah.com. Tap any citation to read it in context.',
-      '“Always being prepared to make a defense… yet do it with gentleness and respect” (1 Peter 3:15). We critique ideas, never people.',
+      'Quran quotations follow the Sahih International translation, and words in [brackets] are the translators’ additions. Hadith numbers follow sunnah.com. Bible quotations follow the Berean Standard Bible. Tap any citation to read the passage.',
+      '“Always be prepared to give a defense… But respond with gentleness and respect” (1 Peter 3:15). We critique ideas, never people.',
     ],
     primarySourcesOnly: true,
     sections: [

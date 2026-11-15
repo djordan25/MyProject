@@ -15,7 +15,7 @@ export const quranMisunderstands: Topic = {
     {
       heading: 'Mistake 1: A Trinity that includes Mary',
       body: [
-        'Quran 5:116 pictures Allah asking Jesus: “Did you say to the people, ‘Take me and my mother as deities besides Allah?’” Quran 5:73 condemns those who say “Allah is the third of three”, and 5:75 adds that Jesus and his mother “both used to eat food” — as if both were being worshipped as gods.',
+        'Quran 5:116 pictures Allah asking Jesus: “Did you say to the people, ‘Take me and my mother as deities besides Allah?’” (Quran 5:116). Quran 5:73 condemns those who say “Allah is the third of three”, and Quran 5:75 adds that Jesus and his mother “both used to eat food” — as if both were being worshipped as gods.',
         'No Christian creed has ever taught that the Trinity is Allah, Jesus and Mary. The Trinity is Father, Son and Holy Spirit (Matthew 28:19). The Quran denies a Trinity Christians never believed.',
       ],
       references: ['Quran 5:116', 'Quran 5:73-75', 'Matthew 28:19', '2 Corinthians 13:14'],
@@ -33,7 +33,7 @@ export const quranMisunderstands: Topic = {
       body: [
         'The Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12). In the Bible, Amram (Imran) was the father of Aaron, Moses and their sister Miriam (Numbers 26:59) — about 1,400 years before Jesus. In Arabic, Mary and Miriam are the same name (Maryam).',
         'Christians raised this exact problem in Muhammad’s time. Sahih Muslim 2135 records that the Christians of Najran asked how Mary could be the sister of Aaron when Moses lived long before Jesus. Muhammad replied that people used to be named after earlier prophets and pious persons.',
-        'Even granting that explanation for “sister of Aaron”, the Quran also gives her the father of the biblical Miriam, Imran. The cluster of names — Miriam, sister of Aaron, daughter of Amram — matches Moses’ sister exactly.',
+        'Even granting that explanation for “sister of Aaron”, the Quran also gives her the father of the biblical Miriam, Imran. The cluster of names — Miriam, sister of Aaron, daughter of Amram — matches Moses’ sister exactly. Some scholars, and many Muslims, read this as deliberate typology: Mary as a new Miriam. So raise it as a question rather than as a proven error.',
       ],
       references: ['Quran 19:28', 'Quran 66:12', 'Numbers 26:59', 'Exodus 15:20', 'Sahih Muslim 2135'],
     },

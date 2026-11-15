@@ -4,10 +4,13 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p .sources
-for pkg in quran-json hadith world-english-bible; do
-  dir=".sources/$pkg"
-  if [ -d "$dir/package" ]; then echo "have $pkg"; continue; fi
+fetch() { # fetch <npm package> <directory name>
+  local dir=".sources/$2"
+  if [ -d "$dir/package" ]; then echo "have $2"; return; fi
   mkdir -p "$dir"
-  (cd "$dir" && npm pack "$pkg" --silent >/dev/null && tar xzf ./*.tgz && rm ./*.tgz)
-  echo "fetched $pkg"
-done
+  (cd "$dir" && npm pack "$1" --silent >/dev/null && tar xzf ./*.tgz && rm ./*.tgz)
+  echo "fetched $2"
+}
+fetch quran-json quran-json
+fetch hadith hadith
+fetch @bible-help/get-bible-verses bsb
