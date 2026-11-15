@@ -27,7 +27,7 @@ export const sharingTheGospel: Topic = {
     {
       heading: 'Give them the Gospels',
       body: [
-        'Most Muslims have never read a Gospel. Many have been told it is corrupt and have never opened it. Offer one, and suggest starting with Luke or John. Remind them that the Quran tells the people of the Gospel to judge by what is in it (Quran 5:47), so a Muslim has every reason to read it.',
+        'Many Muslims have never read a Gospel. Many have been told it is corrupt and have never opened it. Offer one, and suggest starting with Luke or John. Remind them that the Quran tells the people of the Gospel to judge by what is in it (Quran 5:47), so a Muslim has every reason to read it.',
         'Then offer to read it with them. Reading a chapter together and asking, “What does this show us about Jesus?” does more than a hundred debates. Let Jesus’ own words do the work: “Come to Me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28).',
       ],
       references: ['Quran 5:47', 'Matthew 11:28', 'Luke 1:1-4'],
@@ -35,7 +35,7 @@ export const sharingTheGospel: Topic = {
     {
       heading: 'Count the cost with them',
       body: [
-        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. The penalty for leaving Islam in its own sources is death (Sahih al-Bukhari 6922). Do not treat a Muslim’s hesitation as mere stubbornness.',
+        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam is death (Sahih al-Bukhari 6922). Do not treat a Muslim’s hesitation as mere stubbornness.',
         'Jesus was honest about the cost (Luke 14:28), and equally honest about the reward: no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… and in the age to come, eternal life” (Mark 10:29-30).',
         'That promise is kept partly through you. A Muslim who comes to Christ needs a new family at once: a place at your table, people to pray with, practical help. If your church is not ready to be that family, start preparing it now.',
       ],

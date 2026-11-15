@@ -54,7 +54,7 @@ export const bibleCorruption: Topic = {
     {
       id: 'bc-3',
       followUps: [
-        { reply: 'Paul never even met Jesus.', answer: 'Paul says the risen Jesus appeared to him (1 Corinthians 15:8). He then set his message before those who had walked with Jesus, and they accepted it and gave him the right hand of fellowship (Galatians 2:9).' },
+        { reply: 'Paul never even met Jesus.', answer: 'Paul says the risen Jesus appeared to him (1 Corinthians 15:8). He then set his message before the leaders in Jerusalem (Galatians 2:2), and they accepted it and gave him the right hand of fellowship (Galatians 2:9).' },
       ],
       objection: 'Paul hijacked Jesus’ religion and invented Christianity.',
       response:

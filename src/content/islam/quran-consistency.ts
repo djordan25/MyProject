@@ -63,7 +63,7 @@ export const quranConsistency: Topic = {
     {
       id: 'qcn-1',
       followUps: [
-        { reply: 'Scholars of the Quran have an explanation for every one of those verses.', answer: 'I’m sure they do, and I would like to hear them. But notice that explanations are needed at all. Quran 4:82 sets the test as a book without contradiction, and a book that needs centuries of explanation to remove its contradictions has not plainly passed.' },
+        { reply: 'Scholars of the Quran have an explanation for every one of those verses.', answer: 'I’m sure they do, and I would like to hear them. But notice that explanations are needed at all. Quran 4:82 says a book from anyone but Allah would contain much contradiction, and a book that needs centuries of explanation to remove its contradictions has not plainly passed that test.' },
       ],
       objection: 'These aren’t contradictions — you just don’t understand the Arabic and the context.',
       response:

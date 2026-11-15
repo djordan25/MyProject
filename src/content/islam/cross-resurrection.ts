@@ -54,7 +54,7 @@ export const crossAndResurrection: Topic = {
     {
       id: 'cr-2',
       followUps: [
-        { reply: 'Then your witnesses were only women, whose testimony did not count.', answer: 'That is a reason to trust the account. Nobody inventing a story in the first century would have made women the witnesses to the burial and the empty tomb (Mark 15:47; 16:1-8). The Gospels record it that way because that is what happened.' },
+        { reply: 'Then your witnesses were only women, whose testimony did not count.', answer: 'Not only women: John was there and writes as an eyewitness (John 19:26; John 19:35). And the women are a reason to trust the account. Someone inventing a story in the first century would hardly have made women the witnesses at the cross, the burial and the empty tomb (Mark 15:40; 15:47; 16:1-8). The Gospels record it that way because that is what happened.' },
       ],
       objection: 'The disciples all fled; none of them saw the crucifixion.',
       response:

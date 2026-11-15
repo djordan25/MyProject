@@ -81,7 +81,7 @@ export const quranSources: Topic = {
     {
       id: 'qs-1',
       followUps: [
-        { reply: 'Then how did Muhammad know stories that are not in the Bible?', answer: 'Because those stories were being told around him. His own critics said he was repeating “legends of the former peoples” (Quran 25:5), and he told his followers to pass on the stories of the Israelites (Sahih al-Bukhari 3461).' },
+        { reply: 'Then how did Muhammad know stories that are not in the Bible?', answer: 'Because those stories were being told around him. His own critics said he was repeating “legends of the former peoples” (Quran 25:5), and he allowed his followers to pass on the stories of the Israelites (Sahih al-Bukhari 3461).' },
       ],
       objection: 'Maybe those apocryphal books preserved true stories that Allah confirmed in the Quran.',
       response:
