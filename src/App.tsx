@@ -4,6 +4,7 @@ import TopicPage from './pages/TopicPage';
 import TrackPage from './pages/TrackPage';
 import Practice from './pages/Practice';
 import ProgressPage from './pages/ProgressPage';
+import Search from './pages/Search';
 import NotFound from './pages/NotFound';
 import { PassageProvider } from './components/PassagePopup';
 
@@ -20,6 +21,7 @@ export default function App() {
           <NavLink to="/" end>Tracks</NavLink>
           <NavLink to="/practice">Practice</NavLink>
           <NavLink to="/progress">Progress</NavLink>
+          <NavLink to="/search">Search</NavLink>
         </nav>
       </header>
       <main>
@@ -29,6 +31,7 @@ export default function App() {
           <Route path="/topic/:topicId/*" element={<TopicPage />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/progress" element={<ProgressPage />} />
+          <Route path="/search" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

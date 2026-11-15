@@ -204,3 +204,8 @@ button.chip { font: inherit; cursor: pointer; }
 .followup { margin-top: 0.75rem; border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem 0.8rem; background: var(--bg); }
 .followup summary { cursor: pointer; font-weight: 600; }
 .followup p { margin: 0.5rem 0 0; }
+
+/* Search */
+.search-input { width: 100%; font: inherit; padding: 0.7rem 0.9rem; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); margin-bottom: 0.75rem; }
+.search-result { display: flex; flex-direction: column; gap: 0.25rem; text-decoration: none; color: inherit; }
+@media (max-width: 520px) { .topbar nav a { padding: 0.35rem 0.45rem; } }
