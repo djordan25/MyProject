@@ -73,7 +73,7 @@ export const reliabilityOfScripture: Topic = {
     {
       id: 'ros-4',
       followUps: [
-        { reply: 'Show me one contradiction you can actually resolve.', answer: 'Matthew mentions one angel at the tomb and Luke mentions two (Matthew 28:2; Luke 24:4). Mentioning one does not deny that there were two; reporters do this every day. A contradiction would be one writer saying there was only one.' },
+        { reply: 'Show me one contradiction you can actually resolve.', answer: 'Matthew mentions one angel at the tomb, and Luke mentions two men in radiant apparel, later called angels (Matthew 28:2; Luke 24:4, 23). Mentioning one does not deny that there were two; reporters do this every day. A contradiction would be one writer saying there was only one.' },
       ],
       objection: 'The Gospels contradict each other.',
       response:

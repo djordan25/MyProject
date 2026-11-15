@@ -56,7 +56,7 @@ export const atonementObjections: Topic = {
     {
       id: 'ao-3',
       followUps: [
-        { reply: 'Allah forgave Adam without any sacrifice.', answer: 'In Genesis, God’s first act after the first sin was to clothe Adam and Eve in garments of skin (Genesis 3:21), which implies an animal died. From the beginning, covering sin was costly. And every year Muslims remember Abraham’s son being ransomed by a great sacrifice (Quran 37:107).' },
+        { reply: 'Allah forgave Adam without any sacrifice.', answer: 'In Genesis, before sending Adam and Eve out of the garden, God clothed them in garments of skin (Genesis 3:21), which implies an animal died. From the beginning, covering sin was costly. And every year Muslims remember Abraham’s son being ransomed by a great sacrifice (Quran 37:107).' },
       ],
       objection: 'God can forgive anyone he wants. He doesn’t need a sacrifice.',
       response:

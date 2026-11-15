@@ -114,8 +114,8 @@ export const deityObjections: Topic = {
       id: 'do-11',
       objection: 'Jesus prayed like a Muslim: he fell on his face before God (Matthew 26:39). He was a Muslim.',
       response:
-        'Falling face down in prayer was a Jewish posture long before Islam: Abraham, Moses and Joshua all did it (Genesis 17:3; Numbers 16:22; Joshua 5:14). A posture does not make someone a Muslim. Listen instead to what Jesus prayed. He called God “My Father”, which Islam rejects, saying God “neither begets nor is born” (Quran 112:3). And he prayed about the cup he was about to drink, his death on the cross, which Islam says never happened (Quran 4:157).',
-      keyPoints: ['Prostration was Jewish practice centuries before Islam.', 'Jesus prayed to God as “My Father”.', 'His prayer was about the death Islam denies.'],
+        'Falling face down before God runs through the Hebrew Scriptures, long before Islam: Abraham, Moses and Joshua all did it (Genesis 17:3; Numbers 16:22; Joshua 5:14). A posture does not make someone a Muslim. Listen instead to what Jesus prayed. He called God “My Father”, which Islam rejects, saying God “neither begets nor is born” (Quran 112:3). And he prayed about the cup he was about to drink, his death on the cross, which Islam says never happened (Quran 4:157).',
+      keyPoints: ['Falling face down before God is in the Hebrew Scriptures, centuries before Islam.', 'Jesus prayed to God as “My Father”.', 'His prayer was about the death Islam denies.'],
       references: ['Matthew 26:39', 'Genesis 17:3', 'Numbers 16:22', 'Joshua 5:14', 'Quran 112:3', 'Quran 4:157'],
     },
   ],

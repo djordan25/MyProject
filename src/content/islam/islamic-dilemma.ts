@@ -61,7 +61,7 @@ export const islamicDilemma: Topic = {
       body: [
         '“The Injil was a book given to Jesus, not the four Gospels.” But the Quran addresses “the People of the Gospel” living in Muhammad’s day and tells them to judge by what is in it (Quran 5:47). Those people used the four Gospels. There is no other Injil they could have consulted.',
         '“The Quran says they distorted the words.” Read those verses closely. Quran 2:75, 4:46 and 5:13 speak of some Jews distorting words — twisting meaning or speech (“twisting their tongues”, Quran 4:46) — not rewriting every copy of the text. Quran 2:79 condemns some who write a book with their own hands and pass it off as from God — that describes a forgery, not the corruption of the genuine Torah everyone could still consult.',
-        'Expect Muslims to cite Sahih al-Bukhari 7363, where Ibn Abbas says the People of the Scripture changed and distorted their scripture. That is a companion’s statement, and it has to be weighed against the Quran itself (Quran 5:47; 6:115) and against Muhammad’s own practice of calling for the Torah and judging by it (Sahih al-Bukhari 7543).',
+        'Expect Muslims to cite Sahih al-Bukhari 7363, where Ibn Abbas says Allah has told the Muslims that the People of the Scripture changed and distorted their scripture. He seems to have Quran 2:79 in mind, which condemns some who write a book with their own hands; it does not say the Torah itself was rewritten. His statement has to be weighed against the Quran itself (Quran 5:47; 6:115) and against Muhammad’s own practice of calling for the Torah and judging by it (Sahih al-Bukhari 7543).',
       ],
       references: ['Quran 2:75', 'Quran 2:79', 'Quran 4:46', 'Quran 5:13', 'Sahih al-Bukhari 7363'],
     },
@@ -92,7 +92,7 @@ export const islamicDilemma: Topic = {
     {
       id: 'id-3',
       followUps: [
-        { reply: 'Ibn Abbas said they changed their scripture.', answer: 'That is Sahih al-Bukhari 7363, a companion’s remark. But Muhammad himself said, “Bring here the Torah and recite it, if you are truthful” (Sahih al-Bukhari 7543), and he judged by it. If he treated the Torah in front of him as Allah’s law, a companion’s remark cannot overturn that, or the Quran’s command in Quran 5:47.' },
+        { reply: 'Ibn Abbas said they changed their scripture.', answer: 'That is Sahih al-Bukhari 7363, where Ibn Abbas is applying Quran 2:79, a verse about some who wrote a book with their own hands. But Muhammad himself said, “Bring here the Torah and recite it, if you are truthful” (Sahih al-Bukhari 7543), and he judged by it. If he treated the Torah in front of him as Allah’s law, Ibn Abbas’s reading of one verse cannot overturn that, or the Quran’s command in Quran 5:47.' },
       ],
       objection: 'The Quran says the Jews “distort words from their places” (tahrif).',
       response:
@@ -112,7 +112,7 @@ export const islamicDilemma: Topic = {
       id: 'id-5',
       objection: 'The Quran only confirms the parts of the Bible that agree with it.',
       response:
-        'Where does the Quran say “only the parts that agree”? It says it confirms what is “with you” (Quran 2:41; 4:47), tells Christians to judge by the Gospel (Quran 5:47), and says that without the Torah and the Gospel they stand on nothing (Quran 5:68). If only the agreeing parts count, the Quran is merely confirming itself, which is no confirmation at all. And Muhammad didn’t test the Torah against the Quran: he called for the Torah and judged by it (Sahih al-Bukhari 7543).',
+        'Where does the Quran say “only the parts that agree”? It says it confirms what is “with you” (Quran 2:41; 4:47), tells Christians to judge by the Gospel (Quran 5:47), and says they stand on nothing unless they uphold the Torah, the Gospel and what was revealed to them (Quran 5:68). If only the agreeing parts count, the Quran is merely confirming itself, which is no confirmation at all. And Muhammad didn’t test the Torah against the Quran: he called for the Torah and judged by it (Sahih al-Bukhari 7543).',
       keyPoints: ['The Quran confirms what is “with you”.', 'No verse limits this to agreeing parts.', 'Muhammad judged by the Torah itself (Bukhari 7543).'],
       references: ['Quran 2:41', 'Quran 4:47', 'Quran 5:47', 'Quran 5:68', 'Sahih al-Bukhari 7543'],
     },

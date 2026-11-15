@@ -42,7 +42,7 @@ export const resurrection: Topic = {
     {
       id: 'res-1',
       followUps: [
-        { reply: 'Grief can make people see things.', answer: 'Grief visions happen to individuals. They do not happen to groups at the same time, they do not convince enemies like Paul, and they do not empty a tomb (1 Corinthians 15:5-8).' },
+        { reply: 'Grief can make people see things.', answer: 'Grief visions happen to individuals. They do not happen to groups at the same time (1 Corinthians 15:5-8), they do not convince enemies like Paul, and they do not empty a tomb.' },
       ],
       objection: 'The disciples just hallucinated.',
       response:

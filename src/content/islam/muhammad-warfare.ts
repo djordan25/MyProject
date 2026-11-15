@@ -44,7 +44,7 @@ export const muhammadWarfare: Topic = {
     {
       heading: 'The contrast with Jesus',
       body: [
-        'Jesus had the power to call on “more than twelve legions of angels”, yet told Peter, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
+        'Jesus had the power to call on “more than twelve legions of angels”, yet told his disciple, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
         '“My kingdom is not of this world; if it were, My servants would fight” (John 18:36).',
         'When his disciples wanted to call down fire on a village that rejected him, Jesus rebuked them (Luke 9:52-56). He taught, “Love your enemies and pray for those who persecute you” (Matthew 5:44), and prayed for his executioners, “Father, forgive them” (Luke 23:34).',
         'Jesus conquered not by killing his enemies but by dying for them (Romans 5:10). That is the deepest contrast between the two founders.',

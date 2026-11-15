@@ -67,7 +67,7 @@ export const howWeGotTheBible: Topic = {
       objection: 'There were dozens of other gospels that the church suppressed.',
       response:
         'There were other writings called gospels, but they come from the second century or later, written by people who never met Jesus or the apostles. Early Christians knew about them, and discussed and rejected them openly; nothing was secretly removed. Compare them with Luke, who investigated eyewitness testimony (Luke 1:1-4), and the difference is clear.',
-      keyPoints: ['Written a century or more too late.', 'Known and openly rejected, not hidden.', 'Only the four Gospels are first-century accounts of his life.'],
+      keyPoints: ['Written in the second century or later.', 'Known and openly rejected, not hidden.', 'Only the four Gospels are generally dated to the first century.'],
       references: ['Luke 1:1-4', '2 Peter 1:16'],
     },
     {
