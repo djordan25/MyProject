@@ -70,7 +70,7 @@ export const resurrection: Topic = {
     {
       id: 'res-3',
       followUps: [
-        { reply: 'Maybe the disciples were sincerely mistaken.', answer: 'Mistaken about what? They did not claim a feeling or a vision in the night. They claimed to have touched him and eaten with him (Luke 24:39-43). You can be mistaken about a doctrine you were taught. It is hard to be mistaken about that.' },
+        { reply: 'Maybe the disciples were sincerely mistaken.', answer: 'Mistaken about what? They did not claim a feeling or a vision in the night. They claimed that he showed them his hands and feet, invited them to touch him, and ate in front of them (Luke 24:39-43). You can be mistaken about a doctrine you were taught. It is hard to be mistaken about that.' },
       ],
       objection: 'Lots of people die for their beliefs — that doesn’t make them true.',
       response:

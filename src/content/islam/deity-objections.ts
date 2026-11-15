@@ -52,7 +52,7 @@ export const deityObjections: Topic = {
     {
       id: 'do-3',
       followUps: [
-        { reply: 'Then there are two Gods, one praying to the other.', answer: 'Two persons, one God. The Son speaking to the Father is what the Trinity means: the persons are distinct and love one another (John 17:24), and yet there is one divine being (Deuteronomy 6:4).' },
+        { reply: 'Then there are two Gods, one praying to the other.', answer: 'Two persons, one God. The Son speaking to the Father is what the Trinity means: the persons are distinct, and the Father loved the Son before the world began (John 17:24), and yet there is one divine being (Deuteronomy 6:4).' },
       ],
       objection: 'Jesus prayed to God. Does God pray to himself?',
       response:

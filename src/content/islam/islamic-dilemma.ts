@@ -103,7 +103,7 @@ export const islamicDilemma: Topic = {
     {
       id: 'id-4',
       followUps: [
-        { reply: 'The Quran corrects what Christians changed. That is what a criterion does.', answer: 'Then show me the verse where the Quran says which words of the Gospel were changed and what they originally said. It never does. Instead it tells Christians to judge by the Gospel they have (Quran 5:47). A corrector that never names the errors, and sends you back to the book it is supposed to be correcting, is not correcting it.' },
+        { reply: 'The Quran corrects what Christians changed. That is what a criterion does.', answer: 'Then show me the verse where the Quran says which words of the Gospel were changed and what they originally said. It never does. Instead it tells Christians to judge by what Allah revealed in the Gospel (Quran 5:47), which assumes they had it. A corrector that never names the errors, and sends you back to the book it is supposed to be correcting, is not correcting it.' },
       ],
       objection: 'The Quran is the criterion over earlier books (Quran 5:48), so we judge the Bible by the Quran.',
       response:

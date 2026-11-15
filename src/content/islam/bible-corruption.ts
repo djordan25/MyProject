@@ -65,7 +65,7 @@ export const bibleCorruption: Topic = {
     {
       id: 'bc-4',
       followUps: [
-        { reply: 'Jesus preached one Gospel. Where is that book?', answer: 'Jesus never wrote a book, and no one in the first century says he did. What he preached was recorded by those who heard him. Mark opens with “the gospel of Jesus Christ” (Mark 1:1): the good news is about him. A book called the Injil, handed to Jesus, is an idea found only in the Quran, six hundred years later.' },
+        { reply: 'Jesus preached one Gospel. Where is that book?', answer: 'Jesus never wrote a book, and no one in the first century says he did. What he preached was recorded by those who heard him and by their companions. Mark opens with “the gospel of Jesus Christ” (Mark 1:1): the good news is about him. A book called the Injil, handed to Jesus, is an idea that first appears in the Quran, six hundred years later.' },
       ],
       objection: 'There are four Gospels, but the Quran speaks of one Injil. Which is the real one?',
       response:
@@ -76,7 +76,7 @@ export const bibleCorruption: Topic = {
     {
       id: 'bc-5',
       followUps: [
-        { reply: 'If those passages were added, what else was?', answer: 'We know about those two passages because the manuscripts show it, and the same manuscripts show how stable everything else is. Other large additions would show up in the same way. The evidence is public, and every modern Bible marks the passages.' },
+        { reply: 'If those passages were added, what else was?', answer: 'We know about those two passages because the manuscripts show it, and the same manuscripts show how stable everything else is. A few short verses are flagged in the same way, and any other addition would show up too. The evidence is public, and every modern Bible marks the passages.' },
       ],
       objection: 'Mark 16:9-20 and the story of the woman caught in adultery (John 8:1-11) aren’t in the earliest manuscripts. The Bible was added to!',
       response:

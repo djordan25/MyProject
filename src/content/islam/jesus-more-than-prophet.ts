@@ -63,7 +63,7 @@ export const jesusMoreThanProphet: Topic = {
     {
       id: 'jp-1',
       followUps: [
-        { reply: 'Jesus did his miracles only by God’s permission, like every prophet.', answer: 'Prophets pray and God acts. Jesus acts on his own authority. He forgives sins himself and proves it by healing: “the Son of Man has authority on earth to forgive sins” (Mark 2:10). No prophet ever claimed that. The Son does nothing apart from the Father, but he does everything the Father does (John 5:19).' },
+        { reply: 'Jesus did his miracles only by God’s permission, like every prophet.', answer: 'Prophets pray and God acts. Jesus speaks and acts as one who holds the authority himself. He forgives sins himself and proves it by healing: “the Son of Man has authority on earth to forgive sins” (Mark 2:10). No prophet ever claimed that. The Son does nothing apart from the Father, but he does everything the Father does (John 5:19).' },
       ],
       objection: 'Other prophets did miracles too. Moses parted the sea; that doesn’t make him God.',
       response:
