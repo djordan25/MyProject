@@ -35,6 +35,9 @@ All training content lives in `src/content/topics/*.ts`, one file per topic (see
 - **Follow-up replies:** many objections include "If they reply…" with the likely next response and how to answer it (`followUps` in the content files).
 - **Spaced repetition:** objections marked "Got it" come back for review after 1, 3, 7, 14 and 30 days; the home page shows how many are due.
 - **Search:** finds lessons, objections and references (try a hadith number).
+- **Summary tab:** each topic has a printable one-page review of its main points and objections.
+- **Glossary:** Islamic terms in plain English (`src/content/glossary.ts`).
+- **Progress backup:** download or restore progress from the Progress page.
 
 ## Citation popups
 
