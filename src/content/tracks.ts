@@ -32,6 +32,11 @@ export const tracks: Track[] = [
         description: 'The objections people feel most deeply.',
         topicIds: ['problem-of-evil', 'hard-passages'],
       },
+      {
+        title: 'In conversation',
+        description: 'How to listen, ask questions and bring the conversation to Jesus.',
+        topicIds: ['having-the-conversation'],
+      },
     ],
   },
   {
