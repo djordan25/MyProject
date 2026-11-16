@@ -24,8 +24,8 @@ export const tracks: Track[] = [
       },
       {
         title: 'Who is Jesus?',
-        description: 'His claims and his resurrection.',
-        topicIds: ['identity-of-jesus', 'resurrection'],
+        description: 'His claims, the prophecies about him, and his resurrection.',
+        topicIds: ['identity-of-jesus', 'fulfilled-prophecy', 'resurrection'],
       },
       {
         title: 'Hard questions',
