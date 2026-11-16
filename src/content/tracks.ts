@@ -30,7 +30,7 @@ export const tracks: Track[] = [
       {
         title: 'Hard questions',
         description: 'The objections people feel most deeply.',
-        topicIds: ['problem-of-evil'],
+        topicIds: ['problem-of-evil', 'hard-passages'],
       },
     ],
   },
