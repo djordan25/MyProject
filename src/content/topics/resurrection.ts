@@ -37,6 +37,32 @@ export const resurrection: Topic = {
         'The resurrection explains all the facts — and, given that God exists, it is not ruled out in advance.',
       ],
     },
+    {
+      heading: 'Why the empty tomb matters',
+      body: [
+        'The resurrection was first preached in Jerusalem, a short walk from the tomb, within weeks of the crucifixion. If the body had still been there, the authorities could have ended the movement in an afternoon by producing it.',
+        'Instead, the earliest reply on record is that the disciples stole the body (Matthew 28:12-13). That is an explanation of an empty tomb, not a denial of one.',
+        'The burial itself is credible. All four Gospels say Jesus was buried by Joseph of Arimathea, “a prominent Council member” (Mark 15:43): a named member of the very council that condemned him. Christians would not have invented a favourable role for one of its members.',
+      ],
+      references: ['Matthew 28:12-13', 'Mark 15:43', 'Acts 2:29-32'],
+    },
+    {
+      heading: 'What changed the disciples?',
+      body: [
+        'On the evening after the crucifixion the disciples were behind locked doors, afraid (John 20:19). Weeks later the same men were preaching in the temple courts, and told the council that had killed Jesus, “We must obey God rather than men” (Acts 5:29). The authorities noticed their boldness (Acts 4:13).',
+        'Devout Jews began meeting to worship on the first day of the week, not the Sabbath. James, who had not believed in his brother, became a leader of the church. Paul turned from hunting Christians to planting churches.',
+        'Each of them gave the same explanation: they had seen Jesus alive.',
+      ],
+      references: ['John 20:19', 'Acts 4:13', 'Acts 5:29', '1 Corinthians 15:7-8'],
+    },
+    {
+      heading: 'What it means',
+      body: [
+        'The resurrection is evidence, but it is more than a proof. It is the beginning of the remaking of the world. Christ is “the firstfruits of those who have fallen asleep” (1 Corinthians 15:20): what happened to him will happen to all who belong to him.',
+        'It means death is not the end, that the sacrifice for sin was accepted, and that Jesus is alive and can be known now. Peter calls it “a living hope through the resurrection of Jesus Christ from the dead” (1 Peter 1:3). When you make the case, do not stop at the evidence. Say what it means.',
+      ],
+      references: ['1 Corinthians 15:20', '1 Peter 1:3', 'Romans 4:25'],
+    },
   ],
   objections: [
     {
@@ -81,6 +107,39 @@ export const resurrection: Topic = {
         'Rules out deliberate fabrication.',
       ],
     },
+    {
+      id: 'res-4',
+      objection: 'The disciples stole the body and made up the story.',
+      response:
+        'That was the first explanation offered (Matthew 28:12-13), and it has always had the same problem: it makes the disciples deliberate frauds. They then spent the rest of their lives being beaten, imprisoned and in some cases killed for a claim they knew to be a lie, and none of them broke. Liars make poor martyrs. It also leaves Paul and James unexplained, who were not disciples and had no part in any plot.',
+      keyPoints: ['It makes the disciples knowing frauds.', 'People do not suffer and die for what they know is false.', 'It does not explain Paul or James.'],
+      references: ['Matthew 28:12-13', '1 Corinthians 15:7-8'],
+      followUps: [
+        { reply: 'Then someone else moved the body.', answer: 'Whoever moved it could have said so once the preaching began, and the authorities had every reason to find out. And a missing body explains only an empty tomb. It does not explain why so many people, including enemies, became convinced they had seen him alive.' },
+      ],
+    },
+    {
+      id: 'res-5',
+      objection: 'The resurrection story is a legend that grew over time.',
+      response:
+        'Legends need time, and here there is none. The summary Paul quotes in 1 Corinthians 15:3-8 was handed to him within a few years of the event, and it already contains the death, the burial, the resurrection and a list of named witnesses. It was circulating while those witnesses, and plenty of hostile ones, were alive to contradict it. The Gospel accounts are also strikingly plain: none of them describes the resurrection itself.',
+      keyPoints: ['The creed dates to within a few years.', 'Named witnesses were alive.', 'The accounts are restrained, not embroidered.'],
+      references: ['1 Corinthians 15:3-8'],
+      followUps: [
+        { reply: 'Stories get exaggerated every time they are retold.', answer: 'They can, which is why the date matters. Compare the later, apocryphal gospels, where the embroidery is obvious. The earliest material is the barest: he died, he was buried, he was raised, he appeared.' },
+      ],
+    },
+    {
+      id: 'res-6',
+      objection: 'The women simply went to the wrong tomb.',
+      response:
+        'The women had watched the burial two days earlier (Mark 15:47). The tomb belonged to a known man, Joseph of Arimathea, who could have pointed it out. And if the disciples had gone to the wrong place, the authorities needed only to walk to the right one. A wrong tomb also does nothing to explain the appearances.',
+      keyPoints: ['The women saw where he was laid.', 'The owner of the tomb was known.', 'The authorities could have corrected the mistake.'],
+      references: ['Mark 15:47', 'Mark 15:43'],
+      followUps: [
+        { reply: 'In their grief they could have been confused.', answer: 'Perhaps for a morning. But Peter and John went to check (John 20:3-8), and the question would have been settled by anyone who cared to look. The preaching went on for decades in the same city.' },
+      ],
+    },
   ],
   quiz: [
     {
@@ -115,6 +174,20 @@ export const resurrection: Topic = {
       ],
       answer: 1,
       explanation: 'John 7:5 says his brothers did not believe; James later led the Jerusalem church.',
+    },
+    {
+      id: 'res-q5',
+      question: 'What does the earliest opposing explanation (Matthew 28:12-13) concede?',
+      options: ['That Jesus never died', 'That the tomb was empty', 'That there were no witnesses', 'That Pilate was mistaken'],
+      answer: 1,
+      explanation: 'Saying the disciples stole the body admits the body was gone.',
+    },
+    {
+      id: 'res-q6',
+      question: 'Who buried Jesus, according to all four Gospels?',
+      options: ['Peter', 'Joseph of Arimathea, a member of the council', 'A Roman soldier', 'Nobody knows'],
+      answer: 1,
+      explanation: 'Mark 15:43. An unlikely detail to invent.',
     },
   ],
   furtherReading: [
