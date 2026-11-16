@@ -34,6 +34,25 @@ export const identityOfJesus: Topic = {
         'Therefore, Jesus is Lord.',
       ],
     },
+    {
+      heading: 'The first Christians worshipped him',
+      body: [
+        'The idea that Jesus was made divine centuries later runs into the earliest Christian writings we have. Paul’s letters were written within about twenty to thirty years of the crucifixion, and they quote hymns and confessions that are older still.',
+        'One of them takes Israel’s daily confession that there is one God and places Jesus inside it: “for us there is but one God, the Father, from whom all things came… And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6). Another says that Jesus existed in the form of God and that every knee will bow to him (Philippians 2:6-11), which is how Isaiah speaks of the LORD alone.',
+        'Paul even preserves a prayer to Jesus in Aramaic, the language of the first believers in Jerusalem: “Come, O Lord!” (1 Corinthians 16:22). And a Roman governor, Pliny, reported to the emperor around AD 112 that Christians met before dawn to sing a hymn to Christ as to a god.',
+        'These were Jews, raised to worship one God only. Something drove them to worship Jesus within a few years of his death.',
+      ],
+      references: ['1 Corinthians 8:6', 'Philippians 2:6-11', '1 Corinthians 16:22'],
+    },
+    {
+      heading: 'What his opponents said',
+      body: [
+        'Jesus’ enemies did not say that he did nothing remarkable. They said he did it by an evil power: “By the prince of the demons He drives out demons” (Mark 3:21-22).',
+        'They did not charge him with teaching ethics. The charge before the Jewish council was blasphemy (Mark 14:61-64), and the charge nailed above him by the Romans read “THE KING OF THE JEWS” (Mark 15:26).',
+        'Any account of Jesus has to explain why he was executed. A teacher of kindness and tolerance threatens no one. A man who speaks and acts as though he stands in God’s place gets crucified.',
+      ],
+      references: ['Mark 3:21-22', 'Mark 14:61-64', 'Mark 15:26'],
+    },
   ],
   objections: [
     {
@@ -78,6 +97,28 @@ export const identityOfJesus: Topic = {
         'Redirect to the evidence for his claims — the resurrection.',
       ],
     },
+    {
+      id: 'joj-4',
+      objection: 'The story of Jesus was copied from pagan myths like Horus and Mithras.',
+      response:
+        'This claim is popular online and almost unknown among historians. Read the myths themselves and the parallels fall away: Horus is not born of a virgin or crucified, and Mithras is born from a rock; most of what we know about the worship of Mithras comes from after the New Testament was written. Jesus, by contrast, is a Jew in first-century Palestine, among people who despised pagan myths, and his story is tied to named officials and datable events (Luke 3:1).',
+      keyPoints: ['The claimed parallels are not in the myths.', 'First-century Jews rejected pagan religion.', 'Jesus is anchored in datable history.'],
+      references: ['Luke 3:1', '1 Corinthians 15:3-8'],
+      followUps: [
+        { reply: 'Dying and rising gods were everywhere in the ancient world.', answer: 'What you find are seasonal figures tied to the cycle of crops, set in a timeless past. That is very different from a man executed under a named governor and seen alive afterwards by named witnesses, many of whom could still be questioned (1 Corinthians 15:3-8).' },
+      ],
+    },
+    {
+      id: 'joj-5',
+      objection: 'Jesus was only declared to be God at the Council of Nicaea, three hundred years later.',
+      response:
+        'Nicaea was called because a teacher named Arius had begun to deny what the churches already confessed. The New Testament calls Jesus God (John 1:1; 20:28), Paul’s earliest letters place him alongside the Father as the one Lord through whom all things were made (1 Corinthians 8:6), and a Roman governor two centuries before Nicaea reported Christians singing to Christ as to a god. The council put an old belief into careful words. It did not create it.',
+      keyPoints: ['Nicaea answered Arius; it did not invent the belief.', 'The New Testament already calls Jesus God.', 'Worship of Jesus is attested from the start.'],
+      references: ['John 1:1', 'John 20:28', '1 Corinthians 8:6'],
+      followUps: [
+        { reply: 'The emperor Constantine forced the bishops to agree.', answer: 'Constantine wanted unity and called the council, but the bishops were not his creatures: many of them bore the scars of persecution under earlier emperors. All but a handful sided against Arius because his teaching was the novelty.' },
+      ],
+    },
   ],
   quiz: [
     {
@@ -105,6 +146,20 @@ export const identityOfJesus: Topic = {
       options: ['Legend', 'Lawyer', 'Liberator', 'Logic'],
       answer: 0,
       explanation: 'The “legend” option is answered by the early sources and early worship of Jesus.',
+    },
+    {
+      id: 'joj-q4',
+      question: 'What does 1 Corinthians 8:6 do with Israel’s confession of one God?',
+      options: ['Rejects it', 'Places Jesus inside it as the one Lord through whom all things came', 'Applies it to Moses', 'Says nothing about Jesus'],
+      answer: 1,
+      explanation: 'Written within about twenty-five years of the crucifixion.',
+    },
+    {
+      id: 'joj-q5',
+      question: 'What charge did the Jewish council bring against Jesus?',
+      options: ['Theft', 'Blasphemy', 'Teaching ethics', 'Tax evasion'],
+      answer: 1,
+      explanation: 'Mark 14:61-64. A harmless teacher is not crucified.',
     },
   ],
   furtherReading: [
