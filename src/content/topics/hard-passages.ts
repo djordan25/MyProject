@@ -17,12 +17,12 @@ export const hardPassages: Topic = {
       heading: 'The conquest of Canaan: what the text says',
       body: [
         'It was judgment, not land-grabbing or racial hatred. God told Abraham his descendants would wait four hundred years, “for the iniquity of the Amorites is not yet complete” (Genesis 15:16). Israel was told plainly that it was “because of their wickedness”, not Israel’s goodness (Deuteronomy 9:4-5). That wickedness included burning children as sacrifices (Deuteronomy 12:31).',
-        'God was patient first. Centuries passed between the warning and the judgment. God says elsewhere that when a nation turns from evil he relents (Jeremiah 18:7-8), and that he takes no pleasure in the death of the wicked (Ezekiel 18:23). Nineveh repented and was spared, to Jonah’s annoyance (Jonah 4:11).',
-        'There was a way out. Rahab, a Canaanite, sided with Israel’s God and was spared with her whole family (Joshua 6:25); she appears in the family line of Jesus. The Gibeonites made peace and lived.',
+        'God was patient first. Centuries passed between his word to Abraham and the judgment. God says elsewhere that when a nation turns from evil he relents (Jeremiah 18:7-8), and that he takes no pleasure in the death of the wicked (Ezekiel 18:23). Nineveh repented and was spared, to Jonah’s annoyance (Jonah 4:11).',
+        'There was a way out. Rahab, a Canaanite, confessed Israel’s God (Joshua 2:9-11) and was spared with her whole family (Joshua 6:25); she appears in the family line of Jesus. The Gibeonites, who obtained a treaty by a trick, were still spared because Israel had sworn an oath to them (Joshua 9:15-20).',
         'Israel was held to the same standard. God warned that if Israel did the same things, the land would “vomit you out as it spewed out the nations before you” (Leviticus 18:28). Later he did exactly that, by Assyria and Babylon. This was not favouritism.',
         'It was limited. The command concerned particular peoples in a particular land at one point in history. It was never a general permission to make war on unbelievers, and nothing like it is given to the church.',
       ],
-      references: ['Genesis 15:16', 'Deuteronomy 9:4-5', 'Deuteronomy 12:31', 'Jeremiah 18:7-8', 'Ezekiel 18:23', 'Jonah 4:11', 'Joshua 6:25', 'Leviticus 18:24-25', 'Leviticus 18:28'],
+      references: ['Genesis 15:16', 'Deuteronomy 9:4-5', 'Deuteronomy 12:31', 'Jeremiah 18:7-8', 'Ezekiel 18:23', 'Jonah 4:11', 'Joshua 2:9-11', 'Joshua 6:25', 'Joshua 9:15-20', 'Leviticus 18:24-25', 'Leviticus 18:28'],
     },
     {
       heading: 'How to think about it',
@@ -36,8 +36,8 @@ export const hardPassages: Topic = {
     {
       heading: 'Slavery: what the Bible actually says',
       body: [
-        'The word “slave” makes us think of the Atlantic slave trade: people kidnapped, sold as property for life, on the basis of race. The law of Moses made that a capital crime: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16).',
-        'Most servitude in ancient Israel was debt service. A person who could not pay worked off the debt, and “in the seventh year you must set him free”, and not empty-handed (Deuteronomy 15:12-15). A servant permanently injured by his master went free (Exodus 21:26-27). A runaway slave was not to be handed back (Deuteronomy 23:15-16). Israel was to remember that they had been slaves themselves.',
+        'The word “slave” makes us think of the Atlantic slave trade: people kidnapped, sold as property for life, on the basis of race. The law of Moses made the kidnapping on which that trade depended a capital crime: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16).',
+        'Most servitude in ancient Israel was debt service. A person who could not pay worked off the debt, and “in the seventh year you must set him free”, and not empty-handed (Deuteronomy 15:12-15). A servant permanently injured by his master went free (Exodus 21:26-27). A slave who fled to Israel for refuge was not to be handed back (Deuteronomy 23:15-16). Israel was to remember that they had been slaves themselves.',
         'These laws regulated a practice that existed everywhere in the ancient world; they did not invent it or call it good. Jesus said of another law that Moses permitted something “because of your hardness of heart; but it was not this way from the beginning” (Matthew 19:8). Some laws restrain an evil without approving it.',
         'Be honest about the hard edges: foreign slaves could be held for life, and the laws fall short of what we would want. The direction, though, is clear when set beside the other law codes of the time.',
       ],
@@ -48,7 +48,7 @@ export const hardPassages: Topic = {
       body: [
         'The Bible begins with every human being made “in the image of God” (Genesis 1:27), which is the root of human equality.',
         'The New Testament was written to small churches with no power to change Roman law, in an empire where slaves were a large part of the population. It did something more radical than a decree: it placed master and slave side by side as brothers. Paul lists “slave traders” among the lawless (1 Timothy 1:9-10), tells masters they have a Master in heaven (Colossians 4:1), declares that in Christ “there is neither Jew nor Greek, slave nor free” (Galatians 3:28), and sends the runaway Onesimus back to his owner “no longer as a slave, but better than a slave, as a beloved brother” (Philemon 1:15-16).',
-        'History bears this out. Slavery was almost universal across human societies. It faded in medieval Christian Europe, and when it returned with the Atlantic trade, the movement that abolished it in the eighteenth and nineteenth centuries was led largely by Christians arguing from these texts. Christians also defended slavery from the Bible, to their shame. But the abolitionists were the ones reading it with the grain.',
+        'History bears this out. Slavery was almost universal across human societies. It faded across much of medieval Christian Europe, and when it returned with the Atlantic trade, the movement that abolished it in the eighteenth and nineteenth centuries was led largely by Christians arguing from these texts. Christians also defended slavery from the Bible, to their shame. But the abolitionists were the ones reading it with the grain.',
       ],
       references: ['Genesis 1:27', '1 Timothy 1:9-10', 'Colossians 4:1', 'Galatians 3:28', 'Philemon 1:15-16'],
     },
@@ -60,7 +60,7 @@ export const hardPassages: Topic = {
       response:
         'I find those passages hard too, so let me say what I see in them. The text presents it as judgment on particular nations for long-standing evil, including child sacrifice, after centuries of patience (Genesis 15:16; Deuteronomy 9:4-5). People who turned, like Rahab, were spared. And Israel was told it would be driven out in the same way if it did the same things, which later happened. That is not ethnic hatred. It is a judge acting, and he judged his own people by the same rule.',
       keyPoints: ['Admit the difficulty.', 'Judgment after long patience, not ethnic hatred.', 'Israel was judged by the same standard.'],
-      references: ['Genesis 15:16', 'Deuteronomy 9:4-5', 'Joshua 6:25', 'Leviticus 18:28'],
+      references: ['Genesis 15:16', 'Deuteronomy 9:4-5', 'Joshua 2:9-11', 'Joshua 6:25', 'Leviticus 18:28'],
       followUps: [
         { reply: 'What about the children? They had done nothing.', answer: 'That is the hardest part, and I don’t have a neat answer. I hold to two things: that the Judge of all the earth will do right by every one of them (Genesis 18:25), and that the God who gave that command is the God who later gave his own Son to die for his enemies. I trust what I don’t understand in the light of what I do.' },
       ],
@@ -80,11 +80,11 @@ export const hardPassages: Topic = {
       id: 'hp-3',
       objection: 'The Bible supports slavery.',
       response:
-        'It regulates a practice that existed everywhere; it never commands or praises it. And look at what it regulates. Kidnapping a person to sell him carried the death penalty (Exodus 21:16), which outlaws the slave trade as we know it. Hebrew servants went free in the seventh year. Runaways were not to be returned. Then the New Testament calls slave and master brothers (Philemon 1:15-16) and lists slave traders among the lawless (1 Timothy 1:9-10). Those are the texts the abolitionists used.',
+        'It regulates a practice that existed everywhere; it never commands or praises it. And look at what it regulates. Kidnapping a person to sell him carried the death penalty (Exodus 21:16), which outlaws the kidnapping that the slave trade depended on. Hebrew servants went free in the seventh year. Slaves who took refuge were not to be returned. Then the New Testament calls slave and master brothers (Philemon 1:15-16) and lists slave traders among the lawless (1 Timothy 1:9-10). Those are the texts the abolitionists used.',
       keyPoints: ['Regulated, never commended.', 'Kidnapping for sale was a capital crime.', 'The New Testament makes slave and master brothers.'],
       references: ['Exodus 21:16', 'Deuteronomy 15:12-15', 'Deuteronomy 23:15-16', 'Philemon 1:15-16', '1 Timothy 1:9-10'],
       followUps: [
-        { reply: 'Why didn’t God simply forbid it?', answer: 'I don’t know all his reasons. I do see that he often changes people from the inside before he changes their laws, and that Jesus spoke of laws given because of hard hearts (Matthew 19:8). The gospel made master and slave equals at one table, and where that was believed, slavery could not last.' },
+        { reply: 'Why didn’t God simply forbid it?', answer: 'I don’t know all his reasons. I do see that he often changes people from the inside before he changes their laws, and that Jesus spoke of laws given because of hard hearts (Matthew 19:8). The gospel made master and slave equals at one table, and that belief slowly undermined slavery from within.' },
       ],
     },
     {

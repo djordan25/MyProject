@@ -30,11 +30,11 @@ export const jesusOnlyWay: Topic = {
         'God is just. Abraham’s question answers itself: “Will not the Judge of all the earth do what is right?” (Genesis 18:25). No one will be treated unfairly.',
         'God wants people to be saved. He “wants everyone to be saved and to come to the knowledge of the truth” (1 Timothy 2:3-4), and takes “no pleasure in the death of the wicked” (Ezekiel 33:11).',
         'Everyone has some light. Creation shows God’s power (Romans 1:20), and conscience shows his law “written on their hearts” (Romans 2:14-15). People are judged by the light they had, not the light they lacked; Jesus spoke of greater and lesser accountability (Luke 12:47-48).',
-        'God puts people where they can seek him. He set the times and places of the nations so that people “would seek Him and perhaps reach out for Him and find Him, though He is not far from each one of us” (Acts 17:26-27). Cornelius sought God with the light he had, and God sent him Peter (Acts 10:34-35).',
+        'God puts people where they can seek him. He set the times and places of the nations so that people “would seek Him and perhaps reach out for Him and find Him, though He is not far from each one of us” (Acts 17:26-27). Cornelius, a Gentile who already feared God, sought him with the light he had, and God sent him Peter (Acts 10:1-6; 10:34-35).',
         'No one is saved apart from Christ. Whoever is saved is saved because of what Jesus did. Christians differ on whether God ever applies that to someone who has not heard the name. Scripture’s emphasis is plain: people need to hear, which is why we are sent (Romans 10:14).',
         'Say this, and then turn it round kindly: the person asking has heard. The question for them is what they will do with it.',
       ],
-      references: ['Genesis 18:25', '1 Timothy 2:3-4', 'Ezekiel 33:11', 'Romans 1:20', 'Romans 2:14-15', 'Luke 12:47-48', 'Acts 17:26-27', 'Acts 10:34-35', 'Romans 10:14'],
+      references: ['Genesis 18:25', '1 Timothy 2:3-4', 'Ezekiel 33:11', 'Romans 1:20', 'Romans 2:14-15', 'Luke 12:47-48', 'Acts 17:26-27', 'Acts 10:1-6', 'Acts 10:34-35', 'Romans 10:14'],
     },
     {
       heading: 'How can a loving God judge?',

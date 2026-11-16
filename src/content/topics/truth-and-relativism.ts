@@ -87,7 +87,7 @@ export const truthAndRelativism: Topic = {
       keyPoints: ['Shared morals, opposite answers.', 'They contradict on God, Jesus and salvation.', 'The gospel is rescue, not advice.'],
       references: ['Ephesians 2:8-9', '1 Timothy 2:5'],
       followUps: [
-        { reply: 'They are different paths up the same mountain.', answer: 'How would we know that, unless we could see the whole mountain from above? Each path claims to lead somewhere different: to a personal God, to nothingness, to rebirth. And Christianity says the point is that God came down the mountain to us.' },
+        { reply: 'They are different paths up the same mountain.', answer: 'How would we know that, unless we could see the whole mountain from above? Each path claims to lead somewhere different: to a personal God, to the extinction of the self, to release from rebirth. And Christianity says the point is that God came down the mountain to us.' },
       ],
     },
     {

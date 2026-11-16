@@ -10,7 +10,7 @@ export const fulfilledProphecy: Topic = {
       heading: 'Why prophecy matters',
       body: [
         'Jesus himself pointed to the Scriptures as evidence about who he was. After the resurrection he told his disciples, “Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms” (Luke 24:44), and on the road to Emmaus he explained “what was written in all the Scriptures about Himself” (Luke 24:25-27).',
-        'These books were not written after the event. Copies of Isaiah and other prophets found among the Dead Sea Scrolls were made before Jesus was born, and the whole Old Testament had been translated into Greek before his time. Whatever these passages say, they said it first.',
+        'These books were not written after the event. Copies of Isaiah and other prophets found among the Dead Sea Scrolls were made before Jesus was born, and the Law and the Prophets had been translated into Greek before his time. Whatever these passages say, they said it first.',
       ],
       references: ['Luke 24:25-27', 'Luke 24:44', 'Acts 3:18'],
     },
@@ -26,7 +26,7 @@ export const fulfilledProphecy: Topic = {
       heading: 'His coming and its timing',
       body: [
         'A messenger would prepare the way, and then “the Lord whom you seek will suddenly come to His temple” (Malachi 3:1). The king would arrive “humble and riding on a donkey” (Zechariah 9:9), which Jesus did on entering Jerusalem (Matthew 21:4-5).',
-        'Daniel adds a note of time: “the Messiah will be cut off and will have nothing. Then the people of the prince who is to come will destroy the city and the sanctuary” (Daniel 9:25-26). The Messiah was to come, and be cut off, before Jerusalem and its temple were destroyed. That destruction came in AD 70. On Daniel’s terms, anyone still waiting for the Messiah to arrive for the first time is waiting too late.',
+        'Daniel adds a note of time: “the Messiah will be cut off and will have nothing. Then the people of the prince who is to come will destroy the city and the sanctuary” (Daniel 9:25-26). Christians read this as follows: the Messiah was to come, and be cut off, before Jerusalem and its temple were destroyed, and that destruction came in AD 70. On that reading, anyone still waiting for the Messiah to arrive for the first time is waiting too late. Other interpreters apply the passage to events of the second century BC, so be ready for that reply.',
       ],
       references: ['Malachi 3:1', 'Zechariah 9:9', 'Matthew 21:4-5', 'Daniel 9:25-26'],
     },
@@ -43,9 +43,9 @@ export const fulfilledProphecy: Topic = {
       heading: 'And what came after',
       body: [
         'The same chapter of Isaiah goes on past the servant’s death: “He will see His offspring, He will prolong His days… After the anguish of His soul, He will see the light of life” (Isaiah 53:10-11). A man who has died and been buried goes on to live.',
-        'David wrote, “You will not abandon my soul to Sheol, nor will You let Your Holy One see decay” (Psalm 16:10). Peter pointed out that David’s own tomb was still there for anyone to visit, so David must have been speaking of another: the Christ, whose body did not see decay (Acts 2:31).',
+        'David wrote, “You will not abandon my soul to Sheol, nor will You let Your Holy One see decay” (Psalm 16:10). Peter pointed out that David’s own tomb was still there for anyone to visit, so David must have been speaking of another: the Christ, whose body did not see decay (Acts 2:29-31).',
       ],
-      references: ['Isaiah 53:10-11', 'Psalm 16:10', 'Acts 2:31'],
+      references: ['Isaiah 53:10-11', 'Psalm 16:10', 'Acts 2:29-31'],
     },
     {
       heading: 'Using prophecy well',
@@ -65,7 +65,7 @@ export const fulfilledProphecy: Topic = {
       keyPoints: ['A crucified Messiah was an embarrassment, not an invention.', 'The main events were public.', 'The disciples were surprised by what happened.'],
       references: ['1 Corinthians 1:23', 'Luke 24:25-27'],
       followUps: [
-        { reply: 'They could still have invented the birth in Bethlehem.', answer: 'Jesus was known everywhere as a man from Nazareth, which his critics used against him (John 7:41-42). If the writers were inventing freely, the simple move was to say he grew up in Bethlehem. Instead two Gospels explain, in different ways, how a Nazarene came to be born there.' },
+        { reply: 'They could still have invented the birth in Bethlehem.', answer: 'Jesus was known everywhere as a Galilean, which his critics used against him (John 7:41-42). If the writers were inventing freely, the simple move was to say he grew up in Bethlehem. Instead Luke brings the family from Nazareth to Bethlehem for the birth, and Matthew has them settle in Nazareth afterwards: two independent accounts that agree on the birthplace.' },
       ],
     },
     {
@@ -83,7 +83,7 @@ export const fulfilledProphecy: Topic = {
       id: 'fp-3',
       objection: 'Isaiah 53 is about the nation of Israel, not about a Messiah.',
       response:
-        'Isaiah does call Israel God’s servant in some places. But in this chapter the servant suffers “for the transgression of My people” (Isaiah 53:8), so he is someone other than the people. He is innocent, having “done no violence” (Isaiah 53:9), while Isaiah calls the nation sinful. And he dies and is buried as an individual. Many ancient Jewish interpreters read the passage of the Messiah.',
+        'Isaiah does call Israel God’s servant in some places. But in this chapter the servant suffers “for the transgression of My people” (Isaiah 53:8), so he is someone other than the people. He is innocent, having “done no violence” (Isaiah 53:9), while Isaiah calls the nation sinful. And he dies and is buried as an individual. Some ancient Jewish interpreters read the passage of the Messiah.',
       keyPoints: ['The servant suffers for the people.', 'He is innocent; the nation is not.', 'He dies and is buried as one man.'],
       references: ['Isaiah 53:8-9', 'Isaiah 1:4'],
       followUps: [
@@ -94,7 +94,7 @@ export const fulfilledProphecy: Topic = {
       id: 'fp-4',
       objection: 'Isaiah 7:14 says “young woman”, not “virgin”. Matthew mistranslated it.',
       response:
-        'The Hebrew word means a young woman of marriageable age, who in that culture would be assumed to be a virgin. The Jewish scholars who translated Isaiah into Greek, two centuries before Jesus, chose the Greek word for virgin, and Matthew quotes their translation (Matthew 1:22-23). In any case the virgin birth does not rest on this verse. Matthew and Luke both report it as something that happened, and then Matthew sees Isaiah’s words filled out by it.',
+        'The Hebrew word means a young woman of marriageable age, who in that culture would be assumed to be a virgin. The Jewish scholars who translated Isaiah into Greek, well over a century before Jesus, chose the Greek word for virgin, and Matthew quotes their translation (Matthew 1:22-23). In any case the virgin birth does not rest on this verse. Matthew and Luke both report it as something that happened, and then Matthew sees Isaiah’s words filled out by it.',
       keyPoints: ['The word implies an unmarried young woman.', 'Jewish translators before Jesus rendered it “virgin”.', 'The event is reported independently by Matthew and Luke.'],
       references: ['Isaiah 7:14', 'Matthew 1:22-23', 'Luke 1:34-35'],
       followUps: [
@@ -106,7 +106,7 @@ export const fulfilledProphecy: Topic = {
       objection: 'The Messiah was supposed to bring world peace. Jesus didn’t, so he can’t be the Messiah.',
       response:
         'The prophets do promise a day when nations “will beat their swords into plowshares” (Isaiah 2:4). They also promise a Messiah who suffers and is cut off. The same Scriptures say both. The New Testament’s answer is that he comes twice: first to deal with sin, and again to bring that peace (Hebrews 9:28). What cannot be done is to keep the triumph and drop the suffering, because Isaiah 53 and Daniel 9 will not go away.',
-      keyPoints: ['The prophets promise both suffering and reign.', 'Two comings: first to bear sin, then to rule.', 'Daniel’s Messiah is cut off before AD 70.'],
+      keyPoints: ['The prophets promise both suffering and reign.', 'Two comings: first to bear sin, then to rule.', 'Daniel’s Messiah is cut off before the city and sanctuary fall.'],
       references: ['Isaiah 2:4', 'Hebrews 9:28', 'Daniel 9:25-26'],
       followUps: [
         { reply: 'A second coming is a convenient excuse.', answer: 'It would be, if the suffering had not been foretold. But the same prophets who promise peace describe a servant who dies and then lives (Isaiah 53:10-11). Two stages are built into the prophecies themselves.' },

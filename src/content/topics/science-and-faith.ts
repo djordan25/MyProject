@@ -11,7 +11,7 @@ export const scienceAndFaith: Topic = {
       body: [
         'Many people assume science and Christian faith have always been enemies. Historians of science do not tell it that way. The picture of a long “warfare” was popularised by two nineteenth-century books, and it does not fit the record.',
         'Modern science grew up in a Christian culture, and many of its founders were believers in God: Kepler, Boyle, Newton, Faraday and Maxwell among them. They expected nature to be orderly and understandable because they believed a rational God had made it, and they saw their work as studying his handiwork. “The heavens declare the glory of God” (Psalm 19:1).',
-        'The verse “Great are the works of the LORD; they are pondered by all who delight in them” (Psalm 111:2) was carved over the door of the Cavendish Laboratory in Cambridge, where the electron was discovered.',
+        'The verse “Great are the works of the LORD; they are pondered by all who delight in them” (Psalm 111:2) was carved, in Latin, on the doors of the Cavendish Laboratory in Cambridge, where the electron was discovered.',
       ],
       references: ['Psalm 19:1', 'Psalm 111:2', 'Proverbs 25:2'],
     },
