@@ -9,6 +9,7 @@ import { howWeGotTheBible } from './topics/how-we-got-the-bible';
 import { truthAndRelativism } from './topics/truth-and-relativism';
 import { scienceAndFaith } from './topics/science-and-faith';
 import { fulfilledProphecy } from './topics/fulfilled-prophecy';
+import { jesusOnlyWay } from './topics/jesus-only-way';
 import { understandingIslam } from './islam/understanding-islam';
 import { islamicDilemma } from './islam/islamic-dilemma';
 import { quranMisunderstands } from './islam/quran-misunderstands';
@@ -36,7 +37,7 @@ import { branchesOfIslam } from './islam/branches';
 import { quranManuscripts } from './islam/quran-manuscripts';
 
 export const topics: Topic[] = [
-  truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, resurrection, problemOfEvil,
+  truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, resurrection, jesusOnlyWay, problemOfEvil,
   understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
   quranOral, quranPreservation, quranManuscripts, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
