@@ -6,6 +6,12 @@ import { resurrection } from './topics/resurrection';
 import { problemOfEvil } from './topics/problem-of-evil';
 import { identityOfJesus } from './topics/identity-of-jesus';
 import { howWeGotTheBible } from './topics/how-we-got-the-bible';
+import { truthAndRelativism } from './topics/truth-and-relativism';
+import { scienceAndFaith } from './topics/science-and-faith';
+import { fulfilledProphecy } from './topics/fulfilled-prophecy';
+import { jesusOnlyWay } from './topics/jesus-only-way';
+import { hardPassages } from './topics/hard-passages';
+import { havingTheConversation } from './topics/having-the-conversation';
 import { understandingIslam } from './islam/understanding-islam';
 import { islamicDilemma } from './islam/islamic-dilemma';
 import { quranMisunderstands } from './islam/quran-misunderstands';
@@ -30,11 +36,12 @@ import { hadithReliability } from './islam/hadith-reliability';
 import { muhammadWarfare } from './islam/muhammad-warfare';
 import { sharingTheGospel } from './islam/sharing-the-gospel';
 import { branchesOfIslam } from './islam/branches';
+import { quranManuscripts } from './islam/quran-manuscripts';
 
 export const topics: Topic[] = [
-  existenceOfGod, identityOfJesus, reliabilityOfScripture, howWeGotTheBible, resurrection, problemOfEvil,
+  truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, resurrection, jesusOnlyWay, problemOfEvil, hardPassages, havingTheConversation,
   understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
-  quranOral, quranPreservation, quranConsistency, quranHistory, quranSources, hadithReliability,
+  quranOral, quranPreservation, quranManuscripts, quranConsistency, quranHistory, quranSources, hadithReliability,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
   trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,

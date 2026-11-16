@@ -36,6 +36,32 @@ export const problemOfEvil: Topic = {
       ],
       references: ['Isaiah 53:3-5', 'Hebrews 4:15', 'Revelation 21:4'],
     },
+    {
+      heading: 'What the alternatives offer',
+      body: [
+        'Every view of the world has to say something about suffering, so it is fair to compare answers.',
+        'If there is no God, there is no one to blame and no one to appeal to. Suffering is simply what happens in an indifferent universe, and our sense that it ought not to be so is a feeling with nothing behind it.',
+        'If the law of karma is true, suffering is the fruit of a person’s own past actions, in this life or an earlier one. The sufferer is reaping what was sown.',
+        'Christianity says that evil is real and is not how things were meant to be; that God is against it; that he entered it himself; and that he will end it. Of the three, only this one takes both the horror of evil and the worth of the sufferer with full seriousness.',
+      ],
+    },
+    {
+      heading: 'What God has done about it',
+      body: [
+        'The Christian answer to suffering is, in the end, a person and an event. God did not stay at a distance. In Jesus he took on our life, was betrayed, tortured and killed. “Surely He took on our infirmities and carried our sorrows” (Isaiah 53:4).',
+        'At the cross he dealt with the evil in us: “He Himself bore our sins in His body on the tree” (1 Peter 2:24). In the resurrection he broke the power of death. And he has promised a day when “there will be no more death or mourning or crying or pain” (Revelation 21:4).',
+        'This does not tell us why each particular sorrow was allowed. It tells us what the reason cannot be: it cannot be that God does not care. Paul, who suffered a great deal, concluded that “our present sufferings are not comparable to the glory that will be revealed in us” (Romans 8:18).',
+      ],
+      references: ['Isaiah 53:4', '1 Peter 2:24', 'Revelation 21:4', 'Romans 8:18'],
+    },
+    {
+      heading: 'Being there',
+      body: [
+        'When Job’s friends first came to him, “they sat on the ground with him for seven days and seven nights, but no one spoke a word to him” (Job 2:13). It was the best thing they did. Their mistakes began when they started explaining.',
+        'With someone in pain, be present, listen, weep, pray and help in practical ways. God “comforts us in all our troubles, so that we can comfort those in any trouble” (2 Corinthians 1:3-4). Arguments have their place, usually later, and usually when asked for.',
+      ],
+      references: ['Job 2:13', '2 Corinthians 1:3-4', 'Romans 12:15'],
+    },
   ],
   objections: [
     {
@@ -80,6 +106,28 @@ export const problemOfEvil: Topic = {
         'God suffers with us and promises restoration.',
       ],
     },
+    {
+      id: 'poe-4',
+      objection: 'Why would a good God let children suffer?',
+      response:
+        'I don’t know why, and I distrust anyone who says they do. What I can say is that God has not explained it from a safe distance. He became a child in a poor family under a violent king, and died in agony. I can’t tell you the reason for a particular child’s suffering. I can tell you that the God I trust has suffered himself, and has promised to wipe away every tear (Revelation 21:4).',
+      keyPoints: ['Do not pretend to know the reason.', 'God entered suffering himself.', 'He has promised to end it.'],
+      references: ['Revelation 21:4', 'Isaiah 53:4'],
+      followUps: [
+        { reply: 'A promise about the future does nothing for a child in pain now.', answer: 'It does not remove the pain, and Christians are meant to do everything they can to relieve it now. But it changes what the pain means: it is not the last word. Without that promise, the child’s suffering is simply the end of the story.' },
+      ],
+    },
+    {
+      id: 'poe-5',
+      objection: 'If God knew people would do so much evil, he should not have created them.',
+      response:
+        'That would mean no one at all: no love, no courage, no joy, and no you or me to raise the question. God evidently judged that a world of real persons, who can love and therefore can also refuse to, and whom he would rescue at great cost to himself, was better than no world. Paul, who knew suffering well, thought the outcome would outweigh it beyond comparison (Romans 8:18).',
+      keyPoints: ['No freedom, no love; no creation, no us.', 'God planned the rescue as well as the creation.', 'Romans 8:18: the glory outweighs the suffering.'],
+      references: ['Romans 8:18', '1 Peter 2:24'],
+      followUps: [
+        { reply: 'He could have made people who always freely choose good.', answer: 'Perhaps that is what he is making. The Bible ends with people who love God freely and will never turn away, having seen for themselves what evil is and what it cost him. It may be that such people can only be made through a history like ours.' },
+      ],
+    },
   ],
   quiz: [
     {
@@ -112,6 +160,20 @@ export const problemOfEvil: Topic = {
       ],
       answer: 2,
       explanation: '“Weep with those who weep.” (Romans 12:15)',
+    },
+    {
+      id: 'poe-q4',
+      question: 'What did Job’s friends do right at first?',
+      options: ['Explained his suffering', 'Sat with him in silence for seven days', 'Told him to repent', 'Left him alone'],
+      answer: 1,
+      explanation: 'Job 2:13. Their mistakes began when they started explaining.',
+    },
+    {
+      id: 'poe-q5',
+      question: 'What does the cross show about God and suffering?',
+      options: ['That suffering is an illusion', 'That God stays at a distance', 'That God has entered suffering himself', 'That only the wicked suffer'],
+      answer: 2,
+      explanation: 'Isaiah 53:4; 1 Peter 2:24.',
     },
   ],
   furtherReading: [

@@ -62,6 +62,9 @@ export const scientificMiracles: Topic = {
     },
     {
       id: 'sm-2',
+      followUps: [
+        { reply: 'It says “he found it setting”. That is how it looked to him.', answer: 'The same story says he also reached the rising of the sun and found it rising on a people with no shelter from it (Quran 18:90). It treats the places where the sun sets and rises as places a traveller can reach. And Muhammad’s own explanation was that the sun goes to prostrate beneath the Throne (Sahih al-Bukhari 3199).' },
+      ],
       objection: 'Quran 18:86 is only describing what Dhul-Qarnayn saw.',
       response:
         'That’s a possible reading of the verse, and the translation adds “[as if]”. But Muhammad’s own explanation of the sun in Sahih al-Bukhari 3199 — that it travels to prostrate beneath the Throne each night — shows how he understood the sun’s movement. The sources together reflect an ancient view of the cosmos.',

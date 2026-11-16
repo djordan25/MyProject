@@ -72,6 +72,9 @@ export const quranHistory: Topic = {
   objections: [
     {
       id: 'qh-1',
+      followUps: [
+        { reply: 'Then how did Muhammad know that Pharaoh had a chief minister at all?', answer: 'Every king has ministers; that is not hidden knowledge. What needs explaining is why this one carries the name of the villain of the book of Esther (Esther 3:1) and is told to build a tower to reach heaven, like the builders of Babel (Genesis 11:4). Two Bible stories from other centuries have been joined to a third.' },
+      ],
       objection: 'Haman was an Egyptian title; Egyptian inscriptions mention a “Haman”.',
       response:
         'That claim is disputed, and even if a similar-sounding name existed, it doesn’t give us a Haman as Pharaoh’s chief minister building a tower to see God. Meanwhile we have a well-known Haman in Esther 3:1 and a famous tower in Genesis 11:4. The parallels point to blended biblical stories rather than independent revelation.',
@@ -80,6 +83,9 @@ export const quranHistory: Topic = {
     },
     {
       id: 'qh-2',
+      followUps: [
+        { reply: 'The Bible is wrong to blame Aaron. A prophet would never make an idol.', answer: 'That is a judgment about what prophets ought to be like, not evidence about what happened. Exodus was written many centuries before the Quran and tells the story to Israel’s own shame, naming their first high priest as the one who made the calf (Exodus 32:1-4). People do not invent that about their founders.' },
+      ],
       objection: 'Samiri is just a personal name, not “Samaritan”.',
       response:
         'Some Muslim scholars suggest that, but “the Samiri” has the form of a name of origin — “the one from Samaria”. Even if it were a personal name, the Bible says Aaron made the calf (Exodus 32:1-4), and the Quran nowhere mentions that.',
@@ -88,6 +94,9 @@ export const quranHistory: Topic = {
     },
     {
       id: 'qh-3',
+      followUps: [
+        { reply: 'Islamic sources name the Jews of Medina who said it.', answer: 'Later Muslim writers name a few individuals. But the Quran does not say that a few men in Medina said it. It says, “The Jews say, ‘Ezra is the son of Allah’” (Quran 9:30), alongside what Christians say of the Messiah. A claim about a whole people cannot rest on a handful of names recorded by their opponents generations later.' },
+      ],
       objection: 'Maybe some small Jewish sect in Arabia called Ezra the son of God.',
       response:
         'Quran 9:30 doesn’t say “some Jews”; it says “the Jews say”, side by side with “the Christians say the Messiah is the son of Allah” — presented as the standard belief of each community. No Jewish source records Jews believing this, before or after Muhammad.',

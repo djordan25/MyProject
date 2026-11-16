@@ -35,10 +35,11 @@ export const quranChallenge: Topic = {
       heading: 'The prophecy of the Byzantines (Quran 30:2-4)',
       body: [
         '“The Byzantines have been defeated in the nearest land. But they, after their defeat, will overcome within three to nine years” (Quran 30:2-4). Muslims point to Byzantium’s later victory over Persia as fulfilment.',
+        'The hadith show how unclear the prediction was to those who first heard it. Abu Bakr wagered with the Meccans that the Romans would win. One report says he set the term at five years and another at six; the time passed with no Roman victory, and the Meccans collected their winnings before the Romans finally prevailed (Jami at-Tirmidhi 3193; 3194). A prophecy whose first hearers could not tell when it would come true is hard to call precise.',
         'This is a general prediction about an ongoing war between two superpowers that had traded victories for centuries. Predicting that one side would recover is not the kind of specific, unlikely prophecy that requires God.',
         'Compare biblical prophecy: specific details given centuries in advance — the Messiah’s birthplace (Micah 5:2), his pierced hands and feet and divided garments (Psalm 22:16-18), his death for sins and burial with the rich (Isaiah 53:5-9).',
       ],
-      references: ['Quran 30:2-4', 'Micah 5:2', 'Psalm 22:16-18', 'Isaiah 53:5-9'],
+      references: ['Quran 30:2-4', 'Jami at-Tirmidhi 3193', 'Jami at-Tirmidhi 3194', 'Micah 5:2', 'Psalm 22:16-18', 'Isaiah 53:5-9'],
     },
   ],
   objections: [
@@ -66,6 +67,9 @@ export const quranChallenge: Topic = {
     },
     {
       id: 'qc-3',
+      followUps: [
+        { reply: 'No one could have guessed it. Persia had crushed the Byzantines.', answer: 'The verse gives itself a wide window, “within three to nine years” (Quran 30:4), for one of two empires that had been trading victories for generations to win the next round. That is a forecast, not a miracle. Compare a prophecy that names the town where the Messiah would be born, about seven centuries ahead (Micah 5:2).' },
+      ],
       objection: 'The Byzantine prophecy was fulfilled precisely; how could Muhammad know?',
       response:
         'The Byzantines and Persians had been at war for generations, swinging back and forth. A prediction that the defeated side would recover is a reasonable guess, not a miracle. Compare the Bible, which foretold where the Messiah would be born and how he would die, centuries in advance (Micah 5:2; Isaiah 53).',

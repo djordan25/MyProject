@@ -35,6 +35,31 @@ export const reliabilityOfScripture: Topic = {
         'Archaeology cannot prove theological claims, but it shows the authors were careful about the details we can check.',
       ],
     },
+    {
+      heading: 'The marks of honest testimony',
+      body: [
+        'People who invent a story make their heroes look good. The Gospels do the opposite. The disciples are slow to understand and quick to quarrel. Peter, the leading apostle, denies Jesus three times. Jesus’ own family at one point says, “He is out of His mind” (Mark 3:21-22). The first witnesses of the empty tomb are women, whose word carried little weight in that society.',
+        'The Gospels also keep sayings that are hard to explain, such as Jesus not knowing the day of his return (Mark 13:32) and his cry of abandonment on the cross (Mark 15:34). A church making up a divine Saviour would have left these out. They are there because they happened.',
+      ],
+      references: ['Mark 3:21-22', 'Mark 14:66-72', 'Mark 13:32', 'Mark 15:34'],
+    },
+    {
+      heading: 'Names, places and titles',
+      body: [
+        'The Gospels and Acts are full of the kind of detail that is easy to get wrong from a distance: the names of villages, the layout of Jerusalem, local customs, and the exact titles of officials, which differed from city to city and changed over time.',
+        'Luke dates the start of John the Baptist’s ministry by five rulers at once (Luke 3:1). He calls Gallio “proconsul of Achaia” (Acts 18:12), and an inscription found at Delphi confirms the title and dates his term to about AD 51. Even the personal names in the Gospels match the names that were most common among Jews in Palestine at that time, which differ from those common among Jews elsewhere.',
+        'Writers who are careful about what we can check have earned a hearing on what we cannot.',
+      ],
+      references: ['Luke 3:1', 'Acts 18:12', 'Luke 1:1-4'],
+    },
+    {
+      heading: 'Paul as an early cross-check',
+      body: [
+        'Even apart from the Gospels, Paul’s letters, written within twenty to thirty years of the crucifixion, confirm the outline of Jesus’ life. He was born of a woman, under the Jewish law (Galatians 4:4), and descended from David (Romans 1:3). He had a brother named James, whom Paul met (Galatians 1:19). He died, was buried and was raised, and appeared to many (1 Corinthians 15:3-8).',
+        'Paul did not get this from the Gospels, which were written later. It is an independent, earlier line of evidence that agrees with them.',
+      ],
+      references: ['Galatians 4:4', 'Romans 1:3', 'Galatians 1:19', '1 Corinthians 15:3-8'],
+    },
   ],
   objections: [
     {
@@ -93,6 +118,27 @@ export const reliabilityOfScripture: Topic = {
         'Core agreement on central events.',
       ],
     },
+    {
+      id: 'ros-5',
+      objection: 'The Gospels are anonymous. Nobody knows who wrote them.',
+      response:
+        'The authors do not name themselves in the text, which was normal for that kind of writing. But no copy that has a title names anyone other than Matthew, Mark, Luke or John. Papias, early in the second century, already names Mark and Matthew, and by about AD 180 Irenaeus names all four. Notice which names they are. Mark and Luke were not apostles. If the church had been inventing authors to win authority, it would have chosen Peter or James.',
+      keyPoints: ['Formally anonymous, like much ancient writing.', 'The titles and early testimony are unanimous.', 'Nobody invents Mark and Luke as authors.'],
+      references: ['Luke 1:1-4'],
+      followUps: [
+        { reply: 'Fishermen from Galilee could not write Greek books.', answer: 'Matthew was a tax collector, whose job required record-keeping; Luke was a physician; Mark is said to have written down Peter’s teaching. Using a secretary was ordinary practice, as Paul’s letters show. And thirty years of preaching in the Greek-speaking world is a long education.' },
+      ],
+    },
+    {
+      id: 'ros-6',
+      objection: 'Scholars like Bart Ehrman have shown the Bible can’t be trusted.',
+      response:
+        'It helps to ask which claim. Ehrman is a serious scholar, and he is firm on several points that surprise people: that Jesus certainly existed, that he was crucified under Pilate, and that his followers soon believed they had seen him alive. On the text itself, he has acknowledged that the differences among manuscripts do not overturn any essential Christian belief. He does dispute who wrote the Gospels and argues that they contradict one another, and those points can be taken one at a time. His deepest disagreement with Christians is over whether a miracle can ever be accepted as history, and that is a question of philosophy, not of manuscripts.',
+      keyPoints: ['Ask which specific claim.', 'Ehrman affirms Jesus’ existence and crucifixion.', 'His deepest objection, to miracles, is philosophical.'],
+      followUps: [
+        { reply: 'He says there are more variants than words in the New Testament.', answer: 'There are, because there are so many copies. Nearly all are differences of spelling or word order. Of the small fraction that affect meaning, the main ones are footnoted in any modern Bible, and no core Christian teaching depends on a disputed reading.' },
+      ],
+    },
   ],
   quiz: [
     {
@@ -127,6 +173,20 @@ export const reliabilityOfScripture: Topic = {
       options: ['Matthew', 'Mark', 'Luke', 'John'],
       answer: 2,
       explanation: 'Luke 1:1-4.',
+    },
+    {
+      id: 'ros-q5',
+      question: 'Why do embarrassing details count in favour of the Gospels?',
+      options: ['They make the story longer', 'Inventors do not make their leaders look bad', 'They prove miracles', 'They were added later'],
+      answer: 1,
+      explanation: 'Peter’s denial and the family’s doubts are there because they happened.',
+    },
+    {
+      id: 'ros-q6',
+      question: 'What does the Gallio inscription from Delphi confirm?',
+      options: ['The date of Jesus’ birth', 'Luke’s title for Gallio in Acts 18:12, and when he held it', 'The authorship of Mark', 'The location of the empty tomb'],
+      answer: 1,
+      explanation: 'It also helps date Paul’s time in Corinth to about AD 51.',
     },
   ],
   furtherReading: [

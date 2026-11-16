@@ -101,6 +101,9 @@ export const hadithReliability: Topic = {
     },
     {
       id: 'hr-4',
+      followUps: [
+        { reply: 'Scholars have criticised some hadith even in Bukhari.', answer: 'A small number, on technical grounds, and other scholars answered them. The reports of how the Quran was collected are accepted across Sunni scholarship (Sahih al-Bukhari 4986, 4987). Set those aside and you lose the standard account of how the Quran became a book.' },
+      ],
       objection: 'That hadith is weak. I don’t accept it.',
       response:
         'It is in Sahih al-Bukhari (or Sahih Muslim), which Sunni scholars have treated for about a thousand years as the most authentic books after the Quran. If a Sahih hadith can be set aside whenever it is uncomfortable, by what standard do we keep the ones that teach how to pray, or the ones that tell us how the Quran was collected (Sahih al-Bukhari 4986, 4987)? I’m only asking for consistency.',

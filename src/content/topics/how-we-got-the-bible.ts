@@ -75,6 +75,9 @@ export const howWeGotTheBible: Topic = {
     },
     {
       id: 'hb-3',
+      followUps: [
+        { reply: 'The King James Bible has verses that modern Bibles leave out.', answer: 'It does, a small number, because its translators worked from a printed Greek text based on a handful of late manuscripts. Much older manuscripts found since then do not have those verses, so modern Bibles move them to the footnotes. Nothing is hidden, and no teaching rests on any of them.' },
+      ],
       objection: 'There are so many Bible versions. Which one is the real Bible?',
       response:
         'They are translations of the same Hebrew and Greek writings, in the way several English translations of one Russian novel are the same novel. Almost all differences are of style; the few that come from differences between manuscripts are footnoted and change no teaching. Pick any mainstream translation and you will find the same Jesus, the same cross and the same resurrection.',
@@ -82,6 +85,9 @@ export const howWeGotTheBible: Topic = {
     },
     {
       id: 'hb-4',
+      followUps: [
+        { reply: 'Every religion says its book is from God.', answer: 'They do, so the claim alone settles nothing. The Bible invites testing in a way few books do. It ties its message to public events, above all the resurrection, and says that if Christ was not raised the faith is worthless (1 Corinthians 15:14). Examine that event and you have examined the claim.' },
+      ],
       objection: 'The Bible was written by men, so it can’t be the word of God.',
       response:
         'It was written by men; Christians have always said so. The claim is that God spoke through them: “men spoke from God as they were carried along by the Holy Spirit” (2 Peter 1:21). Being written by people does not make something false. The question is whether what they wrote is true, and that can be tested: by history, by fulfilled prophecy, and above all by the resurrection of Jesus.',

@@ -34,6 +34,15 @@ export const crucifixionDenial: Topic = {
       ],
       references: ['Quran 3:54-55', 'Quran 61:14', 'Quran 19:33', 'Quran 39:42', 'Acts 2:23-24'],
     },
+    {
+      heading: 'What the Muslim commentators say',
+      body: [
+        'The classical commentators did not agree on what happened. Al-Tabari and Ibn Kathir record several accounts: that a disciple volunteered to take on Jesus’ appearance, that the likeness fell on the one who betrayed him, or that it fell on someone else. The short commentary of the two Jalals says the likeness of Jesus was cast on another man, who was killed in his place.',
+        'None of these accounts names a source from the time of Jesus, and they contradict one another. The verse itself says that those who differ about it “have no knowledge of it except the following of assumption” (Quran 4:157). That describes the commentators’ position exactly.',
+        'Use this when a Muslim says the substitution is clear. Ask: who was crucified, and how do you know?',
+      ],
+      references: ['Quran 4:157'],
+    },
   ],
   objections: [
     {

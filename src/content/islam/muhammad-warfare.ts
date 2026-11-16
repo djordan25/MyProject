@@ -27,15 +27,15 @@ export const muhammadWarfare: Topic = {
       body: [
         'The Quran regulates the spoils of war: “anything you obtain of war booty — then indeed, for Allah is one fifth of it and for the Messenger…” (Quran 8:41; see 8:1 and 48:20).',
         'Muhammad “suddenly attacked Bani Mustaliq without warning while they were heedless and their cattle were being watered… Their fighting men were killed and their women and children were taken as captives” (Sahih al-Bukhari 2541).',
-        'Captive women became lawful to their captors as those “your right hand possesses” (Quran 4:24; 23:5-6; 33:50).',
+        'Captive women became lawful to their captors as those “your right hand possesses” (Quran 4:24; 23:5-6; 33:50). When soldiers at Awtas hesitated over captive women who had husbands, the verse permitting them was revealed (Sahih Muslim 1456).',
         'Muhammad said: “I have been made victorious with awe (cast in the hearts of the enemy), and while I was sleeping, the keys of the treasures of the world were brought to me” (Sahih al-Bukhari 2977). The Quran speaks of casting terror into the hearts of disbelievers and striking “upon the necks” (Quran 8:12; 47:4).',
       ],
-      references: ['Quran 8:41', 'Quran 48:20', 'Sahih al-Bukhari 2541', 'Quran 4:24', 'Quran 23:5-6', 'Quran 33:50', 'Sahih al-Bukhari 2977', 'Quran 8:12', 'Quran 47:4'],
+      references: ['Quran 8:41', 'Quran 48:20', 'Sahih al-Bukhari 2541', 'Sahih Muslim 1456', 'Quran 4:24', 'Quran 23:5-6', 'Quran 33:50', 'Sahih al-Bukhari 2977', 'Quran 8:12', 'Quran 47:4'],
     },
     {
       heading: 'Banu Qurayza and Ka’b bin al-Ashraf',
       body: [
-        'After the Jewish tribe of Banu Qurayza surrendered, Sa’d judged “that their warriors should be killed and their children and women should be taken as prisoners.” Muhammad replied, “You have judged… with the judgment of the King Allah” (Sahih al-Bukhari 3043). The Quran refers to it: “a party you killed, and you took captive a party. And He caused you to inherit their land and their homes and their properties” (Quran 33:26-27).',
+        'After the Jewish tribe of Banu Qurayza surrendered, Sa’d judged “that their warriors should be killed and their children and women should be taken as prisoners.” Muhammad replied, “You have judged… with the judgment of the King Allah” (Sahih al-Bukhari 3043). The Quran refers to it: “a party you killed, and you took captive a party. And He caused you to inherit their land and their homes and their properties” (Quran 33:26-27). The earliest biography, by Ibn Ishaq, puts the number of men beheaded at six or seven hundred, and adds that some put it at eight or nine hundred.',
         'When the poet Ka’b bin al-Ashraf opposed him, Muhammad asked, “Who is willing to kill Ka’b bin Al-Ashraf who has hurt Allah and His Messenger?” and gave permission to deceive him in order to do it (Sahih al-Bukhari 4037).',
         'And for those who leave Islam: “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922).',
       ],
@@ -88,6 +88,9 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-4',
+      followUps: [
+        { reply: 'Those rules show that Islamic warfare was more humane than others.', answer: 'Perhaps it was, by the standards of the time. But the question is not whether Muhammad fought more gently than his neighbours. It is whether a prophet of God spreads his message by fighting at all. The same hadith that forbids mutilation tells his commanders to fight those who disbelieve (Sahih Muslim 1731). Jesus sent his followers out to teach (Matthew 28:19-20).' },
+      ],
       objection: 'Muhammad forbade killing women and children and mutilating the dead.',
       response:
         'That’s true, and it’s fair to acknowledge it — Sahih al-Bukhari 3015 records him forbidding the killing of women and children, and Sahih Muslim 1731 forbids mutilation and killing children. But Sahih Muslim 1731 instructs his armies to fight those who disbelieve, inviting them to Islam, then demanding the jizya, and fighting if they refuse. Rules for conducting war don’t change the fact that Muhammad led wars to spread his rule. Jesus gave his followers no rules for war, because he gave them no war to fight.',

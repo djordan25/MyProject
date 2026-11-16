@@ -117,6 +117,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-9',
+      followUps: [
+        { reply: 'Then he is dependent, and God depends on no one.', answer: 'The verse describes the Son’s relationship to the Father, not a creature’s weakness. The same passage says the Father has granted the Son to have life in himself, just as the Father has (John 5:26), and that the dead will hear his voice and live (John 5:25). No creature has life in himself, or raises the dead by his voice.' },
+      ],
       objection: 'Jesus said, “I can do nothing by Myself” (John 5:30). God can do anything.',
       response:
         'Read the whole passage. It begins with his opponents wanting to kill him because he was “making Himself equal with God” (John 5:18). Jesus then says the Son does whatever the Father does (John 5:19), gives life to whom he wishes (John 5:21), has been given all judgment (John 5:22), and is to be honoured by all “just as they honor the Father” (John 5:23). “I can do nothing by Myself” means the Son never acts apart from the Father. That is perfect unity, not weakness.',
@@ -125,6 +128,9 @@ export const deityObjections: Topic = {
     },
     {
       id: 'do-10',
+      followUps: [
+        { reply: 'A servant of God cannot be God.', answer: 'Paul says he became one: existing in the form of God, he “emptied Himself, taking the form of a servant” (Philippians 2:6-7). Servant is the role he took, not all that he is. And Isaiah’s Servant is the one who bears the sin of many (Isaiah 53:12), which no mere prophet could do.' },
+      ],
       objection: 'Peter called Jesus “a man certified by God” and God’s “servant” (Acts 2:22; 3:13). The first Christians didn’t think he was God.',
       response:
         'Christians affirm that Jesus is truly man, and the Servant foretold by Isaiah. But read on. In those same sermons Peter calls him “the Author of life” (Acts 3:15) and says God has made him “both Lord and Christ” (Acts 2:36); later he calls him “Lord of all” (Acts 10:36). He applies to Jesus the promise that everyone who calls on the name of the Lord will be saved (Acts 2:21), then tells the crowd to be baptised in the name of Jesus (Acts 2:38). True man and true God.',

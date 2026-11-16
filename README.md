@@ -45,7 +45,9 @@ Tapping a Bible, Quran or hadith citation shows the passage text in a popup, wit
 
 - Bible: Berean Standard Bible (public domain since 2023). Lesson quotations use the same translation.
 - Quran: Sahih International
-- Hadith: sunnah.com English text and numbering (Sahih al-Bukhari, Sahih Muslim)
+- Hadith: sunnah.com English text and numbering. Sahih al-Bukhari and Sahih Muslim are the main sources; Sunan Abi Dawud, Jami at-Tirmidhi, Sunan Ibn Majah and Musnad Ahmad can also be cited, and their popups show each hadith's grade.
+
+Some Islam lessons also refer to classical commentaries, the early biography of Muhammad and manuscript scholarship. The app holds no text for those, so they have no popups; they are listed under Further reading.
 
 After adding or changing citations, regenerate it (needs Python 3):
 

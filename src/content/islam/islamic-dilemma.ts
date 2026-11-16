@@ -22,9 +22,10 @@ export const islamicDilemma: Topic = {
         'The Quran does not merely affirm a long-lost original. Again and again it says it confirms the scripture that is “with” the People of the Scripture in Muhammad’s day (Arabic ma‘akum, “with you”; ma‘ahum, “with them”): “confirming that which is [already] with you” (Quran 2:41); “confirming that which is with them” (Quran 2:91). See also Quran 2:89, 2:101 and Quran 4:47. Most of these verses address the Jews of Medina; for Christians the Quran makes the same point in Quran 5:47 and Quran 5:68.',
         'The Quran also calls itself musaddiq — “confirming” — what is literally “between its hands” (bayna yadayhi), an idiom for what lies in front of it. Translations usually render this “what was before it” (Quran 3:3; 35:31; 46:30). A Muslim may take that to mean “earlier in time”, so lean on the clearer “with you” and “with them” verses.',
         'Muhammad treated the Torah in front of him as genuine. He challenged the Jews: “So bring the Torah and recite it, if you should be truthful” (Quran 3:93). When Jews brought him a couple accused of adultery, he asked what they found in the Torah; it was brought and opened, the verse of stoning was found under the reader’s hand, and Muhammad judged by it (Sahih al-Bukhari 3635; 6841; 7543).',
+        'Another report of the same event, graded hasan (good), says he took the cushion from under him, set the Torah on it and said, “I believed in you and in Him Who revealed you” (Sunan Abi Dawud 4449).',
         'Quran 5:48 adds that the Quran is muhaymin over the earlier scripture. Sahih International translates this “a criterion over it”, and Muslims often say it means the Quran corrects the Bible. But the word primarily means a guardian, overseer or witness, and the same verse begins by calling the Quran a confirmation of that scripture. A guardian protects what it guards; it does not contradict it.',
       ],
-      references: ['Quran 2:41', 'Quran 2:89', 'Quran 2:91', 'Quran 2:101', 'Quran 4:47', 'Quran 3:3', 'Quran 3:93', 'Quran 5:48', 'Sahih al-Bukhari 3635', 'Sahih al-Bukhari 6841', 'Sahih al-Bukhari 7543'],
+      references: ['Quran 2:41', 'Quran 2:89', 'Quran 2:91', 'Quran 2:101', 'Quran 4:47', 'Quran 3:3', 'Quran 3:93', 'Quran 5:48', 'Sahih al-Bukhari 3635', 'Sahih al-Bukhari 6841', 'Sahih al-Bukhari 7543', 'Sunan Abi Dawud 4449'],
     },
     {
       heading: 'The dilemma',
@@ -113,6 +114,9 @@ export const islamicDilemma: Topic = {
     },
     {
       id: 'id-5',
+      followUps: [
+        { reply: 'The Quran is the final revelation, so it overrules what came before.', answer: 'A later message can add to an earlier one. It cannot contradict it and still call it true. The Quran does not say the Gospel used to be right; it tells the people of the Gospel, in Muhammad’s own day, to judge by it (Quran 5:47). And what the Gospel says about the cross is a claim about history, which no later book can overrule.' },
+      ],
       objection: 'The Quran only confirms the parts of the Bible that agree with it.',
       response:
         'Where does the Quran say “only the parts that agree”? It says it confirms what is “with you” (Quran 2:41; 4:47), tells Christians to judge by the Gospel (Quran 5:47), and says they stand on nothing unless they uphold the Torah, the Gospel and what was revealed to them (Quran 5:68). If only the agreeing parts count, the Quran is merely confirming itself, which is no confirmation at all. And Muhammad didn’t test the Torah against the Quran: he called for the Torah and judged by it (Sahih al-Bukhari 7543).',

@@ -5,12 +5,37 @@ export const tracks: Track[] = [
     id: 'foundations',
     title: 'Foundations',
     icon: '✦',
-    summary: 'The core case for Christianity: God’s existence, who Jesus is, the reliability of Scripture, how we got the Bible, the resurrection, and the problem of evil.',
+    summary: 'The core case for Christianity: truth, God’s existence, science, the Bible, who Jesus is, the resurrection, and the hard questions people ask.',
     sections: [
       {
-        title: 'Core apologetics',
-        description: 'Start here if you are new to apologetics.',
-        topicIds: ['existence-of-god', 'identity-of-jesus', 'reliability-of-scripture', 'how-we-got-the-bible', 'resurrection', 'problem-of-evil'],
+        title: 'Starting points',
+        description: 'Whether truth can be known at all.',
+        topicIds: ['truth-and-relativism'],
+      },
+      {
+        title: 'Does God exist?',
+        description: 'The case for a Creator, and whether science counts against it.',
+        topicIds: ['existence-of-god', 'science-and-faith'],
+      },
+      {
+        title: 'Can we trust the Bible?',
+        description: 'How the Bible came to us and why its record of Jesus is reliable.',
+        topicIds: ['reliability-of-scripture', 'how-we-got-the-bible'],
+      },
+      {
+        title: 'Who is Jesus?',
+        description: 'His claims, the prophecies about him, his resurrection, and whether he is the only way.',
+        topicIds: ['identity-of-jesus', 'fulfilled-prophecy', 'resurrection', 'jesus-only-way'],
+      },
+      {
+        title: 'Hard questions',
+        description: 'The objections people feel most deeply.',
+        topicIds: ['problem-of-evil', 'hard-passages'],
+      },
+      {
+        title: 'In conversation',
+        description: 'How to listen, ask questions and bring the conversation to Jesus.',
+        topicIds: ['having-the-conversation'],
       },
     ],
   },
@@ -20,11 +45,10 @@ export const tracks: Track[] = [
     icon: '☪',
     summary: 'An in-depth course on engaging Muslims: why Islam’s claims fail, why the arguments for it don’t hold, and why Christianity is true.',
     intro: [
-      'Every reference in this specialization comes from only three sources: the Bible, the Quran, and the two hadith collections Sunni Muslims regard as most authentic — Sahih al-Bukhari and Sahih Muslim. These are sources a Muslim cannot simply dismiss. (Where a lesson discusses legends the Quran borrowed from, those works are named for identification, not cited as authorities.)',
+      'The backbone of this specialization is three sources: the Bible, the Quran, and the two hadith collections Sunni Muslims regard as most authentic, Sahih al-Bukhari and Sahih Muslim. These are sources a Muslim cannot simply dismiss. Some lessons also draw on other hadith collections (with their grading shown), classical Muslim commentaries and biographies, and manuscript scholarship. Each is named for what it is, so you know how much weight it carries.',
       'Quran quotations follow the Sahih International translation, and words in [brackets] are the translators’ additions. Hadith numbers follow sunnah.com. Bible quotations follow the Berean Standard Bible. Tap any citation to read the passage.',
       '“Always be prepared to give a defense… But respond with gentleness and respect” (1 Peter 3:15). We critique ideas, never people.',
     ],
-    primarySourcesOnly: true,
     sections: [
       {
         title: 'Start here',
@@ -39,7 +63,7 @@ export const tracks: Track[] = [
       {
         title: 'Reliability of the Quran and hadith',
         description: 'How the Quran was collected and standardised, its internal and historical problems, the legends it borrowed, and why the hadith are on shaky ground.',
-        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
+        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-manuscripts', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
       },
       {
         title: 'Answering the arguments for Islam',

@@ -1,6 +1,15 @@
 import bibleCounts from '../content/data/bible-verse-counts.json';
 
-export type RefKind = 'bible' | 'quran' | 'bukhari' | 'muslim';
+export type RefKind = 'bible' | 'quran' | 'bukhari' | 'muslim' | 'hadith';
+
+/** Other hadith collections that can be cited (display name → sunnah.com slug). Their grading is shown in the popup. */
+export const OTHER_COLLECTIONS: Record<string, string> = {
+  'Sunan Abi Dawud': 'abudawud',
+  'Jami at-Tirmidhi': 'tirmidhi',
+  'Sunan Ibn Majah': 'ibnmajah',
+  'Musnad Ahmad': 'ahmad',
+};
+const otherPattern = Object.keys(OTHER_COLLECTIONS).join('|');
 
 export interface ParsedRef {
   kind: RefKind;
@@ -31,7 +40,7 @@ const bookPattern = [...BIBLE_BOOKS].sort((a, b) => b.length - a.length).map(esc
 
 /** Matches a single citation inside running text. */
 export const CITATION_REGEX = new RegExp(
-  `(Quran \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?|Sahih al-Bukhari \\d{1,4}|Sahih Muslim \\d{1,4}|(?:${bookPattern}) \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?)(?!:?\\d)`,
+  `(Quran \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?|Sahih al-Bukhari \\d{1,4}|Sahih Muslim \\d{1,4}|(?:${otherPattern}) \\d{1,5}|(?:${bookPattern}) \\d{1,3}:\\d{1,3}(?:-\\d{1,3})?)(?!:?\\d)`,
   'g',
 );
 
@@ -45,6 +54,8 @@ export function parseRef(ref: string): ParsedRef | null {
   if (m) return { kind: 'bukhari', url: `https://sunnah.com/bukhari:${m[1]}`, number: Number(m[1]) };
   m = ref.match(/^Sahih Muslim (\d+)$/);
   if (m) return { kind: 'muslim', url: `https://sunnah.com/muslim:${m[1]}`, number: Number(m[1]) };
+  m = ref.match(new RegExp(`^(${otherPattern}) (\\d+)$`));
+  if (m) return { kind: 'hadith', url: `https://sunnah.com/${OTHER_COLLECTIONS[m[1]]}:${m[2]}`, number: Number(m[2]) };
   m = ref.match(new RegExp(`^(${bookPattern}) (\\d+):(\\d+)(?:-(\\d+))?(?:, ?\\d+(?:-\\d+)?)*$`));
   if (m) {
     return {
@@ -63,6 +74,7 @@ export const KIND_LABEL: Record<RefKind, string> = {
   quran: 'Quran',
   bukhari: 'Hadith',
   muslim: 'Hadith',
+  hadith: 'Hadith',
 };
 
 export interface Segment {
@@ -94,7 +106,7 @@ export function segmentCitations(text: string): Segment[] {
       const tok = m[2];
       let ref: string | null = null;
       if (prev.kind === 'quran' && tok.includes(':')) ref = `Quran ${tok}`;
-      else if ((prev.kind === 'bukhari' || prev.kind === 'muslim') && /^\d+$/.test(tok)) ref = prevText.replace(/\d+$/, tok);
+      else if ((prev.kind === 'bukhari' || prev.kind === 'muslim' || prev.kind === 'hadith') && /^\d+$/.test(tok)) ref = prevText.replace(/\d+$/, tok);
       else if (prev.kind === 'bible') {
         const book = prevText.replace(/ \d+:.*$/, '');
         ref = tok.includes(':') ? `${book} ${tok}` : `${book} ${chapter}:${tok}`;
