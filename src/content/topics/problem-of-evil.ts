@@ -41,7 +41,7 @@ export const problemOfEvil: Topic = {
       body: [
         'Every view of the world has to say something about suffering, so it is fair to compare answers.',
         'If there is no God, there is no one to blame and no one to appeal to. Suffering is simply what happens in an indifferent universe, and our sense that it ought not to be so is a feeling with nothing behind it.',
-        'If the law of karma is true, people suffer because of what they did in an earlier life. The sufferer is getting what is deserved.',
+        'If the law of karma is true, suffering is the fruit of a person’s own past actions, in this life or an earlier one. The sufferer is reaping what was sown.',
         'Christianity says that evil is real and is not how things were meant to be; that God is against it; that he entered it himself; and that he will end it. Of the three, only this one takes both the horror of evil and the worth of the sufferer with full seriousness.',
       ],
     },

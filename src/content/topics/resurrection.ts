@@ -49,8 +49,8 @@ export const resurrection: Topic = {
     {
       heading: 'What changed the disciples?',
       body: [
-        'On the evening after the crucifixion the disciples were behind locked doors, afraid (John 20:19). Weeks later the same men were preaching in the temple courts, and told the council that had killed Jesus, “We must obey God rather than men” (Acts 5:29). The authorities noticed their boldness (Acts 4:13).',
-        'Devout Jews began meeting to worship on the first day of the week, not the Sabbath. James, who had not believed in his brother, became a leader of the church. Paul turned from hunting Christians to planting churches.',
+        'Two days after the crucifixion the disciples were behind locked doors, afraid (John 20:19). Weeks later the same men were preaching in the temple courts, and told the council that had killed Jesus, “We must obey God rather than men” (Acts 5:29). The authorities noticed their boldness (Acts 4:13).',
+        'Devout Jews began meeting to worship on the first day of the week, the day he rose. James, who had not believed in his brother, became a leader of the church. Paul turned from hunting Christians to planting churches.',
         'Each of them gave the same explanation: they had seen Jesus alive.',
       ],
       references: ['John 20:19', 'Acts 4:13', 'Acts 5:29', '1 Corinthians 15:7-8'],
@@ -115,16 +115,16 @@ export const resurrection: Topic = {
       keyPoints: ['It makes the disciples knowing frauds.', 'People do not suffer and die for what they know is false.', 'It does not explain Paul or James.'],
       references: ['Matthew 28:12-13', '1 Corinthians 15:7-8'],
       followUps: [
-        { reply: 'Then someone else moved the body.', answer: 'Whoever moved it could have said so once the preaching began, and the authorities had every reason to find out. And a missing body explains only an empty tomb. It does not explain why so many people, including enemies, became convinced they had seen him alive.' },
+        { reply: 'Then someone else moved the body.', answer: 'Whoever moved it could have said so once the preaching began, and the authorities had every reason to find out. And a missing body explains only an empty tomb. It does not explain why so many people, including a persecutor and a sceptic, became convinced they had seen him alive.' },
       ],
     },
     {
       id: 'res-5',
       objection: 'The resurrection story is a legend that grew over time.',
       response:
-        'Legends need time, and here there is none. The summary Paul quotes in 1 Corinthians 15:3-8 was handed to him within a few years of the event, and it already contains the death, the burial, the resurrection and a list of named witnesses. It was circulating while those witnesses, and plenty of hostile ones, were alive to contradict it. The Gospel accounts are also strikingly plain: none of them describes the resurrection itself.',
+        'Legends need time, and here there is none. The summary Paul quotes in 1 Corinthians 15:3-7 was handed to him within a few years of the event, and it already contains the death, the burial, the resurrection and a list of named witnesses. It was circulating while those witnesses, and plenty of hostile ones, were alive to contradict it. The Gospel accounts are also strikingly plain: none of them describes the resurrection itself.',
       keyPoints: ['The creed dates to within a few years.', 'Named witnesses were alive.', 'The accounts are restrained, not embroidered.'],
-      references: ['1 Corinthians 15:3-8'],
+      references: ['1 Corinthians 15:3-7'],
       followUps: [
         { reply: 'Stories get exaggerated every time they are retold.', answer: 'They can, which is why the date matters. Compare the later, apocryphal gospels, where the embroidery is obvious. The earliest material is the barest: he died, he was buried, he was raised, he appeared.' },
       ],
@@ -137,7 +137,7 @@ export const resurrection: Topic = {
       keyPoints: ['The women saw where he was laid.', 'The owner of the tomb was known.', 'The authorities could have corrected the mistake.'],
       references: ['Mark 15:47', 'Mark 15:43'],
       followUps: [
-        { reply: 'In their grief they could have been confused.', answer: 'Perhaps for a morning. But Peter and John went to check (John 20:3-8), and the question would have been settled by anyone who cared to look. The preaching went on for decades in the same city.' },
+        { reply: 'In their grief they could have been confused.', answer: 'Perhaps for a morning. But Peter and another disciple went to check and found the grave-cloths lying there (John 20:3-8), and the question could have been settled by anyone who cared to look. The preaching went on for decades in the same city.' },
       ],
     },
   ],

@@ -57,7 +57,7 @@ export const existenceOfGod: Topic = {
     {
       heading: 'Why is there anything at all?',
       body: [
-        'The Kalam argument depends on the universe having a beginning. A second argument does not. Everything we know of exists either because it must, by its own nature, or because something else explains it. A triangle has three sides by its own nature. A house exists because someone built it.',
+        'The Kalam argument depends on the universe having a beginning. A second argument does not. Everything we know of exists either because it must, by its own nature, or because something else explains it. If numbers exist, they exist by necessity: nothing made the number seven. A house, by contrast, exists because someone built it.',
         'The universe is not the kind of thing that has to exist. It could have been different, or not been at all. So its existence calls for an explanation outside itself: something that exists by its own nature, beyond space, time and matter. That is what people have always meant by God.',
         'This holds even if the universe had no first moment. A chain of causes stretching back for ever would still leave the question of why there is a chain.',
       ],
@@ -171,7 +171,7 @@ export const existenceOfGod: Topic = {
       keyPoints: ['Ask what would count as evidence.', 'List the evidence: beginning, fine-tuning, morality, mind, Jesus.', 'Unpersuaded is not the same as no evidence.'],
       references: ['Romans 1:20', 'Acts 17:30-31'],
       followUps: [
-        { reply: 'If God existed, he would make himself obvious.', answer: 'He has made himself known in creation and conscience (Romans 1:20), and came in person in Jesus. What he has not done is force himself on anyone. A God who wants to be loved, not merely acknowledged, leaves room for a person to turn away.' },
+        { reply: 'If God existed, he would make himself obvious.', answer: 'He has made himself known in creation (Romans 1:20) and in conscience, and came in person in Jesus. What he has not done is force himself on anyone. A God who wants to be loved, not merely acknowledged, leaves room for a person to turn away.' },
       ],
     },
   ],

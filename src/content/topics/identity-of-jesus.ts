@@ -39,7 +39,7 @@ export const identityOfJesus: Topic = {
       body: [
         'The idea that Jesus was made divine centuries later runs into the earliest Christian writings we have. Paul’s letters were written within about twenty to thirty years of the crucifixion, and they quote hymns and confessions that are older still.',
         'One of them takes Israel’s daily confession that there is one God and places Jesus inside it: “for us there is but one God, the Father, from whom all things came… And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6). Another says that Jesus existed in the form of God and that every knee will bow to him (Philippians 2:6-11), which is how Isaiah speaks of the LORD alone.',
-        'Paul even preserves a prayer to Jesus in Aramaic, the language of the first believers in Jerusalem: “Come, O Lord!” (1 Corinthians 16:22). And a Roman governor, Pliny, reported to the emperor around AD 112 that Christians met before dawn to sing a hymn to Christ as to a god.',
+        'Paul even preserves a prayer to Jesus in Aramaic, the language of the first believers in Jerusalem: Maranatha, “Come, O Lord!” (1 Corinthians 16:22). And a Roman governor, Pliny, reported to the emperor around AD 112 that Christians met before dawn to sing a hymn to Christ as to a god.',
         'These were Jews, raised to worship one God only. Something drove them to worship Jesus within a few years of his death.',
       ],
       references: ['1 Corinthians 8:6', 'Philippians 2:6-11', '1 Corinthians 16:22'],
@@ -112,7 +112,7 @@ export const identityOfJesus: Topic = {
       id: 'joj-5',
       objection: 'Jesus was only declared to be God at the Council of Nicaea, three hundred years later.',
       response:
-        'Nicaea was called because a teacher named Arius had begun to deny what the churches already confessed. The New Testament calls Jesus God (John 1:1; 20:28), Paul’s earliest letters place him alongside the Father as the one Lord through whom all things were made (1 Corinthians 8:6), and a Roman governor two centuries before Nicaea reported Christians singing to Christ as to a god. The council put an old belief into careful words. It did not create it.',
+        'Nicaea was called because a teacher named Arius had begun to deny what the churches already confessed. The New Testament calls Jesus God (John 1:1; 20:28), Paul’s early letters place him alongside the Father as the one Lord through whom all things were made (1 Corinthians 8:6), and a Roman governor two centuries before Nicaea reported Christians singing to Christ as to a god. The council put an old belief into careful words. It did not create it.',
       keyPoints: ['Nicaea answered Arius; it did not invent the belief.', 'The New Testament already calls Jesus God.', 'Worship of Jesus is attested from the start.'],
       references: ['John 1:1', 'John 20:28', '1 Corinthians 8:6'],
       followUps: [

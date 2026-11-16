@@ -79,7 +79,7 @@ export const havingTheConversation: Topic = {
       keyPoints: ['God opens hearts; he uses means.', 'The apostles reasoned and gave evidence.', 'Arguments remove obstacles.'],
       references: ['Acts 17:2-3', '1 Peter 3:15', '1 Corinthians 2:4-5'],
       followUps: [
-        { reply: 'Paul said he did not use persuasive words of wisdom.', answer: 'He was refusing to rely on showy rhetoric, not on reasons: the same Paul reasoned in every synagogue and argued his case before governors (Acts 26:28-29). He wanted faith to rest on God’s power, and one way God’s power works is through the truth plainly explained.' },
+        { reply: 'Paul said he did not use persuasive words of wisdom.', answer: 'He was refusing to rely on showy rhetoric, not on reasons: the same Paul reasoned in the synagogues and argued his case before governors and a king (Acts 26:28-29). He wanted faith to rest on God’s power, and one way God’s power works is through the truth plainly explained.' },
       ],
     },
     {

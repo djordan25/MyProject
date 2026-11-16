@@ -47,7 +47,7 @@ export const reliabilityOfScripture: Topic = {
       heading: 'Names, places and titles',
       body: [
         'The Gospels and Acts are full of the kind of detail that is easy to get wrong from a distance: the names of villages, the layout of Jerusalem, local customs, and the exact titles of officials, which differed from city to city and changed over time.',
-        'Luke dates the start of John the Baptist’s ministry by six rulers at once (Luke 3:1). He calls Gallio “proconsul of Achaia” (Acts 18:12), and an inscription found at Delphi confirms both the title and the date, about AD 51. Even the personal names in the Gospels match the names that were most common among Jews in Palestine at that time, which differ from those common among Jews elsewhere.',
+        'Luke dates the start of John the Baptist’s ministry by five rulers at once (Luke 3:1). He calls Gallio “proconsul of Achaia” (Acts 18:12), and an inscription found at Delphi confirms the title and dates his term to about AD 51. Even the personal names in the Gospels match the names that were most common among Jews in Palestine at that time, which differ from those common among Jews elsewhere.',
         'Writers who are careful about what we can check have earned a hearing on what we cannot.',
       ],
       references: ['Luke 3:1', 'Acts 18:12', 'Luke 1:1-4'],
@@ -55,7 +55,7 @@ export const reliabilityOfScripture: Topic = {
     {
       heading: 'Paul as an early cross-check',
       body: [
-        'Even apart from the Gospels, Paul’s letters, written within twenty to thirty years of the crucifixion, confirm the outline of Jesus’ life. He was born of a woman, under the Jewish law (Galatians 4:4), and descended from David (Romans 1:3). He had a brother named James, whom Paul met (Galatians 1:19). He was crucified, buried and raised, and appeared to many (1 Corinthians 15:3-8).',
+        'Even apart from the Gospels, Paul’s letters, written within twenty to thirty years of the crucifixion, confirm the outline of Jesus’ life. He was born of a woman, under the Jewish law (Galatians 4:4), and descended from David (Romans 1:3). He had a brother named James, whom Paul met (Galatians 1:19). He died, was buried and was raised, and appeared to many (1 Corinthians 15:3-8).',
         'Paul did not get this from the Gospels, which were written later. It is an independent, earlier line of evidence that agrees with them.',
       ],
       references: ['Galatians 4:4', 'Romans 1:3', 'Galatians 1:19', '1 Corinthians 15:3-8'],
@@ -122,7 +122,7 @@ export const reliabilityOfScripture: Topic = {
       id: 'ros-5',
       objection: 'The Gospels are anonymous. Nobody knows who wrote them.',
       response:
-        'The authors do not name themselves in the text, which was normal for that kind of writing. But no copy that has a title names anyone other than Matthew, Mark, Luke or John, and Christian writers from early in the second century onward give the same four names. Notice which names they are. Mark and Luke were not apostles. If the church had been inventing authors to win authority, it would have chosen Peter or James.',
+        'The authors do not name themselves in the text, which was normal for that kind of writing. But no copy that has a title names anyone other than Matthew, Mark, Luke or John. Papias, early in the second century, already names Mark and Matthew, and by about AD 180 Irenaeus names all four. Notice which names they are. Mark and Luke were not apostles. If the church had been inventing authors to win authority, it would have chosen Peter or James.',
       keyPoints: ['Formally anonymous, like much ancient writing.', 'The titles and early testimony are unanimous.', 'Nobody invents Mark and Luke as authors.'],
       references: ['Luke 1:1-4'],
       followUps: [
@@ -133,10 +133,10 @@ export const reliabilityOfScripture: Topic = {
       id: 'ros-6',
       objection: 'Scholars like Bart Ehrman have shown the Bible can’t be trusted.',
       response:
-        'It helps to ask which claim. Ehrman is a serious scholar, and he is firm on several points that surprise people: that Jesus certainly existed, that he was crucified under Pilate, and that his followers soon believed they had seen him alive. On the text itself, he has acknowledged that the differences among manuscripts do not overturn any essential Christian belief. Where he parts company with Christians is on whether miracles can be accepted as history, and that is a question of philosophy, not of manuscripts.',
-      keyPoints: ['Ask which specific claim.', 'Ehrman affirms Jesus’ existence and crucifixion.', 'His rejection of miracles is philosophical.'],
+        'It helps to ask which claim. Ehrman is a serious scholar, and he is firm on several points that surprise people: that Jesus certainly existed, that he was crucified under Pilate, and that his followers soon believed they had seen him alive. On the text itself, he has acknowledged that the differences among manuscripts do not overturn any essential Christian belief. He does dispute who wrote the Gospels and argues that they contradict one another, and those points can be taken one at a time. His deepest disagreement with Christians is over whether a miracle can ever be accepted as history, and that is a question of philosophy, not of manuscripts.',
+      keyPoints: ['Ask which specific claim.', 'Ehrman affirms Jesus’ existence and crucifixion.', 'His deepest objection, to miracles, is philosophical.'],
       followUps: [
-        { reply: 'He says there are more variants than words in the New Testament.', answer: 'There are, because there are so many copies. Nearly all are differences of spelling or word order. The handful that affect the meaning of a passage are marked in any modern Bible, and none of them touches what Christians believe about Jesus.' },
+        { reply: 'He says there are more variants than words in the New Testament.', answer: 'There are, because there are so many copies. Nearly all are differences of spelling or word order. Of the small fraction that affect meaning, the main ones are footnoted in any modern Bible, and no core Christian teaching depends on a disputed reading.' },
       ],
     },
   ],
@@ -184,7 +184,7 @@ export const reliabilityOfScripture: Topic = {
     {
       id: 'ros-q6',
       question: 'What does the Gallio inscription from Delphi confirm?',
-      options: ['The date of Jesus’ birth', 'Luke’s title for Gallio in Acts 18:12, and its date', 'The authorship of Mark', 'The location of the empty tomb'],
+      options: ['The date of Jesus’ birth', 'Luke’s title for Gallio in Acts 18:12, and when he held it', 'The authorship of Mark', 'The location of the empty tomb'],
       answer: 1,
       explanation: 'It also helps date Paul’s time in Corinth to about AD 51.',
     },
