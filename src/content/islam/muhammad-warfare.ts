@@ -60,11 +60,17 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'Read the history. The Byzantines were massing against the Muslims, and that is why the Prophet marched to Tabuk. The Quran’s rule is plain: “Fight in the way of Allah those who fight you but do not transgress” (Quran 2:190).',
-              answer: 'Ibn Ishaq’s biography says Muhammad gave orders “to raid the Byzantines”, and it records no battle at Tabuk. He stayed some ten nights, took the poll tax from Ayla, Jarba and Adhruh, and went home. Those towns had not attacked Medina. That is Quran 9:29 carried out as it is written. Quran 2:190 is an earlier verse, and Surah 9, the last surah to be revealed (Sahih al-Bukhari 4605), gives a different ground for fighting: unbelief.',
+              answer: 'Ibn Ishaq’s biography says Muhammad gave orders “to raid the Byzantines”, and it records no battle at Tabuk. He stayed some ten nights, took the poll tax from Ayla, Jarba and Adhruh, and went home, and nothing is said of those towns attacking Medina. That is Quran 9:29 carried out as it is written. Quran 2:190 is an earlier verse, and Surah 9, the last surah to be revealed (Sahih al-Bukhari 4605), gives a different ground for fighting: unbelief.',
               followUps: [
                 {
                   reply: 'The jurists who made that a standing rule lived in an age of empires at war. Many scholars today, at al-Azhar and elsewhere, teach that jihad is defensive. You are choosing the extremists’ reading.',
                   answer: 'I am glad that many Muslims read it that way, and I do not think you want war. My question is about Muhammad, because he is the pattern (Quran 33:21). His standing orders to his commanders were to invite the enemy to Islam, then to demand the jizya, and then, “If they refuse to pay the tax, seek Allah’s help and fight them” (Sahih Muslim 1731). All the other side has done in that hadith is decline. And the men who knew him best conquered Syria, Egypt and Persia within about twenty years of his death: either they misunderstood him, or that is what he taught.',
+                  followUps: [
+                    {
+                      reply: 'Those conquests freed people from Byzantine and Persian tyranny. Many Christians in Syria and Egypt welcomed the Muslims.',
+                      answer: 'Some Christians who had suffered under Constantinople may well have preferred their new rulers, and historians debate how many. But that defends the conquests as good for the conquered. It no longer says they were self-defence, which is where we began. And the peoples who were freed were then offered the terms of Quran 9:29: the jizyah, paid “while they are humbled”.',
+                    },
+                  ],
                 },
               ],
             },
@@ -178,7 +184,7 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'By the standards of the seventh century, treason meant death. And the figure of six to nine hundred comes from Ibn Ishaq, whom Malik distrusted. Scholars such as W. N. Arafat doubt the whole account.',
-              answer: 'The number is uncertain, and one sound hadith says four hundred (Jami at-Tirmidhi 1582). Arafat did argue, in 1976, that the story grew in the telling. But the event does not rest on Ibn Ishaq: the Quran says “a party you killed, and you took captive a party” (Quran 33:26), and Bukhari records the sentence and Muhammad’s approval of it (Sahih al-Bukhari 3043). As for the standards of the time, that defence gives up the claim that he is the pattern for all time (Quran 33:21).',
+              answer: 'The number is uncertain, and one sound hadith says four hundred (Jami at-Tirmidhi 1582). Arafat did argue, in 1976, that the traditional account cannot be trusted. But the event does not rest on Ibn Ishaq: the Quran says “a party you killed, and you took captive a party” (Quran 33:26), and Bukhari records the sentence and Muhammad’s approval of it (Sahih al-Bukhari 3043). As for the standards of the time, that defence gives up the claim that he is the pattern for all time (Quran 33:21).',
             },
             {
               reply: 'Deuteronomy 20 lays down that very sentence: the men put to the sword, the women and children taken. If it was just for Moses, it was just for Muhammad.',

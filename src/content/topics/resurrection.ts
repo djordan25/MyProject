@@ -91,7 +91,7 @@ export const resurrection: Topic = {
           ],
         },
         {
-          reply: 'Each case has its own psychology. Peter was crushed by guilt after denying Jesus. Paul was a tormented persecutor ripe for a breakdown. James was grieving his brother. Gerd Lüdemann has argued this in detail.',
+          reply: 'Each case has its own psychology. Peter was crushed by guilt after denying Jesus. Paul was a tormented persecutor ripe for a breakdown. James was grieving his brother. Gerd Lüdemann has argued the first two in detail.',
           answer: 'Notice that one explanation has now become three or four, each fitted to a different person. We cannot put people on the couch across two thousand years, and what evidence we have points the other way. Paul describes his old self as confident, not tormented: “as to zeal, persecuting the church; as to righteousness in the law, faultless” (Philippians 3:5-6). James had not believed in his brother at all (John 7:5), and a man who has rejected someone is not primed to see him. And when every diagnosis has been made, the tomb is still empty.',
         },
       ],

@@ -59,7 +59,7 @@ export const muhammadInBible: Topic = {
                   followUps: [
                     {
                       reply: 'Muhammad did work miracles. The moon was split for the people of Mecca, and the Quran itself is his greatest sign.',
-                      answer: 'The hadith do report the splitting of the moon (Sahih al-Bukhari 3637), and I won’t pretend they don’t. But when the Quran records people asking him for a sign, its answer is that he is only a warner (Quran 13:7; 29:50). Those two do not sit easily together. And Deuteronomy’s measure is more than a wonder. It is a man with whom God speaks face to face (Numbers 12:8), while the Quran says Allah speaks to no human being except by revelation, from behind a partition or through a messenger (Quran 42:51). Jesus said of Moses, “he wrote about Me” (John 5:46), and Peter named Jesus as that prophet within weeks of the resurrection (Acts 3:22-26).',
+                      answer: 'The hadith do report the splitting of the moon (Sahih al-Bukhari 3637), and I won’t pretend they don’t. But when the Quran records people asking him for a sign, its answer is that he is only a warner (Quran 13:7; 29:50). Those two do not sit easily together. And Deuteronomy’s measure is more than a wonder. It is a man with whom God speaks face to face (Numbers 12:8), while the Quran says Allah speaks to no human being except by revelation, from behind a partition or through a messenger (Quran 42:51). Jesus said of Moses, “he wrote about Me” (John 5:46), and Peter named Jesus as that prophet soon after the resurrection (Acts 3:22-26).',
                     },
                   ],
                 },
@@ -175,7 +175,7 @@ export const muhammadInBible: Topic = {
         },
         {
           reply: 'Isaiah is not alone. Moses said the LORD came from Sinai, dawned from Seir and shone from Mount Paran with ten thousand holy ones (Deuteronomy 33:2). Sinai is Moses, Seir is Jesus, and Paran is Mecca, which Muhammad entered with ten thousand men.',
-          answer: 'Read the verse where it stands. Moses is blessing the tribes before his death and looking back: the LORD came, dawned and shone forth. All three describe one event, God coming to Israel to give “the law that Moses gave us” (Deuteronomy 33:4). Seir and Paran lie on Israel’s desert road. The people camped in the Wilderness of Paran on the way from Sinai (Numbers 10:12; 13:26). Jesus had nothing to do with Seir, which is Edom. And the holy ones come with the LORD himself. The verse names no prophet at all.',
+          answer: 'Read the verse where it stands. Moses is blessing the tribes before his death and looking back on one event, God coming to Israel to give “the law that Moses gave us” (Deuteronomy 33:4). Seir and Paran lie on Israel’s desert road: the people camped in the Wilderness of Paran on the way from Sinai (Numbers 10:12; 13:26). Jesus had nothing to do with Seir, which is Edom. And the holy ones come with the LORD himself, so the verse names no prophet at all.',
           followUps: [
             {
               reply: 'Genesis says Ishmael lived in the Wilderness of Paran (Genesis 21:21). Ishmael settled in Mecca, so Paran is Mecca.',
@@ -223,8 +223,8 @@ export const muhammadInBible: Topic = {
     {
       id: 'mb-q5',
       question: 'Which two Quran verses lead Muslims to look for Muhammad in the Bible?',
-      options: ['Quran 2:23 and 17:88', 'Quran 7:157 and 61:6', 'Quran 4:157 and 4:171', 'Quran 30:2 and 30:4'],
-      answer: 1,
+      options: ['Quran 2:23 and 17:88', 'Quran 30:2 and 30:4', 'Quran 4:157 and 4:171', 'Quran 7:157 and 61:6'],
+      answer: 3,
       explanation: 'Quran 7:157 says he is found written in the Torah and the Gospel, and Quran 61:6 has Jesus foretell a messenger named Ahmad.',
     },
     {
@@ -255,12 +255,12 @@ export const muhammadInBible: Topic = {
       id: 'mb-q8',
       question: 'A Muslim points out that Deuteronomy calls the Edomites Israel’s “brothers” (Deuteronomy 2:4). What is the honest answer?',
       options: [
-        'Deny it; the verse does not say that',
         'Grant it, then show that Deuteronomy never calls the Ishmaelites brothers and that the prophet comes “from your midst”',
+        'Deny it; the verse does not say that',
         'Say that Deuteronomy was written after Muhammad',
         'Say that the Edomites were Israelites',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'Concede what is true. The promise is still tied to Israel (Deuteronomy 18:15-18), and Israel’s king had to be a brother and not a foreigner (Deuteronomy 17:15).',
     },
     {
@@ -273,8 +273,8 @@ export const muhammadInBible: Topic = {
     {
       id: 'mb-q10',
       question: 'Ibn Ishaq, the earliest biographer of Muhammad, quotes John 15 about the coming Comforter. What does he say the Greek word is?',
-      options: ['Periklytos', 'Paraclete', 'Christos', 'Ahmad'],
-      answer: 1,
+      options: ['Periklytos', 'Ahmad', 'Christos', 'Paraclete'],
+      answer: 3,
       explanation: 'He writes that “in Greek he is the paraclete”. The earliest Muslim witness knew the word as parakletos.',
     },
     {
@@ -288,12 +288,12 @@ export const muhammadInBible: Topic = {
       id: 'mb-q12',
       question: 'According to John 16:14, what will the Advocate do?',
       options: [
-        'Bring a new law to replace the Gospel',
         'Glorify Jesus by taking what belongs to Jesus and making it known',
+        'Bring a new law to replace the Gospel',
         'Lead an army against idol-worshippers',
         'Correct the mistakes of the disciples',
       ],
-      answer: 1,
+      answer: 0,
       explanation: '“He will glorify Me by taking from what is Mine and disclosing it to you” (John 16:14). Muhammad’s message denies that Jesus is the Son.',
     },
     {
@@ -311,8 +311,8 @@ export const muhammadInBible: Topic = {
     {
       id: 'mb-q14',
       question: 'Who is the warrior in Isaiah 42:13?',
-      options: ['The servant of verses 1 to 4', 'The LORD himself', 'The king of Kedar', 'Cyrus of Persia'],
-      answer: 1,
+      options: ['The servant of verses 1 to 4', 'Cyrus of Persia', 'The king of Kedar', 'The LORD himself'],
+      answer: 3,
       explanation: '“The LORD goes forth like a mighty one” (Isaiah 42:13). The servant does not cry out or raise his voice (Isaiah 42:2).',
     },
     {
@@ -344,11 +344,11 @@ export const muhammadInBible: Topic = {
       question: 'Some Muslims say “spirit” in 1 John 4:1 means a prophet, so the Spirit of truth is a man. What test does John give in the next verses?',
       options: [
         'Whether the prophet brings a written book',
-        'Whether the spirit confesses that Jesus Christ has come in the flesh',
         'Whether the prophet is descended from Abraham',
+        'Whether the spirit confesses that Jesus Christ has come in the flesh',
         'Whether the prophet works miracles',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'See 1 John 4:2-3, and “Whoever denies the Son does not have the Father” (1 John 2:23).',
     },
     {

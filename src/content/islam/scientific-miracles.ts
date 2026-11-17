@@ -56,11 +56,11 @@ export const scientificMiracles: Topic = {
           followUps: [
             {
               reply: 'The Arabic word is an active participle: “We are expanding it”, a continuing action. Nobody in the seventh century imagined that the heavens were growing.',
-              answer: 'The same word is used in Quran 2:236 for a wealthy man, one of ample means. So the Jalalayn commentary glosses it “We are powerful”, and Ibn Kathir explains it as “We made it vast”. Maududi, a modern commentator, gives both meanings. If we take “expander” anyway, the Bible said as much long before: God “stretches out the heavens like a curtain” (Isaiah 40:22). I do not claim that Isaiah foresaw modern cosmology. He was picturing a tent being pitched. The same reading fits the Quran, which goes straight on to the earth being spread out (Quran 51:48).',
+              answer: 'The same word is used in Quran 2:236 for a wealthy man, one of ample means. So the Jalalayn commentary glosses it “We are powerful”, Ibn Kathir explains it as “We made it vast”, and Maududi, a modern commentator, gives both meanings. If we take “expander” anyway, the Bible said as much long before: God “stretches out the heavens like a curtain” (Isaiah 40:22). Isaiah was picturing a tent being pitched, not modern cosmology. The same reading fits the Quran, which goes straight on to the earth being spread out (Quran 51:48).',
               followUps: [
                 {
                   reply: 'Then explain how one book holds so many of these. The heaven was once smoke (Quran 41:11). Every living thing was made from water (Quran 21:30). No human could have known all that.',
-                  answer: 'Each was already said or easily seen. That life depends on water is plain to anyone in a desert, and Greek thinkers had called water the source of all things more than a thousand years earlier. And look at the order in the smoke passage. The earth is made in two days and given its mountains and its food in four. Then Allah turns to the heaven while it is smoke, makes seven heavens and sets lamps in the nearest (Quran 41:9-12). The earth comes before the stars. In fact the stars are older than the earth by billions of years. Reading these verses as science does the Quran no favour.',
+                  answer: 'Each was already said or easily seen. That life depends on water is plain to anyone in a desert, and Greek thinkers had called water the source of all things more than a thousand years earlier. And look at the order in the smoke passage: the earth is made and given its mountains and its food, and only then does Allah turn to the heaven while it is smoke, make seven heavens and set lamps in the nearest (Quran 41:9-12). The earth comes before the stars, when in fact the stars are older than the earth by billions of years. Reading these verses as science does the Quran no favour.',
                 },
               ],
             },
@@ -72,7 +72,7 @@ export const scientificMiracles: Topic = {
           followUps: [
             {
               reply: 'How would an unlettered man in Mecca have read a Greek medical book? And the Quran’s terms are more exact than Galen’s. Alaqah means a thing that clings, like a leech, which is what the early embryo looks like.',
-              answer: 'He did not need to read it. Galen says his stages are what is seen “in abortions and in dissections”, and every community that loses pregnancies and slaughters animals has seen as much. Ideas like these travelled as common knowledge. As for alaqah, the classical commentators took it as a clot of blood. The Jalalayn commentary says so, and the hadith adds that the drop, the clot and the lump last forty days each (Sahih al-Bukhari 3208). The embryo is never a clot of blood, and at four months it is far beyond a shapeless lump. The leech comparison became popular with Moore’s edition.',
+              answer: 'He did not need to read it. Galen says his stages are what is seen “in abortions and in dissections”, and every community that loses pregnancies and slaughters animals has seen as much. As for alaqah, the classical commentators took it as a clot of blood, as the Jalalayn commentary says, and the hadith adds that the drop, the clot and the lump last forty days each (Sahih al-Bukhari 3208). The embryo is never a clot of blood, and at four months it is far beyond a shapeless lump. The leech comparison comes from modern writers.',
               followUps: [
                 {
                   reply: 'That hadith is misread. Another says the angel comes to shape the child after forty-two nights (Sahih Muslim 2645), which is close to what embryologists say.',
@@ -100,7 +100,7 @@ export const scientificMiracles: Topic = {
           followUps: [
             {
               reply: 'Classical scholars said the same long before modern science. The Jalalayn commentary says the setting in a spring is as it appeared to the eye, and Ibn Kathir calls the idea of reaching the place where the sun sets impossible.',
-              answer: 'They did, and I grant it. Educated Muslims of the fourteenth and fifteenth centuries knew the sun was far larger than the earth. That is why I do not rest the case on the verse. I rest it on what Muhammad said. A report graded sound in its chain has him ask Abu Dharr at sunset where the sun sets, and answer, “It sets in a spring of warm water” (Sunan Abi Dawud 4002). In the two Sahih collections he says it travels until it prostrates under the Throne and asks leave to rise again (Sahih al-Bukhari 3199; Sahih Muslim 159). The later commentators had better astronomy than the hadith they were explaining.',
+              answer: 'They did, and I grant it. Educated Muslims of the fourteenth and fifteenth centuries knew the sun was far larger than the earth, which is why I rest the case on what Muhammad said and not on the verse. A report graded sound in its chain has him ask Abu Dharr at sunset where the sun sets, and answer, “It sets in a spring of warm water” (Sunan Abi Dawud 4002). In the two Sahih collections he says it travels until it prostrates under the Throne and asks leave to rise again (Sahih al-Bukhari 3199; Sahih Muslim 159). The later commentators had better astronomy than the hadith they were explaining.',
               followUps: [
                 {
                   reply: 'The prostration of the sun belongs to the unseen. Everything prostrates to Allah in its own way. The hadith does not say the sun stops or leaves the sky.',
@@ -191,18 +191,18 @@ export const scientificMiracles: Topic = {
       question: 'Which ancient physician described the unborn child developing in stages, from semen to a blood-filled mass to formed limbs, centuries before the Quran?',
       options: ['Galen', 'Ptolemy', 'Euclid', 'Avicenna'],
       answer: 0,
-      explanation: 'Galen wrote On Semen in the second century. Avicenna lived four centuries after Muhammad.',
+      explanation: 'Galen wrote On Semen in the second century, about five hundred years before the Quran.',
     },
     {
       id: 'sm-q6',
       question: 'What purpose does the Quran give for the mountains (Quran 16:15; 21:31)?',
       options: [
         'To mark the borders of nations',
-        'To keep the earth from shifting',
-        'To store water for the rivers',
         'To hold up the sky',
+        'To store water for the rivers',
+        'To keep the earth from shifting',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'In fact mountain ranges rise where the earth’s crust is moving, and those regions have the most earthquakes.',
     },
     {
@@ -234,19 +234,19 @@ export const scientificMiracles: Topic = {
       question: 'According to Sunan Abi Dawud 4002, what did Muhammad tell Abu Dharr about the setting sun?',
       options: [
         'That it never really sets',
-        'That it sets in a spring of warm water',
         'That the earth turns away from it',
+        'That it sets in a spring of warm water',
         'That it is swallowed by the moon',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'The report is graded sound in its chain. Compare Sahih al-Bukhari 3199, where the sun goes to prostrate under the Throne.',
     },
     {
       id: 'sm-q10',
       question: 'According to Sahih al-Bukhari 3208, how long does each of the first three stages in the womb last?',
-      options: ['Seven days', 'Forty days', 'Nine months', 'One night'],
-      answer: 1,
-      explanation: 'Forty days as a drop, then as a clot, then as a lump: about four months before the form is complete. An embryo is far more developed than that at four months.',
+      options: ['Seven days', 'One night', 'Nine months', 'Forty days'],
+      answer: 3,
+      explanation: 'Forty days as a drop, forty as a clot, forty as a lump. A real embryo has a beating heart and limbs long before the end of that time.',
     },
     {
       id: 'sm-q11',
@@ -264,12 +264,12 @@ export const scientificMiracles: Topic = {
       id: 'sm-q12',
       question: 'A Muslim says the Bible is unscientific because it teaches six days of creation and a great flood. What is the best answer?',
       options: [
-        'Deny that the Bible mentions either',
         'Point out that the Quran teaches both as well, so they cannot count against the Bible alone',
+        'Deny that the Bible mentions either',
         'Say that science is always wrong',
         'Say that only the New Testament matters',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'Six days: Quran 7:54. Noah’s long life and the flood: Quran 29:14.',
     },
     {
@@ -277,11 +277,11 @@ export const scientificMiracles: Topic = {
       question: 'What does Sahih al-Bukhari 3320 say to do if a fly falls into your drink?',
       options: [
         'Pour the drink away',
-        'Dip the fly in fully, because one wing has a disease and the other the cure',
-        'Boil the drink before drinking it',
         'Give the drink to an animal',
+        'Boil the drink before drinking it',
+        'Dip the fly in fully, because one wing has a disease and the other the cure',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'A Muslim who argues from scientific miracles must accept the same scrutiny of the hadith.',
     },
     {
@@ -313,11 +313,11 @@ export const scientificMiracles: Topic = {
       question: 'Isaiah 40:22 says God “stretches out the heavens like a curtain”. How is that useful when a Muslim cites Quran 51:47 as the expanding universe?',
       options: [
         'It proves the Bible contains the Big Bang',
-        'It shows that the same picture is found centuries earlier, where it plainly means pitching a tent, not astrophysics',
         'It shows Isaiah copied the Quran',
+        'It shows that the same picture is found centuries earlier, where it plainly means pitching a tent, not astrophysics',
         'It proves the heavens are made of cloth',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'Christians do not claim a scientific miracle for Isaiah. The same plain reading fits Quran 51:47-48.',
     },
     {

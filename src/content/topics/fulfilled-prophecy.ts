@@ -82,7 +82,7 @@ export const fulfilledProphecy: Topic = {
           ],
         },
         {
-          reply: 'The passion story is prophecy turned into history. The divided clothes, the mocking and the cry from the cross were lifted from Psalm 22 and written up as events. John Dominic Crossan calls this “prophecy historicised”.',
+          reply: 'The passion story is prophecy turned into history. The divided clothes, the mocking and the cry from the cross were lifted from Psalm 22 and written up as events. John Dominic Crossan’s name for this is prophecy historicised.',
           answer: 'The central event did not come from a psalm: the Roman historian Tacitus, who despised Christians, records that Christ was executed under Pontius Pilate. That a crucified man was stripped and mocked needs no psalm to explain it. And look at how the writers handle Scripture elsewhere. Matthew says Jesus’ home in Nazareth fulfilled the words “He will be called a Nazarene” (Matthew 2:22-23), a line found in no Old Testament book. Nobody invents Nazareth to match a text that does not exist, so he began with the fact and went looking for the Scripture.',
           followUps: [
             {

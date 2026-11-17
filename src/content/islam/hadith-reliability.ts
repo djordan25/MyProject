@@ -247,11 +247,11 @@ export const hadithReliability: Topic = {
       question: 'What does a chain of narrators (isnad) actually establish?',
       options: [
         'That the report is true',
-        'Who is said to have passed the report on',
-        'That the report was written down in Muhammad’s lifetime',
         'That every Muslim group accepts the report',
+        'That the report was written down in Muhammad’s lifetime',
+        'Who is said to have passed the report on',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'A chain shows who claimed to transmit a saying. It cannot show that the first link told the truth, and a chain can be invented as easily as a saying.',
     },
     {
@@ -301,19 +301,19 @@ export const hadithReliability: Topic = {
       id: 'hr-q10',
       question: 'A Muslim says of a report in Sahih al-Bukhari, “That hadith is weak.” What is the best reply?',
       options: [
-        'Agree, and move on to another subject',
         'Ask by what standard the uncomfortable Sahih reports are dropped while the ones about prayer are kept',
+        'Agree, and move on to another subject',
         'Say that every hadith is a forgery',
         'Say that only Shia Muslims call hadith weak',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'Sunni scholarship treats these books as the most authentic after the Quran. Dropping reports because of what they say is choosing by preference.',
     },
     {
       id: 'hr-q11',
       question: 'Which passage says that most of more than five hundred witnesses of the risen Jesus were still alive when Paul wrote?',
-      options: ['Luke 1:1-4', '1 Corinthians 15:6', '2 Peter 1:16', 'John 21:24'],
-      answer: 1,
+      options: ['Luke 1:1-4', 'John 21:24', '2 Peter 1:16', '1 Corinthians 15:6'],
+      answer: 3,
       explanation: 'Paul’s readers could still question the witnesses (1 Corinthians 15:6).',
     },
     {
@@ -356,12 +356,12 @@ export const hadithReliability: Topic = {
       id: 'hr-q15',
       question: 'What does mutawatir mean, and how much of the hadith does it cover?',
       options: [
-        'Written down by Muhammad himself; it covers all of Sahih al-Bukhari',
         'Passed on by so many people that collusion is ruled out; scholars class only a small number of hadith this way',
+        'Written down by Muhammad himself; it covers all of Sahih al-Bukhari',
         'Narrated by Aisha alone; it covers about half of the hadith',
         'Rejected by all scholars; it covers the fabricated hadith',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'Most hadith, including most legal detail and biography, come through one or a few narrators.',
     },
     {

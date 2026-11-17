@@ -95,7 +95,7 @@ export const quranSources: Topic = {
                   followUps: [
                     {
                       reply: 'You cannot date these books securely. Some of them may be later than the Quran and may have taken the stories from it.',
-                      answer: 'Some are hard to date, and I’ll say so. The dates of the Arabic Infancy Gospel and the Targum Sheni are debated, and the Jewish book that tells the raven story, Pirke de-Rabbi Eliezer, was finished after Islam began. The main examples are not in doubt. Irenaeus, writing about AD 180, already quotes a story about the boy Jesus and his teacher that is found in the Infancy Gospel of Thomas. Origen, in the early third century, mentions the Book of James. The Mishnah was compiled about AD 200. These were circulating four centuries before Muhammad.',
+                      answer: 'Some are hard to date, and I’ll say so: the Arabic Infancy Gospel and the Targum Sheni are debated, and the Jewish book that tells the raven story, Pirke de-Rabbi Eliezer, was finished after Islam began. The main examples are not in doubt. Irenaeus, about AD 180, already quotes a story about the boy Jesus and his teacher that is found in the Infancy Gospel of Thomas, and Origen, early in the third century, mentions the Book of James. The Mishnah was compiled about AD 200. These were circulating four centuries before Muhammad.',
                     },
                   ],
                 },
@@ -129,7 +129,7 @@ export const quranSources: Topic = {
           followUps: [
             {
               reply: 'Mecca was a pagan town with no church and no synagogue. Name the person who is supposed to have taught him.',
-              answer: 'The Islamic sources name several. His wife’s cousin Waraqa was a Christian who “used to write the writing with Hebrew letters. He would write from the Gospel in Hebrew” (Sahih al-Bukhari 3). A Christian convert wrote for the Prophet, then left Islam saying, “Muhammad knows nothing but what I have written for him” (Sahih al-Bukhari 3617). In Medina the Jews “used to recite the Torah in Hebrew and they used to explain it in Arabic to the Muslims” (Sahih al-Bukhari 4485). I don’t need one teacher. I need a setting where these stories were told, and the hadith describe it.',
+              answer: 'The Islamic sources name several. His wife’s cousin Waraqa was a Christian who “used to write the writing with Hebrew letters. He would write from the Gospel in Hebrew” (Sahih al-Bukhari 3). A Christian convert wrote for the Prophet, then left Islam saying, “Muhammad knows nothing but what I have written for him” (Sahih al-Bukhari 3617). In Medina the Jews “used to recite the Torah in Hebrew and they used to explain it in Arabic to the Muslims” (Sahih al-Bukhari 4485). I don’t need one teacher, only a setting where these stories were told, and the hadith describe it.',
               followUps: [
                 {
                   reply: 'Waraqa died a few days after the first revelation. The same hadith says so. He cannot be the source of twenty-three years of Quran.',
@@ -169,11 +169,11 @@ export const quranSources: Topic = {
           followUps: [
             {
               reply: 'Medieval details and mistakes? That is what Christians say to get rid of it. Give me one.',
-              answer: 'It says the jubilee comes every hundred years (chapter 82). In the Law it is every fiftieth year (Leviticus 25:10-11). A hundred-year jubilee belongs to one period only: Pope Boniface VIII proclaimed the first in 1300, and by 1350 the interval had been shortened. The book’s own translators, Lonsdale and Laura Ragg, pointed this out. It has Jesus sail to Nazareth, a hill town many miles from the lake (chapter 20). And its opening calls Jesus “Christ” while it has him say he is not the Messiah, as if the author did not know that Christ is Greek for Messiah. A companion of the apostles would not make those mistakes.',
+              answer: 'It says the jubilee comes every hundred years (chapter 82), where the Law says every fiftieth year (Leviticus 25:10-11). A hundred-year jubilee belongs to one period only: Pope Boniface VIII proclaimed the first in 1300, and by 1350 the interval had been shortened, as the book’s own translators, Lonsdale and Laura Ragg, pointed out. It has Jesus sail to Nazareth, a hill town many miles from the lake (chapter 20). And its opening calls Jesus “Christ” while it has him say he is not the Messiah, as if the author did not know that Christ is Greek for Messiah. A companion of the apostles would not make those mistakes.',
               followUps: [
                 {
                   reply: 'A late copy can still go back to an early original. Copyists may have added those details.',
-                  answer: 'Nothing shows an earlier original. The Italian manuscript surfaced in Amsterdam at the start of the eighteenth century. No church father quotes the book. Nor do the great Muslim writers against Christianity: the Oxford Arabist D. S. Margoliouth noted that Ibn Hazm and Ibn Taymiyya, who would have welcomed such a gospel, show no knowledge of it. A gospel in which Jesus announces Muhammad by name would have been the first thing they quoted.',
+                  answer: 'Nothing shows an earlier original. The Italian manuscript surfaced in Amsterdam at the start of the eighteenth century, and no church father quotes the book. Nor do the great Muslim writers against Christianity: the Oxford Arabist D. S. Margoliouth noted that Ibn Hazm and Ibn Taymiyya, who would have welcomed such a gospel, show no knowledge of it. A gospel in which Jesus announces Muhammad by name would have been the first thing they quoted.',
                   followUps: [
                     {
                       reply: 'Even so, the church chose four gospels out of many at Nicaea and suppressed the rest. Who knows what was lost?',
@@ -248,8 +248,8 @@ export const quranSources: Topic = {
     {
       id: 'qs-q7',
       question: 'According to the four Gospels, when and where did Jesus perform his first sign?',
-      options: ['As a boy in Nazareth', 'As an adult, at Cana in Galilee', 'As a newborn, in the cradle', 'As a child in Egypt'],
-      answer: 1,
+      options: ['As a boy in Nazareth', 'As a child in Egypt', 'As a newborn, in the cradle', 'As an adult, at Cana in Galilee'],
+      answer: 3,
       explanation: '“Jesus performed this, the first of His signs, at Cana in Galilee” (John 2:11). That leaves no room for childhood miracles.',
     },
     {
@@ -270,12 +270,12 @@ export const quranSources: Topic = {
       id: 'qs-q10',
       question: 'A Muslim says, “Muhammad could not read, so he could not have used these books.” What is the best answer?',
       options: [
-        'He could in fact read Greek and Syriac',
         'The stories were passed on by word of mouth, and his opponents said people were teaching him',
+        'He could in fact read Greek and Syriac',
         'The books had all been translated into Arabic by his time',
         'Illiterate people cannot remember long stories',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'No reading is needed to hear a story. The Quran records the charge that a human being taught him (Quran 16:103).',
     },
     {
@@ -295,11 +295,11 @@ export const quranSources: Topic = {
       question: 'How does the Gospel of Barnabas contradict the Quran?',
       options: [
         'It says Jesus was crucified',
-        'It has Jesus deny that he is the Messiah',
-        'It denies the virgin birth',
         'It calls Jesus the Son of God',
+        'It denies the virgin birth',
+        'It has Jesus deny that he is the Messiah',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'The Quran calls Jesus the Messiah (Quran 3:45), so a Muslim cannot rely on this book either.',
     },
     {
@@ -342,12 +342,12 @@ export const quranSources: Topic = {
       id: 'qs-q16',
       question: 'A Muslim says the apocryphal books may have copied the Quran. Which fact answers this?',
       options: [
-        'All of them were written in Arabic',
         'Irenaeus (about AD 180) and Origen (early third century) already knew the infancy legends',
+        'All of them were written in Arabic',
         'The Quran names the books it used',
         'None of them survives today',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'The Infancy Gospel of Thomas and the Protoevangelium of James were circulating four centuries before Muhammad. Some other sources are harder to date, and it is right to say so.',
     },
     {
@@ -355,18 +355,18 @@ export const quranSources: Topic = {
       question: 'Why does it matter that the Infancy Gospel of Thomas also has the boy Jesus strike other children dead?',
       options: [
         'It proves the book was written by Muslims',
-        'It shows the book is a collection of legends that no Muslim would accept as a whole',
         'It shows the book is older than the four Gospels',
+        'It shows the book is a collection of legends that no Muslim would accept as a whole',
         'It is the reason the Quran quotes the book by name',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'If the clay birds are a true memory preserved there, on what ground is the rest of the book rejected?',
     },
     {
       id: 'qs-q18',
       question: 'In the Gospel of Pseudo-Matthew, when does a palm tree bend down to feed Mary?',
-      options: ['At the birth of Jesus', 'During the flight to Egypt', 'At the crucifixion', 'In the temple, when she is a child'],
-      answer: 1,
+      options: ['At the birth of Jesus', 'In the temple, when she is a child', 'At the crucifixion', 'During the flight to Egypt'],
+      answer: 3,
       explanation: 'The Quran sets a similar scene at the birth itself (Quran 19:23-25). The Bible places the birth in Bethlehem, with a manger (Luke 2:4-7).',
     },
   ],

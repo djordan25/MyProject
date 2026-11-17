@@ -70,7 +70,7 @@ export const noiOverview: Topic = {
         'Sunni and Shia Muslims regard these teachings as outside Islam, for reasons that lie on the surface of the Quran. It says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that he is “the Ever-Living who does not die” (Quran 25:58). To associate anything with Allah, which is how Muslims regard calling a man God, is the sin the Quran says he does not forgive (Quran 4:48). It calls Muhammad the “last of the prophets” (Quran 33:40), and the hadith have him say, “There will be no prophet after me” (Sahih al-Bukhari 3455). It teaches a bodily resurrection in which Allah reassembles the bones (Quran 75:3-4). And it treats the variety of human colours as one of God’s signs (Quran 30:22), with no hint of a devil race.',
         'Elijah Muhammad knew this. He wrote that “the Orthodox Muslims will have to bow to the choice of Allah”, and that Allah would bring about “a new Islam”. Malcolm X wrote that the story of Yakub “infuriated the Muslims of the East”. The two men closest to Elijah Muhammad, his chief minister and his own son, both left his doctrine for the Islam of the Quran.',
         'For a Christian this changes the conversation. Most of the main Islam track argues from what Sunni Muslims hold: that the hadith in Bukhari and Muslim are reliable, that Muhammad of Arabia is the final prophet and the model for all time, that the Quran is perfectly preserved. A member of the Nation may hold none of these in the usual sense. His authority is the teaching of Elijah Muhammad, and now of Louis Farrakhan. Quoting Bukhari to him is like quoting it to a man who has never heard of it.',
-        'What he does know, often very well, is the Bible. The Nation preaches from it every week. So that is where to meet him: on who God is, on whether evil belongs to one race, on what resurrection means, and on who Jesus is. First ask what he himself believes. Some who sell The Final Call hold every word of Elijah Muhammad’s teaching. Others value the discipline and the pride and have hardly thought about Yakub. Find out before you answer. The next lesson, Answering the Nation of Islam, takes up the arguments.',
+        'What he does know, often very well, is the Bible. The Nation’s ministers preach from it constantly. So that is where to meet him: on who God is, on whether evil belongs to one race, on what resurrection means, and on who Jesus is. First ask what he himself believes. Some who sell The Final Call hold every word of Elijah Muhammad’s teaching. Others value the discipline and the pride and have hardly thought about Yakub. Find out before you answer. The next lesson, Answering the Nation of Islam, takes up the arguments.',
       ],
       references: ['Quran 42:11', 'Quran 112:3', 'Quran 25:58', 'Quran 4:48', 'Quran 33:40', 'Sahih al-Bukhari 3455', 'Quran 75:3-4', 'Quran 30:22'],
     },
@@ -93,7 +93,7 @@ export const noiOverview: Topic = {
           reply:
             'That is the old Islam of the Arabs. The Messenger taught that Allah is bringing a new Islam, and that the orthodox will have to bow to Allah’s choice. No Arab came looking for us in the wilderness of North America. Master Fard did.',
           answer:
-            'Elijah Muhammad did write that, and I grant that Muslim teachers were slow to care about black Americans. Malcolm X told the Muslims in Mecca that the fault was theirs. But a new Islam with God in a new person and a new messenger is a different religion under the same name. The Quran says the religion was finished in Muhammad’s day: “This day I have perfected for you your religion” (Quran 5:3). If the Quran is right, there is no room for a later Islam. If the Messenger was right, the Quran was wrong about itself.',
+            'Elijah Muhammad did write that, and Malcolm X told the Muslims in Mecca that their neglect of black Americans was their own fault. But a new Islam with God in a new person and a new messenger is a different religion under the same name. The Quran says the religion was finished in Muhammad’s day: “This day I have perfected for you your religion” (Quran 5:3). If the Quran is right, there is no room for a later Islam, and if the Messenger was right, the Quran was wrong about itself.',
           followUps: [
             {
               reply:
@@ -113,12 +113,12 @@ export const noiOverview: Topic = {
         {
           reply: 'Our people make the pilgrimage and are received in Mecca as Muslims. The Messenger himself went. The Muslim world accepts us.',
           answer:
-            'Members have been welcomed, and Elijah Muhammad did travel to Mecca. But a welcome is not agreement about doctrine. He wrote himself that many orthodox Muslims do not want to believe that Allah appeared in the person of Master Fard Muhammad. He knew they rejected it. So the question is not who shook whose hand. It is whether God is a man who was in Detroit in 1930.',
+            'Members have been welcomed, and Elijah Muhammad did travel to Mecca, but a welcome is not agreement about doctrine. He wrote himself that many orthodox Muslims do not want to believe that Allah appeared in the person of Master Fard Muhammad. So the question is not who shook whose hand. It is whether God is a man who was in Detroit in 1930.',
           followUps: [
             {
               reply: 'Christians cannot talk. You say that a man from Nazareth was God.',
               answer:
-                'We do say that the Word who was God “became flesh” (John 1:14), and that is a fair challenge. Look at what each claim is. Christians do not say that God is by nature a man, or that a man became God. We say the eternal Creator took on human nature, was publicly crucified, and rose from the dead before named witnesses (1 Corinthians 15:3-8). Master Fard left in 1934 and was not seen again. The chief witness that he was God is the man whose own office as Messenger depended on it.',
+                'We do say that the Word who was God “became flesh” (John 1:14), so that is a fair challenge. But Christians do not say that God is by nature a man, or that a man became God. We say the eternal Creator took on human nature, was publicly crucified, and rose from the dead before named witnesses (1 Corinthians 15:3-8). Master Fard left in 1934 and was not seen again, and the chief witness that he was God is the man whose own office as Messenger depended on it.',
             },
           ],
         },
@@ -141,18 +141,18 @@ export const noiOverview: Topic = {
           reply:
             'Truth is what frees the black man. Whatever lifts my people up is true enough for me. Your truth kept us on our knees for four hundred years.',
           answer:
-            'I understand why you weigh it that way. But a thing can help and still be false, and a false foundation gives way in the end. The Nation itself found this out in 1975, when Elijah Muhammad’s own son rejected the teaching that Fard was God. Thousands of disciplined people had built their lives on a claim that their leader’s heir then withdrew. Jesus said, “you will know the truth, and the truth will set you free” (John 8:32). Freedom that lasts needs the truth to be true.',
+            'I understand why you weigh it that way, but a thing can help and still be false, and a false foundation gives way in the end. The Nation found this out in 1975, when Elijah Muhammad’s own son rejected the teaching that Fard was God. Thousands of disciplined people had built their lives on a claim that their leader’s heir then withdrew. Jesus said, “you will know the truth, and the truth will set you free” (John 8:32). Freedom that lasts needs the truth to be true.',
           followUps: [
             {
               reply:
                 'Wallace threw away what his father built, and the businesses and the discipline went with it. Minister Farrakhan had to rebuild from nothing. That tells you which teaching bears fruit.',
               answer:
-                'It tells me the organisation was stronger under the old teaching, and I grant that. Strict movements under one leader often are. But look at what you are now measuring: businesses, property and numbers. By that measure the biggest and richest religion wins, and you would not accept that from a Christian pointing at cathedrals. Warith Deen Mohammed gave up his father’s titles and his father’s teaching because he had come to think the centre of it was untrue. That was not a man choosing what was useful.',
+                'It tells me the organisation was stronger under the old teaching, and I grant that, as strict movements under one leader often are. But you are now measuring businesses, property and numbers, and by that measure the biggest and richest religion wins. You would not accept that from a Christian pointing at cathedrals. Warith Deen Mohammed gave up his father’s titles and his father’s teaching because he had come to think the centre of it was untrue. That was not a man choosing what was useful.',
               followUps: [
                 {
                   reply: 'Then show me a church doing on my block what the Nation does.',
                   answer:
-                    'Some do, many don’t, and where we don’t you are right to rebuke us. But black churches carried their people through slavery and segregation, taught them to read, and led the civil rights movement from their pulpits. That fruit is real too. And I am not asking you to weigh one record against the other. I am asking you to look at Jesus himself, who was poor, was beaten by the soldiers of the state, was executed, and rose. He is the one I am commending.',
+                    'Some do, many don’t, and where we don’t you are right to rebuke us. But black churches carried their people through slavery and segregation, taught them to read, and led the civil rights movement from their pulpits, and that fruit is real too. In any case I am not asking you to weigh one record against the other. I am asking you to look at Jesus himself, who was poor, was beaten by the soldiers of the state, was executed, and rose.',
                 },
               ],
             },
@@ -161,7 +161,7 @@ export const noiOverview: Topic = {
         {
           reply: 'Christianity never did that for my people. The churches I knew took the collection and told us to wait for heaven.',
           answer:
-            'Some did exactly that, and the Bible condemns it. Faith that sees a brother without clothes or food and only wishes him well “is dead” (James 2:15-17). But the same Bible is what moved Frederick Douglass and the preachers who led the civil rights movement. The Nation’s own programme of thrift, clean living and care for the family echoes the Bible that its first members were raised on. I am not asking you to give up the discipline. I am asking who Jesus is.',
+            'Some did exactly that, and the Bible condemns it: faith that sees a brother without clothes or food and only wishes him well “is dead” (James 2:15-17). But the same Bible is what moved Frederick Douglass and the preachers who led the civil rights movement. The Nation’s own programme of thrift, clean living and care for the family echoes the Bible that its first members were raised on. I am not asking you to give up the discipline. I am asking who Jesus is.',
           followUps: [
             {
               reply: 'The Bible they preached from is the book that made us slaves. You cannot mend us with the slave-master’s book.',
@@ -189,19 +189,19 @@ export const noiOverview: Topic = {
           reply:
             'The Messenger’s household was his own business. The prophets of the Bible had many wives. David took Bathsheba and God still used him.',
           answer:
-            'Malcolm records that Elijah Muhammad gave him that very answer and compared himself with David, Noah and Lot. But the Bible does not excuse David. The prophet Nathan confronted him, David said, “I have sinned against the LORD” (2 Samuel 12:13-14), and judgment still fell on his house. In the Nation at that time, Malcolm says, an ordinary member guilty of adultery was put out in disgrace. A rule that binds the followers and not the leader is not David’s repentance. And Christians do not rest their faith on David. We rest it on Jesus, who could ask his enemies, “Which of you can prove Me guilty of sin?” (John 8:46).',
+            'Malcolm records that Elijah Muhammad gave him that very answer and compared himself with David, Noah and Lot. But the Bible does not excuse David: the prophet Nathan confronted him, and David said, “I have sinned against the LORD” (2 Samuel 12:13-14). In the Nation at that time, Malcolm says, an ordinary member guilty of adultery was put out in disgrace. A rule that binds the followers and not the leader is not David’s repentance. And Christians rest their faith on Jesus, not on David, and Jesus could ask his enemies, “Which of you can prove Me guilty of sin?” (John 8:46).',
           followUps: [
             {
               reply: 'Those sisters were his wives in the sight of Allah. There was no sin in it.',
               answer:
-                'Then two things follow. The members were not told so at the time. Malcolm says that ministers were preparing to explain it to the mosques as the fulfilment of prophecy only once it could no longer be kept quiet. And the rule for everyone else stayed as it was. A teacher sent by God lives by what he teaches. Jesus’ charge against the religious leaders of his day was that they laid heavy loads on others and would not “lift a finger to move them” (Matthew 23:4).',
+                'Then two things follow. The members were not told so at the time: Malcolm says that ministers were preparing to explain it to the mosques as the fulfilment of prophecy only once it could no longer be kept quiet. And the rule for everyone else stayed as it was. A teacher sent by God lives by what he teaches, and Jesus’ charge against the religious leaders of his day was that they laid heavy loads on others and would not “lift a finger to move them” (Matthew 23:4).',
             },
           ],
         },
         {
           reply: 'Whatever Malcolm said, the Nation did not kill him. In 2021 the courts admitted that the wrong men had been jailed.',
           answer:
-            'Two men were cleared, and I am glad of it. The third, a member of the Nation, confessed at the trial in 1966 and said then that the other two were innocent. Who else stood behind it is still argued, and I will not claim to know. But my point does not hang on who fired. Malcolm’s reasons for leaving stand or fall by themselves. So does the witness of Warith Deen Mohammed, who was never his father’s enemy and still rejected the teaching that Fard was God.',
+            'Two men were cleared, and I am glad of it. The third, a member of the Nation, confessed at the trial in 1966 and said then that the other two were innocent. Who else stood behind it is still argued, and my point does not hang on who fired. Malcolm’s reasons for leaving stand or fall by themselves, and so does the witness of Warith Deen Mohammed, who was never his father’s enemy and still rejected the teaching that Fard was God.',
           followUps: [
             {
               reply: 'Wallace doubted his father’s teaching for years. He was a weak son, and the Arabs flattered him.',
@@ -228,12 +228,12 @@ export const noiOverview: Topic = {
         {
           reply: 'You read the words but you do not have the understanding. You have to be taught the Lessons by one of us before those books open up.',
           answer:
-            'I am willing to be taught, and I would sooner hear it from you than from a critic. But plain statements stay plain. Elijah Muhammad wrote, “there is not any life beyond the grave”. That is not a riddle. So tell me how you understand it, and whether you believe your dead are gone for good. Then let me show you why I believe otherwise.',
+            'I am willing to be taught, and I would sooner hear it from you than from a critic. But plain statements stay plain, and Elijah Muhammad wrote, “there is not any life beyond the grave”. So tell me how you understand that, and whether you believe your dead are gone for good. Then let me show you why I believe otherwise.',
           followUps: [
             {
               reply: 'He meant that we must stop waiting on heaven and build our heaven here. That is all.',
               answer:
-                'If that were all, I would agree with half of it. God’s people are not told to sit and wait. They are told “to act justly, to love mercy” now (Micah 6:8). But Elijah Muhammad said more than that. He told his readers to stop believing in anything coming to them after they are physically dead, and called it untrue. The apostle Paul met that teaching and answered that if the dead are not raised, then Christ has not been raised and faith is futile (1 Corinthians 15:16-17). The Bible holds the two together: justice now, and a risen Lord who has beaten death.',
+                'If that were all, I would agree with half of it, because God’s people are told “to act justly, to love mercy” now (Micah 6:8). But Elijah Muhammad said more: he told his readers to stop believing in anything coming to them after they are physically dead, and called it untrue. The apostle Paul met that teaching and answered that if the dead are not raised, then Christ has not been raised and faith is futile (1 Corinthians 15:16-17). The Bible holds the two together: justice now, and a risen Lord who has beaten death.',
             },
           ],
         },
@@ -277,12 +277,12 @@ export const noiOverview: Topic = {
           reply:
             'It is not hate to describe what they did. Name another people who chained, raped, lynched and bombed on that scale. The Messenger was reading history.',
           answer:
-            'The history is real: the slave ships, the auction block, the lynching tree, the bombed church. I would never ask you to soften it. But history shows what people did. It cannot show that they were unable to do anything else. The same centuries show African rulers selling captives to the ships, Arab traders driving slave caravans across the Sahara, and every empire doing what it had the power to do. That is the pattern the Bible describes: “There is no one righteous, not even one” (Romans 3:9-10). Evil follows power and opportunity. It does not follow skin.',
+            'The history is real, from the slave ships to the lynching tree and the bombed church, and I would never ask you to soften it. But history shows what people did, not that they were unable to do anything else. The same centuries show African rulers selling captives to the ships, Arab traders driving slave caravans across the Sahara, and every empire doing what it had the power to do. That is the pattern the Bible describes: “There is no one righteous, not even one” (Romans 3:9-10). Evil follows power and opportunity, not skin.',
           followUps: [
             {
               reply: 'So the slave and the slave-master are the same to you. That is the white man’s way of escaping the bill.',
               answer:
-                'No. Both are sinners before God, but they are not equally guilty of this, and the Bible never says they are. It says that God hears the oppressed and comes down against the oppressor (Exodus 3:7-8). It also expects repayment. When Zacchaeus met Jesus he gave back four times what he had taken (Luke 19:8-9). To say that all have sinned does not cancel the debt. It means that the one who is owed also needs a Saviour, and that being paid will not by itself make him whole.',
+                'No. Both are sinners before God, but they are not equally guilty of this, and the Bible says that God hears the oppressed and comes down against the oppressor (Exodus 3:7-8). It also expects repayment: when Zacchaeus met Jesus he gave back four times what he had taken (Luke 19:8-9). To say that all have sinned does not cancel the debt. It means that the one who is owed also needs a Saviour, and that being paid will not by itself make him whole.',
             },
           ],
         },
@@ -294,7 +294,7 @@ export const noiOverview: Topic = {
             {
               reply: 'Then why did a man as intelligent as Malcolm believe it for twelve years?',
               answer:
-                'Because it explained his life. He says that when he first heard it in prison, the white people he had known passed before his mind one by one, and the teaching fitted them. A story that makes sense of real pain is powerful. What changed his mind was not an argument. It was meeting people in Mecca who, according to the story, could not exist. I would ask you to do what he did, and test the story against people as you actually find them.',
+                'Because it explained his life. He says that when he first heard it in prison, the white people he had known passed before his mind one by one, and the teaching fitted them. What changed his mind was not an argument but meeting people in Mecca who, according to the story, could not exist. I would ask you to do what he did, and test the story against people as you actually find them.',
             },
           ],
         },
@@ -326,7 +326,7 @@ export const noiOverview: Topic = {
                 {
                   reply: 'America has been falling ever since. Look at her cities, her wars and her debts. And God can extend the time, as he did for Nineveh.',
                   answer:
-                    'Every nation has troubles in every decade, so “falling” can never be shown wrong, and a prophecy that cannot fail says nothing. Nineveh is a different case. Jonah’s warning was lifted because the city “turned from their evil ways” (Jonah 3:10), and the book says so. Elijah Muhammad did not say that America repented. Sixty years on, America stands and the Messenger has died. I take no pleasure in saying it. I say it because Scripture tells us not to fear a prophet whose word fails.',
+                    'Every nation has troubles in every decade, so “falling” can never be shown wrong, and a prophecy that cannot fail says nothing. Nineveh is a different case: Jonah’s warning was lifted because the city “turned from their evil ways” (Jonah 3:10), and Elijah Muhammad never said that America repented. Sixty years on, America stands and the Messenger has died. I take no pleasure in saying it, but Scripture tells us not to fear a prophet whose word fails.',
                 },
               ],
             },
@@ -335,7 +335,7 @@ export const noiOverview: Topic = {
         {
           reply: 'They are signs. Yakub stands for the making of a wicked system, and the Wheel stands for the power of God over this world.',
           answer:
-            'Then we can talk about what they stand for, and I agree that wicked systems are made by people and that God will judge them. But follow it through. If Yakub is a sign, white people are not devils by birth, and the wall the Nation builds between the races has no foundation. If the Wheel is a sign, the Nation has no account of how God will set things right. And then I have to ask about the centre. Is “Allah appeared in the Person of Master W. Fard Muhammad” a sign too?',
+            'Then we can talk about what they stand for, and I agree that wicked systems are made by people and that God will judge them. But follow it through. If Yakub is a sign, white people are not devils by birth, and the wall the Nation builds between the races has no foundation. If the Wheel is a sign, the Nation has no account of how God will set things right. So I have to ask about the centre: is “Allah appeared in the Person of Master W. Fard Muhammad” a sign too?',
           followUps: [
             {
               reply: 'No. That is real. God came in person.',

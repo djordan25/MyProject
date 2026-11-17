@@ -58,7 +58,7 @@ export const quranChallenge: Topic = {
                   followUps: [
                     {
                       reply: 'Then stop arguing and try. Produce three lines to match the shortest surah.',
-                      answer: 'Tell me first what would count and who will judge. If I match the rhyme, you will say the meaning is thin. If I match the meaning, you will say I copied. Every attempt from Musaylima’s day to ours has been dismissed, because the judge already believes it cannot be done. Yet by one sound hadith a human sentence did match. Umar says he gave a warning to the Prophet’s wives, and then “this verse (the same as I had said) was revealed” (Sahih al-Bukhari 402). If Umar’s words can stand in the Quran, the gap between human speech and the Quran is not what the challenge claims.',
+                      answer: 'Tell me first what would count and who will judge. If I match the rhyme you will say the meaning is thin, and if I match the meaning you will say I copied. Every attempt from Musaylima’s day to ours has been dismissed, because the judge already believes it cannot be done. Yet by one sound hadith a human sentence did match: Umar says he gave a warning to the Prophet’s wives, and then “this verse (the same as I had said) was revealed” (Sahih al-Bukhari 402). If Umar’s words can stand in the Quran, the gap between human speech and the Quran is not what the challenge claims.',
                     },
                   ],
                 },
@@ -100,7 +100,7 @@ export const quranChallenge: Topic = {
           followUps: [
             {
               reply: 'Your own argument for Jesus uses the same reasoning. You say the apostles would not have died for a lie.',
-              answer: 'It is a fair comparison, and it shows the difference. Suffering proves sincerity in both cases. The question is what each was in a position to know. Muhammad was sincere about an experience alone in a cave, which he could have been wrong about. The apostles were sincere about something public: that they had seen Jesus alive after his death, many of them together (1 Corinthians 15:3-7), and had eaten and drunk with him (Acts 10:41). People can be mistaken about a private vision. It is much harder to be mistaken about meals and conversations with a man you watched die.',
+              answer: 'It is a fair comparison, and it shows the difference. Suffering proves sincerity in both cases, so the question is what each was in a position to know. Muhammad was sincere about an experience alone in a cave, which he could have been wrong about. The apostles were sincere about something public: that they had seen Jesus alive after his death, many of them together (1 Corinthians 15:3-7), and had eaten and drunk with him (Acts 10:41). A man can be mistaken about a private vision far more easily than about meals and conversations with someone he watched die.',
             },
           ],
         },
@@ -118,7 +118,7 @@ export const quranChallenge: Topic = {
           followUps: [
             {
               reply: 'It was not an even contest. Persia had taken Jerusalem and was overrunning the empire. Even Gibbon wrote that no prophecy could have been more distant from its accomplishment.',
-              answer: 'Gibbon’s sentence begins, “At the time when this prediction is said to have been delivered”. He knew the dating rests on later tradition. And the tradition is not of one mind. One report graded sound says these verses were revealed on the day of Badr, when the Romans had already won (Jami at-Tirmidhi 3192). Grant the usual dating, and the numbers are still loose. Jerusalem fell in 614. Heraclius did not break Persia until the battle of Nineveh at the end of 627. That is thirteen years, not three to nine.',
+              answer: 'Gibbon’s sentence begins, “At the time when this prediction is said to have been delivered”. He knew the dating rests on later tradition, and the tradition is not of one mind: one report graded sound says these verses were revealed on the day of Badr, when the Romans had already won (Jami at-Tirmidhi 3192). Grant the usual dating, and the numbers are still loose. Jerusalem fell in 614, and Heraclius did not break Persia until the battle of Nineveh at the end of 627. That is thirteen years, not three to nine.',
               followUps: [
                 {
                   reply: 'Count from the right points. Heraclius began winning in 622, and the tide had turned by 624, the year of Badr, when the believers rejoiced as the verse says.',
@@ -130,11 +130,11 @@ export const quranChallenge: Topic = {
         },
         {
           reply: 'Your examples are no better. Micah is speaking of a clan, Isaiah 53 is about Israel, and “pierced” in Psalm 22 is a Christian mistranslation of “like a lion”.',
-          answer: 'Take them one at a time. On Psalm 22:16 you have a point about the Hebrew. Most medieval manuscripts read “like a lion”, while the Greek translation made before Christ has a verb, “they dug”. I will not rest the case on that word. The psalm still describes a man mocked and surrounded, his bones showing, his clothes divided by lot (Psalm 22:7-8; 22:17-18). Isaiah’s servant cannot be Israel, because he is struck “for the transgression of My people” and has done no violence (Isaiah 53:8-9). And Jewish teachers were reading Micah as naming the Messiah’s town before any Christian argued it (Matthew 2:4-6; John 7:42).',
+          answer: 'Take them one at a time. On Psalm 22:16 you have a point: most medieval Hebrew manuscripts read “like a lion”, while the Greek translation made before Christ has a verb, “they dug”, so I will not rest the case on that word. The psalm still describes a man mocked and surrounded, his bones showing, his clothes divided by lot (Psalm 22:7-8; 22:17-18). Isaiah’s servant cannot be Israel, because he is struck “for the transgression of My people” and has done no violence (Isaiah 53:8-9). And Jewish teachers were reading Micah as naming the Messiah’s town before any Christian argued it (Matthew 2:4-6; John 7:42).',
           followUps: [
             {
               reply: 'The Gospel writers knew those texts and shaped their story of Jesus to match them. That is not fulfilment.',
-              answer: 'The texts were certainly there first. A complete scroll of Isaiah found among the Dead Sea Scrolls was copied more than a century before Jesus was born. But the writers could not arrange the things that matter. Nobody chooses his birthplace, and the disciples would not have chosen a Roman cross for their Messiah. Paul calls it “a stumbling block to Jews” (1 Corinthians 1:23). People do not invent a fulfilment that wrecks their own hopes. The crucifixion is also reported outside the New Testament, by the Roman historian Tacitus.',
+              answer: 'The texts were certainly there first: a complete scroll of Isaiah among the Dead Sea Scrolls was copied more than a century before Jesus was born. But the writers could not arrange the things that matter. Nobody chooses his birthplace, and the disciples would not have chosen a Roman cross for their Messiah, which Paul calls “a stumbling block to Jews” (1 Corinthians 1:23). People do not invent a fulfilment that wrecks their own hopes. The crucifixion is also reported outside the New Testament, by the Roman historian Tacitus.',
             },
           ],
         },
@@ -180,11 +180,11 @@ export const quranChallenge: Topic = {
       question: 'Why does the uniqueness of the Quran’s style not prove that God wrote it?',
       options: [
         'Because its style is in fact ordinary',
-        'Because every great author’s work is unique, which shows genius and not revelation',
-        'Because style can only be judged in translation',
         'Because the Quran never mentions its own style',
+        'Because style can only be judged in translation',
+        'Because every great author’s work is unique, which shows genius and not revelation',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'No one can write another Shakespeare play “like it” either. And a beautifully worded statement can still be false.',
     },
     {
@@ -226,8 +226,8 @@ export const quranChallenge: Topic = {
     {
       id: 'qc-q9',
       question: 'What time does Quran 30:4 give for the Byzantine recovery?',
-      options: ['Exactly seven years', 'Within three to nine years', 'Within one generation', 'No time at all'],
-      answer: 1,
+      options: ['Exactly seven years', 'Within one generation', 'Within three to nine years', 'No time at all'],
+      answer: 2,
       explanation: 'A wide window, in a war between two empires that had traded victories for generations.',
     },
     {
@@ -259,23 +259,23 @@ export const quranChallenge: Topic = {
       question: 'A Muslim says Muhammad suffered for his message, so he must have been telling the truth. What does suffering show?',
       options: [
         'That the message is true',
-        'That the person sincerely believed the message',
-        'That the message came from an angel',
         'Nothing at all about the person',
+        'That the message came from an angel',
+        'That the person sincerely believed the message',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'A man can be sincere and mistaken. A message has to be tested against what God has already revealed (Galatians 1:8).',
     },
     {
       id: 'qc-q13',
       question: 'What does Umar say in Sahih al-Bukhari 402 about a warning he gave to the Prophet’s wives?',
       options: [
-        'That the Prophet rebuked him for it',
         'That a verse was revealed in the same words he had used',
+        'That the Prophet rebuked him for it',
         'That he wrote it into the Quran himself',
         'That the wives composed a surah in reply',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'He says “this verse (the same as I had said) was revealed” (Sahih al-Bukhari 402). A companion’s sentence stands in the Quran.',
     },
     {
@@ -302,11 +302,11 @@ export const quranChallenge: Topic = {
       question: 'Sahih al-Bukhari 4992 says the Quran was revealed to be recited in seven different ways. Why does that matter for the literary challenge?',
       options: [
         'It shows the Quran was first written in seven languages',
-        'It raises the question of which form of wording is the inimitable one',
-        'It proves the challenge has been met seven times',
         'It shows that only seven people could recite it',
+        'It proves the challenge has been met seven times',
+        'It raises the question of which form of wording is the inimitable one',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'Umar and Hisham recited the same surah differently, and both were told, “It was revealed in this way” (Sahih al-Bukhari 4992).',
     },
   ],
