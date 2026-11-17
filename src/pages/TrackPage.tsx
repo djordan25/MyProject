@@ -28,6 +28,16 @@ export default function TrackPage() {
         <Link className="btn" to={`/quiz?track=${track.id}`}>Mixed quiz →</Link>
         {(track.id === 'islam' || track.parent === 'islam') && <Link className="btn" to="/glossary">Glossary of Islamic terms</Link>}
       </div>
+      {subs.length > 0 && (
+        <nav className="subtrack-chips" aria-label="Sub-tracks">
+          <span className="muted">Sub-tracks:</span>
+          {subs.map((s) => (
+            <Link key={s.id} to={`/track/${s.id}`} className="chip">
+              <span aria-hidden>{s.icon}</span> {s.title}
+            </Link>
+          ))}
+        </nav>
+      )}
       {track.sections.map((s, i) => (
         <section key={s.title} className="track-section">
           <h2 className="section-title">
