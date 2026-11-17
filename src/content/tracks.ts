@@ -87,4 +87,74 @@ export const tracks: Track[] = [
       },
     ],
   },
+  {
+    id: 'islam-sunni',
+    parent: 'islam',
+    title: 'Sunni Islam',
+    icon: '📚',
+    summary: 'The large majority of Muslims. What Sunnis rely on, the companions and caliphs they trust, and the Salafi and Sufi streams you will meet.',
+    sections: [
+      { title: 'Sunni Islam', description: 'Its authorities, its heroes and its main streams, and how to answer its distinctive claims.', topicIds: ['sunni-overview', 'sunni-companions', 'sunni-salafi-sufi'] },
+    ],
+  },
+  {
+    id: 'islam-shia',
+    parent: 'islam',
+    title: 'Shia Islam',
+    icon: '🕌',
+    summary: 'The majority in Iran and Iraq and one of the two largest communities in Lebanon. The Imams, the dispute over Muhammad’s successor, and the meaning of Karbala.',
+    sections: [
+      { title: 'Shia Islam', description: 'What the Shia believe, whether the Imamate stands, what the split means for Islam’s sources, and how to share the gospel.', topicIds: ['shia-overview', 'shia-imamate', 'shia-sources', 'shia-karbala-gospel'] },
+    ],
+  },
+  {
+    id: 'islam-quranist',
+    parent: 'islam',
+    title: 'Quran-only Muslims',
+    icon: '📖',
+    summary: 'Muslims who reject the hadith and follow the Quran alone. Who they are, and whether the Quran can stand without the tradition around it.',
+    sections: [
+      { title: 'Quran-only Islam', description: 'The movement and its arguments, and the questions it cannot answer from the Quran alone.', topicIds: ['quranist-overview', 'quranist-answering'] },
+    ],
+  },
+  {
+    id: 'islam-ahmadiyya',
+    parent: 'islam',
+    title: 'Ahmadiyya',
+    icon: '🕊',
+    summary: 'A missionary movement, strong in Britain, Germany and North America, that follows Mirza Ghulam Ahmad and teaches that Jesus survived the cross and died in Kashmir.',
+    sections: [
+      { title: 'The Ahmadiyya movement', description: 'Its founder and his claims, and its account of what happened to Jesus.', topicIds: ['ahmadiyya-overview', 'ahmadiyya-jesus-in-india'] },
+    ],
+  },
+  {
+    id: 'islam-noi',
+    parent: 'islam',
+    title: 'Nation of Islam',
+    icon: '✊',
+    summary: 'An American movement founded in Detroit in 1930. Its history, its teachings about God and race, and how to answer them with the gospel.',
+    sections: [
+      { title: 'The Nation of Islam', description: 'Where it came from, what it teaches, and how to respond.', topicIds: ['noi-overview', 'noi-answering'] },
+    ],
+  },
+  {
+    id: 'islam-druze',
+    parent: 'islam',
+    title: 'The Druze',
+    icon: '⭐',
+    summary: 'A closed community of Lebanon, Syria and Israel that grew out of Shia Islam a thousand years ago and now stands apart from it.',
+    sections: [
+      { title: 'The Druze', description: 'Their origins, their beliefs so far as outsiders can know them, and how to talk with a Druze friend.', topicIds: ['druze-overview'] },
+    ],
+  },
+  {
+    id: 'islam-alawi-alevi',
+    parent: 'islam',
+    title: 'Alawites and Alevis',
+    icon: '🌙',
+    summary: 'Two different communities that are often confused: the Alawites of Syria and Lebanon, and the Alevis of Turkey and its diaspora in Europe.',
+    sections: [
+      { title: 'Alawites and Alevis', description: 'Who each group is, what it believes, and where to begin.', topicIds: ['alawites', 'alevis'] },
+    ],
+  },
 ];

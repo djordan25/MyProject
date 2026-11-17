@@ -21,6 +21,8 @@ export interface Objection {
 export interface FollowUp {
   reply: string;
   answer: string;
+  /** What they are likely to say to that answer, and how to answer again. Chains may go several rounds deep. */
+  followUps?: FollowUp[];
 }
 
 export interface QuizQuestion {
@@ -56,4 +58,6 @@ export interface Track {
   summary: string;
   intro?: string[];
   sections: TrackSection[];
+  /** Id of the track this one belongs to. A track with a parent is a sub-track and is listed on its parent's page. */
+  parent?: string;
 }

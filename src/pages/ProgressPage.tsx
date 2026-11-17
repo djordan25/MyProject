@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { topics, tracks, topicsInTrack } from '../content';
+import { topics, topLevelTracks, subtracksOf, ownTopics } from '../content';
 import { progress, topicCompletion, useProgress } from '../lib/progress';
 import { trackCompletion } from '../lib/trackProgress';
 import ProgressBar from '../components/ProgressBar';
@@ -19,12 +19,12 @@ export default function ProgressPage() {
         <div className="card stat"><span className="big">{mastered}/{totalObjections}</span>objections mastered</div>
         <div className="card stat"><span className="big">{quizzes}/{topics.length}</span>quizzes taken</div>
       </div>
-      {tracks.map((track) => (
+      {topLevelTracks.flatMap((t) => [t, ...subtracksOf(t)]).map((track) => (
         <section key={track.id} className="track-section">
-          <h2 className="section-title">{track.icon} {track.title}</h2>
+          <h2 className="section-title">{track.icon} {track.title}{subtracksOf(track).length ? ' (with sub-tracks)' : ''}</h2>
           <ProgressBar value={trackCompletion(p, track)} label={`${track.title} progress`} />
           <div className="spacer" />
-          {topicsInTrack(track).map((t) => {
+          {ownTopics(track).map((t) => {
             const done = topicCompletion(p, t.id, t.objections.map((o) => o.id));
             const best = p.quizBest[t.id];
             return (

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { topics, tracks, topicsInTrack } from '../content';
+import { topics, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
 import { isDue, topicCompletion, useProgress } from '../lib/progress';
 import { trackCompletion } from '../lib/trackProgress';
 import ProgressBar from '../components/ProgressBar';
@@ -7,7 +7,7 @@ import ProgressBar from '../components/ProgressBar';
 export default function Home() {
   const p = useProgress();
   // The topic to suggest: the first one begun but unfinished, otherwise the first not yet begun.
-  const ordered = tracks.flatMap((t) => topicsInTrack(t));
+  const ordered = topLevelTracks.flatMap((t) => topicsInTrack(t));
   const done = (id: string) => topicCompletion(p, id, ordered.find((t) => t.id === id)!.objections.map((o) => o.id));
   const inProgress = ordered.find((t) => done(t.id) > 0 && done(t.id) < 1);
   const next = inProgress ?? ordered.find((t) => done(t.id) === 0);
@@ -36,8 +36,9 @@ export default function Home() {
         </Link>
       )}
       <div className="track-list">
-        {tracks.map((t) => {
+        {topLevelTracks.map((t) => {
           const done = trackCompletion(p, t);
+          const subs = subtracksOf(t).length;
           return (
             <Link key={t.id} to={`/track/${t.id}`} className="card track-card">
               <div className="topic-icon" aria-hidden>{t.icon}</div>
@@ -46,7 +47,7 @@ export default function Home() {
                 <p>{t.summary}</p>
                 <ProgressBar value={done} label={`${t.title} progress`} />
                 <small className="muted">
-                  {topicsInTrack(t).length} topics · {Math.round(done * 100)}% complete
+                  {topicsInTrack(t).length} topics{subs ? ` · ${subs} sub-tracks` : ''} · {Math.round(done * 100)}% complete
                 </small>
               </div>
             </Link>

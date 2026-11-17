@@ -28,7 +28,7 @@ export default function TopicPage() {
       <Routes>
         <Route index element={<Learn topic={topic} />} />
         <Route path="objections" element={<Objections topic={topic} />} />
-        <Route path="quiz" element={<Quiz key={topic.id} questions={topic.quiz} onFinish={(s) => progress.recordQuiz(topic.id, s)} />} />
+        <Route path="quiz" element={<Quiz key={topic.id} questions={topic.quiz} limit={10} onFinish={(s) => progress.recordQuiz(topic.id, s)} />} />
         <Route path="summary" element={<Summary topic={topic} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

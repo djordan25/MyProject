@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { topics, tracks, type Topic } from '.';
+import { flattenFollowUps, topics, tracks, type Topic } from '.';
 import { parseRef, segmentCitations } from '../lib/references';
 import bibleCounts from './data/bible-verse-counts.json';
 import quranCounts from './data/quran-verse-counts.json';
@@ -13,7 +13,7 @@ const quran = quranCounts as number[];
 function citations(t: Topic): string[] {
   const text = [
     ...t.lesson.flatMap((s) => [...s.body, ...(s.argument ?? [])]),
-    ...t.objections.flatMap((o) => [o.response, ...o.keyPoints, ...(o.followUps ?? []).map((f) => f.answer)]),
+    ...t.objections.flatMap((o) => [o.response, ...o.keyPoints, ...flattenFollowUps(o.followUps).map((f) => f.answer)]),
     ...t.quiz.map((q) => q.explanation),
   ].join('\n');
   const inline = segmentCitations(text).flatMap((s) => (s.ref ? [s.ref] : []));
@@ -138,6 +138,15 @@ describe('content', () => {
     expect([...placed].sort()).toEqual(topics.map((t) => t.id).sort());
   });
 
+  it('gives every sub-track a real top-level parent and unique track ids', () => {
+    expect(new Set(tracks.map((t) => t.id)).size).toBe(tracks.length);
+    for (const t of tracks.filter((x) => x.parent)) {
+      const parent = tracks.find((x) => x.id === t.parent);
+      expect(parent, t.id).toBeDefined();
+      expect(parent!.parent, t.id).toBeUndefined();
+    }
+  });
+
   for (const t of topics) {
     it(`${t.id}: is complete and quiz answers are valid`, () => {
       expect(t.lesson.length).toBeGreaterThan(0);
@@ -147,6 +156,8 @@ describe('content', () => {
         expect(q.answer).toBeGreaterThanOrEqual(0);
         expect(q.answer).toBeLessThan(q.options.length);
         expect(new Set(q.options).size).toBe(q.options.length);
+        // Options are shown in random order, so none may refer to another by position.
+        expect(q.options.filter((o) => /\b(all|none|any|both|each|either|neither) of the (above|below|these|those|other)|\bthe (above|below|other (options|answers))\b|^(both|neither) [a-d]\b|\b[a-d] and [a-d]\b/i.test(o)), q.id).toEqual([]);
       }
     });
 
@@ -158,7 +169,7 @@ describe('content', () => {
     it(`${t.id}: quotations followed by a citation match the cited passage`, () => {
       const texts = [
         ...t.lesson.flatMap((s) => [...s.body, ...(s.argument ?? [])]),
-        ...t.objections.flatMap((o) => [o.objection, o.response, ...o.keyPoints, ...(o.followUps ?? []).flatMap((f) => [f.reply, f.answer])]),
+        ...t.objections.flatMap((o) => [o.objection, o.response, ...o.keyPoints, ...flattenFollowUps(o.followUps).flatMap((f) => [f.reply, f.answer])]),
         ...t.quiz.flatMap((q) => [q.question, q.explanation]),
       ];
       expect(texts.flatMap(misquotes)).toEqual([]);

@@ -1,4 +1,4 @@
-import type { Topic, Track } from './types';
+import type { FollowUp, Topic, Track } from './types';
 import { tracks } from './tracks';
 import { existenceOfGod } from './topics/existence-of-god';
 import { reliabilityOfScripture } from './topics/reliability-of-scripture';
@@ -37,6 +37,22 @@ import { muhammadWarfare } from './islam/muhammad-warfare';
 import { sharingTheGospel } from './islam/sharing-the-gospel';
 import { branchesOfIslam } from './islam/branches';
 import { quranManuscripts } from './islam/quran-manuscripts';
+import { sunniOverview } from './islam/sects/sunni-overview';
+import { sunniCompanions } from './islam/sects/sunni-companions';
+import { sunniSalafiSufi } from './islam/sects/sunni-salafi-sufi';
+import { shiaOverview } from './islam/sects/shia-overview';
+import { shiaImamate } from './islam/sects/shia-imamate';
+import { shiaSources } from './islam/sects/shia-sources';
+import { shiaKarbalaGospel } from './islam/sects/shia-karbala-gospel';
+import { quranistOverview } from './islam/sects/quranist-overview';
+import { quranistAnswering } from './islam/sects/quranist-answering';
+import { ahmadiyyaOverview } from './islam/sects/ahmadiyya-overview';
+import { ahmadiyyaJesusInIndia } from './islam/sects/ahmadiyya-jesus-in-india';
+import { noiOverview } from './islam/sects/noi-overview';
+import { noiAnswering } from './islam/sects/noi-answering';
+import { druze } from './islam/sects/druze';
+import { alawites } from './islam/sects/alawites';
+import { alevis } from './islam/sects/alevis';
 
 export const topics: Topic[] = [
   truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, resurrection, jesusOnlyWay, problemOfEvil, hardPassages, havingTheConversation,
@@ -45,15 +61,27 @@ export const topics: Topic[] = [
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
   trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,
+  sunniOverview, sunniCompanions, sunniSalafiSufi, shiaOverview, shiaImamate, shiaSources, shiaKarbalaGospel,
+  quranistOverview, quranistAnswering, ahmadiyyaOverview, ahmadiyyaJesusInIndia, noiOverview, noiAnswering, druze, alawites, alevis,
 ];
 
 export { tracks };
 
 export const getTopic = (id: string | undefined) => topics.find((t) => t.id === id);
 export const getTrack = (id: string | undefined) => tracks.find((t) => t.id === id);
+/** The track (or sub-track) whose own sections list the topic. */
 export const trackForTopic = (topicId: string): Track | undefined =>
   tracks.find((t) => t.sections.some((s) => s.topicIds.includes(topicId)));
-export const topicsInTrack = (track: Track): Topic[] =>
+export const topLevelTracks: Track[] = tracks.filter((t) => !t.parent);
+export const subtracksOf = (track: Track): Track[] => tracks.filter((t) => t.parent === track.id);
+/** Topics listed in the track's own sections, not counting its sub-tracks. */
+export const ownTopics = (track: Track): Topic[] =>
   track.sections.flatMap((s) => s.topicIds).map((id) => getTopic(id)!).filter(Boolean);
+/** Every topic in the track, including those in its sub-tracks. */
+export const topicsInTrack = (track: Track): Topic[] => [...ownTopics(track), ...subtracksOf(track).flatMap(topicsInTrack)];
+
+/** A follow-up chain flattened into a list: every reply and answer at every depth. */
+export const flattenFollowUps = (followUps: FollowUp[] | undefined): FollowUp[] =>
+  (followUps ?? []).flatMap((f) => [f, ...flattenFollowUps(f.followUps)]);
 
 export * from './types';

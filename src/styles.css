@@ -219,6 +219,9 @@ button.chip { font: inherit; cursor: pointer; }
 .followup { margin-top: 0.75rem; border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem 0.8rem; background: var(--bg); }
 .followup summary { cursor: pointer; font-weight: 600; }
 .followup p { margin: 0.5rem 0 0; }
+.followup .followup { background: var(--surface); border-left: 3px solid var(--accent); }
+.followup .round { display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; margin-right: 0.35rem; }
+.track-card h3 { margin: 0 0 0.25rem; }
 
 /* Search */
 .search-input { width: 100%; font: inherit; padding: 0.7rem 0.9rem; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); margin-bottom: 0.75rem; }
@@ -250,3 +253,7 @@ button.chip { font: inherit; cursor: pointer; }
 .due-banner .continue-label strong { color: var(--text); }
 
 .theme-toggle { font: inherit; font-size: 0.85rem; font-style: normal; background: none; border: 1px solid var(--border); border-radius: 99px; padding: 0.15rem 0.7rem; color: var(--muted); cursor: pointer; margin-left: 0.5rem; }
+
+.subtrack-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.75rem 0 0; }
+.subtrack-chips .chip { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.3rem 0.7rem; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: inherit; text-decoration: none; font-size: 0.9rem; }
+.subtrack-chips .chip:hover { border-color: var(--accent); }
