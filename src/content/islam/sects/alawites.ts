@@ -94,17 +94,17 @@ export const alawites: Topic = {
         {
           reply: 'Ali is the Commander of the Faithful and the friend of God. We love him and his family. That is our religion.',
           answer:
-            'I can respect love for a man remembered as brave and just. My question is what he can do for you before God. Scripture says, “No man can possibly redeem his brother or pay his ransom to God” (Psalm 49:7-8). What Sunni and Twelver Shia Muslims have handed down about Ali shows him praying to God as God’s servant. Jesus did what no servant does. He said to a man, “Son, your sins are forgiven” (Mark 2:5-7), and he gave his own life as the ransom that the psalm says no man can pay (Mark 10:45).',
+            'I can respect love for a man remembered as brave and just. My question is what he can do for you before God. Scripture says, “No man can possibly redeem his brother or pay his ransom to God” (Psalm 49:7-8). What Sunni and Twelver Shia Muslims have handed down about Ali shows him praying to God as God’s servant. Jesus said to a man, “Son, your sins are forgiven” (Mark 2:5-7), and gave his own life as the ransom that the psalm says no man can pay (Mark 10:45).',
           followUps: [
             {
               reply: 'Jesus was a prophet. We honour him and his mother, and we even keep his birthday.',
               answer:
-                'I am glad you do. Then consider what that birthday announces. The angel said, “Today in the city of David a Savior has been born to you. He is Christ the Lord!” (Luke 2:10-11). Matthew says the child would be called Immanuel, which means “God with us” (Matthew 1:23). Christmas does not celebrate the birth of one more prophet. If you keep the feast, the feast itself asks you who he is.',
+                'I am glad you do. Then consider what that birthday announces. The angel said, “Today in the city of David a Savior has been born to you. He is Christ the Lord!” (Luke 2:10-11), and Matthew says the child would be called Immanuel, which means “God with us” (Matthew 1:23). Christmas does not celebrate the birth of one more prophet. If you keep the feast, the feast itself asks you who he is.',
               followUps: [
                 {
                   reply: 'We keep the feasts because our fathers kept them. It is custom, not doctrine.',
                   answer:
-                    'That is honest, and many who are called Christians keep Christmas in just that way. But a custom has a source. This one goes back to events with witnesses: a birth, a death under Pontius Pilate, and an empty tomb. Peter wrote, “we did not follow cleverly devised fables… we were eyewitnesses of His majesty” (2 Peter 1:16). I am inviting you to look behind the custom at the person. Would you read Luke’s account with me?',
+                    'That is honest, and many who are called Christians keep Christmas in just that way. But a custom has a source, and this one goes back to events with witnesses: a birth, a death under Pontius Pilate, and an empty tomb. Peter wrote, “we did not follow cleverly devised fables… we were eyewitnesses of His majesty” (2 Peter 1:16). I am inviting you to look behind the custom at the person. Would you read Luke’s account with me?',
                 },
               ],
             },
@@ -113,7 +113,7 @@ export const alawites: Topic = {
         {
           reply: 'Our people have had enough of others trying to change them. First the Sunnis, then the clerics from Iran, and now you.',
           answer:
-            'I understand that. Rulers and clerics have tried to remake your people to suit themselves. I have no power over you and I want none. I am not asking you to join my nation or my party. Jesus never forced anyone. When many turned back from him he let them go, and only asked his friends, “Do you want to leave too?” (John 6:66-67). I am asking you to look at him, and you are free to say no.',
+            'I understand that. Rulers and clerics have tried to remake your people to suit themselves. I have no power over you and want none, and I am not asking you to join my nation or my party. Jesus never forced anyone: when many turned back from him he let them go, and only asked his friends, “Do you want to leave too?” (John 6:66-67). I am asking you to look at him, and you are free to say no.',
           followUps: [
             {
               reply: 'Then why speak of it at all? Leave us in peace.',
@@ -139,12 +139,12 @@ export const alawites: Topic = {
         {
           reply: 'We are silent because we were slaughtered whenever our beliefs were known. You would hide too.',
           answer:
-            'I might. After what was done on the coast in 2025, no one has the right to lecture you about caution, and Christians have hidden their meetings from killers too. But hiding from murderers is one thing. A teaching that is kept from most of the community’s own sons and from all its daughters is another. The apostles were threatened and beaten, and they still said, “we cannot stop speaking about what we have seen and heard” (Acts 4:20). What they had was news for everyone.',
+            'I might. After what was done on the coast in 2025, no one has the right to lecture you about caution, and Christians have hidden their meetings from killers too. But hiding from murderers is one thing, and a teaching kept from most of the community’s own sons and from all its daughters is another. The apostles were threatened and beaten, and they still said, “we cannot stop speaking about what we have seen and heard” (Acts 4:20). What they had was news for everyone.',
           followUps: [
             {
               reply: 'Truth has an outer side for the many and an inner side for the few. Ordinary people cannot bear the inner truth.',
               answer:
-                'Jesus said nearly the reverse. He thanked his Father “because You have hidden these things from the wise and learned, and revealed them to little children” (Matthew 11:25). Paul wrote that he had “renounced secret and shameful ways” and commended himself “by open proclamation of the truth” (2 Corinthians 4:2). The gospel has depths, and no one comes to the end of them. But there is not one message for the simple and another for the advanced. A child who trusts Christ has all of him.',
+                'Jesus said nearly the reverse. He thanked his Father “because You have hidden these things from the wise and learned, and revealed them to little children” (Matthew 11:25). Paul wrote that he had “renounced secret and shameful ways” and commended himself “by open proclamation of the truth” (2 Corinthians 4:2). The gospel has depths, but there is not one message for the simple and another for the advanced. A child who trusts Christ has all of him.',
               followUps: [
                 {
                   reply: 'Jesus also taught in parables, and warned his disciples not to throw pearls before swine.',
@@ -158,7 +158,7 @@ export const alawites: Topic = {
         {
           reply: 'I am a woman. None of this was ever told to me. Among us religion is the men’s business.',
           answer:
-            'Then I have good news for you in particular. Jesus taught women as his disciples. When Mary sat at his feet to listen, he said that she “has chosen the good portion, and it will not be taken away from her” (Luke 10:39-42). The first person to see him risen and to carry the news was a woman, Mary Magdalene (John 20:17-18). Paul writes, “There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus” (Galatians 3:28). Nothing that Christ gives is held back from you.',
+            'Then I have good news for you in particular, because Jesus taught women as his disciples. When Mary sat at his feet to listen, he said that she “has chosen the good portion, and it will not be taken away from her” (Luke 10:39-42). The first person to see him risen and to carry the news was a woman, Mary Magdalene (John 20:17-18). Paul writes, “There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus” (Galatians 3:28). Nothing that Christ gives is held back from you.',
           followUps: [
             {
               reply: 'Your churches are led by men as well.',
@@ -184,7 +184,7 @@ export const alawites: Topic = {
         {
           reply: 'God cannot truly become flesh. The body is only a veil over the divine light. A God who eats and bleeds is no God.',
           answer:
-            'The apostles met that idea in their own day and refused it. John wrote, “Every spirit that confesses that Jesus Christ has come in the flesh is from God” (1 John 4:2-3). The risen Jesus said, “Touch Me and see—for a spirit does not have flesh and bones, as you see I have” (Luke 24:39). It matters because of what he came to do: “He had to be made like His brothers in every way… to make atonement for the sins of the people” (Hebrews 2:17). A veil cannot die for me. A man can, and this man was also God.',
+            'The apostles met that idea in their own day and refused it. John wrote, “Every spirit that confesses that Jesus Christ has come in the flesh is from God” (1 John 4:2-3). The risen Jesus said, “Touch Me and see—for a spirit does not have flesh and bones, as you see I have” (Luke 24:39). It matters because of what he came to do: “He had to be made like His brothers in every way… to make atonement for the sins of the people” (Hebrews 2:17). A veil cannot die for me, but a man can, and this man was also God.',
           followUps: [
             {
               reply: 'Then you are saying that God died. Who ruled the world for those three days?',
@@ -203,7 +203,7 @@ export const alawites: Topic = {
         {
           reply: 'Ali was the bravest and most just of men, the gate of knowledge. Jesus never ruled and never fought. Why should I look to Jesus?',
           answer:
-            'I will not speak against Ali. But courage and justice in one man cannot put another man right with God. Look at what is said of Jesus alone. He could ask his enemies, “Which of you can prove Me guilty of sin?” (John 8:46). He forgave sins on his own authority (Mark 2:5-7). And the histories say that Ali was struck down by an assassin and buried, while the tomb of Jesus was found empty and he was seen alive by hundreds (1 Corinthians 15:3-7).',
+            'I will not speak against Ali. But courage and justice in one man cannot put another man right with God. Jesus alone could ask his enemies, “Which of you can prove Me guilty of sin?” (John 8:46), and he forgave sins on his own authority (Mark 2:5-7). And the histories say that Ali was struck down by an assassin and buried, while the tomb of Jesus was found empty and he was seen alive by hundreds (1 Corinthians 15:3-7).',
           followUps: [
             {
               reply: 'Jesus was killed too, and shamefully. A man hung on a cross is no victor.',
@@ -229,12 +229,12 @@ export const alawites: Topic = {
         {
           reply: 'One life is too little. A child dies at five and an old man has eighty years. How can one judgment be fair to both?',
           answer:
-            'God knows exactly what each person was given, and “He will judge the world with justice” (Acts 17:31). I trust him with the child. But more lives would not make things fairer. A soul that remembers nothing cannot learn from what it did before, or repent of it. It only adds new sins to old ones. What every one of us needs, long-lived or short, is mercy.',
+            'God knows exactly what each person was given, and “He will judge the world with justice” (Acts 17:31). I trust him with the child. But more lives would not make things fairer. A soul that remembers nothing cannot learn from what it did before or repent of it, and only adds new sins to old ones. What every one of us needs, long-lived or short, is mercy.',
           followUps: [
             {
               reply: 'Mercy without effort is too cheap. A man should pay for what he has done.',
               answer:
-                'It was not cheap. It cost the Son of God his life: “He Himself bore our sins in His body on the tree” (1 Peter 2:24). The debt is paid in full, though not by me, because I never could pay it. And grace does not leave a person idle. The same verse says he bore our sins so that we might live to righteousness. The effort comes after the gift, out of gratitude.',
+                'It was not cheap. It cost the Son of God his life: “He Himself bore our sins in His body on the tree” (1 Peter 2:24). The debt is paid in full, though not by me, because I never could pay it. And grace does not leave a person idle, for the same verse says he bore our sins so that we might live to righteousness. The effort comes after the gift, out of gratitude.',
               followUps: [
                 {
                   reply: 'How can one man’s death pay for another man’s sins?',
@@ -253,7 +253,7 @@ export const alawites: Topic = {
             {
               reply: 'You trust old books. We trust what our own elders have seen.',
               answer:
-                'I trust witnesses too. The Gospels rest on people who saw Jesus die and then met him alive. Luke says he wrote after careful inquiry, from what was handed down by “the initial eyewitnesses” (Luke 1:1-4), and those witnesses held to their account under persecution. The difference lies in what is witnessed. A remembered former life would tell me that life goes round again. The resurrection tells me that death has been beaten, by one who offers to bring me through it.',
+                'I trust witnesses too. The Gospels rest on people who saw Jesus die and then met him alive, and Luke says he wrote from what was handed down by “the initial eyewitnesses” (Luke 1:1-4). The difference lies in what is witnessed. A remembered former life would tell me that life goes round again. The resurrection tells me that death has been beaten, by one who offers to bring me through it.',
             },
           ],
         },
@@ -274,17 +274,17 @@ export const alawites: Topic = {
         {
           reply: 'Where was your God when our villages were emptied?',
           answer:
-            'I do not have an answer that makes it bearable, and I distrust people who say they do. I can tell you what I hold on to. God did not stay outside our suffering. In Jesus he took a body and was betrayed, tortured and killed. And he forgets no victim. He said to the first murderer, “The voice of your brother’s blood cries out to Me from the ground” (Genesis 4:10). He will judge, and one day he will “wipe away every tear from their eyes” (Revelation 21:4).',
+            'I do not have an answer that makes it bearable, and I distrust people who say they do. I can tell you what I hold on to. God did not stay outside our suffering: in Jesus he took a body and was betrayed, tortured and killed. He forgets no victim, and said to the first murderer, “The voice of your brother’s blood cries out to Me from the ground” (Genesis 4:10). He will judge, and one day he will “wipe away every tear from their eyes” (Revelation 21:4).',
           followUps: [
             {
               reply: 'Judgment later is no use to the dead. We need protection now, and only our own people will give it.',
               answer:
-                'You are right to want protection and justice now, and I hope with you for courts that will give it. I am not asking you to leave your people or to stop defending the innocent. But there are two things your people cannot do for you, however loyal they are. They cannot forgive your sins, and they cannot bring you through death. Jesus came to “free those who all their lives were held in slavery by their fear of death” (Hebrews 2:14-15). A man who knows where he is going is harder to terrorise.',
+                'You are right to want protection and justice now, and I hope with you for courts that will give it. I am not asking you to leave your people or to stop defending the innocent. But however loyal they are, your people cannot forgive your sins and cannot bring you through death. Jesus came to “free those who all their lives were held in slavery by their fear of death” (Hebrews 2:14-15). A man who knows where he is going is harder to terrorise.',
               followUps: [
                 {
                   reply: 'And if I followed Jesus? My own people would call me a traitor, and the others would still kill me for being born Alawite.',
                   answer:
-                    'That may be true, and I will not pretend otherwise. Jesus promised his followers a new family “along with persecutions” (Mark 10:29-30). He knows what it is to be rejected by his own: “He came to His own, and His own did not receive Him” (John 1:11). What he gives cannot be taken by any militia. Paul was sure that nothing “in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord” (Romans 8:38-39). And you would not walk alone. That is what the church is for.',
+                    'That may be true, and I will not pretend otherwise. Jesus promised his followers a new family “along with persecutions” (Mark 10:29-30), and he knows what it is to be rejected by his own (John 1:11). What he gives cannot be taken by any militia. Paul was sure that nothing “in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord” (Romans 8:38-39). And you would not walk alone, because that is what the church is for.',
                 },
               ],
             },
@@ -293,12 +293,12 @@ export const alawites: Topic = {
         {
           reply: 'The Assads used our name. Most of us stayed poor, our sons died in their army, and now we pay for their crimes.',
           answer:
-            'There is truth in that, and it should be said aloud. To punish a whole community for the crimes of a ruling family is wicked. God’s word is plain: “The soul who sins is the one who will die. A son will not bear the iniquity of his father” (Ezekiel 18:20). It is also true that the regime did terrible things to many Syrians, most of them Sunni, and their grief is real too. The gospel does not take sides between the communities. It says that each of us answers for his own sins and not his neighbour’s, and that Christ died to make peace with God for anyone who comes.',
+            'There is truth in that, and it should be said aloud. To punish a whole community for the crimes of a ruling family is wicked, and God’s word is plain: “The soul who sins is the one who will die. A son will not bear the iniquity of his father” (Ezekiel 18:20). It is also true that the regime did terrible things to many Syrians, most of them Sunni, and their grief is real too. The gospel does not take sides between the communities. It says that each of us answers for his own sins and not his neighbour’s, and that Christ died to make peace with God for anyone who comes.',
           followUps: [
             {
               reply: 'Peace? With the people who slaughtered us?',
               answer:
-                'I would never tell you to pretend it did not happen, or to give up on justice. Forgiveness is neither of those. But I know what revenge does. It makes the next massacre certain. Scripture says, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). Jesus prayed for the men who were killing him: “Father, forgive them, for they do not know what they are doing” (Luke 23:34). I do not think anyone can do that in his own strength. People who have been forgiven by God find that they can begin.',
+                'I would never tell you to pretend it did not happen, or to give up on justice. But revenge makes the next massacre certain. Scripture says, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). Jesus prayed for the men who were killing him: “Father, forgive them, for they do not know what they are doing” (Luke 23:34). I do not think anyone can do that in his own strength, but people who have been forgiven by God find that they can begin.',
             },
           ],
         },
@@ -319,17 +319,17 @@ export const alawites: Topic = {
         {
           reply: 'He was a great prophet and a light from God. Is that not honour enough?',
           answer:
-            'It is more than many give him, and less than he claimed. He said, “before Abraham was born, I am!” (John 8:58), and his hearers took up stones because they understood him. He said, “Anyone who has seen Me has seen the Father” (John 14:9). A prophet who said such things falsely would not be a great prophet. So we cannot stop at honour. Either he is who he said he is, or he does not deserve the honour.',
+            'It is more than many give him, and less than he claimed. He said, “before Abraham was born, I am!” (John 8:58), and his hearers took up stones because they understood him. He said, “Anyone who has seen Me has seen the Father” (John 14:9). A prophet who said such things falsely would not be a great prophet. So either he is who he said he is, or he does not deserve the honour.',
           followUps: [
             {
               reply: 'Many have been called lights of God. Each people sees the one light in its own lamp.',
               answer:
-                'Jesus did not speak of himself as one lamp among several. He said, “I am the light of the world” (John 8:12), and “No one comes to the Father except through Me” (John 14:6). And his apostles would not let anyone treat them as divine. When a crowd tried to worship Paul and Barnabas, they tore their clothes and cried, “We too are only men, human like you” (Acts 14:11-15). The same men worshipped Jesus. They did not make gods of their heroes.',
+                'Jesus did not speak of himself as one lamp among several. He said, “I am the light of the world” (John 8:12), and “No one comes to the Father except through Me” (John 14:6). His apostles would not let anyone treat them as divine. When a crowd tried to worship Paul and Barnabas, they tore their clothes and cried, “We too are only men, human like you” (Acts 14:11-15). Yet the same men worshipped Jesus, and they were not men who made gods of their heroes.',
               followUps: [
                 {
                   reply: 'You make Jesus the only door and shut everyone else out. That is the pride that leads to bloodshed.',
                   answer:
-                    'It would be pride if I had invented it, or if it made me better than you. I did not, and it does not. A man who has been rescued has nothing to boast of. The one who said he is the only way also said, “love your enemies and pray for those who persecute you” (Matthew 5:44), and he died praying for his killers. Wherever people have killed in his name they were disobeying him. The door is one, and it stands open to every person on earth.',
+                    'It would be pride if I had invented it, or if it made me better than you, but a man who has been rescued has nothing to boast of. The one who said he is the only way also said, “love your enemies and pray for those who persecute you” (Matthew 5:44), and he died praying for his killers. Wherever people have killed in his name they were disobeying him. The door is one, and it stands open to every person on earth.',
                 },
               ],
             },
@@ -343,7 +343,7 @@ export const alawites: Topic = {
             {
               reply: 'In my heart I believe in God, and he knows me. That is enough.',
               answer:
-                'God does know you, better than you know yourself. That is exactly why I need a Saviour: he knows all of it. Believing that God is there is a beginning. But Jesus said that eternal life is to know “the only true God, and Jesus Christ, whom You have sent” (John 17:3). God has made a way to himself. It would be strange to thank him and decline it.',
+                'God does know you, better than you know yourself. That is exactly why I need a Saviour: he knows all of it. Believing that God is there is a beginning, but Jesus said that eternal life is to know “the only true God, and Jesus Christ, whom You have sent” (John 17:3). God has made a way to himself, and it would be strange to thank him and decline it.',
             },
           ],
         },

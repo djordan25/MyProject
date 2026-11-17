@@ -62,7 +62,7 @@ export const druze: Topic = {
     {
       heading: 'Where the gospel meets a Druze',
       body: [
-        'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus and the men who wrote the Gospels. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
+        'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus, and Druze scholars count the New Testament among the sources of their teaching. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
         'Then come to the differences, gently and plainly. First, one life. Scripture says that “man is appointed to die once, and after that to face judgment” (Hebrews 9:27). Jesus told the dying thief, “today you will be with Me in Paradise” (Luke 23:43). The Christian hope is resurrection, not return: this same person, raised and made new. And rebirth cannot deal with guilt. On the Druze account itself the judgment still waits at the end of all the lives.',
         'Second, open truth. Jesus said, “I have spoken openly to the world… I said nothing in secret” (John 18:20). He told his disciples, “what is whispered in your ear, proclaim from the housetops” (Matthew 10:27). Paul says that the mystery once hidden “is now revealed”, and that “We proclaim Him, admonishing and teaching everyone with all wisdom” (Colossians 1:25-28). There is no inner circle. A dying thief, a child and a scholar receive the same Christ.',
         'Third, God’s final word. “On many past occasions and in many different ways, God spoke to our fathers through the prophets. But in these last days He has spoken to us by His Son” (Hebrews 1:1-2). The Son is not one messenger in a series, to be followed by a later and fuller one. Fourth, assurance. John wrote “so that you may know that you have eternal life” (1 John 5:13). Ask your friend whether he knows that he is forgiven, and what that knowledge rests on.',
@@ -75,7 +75,7 @@ export const druze: Topic = {
         'A Druze who follows Christ may lose family, the hope of marriage, inheritance and home. Do not hide this, and do not hurry him. Jesus was honest about it. He said that no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… along with persecutions—and in the age to come, eternal life” (Mark 10:29-30).',
         'That promise of houses and brothers and sisters is kept through the church. If you are not ready to be family to someone who has lost his own, you are not ready to ask him to pay that price.',
         'The Druze say that one must be born Druze. The gospel speaks of another birth, open to anyone. Those who receive Christ become “children born not of blood, nor of the desire or will of man, but born of God” (John 1:12-13).',
-        'Be a friend for years, not for one conversation. Do not pry into what he is not free to tell. Offer to read a Gospel together, since his own tradition honours the men who wrote them. Pray for him by name.',
+        'Be a friend for years, not for one conversation. Do not pry into what he is not free to tell. Offer to read a Gospel together, since his own tradition counts the New Testament among its sources. Pray for him by name.',
       ],
       references: ['Mark 10:29-30', 'John 1:12-13', 'Ephesians 2:19', 'Luke 14:28'],
     },
@@ -83,9 +83,9 @@ export const druze: Topic = {
   objections: [
     {
       id: 'drz-1',
-      objection: 'We already honour Jesus. He is one of our prophets, and we respect the Gospels and the men who wrote them. Why would I need to become a Christian?',
+      objection: 'We already honour Jesus. He is one of our prophets, and we respect the Gospel. Why would I need to become a Christian?',
       response:
-        'I’m glad you honour him, and it gives us a place to begin. To honour a teacher is to take his words seriously, so may I ask what you make of what he said about himself? He did not present himself as one guide among several. He said, “I am the way and the truth and the life. No one comes to the Father except through Me” (John 14:6). He said he would give his life “as a ransom for many” (Mark 10:45). Those are in the Gospels you respect. I am not asking you to join my community. I am asking who Jesus is.',
+        'I’m glad you honour him, and it gives us a place to begin. To honour a teacher is to take his words seriously, so may I ask what you make of what he said about himself? He did not present himself as one guide among several. He said, “I am the way and the truth and the life. No one comes to the Father except through Me” (John 14:6). He said he would give his life “as a ransom for many” (Mark 10:45). Those words are in the Gospels. I am not asking you to join my community. I am asking who Jesus is.',
       keyPoints: [
         'Welcome the honour they give Jesus and start there.',
         'Honouring a teacher means weighing what he said about himself.',
@@ -106,7 +106,7 @@ export const druze: Topic = {
                 {
                   reply: 'Jesus himself taught in parables, and told his disciples that the mysteries were given to them and not to the crowd.',
                   answer:
-                    'He did say that (Mark 4:11). In the same chapter he says why: “there is nothing hidden that will not be disclosed, and nothing concealed that will not be brought to light” (Mark 4:22). The hiding was for a short time before the cross. Afterwards he sent the same disciples to all nations, to teach people everything he had commanded (Matthew 28:19-20). Paul calls the gospel a mystery that “is now revealed” (Colossians 1:26). In Christianity the mystery has been made public.',
+                    'He did say that (Mark 4:11). In the same chapter he says why: “there is nothing hidden that will not be disclosed, and nothing concealed that will not be brought to light” (Mark 4:22). The hiding was for a short time before the cross, and afterwards he sent the same disciples to teach all nations everything he had commanded (Matthew 28:19-20). Paul calls the gospel a mystery that “is now revealed” (Colossians 1:26). In Christianity the mystery has been made public.',
                 },
               ],
             },
@@ -151,7 +151,7 @@ export const druze: Topic = {
                 {
                   reply: 'Then why not believe quietly in my heart and stay as I am? We have always kept our faith hidden when we had to.',
                   answer:
-                    'Many begin quietly, and God is patient with that. Nicodemus first came to Jesus at night, and Joseph of Arimathea was a disciple in secret, yet both came forward on the day of the cross (John 19:38-39). But Jesus does not allow hiding to be the settled state. He said, “everyone who confesses Me before men, I will also confess him before My Father in heaven” (Matthew 10:32-33). When and how to speak takes wisdom, and others who have walked this road can help. The direction, though, is towards the light.',
+                    'Many begin quietly, and God is patient with that. Nicodemus first came to Jesus at night, and Joseph of Arimathea was a disciple in secret, yet both came forward on the day of the cross (John 19:38-39). But Jesus does not allow hiding to be the settled state: “everyone who confesses Me before men, I will also confess him before My Father in heaven” (Matthew 10:32-33). When and how to speak takes wisdom, and others who have walked this road can help. The direction, though, is towards the light.',
                 },
               ],
             },
@@ -160,7 +160,7 @@ export const druze: Topic = {
         {
           reply: 'The Druze have survived a thousand years by holding together. If our young people leave, the community dies.',
           answer:
-            'I understand that fear. Your people have been hunted more than once, and holding together kept them alive. Following Jesus does not mean ceasing to love your people. Paul had “deep sorrow and unceasing anguish” for his own nation and prayed for their salvation (Romans 9:2-3; 10:1). But the survival of a community and the truth of its teaching are separate questions. Jesus asked, “What does it profit a man to gain the whole world, yet forfeit his soul?” (Mark 8:36).',
+            'I understand that fear, because holding together has kept your people alive. Following Jesus does not mean ceasing to love them. Paul had “deep sorrow and unceasing anguish” for his own nation and prayed for their salvation (Romans 9:2-3; 10:1). But the survival of a community and the truth of its teaching are separate questions. Jesus asked, “What does it profit a man to gain the whole world, yet forfeit his soul?” (Mark 8:36).',
           followUps: [
             {
               reply: 'That is easy for you to say. Your people are not a few villages surrounded by enemies.',
@@ -191,12 +191,12 @@ export const druze: Topic = {
             {
               reply: 'God is beyond every attribute and every name. To say he has a Son, or that he became a man, is to limit him.',
               answer:
-                'It limits God more to say that he cannot make himself known. John writes, “No one has ever seen God, but the one and only Son, who is Himself God and is at the Father’s side, has made Him known” (John 1:18). If nothing at all can be said of God, we cannot say he is just or good, and your precept to be content with what he does would have no ground. Published studies also say that Druze teaching itself speaks of God appearing in human form. If that is so, we do not disagree about whether God can show himself among men. We disagree about where he has done it.',
+                'It limits God more to say that he cannot make himself known. John writes, “No one has ever seen God, but the one and only Son, who is Himself God and is at the Father’s side, has made Him known” (John 1:18). If nothing at all can be said of God, we cannot say he is just or good, and your precept to be content with what he does would have no ground. Published studies also say that Druze teaching itself speaks of God appearing in human form. If that is so, we do not disagree about whether God can show himself among men, only about where he has done it.',
               followUps: [
                 {
                   reply: 'You speak of things in our books that you have not read and are not permitted to read.',
                   answer:
-                    'You are right. I have only what scholars have published, and I will not claim more than that. Correct me where they are wrong. But that is my difficulty: I cannot examine the teaching, and most Druze cannot either. The gospel asks to be examined. Luke wrote his account “so that you may know the certainty of the things you have been taught” (Luke 1:1-4), and the Bereans are praised because they “examined the Scriptures every day to see if these teachings were true” (Acts 17:11). Will you read a Gospel with me and test it?',
+                    'You are right that I have only what scholars have published, so correct me where they are wrong. But that is my difficulty: I cannot examine the teaching, and most Druze cannot either. The gospel asks to be examined. Luke wrote “so that you may know the certainty of the things you have been taught” (Luke 1:1-4), and the Bereans are praised because they “examined the Scriptures every day to see if these teachings were true” (Acts 17:11). Will you read a Gospel with me and test it?',
                 },
               ],
             },
@@ -231,12 +231,12 @@ export const druze: Topic = {
         {
           reply: 'Secrecy kept us alive. Deep truths must be guarded from people who would mock them or kill us for them.',
           answer:
-            'Hiding from persecutors I understand. Christians have met in secret for the same reason, and some still do. But hiding from those who would kill you is one thing, and withholding the teaching from your own sons and daughters is another. Jesus did warn against offering what is holy to those who only trample it (Matthew 7:6). Yet he told the same disciples, “what is whispered in your ear, proclaim from the housetops” (Matthew 10:27). Paul’s aim was to teach “everyone” and present “everyone perfect in Christ” (Colossians 1:28).',
+            'Hiding from persecutors I understand, and Christians have met in secret for the same reason. But hiding from those who would kill you is one thing, and withholding the teaching from your own sons and daughters is another. Jesus did warn against offering what is holy to those who only trample it (Matthew 7:6). Yet he told the same disciples, “what is whispered in your ear, proclaim from the housetops” (Matthew 10:27). Paul’s aim was to teach “everyone” and present “everyone perfect in Christ” (Colossians 1:28).',
           followUps: [
             {
               reply: 'Any Druze who is worthy may seek initiation. Not everyone is ready for wisdom. You would not teach surgery to a child.',
               answer:
-                'Understanding does grow, and the New Testament speaks of milk for infants and solid food for the mature (Hebrews 5:12-14). But the message that saves is the same for the beginner and the scholar. Jesus thanked his Father “because You have hidden these things from the wise and learned, and revealed them to little children” (Matthew 11:25). The thief on the cross had no instruction at all, only a plea, and Jesus received him (Luke 23:42-43). If knowing God waits on other men judging me worthy, what hope is there for the unworthy? Jesus said he came for them (Mark 2:17).',
+                'Understanding does grow, and the New Testament speaks of milk for infants and solid food for the mature (Hebrews 5:12-14). But the message that saves is the same for the beginner and the scholar. Jesus thanked his Father “because You have hidden these things from the wise and learned, and revealed them to little children” (Matthew 11:25). The thief on the cross had no instruction at all, only a plea, and Jesus received him (Luke 23:42-43). If knowing God waits on other men judging me worthy, there is no hope for the unworthy, and Jesus said he came for them (Mark 2:17).',
               followUps: [
                 {
                   reply: 'Your churches have clergy, theologians and creeds that ordinary people do not understand. That is the same thing.',
@@ -250,7 +250,7 @@ export const druze: Topic = {
         {
           reply: 'To be honest, I do not think about these things. I am Druze by blood. Religion is for the old men.',
           answer:
-            'Thank you for saying so plainly. Many people I know who call themselves Christians would say the same. But death comes to the uninitiated as surely as to the sheikhs, and Scripture says that after it comes judgment (Hebrews 9:27). Jesus offers something a man can have now and be sure of. John wrote “so that you may know that you have eternal life” (1 John 5:13). Is that not worth an hour of your attention?',
+            'Thank you for saying so plainly. Many people I know who call themselves Christians would say the same. But death comes to the uninitiated as surely as to the sheikhs, and Scripture says that after it comes judgment (Hebrews 9:27). Jesus offers something a man can have now and be sure of: John wrote “so that you may know that you have eternal life” (1 John 5:13). Is that not worth an hour of your attention?',
           followUps: [
             {
               reply: 'I will come back as a Druze child. That is enough for me.',
@@ -276,7 +276,7 @@ export const druze: Topic = {
         {
           reply: 'The Gospel itself teaches the return of the soul. Jesus said that John the Baptist was Elijah.',
           answer:
-            'He said John was “the Elijah who was to come” (Matthew 11:14). But when John was asked directly, “Are you Elijah?”, he answered, “I am not” (John 1:21). The angel had explained the sense before John was born: he would go before the Lord “in the spirit and power of Elijah” (Luke 1:17). It is the same task, not the same soul. Besides, Elijah never died. He was taken up into heaven (2 Kings 2:11), and he appeared as Elijah beside Jesus after John’s death (Matthew 17:3).',
+            'He said John was “the Elijah who was to come” (Matthew 11:14). But when John was asked directly, “Are you Elijah?”, he answered, “I am not” (John 1:21). The angel had explained the sense before John was born: he would go before the Lord “in the spirit and power of Elijah” (Luke 1:17). It is the same task, not the same soul. Besides, Elijah never died but was taken up into heaven (2 Kings 2:11), and he appeared as Elijah beside Jesus after John’s death (Matthew 17:3).',
           followUps: [
             {
               reply: 'The disciples asked whether a man was born blind because of his own sin. He could only have sinned before birth if he had lived before, and Jesus did not rebuke them for thinking so.',
@@ -295,7 +295,7 @@ export const druze: Topic = {
         {
           reply: 'Many lives are fairer than one. One man is born rich and healthy, another poor and sick. Only if every soul tastes every condition is God just.',
           answer:
-            'I feel the force of that. But a soul that remembers nothing of its other lives learns nothing from them, so it is hard to see what the justice achieves. The Bible does not say this life is fair. It says God will set things right himself: “He has set a day when He will judge the world with justice by the Man He has appointed” (Acts 17:31). The deeper unfairness lies elsewhere. Rich or poor, “all have sinned and fall short of the glory of God” (Romans 3:23). What we need is mercy more than more time.',
+            'I feel the force of that. But a soul that remembers nothing of its other lives learns nothing from them, so it is hard to see what the justice achieves. The Bible does not say this life is fair. It says God will set things right himself: “He has set a day when He will judge the world with justice by the Man He has appointed” (Acts 17:31). And rich or poor, “all have sinned and fall short of the glory of God” (Romans 3:23), so what we need is mercy more than more time.',
           followUps: [
             {
               reply: 'More lives also mean more chances to do good and to grow.',
@@ -321,7 +321,7 @@ export const druze: Topic = {
         {
           reply: 'One cannot be three. Reason itself forbids it.',
           answer:
-            'It would be a contradiction to say one God and three gods, or one person and three persons. Christians say neither. We say one God in three persons, which is beyond what I can picture but is not against reason. You teach that God is beyond every description. Then we should not be surprised if his own life is richer than the arithmetic of created things. What matters is what he has shown us, and he has shown himself in his Son: “Anyone who has seen Me has seen the Father” (John 14:9).',
+            'It would be a contradiction to say one God and three gods, or one person and three persons, and Christians say neither. We say one God in three persons, which is beyond what I can picture but is not against reason. You teach that God is beyond every description. Then we should not be surprised if his own life is richer than the arithmetic of created things. What matters is what he has shown us, and he has shown himself in his Son: “Anyone who has seen Me has seen the Father” (John 14:9).',
           followUps: [
             {
               reply: 'The divine does not enter flesh, suffer and die. God is not touched by what is human.',
@@ -331,7 +331,7 @@ export const druze: Topic = {
                 {
                   reply: 'A God who is crucified is a defeated God. We honour strength and dignity.',
                   answer:
-                    'Paul knew that reaction. He called the message of Christ crucified “a stumbling block to Jews and foolishness to Gentiles” (1 Corinthians 1:23-24). But Jesus was not overpowered. He said of his life, “No one takes it from Me, but I lay it down of My own accord” (John 10:18), and on the third day he rose. Your own precepts honour the man who protects his brethren. “Greater love has no one than this, that he lay down his life for his friends” (John 15:13). That is strength, used for others.',
+                    'Paul knew that reaction. He called the message of Christ crucified “a stumbling block to Jews and foolishness to Gentiles” (1 Corinthians 1:23-24). But Jesus was not overpowered. He said of his life, “No one takes it from Me, but I lay it down of My own accord” (John 10:18), and on the third day he rose. Your own precepts honour the man who protects his brethren, and “Greater love has no one than this, that he lay down his life for his friends” (John 15:13).',
                 },
               ],
             },
