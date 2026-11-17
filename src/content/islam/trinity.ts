@@ -209,7 +209,7 @@ export const trinity: Topic = {
         },
         {
           reply: 'Abraham, Moses and all the prophets taught simple monotheism. The Jews have had those Scriptures for three thousand years and never found a Trinity in them.',
-          answer: 'The full revelation came with Jesus and the Spirit, but the Hebrew Scriptures already show more than a solitary person. Daniel sees “One like the Son of Man” coming with the clouds of heaven, who is given everlasting dominion and whom every nation serves (Daniel 7:13-14). Jews noticed such passages. The Jewish scholar Alan Segal showed in his study Two Powers in Heaven that some ancient Jews spoke of a second divine figure beside God, and that the rabbis later condemned the idea as heresy. It was a Jewish reading before it was a Christian one.',
+          answer: 'The full revelation came with Jesus and the Spirit, but the Hebrew Scriptures already show more than a solitary person. Daniel sees “One like the Son of Man” coming with the clouds of heaven, who is given everlasting dominion and whom every nation serves (Daniel 7:13-14). Jews noticed such passages. The Jewish scholar Alan Segal argued in his study Two Powers in Heaven that some ancient Jews spoke of a second divine figure beside God, and that the rabbis later condemned the idea as heresy. It was a Jewish reading before it was a Christian one.',
           followUps: [
             {
               reply: 'An angel is a messenger who speaks his master’s words. When the Angel of the LORD says “I am God”, he is delivering a message, as any ambassador would.',
@@ -282,7 +282,7 @@ export const trinity: Topic = {
     {
       id: 'tr-q3',
       question: 'Which passage shows the Holy Spirit is God?',
-      options: ['Acts 5:3-4', 'Acts 27:1', 'Genesis 5:1', 'Esther 1:1'],
+      options: ['Acts 5:3-4', 'John 1:1', 'John 20:28', 'Deuteronomy 6:4'],
       answer: 0,
       explanation: 'Lying to the Holy Spirit is lying to God.',
     },

@@ -190,7 +190,7 @@ export const gospelOfGrace: Topic = {
           followUps: [
             {
               reply: 'Your own reformer Martin Luther saw the contradiction. He called James “an epistle of straw” and wanted it out of the Bible.',
-              answer: 'Luther did write in 1522 that James was “an epistle of straw” beside books like Romans and John, because it says so little about Christ’s work. He was wrong to put it that way. The remark was dropped from later editions of his Bible, and every edition included James. But Luther is not my authority. James is, and James does not teach salvation by the scales. He says, “We all stumble in many ways” (James 3:2), and that whoever stumbles at one point of the law “is guilty of breaking all of it” (James 2:10). By that standard no one’s good deeds can outweigh his sins. Our new life, James says, is God’s gift: he “chose to give us birth through the word of truth” (James 1:18).',
+              answer: 'Luther did write in 1522 that James was “an epistle of straw” beside books like Romans and John, because he found nothing of the gospel in it. He was wrong to put it that way. The remark was dropped from later editions of his Bible, and every edition included James. But Luther is not my authority. James is, and James does not teach salvation by the scales. He says, “We all stumble in many ways” (James 3:2), and that whoever stumbles at one point of the law “is guilty of breaking all of it” (James 2:10). By that standard no one’s good deeds can outweigh his sins. Our new life, James says, is God’s gift: he “chose to give us birth through the word of truth” (James 1:18).',
               followUps: [
                 {
                   reply: 'James was the brother of Jesus and led the church in Jerusalem. Paul was an outsider. Where they differ, James has the true teaching of Jesus, and it is faith with works, as in Islam.',
@@ -212,14 +212,14 @@ export const gospelOfGrace: Topic = {
     {
       id: 'gg-q1',
       question: 'According to Sahih al-Bukhari 6463, could Muhammad be saved by his own deeds?',
-      options: ['Yes, certainly', 'No, not unless Allah bestows His mercy', 'Only on Fridays', 'The hadith doesn’t say'],
+      options: ['Yes, because his past and future sins had already been forgiven', 'No, not unless Allah bestows His mercy', 'Yes, because a prophet’s good deeds always outweigh his sins', 'No, only the intercession of the earlier prophets could save him'],
       answer: 1,
       explanation: '“No, even I… unless and until Allah bestows His mercy on me.”',
     },
     {
       id: 'gg-q2',
       question: 'Which verse says believers may know they have eternal life?',
-      options: ['1 John 5:13', 'Quran 7:8', 'Genesis 3:15', 'Psalm 90:10'],
+      options: ['1 John 5:13', 'James 2:24', 'Ephesians 2:8-9', 'Romans 6:1-2'],
       answer: 0,
       explanation: 'Christian assurance rests on Christ’s finished work.',
     },
@@ -233,7 +233,7 @@ export const gospelOfGrace: Topic = {
     {
       id: 'gg-q4',
       question: 'Which verse answers “Shall we sin that grace may abound?”',
-      options: ['Romans 6:1-2', 'John 1:1', 'Acts 1:8', 'Hebrews 11:1'],
+      options: ['Romans 6:1-2', 'Romans 5:20', 'Galatians 2:16', 'Ephesians 2:8-9'],
       answer: 0,
       explanation: '“Certainly not!”',
     },

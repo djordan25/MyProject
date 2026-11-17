@@ -104,11 +104,11 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Some changes are not trivial. The Trinity verse in 1 John was added, and so were the ending of Mark and the story of the woman caught in adultery.',
-              answer: 'You are right about all three, and it was Christian scholars who identified them. The words about “the Father, the Word, and the Holy Spirit” that older Bibles print in 1 John 5:7 are absent from the early Greek manuscripts and came in from the Latin tradition. Modern Bibles leave them out. Mark 16:9-20 and John 8:1-11 are bracketed or footnoted. That we can name these passages shows the method works: additions can be detected. And nothing rests on them. The Trinity is taught in Matthew 28:19 and John 1:1, and the resurrection is announced in Mark 16:6, which every copy has.',
+              answer: 'You are right about all three, and it was Christian scholars who identified them. The words about “the Father, the Word, and the Holy Spirit” that older Bibles print in 1 John 5:7 are absent from the early Greek manuscripts and came in from the Latin tradition, and modern Bibles leave them out. Mark 16:9-20 and John 8:1-11 are bracketed or footnoted. That we can name these passages shows the method works: additions can be detected. And nothing rests on them. The Trinity is taught in Matthew 28:19 and John 1:1, and the resurrection is announced in Mark 16:6, which every copy has.',
               followUps: [
                 {
                   reply: 'Scribes also changed verses on purpose, to make Jesus look more divine. That is Ehrman’s “orthodox corruption of Scripture”.',
-                  answer: 'Ehrman argued that in a book of that title in 1993, and some of his examples are probably right. Scribes did now and then adjust a verse towards what they believed. But consider what his argument needs. He can identify an alteration only because the earlier reading survives in other manuscripts. So the evidence of tampering is also the evidence that the original was not lost. And the alterations are few and local. The plainest statements that Jesus is God are not among the doubtful places: “the Word was God” (John 1:1) and “My Lord and my God!” (John 20:28) stand in the text without serious dispute.',
+                  answer: 'Ehrman argued that in a book of that title in 1993, and some of his examples are probably right: scribes did now and then adjust a verse towards what they believed. But he can identify an alteration only because the earlier reading survives in other manuscripts. So the evidence of tampering is also the evidence that the original was not lost. And the alterations are few and local. The plainest statements that Jesus is God are not among the doubtful places: “the Word was God” (John 1:1) and “My Lord and my God!” (John 20:28) stand in the text without serious dispute.',
                   followUps: [
                     {
                       reply: 'You only know about the changes that left a trace. There could be early changes that every surviving copy shares.',
@@ -182,11 +182,11 @@ export const reliabilityOfScripture: Topic = {
               followUps: [
                 {
                   reply: 'Harmonising like that is special pleading. You would not accept it from someone defending another holy book.',
-                  answer: 'The test should be the same for every text, and I accept it for mine. Is the proposed reading one the words can naturally bear, and would we allow it for any two ancient sources? Historians do this constantly. Polybius and Livy describe Hannibal’s route over the Alps differently, and nobody concludes that he never crossed. What I must not do is claim to know more than I do, so where I cannot see how two details fit I will say so. My confidence that Jesus died and rose does not depend on solving every puzzle. It rests on independent sources agreeing about the main events.',
+                  answer: 'The test should be the same for every text, and I accept it for mine. Is the proposed reading one the words can naturally bear, and would we allow it for any two ancient sources? Historians do this constantly. Polybius and Livy describe Hannibal’s route over the Alps differently, and nobody concludes that he never crossed. What I must not do is claim to know more than I do, so where I cannot see how two details fit I will say so. My confidence that Jesus died and rose does not depend on solving every puzzle; it rests on independent sources agreeing about the main events.',
                   followUps: [
                     {
                       reply: 'Then you admit the Bible may contain errors. So it is not the word of God.',
-                      answer: 'I have admitted that I cannot resolve every difficulty, which is a different thing. An unsolved puzzle is not a proven error, and some old puzzles have been solved by new evidence. John’s pool “with five covered colonnades” (John 5:2) was doubted by some critics until it was dug up in Jerusalem. But keep two questions apart. You do not need to believe the Bible is without error to see that the Gospels are good historical sources for the death and resurrection of Jesus. Start there. If he rose, his own view of Scripture carries weight, and he said that “the Scripture cannot be broken” (John 10:35).',
+                      answer: 'I have admitted that I cannot resolve every difficulty, which is a different thing. An unsolved puzzle is not a proven error, and some old puzzles have been solved by new evidence. John’s pool “with five covered colonnades” (John 5:2) was doubted by some critics until it was dug up in Jerusalem. But keep two questions apart. You do not need to believe the Bible is without error to see that the Gospels are good historical sources for the death and resurrection of Jesus, so start there. If he rose, his own view of Scripture carries weight, and he said that “the Scripture cannot be broken” (John 10:35).',
                     },
                   ],
                 },
@@ -222,7 +222,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Acts itself calls Peter and John unschooled. Literacy in Roman Palestine was only a few per cent.',
-              answer: 'Acts says the council saw that they were “unschooled, ordinary men” (Acts 4:13). In context that means they had no training as teachers of the law, not that they could not read. Some scholars do estimate that only a few per cent could write, though the figures are disputed. In any case an ancient author often did not hold the pen. Paul dictated Romans: “I, Tertius, who wrote down this letter, greet you in the Lord” (Romans 16:22). And nobody claims that Peter wrote a Gospel. The early report is that Mark wrote down what Peter taught.',
+              answer: 'Acts says the council saw that they were “unschooled, ordinary men” (Acts 4:13). In context that means they had no training as teachers of the law, not that they could not read. Some scholars do estimate that only a few per cent could write, though the figures are disputed. In any case an ancient author often did not hold the pen. Paul dictated Romans: “I, Tertius, who wrote down this letter, greet you in the Lord” (Romans 16:22). And nobody claims that Peter wrote a Gospel; the early report is that Mark wrote down what Peter taught.',
             },
           ],
         },
@@ -232,7 +232,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Papias is a weak witness. Eusebius thought little of his intelligence, and the Matthew he describes wrote sayings in Hebrew, which is not our Greek Gospel.',
-              answer: 'Both points are fair. Eusebius did call Papias a man of very small understanding, though his complaint was about Papias’s views on the thousand-year reign of Christ, and he still quoted him as a source. And what Papias says about Matthew, that he compiled the sayings in the Hebrew language, is a puzzle on which scholars disagree. So I would not rest the case on Papias alone. His value is his date: he wrote early in the second century, passing on what he had heard from an older teacher, which puts the names Mark and Matthew within living memory of the apostles.',
+              answer: 'Both points are fair. Eusebius did call Papias a man of very limited understanding, though his complaint was about Papias’s views on the thousand-year reign of Christ, and he still quoted him as a source. And what Papias says about Matthew, that he compiled the sayings in the Hebrew language, is a puzzle on which scholars disagree. So I would not rest the case on Papias alone. His value is his date: he wrote early in the second century, passing on what he had heard from an older teacher, which puts the names Mark and Matthew within living memory of the apostles.',
             },
           ],
         },
@@ -259,7 +259,7 @@ export const reliabilityOfScripture: Topic = {
                   followUps: [
                     {
                       reply: 'And he says a historian can never conclude that a miracle happened, because a miracle is by definition the least probable explanation.',
-                      answer: 'That is the philosophical point underneath the rest, and it settles the question before looking. A miracle is the least probable explanation only if there is no God, or if God would never do such a thing. If God exists, how likely it is that he raised Jesus depends on the evidence and the setting. Ehrman himself grants that some of the disciples sincerely believed they had seen Jesus alive after his death. A historian can report that, and then anyone may ask what explains it best. To refuse to ask is a rule of method. It is not a discovery.',
+                      answer: 'That is the philosophical point underneath the rest, and it settles the question before looking. A miracle is the least probable explanation only if there is no God, or if God would never do such a thing. If God exists, how likely it is that he raised Jesus depends on the evidence and the setting. Ehrman himself grants that some of the disciples sincerely believed they had seen Jesus alive after his death. A historian can report that, and then anyone may ask what explains it best. To refuse to ask is a rule of method, not a discovery.',
                     },
                   ],
                 },
@@ -269,7 +269,7 @@ export const reliabilityOfScripture: Topic = {
         },
         {
           reply: 'Ehrman was an evangelical who studied the evidence and lost his faith. That should tell you something.',
-          answer: 'It tells me he is sincere, and I respect that. But by his own account it was not the manuscripts that ended his faith. It was the problem of suffering, which he wrote about in God’s Problem (2008). And people travel the other way over the same evidence. Bruce Metzger knew the manuscripts as well as anyone living and died a believer. A person’s life story cannot settle the matter in either direction. The arguments have to.',
+          answer: 'It tells me he is sincere, and I respect that. But by his own account it was not the manuscripts that ended his faith but the problem of suffering, which he wrote about in God’s Problem (2008). And people travel the other way over the same evidence. Bruce Metzger knew the manuscripts as well as anyone living and died a believer. A person’s life story cannot settle the matter in either direction. The arguments have to.',
         },
       ],
     },

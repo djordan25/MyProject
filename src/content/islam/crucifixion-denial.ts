@@ -168,7 +168,7 @@ export const crucifixionDenial: Topic = {
           followUps: [
             {
               reply: 'Mirza Ghulam Ahmad showed that the tomb of Yuz Asaf in Srinagar is the tomb of Jesus, and that an old remedy called the “ointment of Jesus” healed his wounds.',
-              answer: 'The shrine in Srinagar is the grave of a man called Yuz Asaf. The claim that he was Jesus was put forward by Mirza Ghulam Ahmad in his book Jesus in India, at the end of the nineteenth century. No Christian, Jewish or Roman source from the early centuries says that Jesus went east. A medieval remedy with the name of Jesus attached is not evidence of what happened in a tomb in Jerusalem. Most Muslims reject the Ahmadi account as well, because it has Jesus crucified, which Quran 4:157 denies. The Ahmadiyya sub-track examines this in detail.',
+              answer: 'The shrine in Srinagar is the grave of a man called Yuz Asaf. The claim that he was Jesus was put forward by Mirza Ghulam Ahmad in the 1890s and set out in his book Jesus in India, written in 1899. No Christian, Jewish or Roman source from the early centuries says that Jesus went east. A medieval remedy with the name of Jesus attached is not evidence of what happened in a tomb in Jerusalem. Most Muslims reject the Ahmadi account as well, because it has Jesus crucified, which Quran 4:157 denies. The Ahmadiyya sub-track examines this in detail.',
             },
           ],
         },

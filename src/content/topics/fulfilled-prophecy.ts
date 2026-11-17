@@ -123,7 +123,7 @@ export const fulfilledProphecy: Topic = {
           followUps: [
             {
               reply: 'Hugh Schonfield argued in The Passover Plot that he planned exactly that: drugged on the cross, taken down early by Joseph of Arimathea, and nursed back to health.',
-              answer: 'On Schonfield’s own account the plan failed. He says the soldier’s spear was not foreseen and that Jesus died of it. So the theory ends with a dead man and still has to explain why the disciples were sure they had seen him alive. It also needs a secret plot, of which there is no trace in any source, kept even from the disciples who went on to suffer for the message. Schonfield published it in 1965, and very few historians of any persuasion have followed him.',
+              answer: 'On Schonfield’s own account the plan failed. He says the spear thrust left little chance of recovery, and that Jesus revived only briefly before he died. So the theory ends with a dead man and still has to explain why the disciples were sure they had seen him alive. It also needs a secret plot, of which there is no trace in any source, kept even from the disciples who went on to suffer for the message. Schonfield published it in 1965, and very few historians of any persuasion have followed him.',
             },
           ],
         },

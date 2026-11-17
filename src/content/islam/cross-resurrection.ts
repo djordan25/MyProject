@@ -56,7 +56,7 @@ export const crossAndResurrection: Topic = {
               followUps: [
                 {
                   reply: 'The rabbis have always understood the suffering servant as the people of Israel. Reading it of the Messiah is a Christian invention.',
-                  answer: 'Not always. The Targum, the ancient Aramaic paraphrase read in the synagogues, opens the passage with “my servant the Messiah” at Isaiah 52:13, though it moves the sufferings on to others. The Talmud takes a name for the Messiah from Isaiah 53:4 (tractate Sanhedrin 98b). The reading that makes the servant the nation is old as well, but it became the usual Jewish reading in the Middle Ages, after the commentator Rashi. So reading the passage of the Messiah is found in Jewish sources themselves. It is not a Christian invention.',
+                  answer: 'Not always. The Targum, the ancient Aramaic paraphrase read in the synagogues, opens the passage with “my servant the Messiah” at Isaiah 52:13, though it moves the sufferings on to others. The Talmud takes a name for the Messiah from Isaiah 53:4 (tractate Sanhedrin 98b). The reading that makes the servant the nation is old as well. A Jewish teacher put it to Origen in the third century, and Rashi taught it in the eleventh, and since the Middle Ages it has been the usual Jewish reading. So reading the passage of the Messiah is found in Jewish sources themselves. It is not a Christian invention.',
                   followUps: [
                     {
                       reply: 'Israel has suffered innocently at the hands of the nations for centuries. The chapter fits the nation well.',
@@ -196,7 +196,7 @@ export const crossAndResurrection: Topic = {
     {
       id: 'cr-q3',
       question: 'Which passage contains the early creed listing resurrection appearances?',
-      options: ['1 Corinthians 15:3-8', 'Romans 12:1-2', 'Genesis 12:1-3', 'James 1:2-4'],
+      options: ['1 Corinthians 15:3-8', 'Philippians 2:6-11', 'Romans 1:3-4', 'Isaiah 53:5-6'],
       answer: 0,
       explanation: 'Including more than 500 witnesses at once.',
     },

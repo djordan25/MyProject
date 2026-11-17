@@ -81,7 +81,7 @@ export const hadithReliability: Topic = {
                   followUps: [
                     {
                       reply: 'The essentials do not depend on single chains. They are mutawatir, passed on by so many people in every generation that agreement on a lie is impossible.',
-                      answer: 'Mass transmission is strong evidence, and I grant it for things like the fact of the five daily prayers. But Muslim scholars themselves class only a small number of hadith as mutawatir. The great majority, including most of the legal detail and most of the Prophet’s biography, are reports from one or a few narrators. So the appeal to mass transmission protects very little of what is in Bukhari and Muslim.',
+                      answer: 'Mass transmission is strong evidence, and I grant it for things like the fact of the five daily prayers. But Muslim scholars themselves class only a small number of hadith as mutawatir. Ibn al-Salah, whose handbook on hadith became the standard one, wrote that examples are hard to find, and the fullest later list, by al-Kattani, has about three hundred. The great majority, including most of the legal detail and most of the Prophet’s biography, are reports from one or a few narrators. So the appeal to mass transmission protects very little of what is in Bukhari and Muslim.',
                     },
                   ],
                 },
@@ -91,7 +91,7 @@ export const hadithReliability: Topic = {
         },
         {
           reply: 'Western academics no longer accept the old scepticism. Harald Motzki showed that hadith can be traced back to the first Islamic century.',
-          answer: 'Motzki did argue against the most sceptical scholars, and he should be heard. What he argued is that some reports can be traced to teachers active late in the first Islamic century. That is earlier than the sceptics allowed. It still leaves two or three generations between those teachers and Muhammad, and it covers particular reports, not the collections as a whole. It does not turn Sahih al-Bukhari into eyewitness testimony.',
+          answer: 'Motzki did argue against the most sceptical scholars, and he should be heard. What he argued is that some reports can be traced to teachers active late in the first Islamic century. That is earlier than the sceptics allowed. It still leaves a generation or two between those teachers and Muhammad, and it covers particular reports, not the collections as a whole. It does not turn Sahih al-Bukhari into eyewitness testimony.',
         },
       ],
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
@@ -146,12 +146,12 @@ export const hadithReliability: Topic = {
         { reply: 'Your Gospels are anonymous. At least the hadith name their narrators.', answer: 'A chain of names can be invented as easily as a saying, which is why Muslim scholars set aside the great majority of the reports they examined. No surviving copy of the Gospels that has a title names anyone but Matthew, Mark, Luke or John. And Luke tells us how he worked: from those who were eyewitnesses from the beginning (Luke 1:1-4).',
           followUps: [
             {
-              reply: 'The titles were added later. Scholars like Bart Ehrman say the Gospels were written forty to sixty-five years after Jesus by unknown Greek-speaking Christians.',
+              reply: 'The titles were added later. Scholars like Bart Ehrman say the Gospels were written thirty-five to sixty-five years after Jesus by unknown Greek-speaking Christians.',
               answer: 'Take Ehrman’s dates: Mark about AD 70, John about AD 95. That is still within the lifetime of people who knew Jesus, against two centuries for al-Bukhari. The names are also not what a forger would choose. Mark and Luke were not apostles, and no copy or early writer gives any Gospel a different author. Papias, a bishop writing early in the second century, already reports that Mark wrote down Peter’s teaching. The historian Eusebius quotes him.',
               followUps: [
                 {
                   reply: 'Your oldest complete New Testament manuscripts are from the fourth century, three hundred years after Jesus. That gap is bigger than ours.',
-                  answer: 'Those are two different gaps. The hadith problem is the gap between the events and the first writing of the collections we rely on, about two hundred years. The Gospels were written within decades. Copies are a separate question, and there the evidence is early: a fragment of John, known as P52, is usually dated to the second century, and substantial papyri of the Gospels survive from around AD 200. The fourth-century books are only the oldest complete Bibles.',
+                  answer: 'Those are two different gaps. The hadith problem is the gap between the events and the first writing of the collections we rely on, about two hundred years. The Gospels were written within decades. Copies are a separate question, and there the evidence is early: a fragment of John, known as P52, is usually dated to the second century, and substantial papyri of the Gospels survive from the early third century. The fourth-century books are only the oldest complete Bibles.',
                   followUps: [
                     {
                       reply: 'Decades are still enough time for a story to grow. Forty years of preaching can turn a prophet into a god.',

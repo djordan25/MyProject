@@ -102,11 +102,11 @@ export const howWeGotTheBible: Topic = {
         },
         {
           reply: 'Irenaeus chose four Gospels because there are four winds and four corners of the earth. That is hardly a historical reason.',
-          answer: 'He does say that, and as an argument it is weak. But read the rest. He is giving a fitting reason for something already the case, not deciding it. In the same work he gives his historical grounds: Matthew wrote among the Hebrews, Mark was Peter’s interpreter, Luke was Paul’s companion, and John the disciple wrote at Ephesus. Irenaeus had in his youth heard Polycarp, who by his account had known John. And a generation before him Justin Martyr describes the “memoirs of the apostles” being read at Sunday worship, while Justin’s pupil Tatian wove these four into a single narrative, the Diatessaron, around AD 170.',
+          answer: 'He does say that, and as an argument it is weak. But read the rest. He is giving a fitting reason for something already the case, not deciding it. In the same work he gives his historical grounds: Matthew wrote among the Hebrews, Mark was Peter’s interpreter, Luke was Paul’s companion, and John the disciple wrote at Ephesus. Irenaeus had in his youth heard Polycarp, who by his account had known John. And a generation before him Justin Martyr describes the “memoirs of the apostles” being read at Sunday worship, while Justin’s pupil Tatian wove these four into a single narrative, the Diatessaron, in the second half of the second century.',
           followUps: [
             {
               reply: 'The Gnostic gospels were buried at Nag Hammadi because the church was destroying them. That is suppression.',
-              answer: 'By the late fourth century, when those books were probably buried, bishops had power and used it, and I do not defend every use of it. But by then the books had been rejected for two hundred years, in open argument, by a church that could not destroy anything. Irenaeus answers them by describing and quoting them. And read them. The Gospel of Thomas ends with Jesus saying that Mary must be made male to enter the kingdom, and in the Gospel of Judas he laughs at the disciples for giving thanks to their God over bread. These are not lost history. They are another religion using the name of Jesus.',
+              answer: 'By the late fourth century, when those books were probably buried, bishops had power and used it, and I do not defend every use of it. But by then the books had been rejected for two hundred years, in open argument, by a church that could not destroy anything. Irenaeus answers them by describing and quoting them. And read them. The Gospel of Thomas ends with Jesus saying that Mary must be made male to enter the kingdom, and in the Gospel of Judas he laughs at the disciples’ prayer of thanksgiving over bread and calls the one they pray to “your god”. These are not lost history but another religion using the name of Jesus.',
             },
           ],
         },
@@ -155,7 +155,7 @@ export const howWeGotTheBible: Topic = {
           followUps: [
             {
               reply: 'Quoting the Bible to prove the Bible is circular.',
-              answer: 'It would be, if my argument were that the Bible is God’s word because it says so. That is not the route. I begin by treating the New Testament writings as ordinary historical sources and nothing more. Tested as other sources are tested, they lead me to conclude that Jesus died and rose. If he rose, his claims stand, and he treated the Scriptures as the word of God. So I believe the Bible because of Jesus, not the other way round. When I quoted Peter, it was to tell you what Christians claim, not to prove it.',
+              answer: 'It would be, if my argument were that the Bible is God’s word because it says so, but that is not the route. I begin by treating the New Testament writings as ordinary historical sources and nothing more. Tested as other sources are tested, they lead me to conclude that Jesus died and rose. If he rose, his claims stand, and he treated the Scriptures as the word of God. So I believe the Bible because of Jesus, not the other way round. When I quoted Peter, it was to tell you what Christians claim, not to prove it.',
               followUps: [
                 {
                   reply: 'Even if Jesus rose, that does not make every book of the Bible inspired. He never mentioned a New Testament.',
@@ -167,7 +167,7 @@ export const howWeGotTheBible: Topic = {
         },
         {
           reply: 'It reflects the ignorance and the morals of its time: slavery, a flat earth, stoning. A book from God would know better.',
-          answer: 'It was written in its time, in the language of its first hearers, and Christians have never said otherwise. Some of what you list it does not teach. The Bible has no doctrine that the earth is flat. It speaks of sunrise as we do. The laws given to Israel governed an ancient nation and were not God’s last word: Jesus said that one of them, the permission to divorce, was given “because of your hardness of heart” (Matthew 19:8). The hard passages each deserve a proper look. But the same book contains what no age arrived at unaided: that every human being is made in the image of God (Genesis 1:27), and that we are to love our enemies (Matthew 5:44).',
+          answer: 'It was written in its time, in the language of its first hearers, and Christians have never said otherwise. Some of what you list it does not teach. The Bible has no doctrine that the earth is flat, and it speaks of sunrise as we do. The laws given to Israel governed an ancient nation and were not God’s last word: Jesus said that one of them, the permission to divorce, was given “because of your hardness of heart” (Matthew 19:8). The hard passages each deserve a proper look. But the same book contains what no age arrived at unaided: that every human being is made in the image of God (Genesis 1:27), and that we are to love our enemies (Matthew 5:44).',
           followUps: [
             {
               reply: 'You pick the parts you like and explain away the rest.',

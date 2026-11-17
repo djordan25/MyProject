@@ -64,7 +64,7 @@ export const identityOfJesus: Topic = {
           followUps: [
             {
               reply: 'In Mark “Son of Man” only means a human being, and forgiving sins was something priests and prophets did on God’s behalf. Neither is a claim to be God.',
-              answer: 'The phrase can mean simply a human being, as it does in Ezekiel. But at his trial Jesus joins it to Daniel’s vision, where one like a son of man comes with the clouds and is given a kingdom in which “every nation and language should serve Him” (Daniel 7:13-14), and to the seat at God’s right hand. The high priest called it blasphemy (Mark 14:61-64), which a claim to be the Messiah was not. As for forgiveness, a priest declared it at the temple after a sacrifice. Jesus forgave on the spot, on his own word, and the scribes drew the conclusion: “Who can forgive sins but God alone?” (Mark 2:7). He did not correct them. He healed the man to show that he had the authority (Mark 2:10-11).',
+              answer: 'The phrase can mean simply a human being, as it does in Ezekiel. But at his trial Jesus joins it to Daniel’s vision, where one like a son of man comes with the clouds and is given a kingdom in which “every nation and language should serve Him” (Daniel 7:13-14), and to the seat at God’s right hand. The high priest called it blasphemy (Mark 14:61-64), which a claim to be the Messiah was not. As for forgiveness, a priest declared it at the temple after a sacrifice. Jesus forgave on the spot, on his own word, and the scribes drew the conclusion: “Who can forgive sins but God alone?” (Mark 2:7). He did not correct them; he healed the man to show that he had the authority (Mark 2:10-11).',
               followUps: [
                 {
                   reply: 'Jesus says, “Why do you call Me good? No one is good except God alone.” He says the Father is greater than he is, and that he does not know the hour. God does not talk like that.',
@@ -111,7 +111,7 @@ export const identityOfJesus: Topic = {
                   followUps: [
                     {
                       reply: '“Brother of the Lord” could simply mean a fellow believer. All Christians were called brothers.',
-                      answer: 'Paul does call believers brothers. But in that sentence he is marking James off from Peter, who was a believer too. If the phrase meant only “a Christian” it would mark off nobody. Elsewhere Paul names “the Lord’s brothers” as a group beside the apostles and Cephas (1 Corinthians 9:5). Mark lists James among the brothers of Jesus (Mark 6:3). And Josephus, who was no Christian, calls James the brother of Jesus. Four sources give the phrase one plain meaning.',
+                      answer: 'Paul does call believers brothers. But in that sentence he is marking James off from Peter, who was a believer too. If the phrase meant only “a Christian” it would mark off nobody. Elsewhere Paul names “the Lord’s brothers” as a group beside the apostles and Cephas (1 Corinthians 9:5), and Mark lists James among the brothers of Jesus (Mark 6:3). And Josephus, who was no Christian, calls James the brother of Jesus. Four sources give the phrase one plain meaning.',
                     },
                   ],
                 },
@@ -146,7 +146,7 @@ export const identityOfJesus: Topic = {
               followUps: [
                 {
                   reply: 'Other founders are admired as teachers without anyone having to decide whether they were divine. Why not Jesus?',
-                  answer: 'Because of what they taught. The Buddha pointed to a path, and Muhammad said he was only a messenger. Their teaching can be separated from their persons. The teaching of Jesus is about himself: “I am the way and the truth and the life” (John 14:6), and “Come to Me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28). Take him out of his teaching and little is left to admire. Nor was admiration what he asked for. He asked, “Who do you say I am?” (Mark 8:29).',
+                  answer: 'Because of what they taught. The Buddha pointed to a path, and Muhammad said he was only a messenger. Their teaching can be separated from their persons. The teaching of Jesus is about himself: “I am the way and the truth and the life” (John 14:6), and “Come to Me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28). Take him out of his teaching and little is left to admire. Nor was admiration what he wanted: he asked, “Who do you say I am?” (Mark 8:29).',
                 },
               ],
             },
@@ -198,7 +198,7 @@ export const identityOfJesus: Topic = {
         },
         {
           reply: 'Virgin births were a common story. Perseus, Alexander and Augustus were all said to have been fathered by a god.',
-          answer: 'Fathered by a god, yes, and that is the difference. In those stories a god comes to a woman in bodily form: Zeus to Danaë as a shower of gold, a serpent to the mothers of Alexander and Augustus. Those are matings, not virgin births. Matthew and Luke have nothing of the kind. Mary is told only that “the power of the Most High will overshadow you” (Luke 1:35), and both accounts are steeped in the Old Testament. To Jews the thought of God mating with a woman was abhorrent. And these accounts were written within living memory of Jesus’ own family.',
+          answer: 'Fathered by a god, yes, and that is the difference. In those stories a god comes to a woman in bodily form: Zeus to Danaë as a shower of gold, a serpent to the mothers of Alexander and Augustus. Those are matings, not virgin births, and Matthew and Luke have nothing of the kind. Mary is told only that “the power of the Most High will overshadow you” (Luke 1:35), and both accounts are steeped in the Old Testament. To Jews the thought of God mating with a woman was abhorrent. And these accounts were written within living memory of Jesus’ own family.',
         },
       ],
     },
@@ -220,11 +220,11 @@ export const identityOfJesus: Topic = {
               followUps: [
                 {
                   reply: 'Before Nicaea Christians believed all sorts of things. Many, such as the Ebionites, held that Jesus was only a man.',
-                  answer: 'There were such groups. Irenaeus in the second century describes the Ebionites as Jewish Christians who took Jesus to be a human Messiah. But nothing they wrote survives from the first century. Paul’s letters do, and in them Jesus is in the form of God, the one through whom all things came, and is prayed to (1 Corinthians 8:6; 16:22). Paul says that James, Peter and John in Jerusalem “gave me and Barnabas the right hand of fellowship” (Galatians 2:9). So the high view of Jesus was not a later idea from the Gentile world. It was shared with the first Jewish believers.',
+                  answer: 'There were such groups. Irenaeus in the second century describes the Ebionites, who kept the Jewish law, rejected Paul and held that Jesus was the son of Joseph. But nothing they wrote survives from the first century. Paul’s letters do, and in them Jesus is in the form of God, the one through whom all things came, and is prayed to (1 Corinthians 8:6; 16:22). Paul says that James, Peter and John in Jerusalem “gave me and Barnabas the right hand of fellowship” (Galatians 2:9). So the high view of Jesus was not a later idea from the Gentile world but was shared with the first Jewish believers.',
                   followUps: [
                     {
                       reply: 'Arius was a Christian priest who argued from the Bible. Verses such as “the firstborn over all creation” are on his side.',
-                      answer: 'Arius did argue from Scripture, and the debate was about how to read it. “Firstborn” in Colossians 1:15 is a title of rank. God says of David, the youngest of his family, “I will indeed appoint him as My firstborn, the highest of the kings of the earth” (Psalm 89:27). The next verse in Colossians shuts out Arius’s reading: “in Him all things were created… All things were created through Him and for Him” (Colossians 1:16). If every created thing was created through him, he is not one of them. Arius’s slogan was that there was a time when the Son was not. John says, “without Him nothing was made that has been made” (John 1:3).',
+                      answer: 'Arius did argue from Scripture, and the debate was about how to read it. “Firstborn” in Colossians 1:15 is a title of rank: God says of David, the youngest of his family, “I will indeed appoint him as My firstborn, the highest of the kings of the earth” (Psalm 89:27). The next verse in Colossians shuts out Arius’s reading: “in Him all things were created… All things were created through Him and for Him” (Colossians 1:16). If every created thing was created through him, he is not one of them. Arius’s slogan was that there was a time when the Son was not. John says, “without Him nothing was made that has been made” (John 1:3).',
                     },
                   ],
                 },

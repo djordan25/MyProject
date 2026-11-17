@@ -156,7 +156,7 @@ export const resurrection: Topic = {
         },
         {
           reply: 'Joseph Smith was in a position to know whether he had invented his revelations, and he died for them too. So founders do die for what they have made up.',
-          answer: 'Look at how each died and what each gained. Smith was killed by a mob that stormed the jail where he was held in 1844, and he went down firing a pistol; nobody offered him a choice between his claims and his life. Before that, his claims had made him the ruler of a city, the commander of its militia and the husband of many wives. The apostles gained poverty, beatings and prison. And they were not one founder but a number of witnesses, who had every chance to break ranks under pressure and did not.',
+          answer: 'Look at how each died and what each gained. Smith was killed by a mob that stormed the jail where he was held in 1844, and he fired a pistol at them before he was shot; nobody offered him a choice between his claims and his life. Before that, his claims had made him the mayor of a city, the commander of its militia and the husband of many wives. The apostles gained poverty, beatings and prison. And they were not one founder but a number of witnesses, who had every chance to break ranks under pressure and did not.',
         },
       ],
       objection: 'Lots of people die for their beliefs — that doesn’t make them true.',

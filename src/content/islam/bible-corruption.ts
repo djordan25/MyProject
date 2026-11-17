@@ -71,7 +71,7 @@ export const bibleCorruption: Topic = {
               followUps: [
                 {
                   reply: 'The great scholars, Ibn Hazm above all, proved that the text itself was corrupted.',
-                  answer: 'Ibn Hazm of Cordoba, who died in 1064, did argue at length that the text was corrupted. That is four centuries after Muhammad. He was driven to it because he read the Bible and saw that it contradicts the Quran, so one of them had to give way. Earlier Muslim writers more often accused Jews and Christians of misinterpreting their books. The Quran itself never says that the text of the Torah or the Gospel was rewritten. It says, “None can alter His words” (Quran 6:115).',
+                  answer: 'Ibn Hazm of Cordoba, who died in 1064, did argue at length that the text was corrupted. That is four centuries after Muhammad. He had read the Bible and found that it does not say what the Quran says is in it, and he put the choice bluntly: either Jews and Christians altered their books, or the Quran is false. He also complains that some Muslims of his own day denied that the books had been altered. Muslim writers of the eighth and ninth centuries who raised the charge mostly meant that Jews and Christians misinterpreted their books. The Quran itself never says that the text of the Torah or the Gospel was rewritten. It says, “None can alter His words” (Quran 6:115).',
                 },
               ],
             },
@@ -132,7 +132,7 @@ export const bibleCorruption: Topic = {
               answer: 'The authors do not name themselves in the text, which was common in ancient biography. But no surviving copy with a title names anyone else, and the early testimony agrees. Papias, early in the second century, says Mark wrote down Peter’s teaching, and about AD 180 Irenaeus names all four. Notice the names. Mark and Luke were not apostles, and a church inventing authors would have chosen Peter or James. Luke says plainly that his account rests on “the initial eyewitnesses” (Luke 1:2). That is how honest history is written.',
               followUps: [
                 {
-                  reply: 'Bart Ehrman says they were written forty to sixty years later by Greek-speaking Christians who never met Jesus, after decades of stories passed from mouth to mouth.',
+                  reply: 'Bart Ehrman says they were written thirty-five to sixty-five years later by Greek-speaking Christians who never met Jesus, after decades of stories passed from mouth to mouth.',
                   answer: 'Take Ehrman’s dates: Mark about AD 70 and John in the 90s. That is within the lifetime of people who had known Jesus, and Paul’s letters are earlier still. Now apply the same standard to Islam. The earliest biography of Muhammad, by Ibn Ishaq, was written more than a century after his death and survives only in a later edition. Al-Bukhari compiled his hadith more than two hundred years after Muhammad. If forty years of oral tradition makes the Gospels worthless, Islam’s sources about its prophet fall first. And Ehrman himself holds that Jesus was crucified under Pontius Pilate, which is the very thing the Quran denies.',
                   followUps: [
                     {
@@ -173,7 +173,7 @@ export const bibleCorruption: Topic = {
         },
         {
           reply: 'Your Bibles keep changing. Modern versions have removed verses that are in the King James Bible, and its own revisers said it had grave defects.',
-          answer: 'The translations are being corrected towards the oldest manuscripts, not away from them. The King James Version of 1611 was made from a few late medieval Greek copies. Far older ones have come to light since, such as Codex Sinaiticus from the fourth century and papyri older still. Where they lack a verse found in later copies, modern Bibles move it to a footnote and say why. Nothing is hidden, and no teaching is lost. A text that is checked against earlier and earlier evidence is becoming more certain, not less.',
+          answer: 'The translations are being corrected towards the oldest manuscripts, not away from them. The New Testament of the King James Version of 1611 was translated from printed Greek texts that rested on a few medieval manuscripts. Far older ones have come to light since, such as Codex Sinaiticus from the fourth century and papyri older still. Where they lack a verse found in later copies, modern Bibles move it to a footnote and say why. Nothing is hidden, and no teaching is lost. A text that is checked against earlier and earlier evidence is becoming more certain, not less.',
         },
       ],
       objection: 'Mark 16:9-20 and the story of the woman caught in adultery (John 8:1-11) aren’t in the earliest manuscripts. The Bible was added to!',
@@ -246,7 +246,7 @@ export const bibleCorruption: Topic = {
     {
       id: 'bc-q2',
       question: 'What is the context of Jeremiah 8:8?',
-      options: ['Textual corruption of all manuscripts', 'False teachers mishandling the law', 'The Gospel of John', 'The Quran'],
+      options: ['Scribes confessing that they had rewritten the scrolls of Moses', 'False teachers mishandling the law', 'A prophecy that the Law would be lost in the exile', 'A complaint that copies of the Law no longer agreed with one another'],
       answer: 1,
       explanation: 'A rebuke of false teaching, not a confession of textual corruption.',
     },

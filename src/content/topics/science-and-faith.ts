@@ -111,7 +111,7 @@ export const scienceAndFaith: Topic = {
               followUps: [
                 {
                   reply: 'Then you must accept every religion’s miracle stories. Why believe yours and reject the rest?',
-                  answer: 'I do not have to accept them all or reject them all. I can weigh each one as I would any report. How early is the source? Are there several witnesses, and are they named? What did they gain? Is there a simpler explanation? Many miracle stories are late, rest on one source, or serve the teller. The resurrection is reported from within a few years, by named witnesses who suffered for saying it (1 Corinthians 15:3-8). And a Christian is not obliged to hold that nothing beyond nature has ever happened anywhere else.',
+                  answer: 'I do not have to accept them all or reject them all. I can weigh each one as I would any report: how early the source is, whether there are several named witnesses, what they gained, and whether there is a simpler explanation. Many miracle stories are late, rest on one source, or serve the teller. The resurrection is reported from within a few years, by named witnesses who suffered for saying it (1 Corinthians 15:3-8). And a Christian is not obliged to hold that nothing beyond nature has ever happened anywhere else.',
                   followUps: [
                     {
                       reply: 'People in the ancient world saw miracles everywhere. They were credulous, and their reports cannot count for much.',
@@ -129,7 +129,7 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'Then show me one now. Why did miracles stop when cameras arrived?',
-              answer: 'Christians do not say they stopped. Reports of healing come from churches all over the world, and each should be weighed as carefully as any other report. The New Testament scholar Craig Keener gathered a great many in his two-volume Miracles (2011). But miracles in the Bible are not constant either. They gather around a few turning points: Moses, Elijah, Jesus and his apostles. And Jesus said that more signs are not what an unwilling person lacks: “they will not be persuaded even if someone rises from the dead” (Luke 16:31). The sign he offered was his own resurrection (Matthew 12:39-40).',
+              answer: 'Christians do not say they stopped. Reports of healing come from churches all over the world, and each should be weighed as carefully as any other report; the New Testament scholar Craig Keener gathered a great many in his two-volume Miracles (2011). But miracles in the Bible are not constant either. They gather around a few turning points: Moses, Elijah, Jesus and his apostles. And Jesus said that more signs are not what an unwilling person lacks: “they will not be persuaded even if someone rises from the dead” (Luke 16:31). The sign he offered was his own resurrection (Matthew 12:39-40).',
             },
           ],
         },
@@ -165,7 +165,7 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'Genetics shows there was never a single first couple. No Adam means no fall, and no fall means no need of a saviour.',
-              answer: 'Christians are working on that question, and there is more than one answer on the table. Some dispute the genetic argument. Others accept it and point out that it concerns our genes, not our family tree: the biologist S. Joshua Swamidass has argued in The Genealogical Adam and Eve (2019) that one couple living a few thousand years ago could be ancestors of every person alive by the time of Christ, without contradicting the genetic evidence. But the need for a saviour does not wait on genetics. That “all have sinned” (Romans 3:23) is the Christian doctrine anyone can check, beginning with himself.',
+              answer: 'Christians are working on that question, and there is more than one answer on the table. Some dispute the genetic argument. Others accept it and point out that it concerns our genes, not our family tree: the biologist S. Joshua Swamidass has argued in The Genealogical Adam and Eve (2019) that one couple living some six thousand years ago could be ancestors of everyone alive by the time of Christ, without contradicting the genetic evidence. But the need for a saviour does not wait on genetics. That “all have sinned” (Romans 3:23) is the Christian doctrine anyone can check, beginning with himself.',
             },
           ],
         },
@@ -200,7 +200,7 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'Believing things without scientific proof is how people end up with fairies and horoscopes.',
-              answer: 'The cure for believing too much is to weigh the evidence, not to admit only one kind of evidence. Horoscopes can be tested, and they fail. Fairies explain nothing. The claim about God is tied to arguments from the existence and order of the universe, and to an event in history that can be examined. If that evidence is bad, reject it. The Christian rule is to “test all things. Hold fast to what is good” (1 Thessalonians 5:21).',
+              answer: 'The cure for believing too much is to weigh the evidence, not to admit only one kind of evidence. Horoscopes can be tested and they fail, and fairies explain nothing. The claim about God is tied to arguments from the existence and order of the universe, and to an event in history that can be examined. If that evidence is bad, reject it. The Christian rule is to “test all things. Hold fast to what is good” (1 Thessalonians 5:21).',
             },
           ],
         },
@@ -219,23 +219,23 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'The more eminent the scientist, the less likely he is to believe. The people who know most about nature have found no God in it.',
-              answer: 'Surveys of elite bodies do show that. In 1998 Edward Larson and Larry Witham reported in Nature that only about seven per cent of the members of the United States National Academy of Sciences who answered them believed in a personal God. But the sociologist Elaine Ecklund, who surveyed scientists at leading American universities, found that those without religion had seldom lost it because of their science. More often they came from homes without it (Science vs. Religion, 2010). And skill in physics or biology is not skill in philosophy or history, which is where the question of God is argued. There are believers at the top as well, such as Francis Collins, who led the Human Genome Project.',
+              answer: 'Surveys of elite bodies do show that. In 1998 Edward Larson and Larry Witham reported in Nature that only about seven per cent of the members of the United States National Academy of Sciences who answered them believed in a personal God. But the sociologist Elaine Ecklund, who surveyed scientists at leading American universities, found little sign that they had given up religion because of their science. The best predictor of a scientist’s faith was the home he or she grew up in (Science vs. Religion, 2010). And skill in physics or biology is not skill in philosophy or history, which is where the question of God is argued. There are believers at the top as well, such as Francis Collins, who led the Human Genome Project.',
             },
           ],
         },
         {
           reply: 'It was not only Galileo. The church burned Giordano Bruno, taught that the earth was flat, and fought Darwin.',
-          answer: 'Take them in turn. Burning Bruno in 1600 was a wicked act, but he was condemned chiefly for theology, such as denying the Trinity and the deity of Christ. His belief in many worlds was among the charges, and historians dispute how much it counted. The medieval church did not teach a flat earth: Bede and Thomas Aquinas took a round earth for granted, and the story that churchmen opposed Columbus on that ground owes much to Washington Irving’s biography of 1828. As for Darwin, Christians were divided from the start. His chief American defender, the botanist Asa Gray, was a convinced Christian.',
+          answer: 'Take them in turn. Burning Bruno in 1600 was a wicked act, but the final list of charges is lost, and what we know of his trial is mostly theology, such as his views on the Trinity and the deity of Christ. His belief in many worlds was also raised, and historians dispute how much it counted. The medieval church did not teach a flat earth: Bede and Thomas Aquinas took a round earth for granted, and the story that churchmen opposed Columbus on that ground owes much to Washington Irving’s biography of 1828. As for Darwin, Christians were divided from the start. His chief American defender, the botanist Asa Gray, was a convinced Christian.',
           followUps: [
             {
               reply: 'The conflict is not a myth from old books. Churches are still fighting evolution in schools today.',
-              answer: 'Some Christians do reject evolution, and some have fought over what schools teach. I grant that. It is a dispute about one theory and about how to read Genesis, and there are Christians on both sides of it. It is not a war between Christianity and science as such. The books that spread the war story claimed far more. John William Draper’s History of the Conflict between Religion and Science (1874) and Andrew Dickson White’s A History of the Warfare of Science with Theology in Christendom (1896) said that the church had resisted science throughout its history. That is the picture historians have given up.',
+              answer: 'I grant that some Christians reject evolution, and that some have fought over what schools teach. It is a dispute about one theory and about how to read Genesis, and there are Christians on both sides of it. It is not a war between Christianity and science as such. The books that spread the war story claimed far more. John William Draper’s History of the Conflict between Religion and Science (1874) and Andrew Dickson White’s A History of the Warfare of Science with Theology in Christendom (1896) said that the church had resisted science throughout its history. That is the picture historians have given up.',
             },
           ],
         },
         {
           reply: 'If Christianity fostered science, why did it take fifteen centuries to appear? The Greeks and the Islamic world did science without it.',
-          answer: 'They did, and so did China, and Christian Europe inherited a great deal from them. I am not claiming that Christianity was enough to produce science, or that only Christians could do it. The claim is narrower. When modern science took shape in Europe in the sixteenth and seventeenth centuries, its pioneers gave theological reasons for what they were doing. Nature has laws because it has a lawgiver. And because God was free to make the world as he chose, we cannot work it out from an armchair and must go and look. Historians such as Peter Harrison have traced that connection in detail.',
+          answer: 'They did, and so did China, and Christian Europe inherited a great deal from them. I am not claiming that Christianity was enough to produce science, or that only Christians could do it. The claim is narrower. When modern science took shape in Europe in the sixteenth and seventeenth centuries, its pioneers gave theological reasons for what they were doing. Nature has laws because it has a lawgiver, and because God was free to make the world as he chose, we cannot work it out from an armchair and must go and look. Historians such as Peter Harrison have traced that connection in detail.',
         },
       ],
     },

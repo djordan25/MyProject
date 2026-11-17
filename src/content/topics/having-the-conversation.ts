@@ -118,7 +118,7 @@ export const havingTheConversation: Topic = {
               followUps: [
                 {
                   reply: 'I have never seen anyone argued into faith. People come through friendship, or a crisis, or reading the Bible.',
-                  answer: 'Mostly they do, and very few come by argument alone. But very few come with no question answered along the way. Friendship wins a hearing, a good reason removes an excuse, and the Spirit gives life. C. S. Lewis called two Christian friends, Tolkien and Dyson, the immediate human causes of his conversion, after a long night of argument with them. It was friendship and reasons together.',
+                  answer: 'Mostly they do, and very few come by argument alone. But very few come with no question answered along the way. Friendship wins a hearing, a good reason removes an excuse, and the Spirit gives life. C. S. Lewis called two Christian friends, Tolkien and Dyson, the immediate human causes of his conversion, after a long night of talk with them. It was friendship and reasons together.',
                 },
               ],
             },

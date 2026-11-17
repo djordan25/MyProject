@@ -114,11 +114,11 @@ export const existenceOfGod: Topic = {
         },
         {
           reply: 'Saying God is eternal “by definition” is special pleading. You make a rule and then exempt the one thing you want exempted.',
-          answer: 'It would be, if the rule were that everything needs a cause. The rule is that whatever begins needs a cause, and it applies to everything alike. Nor is an uncaused starting point something believers invented for God. Bertrand Russell, in his 1948 radio debate with Frederick Copleston, said the universe is just there, and that is all. Everyone stops somewhere. The question is what is fit to stop at: something that began, or something that never did. Scripture says of God, “from everlasting to everlasting You are God” (Psalm 90:2).',
+          answer: 'It would be, if the rule were that everything needs a cause. The rule is that whatever begins needs a cause, and it applies to everything alike. Nor is an uncaused starting point something believers invented for God. Bertrand Russell, in his 1948 radio debate with Frederick Copleston, said the universe is just there, and that is all. Everyone stops somewhere, and the question is what is fit to stop at: something that began, or something that never did. Scripture says of God, “from everlasting to everlasting You are God” (Psalm 90:2).',
           followUps: [
             {
               reply: 'Even granting a first cause, nothing makes it a personal God. It could be an impersonal force or law.',
-              answer: 'Two things point to a person. First, the cause is beyond space, time and matter. We know of only two sorts of thing that could be like that: abstract objects such as numbers, and minds. Numbers cause nothing. Second, an impersonal cause that had always been enough to produce the universe would always have produced it, so the universe would be as old as its cause. An effect that begins, from a cause that is timeless, looks like a choice. To get from there to Christianity we need Jesus.',
+              answer: 'Two things point to a person. First, the cause is beyond space, time and matter, and we know of only two sorts of thing that could be like that: abstract objects such as numbers, and minds. Numbers cause nothing. Second, an impersonal cause that had always been enough to produce the universe would always have produced it, so the universe would be as old as its cause. An effect that begins, from a cause that is timeless, looks like a choice. To get from there to Christianity we need Jesus.',
             },
           ],
         },
@@ -161,7 +161,7 @@ export const existenceOfGod: Topic = {
               followUps: [
                 {
                   reply: 'You cannot call our universe improbable. We have only one, so nobody knows the odds of any other values.',
-                  answer: 'That is the most serious objection, and philosophers of physics do debate it. We cannot rerun the universe. But the judgment is not plucked from the air. Physicists themselves ask what range of values their theories would naturally allow, and compare it with what we observe. The energy of empty space is smaller than the usual theoretical estimate by something like 120 powers of ten, and physicists with no interest in God treat that as a problem needing an explanation. It is why some of them turn to a multiverse. I ask only that design be allowed on the list of explanations.',
+                  answer: 'That is the most serious objection, and philosophers of physics do debate it. We cannot rerun the universe, but the judgment is not plucked from the air. Physicists themselves ask what range of values their theories would naturally allow, and compare it with what we observe. The energy of empty space is smaller than the usual theoretical estimate by something like 120 powers of ten, and physicists with no interest in God treat that as a problem needing an explanation. It is why some of them turn to a multiverse. I ask only that design be allowed on the list of explanations.',
                 },
               ],
             },
@@ -202,7 +202,7 @@ export const existenceOfGod: Topic = {
           followUps: [
             {
               reply: 'That only moves the problem. Is God’s nature good because it meets some standard, or would any nature he happened to have be called good?',
-              answer: 'Every account of morality ends in something that is good in itself and not because of anything further. For the atheist who believes in objective values it is an abstract Good. For the Christian it is God. So the question is which stopping point makes better sense. God is not an arbitrary one. If he exists by necessity, his character could not have been different, so there is no possible world in which cruelty is good. Scripture puts it simply: “I, the LORD, do not change” (Malachi 3:6).',
+              answer: 'Every account of morality ends in something that is good in itself and not because of anything further. For the atheist who believes in objective values it is an abstract Good, and for the Christian it is God. So the question is which stopping point makes better sense. God is not an arbitrary one. If he exists by necessity, his character could not have been different, so there is no possible world in which cruelty is good. Scripture puts it simply: “I, the LORD, do not change” (Malachi 3:6).',
               followUps: [
                 {
                   reply: 'Your own Bible has God commanding the killing of whole peoples. So much for a perfectly good standard.',
@@ -231,7 +231,7 @@ export const existenceOfGod: Topic = {
           followUps: [
             {
               reply: 'Physicists such as Stephen Hawking and Lawrence Krauss say physics can explain how a universe comes from nothing.',
-              answer: 'Look at what they mean by nothing. Hawking and Leonard Mlodinow wrote in The Grand Design (2010), “Because there is a law such as gravity, the universe can and will create itself from nothing.” A law of gravity is not nothing. Krauss’s “nothing”, in A Universe from Nothing (2012), is a quantum vacuum or the laws of quantum physics, and those are something too. It was a philosopher of physics, David Albert, who made this point most sharply, in his review of Krauss’s book in the New York Times. He was not arguing for God.',
+              answer: 'Look at what they mean by nothing. Hawking and Leonard Mlodinow wrote in The Grand Design (2010), “Because there is a law like gravity, the universe can and will create itself from nothing”. A law of gravity is not nothing. Krauss’s “nothing”, in A Universe from Nothing (2012), is a quantum vacuum or the laws of quantum physics, and those are something too. It was a philosopher of physics, David Albert, who made this point most sharply, in his review of Krauss’s book in the New York Times. He was not arguing for God.',
               followUps: [
                 {
                   reply: 'Then the laws of physics are brute facts. Explanation has to stop somewhere, and that is where it stops.',
@@ -309,11 +309,11 @@ export const existenceOfGod: Topic = {
           followUps: [
             {
               reply: 'Life adapts to its conditions. With different constants there would simply be a different kind of life.',
-              answer: 'For small differences that may be so, and I grant that we do not know every form life could take. But most changes to the constants do not give a different habitat. They give none. Make the early expansion slightly faster or slower and the universe thins out before galaxies form, or collapses again. Change the nuclear forces and there is no carbon, or nothing but hydrogen. Any life needs some chemistry, a steady source of energy and time. A universe that lasts a second, or contains one element, gives life nothing to adapt to.',
+              answer: 'For small differences that may be so, and I grant that we do not know every form life could take. But most changes to the constants do not give a different habitat; they give none. Make the early expansion slightly faster or slower and the universe thins out before galaxies form, or collapses again. Change the nuclear forces and there is no carbon, or nothing but hydrogen. Any life needs some chemistry, a steady source of energy and time. A universe that lasts a second, or contains one element, gives life nothing to adapt to.',
               followUps: [
                 {
                   reply: 'The universe hardly looks made for life. Almost all of it is empty and lethal. That is terrible design.',
-                  answer: 'The argument is not that the universe is crowded with life. It is that its laws permit life at all, when almost any alternative would not. Nor is the size waste. Carbon and oxygen are made inside stars, which takes billions of years, and a universe that has been expanding for billions of years is bound to be billions of light-years across. A universe able to produce one living planet looks much like this one. The smallness of man under the heavens is an old observation: “what is man that You are mindful of him?” (Psalm 8:3-4).',
+                  answer: 'The argument is not that the universe is crowded with life. It is that its laws permit life at all, when almost any alternative would not. Nor is the size waste: carbon and oxygen are made inside stars, which takes billions of years, and a universe that has been expanding for billions of years is bound to be billions of light-years across. A universe able to produce one living planet looks much like this one. The smallness of man under the heavens is an old observation: “what is man that You are mindful of him?” (Psalm 8:3-4).',
                 },
               ],
             },
@@ -343,7 +343,7 @@ export const existenceOfGod: Topic = {
               followUps: [
                 {
                   reply: 'I did seek. I prayed, I read the Bible, and nothing happened.',
-                  answer: 'Thank you for telling me. I will not explain it away. I would say only this. Christianity does not promise a feeling on request, and believers go through long silences too. The Psalms are full of them: “How long, O LORD? Will You forget me forever?” (Psalm 13:1). Faith does not rest on an experience. It rests on what God did in public, in Jesus. Would you be willing to look at that with me as a question of history, and leave feelings on one side for now?',
+                  answer: 'Thank you for telling me. I will not explain it away. I would say only that Christianity does not promise a feeling on request, and believers go through long silences too. The Psalms are full of them: “How long, O LORD? Will You forget me forever?” (Psalm 13:1). Faith does not rest on an experience but on what God did in public, in Jesus. Would you be willing to look at that with me as a question of history, and leave feelings on one side for now?',
                 },
               ],
             },
@@ -359,7 +359,7 @@ export const existenceOfGod: Topic = {
               followUps: [
                 {
                   reply: 'You do not believe in Zeus or Thor. I just go one god further than you do.',
-                  answer: 'The step from one God to none is not like the step from ten gods to nine. Zeus and Thor are beings inside the universe, with births, bodies and limits. Take them away and the world carries on much as before. The God these arguments point to is the source of the universe, the reason there is anything at all. And I do not set Zeus aside on a whim. Nothing points to him, while the beginning of the universe, its order and the moral law do point to a Creator. The evidence decides each case.',
+                  answer: 'The step from one God to none is not like the step from ten gods to nine. Zeus and Thor are beings inside the universe, with births, bodies and limits, and if you take them away the world carries on much as before. The God these arguments point to is the source of the universe, the reason there is anything at all. And I do not set Zeus aside on a whim. Nothing points to him, while the beginning of the universe, its order and the moral law do point to a Creator. The evidence decides each case.',
                 },
               ],
             },

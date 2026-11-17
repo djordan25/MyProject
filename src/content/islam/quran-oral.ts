@@ -76,7 +76,7 @@ export const quranOral: Topic = {
           followUps: [
             {
               reply: 'Anas was speaking only of his own tribe. The commentators explain that many others knew it all, such as Abu Bakr, Ali and Ibn Mas’ud.',
-              answer: 'Commentators on Bukhari do take it that way, and they may be right, since “none but four” can hardly be a full count. But then the large numbers rest on inference, not on a record. The seventy men killed at Bi’r Ma’una are called reciters (Sahih al-Bukhari 4090), and so are the dead of Yamama, but no report says that each of them held the whole Quran. What the sources name is a handful of collectors, who did not all recite alike.',
+              answer: 'Ibn Hajar, the chief commentator on Bukhari, offers that as one possible reading, from a report in which the two tribes of Medina are boasting against each other. He may be right, since “none but four” can hardly be a full count. But then the large numbers rest on inference, not on a record. The seventy men killed at Bi’r Ma’una are called reciters (Sahih al-Bukhari 4090), and so are the dead of Yamama, but no report says that each of them held the whole Quran. What the sources name is a handful of collectors, who did not all recite alike.',
             },
           ],
         },
@@ -98,7 +98,7 @@ export const quranOral: Topic = {
               followUps: [
                 {
                   reply: 'Zaid was the Prophet’s scribe and was present at the final review with Gabriel. That is why he was chosen, and why his collection matches it.',
-                  answer: 'Bukhari says Zaid used to write down the revelation (Sahih al-Bukhari 4986). It does not say he was at the final review; that comes from later reports. Musnad Ahmad 3422, with a chain graded sound, has Ibn Abbas say that the last recitation was Abdullah’s, meaning Ibn Mas’ud, and that he therefore knew what had been abrogated and changed. Yet Ibn Mas’ud and Zaid did not recite alike, and Ibn Mas’ud would not give way (Sahih Muslim 2462). If both men stand for the final review, the final review did not leave one agreed text.',
+                  answer: 'Bukhari says Zaid used to write down the revelation (Sahih al-Bukhari 4986). It does not say he was at the final review. That comes from later writers such as al-Baghawi, in the twelfth century, who introduces it with the words “it is said”. Musnad Ahmad 3422, with a chain graded sound, has Ibn Abbas say that the last recitation was Abdullah’s, meaning Ibn Mas’ud, and that he therefore knew what had been abrogated and changed. Yet Ibn Mas’ud and Zaid did not recite alike, and Ibn Mas’ud would not give way (Sahih Muslim 2462). If both men stand for the final review, the final review did not leave one agreed text.',
                 },
               ],
             },

@@ -88,7 +88,7 @@ export const truthAndRelativism: Topic = {
           followUps: [
             {
               reply: 'Why does it matter so much to you that I agree? We can each believe what we like.',
-              answer: 'We can, and I will not think less of you whatever you decide. Nobody should be pushed into faith. But if I had found the cure for an illness we both had, you would want me to tell you, even if you then chose to ignore it. I think the news about Jesus is like that. He did not say he was one helpful option. He said, “No one comes to the Father except through Me” (John 14:6). I would be a poor friend if I believed that and never mentioned it.',
+              answer: 'We can, and I will not think less of you whatever you decide. Nobody should be pushed into faith. But if I had found the cure for an illness we both had, you would want me to tell you, even if you then chose to ignore it. I think the news about Jesus is like that. He did not say he was one helpful option; he said, “No one comes to the Father except through Me” (John 14:6). I would be a poor friend if I believed that and never mentioned it.',
             },
           ],
         },
@@ -143,7 +143,7 @@ export const truthAndRelativism: Topic = {
           followUps: [
             {
               reply: 'The doctrines differ because they are human words for something beyond words. The mystics of every tradition describe the same experience.',
-              answer: 'That is a doctrine too: that the ultimate reality is beyond words and the differences do not matter. A Muslim, a Buddhist and a Christian would each say it gets their faith wrong. Nor is it clear that the experiences are the same. One person reports meeting a personal God who loves him, another reports discovering that there is no self at all. And Christianity does not rest on a mystical experience in the first place. It rests on things done in public. As Paul said before King Agrippa, “it was not done in a corner” (Acts 26:26).',
+              answer: 'That is a doctrine too: that the ultimate reality is beyond words and the differences do not matter. A Muslim, a Buddhist and a Christian would each say it gets their faith wrong. Nor is it clear that the experiences are the same. One person reports meeting a personal God who loves him, another reports discovering that there is no self at all. And Christianity does not rest on a mystical experience in the first place but on things done in public. As Paul said before King Agrippa, “it was not done in a corner” (Acts 26:26).',
               followUps: [
                 {
                   reply: 'A loving God would not let a person’s fate turn on picking the right doctrine.',
@@ -178,7 +178,7 @@ export const truthAndRelativism: Topic = {
           followUps: [
             {
               reply: 'People in every religion say they have tested theirs and found it true. They cannot all have done it properly.',
-              answer: 'No, they cannot. That shows some of us have got it wrong. It does not show that nobody can get it right. The claims also differ in kind. Many rest on something private: a revelation given to one man with no witness present, or an inner experience. Christianity puts its weight on a public event that friends and enemies could both check. That is why I would start with the resurrection.',
+              answer: 'No, they cannot. That shows some of us have got it wrong, not that nobody can get it right. The claims also differ in kind. Many rest on something private: a revelation given to one man with no witness present, or an inner experience. Christianity puts its weight on a public event that friends and enemies could both check. That is why I would start with the resurrection.',
               followUps: [
                 {
                   reply: 'You would say that. Raised a Muslim, you would find the evidence for Islam just as convincing.',

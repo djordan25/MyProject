@@ -95,7 +95,7 @@ export const quranPreservation: Topic = {
         { reply: 'The burned copies only had personal notes mixed in.', answer: 'The hadith does not say that. It says Uthman ordered that “all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987), because Muslims differed in their recitation and Hudhaifa feared they would come to differ about the Book.',
           followUps: [
             {
-              reply: 'Ibn Mas’ud’s differences were explanatory notes, not Quran. And al-Nawawi and Ibn Hazm call the story about the last two surahs a lie against him.',
+              reply: 'Ibn Mas’ud’s differences were explanatory notes, not Quran. And al-Nawawi and Ibn Hazm say the story about the last two surahs is false.',
               answer: 'They did reject it. Ibn Hajar, the chief commentator on Bukhari, did not: in Fath al-Bari he holds the reports sound and says sound reports cannot be thrown out without evidence. Bukhari’s own wording has Ubai asked about what “Your brother, Ibn Mas’ud” was saying of those two surahs (Sahih al-Bukhari 4977). As for notes, in Sahih al-Bukhari 4944 Abu ad-Darda testifies that he heard the Prophet recite Quran 92:3 as “By the male and the female”, without the words about “Him Who created”, and he refuses to change. That is a different wording of a verse, held by two companions.',
               followUps: [
                 {
@@ -112,7 +112,7 @@ export const quranPreservation: Topic = {
           followUps: [
             {
               reply: 'Ibn Mas’ud came round in the end. And that same hadith says the best of the companions disliked his stand.',
-              answer: 'It does say that, and later Muslim writers say he was reconciled. I accept both. His protest still tells us what he knew at the time: that his copy and Zaid’s were not the same, and that he was being told to give up what he had from the Prophet. Agreement reached after one text has been imposed and the rest burned (Sahih al-Bukhari 4987) shows that the community accepted the decision. It cannot show that the copies had agreed.',
+              answer: 'It does say that, and later Muslim writers such as al-Dhahabi report that he was reconciled. I accept both. His protest still tells us what he knew at the time: that his copy and Zaid’s were not the same, and that he was being told to give up what he had from the Prophet. Agreement reached after one text has been imposed and the rest burned (Sahih al-Bukhari 4987) shows that the community accepted the decision. It cannot show that the copies had agreed.',
             },
           ],
         },
@@ -148,7 +148,7 @@ export const quranPreservation: Topic = {
         },
         {
           reply: 'Your own scholars admit the Bible’s problem. Bart Ehrman says there are more variants than there are words in the New Testament, and whole passages were added, like the ending of Mark and the woman caught in adultery.',
-          answer: 'Those two passages are missing from our earliest copies, and Christian Bibles say so in their footnotes. We only know it because the early copies were never gathered up and destroyed. Ehrman also says that most of the variants are slips of spelling that change nothing. The verses Umar and Aisha remembered (Sahih al-Bukhari 6830; Sahih Muslim 1452) are not marked in any margin. They are gone, so which community is better placed to know what its book first said?',
+          answer: 'Those two passages are missing from our earliest copies, and Christian Bibles say so in their footnotes. We only know it because the early copies were never gathered up and destroyed. Ehrman also says that most of the variants are completely unimportant, differences of spelling and the like. The verses Umar and Aisha remembered (Sahih al-Bukhari 6830; Sahih Muslim 1452) are not marked in any margin. They are gone, so which community is better placed to know what its book first said?',
           followUps: [
             {
               reply: 'At least we have the text of Uthman, word for word, from within twenty years of the Prophet. You do not have your originals.',

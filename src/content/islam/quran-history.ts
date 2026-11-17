@@ -123,7 +123,7 @@ export const quranHistory: Topic = {
         },
         {
           reply: 'A Samiri in the time of Moses is no anachronism. The name may come from an older tribe or place, or from an Egyptian word for a foreigner. The commentators say he came from a people who worshipped cows.',
-          answer: 'The commentators do offer origins, and they differ: Ibn Kathir reports from Ibn Abbas that the man was from Bajarma, and from Qatadah that he was from a village called Samarra. Guesses that differ show that no one knew. Now look at his punishment, which is to say for life, “No contact” (Quran 20:97). That fits the Samaritans of later times, who lived apart from their Jewish neighbours (John 4:9). And the Bible ties Samaria to calf worship in a later century, when Jeroboam set up golden calves and Hosea spoke of the “calf of Samaria” (1 Kings 12:28; Hosea 8:5-6).',
+          answer: 'The commentators do offer origins, and they differ: Ibn Kathir reports from Ibn Abbas that the man was from Bajarma, and from Qatadah that he was from a village called Samarra. Guesses that differ show that no one knew. Now look at his punishment, which is to say for life, “No contact” (Quran 20:97). That fits the Samaritans of later times, who lived apart from their Jewish neighbours (John 4:9). The Muslim scholar al-Biruni, writing about the year 1000, records that the Samaritans were also known as al-lamasasiyya, a name formed from this very phrase. And the Bible ties Samaria to calf worship in a later century, when Jeroboam set up golden calves and Hosea spoke of the “calf of Samaria” (1 Kings 12:28; Hosea 8:5-6).',
           followUps: [
             {
               reply: 'That is guesswork about sources. You cannot show that the Prophet ever heard such things.',
@@ -149,7 +149,7 @@ export const quranHistory: Topic = {
               followUps: [
                 {
                   reply: 'Jewish writings do exalt Ezra. In 4 Ezra he is taken up to heaven, and some Jews gave such figures a rank close to God. There may well have been Jews in Arabia who called him son of God in that sense.',
-                  answer: 'Some modern scholars have guessed something like that. It remains a guess, because no Jewish text, from Arabia or anywhere else, calls Ezra the son of God. Honouring a scribe is a different thing, and Judaism’s daily confession is that “The LORD our God, the LORD is One” (Deuteronomy 6:4). When a verse can be rescued only by a sect that left no trace, the evidence for the charge is the charge itself.',
+                  answer: 'Some modern scholars, Gordon Newby among them, have suggested something like that. It remains a guess, because no Jewish text, from Arabia or anywhere else, calls Ezra the son of God. Honouring a scribe is a different thing, and Judaism’s daily confession is that “The LORD our God, the LORD is One” (Deuteronomy 6:4). When a verse can be rescued only by a sect that left no trace, the evidence for the charge is the charge itself.',
                 },
               ],
             },

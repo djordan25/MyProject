@@ -63,7 +63,7 @@ export const quranMisunderstands: Topic = {
           followUps: [
             {
               reply: 'There was a sect in Arabia, the Collyridians, who worshipped Mary as a goddess. The Quran is answering them.',
-              answer: 'Our only report of that group comes from Epiphanius, a bishop writing in the fourth century, who describes some women in Arabia offering cakes to Mary. Nothing shows that they still existed in Muhammad’s day, or that they held a Trinity of God, Jesus and Mary. And the Quran does not speak as if to a sect. In Quran 5:116 Jesus is asked what he told “the people”, and the same surah addresses the People of the Scripture as a whole (Quran 5:77). If the Quran answered only a vanished sect, it left the faith of nearly every Christian unanswered.',
+              answer: 'What we know of that group comes from Epiphanius, a bishop writing in the fourth century, who had heard of some women in Arabia offering a loaf of bread to Mary. Nothing shows that they still existed in Muhammad’s day, or that they held a Trinity of God, Jesus and Mary. And the Quran does not speak as if to a sect. In Quran 5:116 Jesus is asked what he told “the people”, and the same surah addresses the People of the Scripture as a whole (Quran 5:77). If the Quran answered only a vanished sect, it left the faith of nearly every Christian unanswered.',
               followUps: [
                 {
                   reply: 'You are joining two separate verses. Quran 5:73 condemns saying “three”, and 5:116 condemns worshipping Mary. The Quran never says Mary is part of the Trinity.',

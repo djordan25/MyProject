@@ -17,7 +17,7 @@ export const problemOfEvil: Topic = {
       heading: 'The logical problem',
       body: [
         'Claim: an all-good, all-powerful God and evil are logically incompatible.',
-        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. Most philosophers, including atheists, now agree the logical problem fails.',
+        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by atheist philosophers as well, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded in 1982 that evil does not show theism to be logically inconsistent.',
       ],
     },
     {
@@ -284,7 +284,7 @@ export const problemOfEvil: Topic = {
     },
     {
       id: 'poe-q6',
-      question: 'Why do most philosophers now agree that the logical problem of evil fails?',
+      question: 'Why is the logical problem of evil now widely agreed to fail?',
       options: [
         'Because evil has been shown to be an illusion',
         'Because suffering has been shown to be rare',

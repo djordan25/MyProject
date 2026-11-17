@@ -145,7 +145,7 @@ export const jesusMoreThanProphet: Topic = {
               followUps: [
                 {
                   reply: 'No disciple was in the room at that trial, so the account is hearsay. And the blasphemy was simply his claim to be the Messiah.',
-                  answer: 'Claiming to be the Messiah was not blasphemy. A century later Rabbi Akiva hailed Simon bar Kokhba as the Messiah, and no one called that blasphemy. What made the high priest tear his clothes was a man saying he would sit at God’s right hand and come on God’s clouds. As for witnesses, the council was not sealed. Joseph of Arimathea was “a prominent Council member” (Mark 15:43), Nicodemus was with him at the burial (John 19:39), and later “a great number of priests became obedient to the faith” (Acts 6:7). The church had every means of knowing what was said.',
+                  answer: 'Claiming to be the Messiah was not blasphemy. A century later Rabbi Akiva hailed Simon bar Kokhba as the Messiah. Another rabbi told him he was wrong, but no one called it blasphemy. What made the high priest tear his clothes was a man saying he would sit at God’s right hand and come on God’s clouds. As for witnesses, the council was not sealed. Joseph of Arimathea was “a prominent Council member” (Mark 15:43), Nicodemus was with him at the burial (John 19:39), and later “a great number of priests became obedient to the faith” (Acts 6:7). The church had every means of knowing what was said.',
                 },
               ],
             },

@@ -192,7 +192,7 @@ export const atonementObjections: Topic = {
     {
       id: 'ao-q3',
       question: 'Which verse says “it is the blood that makes atonement for the soul”?',
-      options: ['Leviticus 17:11', 'Deuteronomy 6:4', 'Psalm 51:10', 'Proverbs 1:7'],
+      options: ['Leviticus 17:11', 'Hebrews 9:22', 'Exodus 12:13', 'Isaiah 53:5'],
       answer: 0,
       explanation: 'The sacrificial system points to Christ.',
     },
