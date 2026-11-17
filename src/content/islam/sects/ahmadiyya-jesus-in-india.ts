@@ -58,7 +58,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
         'The earliest statement of Christian belief is a creed that Paul says he “received” and passed on: “that Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures, and that He appeared to Cephas and then to the Twelve” (1 Corinthians 15:3-7). Paul had it within a few years of the event, from men who were there (Galatians 1:18-19). It says died, buried, raised, appeared.',
         'For the journey to Kashmir there is no source of that kind, or of any kind within many centuries. No early Christian, Jewish, Roman, Persian or Indian writer mentions it. The ancient churches of Persia and India traced their beginnings to apostles such as Thomas. They preached Christ crucified and risen, and none of them ever claimed that Jesus had lived or died among them.',
         'The story of Yuz Asaf has been traced, and it is not about Jesus. An Arabic book, the Book of Bilawhar and Budhasaf, tells the life of the Buddha in Muslim dress. Budhasaf is the Buddhist title Bodhisattva. In Arabic script the letters b and y differ only by a dot, and the name was miscopied as Yudasaf and then Yuzasaf. The same legend passed into Christian Europe as the tale of Barlaam and Josaphat, and the Catholic Encyclopedia of 1907 already described that tale as a Christianised legend of the Buddha.',
-        'The orientalist David Marshall Lang examined the Kashmir material in The Wisdom of Balahvar (1957). He found that the passages quoted about Yuz Asaf come almost word for word from the Arabic Buddha legend, as preserved by the tenth-century Shia writer Ibn Babawayh, including the hero’s death in Kashmir. Lang suggested that Kashmir was itself a confusion with Kusinara, where the Buddha is said to have died. He concluded that the sources “have no possible bearing on the life of Christ”. The Ahmadiyya community’s own website grants that the name Yuz Asaf “may be of Buddhist derivation”. No writer is known to have identified the Srinagar tomb with Jesus before Ahmad did so in the 1890s.',
+        'The orientalist David Marshall Lang examined the Kashmir material in The Wisdom of Balahvar (1957). He found that the passages quoted about Yuz Asaf come almost word for word from the Arabic Buddha legend, as preserved by the tenth-century Shia writer Ibn Babawayh, including the hero’s death in Kashmir. Lang suggested that Kashmir was itself a confusion with Kusinara, where the Buddha is said to have died. He concluded that the sources “have no possible bearing on the life of Christ”. The Ahmadiyya community’s own website grants that the name Yuz Asaf “may be of Buddhist derivation”. The older writings that Ahmadis quote, Ibn Babawayh and a Kashmiri history of the eighteenth century, speak of a prince or prophet called Yuz Asaf and do not call him Jesus. By the community’s own account, Ahmad heard that the tomb was known as the grave of a prophet from abroad and concluded that it could only be Jesus.',
       ],
       references: ['1 Corinthians 15:3-7', 'Galatians 1:18-19'],
     },
@@ -86,7 +86,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
           followUps: [
             {
               reply: 'The plain predictions of death and resurrection were put into his mouth later by the church. The Jonah saying is the genuine one, which is why it does not fit their doctrine.',
-              answer: 'Then tell me the rule by which you sort the Gospels. You accept them for the Jonah saying, for Pilate’s surprise, for the unbroken legs and the blood and water. You reject them when the same writers, on the same pages, say he died. The only rule I can see is that whatever fits the theory is authentic. Mark is the earliest Gospel, and it has Jesus predict his death and rising three times (Mark 8:31). A method that keeps only the verses it likes can prove anything.',
+              answer: 'Then tell me the rule by which you sort the Gospels. You accept them for the Jonah saying, for Pilate’s surprise, for the unbroken legs and the blood and water. You reject them when the same writers, on the same pages, say he died. The only rule I can see is that whatever fits the theory is authentic. Mark is widely held to be the earliest Gospel, and it has Jesus predict his death and rising three times (Mark 8:31). A method that keeps only the verses it likes can prove anything.',
               followUps: [
                 {
                   reply: 'The rule is the Quran. Whatever in the Gospels agrees with the Quran is true, and the Quran says he was not killed.',
@@ -102,7 +102,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
       id: 'ahj-2',
       objection: 'Crucifixion killed slowly, over days. Jesus was on the cross for about six hours. Pilate could not believe he was dead (Mark 15:44). His legs were never broken. And when the spear went in, blood flowed, which does not happen with a corpse. He had fainted.',
       response:
-        'Each of those details comes from the witnesses, and each is given by them as part of the proof that he died. Pilate’s surprise is why he called the centurion and had the death confirmed before he released the body (Mark 15:44-45). The legs were not broken because the soldiers, whose trade this was, “saw that He was already dead” (John 19:31-35). He had been flogged before he was crucified, which helps to explain why he died sooner than some. And John records the blood and water as what an eyewitness saw when a spear was driven into the side of a dead man. Doctors who have studied the passage explain the water as fluid that had gathered around the heart and lungs.',
+        'Each of those details comes from the witnesses, and each is given by them as part of the proof that he died. Pilate’s surprise is why he called the centurion and had the death confirmed before he released the body (Mark 15:44-45). The legs were not broken because the soldiers, whose trade this was, “saw that He was already dead” (John 19:31-35). He had been flogged before he was crucified, which helps to explain why he died sooner than some. And John records the blood and water as what an eyewitness saw when a spear was driven into the side of a dead man. He does not say that the blood spurted as from a beating heart. A study of the crucifixion in the Journal of the American Medical Association in 1986 explained the water as fluid that had gathered around the heart and lungs, and the blood as coming from the heart itself when the spear went in.',
       keyPoints: ['Pilate’s surprise led to an official check with the centurion.', 'The executioners judged him dead and speared him to be sure.', 'The eyewitness gives the blood and water as proof of death.'],
       references: ['Mark 15:44-45', 'John 19:31-35', 'Mark 15:15', 'Mark 15:37-39'],
       followUps: [
@@ -116,7 +116,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
               followUps: [
                 {
                   reply: 'Jesus did have help. Nicodemus brought a hundred pounds of myrrh and aloes, which are healing herbs. Books of medicine for a thousand years have described the ointment of Jesus, Marham-i-Isa, made for his wounds.',
-                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it were written about a thousand years after the event. They show that physicians in the Muslim world named a salve after Jesus the healer, not what happened in a tomb in Jerusalem.',
+                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it come from the medieval Muslim world, many centuries after the event. They show that physicians named a salve after Jesus the healer, not what happened in a tomb in Jerusalem.',
                 },
               ],
             },
@@ -128,13 +128,13 @@ export const ahmadiyyaJesusInIndia: Topic = {
       id: 'ahj-3',
       objection: 'After the cross Jesus had wounds, felt hunger and ate fish. He told the disciples, “a spirit does not have flesh and bones, as you see I have” (Luke 24:39-43). He met them privately and went away. That is a wounded man in hiding, not a glorified being who had passed through death.',
       response:
-        'I agree that the body was real. That is what the passage is for. Christians believe Jesus rose in the body that was crucified, so the wounds and the meal prove it was truly him. But read the scene again. The disciples were terrified and thought they were seeing a spirit, because they knew he had died (Luke 24:36-37). He had entered a locked room (John 20:19-20). The same day he had walked seven miles to Emmaus on feet that had been nailed two days before, and then vanished from the table (Luke 24:13-15, 31). An injured fugitive does none of these things.',
+        'I agree that the body was real. That is what the passage is for. Christians believe Jesus rose in the body that was crucified, so the wounds and the meal prove it was truly him. But read the scene again. The disciples were terrified and thought they were seeing a spirit, because they knew he had died (Luke 24:36-37). He had entered a locked room (John 20:19-20). The same day he had walked with two disciples on the road to Emmaus, seven miles from Jerusalem, on feet that had been nailed two days before, and then vanished from the table (Luke 24:13-15, 31). An injured fugitive does none of these things.',
       keyPoints: ['The wounds identify him and show the resurrection was bodily.', 'The disciples’ terror shows they knew he had died.', 'Locked doors, the Emmaus road and the ascension do not fit a wounded fugitive.'],
       references: ['Luke 24:36-37', 'Luke 24:39-43', 'John 20:19-20', 'Luke 24:13-15', 'Luke 24:31', 'Acts 1:3'],
       followUps: [
         {
           reply: 'He kept away from his enemies and sent word for the disciples to meet him far off in Galilee. He was avoiding arrest, as any man who had escaped execution would.',
-          answer: 'Then explain what the disciples did next. Within weeks they were in Jerusalem, in the temple courts, telling the rulers who had condemned him: “whom you crucified but whom God raised from the dead” (Acts 4:10). If Jesus were alive and in hiding, that preaching would have set the authorities hunting for him. People protecting a fugitive keep quiet. These men could not be silenced, and they said his death and rising were public facts, “not done in a corner” (Acts 26:26).',
+          answer: 'Then explain what the disciples did next. Within weeks they were in Jerusalem, telling the very rulers who had condemned him that this was Jesus, “whom you crucified but whom God raised from the dead” (Acts 4:10). If Jesus were alive and in hiding, that preaching would have set the authorities hunting for him. People protecting a fugitive keep quiet. These men could not be silenced, and they said his death and rising were public facts, “not done in a corner” (Acts 26:26).',
           followUps: [
             {
               reply: 'They were sincere but mistaken. They saw him alive after the cross and took a recovery for a resurrection.',
@@ -142,7 +142,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
               followUps: [
                 {
                   reply: 'And the ascension is only his departure. He left them on the Mount of Olives, on the road east, and passed out of sight.',
-                  answer: 'Luke says he “was taken up, and a cloud hid Him from their sight”, while they stood looking into the sky, and that two messengers told them he had been taken “into heaven” and would return the same way (Acts 1:9-11). That is not a description of a man walking down a road. Afterwards Stephen and Paul both saw him in glory (Acts 7:55-56; 9:3-5), and neither was looking towards Kashmir.',
+                  answer: 'Luke says he “was taken up, and a cloud hid Him from their sight”, while they stood looking into the sky, and that two men in white told them he had been taken “into heaven” and would return the same way (Acts 1:9-11). That is not a description of a man walking down a road. Afterwards Stephen and Paul both saw him in glory (Acts 7:55-56; 9:3-5), and neither was looking towards Kashmir.',
                 },
               ],
             },
@@ -164,7 +164,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
           followUps: [
             {
               reply: 'The records perished when those lands became Buddhist and then Muslim. But traces remain. A Hindu scripture, the Bhavishya Purana, tells of a king meeting Isa-Masih in the mountains.',
-              answer: 'An appeal to records that have perished cannot be tested, so it cannot count as evidence. As for the Bhavishya Purana, students of the Puranas generally hold that it was added to over many centuries and that the part in question belongs to its latest layers, far too late to be a record from the first century. It says nothing about a cross survived or a grave in Srinagar. Set that beside a creed that names living eyewitnesses within a few years of the event (1 Corinthians 15:3-7).',
+              answer: 'An appeal to records that have perished cannot be tested, so it cannot count as evidence. As for the Bhavishya Purana, the passage stands in a section that students of the Puranas date very late. Ludo Rocher’s standard survey, The Puranas, notes that this section also tells of Adam and Noah, speaks of the Mughal emperors, and even knows British rule and the city of Calcutta. It is no record from the first century, and it says nothing about a cross survived or a grave in Srinagar. Set that beside a creed that names living eyewitnesses within a few years of the event (1 Corinthians 15:3-7).',
             },
           ],
         },
@@ -178,8 +178,8 @@ export const ahmadiyyaJesusInIndia: Topic = {
       id: 'ahj-5',
       objection: 'The tomb exists. In the Khanyar quarter of Srinagar lies Yuz Asaf, a prophet and prince who came from the west about nineteen hundred years ago and taught in parables. Yuz is Yasu, Jesus, and Asaf means the gatherer. Old Kashmiri histories and local tradition confirm it.',
       response:
-        'I would ask where the story of Yuz Asaf comes from. Scholars have traced it. It is the tale told in an Arabic book, the Book of Bilawhar and Budhasaf, which is the life of the Buddha retold for Muslim readers. Budhasaf is “Bodhisattva”. One dot in Arabic script turns the b into a y, and the name became Yudasaf and Yuzasaf. A prince who gives up his throne, teaches in parables and dies in “Kashmir” after naming a disciple as his successor: that is the Buddha legend. The same tale reached Europe as Barlaam and Josaphat. No writer is known to have connected the Srinagar tomb with Jesus until the 1890s.',
-      keyPoints: ['Yuz Asaf comes from Budhasaf, the Bodhisattva.', 'The story is the Buddha legend in its Arabic form.', 'The tomb was first linked with Jesus in the 1890s.'],
+        'I would ask where the story of Yuz Asaf comes from. Scholars have traced it. It is the tale told in an Arabic book, the Book of Bilawhar and Budhasaf, which is the life of the Buddha retold for Muslim readers. Budhasaf is “Bodhisattva”. One dot in Arabic script turns the b into a y, and the name became Yudasaf and Yuzasaf. A prince who gives up his throne, teaches in parables and dies in “Kashmir” after naming a disciple as his successor: that is the Buddha legend. The same tale reached Europe as Barlaam and Josaphat. The old Kashmiri history your writers quote calls the man in the tomb Yuz Asaf, a prince and prophet. It does not call him Jesus. That step was taken by Hazrat Ahmad in the 1890s.',
+      keyPoints: ['Yuz Asaf comes from Budhasaf, the Bodhisattva.', 'The story is the Buddha legend in its Arabic form.', 'The older sources name Yuz Asaf, not Jesus. The identification is Ahmad’s, from the 1890s.'],
       references: ['1 Corinthians 15:3-7'],
       followUps: [
         {
@@ -188,7 +188,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
           followUps: [
             {
               reply: 'Then let the grave speak. It is aligned east to west in the Jewish way, not the Muslim way, and beside it is a stone carved with footprints that show the scars of crucifixion.',
-              answer: 'The direction of a grave and a carving of unknown date cannot tell us that a particular man from first-century Galilee lies there. Nothing at the shrine names Jesus, and the Muslims of Srinagar who care for it have long honoured it as the grave of a holy man of their own. Compare the tomb in Jerusalem. Jesus’ enemies never produced a body. The best they could do was to say that the disciples had stolen it (Matthew 28:11-15), which admits that it was empty.',
+              answer: 'The direction of a grave and a carving of unknown date cannot tell us that a particular man from first-century Galilee lies there. The name handed down at the shrine is Yuz Asaf, and we have seen where that name comes from. Compare the tomb in Jerusalem. Jesus’ enemies never produced a body. The best they could do was to say that the disciples had stolen it (Matthew 28:11-15), which admits that it was empty.',
             },
           ],
         },
@@ -208,7 +208,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
       followUps: [
         {
           reply: 'The Quran does say it. “They did not kill him, nor did they crucify him” means they did not kill him by crucifixion. In Arabic, to crucify is to put to death on a cross. He was on the cross, but he did not die there.',
-          answer: 'Suppose the Arabic allows that. Then the verse says he was not killed, and that God raised him to himself (Quran 4:157-158). It still gives no account of what happened next: no rescue, no ointment, no road to the east. Muslims read this verse for thirteen centuries without finding a swoon in it, and most still do not. So even on your best reading, the Quran leaves the story blank, and the blank has been filled from a medieval legend about the Buddha.',
+          answer: 'Suppose the Arabic allows that. Then the verse says he was not killed, and that God raised him to himself (Quran 4:157-158). It still gives no account of what happened next: no rescue, no ointment, no road to the east. Muslims read this verse for more than twelve centuries without finding a swoon in it, and most still do not. So even on your best reading, the Quran leaves the story blank, and the blank has been filled from a medieval legend about the Buddha.',
           followUps: [
             {
               reply: 'And your side rests on four Gospels that contradict one another and were written decades later. At least the Quran is the word of God.',
@@ -445,6 +445,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     'F. Max Müller, “The Alleged Sojourn of Christ in India”, The Nineteenth Century 36 (1894)',
     'J. Archibald Douglas, “The Chief Lama of Himis on the Alleged ‘Unknown Life of Christ’”, The Nineteenth Century 39 (1896)',
     'Per Beskow, Strange Tales about Jesus: A Survey of Unfamiliar Gospels (1983)',
+    'William D. Edwards, Wesley J. Gabel and Floyd E. Hosmer, “On the Physical Death of Jesus Christ”, Journal of the American Medical Association (21 March 1986)',
     'Gary R. Habermas and Michael R. Licona, The Case for the Resurrection of Jesus (2004)',
   ],
 };

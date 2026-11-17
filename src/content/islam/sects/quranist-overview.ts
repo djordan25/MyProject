@@ -18,17 +18,17 @@ export const quranistOverview: Topic = {
       heading: 'Where it came from',
       body: [
         'The question is old. The jurist al-Shafi‘i, who died in AD 820, wrote against people of his day who refused to accept reports about Muhammad as binding. He won the argument, and for a thousand years almost all Muslims have held that the Quran must be read alongside the Prophet’s example.',
-        'The modern movement began under colonial rule, when Muslims were forced to defend the hadith against Western critics and some decided they could not. Daniel Brown’s history of the debate, Rethinking Tradition in Modern Islamic Thought, traces it to British India and Egypt around 1900: a group in Lahore that took the name Ahl al-Quran, and an Egyptian doctor, Muhammad Tawfiq Sidqi, who argued in print that Islam is the Quran alone.',
-        'In Pakistan the best-known name is Ghulam Ahmad Parwez, who died in 1985. His movement, Tolu-e-Islam, still publishes his books and describes its aim as removing every non-Quranic belief and practice from Islam. Parwez did not leave each reader to decide matters alone. He argued that the details the Quran leaves open should be settled by the central authority of a Muslim state.',
+        'The modern movement began under colonial rule, when Muslims were forced to defend the hadith against Western critics and some decided they could not. Daniel Brown’s history of the debate, Rethinking Tradition in Modern Islamic Thought, traces it to British India and Egypt in the first years of the twentieth century. In Lahore a little-known religious teacher, Abdullah Chakralawi, founded a society that called itself Ahl-i-Quran, “people of the Quran”. In Cairo in 1906 an Egyptian physician, Muhammad Tawfiq Sidqi, published an article in the journal al-Manar under the title “Islam is the Quran alone”.',
+        'In Pakistan the best-known name is Ghulam Ahmad Parwez, who died in 1985. His movement, Tolu-e-Islam, still publishes his books and describes its aim as removing every non-Quranic belief and practice from Islam. Parwez did not leave each reader to decide matters alone. He argued that the authority to apply the Quran and settle what it leaves open, which the Prophet held in his lifetime, now belongs to the central authority of a Muslim state.',
       ],
     },
     {
       heading: 'Rashad Khalifa and the Submitters',
       body: [
-        'The most famous Quran-only teacher in the West was Rashad Khalifa, an Egyptian-born biochemist who led a mosque in Tucson, Arizona, and founded United Submitters International. He published his own English translation, Quran: The Final Testament.',
+        'The most famous Quran-only teacher in the West was Rashad Khalifa, an Egyptian-born biochemist who led a mosque in Tucson, Arizona, and a group called United Submitters International. He published his own English translation, Quran: The Final Testament.',
         'Khalifa claimed that the Quran contains a mathematical code built on the number 19, which he linked to the verse “Over it are nineteen” (Quran 74:30). By his own account he discovered it in 1974. He counted letters, words and verses and reported that the totals were multiples of 19, and he said this proved the book divine and guarded it against the smallest change.',
         'The code led him to two further steps. First, he removed two verses from the Quran, the last two of surah 9 (Quran 9:128-129), calling them false insertions, because with them his counts did not come out. Second, in the appendices to his translation he presented himself as “God’s Messenger of the Covenant”. On 31 January 1990 he was found stabbed to death in his mosque. A man who had joined his congregation under a false name was convicted of the murder in 2012.',
-        'Do not assume the person you are talking to follows Khalifa. Many Quran-only Muslims reject his code, his deleted verses and his claim to be a messenger. Others you may hear of are Edip Yuksel, a Turkish-born writer who worked with Khalifa in Tucson and later co-authored Quran: A Reformist Translation, and Ahmed Subhy Mansour, a former scholar of al-Azhar in Egypt who was dismissed and jailed for his views in the 1980s, received asylum in the United States, and founded the International Quranic Center in Virginia.',
+        'Do not assume the person you are talking to follows Khalifa. Many Quran-only Muslims reject his code, his deleted verses and his claim to be a messenger. Others you may hear of are Edip Yuksel, a Kurdish author from Turkey who worked with Khalifa at the Tucson mosque, still defends the number code, and later co-authored Quran: A Reformist Translation, and Ahmed Subhy Mansour, a historian who was expelled from al-Azhar University in Egypt in 1987 and jailed for two months for his views, later received asylum in the United States, and founded the International Quranic Center in Virginia.',
       ],
       references: ['Quran 74:30', 'Quran 9:128-129'],
     },
@@ -45,8 +45,8 @@ export const quranistOverview: Topic = {
     {
       heading: 'How they pray and practise',
       body: [
-        'Practice varies widely. Most Quran-only Muslims still pray five times a day in much the usual way. They say they learned this from the unbroken practice of the community, not from hadith books. Khalifa taught five prayers and answered the question “Where are the details?” by saying that the prayers came down from Abraham (Quran 21:73; 22:78).',
-        'Others find only three prayer times in the Quran and pray three times a day, citing verses such as Quran 11:114 and 24:58. A few understand the word for prayer as devotion in general and keep no set ritual. Washing before prayer usually follows the four steps of Quran 5:6 and nothing more. Some recite the confession of faith without Muhammad’s name, because they think adding it puts a man beside God.',
+        'Practice varies widely. Many Quran-only Muslims still pray five times a day in much the usual way. They say they learned this from the unbroken practice of the community, not from hadith books. Khalifa taught five prayers. When asked where the Quran gives the details, he answered that the prayers came down from Abraham (Quran 21:73; 22:78).',
+        'Others find only three prayer times in the Quran and pray three times a day, citing verses such as Quran 11:114 and 24:58. This is the position of the Reformist Translation. Some go further and say the Arabic word salat does not mean a ritual at all but following God’s commands closely, and they keep no set form of prayer. Washing before prayer usually follows the four steps of Quran 5:6 and nothing more. Khalifa’s followers and others recite the confession of faith without Muhammad’s name, because they think adding it puts a man beside God.',
         'On law they are usually far gentler than traditional Islam. Most reject stoning and the death penalty for apostasy, because neither is in the Quran. Many are attractive, thoughtful people who left a harsher form of Islam on grounds of conscience. Respect that.',
       ],
       references: ['Quran 21:73', 'Quran 22:78', 'Quran 11:114', 'Quran 24:58', 'Quran 5:6'],
@@ -55,7 +55,7 @@ export const quranistOverview: Topic = {
       heading: 'How other Muslims regard them',
       body: [
         'Sunni and Shia scholars alike treat the Quran-only position as a serious error, and many say it puts a person outside Islam. They quote a hadith in which Muhammad warns of a man reclining on his couch who hears a command of the Prophet and says he follows only what he finds in the Book of Allah (Sunan Abi Dawud 4605; Jami at-Tirmidhi 2663). A Quran-only Muslim replies that this is exactly the sort of report someone would invent to protect the hadith.',
-        'The hostility is real. Mansour lost his post and his freedom in Egypt. Khalifa was murdered. Quran-only Muslims in several countries keep their views quiet. Many have paid a price for following their conscience, and a Christian should be the first to treat them kindly and to say that no one should be harmed for what he believes.',
+        'The hostility is real. Mansour lost his post and his freedom in Egypt, and an Egyptian human rights group reported the arrest of Quran-only Muslims there as recently as 2020. Khalifa was murdered. Many have paid a price for following their conscience, and a Christian should be the first to treat them kindly and to say that no one should be harmed for what he believes.',
       ],
       references: ['Sunan Abi Dawud 4605', 'Jami at-Tirmidhi 2663'],
     },
@@ -74,13 +74,13 @@ export const quranistOverview: Topic = {
       id: 'qro-1',
       objection: 'The Quran says it is complete, fully detailed and a clarification of all things (Quran 6:114; 16:89). A book like that needs no second source.',
       response:
-        'I agree that this is what those verses say, and I think you read them more honestly than Muslims who say the Quran cannot be understood without the hadith. So let’s test the claim against the book. Prayer is the duty the Quran commands most often. Where does it tell you how many times a day to pray, what to say, or how many cycles to perform? If the Book is “explained in detail” (Quran 6:114), I would expect its central act of worship to be explained.',
+        'I agree that this is what those verses say, and I think you read them more honestly than Muslims who say the Quran cannot be understood without the hadith. So let’s test the claim against the book. Prayer is one of the duties the Quran commands most often. Where does it tell you how many times a day to pray, what to say, or how many cycles to perform? If the Book is “explained in detail” (Quran 6:114), I would expect its central act of worship to be explained.',
       keyPoints: ['Grant what the verses say.', 'Test the claim against the book’s contents.', 'Prayer is commanded constantly and never set out.'],
       references: ['Quran 6:114', 'Quran 16:89', 'Quran 12:111'],
       followUps: [
         {
           reply: 'Prayer did not come through hadith. God taught it to Abraham and it has been practised without a break ever since (Quran 21:73; 22:78). Muslims prayed for two hundred years before Bukhari was born.',
-          answer: 'It is true that practice came before the books. But notice what you have just relied on: generations of people handing something on outside the Quran. That is tradition, the thing you set aside. And the Quran says that the prayer of the Meccans at the House “was not except whistling and handclapping” (Quran 8:35), so by its own account the practice of Abraham had not survived in Mecca.',
+          answer: 'It is true that practice came before the books. But notice what you have just relied on: generations of people handing something on outside the Quran. That is tradition, the thing you set aside. And the Quran says that the prayer of the Meccans at the House “was not except whistling and handclapping” (Quran 8:35), so by its own account the practice of Abraham had not survived intact in Mecca.',
           followUps: [
             {
               reply: 'Inherited practice is not the same as hadith. A whole community cannot forget how it prays. A single narrator can invent a saying.',
@@ -134,8 +134,8 @@ export const quranistOverview: Topic = {
       id: 'qro-3',
       objection: 'The hadith were written two centuries later, they contradict one another, and they say shameful things about the Prophet. You criticise them yourself. So we agree.',
       response:
-        'On the hadith we agree more than you might expect. Two hundred years of oral reports, with forgery admitted on every side, is a poor foundation, and I respect you for facing that. Here is my difficulty. The men who handed down those reports are the same men who handed down the Quran. The only account of how the Quran was gathered into a book comes from hadith (Sahih al-Bukhari 4986, 4987). If the transmitters cannot be trusted for the one, why are they trusted for the other?',
-      keyPoints: ['Agree honestly about the hadith.', 'The same transmitters delivered the Quran.', 'The story of the Quran’s collection is itself hadith.'],
+        'On the hadith we agree more than you might expect. Two hundred years of oral reports, with forgery admitted on every side, is a poor foundation, and I respect you for facing that. Here is my difficulty. The generations who handed down those reports are the same generations who handed down the Quran. The only account of how the Quran was gathered into a book comes from hadith (Sahih al-Bukhari 4986, 4987). If what they passed on cannot be trusted in the one case, why is it trusted in the other?',
+      keyPoints: ['Agree honestly about the hadith.', 'The same generations handed down the Quran.', 'The story of the Quran’s collection is itself hadith.'],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987'],
       followUps: [
         {
@@ -148,7 +148,7 @@ export const quranistOverview: Topic = {
               followUps: [
                 {
                   reply: 'I do not need history. God promised: “Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9).',
-                  answer: 'That is using the Quran to prove the Quran, which only persuades someone who already believes it. And the promise proves more than you want. The same book says God sent down the Torah and the Gospel, and that “None can alter His words” (Quran 6:115). If his promise guards one of his books, it guards them all, and then the Gospel in the hands of Christians in Muhammad’s day was sound. That Gospel says Jesus died for our sins and rose again.',
+                  answer: 'That is using the Quran to prove the Quran, which only persuades someone who already believes it. And the Quran’s claim is wider than that one verse. The same book says God sent down the Torah and the Gospel, and that “None can alter His words” (Quran 6:115). If no one can alter the words of God, then the Gospel in the hands of Christians in Muhammad’s day was sound. That Gospel says Jesus died for our sins and rose again.',
                 },
               ],
             },
@@ -166,7 +166,7 @@ export const quranistOverview: Topic = {
       response:
         'I have looked at the claim, and three things trouble me. The results depend on choosing what to count and how to spell it, and when one count fails another is tried. To make the totals work Khalifa removed two verses from the Quran (Quran 9:128-129): by his own figures the word “God” occurs 2,699 times with them and 2,698, a multiple of 19, without them. And the same code led him to announce that he was God’s messenger. Many Muslims who follow the Quran alone reject all three steps.',
       keyPoints: ['The counts depend on what is chosen and how it is spelled.', 'Two verses were deleted to make the numbers work.', 'The code ended in a new claim to be a messenger.'],
-      references: ['Quran 9:128-129', 'Quran 74:30', 'Quran 15:9'],
+      references: ['Quran 9:128-129', 'Quran 74:30', 'Quran 74:31', 'Quran 15:9'],
       followUps: [
         {
           reply: 'Those two verses were added after the Prophet died. Even your hadith admit they were found with only one man.',
@@ -180,7 +180,7 @@ export const quranistOverview: Topic = {
         },
         {
           reply: 'Leave the disputed counts aside. The simple facts stand. There are 114 surahs, which is 19 times 6. The opening formula has 19 letters. The Quran itself says, “Over it are nineteen.”',
-          answer: 'In a long text there are thousands of things one could count: letters, words, verses, surahs, sums of verse numbers. About one count in nineteen will be a multiple of 19 by chance. If you are free to pick the ones that work and pass over the ones that do not, you will always find a pattern. And in its setting “Over it are nineteen” (Quran 74:30) is about the keepers of Hell. The verses that follow speak of the angels who guard the Fire and say the number was given as a trial. It says nothing about counting letters.',
+          answer: 'In a long text there are thousands of things one could count: letters, words, verses, surahs, sums of verse numbers. About one count in nineteen will be a multiple of 19 by chance. If you are free to pick the ones that work and pass over the ones that do not, you will always find a pattern. And in its setting “Over it are nineteen” (Quran 74:30) is about the keepers of Hell. The next verse speaks of the angels who guard the Fire and says their number was given as a trial (Quran 74:31). It says nothing about counting letters.',
           followUps: [
             {
               reply: 'Chance cannot explain so many patterns at once. Mathematicians have looked at this.',
@@ -204,7 +204,7 @@ export const quranistOverview: Topic = {
           followUps: [
             {
               reply: 'The Quran says they corrupted it. They “write the scripture with their own hands” and “distort words from their usages” (Quran 2:79; 5:13).',
-              answer: 'Read those verses on their own, as you would wish. Quran 2:79 speaks of some people who write something and pass it off as scripture. Quran 5:13 says some Jews distort words and have “forgotten a portion”. Neither says that the Torah or the Gospel was lost or rewritten, and a few verses later the Quran tells Jews and Christians they stand on nothing until they uphold the Torah and the Gospel (Quran 5:68). A lost book cannot be upheld.',
+              answer: 'Read those verses on their own, as you would wish. Quran 2:79 speaks of some people who write something and pass it off as scripture. Quran 5:13 says some Jews distort words and have “forgotten a portion”. Neither says that the Torah or the Gospel was lost or rewritten, and later in the same surah the Quran tells Jews and Christians they stand on nothing until they uphold the Torah and the Gospel (Quran 5:68). A lost book cannot be upheld.',
               followUps: [
                 {
                   reply: 'The Quran is the criterion over the earlier books (Quran 5:48). Where they differ from it, they are wrong.',
@@ -220,17 +220,17 @@ export const quranistOverview: Topic = {
       id: 'qro-6',
       objection: 'The things you criticise in Islam come from the hadith: stoning, killing apostates, child marriage. None of it is in the Quran. So your case against Muhammad falls away.',
       response:
-        'You are right that those come from the hadith, and I will not hold you to books you do not accept. But the Quran on its own still says hard things. It tells husbands to strike wives whose defiance they fear (Quran 4:34). It commands fighting the People of the Scripture “until they give the jizyah willingly while they are humbled” (Quran 9:29). It orders the hands of thieves cut off (Quran 5:38). It permits married captives to their captors (Quran 4:24) and gives Muhammad marriage rights “only for you, excluding the [other] believers” (Quran 33:50).',
+        'You are right that those come from the hadith, and I will not hold you to books you do not accept. But the Quran on its own still says hard things. It tells husbands to strike wives whose defiance they fear (Quran 4:34). It commands fighting the People of the Scripture “until they give the jizyah willingly while they are humbled” (Quran 9:29). It orders the hands of thieves cut off (Quran 5:38). It forbids a man other men’s wives “except those your right hands possess” (Quran 4:24), that is, his slave women, and it gives Muhammad marriage rights “only for you, excluding the [other] believers” (Quran 33:50).',
       keyPoints: ['Do not use the hadith against someone who rejects them.', 'The Quran alone contains hard commands.', 'Quote the verses, not the commentaries.'],
-      references: ['Quran 4:34', 'Quran 9:29', 'Quran 5:38', 'Quran 4:24', 'Quran 33:50'],
+      references: ['Quran 4:34', 'Quran 9:29', 'Quran 5:38', 'Quran 4:24', 'Quran 33:50', 'Quran 9:13', 'Quran 8:12'],
       followUps: [
         {
           reply: 'Those verses belong to particular situations. Quran 9:29 is about enemies who had attacked the Muslims. It is not a standing order.',
-          answer: 'Where does the Quran say so? The situation you describe comes from the biographies and the commentaries, which you have set aside. On the text alone, the verse gives its own reason for the fighting, and the reason is what those people believe: they “do not believe in Allah or in the Last Day” and “do not adopt the religion of truth” (Quran 9:29). Nothing in the verse mentions an attack.',
+          answer: 'Where does the Quran say so? Earlier in the surah it does speak of idolaters who broke their oaths and attacked first (Quran 9:13). But this verse turns to a different group, the People of the Scripture, and the story of an attack by them comes from the biographies and the commentaries, which you have set aside. On the text alone, the verse gives its own reason for the fighting, and the reason is what those people believe: they “do not believe in Allah or in the Last Day” and “do not adopt the religion of truth” (Quran 9:29). Nothing in the verse mentions an attack.',
           followUps: [
             {
               reply: 'The Quran explains itself. “Fight in the way of Allah those who fight you but do not transgress” (Quran 2:190). That verse limits every other.',
-              answer: 'It may. Or the command to fight until tribute is paid may be the later word. The Quran is not arranged in the order it was given, and the dates of its surahs come from tradition. Without them, you cannot show from the text which verse governs which. Sincere readers of the Quran alone have reached both conclusions, and the difference is life or death for the people concerned.',
+              answer: 'It may. Or the command to fight until tribute is paid may be the later word. The Quran is not arranged in the order it was given, and the dates of its surahs come from tradition. Without them, you cannot show from the text which verse governs which. Muslims have read it both ways, and for centuries the jurists took the command to fight until tribute is paid as a standing rule. The difference is life or death for the people concerned.',
               followUps: [
                 {
                   reply: 'Your Bible has wars and harsh laws too.',
@@ -241,8 +241,8 @@ export const quranistOverview: Topic = {
           ],
         },
         {
-          reply: 'The Arabic in Quran 4:34 does not mean strike. The verb can mean to separate or to leave.',
-          answer: 'Some modern translators say so, and I understand why. But the verse has already listed leaving the wife’s bed as the step before, so “leave them” as the final step adds nothing. The same verb with a direct object means “strike” elsewhere in the Quran. And Muslim readers took it that way for many centuries. I would rather you were right. But a book that is “clarification for all things” (Quran 16:89) should not leave it unclear whether a man may hit his wife.',
+          reply: 'The Arabic in Quran 4:34 does not mean strike. The verb has many meanings in the Quran, and here it means to leave or separate from them: first advice, then separate beds, then separation.',
+          answer: 'Some modern translators say so, among them the Reformist Translation, and I understand why. The verb does have other senses, such as setting out on a journey or giving an example. But where it takes a person or a part of the body as its direct object, as it does here, the Quran uses it for striking: “strike [them] upon the necks” (Quran 8:12). For divorce and separation the Quran has other words. And Muslim readers took it as striking for many centuries. I would rather you were right. But a book that is “clarification for all things” (Quran 16:89) should not leave it unclear whether a man may hit his wife.',
         },
       ],
     },
@@ -277,7 +277,7 @@ export const quranistOverview: Topic = {
         'An Egyptian-born biochemist in Tucson, Arizona, who taught the Quran alone and the “code 19”',
       ],
       answer: 3,
-      explanation: 'He founded United Submitters International and published his own translation of the Quran.',
+      explanation: 'He led the group called United Submitters International and published his own translation of the Quran.',
     },
     {
       id: 'qro-q4',
@@ -345,7 +345,7 @@ export const quranistOverview: Topic = {
       options: [
         'They all pray exactly as Sunnis do',
         'They never pray',
-        'It varies: most keep five prayers as inherited practice, some pray three times a day',
+        'It varies: many keep five prayers as inherited practice, others pray three times a day',
         'They pray only on Fridays',
       ],
       answer: 2,
@@ -392,7 +392,7 @@ export const quranistOverview: Topic = {
       question: 'A Quran-only Muslim says prayer was handed down by practice from Abraham. What is the best reply?',
       options: [
         'Abraham never prayed',
-        'That is reliance on tradition outside the Quran, and the Quran says Meccan prayer had become whistling and clapping (Quran 8:35)',
+        'That is reliance on tradition outside the Quran, and the Quran says prayer at the House in Mecca had become whistling and handclapping (Quran 8:35)',
         'The Bible forbids ritual prayer',
         'Bukhari proves the prayer came from Muhammad',
       ],
@@ -440,7 +440,7 @@ export const quranistOverview: Topic = {
         'The rulings of the twelve Imams',
       ],
       answer: 1,
-      explanation: 'It shows that the Quran alone rarely stays alone. Something else is brought in to fill the gaps.',
+      explanation: 'He held that the authority the Prophet had in his lifetime now belongs to the state. It shows that the Quran alone rarely stays alone. Something else is brought in to fill the gaps.',
     },
   ],
   furtherReading: [

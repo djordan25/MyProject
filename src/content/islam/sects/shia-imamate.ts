@@ -17,9 +17,9 @@ export const shiaImamate: Topic = {
     {
       heading: 'Ghadir Khumm',
       body: [
-        'In March 632, on the way back from his last pilgrimage and less than three months before his death, Muhammad halted the caravan at a pool called Ghadir Khumm, between Mecca and Medina. Sahih Muslim records that he preached there and said, “I am leaving among you two weighty things: the one being the Book of Allah in which there is right guidance and light”, and that the second was the members of his household (Sahih Muslim 2408). Shia Muslims call this the saying of the two weighty things.',
-        'Other Sunni collections record what he said about Ali that day. In the fuller versions he first asked the people whether he was not closer to the believers than their own selves. Then he said that whoever had him as mawla had Ali as mawla, and he prayed, “O Allah, take as friends those who take him as a friend, and take as enemies those who take him as an enemy” (Musnad Ahmad 950; see 961). The editors grade these two reports sound or good because other chains support them. Another report, graded sound, has him say, “If I am a person’s close friend, ‘Ali is also his close friend” (Sunan Ibn Majah 121).',
-        'Everything turns on the word mawla. It can mean master, patron, protector, ally or friend. The English translations in the popups choose “friend”, which is the Sunni reading: Muhammad was defending Ali against men who had complained about him on an expedition to Yemen (Sahih al-Bukhari 4350). The Shia read “master”. They ask why a prophet near death would stop a caravan in the heat, and remind the crowd of his own authority over them, merely to say that Ali was his friend. Shia Muslims keep the day as a festival.',
+        'In March 632, on the way back from his last pilgrimage and less than three months before his death, Muhammad halted the caravan at a pool called Ghadir Khumm, between Mecca and Medina. Sahih Muslim records that he preached there and said, “I am leaving among you two weighty things: the one being the Book of Allah in which there is right guidance and light”, and that the second was the members of his household (Sahih Muslim 2408). Shia Muslims call this the saying of the two weighty things. The form their teachers quote most often adds that those who hold fast to both will never go astray. Al-Khoei cites the saying from other Sunni collections as well, among them those of al-Tirmidhi and Ahmad ibn Hanbal.',
+        'Other Sunni collections record what he said about Ali that day. In the fuller versions he first asked the people whether he was not closer to the believers than their own selves. Then he said that whoever had him as mawla had Ali as mawla, and he prayed, “O Allah, take as friends those who take him as a friend, and take as enemies those who take him as an enemy” (Musnad Ahmad 950; see 961). The editors grade these two reports sound or good because other chains support them. In another collection a report graded sound has a companion quote him as saying, “If I am a person’s close friend, ‘Ali is also his close friend” (Sunan Ibn Majah 121).',
+        'Everything turns on the word mawla. It can mean master, patron, protector, ally or friend. The English translations in the popups choose “friend”, which is the Sunni reading: Muhammad was defending Ali against men who had complained about him on an expedition to Yemen (Sahih al-Bukhari 4350 records one such complaint). The Shia read “master”. They ask why a prophet near death would stop a caravan in the heat, and remind the crowd of his own authority over them, merely to say that Ali was his friend. Shia Muslims keep the day as a festival.',
         'Shia teachers add two verses of the Quran. They say that “O Messenger, announce that which has been revealed to you from your Lord, and if you do not, then you have not conveyed His message” (Quran 5:67) was the command to proclaim Ali, and that “This day I have perfected for you your religion” (Quran 5:3) came down when he had done so. Neither verse names Ali or Ghadir. A Sunni report places the second verse at Arafat, days earlier (Sahih al-Bukhari 45).',
       ],
       references: ['Sahih Muslim 2408', 'Musnad Ahmad 950', 'Musnad Ahmad 961', 'Sunan Ibn Majah 121', 'Sahih al-Bukhari 4350', 'Quran 5:67', 'Quran 5:3', 'Sahih al-Bukhari 45'],
@@ -28,18 +28,18 @@ export const shiaImamate: Topic = {
       heading: 'The other proofs',
       body: [
         'Aaron and Moses. When Muhammad left Ali in charge of Medina during the Tabuk campaign, he said to him, “Will you not be pleased that you will be to me like Aaron to Moses? But there will be no prophet after me” (Sahih al-Bukhari 4416; see Sahih Muslim 2404). In the Quran Aaron is Moses’ helper from his own family, who takes his place among the people when Moses is away (Quran 20:29-32; 7:142). The Shia conclude that Ali holds every rank Aaron held except prophethood.',
-        'The pen and paper. Four days before he died, on a Thursday, Muhammad asked for writing materials: “Bring for me (writing) paper and I will write for you a statement after which you will not go astray.” Umar answered that the Prophet was very ill, and said, “we have got Allah’s Book with us and that is sufficient for us” (Sahih al-Bukhari 114). The companions quarrelled, Muhammad sent them out, and nothing was written. Ibn Abbas used to weep when he told it: “Thursday! And how great that Thursday was!” (Sahih al-Bukhari 4431). The Shia believe the document would have named Ali, and that Umar knew it.',
-        'The twelve. Bukhari reports Muhammad saying, “There will be twelve Muslim rulers”, all of them from his tribe of Quraysh, and Sahih Muslim has “twelve Caliphs” (Sahih al-Bukhari 7222; Sahih Muslim 1821). Twelvers say that only their twelve Imams fit the number.',
+        'The pen and paper. Four days before he died, on a Thursday, Muhammad asked for writing materials: “Bring for me (writing) paper and I will write for you a statement after which you will not go astray.” Umar answered that the Prophet was very ill, and said, “we have got Allah’s Book with us and that is sufficient for us” (Sahih al-Bukhari 114). The companions quarrelled, Muhammad sent them out, and nothing was written. Ibn Abbas wept when he told it: “Thursday! What (great thing) took place on Thursday!” (Sahih al-Bukhari 3053). In another version some of those present asked whether the Prophet was delirious (Sahih al-Bukhari 4431). The Shia believe the document would have named Ali, and that Umar knew it.',
+        'The twelve. Bukhari reports Muhammad saying, “There will be twelve Muslim rulers”, all of them from his tribe of Quraysh, and Sahih Muslim has “twelve Caliphs” (Sahih al-Bukhari 7222; Sahih Muslim 1821). Twelvers say that only their twelve Imams fit the number, and they point out that Sunni scholars have never agreed on a list of their own.',
         'The verses. Besides those already mentioned, the Shia appeal to Quran 5:55, which they say came down when Ali gave his ring to a beggar while bowing in prayer; to Quran 33:33, on the purifying of the people of the household; to Quran 4:59, “obey Allah and obey the Messenger and those in authority among you”, arguing that God would only command unqualified obedience to men who cannot err; and to Quran 2:124, where God makes Abraham a leader (imam) and says that his covenant does not reach wrongdoers.',
       ],
-      references: ['Sahih al-Bukhari 4416', 'Sahih Muslim 2404', 'Quran 20:29-32', 'Quran 7:142', 'Sahih al-Bukhari 114', 'Sahih al-Bukhari 4431', 'Sahih al-Bukhari 4432', 'Sahih al-Bukhari 7222', 'Sahih Muslim 1821', 'Quran 5:55', 'Quran 33:33', 'Quran 4:59', 'Quran 2:124'],
+      references: ['Sahih al-Bukhari 4416', 'Sahih Muslim 2404', 'Quran 20:29-32', 'Quran 7:142', 'Sahih al-Bukhari 114', 'Sahih al-Bukhari 3053', 'Sahih al-Bukhari 4431', 'Sahih al-Bukhari 4432', 'Sahih al-Bukhari 7222', 'Sahih Muslim 1821', 'Quran 5:55', 'Quran 33:33', 'Quran 4:59', 'Quran 2:124'],
     },
     {
       heading: 'First question: why is the Quran silent?',
       body: [
         'Grant that this is a serious case. Sunni books do record these sayings, and they also record that Ali withheld his allegiance from Abu Bakr for six months (Sahih al-Bukhari 4240). Something went wrong at Muhammad’s death. Now ask four questions. The first is about the Quran.',
         'The Quran describes itself as “the Book explained in detail” (Quran 6:114) and as “clarification for all things” (Quran 16:89). Twelvers hold that the Imamate is a root of religion. Yet the Quran never names Ali, never mentions twelve Imams, and never says that after Muhammad there will be a line of sinless guides. It names Muhammad’s adopted son Zayd to settle a point about marriage (Quran 33:37). It names his uncle Abu Lahab to curse him (Quran 111:1). On the matter said to decide whether the community is rightly guided, it is silent.',
-        'Each verse the Shia quote needs a report from outside the Quran to tell you that it means Ali. Quran 5:55 speaks in the plural, of believers who pray and give alms. Quran 33:33 stands in a passage addressed to the Prophet’s wives (Quran 33:28-34). Quran 4:59 goes on to say that disputes are to be referred “to Allah and the Messenger”, not to those in authority. So the case rests in the end on hadith, and the hadith are exactly what Sunni and Shia dispute.',
+        'Each verse the Shia quote needs a report from outside the Quran to tell you that it means Ali. Quran 5:55 speaks in the plural, of believers who pray and give alms. Quran 33:33 stands in a passage addressed to the Prophet’s wives (Quran 33:28-34). The Shia answer that for that one sentence the Arabic changes from the feminine to the masculine plural, and that Muhammad recited it over Ali, Fatima and their sons (Sahih Muslim 2424). Sunni commentators reply that the masculine is normal for a household of men and women. The verse itself does not settle who is meant. Quran 4:59 goes on to say that disputes are to be referred “to Allah and the Messenger”, not to those in authority. So the case rests in the end on hadith, and the hadith are exactly what Sunni and Shia dispute.',
         'This is not a new or hostile question. Al-Kafi itself reports that a disciple told Ja‘far al-Sadiq people were asking why Ali and his family are not named in the Book of Allah. The answer attributed to the Imam is that the Quran commands prayer without giving the number of its units, which the Prophet explained. The modern Twelver authority al-Khoei cites that report as sound and concludes that Ali’s name was never in the Quran. The objections below test whether the answer holds.',
       ],
       references: ['Quran 6:114', 'Quran 16:89', 'Quran 33:37', 'Quran 111:1', 'Quran 5:55', 'Quran 33:28-34', 'Quran 4:59'],
@@ -49,7 +49,7 @@ export const shiaImamate: Topic = {
       body: [
         'Twelver teaching says that each Imam clearly named his successor. If so, those nearest the Imams should have known who came next. The history of the Shia themselves tells another story. The Twelver scholar Tabataba’i sets it out plainly in his book Shi‘ite Islam.',
         'After Husayn was killed, some followed his half-brother Muhammad ibn al-Hanafiyya and held that he was the Mahdi in hiding. After the fourth Imam, some followed his son Zayd and became the Zaydis. After Ja‘far al-Sadiq died in 765, his followers went four ways: to his son Musa al-Kazim, to the line of his dead son Isma‘il (the Ismailis), to another son, Abdullah, or to no one, holding that Ja‘far was the last. After Musa died, a party said he had not died and would return. After the eleventh Imam died in 874, an early Shia writer counted fourteen factions, some of which denied that he had left a son.',
-        'Sunnis did not cause these divisions. They arose among people who all believed in the Imamate and who lived closest to the Imams. A public, unmistakable appointment does not produce this pattern. Uncertainty does.',
+        'Sunnis did not cause these divisions. They arose among people who all believed in the Imamate and who lived closest to the Imams. Twelvers answer that the Imams were watched by hostile caliphs and often had to name their successors privately, and that at each stage most of the Shia followed the right man. Tabataba’i himself tells how the sixth Imam named several executors in his will, the caliph among them, to shield his son Musa. That may be so. But a designation that had to be hidden even from an Imam’s own followers is a long way from the public, unmistakable guidance the doctrine promises. The pattern is one of uncertainty.',
       ],
     },
     {
@@ -148,7 +148,7 @@ export const shiaImamate: Topic = {
       id: 'shi-3',
       objection: 'Every community divides after its founder. Your churches split over the successors of Jesus as well. Catholics say Peter was appointed and that his office was handed down. Peter is to you what Ali is to us.',
       response:
-        'That is a fair comparison in one way, and it helps me say what I mean. Christians do disagree about Peter’s office. But no Christian says that the apostles overturned a plain command of Jesus within days, and none makes a line of human successors a root of saving faith. The reason is simple. Jesus did not stay dead. The old priests were many, “since death prevented them from continuing in office. But because Jesus lives forever, He has a permanent priesthood” (Hebrews 7:23-24). We need no successor to him, because he has not vacated his place.',
+        'That is a fair comparison in one way, and it helps me say what I mean. Christians do disagree about Peter’s office. But no Christian says that the apostles overturned a plain command of Jesus within days, and the gospel they preached does not rest on a line of successors. The reason is simple. Jesus did not stay dead. The old priests were many, “since death prevented them from continuing in office. But because Jesus lives forever, He has a permanent priesthood” (Hebrews 7:23-24). We need no successor to him, because he has not vacated his place.',
       keyPoints: ['Grant the parallel with Christian disputes about Peter.', 'No Christian says the apostles overturned Jesus’ command at once.', 'Jesus lives, so his office never passed to another.'],
       references: ['Hebrews 7:23-24', 'Ephesians 2:20', 'Jude 1:3', 'John 16:13', 'John 14:16-17', 'Quran 9:100'],
       followUps: [
@@ -198,7 +198,7 @@ export const shiaImamate: Topic = {
               followUps: [
                 {
                   reply: 'People had no worldly reason to change the Quran. They had every reason to seize the caliphate.',
-                  answer: 'If Ali’s right had been written in it, they would have had the strongest reason of all, and some early Shia books say that is what happened. Your scholars today reject those reports, and I accept that they do. But then you are trusting the companions at the very point where your own early sources accused them. I do not say this to trap you. A foundation that needs so much defending deserves a second look.',
+                  answer: 'If Ali’s right had been written in it, they would have had the strongest reason of all, and some early Shia books say that is what happened. Your leading scholars have rejected those reports for a thousand years, and I accept that they do. But then you are trusting the companions at the very point where your own early sources accused them. I do not say this to trap you. A foundation that needs so much defending deserves a second look.',
                 },
               ],
             },
@@ -206,11 +206,11 @@ export const shiaImamate: Topic = {
         },
         {
           reply: 'Ali kept silent for the sake of Islam’s unity. His patience does not cancel his right.',
-          answer: 'Perhaps so. I honour patience under wrong, and I am not Ali’s judge. But notice what the silence did. If the appointed, sinless guide lived under the rule of others for twenty-four years and gave them his allegiance, ordinary Muslims of that time had no way to know that a root of their religion was being denied. A Sunni book says he gave that allegiance after six months (Sahih al-Bukhari 4240). A guide who must conceal his office cannot do what the office was for.',
+          answer: 'Perhaps so. I honour patience under wrong, and I am not Ali’s judge. But notice what the silence did. If the appointed, sinless guide lived under the rule of others for twenty-four years and gave them his pledge, ordinary Muslims of that time had no way to know that a root of their religion was being denied. A Sunni book says he gave that pledge after six months (Sahih al-Bukhari 4240), and a report in al-Kafi says he was brought to it by force. Either way he gave it. A guide who must conceal his office cannot do what the office was for.',
           followUps: [
             {
               reply: 'He did protest. He withheld his allegiance, and in the sermon of Shaqshaqiyya he said the caliphate was his by right.',
-              answer: 'I have read that sermon in Nahj al-Balagha, and it is moving. It shows a man who believed he had been wronged and chose to endure it. What I do not find in it is any appeal to Ghadir Khumm, or to a line of twelve sinless Imams. A complaint about a right to rule is something a Sunni historian can accept as well. The doctrine you hold is much larger than the protest.',
+              answer: 'I have read that sermon in Nahj al-Balagha, and it is moving. It shows a man who believed he had been wronged and chose to endure it. Sunni books also record him, years later in Kufa, calling on those who had heard the words at Ghadir to stand and testify (Musnad Ahmad 950). So I do not doubt that he pressed his claim. What I do not find, in the sermon or in those reports, is a line of twelve sinless Imams, or the teaching that to reject them is to reject a root of the faith. A complaint about a right to rule is something a Sunni historian can accept as well. The doctrine you hold is much larger than the protest.',
             },
           ],
         },
@@ -220,13 +220,13 @@ export const shiaImamate: Topic = {
       id: 'shi-5',
       objection: 'The Prophet said there would be twelve successors after him, all from Quraysh. Bukhari and Muslim both record it. Sunnis have never been able to say who the twelve are. We can name them. Even your Torah promised Ishmael twelve princes.',
       response:
-        'The report is in the Sunni books, as you say. But read what it says. It speaks of rulers and caliphs (Sahih al-Bukhari 7222; Sahih Muslim 1821). Of your twelve, only Ali ever ruled, and Hasan for a few months. The others lived under the caliphs, some of them in prison or under guard, and the twelfth has governed no one. The saying fits twelve reigning caliphs far better than twelve Imams who were kept from power.',
+        'The report is in the Sunni books, as you say. But read what it says. It speaks of rulers and caliphs (Sahih al-Bukhari 7222; Sahih Muslim 1821). Of your twelve, only Ali ever ruled, and Hasan for a few months. The others lived under the caliphs, some of them in prison or under guard, and the twelfth has governed no one. On its face the saying is about men who rule, and it fits twelve reigning caliphs better than twelve Imams who were kept from power.',
       keyPoints: ['The report speaks of rulers, or caliphs.', 'Only Ali, and briefly Hasan, ever held power.', 'Genesis names Ishmael’s twelve princes: they were his sons.'],
       references: ['Sahih al-Bukhari 7222', 'Sahih Muslim 1821', 'Genesis 17:20-21', 'Genesis 25:13-16'],
       followUps: [
         {
           reply: 'A rightful ruler is still the ruler when a usurper sits in his place. The Imams were the true caliphs whether men obeyed them or not.',
-          answer: 'I understand the thought. But the report says more than that twelve men would hold a title. In Sahih Muslim it says the caliphate would not end until there had been twelve (Sahih Muslim 1821). On your reading the true caliphate was pushed aside on the first day and has been out of sight since 941. And remember what kind of evidence this is: a Sunni report from one companion, who says he did not catch the end of the sentence himself and had to ask his father.',
+          answer: 'I understand the thought. But the report says more than that twelve men would hold a title. In Sahih Muslim it says the caliphate would not end until there had been twelve (Sahih Muslim 1821). On your reading the true caliphate was pushed aside on the first day and has been out of sight since 941. And remember what kind of evidence this is: a Sunni report resting on one companion, who says he did not catch the end of the sentence himself and had to ask his father.',
           followUps: [
             {
               reply: 'Then tell me who the twelve are. Sunni scholars have guessed for a thousand years and cannot agree.',
@@ -250,9 +250,9 @@ export const shiaImamate: Topic = {
       id: 'shi-6',
       objection: 'Our dispute does not discredit Islam. It discredits Umar. When the Prophet asked for pen and paper to write what would keep us from going astray, Umar said the Book of Allah was enough. That is in Bukhari. The fault lies with those who disobeyed.',
       response:
-        'The report is there, and Ibn Abbas wept over it (Sahih al-Bukhari 4431). I am not excusing anyone. But look at the scene as you tell it. The Prophet of God wishes to give the one writing that will keep his whole community from error. His closest companions quarrel at his bedside, he sends them away, and it is never written. If the writing was essential, God’s final messenger was stopped by a noisy room from delivering it. If it was not essential, the story proves nothing about Ali. Either way the last guidance was left unsaid.',
+        'The report is there, and Ibn Abbas wept over it (Sahih al-Bukhari 3053). I am not excusing anyone. But look at the scene as you tell it. The Prophet of God wishes to give the one writing that will keep his whole community from error. His closest companions quarrel at his bedside, he sends them away, and it is never written. If the writing was essential, God’s final messenger was stopped by a noisy room from delivering it. If it was not essential, the story proves nothing about Ali. Either way the last guidance was left unsaid.',
       keyPoints: ['The deathbed report comes from Sunni books.', 'If the writing was essential, it was never delivered.', 'Both accounts leave the community divided at its founder’s death.'],
-      references: ['Sahih al-Bukhari 114', 'Sahih al-Bukhari 4431', 'Sahih al-Bukhari 4432', 'Quran 5:3', 'Matthew 28:20', 'Colossians 1:18'],
+      references: ['Sahih al-Bukhari 114', 'Sahih al-Bukhari 3053', 'Sahih al-Bukhari 4431', 'Sahih al-Bukhari 4432', 'Quran 5:3', 'Matthew 28:20', 'Colossians 1:18'],
       followUps: [
         {
           reply: 'It had already been delivered. He declared Ali at Ghadir before the whole pilgrimage. The writing would only have confirmed it.',
@@ -337,7 +337,7 @@ export const shiaImamate: Topic = {
       question: 'According to Sahih al-Bukhari 114, who answered Muhammad’s request for writing materials by saying that Allah’s Book was sufficient?',
       options: ['Ali', 'Umar', 'Abu Bakr', 'Ibn Abbas'],
       answer: 1,
-      explanation: 'The companions quarrelled, Muhammad sent them out, and nothing was written. Ibn Abbas called it a great disaster.',
+      explanation: 'The companions quarrelled, Muhammad sent them out, and nothing was written. Ibn Abbas used to call it a great disaster.',
     },
     {
       id: 'shi-q6',
@@ -377,10 +377,10 @@ export const shiaImamate: Topic = {
     },
     {
       id: 'shi-q9',
-      question: 'Who are Quran 33:28-34, the verses surrounding the “verse of purification”, addressed to?',
+      question: 'In Quran 33:28-34, who do the verses before and after the sentence about purifying the household address?',
       options: ['The twelve Imams', 'The people of Mecca', 'The Prophet’s wives', 'The Christians of Najran'],
       answer: 2,
-      explanation: 'The passage speaks to the wives of the Prophet throughout, which is why the meaning of “household” in Quran 33:33 is disputed.',
+      explanation: 'The verses on either side speak to the wives of the Prophet. The Shia point to the masculine plural in the sentence itself and to the report of the cloak (Sahih Muslim 2424). So the meaning of “household” in Quran 33:33 is disputed.',
     },
     {
       id: 'shi-q10',

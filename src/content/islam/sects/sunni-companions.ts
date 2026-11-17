@@ -9,10 +9,10 @@ export const sunniCompanions: Topic = {
     {
       heading: 'Why the companions matter',
       body: [
-        'A companion (sahabi) is a person who met Muhammad as a believer and died a Muslim. That is the definition given by the Sunni scholar Ibn Hajar, and it takes in many thousands of people. Sunni doctrine holds that all of them are upright (‘udul). In practice this means that a hadith scholar examines every narrator in a chain for honesty and memory until he reaches the companion at the top. The companion is not examined.',
+        'A companion (sahabi) is a person who met Muhammad as a believer and died a Muslim. That is the definition given by the Sunni scholar Ibn Hajar, who died in 1449, and it takes in many thousands of people. Sunni doctrine holds that all of them are upright (‘udul). In practice this means that a hadith scholar examines every narrator in a chain for honesty and memory until he reaches the companion at the top. The companion’s honesty is taken as given.',
         'The texts behind the doctrine are well known. Muhammad said, “The best people are those of my generation, and then those who will come after them” (Sahih al-Bukhari 6429; see also Sahih Muslim 2533). He said, “Do not abuse my companions for if any one of you spent gold equal to Uhud (in Allah’s Cause) it would not be equal to a Mud or even a half Mud spent by one of them” (Sahih al-Bukhari 3673). The Quran says Allah is pleased with the first emigrants and helpers (Quran 9:100) and with those who pledged themselves under the tree (Quran 48:18).',
-        'Everything in Sunni Islam passes through these people. Every hadith begins with a companion. The Quran itself was gathered and copied by companions (Sahih al-Bukhari 4986, 4987). An early hadith master, Abu Zur‘a al-Razi, is reported to have said that anyone who belittles a companion is attacking the witnesses in order to bring down the Quran and the Sunna. The creed of al-Tahawi, which Sunnis of every school accept, calls love of the companions part of faith and hatred of them unbelief and hypocrisy.',
-        'So this is not a side issue. If the witnesses are in doubt, so is what they handed on. The question for this lesson is what the Sunni books themselves say about them. Everything below comes from Sahih al-Bukhari and Sahih Muslim, not from Shia books.',
+        'Everything in Sunni Islam passes through these people. Every hadith begins with a companion. The Quran itself was gathered and copied by companions (Sahih al-Bukhari 4986, 4987). An early hadith master, Abu Zur‘a al-Razi, is reported to have said that anyone who belittles a companion is attacking the witnesses in order to bring down the Quran and the Sunna. The creed of al-Tahawi, which is accepted across the Sunni schools, calls love of the companions part of faith and hatred of them unbelief and hypocrisy.',
+        'So this is not a side issue. If the witnesses are in doubt, so is what they handed on. The question for this lesson is what the Sunni books themselves say about them. The hard facts below all come from Sahih al-Bukhari and Sahih Muslim, and nothing comes from Shia books.',
       ],
       references: ['Sahih al-Bukhari 6429', 'Sahih Muslim 2533', 'Sahih al-Bukhari 3673', 'Sahih Muslim 2540', 'Quran 9:100', 'Quran 48:18', 'Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987'],
     },
@@ -22,7 +22,7 @@ export const sunniCompanions: Topic = {
         'Muhammad died in 632 without an agreed successor. Days before, he asked for writing materials to set down “a statement after which you will not go astray”. Umar said he was very ill and that “we have got Allah’s Book with us and that is sufficient for us”. The companions quarrelled at the bedside, Muhammad sent them out, and Ibn Abbas called it a great disaster that the statement was never written (Sahih al-Bukhari 114).',
         'Umar later told the story of the succession from the pulpit. As soon as Muhammad was dead, the men of Medina met in a roofed shed to choose a leader of their own. Abu Bakr and Umar hurried there. Umar says, “‘Ali and Zubair and whoever was with them, opposed us”. One of the men of Medina proposed, “There should be one ruler from us and one from you”. Voices rose, Umar feared a split, and he took Abu Bakr’s hand and pledged allegiance on the spot. He admitted afterwards that the pledge “was given suddenly and it was successful. No doubt, it was like that, but Allah saved (the people) from its evil” (Sahih al-Bukhari 6830).',
         'Then came the inheritance. Fatima, Muhammad’s daughter, asked Abu Bakr for her share of her father’s lands. Abu Bakr refused, saying he had heard Muhammad say that prophets leave no inheritance. “Therefore Fatima left Abu Bakr and did not speak to him till she died” (Sahih al-Bukhari 6725). She lived six months more. Ali buried her at night without telling Abu Bakr, and only after her death did he give his own pledge (Sahih al-Bukhari 4240). Yet Muhammad had said, “Fatima is a part of me, and he who makes her angry, makes me angry” (Sahih al-Bukhari 3714).',
-        'Sunnis answer that Abu Bakr was obeying what he had heard from Muhammad, and some cite a later report, outside the six books and with an incomplete chain, that Fatima was reconciled to him before she died. The Shia read these events very differently (see Ali, Ghadir Khumm and the Imamate). You do not need to decide who was right. Notice only what Bukhari records: the best generation was divided over power and property from the first week.',
+        'Sunnis answer that Abu Bakr was obeying what he had heard from Muhammad. Some read “did not speak to him” as meaning that she did not raise the inheritance again. Many cite a report in al-Bayhaqi, outside the six books, that Abu Bakr visited Fatima in her last illness and she was reconciled to him. Ibn Hajar accepts it, while noting that its chain is incomplete: it stops at a narrator of the next generation. The Shia read these events very differently (see Ali, Ghadir Khumm and the Imamate). You do not need to decide who was right. Notice only what Bukhari records: the best generation was divided over power from the first day, and over property soon after.',
       ],
       references: ['Sahih al-Bukhari 114', 'Sahih al-Bukhari 6830', 'Sahih al-Bukhari 6725', 'Sahih al-Bukhari 4240', 'Sahih al-Bukhari 3714'],
     },
@@ -51,8 +51,8 @@ export const sunniCompanions: Topic = {
       body: [
         'Sunni scholars have faced these reports for a thousand years, and you should know their answers before you raise the subject. First, uprightness does not mean sinlessness. It means that the companions did not lie about the Prophet. Second, the wars were ijtihad, an honest effort to reach the right judgment. Muhammad said that a judge who reasons and is right has two rewards, and one who reasons and is wrong still has one (Sahih al-Bukhari 7352). Most Sunnis hold that Ali was in the right and Mu‘awiya mistaken but excused.',
         'Third, the Quran calls both sides believers: “if two factions among the believers should fight, then make settlement between the two” (Quran 49:9). Fourth, the people turned from the Pond are the tribes who left Islam after Muhammad died. Fifth, Muslims are told to hold their tongues about what passed between the companions and to think well of all of them.',
-        'These answers deserve respect, and some of them are sound as far as they go. A sinner can tell the truth. But see where they strain. The saying about a judge’s reward is about a court verdict, and it is being stretched to cover two armies. A companion applied the saying about two swords to this very war. The same verse that calls both sides believers also says that one side may be the oppressor and must be fought. And the rule of silence is a rule against looking at the evidence.',
-        'There is a deeper difficulty. The reports that praise the companions come to us through the companions. So their good character is proved by their own word, and the rule that all are upright was fixed by the scholars whose whole discipline depended on it.',
+        'These answers deserve respect, and some of them are sound as far as they go. A sinner can tell the truth. But see where they strain. The saying about two rewards is about a ruling given by someone in authority. To cover two Muslim armies and their dead with it is a long stretch, when Muhammad also spoke directly about Muslims who meet with swords. A companion applied that saying to this very war, though most of the others did not. The same verse that calls both sides believers also says that one side may be the oppressor and must be fought. And the rule of silence is a rule against looking at the evidence.',
+        'There is a deeper difficulty. Apart from the Quran’s praise of groups among them, the reports that commend the companions come to us through the companions. So their good character rests largely on their own word, and the rule that all are upright was fixed by the scholars whose whole discipline depended on it.',
       ],
       argument: [
         'Sunni Islam accepts the Quran and the hadith on the word of the companions, all of whom it holds to be upright.',
@@ -96,7 +96,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Al-Bara spoke from humility. The pious always think little of their own deeds.',
-              answer: 'Perhaps so. I cannot see his heart. But he was speaking after the civil wars, so he had something to be humble about. And the hadith of the Pond says nearly the same thing from God’s side: “You do not know what they innovated (new things) in the religion after you” (Sahih al-Bukhari 6582). Two reports in Bukhari say that after Muhammad some who had been with him went wrong.',
+              answer: 'Perhaps so. I cannot see his heart. But his words point to things done after Muhammad that his admirer did not know of, and what the companions did after Muhammad includes the civil wars. And the hadith of the Pond says nearly the same thing from the other side: “You do not know what they innovated (new things) in the religion after you” (Sahih al-Bukhari 6582). Two reports in Bukhari say that after Muhammad some who had been with him went wrong.',
             },
           ],
         },
@@ -116,13 +116,13 @@ export const sunniCompanions: Topic = {
       id: 'snc-2',
       objection: 'What happened between the companions was ijtihad. Each side sincerely sought the truth. The Prophet said that the one who judges and is right has two rewards and the one who errs has one. So both sides are rewarded.',
       response:
-        'I know that hadith (Sahih al-Bukhari 7352). It is about a judge giving a verdict. Stretching it to cover two armies and thousands of dead is a long step. And Muhammad spoke about this case directly: “When two Muslims fight (meet) each other with their swords, both the murderer as well as the murdered will go to the Hell-fire” (Sahih al-Bukhari 31). Abu Bakra quoted that to stop a man from joining Ali’s army. A companion applied it to this very war.',
-      keyPoints: ['The two-rewards hadith is about a judge’s verdict.', 'The two-swords hadith speaks to this case.', 'A companion applied it to Ali’s war.'],
+        'I know that hadith (Sahih al-Bukhari 7352). It is about someone in authority giving a ruling. To stretch it over two armies and thousands of dead is a long step. And Muhammad spoke directly about Muslims who take up swords against each other: “When two Muslims fight (meet) each other with their swords, both the murderer as well as the murdered will go to the Hell-fire” (Sahih al-Bukhari 31). Abu Bakra quoted that to stop a man from joining Ali’s army. A companion applied it to this very war.',
+      keyPoints: ['The two-rewards hadith is about a ruling, not a battle.', 'The two-swords hadith speaks of Muslims fighting Muslims.', 'A companion applied it to Ali’s war.'],
       references: ['Sahih al-Bukhari 7352', 'Sahih al-Bukhari 31', 'Sahih al-Bukhari 48', 'Sahih al-Bukhari 121'],
       followUps: [
         {
           reply: 'That hadith is about fighting for worldly motives such as tribe or wealth. Al-Nawawi explains that it does not cover the companions, who fought from a sincere religious judgment.',
-          answer: 'That is what al-Nawawi says in his commentary. But the hadith itself has no such exception, and Abu Bakra, who heard it from Muhammad, knew of none. He used it about Ali’s war. The exception was supplied centuries later, because the doctrine that all the companions are upright needed it.',
+          answer: 'That is what al-Nawawi says in his commentary on Sahih Muslim. He adds that Sunnis must think well of the companions and keep silent about what passed between them. But the hadith itself has no such exception, and Abu Bakra, who heard it from Muhammad, knew of none. He used it about Ali’s war. The exception comes from the commentators and not from the text, and it is the doctrine that all the companions are upright that requires it.',
           followUps: [
             {
               reply: 'Abu Bakra’s view was his own ijtihad. Greater companions than he did fight. Ali was the rightful caliph, and the Quran commands fighting the faction that transgresses (Quran 49:9).',
@@ -162,7 +162,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'The Prophet told Hudhayfa the names of the hypocrites, and none of them narrates hadith. The scholars checked.',
-              answer: 'Muslim does record that Hudhayfa was told of twelve hypocrites among the companions (Sahih Muslim 2779). So there were at least twelve, by your own book, and the report does not name them. As for checking, the Sunni rule is that companions are not checked. That is what “all upright” means. The scholars tested each narrator in the chain until they reached a companion, and there the testing stopped.',
+              answer: 'Muslim does record that Hudhayfa was told of twelve hypocrites among the companions (Sahih Muslim 2779). So there were at least twelve, by your own book, and the report does not name them. As for checking, the Sunni rule is that a companion’s honesty is not put to the test. That is what “all upright” means. The scholars examined each narrator in the chain until they reached a companion, and there the examination stopped.',
               followUps: [
                 {
                   reply: 'The scholars did compare the companions’ reports with one another. And Allah has vouched for them in the Quran, which is worth more than any human examination.',
@@ -188,7 +188,7 @@ export const sunniCompanions: Topic = {
       id: 'snc-4',
       objection: 'You are repeating Shia propaganda. These stories come from liars and Rafidi historians. The people of the Sunna do not accept them.',
       response:
-        'I have been careful to quote only Sahih al-Bukhari and Sahih Muslim. Fatima’s break with Abu Bakr is in Bukhari (Sahih al-Bukhari 6725). The scene in the shed is in Umar’s own words (Sahih al-Bukhari 6830). So are the Camel (Sahih al-Bukhari 7100), Siffin (Sahih al-Bukhari 7308) and the two swords (Sahih al-Bukhari 31). And I am not making the Shia case. Their answer is that Ali and his descendants were infallible, and I do not accept that either. My point is narrower. Sunni books record things that Sunni doctrine finds hard to hold.',
+        'I have quoted Sunni books only, and for every hard fact Sahih al-Bukhari or Sahih Muslim. Fatima’s break with Abu Bakr is in Bukhari (Sahih al-Bukhari 6725). The scene in the shed is in Umar’s own words (Sahih al-Bukhari 6830). So are the Camel (Sahih al-Bukhari 7100), Siffin (Sahih al-Bukhari 7308) and the two swords (Sahih al-Bukhari 31). And I am not making the Shia case. Their answer is that Ali and his descendants were infallible, and I do not accept that either. My point is narrower. Sunni books record things that Sunni doctrine finds hard to hold.',
       keyPoints: ['Quote only Bukhari and Muslim.', 'You are not arguing for the Shia.', 'The difficulty is inside the Sunni sources.'],
       references: ['Sahih al-Bukhari 6725', 'Sahih al-Bukhari 6830', 'Sahih al-Bukhari 7100', 'Sahih al-Bukhari 7308', 'Sahih al-Bukhari 31'],
       followUps: [
@@ -198,7 +198,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Their quarrel was over politics, not over their honesty as reporters. No companion ever lied about the Prophet.',
-              answer: 'That is the very thing that needs showing, and it cannot be shown by reports that come through the companions themselves. Sunni scholars say that it was the civil war which made them begin asking for chains of narrators, because reports could no longer be taken on trust. Ibn Sirin says so in the introduction to Sahih Muslim. And companions corrected one another. When Aisha heard what Umar and his son reported about the dead being punished for their family’s weeping, she said, “By Allah, Allah’s Messenger did not say that a believer is punished by the weeping of his relatives” (Sahih al-Bukhari 1288).',
+              answer: 'That is the very thing that needs showing, and it cannot be shown by reports that come through the companions themselves. In the introduction to Sahih Muslim, Ibn Sirin says that people did not ask for chains of narrators until the strife broke out. Then they said, name your men to us. Sunni scholars usually take that strife to be the civil war. So reports could no longer be taken on trust. And companions corrected one another. When Aisha heard what Umar and his son reported about the dead being punished for their family’s weeping, she said, “By Allah, Allah’s Messenger did not say that a believer is punished by the weeping of his relatives” (Sahih al-Bukhari 1288).',
               followUps: [
                 {
                   reply: 'A slip of memory is not a lie. Uprightness means they did not lie on purpose, and the scholars compared their reports.',
@@ -210,7 +210,7 @@ export const sunniCompanions: Topic = {
         },
         {
           reply: 'Abu Bakr was right about the inheritance. Prophets leave no heirs. Fatima’s anger was only human, and she was reconciled to him before she died.',
-          answer: 'I am not judging who was right about the land. The report of a reconciliation is from outside the six books and its chain is incomplete. Bukhari says she did not speak to him till she died (Sahih al-Bukhari 6725), and that Ali held back his pledge for those six months and buried her at night without telling Abu Bakr (Sahih al-Bukhari 4240). Whoever was right, Muhammad’s daughter and his closest friend were divided from the first week. That is my only point.',
+          answer: 'I am not judging who was right about the land. The report of a reconciliation is in al-Bayhaqi, outside the six books, and Ibn Hajar, who accepts it, grants that its chain is incomplete. Bukhari says she did not speak to him till she died (Sahih al-Bukhari 6725), and that Ali held back his pledge for those six months and buried her at night without telling Abu Bakr (Sahih al-Bukhari 4240). Whoever was right, Muhammad’s daughter and his closest friend were divided within months of his death. That is my only point.',
           followUps: [
             {
               reply: 'Ali did give his pledge in the end and served under the three caliphs before him. That shows there was no lasting quarrel.',
@@ -266,7 +266,7 @@ export const sunniCompanions: Topic = {
       followUps: [
         {
           reply: 'The Quran is mass-transmitted. It does not depend on the character of any one companion.',
-          answer: 'As Bukhari tells it, the gathering of the Quran depended on very few. After many reciters died in battle, Umar feared that “a large part of the Qur’an may be lost”, and one man, Zayd, was set to collect it (Sahih al-Bukhari 4986). Later one committee made the standard copy and one caliph ordered the rest burnt (Sahih al-Bukhari 4987). Mass transmission came after that, and it passed on the standard text. See From Recitation to Book and Uthman’s Burning and the Lost Verses.',
+          answer: 'As Bukhari tells it, the gathering of the Quran depended on very few. After many reciters died in battle, Umar feared that “a large part of the Qur’an may be lost”, and one man, Zayd, was set to collect it (Sahih al-Bukhari 4986). Later one committee made the standard copy and one caliph ordered the rest burnt (Sahih al-Bukhari 4987). Many did know the Quran by heart, and I grant that. But the written text that every later generation received came through that one channel. See From Recitation to Book and Uthman’s Burning and the Lost Verses.',
           followUps: [
             {
               reply: 'All the companions accepted Uthman’s copy. Their agreement is the guarantee.',
@@ -280,7 +280,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Your early copies differ from one another in thousands of places. Ours agree.',
-              answer: 'They do differ, mostly in spelling and word order, and because no one destroyed the evidence the differences can be seen and weighed. No teaching about who Jesus is or what he did hangs on a doubtful reading. The Quran’s copies agree because the others were burnt (Sahih al-Bukhari 4987). Agreement that is produced by burning the alternatives does not prove preservation. See Answering: “The Bible Has Been Corrupted”.',
+              answer: 'They do differ, mostly in spelling and word order, and because no one destroyed the evidence the differences can be seen and weighed. No teaching about who Jesus is or what he did hangs on a doubtful reading. The Quran’s copies agree as closely as they do because the rival copies were burnt (Sahih al-Bukhari 4987). Agreement that is produced by burning the alternatives does not prove preservation. See Answering: “The Bible Has Been Corrupted”.',
             },
           ],
         },
@@ -298,7 +298,7 @@ export const sunniCompanions: Topic = {
         'That the companions are to be prayed to',
       ],
       answer: 1,
-      explanation: 'Hadith scholars examined each narrator in a chain until they reached the companion. The companion was not examined.',
+      explanation: 'Hadith scholars examined each narrator in a chain until they reached the companion. The companion’s honesty was taken as given.',
     },
     {
       id: 'snc-q2',
@@ -306,7 +306,7 @@ export const sunniCompanions: Topic = {
       options: [
         '“The best people are those of my generation”',
         '“Seek knowledge even as far as China”',
-        '“My companions are like the stars”',
+        '“Actions are judged by intentions”',
         '“The scholars are the heirs of the prophets”',
       ],
       answer: 0,
@@ -425,7 +425,7 @@ export const sunniCompanions: Topic = {
         'Sahih al-Bukhari 3714, about Fatima',
       ],
       answer: 0,
-      explanation: 'The saying concerns a judge’s verdict. Applying it to two armies stretches it a long way.',
+      explanation: 'The saying concerns a ruling given by someone in authority. Applying it to two armies stretches it a long way.',
     },
     {
       id: 'snc-q13',

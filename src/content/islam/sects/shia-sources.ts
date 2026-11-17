@@ -11,7 +11,7 @@ export const shiaSources: Topic = {
       body: [
         'For Sunnis the companions of Muhammad are the best generation, and all of them are trustworthy witnesses. The Shia do not see them so. They honour those who stood by Ali, such as Salman the Persian, Abu Dharr, al-Miqdad and Ammar. They hold that most of the leading companions, with Abu Bakr and Umar at their head, set aside Muhammad’s appointment of Ali and wronged his daughter Fatima over her inheritance.',
         'Sunni books admit part of this. Sahih al-Bukhari records that Abu Bakr refused Fatima’s claim to her father’s property, that she stayed angry with him until she died, and that Ali buried her at night without telling him (Sahih al-Bukhari 4240). The same book has Muhammad say, “Fatima is a part of me, and he who makes her angry, makes me angry” (Sahih al-Bukhari 3714). Shia teachers put the two reports side by side. They also quote the Quran’s warnings that the believers might turn back on their heels when Muhammad died, and that there were hypocrites in Medina whom he did not know (Quran 3:144; 9:101).',
-        'Shia books go further. Al-Kafi contains a report from the fifth Imam that the people turned apostate after the Prophet, all but three, and names al-Miqdad, Abu Dharr and Salman. Al-Majlisi graded its chain as good or reliable. Be fair in how you use this. Twelver teachers today commonly explain it as a turning back from Ali’s leadership and not from Islam itself. They regard Sunnis as Muslims, and many Shia would never curse a companion. Do not assume your friend holds the harshest view. Ask him.',
+        'Shia books go further. Al-Kafi contains a report from the fifth Imam that the people turned apostate after the Prophet, all but three, and names al-Miqdad, Abu Dharr and Salman. Al-Majlisi graded its chain as good or reliable. Be fair in how you use this. The report is about the pledge of allegiance. It says that those three held out until Ali himself was made to give his pledge, and that others came to see the truth soon afterwards. Twelver teaching also distinguishes Islam, the outward profession by which, as another report in al-Kafi puts it, people of all the sects live, marry and inherit, from faith in the full sense, which includes loyalty to the Imams. On that reading the report charges the companions with deserting Ali. It does not put them outside Islam. Twelver law treats Sunnis as Muslims, and many Shia would never curse a companion. Do not assume your friend holds the harshest view. Ask him.',
       ],
       references: ['Sahih al-Bukhari 4240', 'Sahih al-Bukhari 3714', 'Quran 3:144', 'Quran 9:101', 'Quran 9:100'],
     },
@@ -24,7 +24,7 @@ export const shiaSources: Topic = {
       ],
       argument: [
         'On the Shia account, most of Muhammad’s leading companions disobeyed his clear appointment of Ali.',
-        'The Quran was handed down by those companions, and by the usual account was collected and standardised under Abu Bakr, Umar and Uthman.',
+        'The Quran was handed down by those companions, and by the Sunni account was collected and standardised under Abu Bakr, Umar and Uthman.',
         'If they were reliable, their rejection of Ali’s appointment counts strongly against it. If they were not, confidence in what they transmitted is weakened.',
         'Either way the Shia account of the companions creates a difficulty for Shia confidence in Islam’s sources.',
       ],
@@ -33,18 +33,18 @@ export const shiaSources: Topic = {
     {
       heading: 'Early Shia reports that the Quran was altered',
       body: [
-        'Some of the earliest Shia teachers saw this dilemma and took the second road. Al-Kafi has a chapter headed to the effect that no one collected the whole Quran except the Imams. In it the fifth Imam is reported as saying that anyone else who claims to have collected the whole Quran as it was revealed is a liar. Another report says that the Quran Gabriel brought to Muhammad had seventeen thousand verses. Today’s Quran has a little over six thousand. Al-Majlisi graded the chain of that report as reliable.',
+        'Some early Shia transmitters of hadith took the second road and held that the text had been tampered with. Al-Kafi has a chapter headed to the effect that no one collected the whole Quran except the Imams, and that they know all of it. In it the fifth Imam is reported as saying that anyone else who claims to have collected the whole Quran as it was revealed is a liar. Another report, in the chapter on the merits of the Quran, says that the Quran Gabriel brought to Muhammad had seventeen thousand verses. Today’s Quran has a little over six thousand. Al-Majlisi, whose copy read seventeen thousand, graded the chain of that report as reliable. Be exact about this one. The Twelver scholar Muhammad Hadi Ma‘rifat points out that al-Fayd al-Kashani, who copied the same report from al-Kafi in the seventeenth century, has seven thousand, and that the Twelver scholar al-Sha‘rani judged the larger figure a copyist’s slip.',
         'Al-Kafi also reports that Ali brought the people his own written copy and they refused it, and that the sixth Imam told a man who recited differently to read as the people read until the one who will rise appears. Al-Majlisi graded this report weak. The early commentary that goes under the name of al-Qummi, who lived about the year 900, contains reports of the same kind.',
-        'Mohammad Ali Amir-Moezzi, a leading academic historian of early Shia Islam, concludes that nearly all the Twelver works that survive from before the middle of the tenth century speak of the official text as falsified, and that the majority of Twelver scholars abandoned that view from the time of Ibn Babawayh, who died in 991. Other scholars, such as Hossein Modarressi, stress that doubts about Uthman’s text were also voiced outside Shia circles. The debate is real. Do not present Amir-Moezzi’s view as settled fact.',
-        'The reports did not vanish. In 1881 Mirza Husayn al-Nuri al-Tabarsi, one of the most eminent Shia hadith scholars of his time, finished a book called Fasl al-Khitab, in which he gathered them and argued that the Quran had suffered omissions. Shia scholars as well as Sunnis attacked the book fiercely.',
+        'Mohammad Ali Amir-Moezzi, a leading academic historian of early Shia Islam, writing with Etan Kohlberg, concludes that virtually all the Twelver works that survive from before the middle of the tenth century speak, directly or indirectly, of the official text as falsified, and that the majority of Twelver scholars turned away from that view from the time of Ibn Babawayh, who died in 991. Others answer him. Hossein Modarressi has shown that early figures whom Sunnis honour also criticised Uthman’s text. Twelver scholars such as Ma‘rifat argue that reports of lost verses are more numerous in Sunni collections than in Shia ones, and that only a small party of Shia traditionists ever concluded that anything was missing. The debate is real. Do not present Amir-Moezzi’s view as settled fact.',
+        'The reports did not vanish. In 1881 a book called Fasl al-Khitab was printed in Tehran. Its author, Mirza Husayn al-Nuri al-Tabarsi, was one of the most eminent Shia hadith scholars of his time. In it he gathered more than a thousand such reports and argued that the Quran had suffered omissions. Shia scholars as well as Sunnis attacked the book. Twelver critics such as al-Balaghi and Ma‘rifat reply that most of its reports come from unreliable books, and that many of the rest concern only variant readings.',
       ],
     },
     {
       heading: 'What Twelver scholars teach today',
       body: [
-        'Here you must be scrupulously fair. Mainstream Twelver teaching, for a thousand years, has been that the Quran in our hands is complete. Ibn Babawayh counted this among the beliefs of the Twelver community. Al-Tusi and al-Tabrisi said the same in their commentaries. In the twentieth century the great jurist of Najaf, al-Khoei (1899 to 1992), devoted a long chapter of his book al-Bayan to proving it. He calls it the view on which Shia scholars are agreed.',
-        'Al-Khoei goes through the alteration reports group by group. Many he judges weak. Others he explains as speaking of altered meaning, or of explanation that was revealed alongside the text and was never part of it. He turns the charge round on the Sunnis, arguing that their doctrine of verses whose recitation was withdrawn amounts to admitting alteration. And he rejects the Sunni story of a collection under the caliphs. In his view the Quran was collected in the Prophet’s lifetime and handed on by the whole community.',
-        'So never say that the Shia have a different Quran. They do not. Your friend reads the same Arabic text as every Sunni. The so-called Book of Fatima mentioned in al-Kafi is not a Quran. It is described there as a record of an angel’s words to Fatima about future events.',
+        'Here you must be scrupulously fair. Mainstream Twelver teaching, for a thousand years, has been that the Quran in our hands is complete. Ibn Babawayh counted this among the beliefs of the Twelver community. Al-Tusi and al-Tabrisi said the same in their commentaries. In the twentieth century the great jurist of Najaf, al-Khoei (1899 to 1992), devoted a long chapter of his book al-Bayan to proving it. He calls it the common view of Shia scholars, indeed their agreed view, while noting that a party of Shia traditionists held otherwise.',
+        'Al-Khoei goes through the alteration reports group by group. Most of their chains he judges weak, though he grants that so many reports cannot all be false and that some chains are sound. He explains them as speaking of altered meaning, or of explanation that was revealed alongside the text and was never part of it. Any that cannot be read so he rejects as contrary to the Quran itself. He turns the charge round on the Sunnis, arguing that their doctrine of verses whose recitation was withdrawn amounts to admitting alteration. And he rejects the Sunni reports that the Quran was first gathered under the caliphs. In his view it was collected in the Prophet’s lifetime and handed on by the whole community, and Uthman only bound the people to that one text.',
+        'So never say that the Shia have a different Quran. They do not. Your friend reads the same Arabic text as every Sunni. The Book of Fatima mentioned in al-Kafi is not a Quran. It is described there as a record of an angel’s words to Fatima about future events.',
         'What you may say is this. The tradition contains both things: early reports, in its chief book, that the text was altered, and a firm later teaching that it was not. The later teaching has to trust the companions’ transmission at exactly the point where the Shia account of the companions gives least reason to trust them.',
       ],
       references: ['Quran 15:9'],
@@ -53,8 +53,8 @@ export const shiaSources: Topic = {
       heading: 'Shia hadith: later still, and sifted by the Shia themselves',
       body: [
         'Sunni hadith collections date from about two hundred years after Muhammad (see Can the Hadith Be Trusted?). The Shia collections are later. Al-Kulayni, compiler of al-Kafi, died about 941. Al-Tusi, who compiled two of the Four Books, died in 1067. Al-Kafi holds some sixteen thousand reports.',
-        'Twelver scholars do not treat these books as Sunnis treat Bukhari. In the seventeenth century al-Majlisi (died 1699) wrote a commentary on al-Kafi, Mir’at al-‘Uqul, in which he graded the chain of each report. By his gradings more than half are weak, from unknown narrators or incomplete in their chains, and only about a seventh are sound in the strict sense. Shia scholars rightly add that a weak chain does not prove a report false, and that reports support one another. Still, by their own measure, most of their chief book cannot be shown to come from the Imams.',
-        'There is a second difficulty. Reports from the Imams often conflict. Al-Kafi itself tells of an Imam giving three different answers to one question, so that his followers would not be marked out by their agreement. It gives a rule for such cases: prefer the report that differs from the Sunni majority, and if doubt remains, wait until you meet your Imam. For more than a thousand years no one has been able to meet him.',
+        'Twelver scholars do not treat these books as Sunnis treat Bukhari. In the seventeenth century al-Majlisi (died 1699) wrote a commentary on al-Kafi, Mir’at al-‘Uqul, in which he graded the chain of each report. The Thaqalayn digital library of Shia hadith records his gradings beside about fourteen thousand reports of al-Kafi. A count of those entries, made for this lesson, gives a little over half graded weak, of unknown narrators, or incomplete in their chains. About a seventh are graded sound in the strict sense, and about a quarter good or reliable. Some two thousand of the weak gradings read “weak by the common view”, and in a number of places he adds that he himself counts the chain reliable. Shia scholars rightly add that a weak chain does not prove a report false, that reports support one another, and that other scholars grade differently. Still, by the judgment of their most famous commentator, about half of their chief book cannot be shown by its chains to come from the Imams.',
+        'There is a second difficulty. Reports from the Imams often conflict. Al-Kafi itself tells of an Imam giving three different answers to one question, so that his followers would not be marked out by their agreement. It gives rules for such cases. Follow the report that is widely accepted among the Imams’ followers. If both are, follow the one that agrees with the Quran and the Sunna. If doubt remains, follow the one that differs from the Sunni majority and its rulers. And if that does not settle it, wait until you meet your Imam. For more than a thousand years no one has been able to meet him.',
       ],
     },
     {
@@ -70,12 +70,12 @@ export const shiaSources: Topic = {
     {
       heading: 'Mut‘a: temporary marriage',
       body: [
-        'Twelver law permits mut‘a, a marriage contracted for a fixed period in return for a stated payment to the woman. The period may be years or a few nights. According to the rulings of Ayatollah Sistani, the temporary wife has no right to maintenance, even if she becomes pregnant, and the couple do not inherit from each other. No divorce is needed. The contract ends when the time runs out or the man gives up the remainder. The woman must then keep a waiting period, and a child of the union is the man’s lawful child.',
-        'The Shia ground it in the Quran: “So for whatever you enjoy [of marriage] from them, give them their due compensation as an obligation” (Quran 4:24). Sunnis read that verse of ordinary marriage. But Sunni books agree that Muhammad permitted the practice. Sahih Muslim says his herald announced the permission (Sahih Muslim 1405). One companion tells how he and a friend each offered a woman a cloak, how she chose him, and how he stayed with her three nights until Muhammad told the men to let such women go (Sahih Muslim 1406). Sunni reports then say Muhammad forbade it at Khaybar, on the word of Ali himself (Sahih Muslim 1407; Sahih al-Bukhari 5115), and that Umar later threatened to stone anyone who did it (Sahih Muslim 1217). The Shia reply that the Prophet never withdrew the permission and that Umar banned it on his own authority.',
-        'State the moral problem plainly. This is a man paying a woman for sexual union for a set time, with the end fixed in advance and no lasting duty to her. A contract and a waiting period regulate it. They do not make it marriage. The woman and any child carry the cost. And the problem does not belong to the Shia alone, because both traditions agree that Muhammad allowed it. They differ only over whether he later stopped it.',
+        'Twelver law permits mut‘a, a marriage contracted for a fixed period in return for a stated payment to the woman. Ayatollah Sistani’s manual of rulings gives an hour, a day, a month, a year or longer as examples of the period. According to the same rulings, the temporary wife has no right to maintenance, even if she becomes pregnant, and the couple do not inherit from each other. No divorce is needed. The contract ends when the time runs out or the man gives up the remainder. The woman must then keep a waiting period. A child of the union is the man’s lawful child and inherits as his other children do.',
+        'The Shia ground it in the Quran: “So for whatever you enjoy [of marriage] from them, give them their due compensation as an obligation” (Quran 4:24). Sunnis read that verse of ordinary marriage. But Sunni books agree that Muhammad permitted the practice. Sahih Muslim says his herald announced the permission (Sahih Muslim 1405). One companion tells how he and a friend each offered a woman a cloak, how she chose him, and how he stayed with her three nights until Muhammad told the men to let such women go (Sahih Muslim 1406). Sunni reports then say Muhammad forbade it at Khaybar, on the word of Ali himself (Sahih Muslim 1407; Sahih al-Bukhari 5115), and that Umar later threatened to stone anyone who did it (Sahih Muslim 1217). The Shia reply that the Prophet never withdrew the permission and that Umar banned it on his own authority. A Sunni report gives them some support: the companion Jabir says they practised it in the Prophet’s lifetime and that Umar then forbade it (Sahih Muslim 1249).',
+        'State the moral problem plainly. In its ordinary form this is a man paying a woman for sexual union for a set time, with the end fixed in advance and no lasting duty to her. A contract and a waiting period regulate it. They do not make it marriage. The woman carries the cost. When the term ends she has no claim on him, though a child would have. And the problem does not belong to the Shia alone, because both traditions agree that Muhammad allowed it. They differ only over whether he later stopped it.',
         'God’s pattern is different. “For this reason a man will leave his father and mother and be united to his wife, and they will become one flesh” (Genesis 2:24). Jesus added, “Therefore what God has joined together, let man not separate” (Matthew 19:6). “Marriage should be honored by all and the marriage bed kept undefiled” (Hebrews 13:4). Many Shia have never practised mut‘a and dislike the idea. Say what is true about the teaching without suggesting anything about your friend.',
       ],
-      references: ['Quran 4:24', 'Sahih Muslim 1405', 'Sahih Muslim 1406', 'Sahih Muslim 1407', 'Sahih al-Bukhari 5115', 'Sahih Muslim 1217', 'Genesis 2:24', 'Matthew 19:4-6', 'Hebrews 13:4'],
+      references: ['Quran 4:24', 'Sahih Muslim 1405', 'Sahih Muslim 1406', 'Sahih Muslim 1407', 'Sahih al-Bukhari 5115', 'Sahih Muslim 1217', 'Sahih Muslim 1249', 'Genesis 2:24', 'Matthew 19:4-6', 'Hebrews 13:4'],
     },
   ],
   objections: [
@@ -100,8 +100,8 @@ export const shiaSources: Topic = {
                   answer: 'It settles it only if that verse is itself part of the true text, which is the point in question, so it cannot be the proof. And both of us know of things the promise does not seem to cover. Sunni books tell of verses recited in Muhammad’s time that are not in the Quran now, and of the copies Uthman burned (Sahih al-Bukhari 4987). Al-Khoei himself says those Sunni reports amount to an admission of alteration. One tradition or the other has a difficulty with that promise.',
                   followUps: [
                     {
-                      reply: 'Those Sunni reports of lost verses and burned copies are false. We do not accept them.',
-                      answer: 'Then you have set aside the only detailed accounts anyone has of how the Quran was gathered, and what is left is the bare claim that it was always safe. That claim may be true. But it has become a matter of faith and not of evidence, and it depends on the good faith of the very generation your tradition accuses. I would not ask you to accept my Bible on those terms.',
+                      reply: 'Those Sunni reports of lost verses are single reports, and we do not accept them. Uthman only united the people on the text that had come down from the Prophet by mass transmission.',
+                      answer: 'That is al-Khoei’s position, and it is a consistent one. But see what it leaves you with. You have set aside the only detailed accounts anyone has of how the Quran was gathered, and you still agree that Uthman burned the copies that differed. What remains is the claim that the mass of Muslims kept the text safe. That claim may be true. But it rests on the good faith of the very generation your tradition accuses. I would not ask you to accept my Bible on those terms.',
                     },
                   ],
                 },
@@ -155,17 +155,17 @@ export const shiaSources: Topic = {
       id: 'shs-3',
       objection: 'It is a slander to say the Shia believe the Quran was changed. Those reports are weak, or they speak of a change of meaning, and our scholars have refuted them. Sunni books have far more of this: the verse of stoning, the verse eaten by a sheep, the different copy of Ibn Mas‘ud.',
       response:
-        'I agree with you about the slander, and I will say so to anyone. You read the same Quran as every other Muslim, and your leading scholars, from Ibn Babawayh in the tenth century to al-Khoei in the twentieth, teach that nothing is missing from it. You are right about the Sunni books too. What I would ask you to face is the history. The reports are in al-Kafi and the earliest commentaries, and in 1881 al-Nuri al-Tabarsi, one of the most respected Shia scholars of his day, gathered them into a book arguing that the Quran had been altered. The idea came from inside the tradition. Its enemies did not invent it.',
+        'I agree with you about the slander, and I will say so to anyone. You read the same Quran as every other Muslim, and your leading scholars, from Ibn Babawayh in the tenth century to al-Khoei in the twentieth, teach that nothing is missing from it. You are right about the Sunni books too. What I would ask you to face is the history. The reports are in al-Kafi and the earliest commentaries, and in a book printed in 1881 al-Nuri al-Tabarsi, one of the most respected Shia hadith scholars of his day, gathered them and argued that the Quran had suffered omissions. The idea came from inside the tradition. Its enemies did not invent it.',
       keyPoints: ['Affirm that Shia Muslims read the same Quran and that their scholars defend it.', 'The alteration reports stand in early Shia books.', 'Sunni books have a parallel problem.'],
       references: ['Sahih al-Bukhari 4987', 'Sahih Muslim 1452', 'Quran 15:9'],
       followUps: [
         {
           reply: 'Al-Nuri was one man, and the scholars condemned his book as soon as it appeared.',
-          answer: 'They did, and it is to their credit. But he was no outsider. He was a leading hadith scholar, and what he did was collect what the old books already contained. Amir-Moezzi, who has studied the earliest Shia writings closely, concludes that nearly all of those that survive from before the middle of the tenth century speak of the official text as falsified. So the question is why the earliest Shia teachers thought so, and what changed.',
+          answer: 'They did, and it is to their credit. But he was no outsider. He was a leading hadith scholar, and what he did was collect what the old books already contained. Amir-Moezzi, who has studied the earliest Shia writings closely, concludes that virtually all of those that survive from before the middle of the tenth century speak, directly or indirectly, of the official text as falsified. If he is right, the question is why so many early Shia transmitters thought so, and what changed.',
           followUps: [
             {
-              reply: 'Western orientalists always say such things. Modarressi has shown that doubts about Uthman’s text were first raised by Sunnis.',
-              answer: 'Hossein Modarressi does argue along those lines, and I am glad you know his work. I am not asking you to take any Western scholar’s word. Open al-Kafi. It reports that the Quran Gabriel brought had seventeen thousand verses, where today’s has a little over six thousand, and al-Majlisi graded the chain of that report as reliable. Your scholars explain it in various ways. But it is there, in your chief book, with a good chain by your own rules.',
+              reply: 'Western orientalists always say such things. Modarressi has shown that the men who first criticised Uthman’s text are men the Sunnis honour, and Ayatollah Ma‘rifat has shown that most of al-Nuri’s reports come from worthless books.',
+              answer: 'Both of them do argue so, and I am glad you know their work. I am not asking you to take any Western scholar’s word. Open al-Kafi. In the text al-Majlisi commented on, it reports that the Quran Gabriel brought had seventeen thousand verses, where today’s has a little over six thousand, and he graded the chain reliable. If you answer that another old copy reads seven thousand, set that report aside and take the others, for al-Khoei himself grants that so many reports cannot all be false and that some have sound chains. They are there, in your chief books, by your own rules.',
               followUps: [
                 {
                   reply: 'A report with a good chain is still rejected if it contradicts the Quran and the agreement of the scholars. That is our method, and it is a sound one.',
@@ -197,7 +197,7 @@ export const shiaSources: Topic = {
       followUps: [
         {
           reply: 'Our scholars have rules for that. When two reports conflict, the one that agrees with the rulers’ school is taken to have been said out of caution, and the other is followed.',
-          answer: 'I know the rule. Al-Kafi gives it, and I can see its logic. But it assumes that the true teaching of the Imams is found by looking for whatever differs from the majority of Muslims, which builds the division into the method. And the same report ends by saying that if doubt remains you should wait until you meet your Imam. That has not been possible since 941.',
+          answer: 'I know the rule. Al-Kafi gives it, after the tests of wide acceptance and agreement with the Quran, and I can see its logic. But at that step it finds the true teaching of the Imams by looking for whatever differs from the majority of Muslims, which builds the division into the method. And the same report ends by saying that if doubt remains you should wait until you meet your Imam. That has not been possible since 941.',
           followUps: [
             {
               reply: 'It was the tyranny of the caliphs that forced the Imams to speak carefully. Blame the oppressors.',
@@ -227,17 +227,17 @@ export const shiaSources: Topic = {
       id: 'shs-5',
       objection: 'Mut‘a is in the Quran (4:24), and the Prophet permitted it. Sunni books themselves say the companions practised it until Umar forbade it on his own authority. It is a lawful contract with a payment and a waiting period, and the child is legitimate. It keeps people from fornication. In the West men take girlfriends and lovers with no contract at all.',
       response:
-        'You are right about several things. Sunni books do say Muhammad permitted it, and they do record Umar threatening to stone for it (Sahih Muslim 1405, 1217). And much that passes for normal in the West is sin, which the Bible condemns as plainly as you do. I am not defending it. But look at the thing itself. A man pays a woman an agreed sum for a fixed time. By Ayatollah Sistani’s rulings he owes her no maintenance, even if she becomes pregnant, and she does not inherit from him. When the time is up it ends without a divorce. I cannot see how that differs from prostitution except in the words spoken beforehand.',
+        'You are right about several things. Sunni books do say Muhammad permitted it, and they do record Umar forbidding it and threatening to stone for it (Sahih Muslim 1405, 1249, 1217). And much that passes for normal in the West is sin, which the Bible condemns as plainly as you do. I am not defending it. But look at the thing itself. A man pays a woman an agreed sum for a fixed time. By Ayatollah Sistani’s rulings he owes her no maintenance, even if she becomes pregnant, and she does not inherit from him. When the time is up it ends without a divorce. Take away the name, and it looks very like what we call prostitution: a payment, a fixed time and a parting.',
       keyPoints: ['Concede what is true: Sunni books say Muhammad allowed it.', 'Do not defend Western immorality.', 'A paid union with its end fixed in advance is not marriage as God made it.'],
-      references: ['Quran 4:24', 'Sahih Muslim 1405', 'Sahih Muslim 1406', 'Sahih Muslim 1217', 'Matthew 19:4-6', '1 Corinthians 7:2', 'Hebrews 13:4'],
+      references: ['Quran 4:24', 'Sahih Muslim 1405', 'Sahih Muslim 1249', 'Sahih Muslim 1406', 'Sahih Muslim 1217', 'Matthew 19:4-6', '1 Corinthians 7:2', 'Hebrews 13:4'],
       followUps: [
         {
           reply: 'It is not prostitution. There is a contract, the woman must keep a waiting period before any other man, and the child belongs to its father. A prostitute has none of that.',
-          answer: 'Those rules are better than none, and I grant the difference. But they regulate the practice without changing what it is: sexual union for payment, with the end fixed in advance. Jesus took marriage back to creation: “the two will become one flesh … Therefore what God has joined together, let man not separate” (Matthew 19:5-6). A union designed to expire is the opposite of that. And the cost falls on the woman, and on any child, who are left when the term ends.',
+          answer: 'Those rules are better than none, and I grant the difference. But they regulate the practice without changing what it is: sexual union for payment, with the end fixed in advance. Jesus took marriage back to creation: “the two will become one flesh … Therefore what God has joined together, let man not separate” (Matthew 19:5-6). A union designed to expire is the opposite of that. And the cost falls on the woman, who is left when the term ends with no claim on the man.',
           followUps: [
             {
               reply: 'The Prophet himself allowed it, as you admit. Are you wiser than the Messenger of Allah?',
-              answer: 'That is the question I would put to you, and to my Sunni friends as well. By their books he allowed it and later forbade it. By yours he allowed it and never forbade it. On both accounts the man held up as the pattern for all time let his men take women for a few nights for the price of a cloak (Sahih Muslim 1406). I do not believe God’s final messenger would teach that. Jesus pointed back to what God made in the beginning, and he never loosened it for his followers’ convenience.',
+              answer: 'That is the question I would put to you, and to my Sunni friends as well. By their books he allowed it and later forbade it. By yours he allowed it and never forbade it. On both accounts the man held up as the pattern for all time permitted it, and a Sunni book shows what that meant in practice: a woman taken for three nights for the price of a cloak (Sahih Muslim 1406). I do not believe God’s final messenger would teach that. Jesus pointed back to what God made in the beginning, and he never loosened it for his followers’ convenience.',
               followUps: [
                 {
                   reply: 'The prophets of your Bible had many wives and concubines. Solomon had a thousand.',
@@ -263,8 +263,8 @@ export const shiaSources: Topic = {
       id: 'shs-6',
       objection: 'We have never claimed that every report in al-Kafi is authentic. Sunnis call Bukhari entirely sound and are then embarrassed by what is in it. We examine each chain and each text. That is honesty, and you are turning it into a weakness.',
       response:
-        'It is honesty, and I admire it. I would rather talk with someone who sifts his sources than with someone who will not. But consider where the sifting leaves you. Al-Kafi is your most important collection. Al-Majlisi went through it chain by chain, and by his gradings more than half of its reports are weak, from unknown narrators, or broken in their chains. Its compiler died about three hundred years after Muhammad. Where reports from the Imams conflict, some are put down to caution. And the Imam who could say which is which is hidden. What you can be sure the Imams taught is far less than the Imamate promised.',
-      keyPoints: ['Praise the honesty of grading reports.', 'By al-Majlisi’s gradings more than half of al-Kafi is weak in its chains.', 'The living authority who could settle doubts is absent.'],
+        'It is honesty, and I admire it. I would rather talk with someone who sifts his sources than with someone who will not. But consider where the sifting leaves you. Al-Kafi is your most important collection. Al-Majlisi went through it chain by chain, and by a count of his gradings a little over half of its reports are weak, from unknown narrators, or broken in their chains. Its compiler died about three hundred years after Muhammad. Where reports from the Imams conflict, some are put down to caution. And the Imam who could say which is which is hidden. What you can be sure the Imams taught is far less than the Imamate promised.',
+      keyPoints: ['Praise the honesty of grading reports.', 'By a count of al-Majlisi’s gradings, a little over half of al-Kafi is weak in its chains.', 'The living authority who could settle doubts is absent.'],
       references: ['Luke 1:1-4', '1 Corinthians 15:6'],
       followUps: [
         {
@@ -273,7 +273,7 @@ export const shiaSources: Topic = {
           followUps: [
             {
               reply: 'And your Gospels? You have no chains of narrators at all.',
-              answer: 'We have what a chain is meant to supply and often cannot: nearness. A chain of names in a book from about 940 has to bridge three centuries. The Gospels were written while eyewitnesses lived. Luke says his account rests on what was “handed down to us by the initial eyewitnesses and servants of the word” (Luke 1:2), and Paul points to witnesses of the resurrection, most of whom were still alive when he wrote (1 Corinthians 15:6). We also have copies from the second and third centuries. I am glad to be tested on all of it.',
+              answer: 'We have what a chain is meant to supply and often cannot: nearness. A chain of names in a book from about 940 has to bridge two centuries to the sixth Imam and three to the Prophet, even allowing for the older notebooks al-Kulayni drew on. The Gospels were written while eyewitnesses lived. Luke says his account rests on what was “handed down to us by the initial eyewitnesses and servants of the word” (Luke 1:2), and Paul points to witnesses of the resurrection, most of whom were still alive when he wrote (1 Corinthians 15:6). We also have copies from the second and third centuries. I am glad to be tested on all of it.',
               followUps: [
                 {
                   reply: 'Being early does not make a report true. A lie can be told the next day.',
@@ -289,7 +289,7 @@ export const shiaSources: Topic = {
           followUps: [
             {
               reply: 'Ghadir Khumm is narrated in Sunni books by so many companions that Sunni scholars themselves count it as mass-transmitted.',
-              answer: 'The saying is very widely narrated, and I do not dispute that Muhammad said something of the kind (Musnad Ahmad 950). What is not agreed is its meaning. The Sunni narrators who passed it on did not take it as an appointment, and they are the ones through whom you have it. So the wide narration establishes the words and leaves the doctrine where it was, resting on a reading that most of those who handed down the saying did not share.',
+              answer: 'The saying is very widely narrated, and I do not dispute that Muhammad said something of the kind (Musnad Ahmad 950). What is not agreed is its meaning. The Sunni narrators who passed it on did not take it as an appointment, and it is their testimony you are appealing to. So the wide narration establishes the words and leaves the doctrine where it was, resting on a reading that most of those who handed down the saying did not share.',
             },
           ],
         },
@@ -347,10 +347,10 @@ export const shiaSources: Topic = {
     },
     {
       id: 'shs-q5',
-      question: 'What does a report in al-Kafi say about the number of verses in the Quran Gabriel brought to Muhammad?',
-      options: ['Seventeen thousand', 'About six thousand', 'About ten thousand', 'About seven thousand'],
+      question: 'In the text al-Majlisi commented on, what does a report in al-Kafi say about the number of verses in the Quran Gabriel brought to Muhammad?',
+      options: ['Seventeen thousand', 'About six thousand', 'About ten thousand', 'About three thousand'],
       answer: 0,
-      explanation: 'Today’s Quran has a little over six thousand verses. Al-Majlisi graded the chain of this report as reliable. Mainstream Twelver scholars do not take it to mean that verses are missing.',
+      explanation: 'Today’s Quran has a little over six thousand verses. Al-Majlisi graded the chain of this report as reliable. Twelver scholars point to another copy that reads seven thousand, and do not take the report to mean that verses are missing.',
     },
     {
       id: 'shs-q6',
@@ -358,11 +358,11 @@ export const shiaSources: Topic = {
       options: [
         'A Sunni refutation of the Shia',
         'Al-Khoei’s defence of the Quran’s integrity',
-        'A book finished in 1881 by the Shia scholar al-Nuri al-Tabarsi arguing that the Quran had been altered',
+        'A book printed in 1881 by the Shia scholar al-Nuri al-Tabarsi arguing that the Quran had suffered omissions',
         'One of the Four Books of Twelver hadith',
       ],
       answer: 2,
-      explanation: 'It gathered the old reports of alteration. Shia scholars as well as Sunnis attacked it.',
+      explanation: 'It gathered more than a thousand old reports. Shia scholars as well as Sunnis attacked it.',
     },
     {
       id: 'shs-q7',
@@ -374,7 +374,7 @@ export const shiaSources: Topic = {
         'That the Quran is complete, and that it was collected in the Prophet’s lifetime',
       ],
       answer: 3,
-      explanation: 'He rejects both the alteration reports and the Sunni story of a collection under the caliphs.',
+      explanation: 'He rejects both the claim that anything is missing and the Sunni reports that the Quran was first gathered under the caliphs.',
     },
     {
       id: 'shs-q8',
@@ -397,15 +397,15 @@ export const shiaSources: Topic = {
     },
     {
       id: 'shs-q10',
-      question: 'What did al-Majlisi’s grading of al-Kafi show?',
+      question: 'What does a count of al-Majlisi’s gradings of al-Kafi show?',
       options: [
-        'That more than half of its reports are weak, from unknown narrators, or incomplete in their chains',
+        'That a little over half of its reports are graded weak, of unknown narrators, or incomplete in their chains',
         'That every report in it is sound',
         'That it agrees with Sahih al-Bukhari in most of its reports',
         'That al-Kulayni wrote it within a generation of Muhammad',
       ],
       answer: 0,
-      explanation: 'Twelver scholars weigh each report and do not call any collection wholly sound. A weak chain does not prove a report false, but it cannot be shown to come from the Imams.',
+      explanation: 'Twelver scholars weigh each report and do not call any collection wholly sound. A weak chain does not prove a report false, but such a report cannot be shown by its chain to come from the Imams.',
     },
     {
       id: 'shs-q11',
@@ -441,7 +441,7 @@ export const shiaSources: Topic = {
         'Whether hadith should be memorised',
       ],
       answer: 1,
-      explanation: 'Al-Kafi tells of an Imam giving three different answers to one question, and advises waiting to meet the Imam where doubt remains.',
+      explanation: 'Al-Kafi tells of an Imam giving three different answers to one question, and advises waiting to meet the Imam where its other rules leave doubt.',
     },
     {
       id: 'shs-q14',
@@ -481,7 +481,7 @@ export const shiaSources: Topic = {
         'It makes divorce too difficult',
         'It requires the woman to pay the man',
         'It forbids a man from ever marrying',
-        'It is sexual union for payment with the end fixed in advance and no lasting duty to the woman',
+        'It is a union for payment with the end fixed in advance and no lasting duty to the woman',
       ],
       answer: 3,
       explanation: 'By Ayatollah Sistani’s rulings a temporary wife has no right to maintenance and does not inherit. Compare Genesis 2:24 and Matthew 19:4-6.',

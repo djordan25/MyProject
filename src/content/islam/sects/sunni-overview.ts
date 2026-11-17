@@ -29,22 +29,22 @@ export const sunniOverview: Topic = {
       body: [
         'Most Sunnis follow one of four schools of law (madhhabs), each named after a jurist. The Hanafi school follows Abu Hanifa (died 767) and is the largest. It prevails in Turkey, the Balkans, Central Asia and South Asia. The Maliki school follows Malik ibn Anas (died 795) and prevails in North and West Africa. The Shafi‘i school follows al-Shafi‘i (died 820) and prevails in East Africa, Southeast Asia and parts of Egypt and the Levant. The Hanbali school follows Ahmad ibn Hanbal (died 855) and prevails in the Arabian peninsula.',
         'The schools differ on details of practice: how to hold the hands in prayer, what breaks ritual purity, the terms of a marriage contract. They accept one another as valid. Following a school’s rulings without weighing the evidence oneself is called taqlid, and traditional Sunnis think it is the right course for anyone who is not a trained jurist.',
-        'In creed there are three main schools. The Ash‘ari school, named after al-Ash‘ari (died about 935), and the Maturidi school, named after al-Maturidi (died 944), use reasoned theology to defend Sunni belief, and read verses about God’s hand or God’s throne as figures of speech or leave their meaning to God. The Athari or traditionalist school, linked with the Hanbalis, refuses that kind of interpretation and affirms the texts as they stand without asking how. Most Sunni scholars in history have been Ash‘ari or Maturidi. Salafis today hold the Athari creed, and the argument between them is sharp. The lesson Salafis, Sufis and Traditionalists takes it further.',
+        'In creed there are three main schools. The Ash‘ari school, named after al-Ash‘ari (died about 935), and the Maturidi school, named after al-Maturidi (died 944), use reasoned theology to defend Sunni belief, and read verses about God’s hand or God’s throne as figures of speech or leave their meaning to God. The Athari or traditionalist school, linked with the Hanbalis, refuses that kind of interpretation and affirms the texts as they stand without asking how. From about the eleventh century most Sunni scholars were Ash‘ari or Maturidi. Salafis today hold the Athari creed and say it was the creed of the first generations, and the argument between them is sharp. The lesson Salafis, Sufis and Traditionalists takes it further.',
       ],
     },
     {
       heading: 'Where you will meet Sunnis',
       body: [
-        'In the United States, the Pew Research Center estimated about 3.45 million Muslims in 2017. In its survey that year 55 percent called themselves Sunni, 16 percent Shia, and 14 percent said they were “just Muslim”. American Sunnis include immigrants and their children from South Asia and the Arab world, and many African Americans. After Elijah Muhammad died in 1975, his son Warith Deen Mohammed led most of the Nation of Islam into Sunni Islam.',
+        'In the United States, the Pew Research Center estimated about 3.45 million Muslims in 2017. In its survey that year 55 percent identified as Sunni and 16 percent as Shia, and 14 percent named no particular tradition. American Sunnis include immigrants and their children from South Asia and the Arab world, and many African Americans. After Elijah Muhammad died in 1975, his son Warith Deen Mohammed led most of the Nation of Islam into Sunni Islam.',
         'In Europe, Pew estimated 25.8 million Muslims in 2016, about 4.9 percent of the population of the European Union as it then was, with Norway and Switzerland. Most are Sunni. Germany’s Muslims are largely of Turkish background and Hanafi. Those of France, Belgium and Spain are largely North African and Maliki. Britain’s are largely South Asian and Hanafi. Bosnia, Albania and Kosovo have Sunni communities centuries old.',
-        'Lebanon has had no census since 1932, so every figure is an estimate. One that is often quoted, from the research firm Statistics Lebanon and cited by the United States State Department in 2023, puts Sunnis at about 31 percent of citizens and Shia at about 32 percent. Sunnis are concentrated in Tripoli, Sidon, west Beirut and the Akkar region. By long-standing convention the prime minister is a Sunni. Most of the Palestinian and Syrian refugees in the country are Sunni as well.',
+        'Lebanon has had no census since 1932, so every figure is an estimate. One that is often quoted, from the research firm Statistics Lebanon and cited by the United States State Department in 2023, puts Sunnis at about 31 percent of citizens and Shia at about 32 percent. Sunnis live mainly in the coastal cities, Beirut, Tripoli and Sidon, and in the Akkar region in the north. By long-standing convention the prime minister is a Sunni. Most of the Palestinian and Syrian refugees in the country are Sunni as well.',
       ],
     },
     {
       heading: 'The example that binds',
       body: [
         'The Sunni name carries a doctrine with it. The Quran says: “There has certainly been for you in the Messenger of Allah an excellent pattern” (Quran 33:21). Sunni scholars take the Sunna to be revelation alongside the Quran. Muhammad is reported to have said, “I have been given the Qur’an and something like it” (Sunan Abi Dawud 4604). So the believer has no choice once Allah and his Messenger have decided a matter (Quran 33:36).',
-        'It follows that a Sunni cannot wave away a hard hadith in the two Sahihs. Take apostasy. Muhammad said, “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922). He listed “the one who reverts from Islam (apostate) and leaves the Muslims” among the three whose blood may be shed (Sahih al-Bukhari 6878). When Mu‘adh found a man in Yemen who had become a Muslim and then gone back to Judaism, he said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). All four schools drew the same ruling from these reports: the man who leaves Islam and does not return is to be killed. The Hanafis imprisoned a woman apostate instead.',
+        'It follows that a Sunni cannot wave away a hard hadith in the two Sahihs. Take apostasy. Muhammad said, “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922). He listed “the one who reverts from Islam (apostate) and leaves the Muslims” among the three whose blood may be shed (Sahih al-Bukhari 6878). When Mu‘adh found a man in Yemen who had become a Muslim and then gone back to Judaism, he said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). The four schools drew the same ruling from these reports: the man who leaves Islam and does not return is to be killed. The twelfth-century jurist Ibn Rushd records that the jurists agreed on this, even where the man had not taken up arms. They differed over a woman. Most would kill her too, and the Hanafis imprisoned her until she returned.',
         'Other examples are treated in the main track. Umar said that a verse commanding stoning was revealed and that Muhammad carried it out (Sahih al-Bukhari 6830). Aisha said Muhammad married her at six and consummated the marriage at nine (Sahih al-Bukhari 5133). Muhammad said he was commanded to fight people until they confess Islam (Sahih al-Bukhari 25). See Testing Muhammad’s Prophethood and Muhammad: Prophet or Warlord?',
         'The point is not that every Sunni wants these things. Many are troubled by them. The point is that Sunni doctrine ties the believer to one man’s recorded life as the pattern for all time, and the record includes these things. Christians are also called to follow an example: Christ “suffered for you, leaving you an example, that you should follow in His footsteps” (1 Peter 2:21-23). Put the two examples side by side.',
       ],
@@ -58,7 +58,7 @@ export const sunniOverview: Topic = {
     {
       heading: 'Three Sunni claims to answer',
       body: [
-        'First: “Sahih al-Bukhari is the most authentic book after the Book of Allah.” Accept this as the Sunni position and hold your friend to it. If the book is that sound, its contents stand: the collection of the Quran under threat of loss and the burning of other copies (Sahih al-Bukhari 4986, 4987), the spell on Muhammad (Sahih al-Bukhari 5763), the apostasy ruling. Be accurate about its standing too. Early hadith critics did question some of its reports. Al-Daraqutni, who died in 995, criticised about two hundred narrations in the two Sahihs, mostly on technical points about their chains, and later scholars answered him. The lessons Can the Hadith Be Trusted? and Uthman’s Burning and the Lost Verses give the detail.',
+        'First: “Sahih al-Bukhari is the most authentic book after the Book of Allah.” Accept this as the Sunni position and hold your friend to it. If the book is that sound, its contents stand: the collection of the Quran under threat of loss and the burning of other copies (Sahih al-Bukhari 4986, 4987), the spell on Muhammad (Sahih al-Bukhari 5763), the apostasy ruling. Be accurate about its standing too. Early hadith critics did question some of its reports. Al-Daraqutni, who died in 995, criticised about two hundred narrations in the two Sahihs, on technical points about their chains and not about their content, and al-Nawawi says that all or most of his criticisms were answered. The lessons Can the Hadith Be Trusted? and Uthman’s Burning and the Lost Verses give the detail.',
         'Second: “The community will never agree on an error.” Look at the proof. The saying as it stands in Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 is graded weak. Sunni scholars reply that its many chains support one another. Then ask whose agreement counts. In practice it is the agreement of Sunni scholars, with the Shia and others left out, so the rule proves Sunni Islam only to those who are already Sunni. And the classical consensus includes the death penalty for apostasy, which many Sunnis today want to leave behind. A community can agree and be wrong. Sunni scholars agree that Jesus was not crucified (Quran 4:157), against every first-century source that speaks of his death.',
         'Third: “Sunni Islam is simply the original Islam, preserved.” Sunnis do stand in line with the majority of the early community, and their scholars took great care. But the things that mark Sunni Islam took shape over centuries. The jurists behind the four schools died between 767 and 855. The six books were compiled in the ninth century. The creeds were settled in the tenth. The first generation itself was torn by civil war. And Shia and Ibadi Muslims each say the same thing about themselves. The claim has to be tested by the earliest evidence, not assumed.',
       ],
@@ -89,11 +89,11 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'Those rulings assumed an Islamic state at war. Apostasy then meant treason, going over to the enemy. The hadith itself speaks of one who “leaves the Muslims”.',
-              answer: 'One report does add leaving the Muslims (Sahih al-Bukhari 6878), but Ibn Abbas quotes the command with no such condition (Sahih al-Bukhari 6922). The man in Yemen had only gone back to Judaism, with no word of treason or fighting, yet Mu‘adh said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). The treason reading is modern. If it is right, the four schools were wrong together for centuries.',
+              answer: 'One report does add leaving the Muslims (Sahih al-Bukhari 6878), but Ibn Abbas quotes the command with no such condition (Sahih al-Bukhari 6922). The man in Yemen had only gone back to Judaism, with no word of treason or fighting, yet Mu‘adh said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). And the jurists did not wait for treason. Ibn Rushd records their agreement that the man is killed even if he is taken before he has fought anyone. The Hanafi manual al-Hidaya gives him three days in prison and then death, and quotes this very saying. If apostasy alone was never the offence, the four schools were wrong together for centuries.',
               followUps: [
                 {
                   reply: 'The Quran says there is no compulsion in religion (Quran 2:256). The hadith must be read in the light of the Quran.',
-                  answer: 'I am glad you hold to that verse. But you have set a verse of the Quran against a report in Bukhari and let the verse win, and the classical scholars went the other way. Commentators record the view that this verse was abrogated by the command to fight, and the view that it only covers Jews and Christians who pay the tax. So is Bukhari the most authentic book after the Quran, or a book that needs correcting?',
+                  answer: 'I am glad you hold to that verse. But you have set a verse of the Quran against a report in Bukhari and let the verse win, and the classical scholars went the other way. Al-Tabari and Ibn Kathir both record the view that this verse was abrogated by the command to fight, and the view that it only covers Jews and Christians who pay the tax. So is Bukhari the most authentic book after the Quran, or a book that needs correcting?',
                 },
               ],
             },
@@ -101,7 +101,7 @@ export const sunniOverview: Topic = {
         },
         {
           reply: 'Scholars did criticise a few hadith in Bukhari. Accepting the book does not mean every line is beyond question.',
-          answer: 'True. Al-Daraqutni criticised about two hundred narrations in the two Sahihs, mostly on points about the chains, and later scholars answered him. So the claim becomes “almost all of it is sound”. Then who decides which parts are not? If you may set aside the apostasy reports because they are uncomfortable, a Quran-only Muslim may set aside the reports that teach the prayer.',
+          answer: 'True. Al-Daraqutni criticised about two hundred narrations in the two Sahihs, on points about the chains, and later scholars answered him. So the claim becomes “almost all of it is sound”. Then who decides which parts are not? If you may set aside the apostasy reports because they are uncomfortable, a Quran-only Muslim may set aside the reports that teach the prayer.',
           followUps: [
             {
               reply: 'The scholars decide, by the science of hadith, not by what feels uncomfortable. That is the difference between us and those who reject hadith.',
@@ -116,12 +116,12 @@ export const sunniOverview: Topic = {
       objection: 'The Prophet said his community would never agree on an error. So the agreement of the Muslims is a proof in itself. Christians have no such protection, which is why you are divided.',
       response:
         'Let’s look at the saying. In Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 it is graded weak, though I know Sunni scholars say the many chains strengthen one another. Suppose it is genuine. Whose agreement does it mean, and when? The community divided over its leadership within a generation, and Sunni consensus leaves out the Shia. And if consensus is a proof, the classical consensus stands, including death for apostasy. Christians do not test truth by counting heads. We test teaching by the Scriptures, as the Bereans did (Acts 17:11).',
-      keyPoints: ['The saying is graded weak in the collections that carry it.', 'Consensus means the agreement of those already Sunni.', 'Truth is tested by Scripture, not by numbers.'],
+      keyPoints: ['The versions in Ibn Majah and al-Tirmidhi are graded weak.', 'Consensus means the agreement of those already Sunni.', 'Truth is tested by Scripture, not by numbers.'],
       references: ['Sunan Ibn Majah 3950', 'Jami at-Tirmidhi 2167', 'Acts 17:11'],
       followUps: [
         {
           reply: 'The saying has so many chains that its meaning is established beyond doubt. And the Quran supports it: whoever follows other than the way of the believers is headed for Hell (Quran 4:115).',
-          answer: 'That verse condemns a person who “opposes the Messenger after guidance has become clear to him”. It is about deserting Muhammad. It does not say that the agreement of later jurists cannot be mistaken. For that the doctrine needs the hadith, and so we are back to the saying whose chains are graded weak.',
+          answer: 'I know that scholars have long used that verse for consensus. But read it whole. It condemns a person who “opposes the Messenger after guidance has become clear to him” and so leaves the believers’ way. It is about deserting Muhammad. It does not say that later jurists cannot agree on a mistake. For that the doctrine needs the hadith, and so we are back to a saying whose separate chains are graded weak.',
           followUps: [
             {
               reply: 'Whatever the proof, look at the fact. For fourteen centuries Muslims have agreed on the Quran, the five prayers and the pillars. That agreement is the sign.',
@@ -141,7 +141,7 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'Those are disputes with sects that went astray. The main body has stayed one, and the Prophet told us to follow the great majority.',
-              answer: 'That instruction is part of the same report, graded weak (Sunan Ibn Majah 3950). And your own history does not side with the majority every time. When the caliphs enforced the doctrine that the Quran was created, Ahmad ibn Hanbal refused and was flogged, and Sunnis honour him because he would not go along with the powerful. Jesus said the way to life is narrow, “and only a few find it” (Matthew 7:13-14).',
+              answer: 'That instruction is part of the same report, graded weak (Sunan Ibn Majah 3950). And Sunnis themselves honour a man for standing against the doctrine that the rulers and their scholars enforced. When the caliphs required everyone to confess that the Quran was created, Ahmad ibn Hanbal refused and was flogged. So truth was not settled by who held the pulpits. Jesus said the way to life is narrow, “and only a few find it” (Matthew 7:13-14).',
             },
           ],
         },
@@ -187,11 +187,11 @@ export const sunniOverview: Topic = {
       followUps: [
         {
           reply: 'Every law has penalties. The law of Moses stoned adulterers and put to death anyone who led Israel after other gods. You are condemning your own Bible.',
-          answer: 'The law of Moses did have those penalties, and I will not hide them (Deuteronomy 13:6-10). They were given to Israel as a nation under the old covenant. Christ fulfilled that law and gave his church no sword: he told Peter, “Put your sword back in its place” (Matthew 26:52). The church’s strongest penalty is to put someone out of its fellowship (1 Corinthians 5:12-13), while Islam’s law claims to be final and for all people.',
+          answer: 'The law of Moses did have those penalties, and I will not hide them (Deuteronomy 13:6-10). They were given to Israel as a nation under the old covenant. Christ fulfilled that law and gave his church no sword: he told the disciple who drew one, “Put your sword back in its place” (Matthew 26:52). The church’s strongest penalty is to put someone out of its fellowship (1 Corinthians 5:12-13), while Islam’s law claims to be final and for all people.',
           followUps: [
             {
               reply: 'So God commanded stoning and then cancelled it? At least we are consistent with the earlier prophets.',
-              answer: 'God did not change his mind. The law was “our guardian to lead us to Christ” (Galatians 3:24-25), and its penalties show what sin deserves, a curse that Christ took on himself (Galatians 3:13). Now look at your own side. The Quran as you have it contains no verse of stoning, yet Umar says one was revealed and recited (Sahih al-Bukhari 6830). So Sunni law has a penalty that rests on a verse which is not in the book.',
+              answer: 'God did not change his mind. The law was “our guardian to lead us to Christ” (Galatians 3:24-25), and its penalties show what sin deserves, a curse that Christ took on himself (Galatians 3:13). Now look at your own side. The Quran as you have it contains no verse of stoning, yet Umar says one was revealed, recited and acted on (Sahih al-Bukhari 6830). So by Umar’s account a verse that God revealed and the community obeyed is missing from the book.',
               followUps: [
                 {
                   reply: 'A verse whose recitation is abrogated while its ruling remains is a recognised category. The scholars explained this long ago.',
@@ -227,7 +227,7 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'Then ask a scholar and accept his answer. That is taqlid. The ordinary person follows qualified scholarship.',
-              answer: 'I will listen to any scholar, but which one? Salafi scholars say that following a school without weighing the evidence is blameworthy and that you must go to the texts, and traditional scholars say the opposite. You had to judge between them before you could follow either, so everyone judges in the end. Jesus warned teachers who “set aside the command of God to maintain your own tradition” (Mark 7:8-9).',
+              answer: 'I will listen to any scholar, but which one? Salafi scholars warn against following a school blindly and tell you to ask for the evidence from the texts, and traditional scholars tell the ordinary believer to keep to his school. You had to judge between them before you could follow either, so everyone judges in the end. Jesus warned teachers who “set aside the command of God to maintain your own tradition” (Mark 7:8-9).',
               followUps: [
                 {
                   reply: 'Christians have priests, popes and seminaries too.',
@@ -275,7 +275,7 @@ export const sunniOverview: Topic = {
         },
         {
           reply: 'Your Bible has been changed, so I cannot trust its promises.',
-          answer: 'The Quran does not say so. It tells Christians of Muhammad’s day, “let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47), and says, “None can alter His words” (Quran 6:115). Complete copies of the New Testament survive from the fourth century, long before Muhammad was born. The Gospel he pointed to is the one we have. See Answering: “The Bible Has Been Corrupted”.',
+          answer: 'The Quran does not say so. It tells Christians of Muhammad’s day, “let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47), and says, “None can alter His words” (Quran 6:115). A complete copy of the New Testament survives from the fourth century, more than two hundred years before Muhammad was born, and papyrus copies of many of its books are older still. The Gospel he pointed to is the one we have. See Answering: “The Bible Has Been Corrupted”.',
           followUps: [
             {
               reply: 'That verse means the original Gospel given to Jesus, not the four books you carry now.',
@@ -413,7 +413,7 @@ export const sunniOverview: Topic = {
       question: 'In Pew’s 2017 survey, about what share of Muslims in the United States called themselves Sunni?',
       options: ['About a quarter', 'A little over half', 'About three quarters', 'More than nine in ten'],
       answer: 1,
-      explanation: 'Fifty-five percent said Sunni, 16 percent Shia, and 14 percent “just Muslim”.',
+      explanation: 'Fifty-five percent said Sunni and 16 percent Shia, and 14 percent named no particular tradition.',
     },
     {
       id: 'sno-q15',

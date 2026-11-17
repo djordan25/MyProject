@@ -91,7 +91,7 @@ export const shiaKarbalaGospel: Topic = {
               followUps: [
                 {
                   reply: 'Isaiah could be speaking of any righteous sufferer. Why not of Husayn himself?',
-                  answer: 'Read the chapter and see whether it fits. The servant does not open his mouth before his killers, and he is given a grave with a rich man. His life is made a guilt offering, and afterwards “He will prolong His days” (Isaiah 53:10). Husayn died fighting, sword in hand, and no one says his death was an offering for guilt or that he lived again after it. Jesus was silent before his judges (Mark 14:61), was laid in a rich man’s tomb (Matthew 27:57-60), and rose.',
+                  answer: 'Read the chapter and see whether it fits. The servant does not open his mouth before his killers, and he is given a grave with a rich man. His life is made a guilt offering, and afterwards “He will prolong His days” (Isaiah 53:10). Husayn died fighting, sword in hand, and no one says that his death was an offering for guilt or that he rose from his grave on the third day. Jesus was silent before his judges (Mark 14:61), was laid in a rich man’s tomb (Matthew 27:57-60), and rose.',
                 },
               ],
             },
@@ -123,7 +123,7 @@ export const shiaKarbalaGospel: Topic = {
           followUps: [
             {
               reply: 'Allah forgives whom He wills. Intercession is His mercy reaching us through those He honours.',
-              answer: 'Then how will you know that it has reached you? You weep for Husayn and visit his shrine in hope, and I do not doubt your love. But no report tells you that your name is among those the Imams will plead for, or how many tears are enough. The Christian is told now, before the judgment: “there is now no condemnation for those who are in Christ Jesus” (Romans 8:1). It is the difference between hoping an advocate will take your case and knowing the case is already won.',
+              answer: 'Then how will you know that it has reached you? You weep for Husayn and visit his shrine in hope, and I do not doubt your love. Your books promise much to those who weep, in reports whose strength your own scholars must weigh. But no report tells you that your name is among those the Imams will plead for. The Christian is told now, before the judgment: “there is now no condemnation for those who are in Christ Jesus” (Romans 8:1). It is the difference between hoping an advocate will take your case and knowing the case is already won.',
               followUps: [
                 {
                   reply: 'That is presumption. No one should feel safe from Allah’s plan. The believer lives between fear and hope.',
@@ -139,7 +139,7 @@ export const shiaKarbalaGospel: Topic = {
           followUps: [
             {
               reply: 'The martyrs are not dead. The Quran says they are alive with their Lord.',
-              answer: 'It does say that (Quran 3:169), and the Bible also teaches that those who die in faith are with God. But to be alive with God is not to hear the prayers of millions of pilgrims in many lands at once, as only God can. The Quran rebukes the pagans of Mecca for a plea you will recognise: “These are our intercessors with Allah” (Quran 10:18). I know you do not worship the Imams as they worshipped idols. Still, the principle is worth weighing: God wants to be asked himself.',
+              answer: 'It does say that (Quran 3:169), and the Bible also teaches that those who die in faith are with God. But to be alive with God is not to hear the prayers of millions of pilgrims in many lands at once, as only God can. The Quran rebukes the pagans of Mecca for saying of those they called on, “These are our intercessors with Allah” (Quran 10:18). I know you do not worship the Imams as they worshipped idols. Still, the principle is worth weighing: God wants to be asked himself.',
             },
           ],
         },
@@ -191,8 +191,8 @@ export const shiaKarbalaGospel: Topic = {
       id: 'shk-4',
       objection: 'We believe in the return of Jesus as you do. When the Mahdi appears, Jesus son of Mary will descend and pray behind him, and together they will fill the earth with justice. So Jesus himself will show that the truth is with the family of Muhammad.',
       response:
-        'I am glad that we both look for Jesus to return, and for justice. But ask where each of us learns what he will do when he comes. That he will pray behind the Mahdi is not in the Quran. It is in reports such as those al-Saduq collected in the tenth century. The earliest witnesses to Jesus’ own words say something else. He comes as king and judge: “When the Son of Man comes in His glory, and all the angels with Him, He will sit on His glorious throne. All the nations will be gathered before Him” (Matthew 25:31-32).',
-      keyPoints: ['A shared hope: Jesus will return and justice will come.', 'His praying behind the Mahdi comes from late reports. The Quran does not say it.', 'In the Gospels he returns as king and judge of all nations.'],
+        'I am glad that we both look for Jesus to return, and for justice. But ask where each of us learns what he will do when he comes. That he will pray behind the Mahdi is not in the Quran. It comes from hadith. A Sunni report has him decline to lead the Muslims in prayer and leave it to their commander (Sahih Muslim 156), and reports such as those al-Saduq collected in the tenth century name the Mahdi. The earliest witnesses to Jesus’ own words say something else. He comes as king and judge: “When the Son of Man comes in His glory, and all the angels with Him, He will sit on His glorious throne. All the nations will be gathered before Him” (Matthew 25:31-32).',
+      keyPoints: ['A shared hope: Jesus will return and justice will come.', 'His praying behind the Mahdi comes from hadith reports. The Quran does not say it.', 'In the Gospels he returns as king and judge of all nations.'],
       references: ['Matthew 25:31-32', 'Matthew 28:18', 'John 5:22-23', 'Hebrews 9:28', 'Revelation 21:4', 'Acts 17:31', 'Sahih Muslim 156'],
       followUps: [
         {
@@ -243,7 +243,7 @@ export const shiaKarbalaGospel: Topic = {
         },
         {
           reply: 'Legends grow around every beloved martyr. In time the Christians did to Jesus what the extremists among us did to Ali.',
-          answer: 'That is a thoughtful comparison. Your Imams, as al-Kafi reports, disowned those who called them gods, so the test is whether Jesus disowned it. When Thomas said to him, “My Lord and my God!” (John 20:28), Jesus accepted it and blessed those who would believe the same. And this was not centuries later. Paul’s letters, written within twenty to thirty years of the cross, already call Jesus Lord and say that every knee will bow to him (Philippians 2:10-11). There was no time for a legend to grow.',
+          answer: 'That is a thoughtful comparison. Your Imams, as your own books report, disowned the extremists who made them more than servants of God, so the test is whether Jesus disowned it. When Thomas said to him, “My Lord and my God!” (John 20:28), Jesus accepted it and blessed those who would believe the same. And this was not centuries later. Paul’s letters, written within twenty to thirty years of the cross, already call Jesus Lord and say that every knee will bow to him (Philippians 2:10-11). There was no time for a legend to grow.',
           followUps: [
             {
               reply: 'Paul is the one who invented all this. Jesus himself only called people to worship God.',
@@ -419,7 +419,7 @@ export const shiaKarbalaGospel: Topic = {
       options: [
         'The Quran',
         'The four Gospels',
-        'Later hadith reports, such as those collected by al-Saduq in the tenth century',
+        'Hadith reports, such as those collected by al-Saduq in the tenth century',
         'The book of Revelation',
       ],
       answer: 2,

@@ -4,7 +4,7 @@ export const quranistAnswering: Topic = {
   id: 'quranist-answering',
   title: 'Can the Quran Stand Alone?',
   icon: '❓',
-  summary: 'The Quran commands obedience to a messenger whose words it does not record, assumes knowledge it does not supply, and reached its readers through the very transmitters Quran-only Muslims reject.',
+  summary: 'The Quran commands obedience to a messenger whose words it does not record, assumes knowledge it does not supply, and reached its readers through the same generations whose reports Quran-only Muslims reject.',
   lesson: [
     {
       heading: 'Meet them on their own ground',
@@ -28,9 +28,9 @@ export const quranistAnswering: Topic = {
       heading: 'The book assumes what it does not supply',
       body: [
         'Take worship first. The Quran commands prayer constantly, but it never states how many prayers there are each day, how many cycles each has, or what is to be said. It mentions “the middle prayer” (Quran 2:238), a call to prayer on Friday (Quran 62:9) and shortening the prayer when travelling (Quran 4:101), and assumes the reader knows the rest. It says the pilgrimage falls in “well-known months” (Quran 2:197) and that four months are sacred (Quran 9:36), and names none of them.',
-        'Then take people and events. Surah 111 curses a man called Abu Lahab and his wife (Quran 111:1-5). The Quran does not say who he was or what he had done. One verse names a man called Zayd and says God married his former wife to Muhammad after Muhammad had hidden something in his heart (Quran 33:37). Who Zayd was, who the woman was, and what was hidden are not explained. Surah 66 rebukes Muhammad for forbidding himself something lawful to please his wives, and warns two of them to repent (Quran 66:1-5). What he gave up, which wives, and what the secret was, the Quran does not say.',
-        'Surah 30 announces that “The Byzantines have been defeated” and will win again within a few years (Quran 30:2-4). It does not say who defeated them, where, or when, so the verse cannot be checked as a prophecy from the text alone. Other verses mention Muhammad’s companion in the cave (Quran 9:40), a blind man he turned away from (Quran 80:1-2), and battles at Badr and Hunayn (Quran 3:123; 9:25), all without a word of background.',
-        'Every one of these gaps is filled by the tradition. The hadith say Abu Lahab was an uncle who cursed Muhammad (Sahih al-Bukhari 4971), that Zayd was his adopted son (Sahih al-Bukhari 7420), and that the matter in surah 66 concerned honey (Sahih al-Bukhari 5267), though the commentaries also give a different story about a slave woman. Remove the tradition and these passages are addressed to people whose situation the reader cannot know. That is not what “explained in detail” means.',
+        'Then take people and events. Surah 111 curses a man called Abu Lahab and his wife (Quran 111:1-5). The Quran does not say who he was or what he had done. One verse names a man called Zayd and says God married his former wife to Muhammad after Muhammad had hidden something in his heart (Quran 33:37). The verse implies that Zayd was an adopted son. Who the woman was, what Muhammad had hidden, and why he feared the people are not explained. Surah 66 rebukes Muhammad for forbidding himself something lawful to please his wives, and warns two of them to repent (Quran 66:1-5). What he gave up, which wives, and what the secret was, the Quran does not say.',
+        'Surah 30 announces that “The Byzantines have been defeated” and will win again within a few years (Quran 30:2-4). It does not say who defeated them or when, and of the place it says only that it was the nearest land, so the verse cannot be checked as a prophecy from the text alone. Other verses mention Muhammad’s companion in the cave (Quran 9:40), a blind man he turned away from (Quran 80:1-2), and battles at Badr and Hunayn (Quran 3:123; 9:25), with little or no background.',
+        'Every one of these gaps is filled by the tradition. The hadith say that Abu Lahab cursed Muhammad when he first called his clan together to warn them (Sahih al-Bukhari 4971), and the biographies add that he was Muhammad’s uncle. They say that the man was Zayd ibn Haritha and the woman Zaynab (Sahih al-Bukhari 7420), and that the matter in surah 66 concerned honey (Sahih al-Bukhari 5267), though the commentaries also give a different story about a slave woman. Remove the tradition and these passages are addressed to people whose situation the reader cannot know. That is not what “explained in detail” means.',
       ],
       references: ['Quran 2:238', 'Quran 62:9', 'Quran 4:101', 'Quran 2:197', 'Quran 9:36', 'Quran 111:1-5', 'Quran 33:37', 'Quran 66:1-5', 'Quran 30:2-4', 'Quran 9:40', 'Quran 80:1-2', 'Sahih al-Bukhari 4971', 'Sahih al-Bukhari 7420', 'Sahih al-Bukhari 5267'],
     },
@@ -38,21 +38,21 @@ export const quranistAnswering: Topic = {
       heading: 'The Quran came through the same hands',
       body: [
         'The Quran did not arrive as a bound book. It was recited piece by piece over about twenty years, memorised and written on scraps by Muhammad’s companions, and gathered after his death. That whole account is known from hadith. Zayd ibn Thabit says he collected it “from (what was written on) palme stalks, thin white stones and also from the men who knew it by heart” (Sahih al-Bukhari 4986). Uthman later had copies made and ordered every other manuscript burned (Sahih al-Bukhari 4987). The lessons From Recitation to Book and Uthman’s Burning and the Lost Verses give the details.',
-        'So the Quran reached today’s reader through the companions and the generations after them. These are the same people whose reports about Muhammad the Quran-only Muslim rejects. Even the way the text is pronounced depends on them. The earliest copies had no vowel marks, and the reading printed in most Qurans today is named after the men who passed it on, Hafs from his teacher ‘Asim.',
-        'This gives a dilemma. If the early Muslims passed things on faithfully, there is no reason to throw out everything they reported except one book. If they were careless or dishonest, as the Quran-only case against the hadith says, then the book they handed on is under the same cloud. A person cannot trust the postman for one letter and call him a forger for all the rest.',
+        'So the Quran reached today’s reader through the companions and the generations after them. These are the same generations through whom the reports about Muhammad came down. Even the way the text is pronounced depends on named individuals. The earliest copies had no vowel marks, and the reading printed in most Qurans today is named after the men who passed it on, Hafs from his teacher ‘Asim.',
+        'A Quran-only Muslim will answer that he does not accuse the companions of lying. The Quran, he says, was written early and recited by the whole community, while the hadith were single reports that passed by word of mouth for two centuries and were forged in the companions’ names. That is a real difference and you should grant it. But it does not remove the difficulty. What he knows about the early writing, the collection and the single standard text comes from those same reports. If the early Muslims passed things on faithfully, there is no reason to throw out everything they reported except one book. If their reports were so corrupted in two centuries that none can be trusted, then the account of how the Quran was kept safe is under the same cloud. It is hard to trust the postman completely for one letter and not at all for any other.',
       ],
       argument: [
-        'The Quran and the hadith were handed down by the same community of transmitters.',
-        'Quran-only Muslims hold that these transmitters were unreliable in what they reported about Muhammad.',
-        'If they were unreliable, the Quran they transmitted is in doubt. If they were reliable, the wholesale rejection of their reports is unjustified.',
-        'Either way, the Quran cannot be kept while its transmitters are dismissed.',
+        'The Quran and the hadith came down through the same generations of the Muslim community.',
+        'Quran-only Muslims hold that what those generations reported about Muhammad is too unreliable to use.',
+        'If their reports are that unreliable, the reports of how the Quran was written, collected and standardised are in doubt as well. If they are reliable enough for that, the wholesale rejection of the rest is unjustified.',
+        'Either way, the Quran cannot be kept as certain while the testimony of those who handed it down is dismissed.',
       ],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987'],
     },
     {
       heading: 'A messenger without a life, and a messenger who added himself',
       body: [
-        'Without the tradition almost nothing is known about Muhammad. The Quran names him four times (Quran 3:144; 33:40; 47:2; 48:29). It does not give his parents, his birth, his first wife, the cave where the revelations began, the move to Medina, or his death. The man held up as “an excellent pattern” (Quran 33:21) becomes a name with hardly a biography. The Quran-only Muslim is asked to follow a messenger he knows less about than he knows about Moses.',
+        'Without the tradition almost nothing is known about Muhammad. The Quran names him four times (Quran 3:144; 33:40; 47:2; 48:29). It does not give his parents, his birth, his first wife, the cave where the revelations began, the story of the move to Medina, or his death. The man held up as “an excellent pattern” (Quran 33:21) becomes a name with hardly a biography. The Quran-only Muslim is asked to follow a messenger he knows less about than he knows about Moses.',
         'The gap does not stay empty. Rashad Khalifa set out to follow the Quran alone, and ended by deleting two of its verses to fit his number code and by naming himself God’s Messenger of the Covenant. To justify the deletion he cited a hadith and a medieval Sunni scholar. Ghulam Ahmad Parwez handed the open questions to the state. Others leave every reader to decide for himself, which is why Quran-only Muslims cannot agree on how often to pray. The Quran alone has not stayed alone in any of these cases.',
       ],
       references: ['Quran 3:144', 'Quran 33:40', 'Quran 47:2', 'Quran 48:29', 'Quran 33:21', 'Quran 9:128-129'],
@@ -71,7 +71,7 @@ export const quranistAnswering: Topic = {
       body: [
         'A Quran-only Muslim is looking for something good. He wants God’s word without human additions, and certainty that does not hang on a chain of narrators. Jesus shared the first concern. He rebuked teachers who “disregarded the commandment of God to keep the tradition of men” (Mark 7:8).',
         'For the second, the Christian answer is not a longer chain. It is eyewitnesses. Luke wrote from those who were “eyewitnesses and servants of the word” (Luke 1:1-4). John wrote of what “we have seen with our own eyes” and “touched with our own hands” (1 John 1:1-3). When Paul repeated the creed, most of the five hundred who had seen the risen Jesus were still alive to be asked (1 Corinthians 15:6).',
-        'And God’s final word is not a book that needs a second book to explain it. “The Word became flesh and made His dwelling among us” (John 1:14). The Quran calls Jesus the Messiah and a word from God (Quran 4:171), and never says what the Messiah came to do. The Gospel does: he died for sins and rose, so that those who trust him are accepted by grace and not by a balance of deeds (Ephesians 2:8-9). That is where to lead the conversation.',
+        'And God’s final word is not a book that needs a second book to explain it. “The Word became flesh and made His dwelling among us” (John 1:14). The Quran calls Jesus the Messiah and a word from God (Quran 4:171), and never explains what the title Messiah means or what the Messiah came to do. The Gospel does: he died for sins and rose, so that those who trust him are accepted by grace and not by a balance of deeds (Ephesians 2:8-9). That is where to lead the conversation.',
       ],
       references: ['Mark 7:8', 'Luke 1:1-4', '1 John 1:1-3', '1 Corinthians 15:6', 'John 1:14', 'Quran 4:171', 'Ephesians 2:8-9'],
     },
@@ -247,7 +247,7 @@ export const quranistAnswering: Topic = {
               followUps: [
                 {
                   reply: 'No. The Quran says no soul bears the burden of another (Quran 6:164). Whatever happened to Jesus, he did not die for my sins.',
-                  answer: 'Then the Quran contradicts the men it praises. It says God supported the disciples of Jesus until they prevailed (Quran 61:14), and what those disciples preached from the first weeks was his death for sins and his resurrection (Acts 2:23-24). No sinner can carry another sinner’s burden, and the Bible agrees. But Jesus was not another sinner. He was the one man with no burden of his own, and he took ours willingly. The lesson Answering: “No One Can Bear Another’s Sins” takes this further.',
+                  answer: 'Then the Quran contradicts the men it praises. It says God supported the disciples of Jesus until they prevailed (Quran 61:14), and what those disciples preached from the first weeks was his death, his resurrection and forgiveness of sins in his name (Acts 2:23-24, 38). No sinner can carry another sinner’s burden, and the Bible agrees. But Jesus was not another sinner. He was the one man with no burden of his own, and he took ours willingly. The lesson Answering: “No One Can Bear Another’s Sins” takes this further.',
                 },
               ],
             },
@@ -321,14 +321,14 @@ export const quranistAnswering: Topic = {
         'That he was a Jewish poet in Medina',
       ],
       answer: 2,
-      explanation: 'His identity and offence come from the hadith (Sahih al-Bukhari 4971).',
+      explanation: 'What he did comes from the hadith (Sahih al-Bukhari 4971), and who he was from the biographies.',
     },
     {
       id: 'qra-q7',
       question: 'Which companion of Muhammad is named in Quran 33:37?',
       options: ['Abu Bakr', 'Zayd', 'Umar', 'Ali'],
       answer: 1,
-      explanation: 'The verse does not say who he was or explain what Muhammad had hidden in himself. The tradition supplies it (Sahih al-Bukhari 7420).',
+      explanation: 'The verse does not name the woman or explain what Muhammad had hidden in himself. The tradition supplies it (Sahih al-Bukhari 7420).',
     },
     {
       id: 'qra-q8',
@@ -337,7 +337,7 @@ export const quranistAnswering: Topic = {
         'The Romans never existed',
         'The verse is missing from early manuscripts',
         'It is written in Greek',
-        'The Quran does not say when the verse was given, who defeated them or where',
+        'The Quran does not say when the verse was given or who defeated the Romans',
       ],
       answer: 3,
       explanation: 'A prediction needs a date, and the dating of the surah comes from Muslim tradition.',
@@ -354,12 +354,12 @@ export const quranistAnswering: Topic = {
       question: 'What is the dilemma about the transmitters?',
       options: [
         'They wrote in two languages',
-        'If they were reliable, rejecting all their reports is unjustified; if unreliable, the Quran they passed on is in doubt',
+        'If their reports are reliable, rejecting all of them is unjustified; if none can be trusted, the account of how the Quran was collected and kept is in doubt too',
         'They lived in two different cities',
         'They were all Shia',
       ],
       answer: 1,
-      explanation: 'The Quran and the hadith came through the same community.',
+      explanation: 'The Quran and the hadith came down through the same generations, and the history of the Quran’s collection is itself known from reports.',
     },
     {
       id: 'qra-q11',
@@ -384,7 +384,7 @@ export const quranistAnswering: Topic = {
       id: 'qra-q13',
       question: 'A Quran-only Muslim says, “I learned the prayer from living practice, not from hadith.” What is the main point to make?',
       options: [
-        'Living practice is still tradition outside the Quran, handed down by the same community he distrusts',
+        'Living practice is still tradition outside the Quran, handed down by the same community whose reports he rejects',
         'Prayer is not commanded in the Quran',
         'The Bible gives the Muslim prayer in full',
         'Bukhari invented the prayer',
