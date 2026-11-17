@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
 import { getTopic, getTrack, subtracksOf, topicsInTrack } from '../content';
 import { useProgress } from '../lib/progress';
-import { trackCompletion } from '../lib/trackProgress';
+import { trackCompletion, trackSeals } from '../lib/trackProgress';
+import Seal from '../components/Seal';
 import TopicCard from '../components/TopicCard';
 import ProgressBar from '../components/ProgressBar';
 import RefText from '../components/RefText';
@@ -13,11 +14,15 @@ export default function TrackPage() {
   if (!track) return <NotFound />;
   const parent = getTrack(track.parent);
   const subs = subtracksOf(track);
+  const seals = trackSeals(p, track);
   return (
     <>
       <Link to={parent ? `/track/${parent.id}` : '/'} className="back">← {parent ? parent.title : 'All tracks'}</Link>
       {parent && <div className="eyebrow">{parent.title} · sub-track</div>}
-      <h1><span aria-hidden>{track.icon}</span> {track.title}</h1>
+      <h1 className="track-title"><span aria-hidden>{track.icon}</span> {track.title}</h1>
+      <p className="muted seal-line">
+        {seals.sealed === seals.total ? <><Seal tone="track" size={24} /> Track complete: every topic sealed.</> : `${seals.sealed} of ${seals.total} topics sealed. A topic earns its seal when the lesson is read, the quiz is 80% or better, and every objection is Solid.`}
+      </p>
       {track.intro && (
         <section className="card intro">
           {track.intro.map((para, i) => <p key={i}><RefText text={para} /></p>)}
@@ -66,14 +71,15 @@ export default function TrackPage() {
           <div className="track-list">
             {subs.map((s) => {
               const done = trackCompletion(p, s);
+              const seals = trackSeals(p, s);
               return (
                 <Link key={s.id} to={`/track/${s.id}`} className="card track-card">
-                  <div className="topic-icon" aria-hidden>{s.icon}</div>
+                  {seals.sealed === seals.total ? <Seal tone="track" size={44} label={`${s.title}: complete`} /> : <div className="topic-icon" aria-hidden>{s.icon}</div>}
                   <div className="track-body">
                     <h3>{s.title}</h3>
                     <p>{s.summary}</p>
                     <ProgressBar value={done} label={`${s.title} progress`} />
-                    <small className="muted">{topicsInTrack(s).length} topics · {Math.round(done * 100)}% complete</small>
+                    <small className="muted">{topicsInTrack(s).length} topics · {Math.round(done * 100)}% ready{seals.sealed > 0 && ` · ${seals.sealed} sealed`}</small>
                   </div>
                 </Link>
               );

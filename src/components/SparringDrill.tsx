@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { FollowUp, Objection } from '../content';
 import { progress, type Confidence } from '../lib/progress';
 import RefText from './RefText';
+import { buzz } from '../lib/haptics';
 import RefList from './RefList';
 import ConfidenceRater from './ConfidenceRater';
 import KeyPointCheck, { suggestFromCoverage } from './KeyPointCheck';
@@ -47,6 +48,7 @@ export default function SparringDrill({ objection, context, onRated }: Props) {
   }, [step, answered]);
 
   const reply = (text: string) => {
+    buzz();
     setReplies((r) => [...r.slice(0, step), text]);
     setDraft('');
     setAnswered(true);

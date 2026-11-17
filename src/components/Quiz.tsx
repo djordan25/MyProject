@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import type { QuizQuestion } from '../content';
 import { shuffle } from '../lib/shuffle';
 import RefText from './RefText';
+import { buzz } from '../lib/haptics';
 
 interface Props {
   questions: QuizQuestion[];
@@ -59,6 +60,7 @@ export default function Quiz({ questions, onFinish, limit }: Props) {
   const choose = (idx: number) => {
     if (answered) return;
     setPicked(idx);
+    buzz(idx === q.answer ? 'success' : 'miss');
     if (idx === q.answer) setCorrect((c) => c + 1);
   };
 
