@@ -9,7 +9,20 @@ export default function About() {
         <h2>What this is</h2>
         <p>
           A training tool for Christians who want to give a reason for their hope: short lessons, objection drills with
-          model answers and follow-up replies, and quizzes. Progress is stored only on your device.
+          model answers, and quizzes. Progress is stored only on your device.
+        </p>
+        <p>
+          Each objection comes with the exchange that usually follows: what the other person is likely to say to your
+          answer, how to reply, what they say to that, and so on for as many rounds as the real argument runs. Open
+          each round in turn after you have tried your own answer.
+        </p>
+        <p>
+          Each quiz draws ten questions at random from the topic’s bank and shuffles the answers, so a second attempt
+          is a different test. The mixed quiz draws from a whole track or sub-track.
+        </p>
+        <p>
+          The Islam Specialization has sub-tracks for the groups you are most likely to meet: Sunni and Shia Muslims,
+          Quran-only Muslims, the Ahmadiyya, the Nation of Islam, the Druze, and Alawites and Alevis.
         </p>
       </section>
       <section className="card lesson">
@@ -31,6 +44,13 @@ export default function About() {
           the lessons say about the commentaries (al-Tabari, Ibn Kathir, the Jalalayn) and about Ibn Ishaq’s biography
           has been checked against their text; the app describes them without showing the text in a popup. The
           manuscript lesson is drawn from published scholarship, listed under its Further reading.
+        </p>
+        <p>
+          The sub-track lessons also describe the history and teaching of particular communities. Those facts are
+          taken from each community’s own publications, from primary texts and from published scholarship and
+          standard reference works. Encyclopedias that anyone can edit are not used as a source. For closed
+          communities such as the Druze and the Alawites, whose teaching is not public, the lessons say what outside
+          scholars report and say that it is a report.
         </p>
       </section>
       <section className="card lesson">
