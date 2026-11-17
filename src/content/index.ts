@@ -37,6 +37,22 @@ import { muhammadWarfare } from './islam/muhammad-warfare';
 import { sharingTheGospel } from './islam/sharing-the-gospel';
 import { branchesOfIslam } from './islam/branches';
 import { quranManuscripts } from './islam/quran-manuscripts';
+import { sunniOverview } from './islam/sects/sunni-overview';
+import { sunniCompanions } from './islam/sects/sunni-companions';
+import { sunniSalafiSufi } from './islam/sects/sunni-salafi-sufi';
+import { shiaOverview } from './islam/sects/shia-overview';
+import { shiaImamate } from './islam/sects/shia-imamate';
+import { shiaSources } from './islam/sects/shia-sources';
+import { shiaKarbalaGospel } from './islam/sects/shia-karbala-gospel';
+import { quranistOverview } from './islam/sects/quranist-overview';
+import { quranistAnswering } from './islam/sects/quranist-answering';
+import { ahmadiyyaOverview } from './islam/sects/ahmadiyya-overview';
+import { ahmadiyyaJesusInIndia } from './islam/sects/ahmadiyya-jesus-in-india';
+import { noiOverview } from './islam/sects/noi-overview';
+import { noiAnswering } from './islam/sects/noi-answering';
+import { druze } from './islam/sects/druze';
+import { alawites } from './islam/sects/alawites';
+import { alevis } from './islam/sects/alevis';
 
 export const topics: Topic[] = [
   truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, resurrection, jesusOnlyWay, problemOfEvil, hardPassages, havingTheConversation,
@@ -45,6 +61,8 @@ export const topics: Topic[] = [
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
   trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,
+  sunniOverview, sunniCompanions, sunniSalafiSufi, shiaOverview, shiaImamate, shiaSources, shiaKarbalaGospel,
+  quranistOverview, quranistAnswering, ahmadiyyaOverview, ahmadiyyaJesusInIndia, noiOverview, noiAnswering, druze, alawites, alevis,
 ];
 
 export { tracks };

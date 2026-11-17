@@ -12,7 +12,7 @@ Sources:
   Quran  - Sahih International English translation, npm package "quran-json"
   Hadith - sunnah.com English text and numbering, npm package "hadith" (SQLite database)
 """
-import json, re, sqlite3, sys
+import json, os, re, sqlite3, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -157,7 +157,9 @@ passages, missing = {}, []
 for r in collect_citations():
     p = build(r)
     (passages.__setitem__(r, p) if p else missing.append(r))
-OUT.write_text(json.dumps(passages, ensure_ascii=False, separators=(',', ':'), sort_keys=True), encoding='utf8')
+tmp = OUT.with_suffix(f'.{os.getpid()}.tmp')
+tmp.write_text(json.dumps(passages, ensure_ascii=False, separators=(',', ':'), sort_keys=True), encoding='utf8')
+os.replace(tmp, OUT)  # atomic, so a reader never sees a half-written file
 print(f'wrote {len(passages)} passages to {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)')
 if missing:
     print('MISSING:', ', '.join(missing))
