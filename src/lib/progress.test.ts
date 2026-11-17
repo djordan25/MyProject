@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isDue, nextReview, progress, type Progress } from './progress';
+import { daysPractised, daysUntilReview, isDue, localDate, nextReview, progress, type Progress } from './progress';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -20,6 +20,8 @@ describe('spaced repetition', () => {
       drills: { missed: 'review', fresh: 'got', old: 'got', legacy: 'got' },
       review: { fresh: { due: 10 * DAY, streak: 1 }, old: { due: 1 * DAY, streak: 1 } },
       notes: {},
+      confidence: {},
+      days: [],
     };
     const now = 2 * DAY;
     expect(isDue(p, 'unseen', now)).toBe(true);
@@ -27,6 +29,34 @@ describe('spaced repetition', () => {
     expect(isDue(p, 'old', now)).toBe(true);
     expect(isDue(p, 'legacy', now)).toBe(true);
     expect(isDue(p, 'fresh', now)).toBe(false);
+  });
+});
+
+describe('confidence ratings', () => {
+  it('schedules each level differently', () => {
+    expect(nextReview(undefined, 'again', 5)).toEqual({ due: 5, streak: 0 });
+    expect(nextReview({ due: 0, streak: 3 }, 'shaky', 0)).toEqual({ due: 1 * DAY, streak: 0 });
+    expect(nextReview({ due: 0, streak: 1 }, 'solid', 0)).toEqual({ due: 3 * DAY, streak: 2 });
+    expect(nextReview(undefined, 'teach', 0)).toEqual({ due: 14 * DAY, streak: 4 });
+    expect(nextReview({ due: 0, streak: 4 }, 'teach', 0)).toEqual({ due: 30 * DAY, streak: 6 });
+    expect(daysUntilReview(undefined, 'solid')).toBe(1);
+  });
+
+  it('maps levels onto mastery and records the practice day', () => {
+    progress.reset();
+    progress.rateDrill('a', 'shaky');
+    progress.rateDrill('b', 'teach');
+    const p = JSON.parse(progress.exportJson()) as Progress;
+    expect(p.drills).toEqual({ a: 'review', b: 'got' });
+    expect(p.confidence).toEqual({ a: 'shaky', b: 'teach' });
+    expect(p.days).toEqual([localDate(Date.now())]);
+    progress.reset();
+  });
+
+  it('counts practice days in the last week', () => {
+    const now = new Date(2026, 10, 17, 12).getTime();
+    const p = { days: ['2026-11-01', '2026-11-11', '2026-11-12', '2026-11-16', '2026-11-17'] } as Progress;
+    expect(daysPractised(p, now)).toBe(4);
   });
 });
 

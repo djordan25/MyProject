@@ -3,7 +3,8 @@ import { useSearchParams } from 'react-router-dom';
 import { topics, tracks, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
 import { isDue, useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
-import ObjectionDrill from '../components/ObjectionDrill';
+import Drill, { FormatToggle } from '../components/Drill';
+import { useDrillFormat } from '../lib/drillFormat';
 
 type Mode = 'all' | 'new' | 'review';
 
@@ -15,6 +16,7 @@ export default function Practice() {
   const [mode, setMode] = useState<Mode>(params.get('mode') === 'review' ? 'review' : 'all');
   const [seed, setSeed] = useState(0);
   const [i, setI] = useState(0);
+  const [format, setFormat] = useDrillFormat();
 
   const pool = useMemo(() => {
     const track = tracks.find((t) => t.id === trackId);
@@ -65,6 +67,7 @@ export default function Practice() {
         <button className={`btn ${mode === 'all' ? 'primary' : ''}`} onClick={() => restart('all')}>All objections</button>
         <button className={`btn ${mode === 'new' ? 'primary' : ''}`} onClick={() => restart('new')}>New</button>
         <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Due for review</button>
+        <FormatToggle format={format} onChange={setFormat} />
       </div>
       {!card ? (
         <section className="card">
@@ -72,13 +75,13 @@ export default function Practice() {
               ? 'Round complete'
               : mode === 'new'
                 ? 'You have practised every objection here.'
-                : 'Nothing is due. Objections you know come back for review after 1, 3, 7, 14 and 30 days.'}</h2>
+                : 'Nothing is due. Objections come back for review based on how confident you said you were.'}</h2>
           <button className="btn primary" onClick={() => restart(mode)}>Start again</button>
         </section>
       ) : (
         <>
           <p className="muted">Card {i + 1} of {deck.length}</p>
-          <ObjectionDrill key={`${seed}-${card.o.id}`} objection={card.o} context={card.topic} onRated={() => setI(i + 1)} />
+          <Drill key={`${seed}-${format}-${card.o.id}`} format={format} objection={card.o} context={card.topic} onRated={() => setI(i + 1)} />
         </>
       )}
     </>

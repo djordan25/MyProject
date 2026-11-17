@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import { topics, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
-import { isDue, topicCompletion, useProgress } from '../lib/progress';
+import { daysPractised, isDue, topicCompletion, useProgress } from '../lib/progress';
+import { buildSession } from '../lib/session';
 import { trackCompletion } from '../lib/trackProgress';
 import ProgressBar from '../components/ProgressBar';
+
+const MAX_SHOWN = 3;
 
 export default function Home() {
   const p = useProgress();
@@ -14,18 +17,32 @@ export default function Home() {
   const started = Boolean(inProgress);
   // Objections already practised at least once whose review date has arrived.
   const due = topics.flatMap((t) => t.objections).filter((o) => p.drills[o.id] && isDue(p, o.id)).length;
+  const today = buildSession(p);
+  const reviews = today.drills.filter((d) => d.kind !== 'new').length;
+  const fresh = today.drills.length - reviews;
+  const week = daysPractised(p);
+  const parts = [
+    reviews && `${reviews} review${reviews === 1 ? '' : 's'}`,
+    fresh && `${fresh} new objection`,
+    today.quiz.length && `${today.quiz.length} quiz questions`,
+  ].filter(Boolean);
   return (
     <>
       <section className="hero">
         <h1>Be ready with an answer</h1>
         <p>Learn the arguments, practise responding to real objections, and test yourself — a few minutes at a time.</p>
       </section>
-      {due > 0 && (
-        <Link to="/practice?mode=review" className="card due-banner">
-          <strong>{due} objection{due === 1 ? '' : 's'} due for review</strong>
-          <span>Practise now →</span>
-        </Link>
-      )}
+      <Link to="/today" className="card today">
+        <span className="today-body">
+          <span className="eyebrow">Today’s practice · about {today.minutes} min</span>
+          <strong>{parts.join(' · ')}</strong>
+          <small className="muted">
+            {week ? `You’ve practised on ${week} of the last 7 days.` : 'A few minutes a day keeps the answers ready.'}
+            {due > MAX_SHOWN ? ` ${due} objections are due in all.` : ''}
+          </small>
+        </span>
+        <span className="btn primary">Start</span>
+      </Link>
       {next && (
         <Link to={`/topic/${next.id}`} className="card due-banner">
           <span className="continue-label">

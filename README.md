@@ -32,8 +32,11 @@ All training content lives in `src/content/topics/*.ts`, one file per topic (see
 
 ## Practice features
 
+- **Today's practice:** the home page leads with a short daily session — up to three due reviews, one new objection, two quiz questions — ending on a summary with how many of the last 7 days you practised.
+- **Sparring mode (default):** each objection plays out as a conversation. You reply, see a strong answer, then they come back with their next line, following one path through the `followUps` tree. Switch to **Cards** on the Practice page or a topic's Objections tab; the choice is remembered.
 - **Follow-up replies:** many objections include "If they reply…" with the likely next response and how to answer it (`followUps` in the content files).
-- **Spaced repetition:** objections marked "Got it" come back for review after 1, 3, 7, 14 and 30 days; the home page shows how many are due.
+- **Key-point self-check:** if you wrote an answer, you tick which key points it covered and get a score, which suggests a confidence rating.
+- **Confidence ratings and spaced repetition:** rate each objection Again (today), Shaky (tomorrow), Solid (1, 3, 7, 14, then 30 days as the run grows) or Could teach it (jumps to 14+ days). Each button shows when the objection will come back.
 - **Search:** finds lessons, objections and references (try a hadith number).
 - **Summary tab:** each topic has a printable one-page review of its main points and objections.
 - **Glossary:** Islamic terms in plain English (`src/content/glossary.ts`).
