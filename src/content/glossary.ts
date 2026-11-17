@@ -48,7 +48,7 @@ export const glossary: Term[] = [
   { term: 'Salafi', meaning: 'A Sunni Muslim who seeks to follow the first three generations of Muslims (the salaf) and rejects later practices as innovations.' },
   { term: 'Salah', meaning: 'Ritual prayer, obligatory five times a day; one of the five pillars.' },
   { term: 'Shahada', meaning: 'The testimony of faith: “There is no god but Allah, and Muhammad is the messenger of Allah.”' },
-  { term: 'Shia', meaning: 'The second-largest branch of Islam (roughly 10 to 15 percent), which holds that leadership after Muhammad belonged to Ali and the Imams of his family, and has its own hadith collections.' },
+  { term: 'Shia', meaning: 'The second-largest branch of Islam (an estimated 10 to 13 percent of Muslims), which holds that leadership after Muhammad belonged to Ali and the Imams of his family, and has its own hadith collections.' },
   { term: 'Shirk', meaning: 'Associating partners with Allah; the gravest sin in Islam, and how Muslims regard the Trinity.' },
   { term: 'Sira', meaning: 'The traditional biographies of Muhammad.' },
   { term: 'Sufism', meaning: 'A mystical tradition found among both Sunni and Shia Muslims, stressing love for God and inward experience.' },

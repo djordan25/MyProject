@@ -9,7 +9,7 @@ export const branchesOfIslam: Topic = {
     {
       heading: 'Ask before you argue',
       body: [
-        'Much of this course argues from Sahih al-Bukhari and Sahih Muslim. That works with Sunni Muslims, who are the large majority, roughly 85 to 90 percent. It works less well with others. So ask early, and with real interest: “Which books do you follow besides the Quran?”',
+        'Much of this course argues from Sahih al-Bukhari and Sahih Muslim. That works with Sunni Muslims, who are the large majority, an estimated 87 to 90 percent. It works less well with others. So ask early, and with real interest: “Which books do you follow besides the Quran?”',
         'Whatever the answer, arguments drawn from the Quran itself apply to every group below, because all of them accept the Quran.',
       ],
     },
@@ -23,7 +23,7 @@ export const branchesOfIslam: Topic = {
     {
       heading: 'Shia Muslims',
       body: [
-        'Shia Muslims are roughly 10 to 15 percent of the Muslim world, and the majority in Iran and Iraq. They believe leadership after Muhammad belonged to his cousin and son-in-law Ali and to a line of Imams from his family. Most are “Twelvers”, who recognise twelve Imams.',
+        'Shia Muslims are an estimated 10 to 13 percent of the Muslim world, and the majority in Iran and Iraq. They believe leadership after Muhammad belonged to his cousin and son-in-law Ali and to a line of Imams from his family. Most are “Twelvers”, who recognise twelve Imams.',
         'Shia Muslims have their own hadith collections and do not trust many of the narrators Sunnis rely on. “Sahih al-Bukhari says” carries little weight with them.',
         'What still applies: everything argued from the Quran. The Quran’s affirmation of the Gospel (Quran 5:47), its denial of the crucifixion (Quran 4:157), its picture of Christian belief and its internal difficulties are the same for Shia and Sunni.',
         'Notice, too, what the split shows. The two largest bodies of Muslims disagree about which reports of Muhammad’s words are genuine. That is the problem of the hadith in plain view. The Shia Islam sub-track covers the Imams, the Shia sources and Karbala in depth.',
@@ -171,7 +171,7 @@ export const branchesOfIslam: Topic = {
       question: 'In which two countries named in the lesson are Shia Muslims the majority?',
       options: ['Egypt and Turkey', 'Saudi Arabia and Pakistan', 'Iran and Iraq', 'Indonesia and Malaysia'],
       answer: 2,
-      explanation: 'Shia Muslims are roughly 10 to 15 percent of the Muslim world and the majority in Iran and Iraq.',
+      explanation: 'Shia Muslims are an estimated 10 to 13 percent of the Muslim world and the majority in Iran and Iraq.',
     },
     {
       id: 'ib-q6',
