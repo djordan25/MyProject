@@ -488,7 +488,7 @@ export const shiaKarbalaGospel: Topic = {
   ],
   furtherReading: [
     'Mahmoud Ayoub, Redemptive Suffering in Islam: A Study of the Devotional Aspects of ‘Ashura’ in Twelver Shi‘ism (Mouton, 1978)',
-    'Heinz Halm, Shi‘ism (2nd edition, Edinburgh University Press, 2004)',
+    'Heinz Halm, Shi‘ism (Edinburgh University Press, 2004)',
     'Muhammad Husayn Tabataba’i, Shi‘ite Islam, translated by Seyyed Hossein Nasr (SUNY Press, 1975)',
     'John Stott, The Cross of Christ (InterVarsity Press, 1986)',
   ],

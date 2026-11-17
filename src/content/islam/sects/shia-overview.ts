@@ -430,7 +430,7 @@ export const shiaOverview: Topic = {
     },
   ],
   furtherReading: [
-    'Heinz Halm, Shi‘ism (2nd edition, Edinburgh University Press, 2004)',
+    'Heinz Halm, Shi‘ism (Edinburgh University Press, 2004)',
     'Moojan Momen, An Introduction to Shi‘i Islam (Yale University Press, 1985)',
     'Muhammad Husayn Tabataba’i, Shi‘ite Islam, translated by Seyyed Hossein Nasr (SUNY Press, 1975)',
     'Abdulaziz Sachedina, Islamic Messianism: The Idea of the Mahdi in Twelver Shi‘ism (SUNY Press, 1981)',
