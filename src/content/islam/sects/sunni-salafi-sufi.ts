@@ -26,8 +26,8 @@ export const sunniSalafiSufi: Topic = {
       heading: 'Salafis',
       body: [
         'Salafis take their name from al-salaf al-salih, the pious predecessors: the first three generations of Muslims, of whom Muhammad said, “The best people are those of my generation, and then those who will come after them” (Sahih al-Bukhari 6429). Their aim is Islam as those generations understood it, cleared of everything added since. Their watchword is the saying “every innovation is error” (Sahih Muslim 867). They go straight to the Quran and the sound hadith, distrust speculative theology, are wary of following a school without evidence, and reject Sufi devotion at tombs as idolatry.',
-        'Their heroes are Ahmad ibn Hanbal (died 855), Ibn Taymiyya (1263 to 1328), who died a prisoner in the citadel of Damascus after condemning the veneration of saints, and Muhammad ibn Abd al-Wahhab (1703 to 1792) of central Arabia. In 1744 Ibn Abd al-Wahhab settled under the protection of the house of Saud, and that alliance in time produced Saudi Arabia. Outsiders call his followers Wahhabis, a name they dislike. Among modern Salafi scholars is the hadith specialist al-Albani, who died in 1999. Many of the hadith gradings shown in this app’s popups are his.',
-        'Salafis are not all alike. Scholars commonly distinguish quietists, who avoid politics and concentrate on teaching and personal piety, activists, who work for political change, and a small jihadist wing. Most Salafis you meet are in the first group. To treat a Salafi neighbour as a terrorist is false and unjust.',
+        'Their heroes are Ahmad ibn Hanbal (died 855), Ibn Taymiyya (1263 to 1328), who died in prison in Damascus, jailed for teaching against journeys to graves to seek the intercession of the dead, and Muhammad ibn Abd al-Wahhab (1703 to 1792) of central Arabia. In 1744 Ibn Abd al-Wahhab made a pact with the house of Saud, and that alliance in time produced Saudi Arabia. Outsiders call his followers Wahhabis, a name they dislike. Among modern Salafi scholars is the hadith specialist al-Albani, who died in 1999. Many of the hadith gradings shown in this app’s popups are his.',
+        'Salafis are not all alike. A widely used classification, from the scholar Quintan Wiktorowicz, distinguishes purists, often called quietists, who avoid politics and concentrate on teaching and personal piety, politically active Salafis, who work for political change, and jihadists. They share one creed and differ over how to apply it. The great majority are not jihadists. To treat a Salafi neighbour as a terrorist is false and unjust.',
         'In the West, Salafi influence is larger than Salafi numbers. A count of British mosques in 2017 by the directory Muslims in Britain put about 9 percent in the Salafi column. But a great deal of the English-language teaching, the street stalls and the online debate that a Christian meets comes from this stream or has been shaped by it, helped by decades of Saudi funding and by scholarships to study in Medina.',
       ],
       references: ['Sahih al-Bukhari 6429', 'Sahih Muslim 867'],
@@ -35,19 +35,19 @@ export const sunniSalafiSufi: Topic = {
     {
       heading: 'Sufis, Barelvis and Deobandis',
       body: [
-        'Sufism (tasawwuf) is the inward side of Islam: cleansing the heart, loving God and drawing near to him. Sufis point to the hadith of Gabriel, where the third and deepest part of religion, ihsan, is “That you worship Allah as if you are seeing Him, for though you don’t see Him, He, verily, sees you” (Sahih Muslim 8). The theologian al-Ghazali, who died in 1111, did most to give Sufism an accepted place in Sunni Islam.',
+        'Sufism (tasawwuf) is the inward side of Islam: cleansing the heart, loving God and drawing near to him. Sufis point to the hadith of Gabriel, where the third and deepest part of religion, ihsan, is “That you worship Allah as if you are seeing Him, for though you don’t see Him, He, verily, sees you” (Sahih Muslim 8). The theologian al-Ghazali, who died in 1111 and is among the most influential of all Sunni scholars, took the Sufi path himself and wrote it into his teaching.',
         'Sufis are organised in orders, each under a master (shaykh) who traces his authority back through a chain of teachers to Muhammad. The Qadiri order is found almost everywhere, the Naqshbandi in Turkey and Central and South Asia, the Chishti in South Asia, the Shadhili in North Africa and the Tijani in West Africa. Their central practice is dhikr, the repeated remembrance of God’s names, alone or in a circle (Quran 33:41; 13:28). Many also honour dead saints, the friends of God (Quran 10:62-63), visit their tombs, ask for their intercession and celebrate Muhammad’s birthday.',
-        'In South Asia, and so among South Asian Muslims in Britain, North America and Europe, two movements matter most. The Barelvi movement follows Ahmad Raza Khan of Bareilly (1856 to 1921). It defends shrine devotion and holds a very high view of Muhammad: that he was created from light and is present and aware of his community. The Deobandi movement began at a seminary founded at Deoband in north India in the 1860s. It is strictly Hanafi and has Sufi roots, but it opposes most shrine practices. The missionary movement Tablighi Jamaat, which sends small groups from mosque to mosque calling Muslims back to prayer, grew out of it in the 1920s. In the 2017 count of British mosques about 41 percent were Deobandi and about 24 percent Barelvi.',
-        'In Lebanon you will meet both tendencies among Sunnis. The group known as al-Ahbash, which follows the Ethiopian-born scholar Abdullah al-Harari, is Sufi in outlook and strongly opposed to Salafis, while Salafi teaching has a following in Tripoli and the north.',
+        'In South Asia, and so among South Asian Muslims in Britain, North America and Europe, two movements matter most. The Barelvi movement follows Ahmad Raza Khan of Bareilly (1856 to 1921). It defends shrine devotion and holds a very high view of Muhammad: that he was created from God’s light, has knowledge of the unseen, and mediates for believers now. The Deobandi movement began at a seminary founded at Deoband in north India in 1867. It is strictly Hanafi and has Sufi roots, but it opposes what it sees as excesses at saints’ tombs. The missionary movement Tablighi Jamaat, which sends small groups from mosque to mosque calling Muslims back to prayer, grew out of it in the 1920s. In the 2017 count of British mosques about 41 percent were Deobandi and about 24 percent Barelvi.',
+        'In Lebanon you will meet both tendencies among Sunnis. The group known as al-Ahbash, which follows the Ethiopian-born scholar Abdullah al-Harari, is Sufi in outlook and strongly opposed to Salafis, while Salafi teaching has its main following in Tripoli and the north.',
       ],
       references: ['Sahih Muslim 8', 'Quran 33:41', 'Quran 13:28', 'Quran 10:62-63'],
     },
     {
       heading: 'They accuse one another',
       body: [
-        'These streams do not regard their differences as small. Salafis charge Sufis and Barelvis with innovation and with shirk, the sin the Quran says Allah will not forgive (Quran 4:48). They quote the verse about those who say of their patrons, “We only worship them that they may bring us nearer to Allah in position” (Quran 39:3), and Muhammad’s words, “May Allah curse the Jews and Christians for they built the places of worship at the graves of their Prophets” (Sahih al-Bukhari 435). When Ibn Abd al-Wahhab’s followers took Mecca and Medina in the early 1800s, and again in the 1920s, they pulled down the domed tombs of Muhammad’s family and companions.',
-        'Sufis and traditional scholars answer in kind. They accuse Salafis of giving God a body by taking his hand and his throne literally, of dishonouring the Prophet, and of the fanaticism of the early Kharijites. Among South Asian Sunnis the quarrel reached formal rulings of unbelief. Ahmad Raza Khan’s book Husam al-Haramayn, from the early 1900s, declared leading Deobandi scholars to be unbelievers, and Deobandis wrote replies. The dispute is still alive in mosques in Britain.',
-        'Muslim leaders have tried to stop this, and they deserve credit. The Amman Message of 2005, signed by scholars from across the Muslim world, declared it impermissible to call an Ash‘ari, a Sufi or a Salafi an apostate. But nobody issues such a statement unless the thing is happening. In 2016 a conference of Sunni scholars at Grozny defined the people of the Sunna as Ash‘aris and Maturidis in creed, followers of the four schools in law and Sufis in spirituality. Salafis were left out, and Saudi scholars protested.',
+        'These streams do not regard their differences as small. Salafis charge Sufis and Barelvis with innovation and with shirk, the sin the Quran says Allah will not forgive (Quran 4:48). They quote the verse about those who say of their patrons, “We only worship them that they may bring us nearer to Allah in position” (Quran 39:3), and Muhammad’s words, “May Allah curse the Jews and Christians for they built the places of worship at the graves of their Prophets” (Sahih al-Bukhari 435). When Ibn Abd al-Wahhab’s followers took Medina in the early 1800s they razed the domes over every grave except Muhammad’s own, and when Saudi forces took Mecca again in the 1920s the domes over its tombs were pulled down.',
+        'Sufis and traditional scholars answer in kind. They accuse Salafis of giving God a body by taking his hand and his throne literally, of dishonouring the Prophet, and of the fanaticism of the early Kharijites. Among South Asian Sunnis the quarrel reached formal rulings of unbelief. Ahmad Raza Khan’s fatwa Husam al-Haramayn, written in Mecca in 1906, declared several leading Deobandi scholars to be unbelievers and was endorsed by scholars of Mecca and Medina. Deobandis answered it point by point, and the dispute has never been settled.',
+        'Muslim leaders have tried to stop this, and they deserve credit. The three points of the Amman Message, agreed in 2005 by scholars from across the Muslim world, declared it impermissible to call an Ash‘ari, a Sufi or a Salafi an apostate. But nobody issues such a statement unless the thing is happening. In 2016 a conference of Sunni scholars at Grozny defined the people of the Sunna as those who follow the Ash‘ari or Maturidi school in creed, one of the four schools in law, and the Sufi path in spirituality. Salafi theology was left out, the statement likened “Salafi-takfirists” to the Kharijites, and Saudi scholars protested.',
         'This matters because Christians are often told that Islam is one and Christianity is hopelessly divided. Muhammad is reported to have said, “my community will be split up into seventy-three sects” (Sunan Abi Dawud 4596), with only one saved (Sunan Ibn Majah 3992). Each stream believes it is that one, though the Quran itself warns against “those who have divided their religion and become sects” (Quran 6:159). Do not gloat over this. Christians have their own divisions to answer for. Use it only to set aside a false contrast, and then ask what true unity is built on.',
       ],
       references: ['Quran 4:48', 'Quran 39:3', 'Sahih al-Bukhari 435', 'Sahih Muslim 969', 'Sunan Abi Dawud 4596', 'Sunan Ibn Majah 3992', 'Quran 6:159'],
@@ -56,7 +56,7 @@ export const sunniSalafiSufi: Topic = {
       heading: 'Talking with a Salafi: texts and consistency',
       body: [
         'A Salafi respects evidence from the texts and prizes consistency. That makes him, in one way, the easiest Muslim to reason with. Bring the Quran and the two Sahihs, cite exactly, and expect to be asked for your proof. The arguments of the main track apply at full strength: The Islamic Dilemma, Uthman’s Burning and the Lost Verses, Testing Muhammad’s Prophethood.',
-        'Commend his principle and then apply it. He refuses to follow tradition blindly, so ask whether he examined Islam itself or inherited it. He wants to go back to the earliest generation, so go there with him. For Islam, that generation is the companions, and the lesson The Companions and the First Caliphs sets out what the sound hadith say about them. For Jesus, the earliest sources are the first-century writings of the New Testament, six hundred years nearer to him than the Quran.',
+        'Commend his principle and then apply it. He refuses to follow tradition blindly, so ask whether he examined Islam itself or inherited it. He wants to go back to the earliest generation, so go there with him. For Islam, that generation is the companions, and the lesson The Companions and the First Caliphs sets out what the sound hadith say about them. For Jesus, the earliest sources are the first-century writings of the New Testament, more than five centuries nearer to him than the Quran.',
         'Test the rule about innovation as well. When Umar gathered the people for night prayers in Ramadan behind one reciter, he himself called it an excellent innovation (Sahih al-Bukhari 2010). When Abu Bakr proposed collecting the Quran into one book, Zayd objected, “How will you do something which Allah’s Messenger did not do?” (Sahih al-Bukhari 4986). So who decides what counts as innovation? Each stream draws the line in a different place.',
         'Expect a Salafi to press the oneness of God hard and to call the Trinity shirk. See Answering: “The Trinity Is Polytheism”. And do not leave the conversation at the level of texts. He too has heard Muhammad say that no one’s deeds will save him (Sahih al-Bukhari 6463).',
       ],
@@ -66,7 +66,7 @@ export const sunniSalafiSufi: Topic = {
       heading: 'Talking with a Sufi: knowing God, love and assurance',
       body: [
         'A Sufi longs to know God and to love him. Honour that longing. It is nearer to the heart of the gospel than any argument about sources. Jesus said, “Now this is eternal life, that they may know You, the only true God, and Jesus Christ, whom You have sent” (John 17:3).',
-        'Then talk about love. In the Quran God’s love answers ours: “If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins” (Quran 3:31), and the next verse says, “Allah does not like the disbelievers” (Quran 3:32). A much-loved hadith says the servant draws near by extra acts of devotion “till I love him” (Sahih al-Bukhari 6502). In the gospel God’s love comes first. “God is love… And love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10). “While we were still sinners, Christ died for us” (Romans 5:8).',
+        'Then talk about love. The Quran does speak of God’s love, and of a people “He will love and who will love Him” (Quran 5:54). But it promises that love to those who follow: “If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins” (Quran 3:31), and the next verse says, “Allah does not like the disbelievers” (Quran 3:32). A much-loved hadith says the servant draws near by extra acts of devotion “till I love him” (Sahih al-Bukhari 6502). In the gospel God’s love comes first. “God is love… And love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10). “While we were still sinners, Christ died for us” (Romans 5:8).',
         'Talk about nearness. The Sufi seeks it through a shaykh, a chain of masters and the help of saints. The gospel offers one mediator, who is alive: “there is one mediator between God and men, the man Christ Jesus” (1 Timothy 2:5), and “He always lives to intercede” for those who come to God through him (Hebrews 7:25). Through him the believer comes to God directly and calls him Father (Romans 8:15-16).',
         'And talk about assurance. The Sufi path is a long climb through stages, and no one can be sure he has arrived. Muhammad said that hearts lie between two fingers of the Merciful, who turns them as he wills (Sahih Muslim 2655). The gospel is God coming down to us (John 1:14), and it gives a settled confidence: “There is no fear in love, but perfect love drives out fear” (1 John 4:16-18). Do not assume that a Sufi is relaxed about doctrine or law. Many are strict. And do not scorn his experiences. Bring him to the words of Jesus.',
       ],
@@ -92,7 +92,7 @@ export const sunniSalafiSufi: Topic = {
               followUps: [
                 {
                   reply: 'The hadith were memorised and written in notebooks from the companions’ time. The six books only gathered what was already known.',
-                  answer: 'Some early notes did exist, and I grant it (Sahih al-Bukhari 113). In the same way the Gospels rest on eyewitness testimony older than the books themselves, as Luke says (Luke 1:1-4). So we both say that a later book can preserve earlier testimony. Then the question is which is nearer to the events and better supported. Complete copies of the New Testament survive from the fourth century, long before Muhammad was born.',
+                  answer: 'Some early notes did exist, and I grant it (Sahih al-Bukhari 113). In the same way the Gospels rest on eyewitness testimony older than the books themselves, as Luke says (Luke 1:1-4). So we both say that a later book can preserve earlier testimony. Then the question is which is nearer to the events and better supported. A complete copy of the New Testament survives from the fourth century, more than two hundred years before Muhammad was born, and papyrus copies of many of its books are older still.',
                 },
               ],
             },
@@ -103,8 +103,8 @@ export const sunniSalafiSufi: Topic = {
           answer: 'Have you removed it? By your rule “every innovation is error” (Sahih Muslim 867). Yet Umar called the night prayers he organised an excellent innovation (Sahih al-Bukhari 2010). And when the Quran was first collected into a book, Zayd asked, “How will you do something which Allah’s Messenger did not do?” (Sahih al-Bukhari 4986). The Quran between two covers is, by that measure, something Muhammad never did.',
           followUps: [
             {
-              reply: 'Those were acts of the rightly guided caliphs, and the Prophet told us to follow their Sunna. That is not innovation.',
-              answer: 'That saying is in Abu Dawud (Sunan Abi Dawud 4607), and it does give you a category. But the Sufi makes the same move: he speaks of good innovation and quotes Umar’s words and the saying, “He who sets a good precedent in Islam, there is a reward for him” (Sahih Muslim 1017). So the line between Sunna and innovation is drawn in different places, and each side condemns the other. The rule does not apply itself, so someone has to judge, and you are back to trusting men.',
+              reply: 'Those were acts of the rightly guided caliphs, and the Prophet told us to follow their Sunna. And Umar used the word in its everyday sense. The Prophet himself had led those prayers for some nights. That is not innovation in religion.',
+              answer: 'That saying is in Abu Dawud (Sunan Abi Dawud 4607), and Bukhari does record that Muhammad led those prayers for three nights and then stopped (Sahih al-Bukhari 2012). So you have a category. But the Sufi makes the same move: he speaks of good innovation and quotes Umar’s words and the saying, “He who sets a good precedent in Islam, there is a reward for him” (Sahih Muslim 1017). So the line between Sunna and innovation is drawn in different places, and each side condemns the other. The rule does not apply itself, so someone has to judge, and you are back to trusting men.',
             },
           ],
         },
@@ -115,12 +115,12 @@ export const sunniSalafiSufi: Topic = {
       objection: 'I do not need your arguments. I know Allah through the heart. In dhikr and with my shaykh I have tasted his nearness. Religion is love, not debate.',
       response:
         'I honour that longing, and I share it. Jesus said that eternal life is to know God (John 17:3). I am not offering you debate in place of love. I have news about love. May I ask how you know that God loves you? In the Quran his love is for those who follow: “If you should love Allah, then follow me, [so] Allah will love you” (Quran 3:31). The gospel says he loved us first: “not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10).',
-      keyPoints: ['Honour the longing to know God.', 'In the Quran God’s love answers our obedience.', 'In the gospel God loves first, and proves it at the cross.'],
+      keyPoints: ['Honour the longing to know God.', 'The Quran promises God’s love to those who follow and obey.', 'In the gospel God loves first, and proves it at the cross.'],
       references: ['John 17:3', 'Quran 3:31', '1 John 4:8-10', 'Romans 5:8'],
       followUps: [
         {
           reply: 'Allah is al-Wadud, the Loving. His mercy is greater than a mother’s for her child. I do not need a cross to know that.',
-          answer: 'The Quran does call him the Affectionate (Quran 85:14), and Muhammad said, “Allah is more merciful to His slaves than this lady to her son” (Sahih al-Bukhari 5999). I am glad of both. But how has that love been shown, and can a sinner be sure it is for him? The gospel points to something done: “God proves His love for us in this: While we were still sinners, Christ died for us” (Romans 5:8).',
+          answer: 'The Quran does call him the Affectionate (Quran 85:14) and speaks of a people “He will love and who will love Him” (Quran 5:54), and Muhammad said, “Allah is more merciful to His slaves than this lady to her son” (Sahih al-Bukhari 5999). I am glad of both. But how has that love been shown, and can a sinner be sure it is for him? The gospel points to something done: “God proves His love for us in this: While we were still sinners, Christ died for us” (Romans 5:8).',
           followUps: [
             {
               reply: 'The friends of Allah reach certainty by the path: repentance, discipline and the stations of the heart. Assurance is tasted, not argued.',
@@ -186,17 +186,17 @@ export const sunniSalafiSufi: Topic = {
       id: 'sns-4',
       objection: 'Islam is one religion: one God, one Book, one direction of prayer. Christianity is thousands of denominations that cannot agree on anything. That alone shows which is from God.',
       response:
-        'Muslims do share those things, and it is impressive. But united is not how Muslims describe one another. Salafis accuse Sufis of shirk at the shrines. Sufis and traditional scholars accuse Salafis of giving God a body. Barelvi and Deobandi scholars have issued rulings of unbelief against each other. Muhammad is reported to have said his community would split into seventy-three sects (Sunan Abi Dawud 4596). Christians are divided too, and I will not pretend otherwise. But we read the same Scriptures and confess the same gospel (1 Corinthians 15:3-4). Both communities have divisions, so division cannot settle which is true.',
+        'Muslims do share those things, and it is impressive. But united is not how Muslims describe one another. Salafis accuse Sufis of shirk at the shrines. Sufis and traditional scholars accuse Salafis of giving God a body. A Barelvi ruling declared leading Deobandi scholars unbelievers, and the two movements have traded fatwas ever since. Muhammad is reported to have said his community would split into seventy-three sects (Sunan Abi Dawud 4596). Christians are divided too, and I will not pretend otherwise. But we read the same Scriptures and confess the same gospel (1 Corinthians 15:3-4). Both communities have divisions, so division cannot settle which is true.',
       keyPoints: ['Grant what Muslims really share.', 'The Sunni streams accuse one another of innovation, shirk and unbelief.', 'Both faiths have divisions; truth is decided another way.'],
       references: ['Sunan Abi Dawud 4596', 'Sunan Ibn Majah 3992', '1 Corinthians 15:3-4', 'Ephesians 4:4-6'],
       followUps: [
         {
           reply: 'Those are differences of law and method. Nobody says the other group is outside Islam.',
-          answer: 'I wish that were so. Shirk is the sin Allah does not forgive (Quran 4:48), and that is the charge Salafis bring against prayer at tombs. In 2005 the Amman Message had to declare that Ash‘aris, Sufis and Salafis may not be called apostates. No one issues that unless people are being called apostates. And Ibn Abd al-Wahhab’s followers pulled down tombs in Mecca and Medina that other Sunnis revered.',
+          answer: 'I wish that were so. Shirk is the sin Allah does not forgive (Quran 4:48), and that is the charge Salafis bring against prayer at tombs. In 2005 the Amman Message had to declare that Ash‘aris, Sufis and Salafis may not be called apostates. No one issues that unless people are being called apostates. And Ibn Abd al-Wahhab’s followers pulled down the domes over graves in Medina and Mecca that other Sunnis revered.',
           followUps: [
             {
               reply: 'There are extremists everywhere. Mainstream scholars reject takfir, and the Amman Message shows that the community can come together.',
-              answer: 'Credit to them, and I honour every peacemaker. But it shows that Muslim unity is something leaders have to work for, as Christian leaders do, and not a miracle that marks Islam out. Nor did the statement end the matter. In 2016 a conference of Sunni scholars at Grozny defined the people of the Sunna in a way that left Salafis out, and Saudi scholars protested.',
+              answer: 'Credit to them, and I honour every peacemaker. But it shows that Muslim unity is something leaders have to work for, as Christian leaders do, and not a miracle that marks Islam out. Nor did the statement end the matter. In 2016 a conference of Sunni scholars at Grozny defined the people of the Sunna in a way that left Salafi theology out, and Saudi scholars protested.',
               followUps: [
                 {
                   reply: 'Still, we all pray the same prayer, facing the same way, with the same Book. Your divisions are about the very nature of God.',
@@ -320,7 +320,7 @@ export const sunniSalafiSufi: Topic = {
         'The compiler of Sahih Muslim',
       ],
       answer: 2,
-      explanation: 'He condemned the veneration of saints. Ahmad ibn Hanbal and Muhammad ibn Abd al-Wahhab are the other names Salafis most often invoke.',
+      explanation: 'He was jailed for teaching against journeys to graves to seek the help of the dead. Ahmad ibn Hanbal and Muhammad ibn Abd al-Wahhab are the other names Salafis most often invoke.',
     },
     {
       id: 'sns-q4',
@@ -351,7 +351,7 @@ export const sunniSalafiSufi: Topic = {
         'Barelvis do not pray five times a day',
       ],
       answer: 2,
-      explanation: 'The Barelvi movement follows Ahmad Raza Khan (1856 to 1921). The Deobandi movement began at a seminary in north India in the 1860s.',
+      explanation: 'The Barelvi movement follows Ahmad Raza Khan (1856 to 1921). The Deobandi movement began at a seminary founded in north India in 1867.',
     },
     {
       id: 'sns-q7',
@@ -367,7 +367,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       id: 'sns-q8',
-      question: 'What did the Amman Message of 2005 declare?',
+      question: 'What did the three points of the Amman Message, agreed in 2005, declare?',
       options: [
         'That Salafis are outside Islam',
         'That the four schools should be merged into one',
@@ -482,15 +482,15 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       id: 'sns-q18',
-      question: 'What three groups do scholars commonly distinguish among Salafis?',
+      question: 'Into what three groups does a widely used classification divide Salafis?',
       options: [
         'Hanafis, Malikis and Shafi‘is',
-        'Quietists, political activists and jihadists',
+        'Purists or quietists, politically active Salafis and jihadists',
         'Barelvis, Deobandis and Tablighis',
         'Ash‘aris, Maturidis and Atharis',
       ],
       answer: 1,
-      explanation: 'Most Salafis are quietists who avoid politics. Treating a Salafi neighbour as a terrorist is false and unjust.',
+      explanation: 'They share one creed and differ over how to apply it. The great majority are not jihadists, and treating a Salafi neighbour as a terrorist is false and unjust.',
     },
   ],
   furtherReading: [
