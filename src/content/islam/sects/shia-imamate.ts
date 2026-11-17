@@ -18,7 +18,7 @@ export const shiaImamate: Topic = {
       heading: 'Ghadir Khumm',
       body: [
         'In March 632, on the way back from his last pilgrimage and less than three months before his death, Muhammad halted the caravan at a pool called Ghadir Khumm, between Mecca and Medina. Sahih Muslim records that he preached there and said, “I am leaving among you two weighty things: the one being the Book of Allah in which there is right guidance and light”, and that the second was the members of his household (Sahih Muslim 2408). Shia Muslims call this the saying of the two weighty things.',
-        'Other Sunni collections record what he said about Ali that day. He asked the people whether he was not closer to the believers than their own selves. Then he took Ali’s hand and said that whoever had him as mawla had Ali as mawla, and he prayed, “O Allah, take as friends those who take him as a friend, and take as enemies those who take him as an enemy” (Musnad Ahmad 950; see 961). Another report has him say, “If I am a person’s close friend, ‘Ali is also his close friend” (Sunan Ibn Majah 121).',
+        'Other Sunni collections record what he said about Ali that day. In the fuller versions he first asked the people whether he was not closer to the believers than their own selves. Then he said that whoever had him as mawla had Ali as mawla, and he prayed, “O Allah, take as friends those who take him as a friend, and take as enemies those who take him as an enemy” (Musnad Ahmad 950; see 961). The editors grade these two reports sound or good because other chains support them. Another report, graded sound, has him say, “If I am a person’s close friend, ‘Ali is also his close friend” (Sunan Ibn Majah 121).',
         'Everything turns on the word mawla. It can mean master, patron, protector, ally or friend. The English translations in the popups choose “friend”, which is the Sunni reading: Muhammad was defending Ali against men who had complained about him on an expedition to Yemen (Sahih al-Bukhari 4350). The Shia read “master”. They ask why a prophet near death would stop a caravan in the heat, and remind the crowd of his own authority over them, merely to say that Ali was his friend. Shia Muslims keep the day as a festival.',
         'Shia teachers add two verses of the Quran. They say that “O Messenger, announce that which has been revealed to you from your Lord, and if you do not, then you have not conveyed His message” (Quran 5:67) was the command to proclaim Ali, and that “This day I have perfected for you your religion” (Quran 5:3) came down when he had done so. Neither verse names Ali or Ghadir. A Sunni report places the second verse at Arafat, days earlier (Sahih al-Bukhari 45).',
       ],
@@ -260,7 +260,7 @@ export const shiaImamate: Topic = {
           followUps: [
             {
               reply: 'The religion was perfect. The people were not. Do not blame Allah for the sins of men.',
-              answer: 'I do not blame God for men’s sins. I am asking whether this is how God’s final message for all mankind would be secured. In the gospel the weakness of the disciples is met by something stronger than they are. Jesus was betrayed and deserted. Then he rose, gathered the same men, and promised, “surely I am with you always, even to the end of the age” (Matthew 28:20). His church does not hang on a document that was never written or a successor who was pushed aside. It hangs on a living Lord.',
+              answer: 'I do not blame God for men’s sins. I am asking whether this is how God’s final message for all mankind would be secured. In the gospel the weakness of the disciples is met by something stronger than they are. Jesus was betrayed and deserted, and then he rose, gathered the same men, and promised, “surely I am with you always, even to the end of the age” (Matthew 28:20). His church does not hang on a document that was never written or a successor who was pushed aside, but on a living Lord.',
               followUps: [
                 {
                   reply: 'A risen Lord is your belief. The Quran says he was not killed, so he did not rise.',
@@ -294,18 +294,18 @@ export const shiaImamate: Topic = {
         'Husayn was killed',
       ],
       answer: 1,
-      explanation: 'On the way back from his last pilgrimage Muhammad took Ali’s hand and said that whoever had him as mawla had Ali as mawla. Sunni collections record the saying (Musnad Ahmad 950).',
+      explanation: 'On the way back from his last pilgrimage Muhammad said that whoever had him as mawla had Ali as mawla. Sunni collections record the saying (Musnad Ahmad 950).',
     },
     {
       id: 'shi-q2',
       question: 'Why do Sunni and Shia Muslims read the saying at Ghadir Khumm differently?',
       options: [
         'Sunnis deny that Muhammad ever said it',
-        'The word mawla can mean master or friend',
-        'The Shia have a different Arabic text of the Quran',
         'The saying is found only in Shia books',
+        'The Shia have a different Arabic text of the Quran',
+        'The word mawla can mean master or friend',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'Sunnis take mawla as “friend” or “ally”. The Shia take it as “master”. The English in the popups follows the Sunni reading.',
     },
     {
@@ -313,11 +313,11 @@ export const shiaImamate: Topic = {
       question: 'In Sahih Muslim 2408, what are the “two weighty things” Muhammad said he was leaving?',
       options: [
         'The Quran and the sword',
-        'The Book of Allah and the members of his household',
         'Mecca and Medina',
+        'The Book of Allah and the members of his household',
         'Prayer and fasting',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'He spoke at a watering place called Khumm, between Mecca and Medina (Sahih Muslim 2408).',
     },
     {
@@ -335,8 +335,8 @@ export const shiaImamate: Topic = {
     {
       id: 'shi-q5',
       question: 'According to Sahih al-Bukhari 114, who answered Muhammad’s request for writing materials by saying that Allah’s Book was sufficient?',
-      options: ['Ali', 'Abu Bakr', 'Umar', 'Ibn Abbas'],
-      answer: 2,
+      options: ['Ali', 'Umar', 'Abu Bakr', 'Ibn Abbas'],
+      answer: 1,
       explanation: 'The companions quarrelled, Muhammad sent them out, and nothing was written. Ibn Abbas called it a great disaster.',
     },
     {
@@ -344,11 +344,11 @@ export const shiaImamate: Topic = {
       question: 'What stance should a Christian take in the dispute between Sunni and Shia over Ali?',
       options: [
         'Defend the Sunni account, since most Muslims hold it',
-        'Defend the Shia account, since it is closer to Christianity',
         'Take neither side, and ask what the dispute shows about Islam’s beginnings',
+        'Defend the Shia account, since it is closer to Christianity',
         'Avoid the subject altogether',
       ],
-      answer: 2,
+      answer: 1,
       explanation: 'A Christian has no reason to defend Abu Bakr or to prove Ali’s right. The useful question is what each account implies.',
     },
     {
@@ -356,30 +356,30 @@ export const shiaImamate: Topic = {
       question: 'The Quran calls itself “the Book explained in detail” (Quran 6:114). Why does that matter for the Imamate?',
       options: [
         'The Quran names all twelve Imams',
-        'The Quran never names Ali or mentions twelve Imams, though Twelvers make the Imamate a root of religion',
-        'The Quran forbids following any leader',
         'The Quran names Abu Bakr as successor',
+        'The Quran forbids following any leader',
+        'The Quran never names Ali or mentions twelve Imams, though Twelvers make the Imamate a root of religion',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'It names Zayd (Quran 33:37) and Abu Lahab (Quran 111:1), but is silent on what Twelvers call a root of the faith.',
     },
     {
       id: 'shi-q8',
       question: 'What answer does al-Kafi attribute to Ja‘far al-Sadiq when asked why Ali is not named in the Quran?',
       options: [
-        'The verse naming Ali was lost',
         'The Quran commands prayer without giving the number of units, and the Prophet explained both',
+        'The verse naming Ali was lost',
         'Ali is named in a hidden chapter',
         'The question is forbidden',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'The reply shows the question is old. The difficulty remains that a detail of practice is not the same as a root of belief.',
     },
     {
       id: 'shi-q9',
       question: 'Who are Quran 33:28-34, the verses surrounding the “verse of purification”, addressed to?',
-      options: ['The twelve Imams', 'The Prophet’s wives', 'The people of Mecca', 'The Christians of Najran'],
-      answer: 1,
+      options: ['The twelve Imams', 'The people of Mecca', 'The Prophet’s wives', 'The Christians of Najran'],
+      answer: 2,
       explanation: 'The passage speaks to the wives of the Prophet throughout, which is why the meaning of “household” in Quran 33:33 is disputed.',
     },
     {
@@ -387,11 +387,11 @@ export const shiaImamate: Topic = {
       question: 'What happened among the Shia after the death of Ja‘far al-Sadiq in 765?',
       options: [
         'All accepted Musa al-Kazim without dispute',
-        'They divided, some following Musa al-Kazim and others the line of Isma‘il or another son',
-        'They all became Zaydis',
         'They joined the Abbasid caliph',
+        'They all became Zaydis',
+        'They divided, some following Musa al-Kazim and others the line of Isma‘il or another son',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'Divisions followed the deaths of several Imams. That is hard to square with a clear and public naming of each successor.',
     },
     {
@@ -410,19 +410,19 @@ export const shiaImamate: Topic = {
       id: 'shi-q12',
       question: 'How do Shia teachers answer the objection that a hidden Imam cannot guide?',
       options: [
-        'They say he benefits people like the sun behind clouds, and guides inwardly',
-        'They say he appears every year at Mecca to teach',
         'They say the marja‘ are infallible in his place',
+        'They say he appears every year at Mecca to teach',
+        'They say he benefits people like the sun behind clouds, and guides inwardly',
         'They say guidance is no longer needed',
       ],
-      answer: 0,
+      answer: 2,
       explanation: 'The saying is found in al-Saduq’s Kamal al-Din. Ask whether it meets the need that was said to make an Imam necessary.',
     },
     {
       id: 'shi-q13',
       question: 'The report of “twelve” in Sahih al-Bukhari 7222 and Sahih Muslim 1821 speaks of twelve what?',
-      options: ['Prophets', 'Rulers or caliphs from Quraysh', 'Hidden Imams', 'Books of hadith'],
-      answer: 1,
+      options: ['Rulers or caliphs from Quraysh', 'Prophets', 'Hidden Imams', 'Books of hadith'],
+      answer: 0,
       explanation: 'Of the twelve Imams only Ali, and Hasan briefly, ever ruled.',
     },
     {
@@ -430,23 +430,23 @@ export const shiaImamate: Topic = {
       question: 'A Shia friend says the “twelve rulers” promised to Ishmael in Genesis 17:20 are the twelve Imams. What does Genesis itself say?',
       options: [
         'It never mentions them again',
-        'It lists Ishmael’s twelve sons by name and calls them twelve princes',
         'It says they will come from Isaac',
-        'It says they are twelve angels',
+        'It lists Ishmael’s twelve sons by name and calls them twelve princes',
+        'It says they will arise in the last days',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'Genesis 25:13-16 names them. Genesis 17:21 adds that God’s covenant would be established with Isaac.',
     },
     {
       id: 'shi-q15',
       question: 'If the Shia account of Ghadir Khumm is right, what follows about Muhammad’s companions?',
       options: [
-        'Almost all of them set aside his public command within three months',
+        'They wrote the appointment into the Quran',
         'They all supported Ali from the first day',
         'They had never heard of Ali',
-        'They wrote the appointment into the Quran',
+        'Almost all of them set aside his public command within three months',
       ],
-      answer: 0,
+      answer: 3,
       explanation: 'These are the people through whom the Quran and the reports about Muhammad were handed down.',
     },
     {
@@ -465,12 +465,12 @@ export const shiaImamate: Topic = {
       id: 'shi-q17',
       question: 'A Shia friend says, “Jesus is hidden too, just like our Imam.” Which reply is accurate?',
       options: [
-        'Christians also believe Jesus is hiding from his enemies',
         'Jesus rose openly, was seen by many witnesses, promised to be with his people always, and is prayed to as Lord',
+        'Christians also believe Jesus is hiding from his enemies',
         'Christians have no idea where Jesus is',
         'Jesus appointed twelve hidden successors',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'He was seen by more than five hundred at once (1 Corinthians 15:6) and said, “I am with you always” (Matthew 28:20).',
     },
   ],

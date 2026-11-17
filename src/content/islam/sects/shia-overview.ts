@@ -121,7 +121,7 @@ export const shiaOverview: Topic = {
           followUps: [
             {
               reply: 'Your first generation was no better. Judas betrayed Jesus, Peter denied him, and all the disciples ran away.',
-              answer: 'They did, and the Gospels say so plainly (Mark 14:66-72). But see what happened next. The risen Jesus restored Peter (John 21:15-17), and those same men preached one message and suffered for it. Paul could say of himself and the other apostles, “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11). Their failure was healed by a living Lord. The dispute at Muhammad’s death was never healed. It became Sunni and Shia.',
+              answer: 'They did, and the Gospels say so plainly (Mark 14:66-72). But the risen Jesus restored Peter (John 21:15-17), and those same men preached one message and suffered for it. Paul could say of himself and the other apostles, “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11). Their failure was healed by a living Lord. The dispute at Muhammad’s death was never healed, and it became Sunni and Shia.',
               followUps: [
                 {
                   reply: 'Paul opposed Peter to his face. Your own Bible shows the apostles divided.',
@@ -234,6 +234,12 @@ export const shiaOverview: Topic = {
             {
               reply: 'At the judgment God will repay the wronged and settle every account. That is justice enough.',
               answer: 'Then think about your own account, and not only the tyrant’s. If every wrong must be settled, mine must be too, and I have wronged God and other people more often than I can count. On the scales I have no hope. The good news is that my account has been settled by another: “Christ also suffered for sins once for all, the righteous for the unrighteous, to bring you to God” (1 Peter 3:18).',
+              followUps: [
+                {
+                  reply: 'Then a Christian may sin as much as he likes, since someone else has paid. That is no justice either.',
+                  answer: 'Paul was asked the same thing and answered, “Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1-2). A person who has understood what his forgiveness cost does not treat sin lightly. He begins to hate it. And God gives those he forgives a new heart and his own Spirit (Ezekiel 36:26-27), so that obedience grows from gratitude and not from fear. Grace does not excuse sin. It breaks its hold.',
+                },
+              ],
             },
           ],
         },
@@ -244,15 +250,15 @@ export const shiaOverview: Topic = {
     {
       id: 'sho-q1',
       question: 'What does the word “Shia” come from?',
-      options: ['A word for “tradition”', 'Shi‘at Ali, “the party of Ali”', 'The name of a town in Iraq', 'A word for “hidden”'],
-      answer: 1,
+      options: ['A word for “tradition”', 'The name of a town in Iraq', 'Shi‘at Ali, “the party of Ali”', 'A word for “hidden”'],
+      answer: 2,
       explanation: 'Those who held that leadership after Muhammad belonged to Ali were called the party of Ali.',
     },
     {
       id: 'sho-q2',
       question: 'Which of these is one of the five roots of religion for Twelvers but not a root for Sunnis?',
-      options: ['The oneness of God', 'Prophethood', 'The Imamate', 'The resurrection'],
-      answer: 2,
+      options: ['The Imamate', 'Prophethood', 'The oneness of God', 'The resurrection'],
+      answer: 0,
       explanation: 'The five roots are the oneness of God, divine justice, prophethood, the Imamate and the resurrection. Justice and the Imamate are distinctively Shia.',
     },
     {
@@ -261,31 +267,31 @@ export const shiaOverview: Topic = {
       options: [
         'He is a prophet who brings a new scripture',
         'He is a prayer leader chosen by the congregation',
-        'He is a divinely appointed, sinless successor who guards and explains the revelation',
         'He is any ruler who governs justly',
+        'He is a divinely appointed, sinless successor who guards and explains the revelation',
       ],
-      answer: 2,
+      answer: 3,
       explanation: 'The Imam is held to be protected from sin and error. He brings no new scripture, since prophethood ended with Muhammad.',
     },
     {
       id: 'sho-q4',
       question: 'What are the dates of the lesser occultation of the twelfth Imam?',
-      options: ['632 to 661', '680 to 765', '874 to 941', '1094 to 1171'],
-      answer: 2,
+      options: ['632 to 661', '874 to 941', '680 to 765', '1094 to 1171'],
+      answer: 1,
       explanation: 'It began when the eleventh Imam died in 874 and ended with the death of the fourth deputy in 941. The greater occultation has lasted since then.',
     },
     {
       id: 'sho-q5',
       question: 'During the lesser occultation, how is the hidden Imam said to have communicated with his followers?',
-      options: ['Through public sermons in Samarra', 'Through four successive deputies', 'Through the Abbasid caliph', 'Through letters to the Sunni scholars'],
-      answer: 1,
+      options: ['Through public sermons in Samarra', 'Through letters to the Sunni scholars', 'Through the Abbasid caliph', 'Through four successive deputies'],
+      answer: 3,
       explanation: 'When the fourth deputy died in 941 no successor was named, and the greater occultation began.',
     },
     {
       id: 'sho-q6',
       question: 'Which of these is one of the Four Books of Twelver hadith?',
-      options: ['Sahih al-Bukhari', 'Al-Kafi', 'Musnad Ahmad', 'Sunan Abi Dawud'],
-      answer: 1,
+      options: ['Sahih al-Bukhari', 'Musnad Ahmad', 'Al-Kafi', 'Sunan Abi Dawud'],
+      answer: 2,
       explanation: 'The Four Books are al-Kafi, Man La Yahduruhu al-Faqih, Tahdhib al-Ahkam and al-Istibsar. The others listed are Sunni collections.',
     },
     {
@@ -300,11 +306,11 @@ export const shiaOverview: Topic = {
       question: 'What is a marja‘ al-taqlid?',
       options: [
         'One of the twelve Imams',
-        'A deputy of the hidden Imam during the lesser occultation',
         'A senior living jurist whose rulings ordinary believers follow',
+        'A deputy of the hidden Imam during the lesser occultation',
         'A shrine of one of the Imams',
       ],
-      answer: 2,
+      answer: 1,
       explanation: 'The phrase means “source of emulation”. Such scholars are popularly called grand ayatollahs.',
     },
     {
@@ -322,20 +328,20 @@ export const shiaOverview: Topic = {
     {
       id: 'sho-q10',
       question: 'Which branch of Shia Islam follows a living, visible Imam called the Aga Khan?',
-      options: ['The Twelvers', 'The Zaydis', 'The Nizari Ismailis', 'The Bohras'],
-      answer: 2,
+      options: ['The Twelvers', 'The Zaydis', 'The Bohras', 'The Nizari Ismailis'],
+      answer: 3,
       explanation: 'The Ismailis parted from the Twelvers after 765 and divided in 1094. The Nizaris follow the Aga Khan.',
     },
     {
       id: 'sho-q11',
       question: 'Over what did the Ismailis part from those who became the Twelvers?',
       options: [
-        'Whether Ali was the first Imam',
         'Who succeeded Ja‘far al-Sadiq after his death in 765',
+        'Whether Ali was the first Imam',
         'Whether Husayn should have gone to Karbala',
         'Whether the twelfth Imam was born',
       ],
-      answer: 1,
+      answer: 0,
       explanation: 'Ismailis traced the Imamate through Ja‘far’s son Isma‘il. Twelvers followed his son Musa al-Kazim.',
     },
     {
@@ -354,12 +360,12 @@ export const shiaOverview: Topic = {
       id: 'sho-q13',
       question: 'According to the Pew Research Center’s 2009 estimates, in which four countries are Shia Muslims the majority of the population?',
       options: [
-        'Iran, Iraq, Bahrain and Azerbaijan',
+        'Lebanon, Jordan, Kuwait and Oman',
         'Iran, Pakistan, Egypt and Syria',
         'Iraq, Saudi Arabia, Yemen and Turkey',
-        'Lebanon, Jordan, Kuwait and Oman',
+        'Iran, Iraq, Bahrain and Azerbaijan',
       ],
-      answer: 0,
+      answer: 3,
       explanation: 'Pew estimated that Shia are 10 to 13 percent of all Muslims and a majority in those four countries.',
     },
     {
@@ -367,11 +373,11 @@ export const shiaOverview: Topic = {
       question: 'Where are the heartlands of Lebanon’s Shia community?',
       options: [
         'Tripoli and the northern coast',
-        'Mount Lebanon and the Chouf',
         'The south, the Bekaa valley and the southern suburbs of Beirut',
+        'Mount Lebanon and the Chouf',
         'The city of Sidon alone',
       ],
-      answer: 2,
+      answer: 1,
       explanation: 'Amal and Hezbollah are the two main Shia parties there. Do not assume a Lebanese Shia supports either.',
     },
     {
@@ -379,23 +385,23 @@ export const shiaOverview: Topic = {
       question: 'Which arguments in this course apply to a Shia Muslim in full?',
       options: [
         'Only those from Sahih al-Bukhari',
-        'Those argued from the Quran itself',
         'Only those about the caliphs',
+        'Those argued from the Quran itself',
         'None, because Shia use a different Quran',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'Shia and Sunni Muslims read the same Quran. Arguments that rest on Bukhari and Muslim carry less weight with a Shia.',
     },
     {
       id: 'sho-q16',
       question: 'How may you still use a report from Sahih al-Bukhari with a Shia friend?',
       options: [
-        'As an authority he is bound to accept',
-        'As proof that Sunnis are right about Ali',
         'As evidence of what most Muslims have believed, or where Shia teachers cite the same report',
+        'As proof that Sunnis are right about Ali',
+        'As an authority he is bound to accept',
         'You may never mention it at all',
       ],
-      answer: 2,
+      answer: 0,
       explanation: 'A Shia does not accept Bukhari as an authority, so name it for what it is: Sunni testimony.',
     },
     {
@@ -403,11 +409,11 @@ export const shiaOverview: Topic = {
       question: 'What happened among the followers of the eleventh Imam after his death in 874?',
       options: [
         'All of them at once accepted his son as the hidden Imam',
-        'They divided into many factions, and not all accepted that he had left a son',
         'They joined the Sunni majority',
+        'They divided into many factions, and not all accepted that he had left a son',
         'They all became Ismailis',
       ],
-      answer: 1,
+      answer: 2,
       explanation: 'The early Shia writer al-Nawbakhti counted fourteen factions. The Twelver view prevailed and the others died out.',
     },
     {
@@ -415,11 +421,11 @@ export const shiaOverview: Topic = {
       question: 'A Shia friend says God’s justice rules out the cross. Which reply meets him on his own ground?',
       options: [
         'Justice does not matter to God',
-        'Because God is just, sin cannot simply be waved away, and Jesus bore it willingly as God the Son',
-        'The Quran teaches the cross as well',
         'Husayn carried the sins of the Shia in the same way',
+        'The Quran teaches the cross as well',
+        'Because God is just, sin cannot simply be waved away, and Jesus bore it willingly as God the Son',
       ],
-      answer: 1,
+      answer: 3,
       explanation: 'God is “just” and the one who justifies those who have faith in Jesus (Romans 3:25-26). Jesus laid down his life of his own accord (John 10:17-18).',
     },
   ],
