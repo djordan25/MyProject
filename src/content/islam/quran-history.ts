@@ -95,7 +95,7 @@ export const quranHistory: Topic = {
     {
       id: 'qh-3',
       followUps: [
-        { reply: 'Islamic sources name the Jews of Medina who said it.', answer: 'Later Muslim writers name a few individuals. But the Quran does not say that a few men in Medina said it. It says, “The Jews say, ‘Ezra is the son of Allah’” (Quran 9:30), alongside what Christians say of the Messiah. A claim about a whole people cannot rest on a handful of names recorded by their opponents generations later.' },
+        { reply: 'Islamic sources name the Jews of Medina who said it.', answer: 'Muslim writers do name individuals, and they do not agree: al-Tabari reports that some said it was one man, Finhas, and others that it was a group of four or five men of Medina, the account Ibn Ishaq gives. But the Quran does not say that a few men in Medina said it. It says, “The Jews say, ‘Ezra is the son of Allah’” (Quran 9:30), alongside what Christians say of the Messiah. A claim about a whole people cannot rest on a handful of names recorded by their opponents generations later.' },
       ],
       objection: 'Maybe some small Jewish sect in Arabia called Ezra the son of God.',
       response:

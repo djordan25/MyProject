@@ -9,7 +9,7 @@ export const quranManuscripts: Topic = {
     {
       heading: 'Why look at manuscripts?',
       body: [
-        'The earlier lessons argued from the hadith. This one looks at physical evidence: the oldest surviving copies of the Quran, studied by Western and Muslim scholars alike. This lesson relies on published scholarship, listed under Further reading, not on the Quran or hadith, so present it as what researchers report and check a detail before you rely on it.',
+        'The earlier lessons argued from the hadith. This one looks at physical evidence: the oldest surviving copies of the Quran, studied by Western and Muslim scholars alike. This lesson relies on published scholarship, listed under Further reading, not on the Quran or hadith, so present it as what researchers report.',
         'Be measured. The Quran’s text has been stable since early in Islam’s history, and the differences discussed here are small beside the whole. The claim being tested is the popular one: that every Quran, in every age, is identical to the last letter.',
       ],
     },
@@ -17,7 +17,7 @@ export const quranManuscripts: Topic = {
       heading: 'The Sana‘a palimpsest',
       body: [
         'In 1972, workers restoring the Great Mosque of Sana‘a in Yemen found a store of very old Quran fragments. One of them is a palimpsest: a parchment whose first writing was scraped off and written over. The upper writing is the standard Quran. The erased lower writing, which can still be read with imaging, is also Quran, and it is among the oldest Quran texts known, from the seventh century.',
-        'The lower text is not the standard text. It differs in words and phrases, sometimes has extra or missing words, and arranges some surahs in a different order. The scholars who published it, Behnam Sadeghi and Mohsen Goudarzi, concluded that it belongs to a different line of text from the one Uthman standardised, and that some of its readings match those Muslim tradition attributes to companions such as Ibn Mas‘ud.',
+        'The lower text is not the standard text. It differs in words and phrases, sometimes has extra or missing words, and arranges some surahs in a different order. The scholars who published it, Behnam Sadeghi and Mohsen Goudarzi, concluded that it belongs to a different line of text from the one Uthman standardised, and that some of its readings match those Muslim tradition attributes to companions such as Ibn Mas‘ud. Other scholars who have studied it, Elisabeth Puin and Asma Hilali, find little or no such match.',
         'So the manuscript shows in ink what the hadith describe: more than one form of the Quran existed in the first decades, and the non-standard form was removed in favour of the standard one (compare Sahih al-Bukhari 4987, where other copies are burnt).',
       ],
       references: ['Sahih al-Bukhari 4987'],
@@ -25,7 +25,7 @@ export const quranManuscripts: Topic = {
     {
       heading: 'Is there a copy from Uthman’s own hand?',
       body: [
-        'Famous manuscripts in Istanbul (the Topkapi codex) and Tashkent (the Samarkand codex) are traditionally said to be Uthman’s own copies. Scholars who have examined them date them later, to the late seventh or eighth century at the earliest, after Uthman’s death. The Muslim scholar Tayyar Altıkulaç, who published the Topkapi manuscript, himself concluded that it is not one of the copies Uthman sent out.',
+        'Famous manuscripts in Istanbul (the Topkapi codex) and Tashkent (the Samarkand codex) are traditionally said to be Uthman’s own copies. Scholars who have examined them date them after Uthman’s death: the Topkapi codex to around the eighth century, and the Samarkand codex to the eighth or ninth. The Muslim scholar Tayyar Altıkulaç, who published the Topkapi manuscript, himself concluded that it is not one of the copies Uthman sent out.',
         'The Birmingham leaves made headlines in 2015 when their parchment was radiocarbon dated to between about AD 568 and 645. They are two leaves, with parts of three surahs, and their text is close to the standard one. That shows the standard text is early. It cannot show that the whole Quran was copied without change, and a radiocarbon date tells when the animal died, not when the ink was applied.',
         'No complete Quran survives from the lifetime of Muhammad or of Uthman.',
       ],
@@ -41,7 +41,7 @@ export const quranManuscripts: Topic = {
       heading: 'Which Quran is printed today?',
       body: [
         'Most Qurans printed today follow one reading, called Hafs from ‘Asim. It had already spread widely under the Ottomans, and an edition printed in Cairo in 1924 gave it the standard printed form now used almost everywhere. The editors of that edition worked from the traditional literature on the readings, not from the oldest manuscripts.',
-        'Other readings are still in use, above all Warsh from Nafi‘ in North and West Africa. Muslim scholars accept ten readings as valid, each handed down in two transmissions. Seven were selected in the tenth century by the scholar Ibn Mujahid, about three hundred years after Muhammad, and three more were recognised later.',
+        'Other readings are still in use, above all Warsh from Nafi‘ in North and West Africa. Muslim scholars accept ten readings as valid, each handed down in two transmissions. Seven were selected in the tenth century by the scholar Ibn Mujahid, about three hundred years after Muhammad, and three more were added to the list later, by Ibn al-Jazari in the fifteenth century.',
         'The readings differ in vowels, in letters and sometimes in meaning. In Quran 1:4, Hafs reads maaliki, “owner” or “master” of the Day of Judgment, and Warsh reads maliki, “king”. English translations often blur the difference. In Quran 2:125, Hafs has a command to take the station of Abraham as a place of prayer, and Warsh has a statement that people took it. In Quran 3:146, Hafs says many devout men “fought” alongside a prophet, and Warsh reads “was killed”, of the prophet or of the men with him.',
         'Muslims hold that every accepted reading was revealed. Grant that for the sake of argument: it still means there is not one Quran text but several, and that the printed form in most people’s hands was fixed in the twentieth century.',
       ],
@@ -72,7 +72,7 @@ export const quranManuscripts: Topic = {
       objection: 'The lower text at Sana‘a is just a student’s practice copy full of mistakes.',
       response:
         'One scholar, Asma Hilali, has suggested something like that. Others who studied it, including Sadeghi and Goudarzi, argue that it is a distinct form of the text, and that some of its differences match readings Muslim tradition itself attributes to companions of Muhammad. Either way, someone erased it and wrote the standard text over the top, which fits Bukhari’s report that Uthman ordered other copies burnt (Sahih al-Bukhari 4987).',
-      keyPoints: ['Scholars disagree; say so.', 'Some of its variants match companion readings.', 'It was erased and replaced.'],
+      keyPoints: ['Scholars disagree; say so.', 'Sadeghi and Goudarzi: some variants match companion readings.', 'It was erased and replaced.'],
       references: ['Sahih al-Bukhari 4987'],
       followUps: [
         { reply: 'Parchment was costly, so scribes reused it. That proves nothing.', answer: 'Reuse was common, yes. What matters is what was underneath: not a letter or a contract, but a Quran with different wording. A community with one fixed text does not produce that.' },

@@ -27,9 +27,10 @@ export default function About() {
         <p>
           These three are the backbone of the Islam Specialization. Some lessons also cite other hadith collections
           (Abu Dawud, Tirmidhi, Ibn Majah, Musnad Ahmad), whose popups show how Muslim scholars grade each report, and
-          refer to classical Muslim commentaries, the early biography of Muhammad, and manuscript scholarship. Those
-          last three are described from the published literature; the app does not hold their text, so check them
-          before relying on a detail.
+          refer to classical Muslim commentaries, the early biography of Muhammad, and manuscript scholarship. What
+          the lessons say about the commentaries (al-Tabari, Ibn Kathir, the Jalalayn) and about Ibn Ishaq’s biography
+          has been checked against their text; the app describes them without showing the text in a popup. The
+          manuscript lesson is drawn from published scholarship, listed under its Further reading.
         </p>
       </section>
       <section className="card lesson">

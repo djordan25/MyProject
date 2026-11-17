@@ -37,7 +37,7 @@ export const crucifixionDenial: Topic = {
     {
       heading: 'What the Muslim commentators say',
       body: [
-        'The classical commentators did not agree on what happened. Al-Tabari and Ibn Kathir record several accounts: that a disciple volunteered to take on Jesus’ appearance, that the likeness fell on the one who betrayed him, or that it fell on someone else. The short commentary of the two Jalals says the likeness of Jesus was cast on another man, who was killed in his place.',
+        'The classical commentators did not agree on what happened. Al-Tabari records several accounts: that a disciple volunteered to take on Jesus’ appearance and die in his place, that a man named Sergius was made to look like him, and that, as he says some Christians claimed, it was Judas who was made to look like Jesus and was crucified protesting that he was not the man. Al-Tabari ends: God knows best which it was. Ibn Kathir gives the account of the volunteer disciple. The short commentary of the two Jalals says the man killed was an associate of the Jews on whom God cast Jesus’ likeness.',
         'None of these accounts names a source from the time of Jesus, and they contradict one another. The verse itself says that those who differ about it “have no knowledge of it except the following of assumption” (Quran 4:157). That describes the commentators’ position exactly.',
         'Use this when a Muslim says the substitution is clear. Ask: who was crucified, and how do you know?',
       ],
