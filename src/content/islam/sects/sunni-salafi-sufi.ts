@@ -161,6 +161,12 @@ export const sunniSalafiSufi: Topic = {
             {
               reply: 'Jesus sends them on because Muhammad’s rank is higher. Sinless or not, Allah gives intercession to whom he wills.',
               answer: 'In the hadith, yes. But ask what fits a person to stand between sinners and a holy God. Scripture’s answer is a priest who is “holy, innocent, undefiled”, who has no need to offer sacrifice for his own sins, and who “sacrificed for sin once for all when He offered up Himself” (Hebrews 7:25-27). A forgiven man can plead for mercy, but he cannot pay what is owed. Jesus did.',
+              followUps: [
+                {
+                  reply: 'Being without sin does not make Jesus more than a prophet. All the prophets are protected from sin.',
+                  answer: 'Then why does each of the others give a fault of his own in this hadith, and why is Muhammad told, “ask forgiveness for your sin” (Quran 47:19)? I am not resting the deity of Christ on this one report. I am only pointing out what your sources say: one man stands apart. Bukhari even says that Satan touches every child at birth “except Mary and her child” (Sahih al-Bukhari 3431). Ask why that should be, and read what the Gospels say about him.',
+                },
+              ],
             },
           ],
         },

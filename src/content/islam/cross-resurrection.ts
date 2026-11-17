@@ -56,7 +56,7 @@ export const crossAndResurrection: Topic = {
               followUps: [
                 {
                   reply: 'The rabbis have always understood the suffering servant as the people of Israel. Reading it of the Messiah is a Christian invention.',
-                  answer: 'Not always. The Targum, the ancient Aramaic paraphrase read in the synagogues, opens the passage with “my servant the Messiah” at Isaiah 52:13, though it moves the sufferings on to others. The Talmud takes a name for the Messiah from Isaiah 53:4 (tractate Sanhedrin 98b). The reading that makes the servant the nation is old as well, but it became the usual Jewish reading in the Middle Ages, after the commentator Rashi. Jews were reading this passage of the Messiah before Christians were.',
+                  answer: 'Not always. The Targum, the ancient Aramaic paraphrase read in the synagogues, opens the passage with “my servant the Messiah” at Isaiah 52:13, though it moves the sufferings on to others. The Talmud takes a name for the Messiah from Isaiah 53:4 (tractate Sanhedrin 98b). The reading that makes the servant the nation is old as well, but it became the usual Jewish reading in the Middle Ages, after the commentator Rashi. So reading the passage of the Messiah is found in Jewish sources themselves. It is not a Christian invention.',
                   followUps: [
                     {
                       reply: 'Israel has suffered innocently at the hands of the nations for centuries. The chapter fits the nation well.',

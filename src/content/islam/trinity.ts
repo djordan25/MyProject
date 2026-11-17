@@ -135,7 +135,7 @@ export const trinity: Topic = {
           followUps: [
             {
               reply: 'Show me anyone before 325 who believed it. The first Christians were unitarians.',
-              answer: 'Ignatius, bishop of Antioch, writing about AD 110 on his way to martyrdom, calls Jesus “our God”. About AD 112 the Roman governor Pliny reported to the emperor Trajan that Christians met before dawn to sing a hymn “to Christ as to a god”. About 180 Theophilus of Antioch used the word Trinity of God, his Word and his Wisdom, and about 200 Tertullian wrote of three persons of one substance. All of them wrote generations before Nicaea, while Rome was still executing Christians.',
+              answer: 'Ignatius, bishop of Antioch, writing about AD 110 on his way to martyrdom, calls Jesus “our God”. About AD 112 the Roman governor Pliny reported to the emperor Trajan that Christians met before dawn to sing a hymn “to Christ as to a god”. About 180 Theophilus of Antioch used the word Trinity of God, his Word and his Wisdom, and soon after 200 Tertullian wrote of three persons of one substance. All of them wrote generations before Nicaea, while Rome was still executing Christians.',
               followUps: [
                 {
                   reply: 'Constantine forced the doctrine through at Nicaea for the sake of political unity, and those who held to one God, like Arius, were crushed.',

@@ -102,7 +102,7 @@ export const tracks: Track[] = [
     parent: 'islam',
     title: 'Shia Islam',
     icon: '🕌',
-    summary: 'The majority in Iran and Iraq and the largest Muslim community in Lebanon. The Imams, the dispute over Muhammad’s successor, and the meaning of Karbala.',
+    summary: 'The majority in Iran and Iraq and one of the two largest communities in Lebanon. The Imams, the dispute over Muhammad’s successor, and the meaning of Karbala.',
     sections: [
       { title: 'Shia Islam', description: 'What the Shia believe, whether the Imamate stands, what the split means for Islam’s sources, and how to share the gospel.', topicIds: ['shia-overview', 'shia-imamate', 'shia-sources', 'shia-karbala-gospel'] },
     ],

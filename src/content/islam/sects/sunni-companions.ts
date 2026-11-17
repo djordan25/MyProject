@@ -163,6 +163,12 @@ export const sunniCompanions: Topic = {
             {
               reply: 'The Prophet told Hudhayfa the names of the hypocrites, and none of them narrates hadith. The scholars checked.',
               answer: 'Muslim does record that Hudhayfa was told of twelve hypocrites among the companions (Sahih Muslim 2779). So there were at least twelve, by your own book, and the report does not name them. As for checking, the Sunni rule is that companions are not checked. That is what “all upright” means. The scholars tested each narrator in the chain until they reached a companion, and there the testing stopped.',
+              followUps: [
+                {
+                  reply: 'The scholars did compare the companions’ reports with one another. And Allah has vouched for them in the Quran, which is worth more than any human examination.',
+                  answer: 'The Quran praises groups at particular moments, and in the same passage says there were hypocrites among them (Quran 9:100; 9:101). It vouches for no single narrator. Take al-Walid ibn ‘Uqba, a companion by the Sunni definition. Classical commentators say the verse “if there comes to you a disobedient one with information, investigate” (Quran 49:6) came down about him, and Muslim records that he was flogged for drinking after he had led the dawn prayer (Sahih Muslim 1707). So the Quran itself tells believers to check a companion’s report.',
+                },
+              ],
             },
           ],
         },
@@ -229,6 +235,12 @@ export const sunniCompanions: Topic = {
             {
               reply: 'Those are Paul’s own letters, or books written by his party. Of course they say he was approved.',
               answer: 'You could say that of any source, including the hadith that praise the companions. But Paul wrote to the Galatians about twenty years after the cross, while Peter and James were alive and able to contradict him, and no trace of any such denial survives. In Acts it is James himself who rules that the Gentiles are not to be burdened (Acts 15:13-19). And the Quran says that those who believed in Jesus “became dominant” (Quran 61:14). If Paul’s gospel pushed out the true followers of Jesus, that promise failed.',
+              followUps: [
+                {
+                  reply: 'Even so, Paul never knew Jesus. He claimed a vision, as you say Muhammad did. Why do you accept one vision and reject the other?',
+                  answer: 'That is a fair question, and Paul gives the test himself: “even if we or an angel from heaven should preach a gospel contrary to the one we preached to you, let him be under a curse!” (Galatians 1:8). His vision was checked against the eyewitnesses. He went to Peter and James (Galatians 1:18-19), and they found that he preached what they preached (1 Corinthians 15:11). Muhammad’s message, six centuries later, contradicts those eyewitnesses on the death of Jesus (Quran 4:157). One vision agreed with the people who were there, and the other did not.',
+                },
+              ],
             },
           ],
         },

@@ -127,7 +127,7 @@ export const islamicDilemma: Topic = {
                   followUps: [
                     {
                       reply: 'The scholars of Islam have taught for centuries that the text was corrupted. Did they all misread the Quran?',
-                      answer: 'They did not all teach it. Al-Bukhari, in a chapter heading in the Book of Tawhid in his Sahih, explains “they distort” this way: no one removes the wording of any of Allah’s books; they distort it by misinterpreting it. Ibn Kathir’s own gloss on the distortion in Quran 2:75 is that they distorted its meaning. A detailed case that the text itself had been rewritten came from Ibn Hazm in Spain, who died in 1064, four centuries after Muhammad. He argued from the contradiction: the Bible disagrees with the Quran, so the Bible must have been altered. That is a conclusion drawn from the dilemma, not evidence against it.',
+                      answer: 'They did not all teach it. Al-Bukhari, in a chapter heading in the Book of Tawhid in his Sahih, explains “they distort” this way: no one removes the wording of any of Allah’s books; they distort it by misinterpreting it. Ibn Kathir’s own gloss on the distortion in Quran 2:75 is that they distorted its meaning. A detailed case that the text itself had been rewritten came from Ibn Hazm in Spain, who died in 1064, four centuries after Muhammad. He listed what he took to be errors in the Bible and reasoned that, since it disagrees with the Quran, it must have been altered. That is a conclusion drawn from the dilemma, not evidence against it.',
                     },
                   ],
                 },
