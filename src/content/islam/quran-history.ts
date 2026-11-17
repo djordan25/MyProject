@@ -16,7 +16,7 @@ export const quranHistory: Topic = {
       heading: 'Haman in Pharaoh’s court',
       body: [
         'The Quran has Pharaoh command “Haman” to build a tower so he can look at the God of Moses (Quran 28:38; 40:36-37).',
-        'In the Bible, Haman is an official of the Persian king Ahasuerus (Esther 3:1) — roughly a thousand years after Moses, in a different empire. And a tower to reach the heavens recalls the tower of Babel (Genesis 11:4).',
+        'In the Bible, Haman is an official of the Persian king Xerxes, called Ahasuerus in older translations (Esther 3:1) — roughly a thousand years after Moses, in a different empire. And a tower to reach the heavens recalls the tower of Babel (Genesis 11:4).',
         'Some Muslims point to an Egyptian name that sounds similar. But no evidence shows a Haman as Pharaoh’s chief minister building a tower to reach God. The simplest explanation is that biblical stories were blended together.',
       ],
       references: ['Quran 28:38', 'Quran 40:36-37', 'Esther 3:1', 'Genesis 11:4'],
@@ -211,7 +211,7 @@ export const quranHistory: Topic = {
     {
       id: 'qh-q1',
       question: 'In the Bible, Haman serves which king?',
-      options: ['Pharaoh of Egypt', 'Ahasuerus of Persia', 'David of Israel', 'Nebuchadnezzar of Babylon'],
+      options: ['Pharaoh of Egypt', 'Xerxes (Ahasuerus) of Persia', 'David of Israel', 'Nebuchadnezzar of Babylon'],
       answer: 1,
       explanation: 'Esther 3:1 — about a thousand years after Moses.',
     },

@@ -126,7 +126,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Abu Bakra’s view was his own ijtihad. Greater companions than he did fight. Ali was the rightful caliph, and the Quran commands fighting the faction that transgresses (Quran 49:9).',
-              answer: 'Then one side was the faction that transgresses. That verse does not reward both sides. It says, “fight against the one that oppresses” (Quran 49:9). And the hadith tell us which side that was. Muhammad told Ammar, “A group of rebels would kill you” (Sahih Muslim 2916), and Ammar died at Siffin in Ali’s army. Bukhari adds that they would be inviting him to Hell-fire (Sahih al-Bukhari 447). How is that side upright and rewarded?',
+              answer: 'Then one side was the faction that transgresses, and that verse does not reward both sides. It says, “fight against the one that oppresses” (Quran 49:9). The hadith tell us which side that was. Muhammad told Ammar, “A group of rebels would kill you” (Sahih Muslim 2916), and Ammar died at Siffin in Ali’s army, killed by men who Bukhari says would be inviting him to Hell-fire (Sahih al-Bukhari 447). How is that side upright and rewarded?',
               followUps: [
                 {
                   reply: 'The verse still calls both factions believers. A sin, even a grave one, does not take a Muslim out of Islam. That is the Sunni position against the Kharijites.',
@@ -158,7 +158,7 @@ export const sunniCompanions: Topic = {
       followUps: [
         {
           reply: 'A companion, by definition, is one who died as a Muslim. Those who apostatised were never companions in the technical sense.',
-          answer: 'Then the definition is doing all the work. All companions are upright, because anyone who turned out badly is no longer counted as a companion. That is a circle. And in the hadith Muhammad himself is taken by surprise. He could not tell who they were. The Quran says the same of the hypocrites in Medina: “You, [O Muhammad], do not know them” (Quran 9:101). If he could not tell, how could hadith scholars two centuries later?',
+          answer: 'Then the definition is doing all the work: all companions are upright, because anyone who turned out badly is no longer counted as a companion. That is a circle. And in the hadith Muhammad himself is taken by surprise, just as the Quran says of the hypocrites in Medina, “You, [O Muhammad], do not know them” (Quran 9:101). If he could not tell, how could hadith scholars two centuries later?',
           followUps: [
             {
               reply: 'The Prophet told Hudhayfa the names of the hypocrites, and none of them narrates hadith. The scholars checked.',
@@ -196,7 +196,7 @@ export const sunniCompanions: Topic = {
               followUps: [
                 {
                   reply: 'A slip of memory is not a lie. Uprightness means they did not lie on purpose, and the scholars compared their reports.',
-                  answer: 'That is a fair distinction and I accept it. But see where we have arrived. The companions could misremember. They could go to war with each other. Some would be turned from the Pond. That is an ordinary mixed company of human witnesses. So weigh their reports as a historian weighs any report, and give the same fair hearing to the apostles, who wrote within a generation of the events (Luke 1:1-4).',
+                  answer: 'That is a fair distinction and I accept it. But see where we have arrived. The companions could misremember, could go to war with each other, and some would be turned from the Pond. That is an ordinary mixed company of human witnesses. So weigh their reports as a historian weighs any report, and give the same fair hearing to the apostles, who wrote within a generation of the events (Luke 1:1-4).',
                 },
               ],
             },
@@ -224,17 +224,17 @@ export const sunniCompanions: Topic = {
       followUps: [
         {
           reply: 'Paul hijacked the religion. The true followers of Jesus, James and the Jerusalem church, opposed him. That is a deeper split than the Camel.',
-          answer: 'Paul’s own letter says the opposite, and it is among our earliest evidence. James, Peter and John “gave me and Barnabas the right hand of fellowship” (Galatians 2:9). The clash at Antioch was not over the message. It was over Peter failing to live by it (Galatians 2:11-14). On the message Paul says, “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11). And Peter calls him “our beloved brother Paul” (2 Peter 3:15-16).',
+          answer: 'Paul’s own letter says the opposite, and it is among our earliest evidence. James, Peter and John “gave me and Barnabas the right hand of fellowship” (Galatians 2:9). The clash at Antioch was not over the message but over Peter failing to live by it (Galatians 2:11-14). On the message Paul says, “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11), and Peter calls him “our beloved brother Paul” (2 Peter 3:15-16).',
           followUps: [
             {
               reply: 'Those are Paul’s own letters, or books written by his party. Of course they say he was approved.',
-              answer: 'You could say that of any source, including the hadith that praise the companions. Here is the difference. Paul wrote to the Galatians about twenty years after the cross, while Peter and James were alive and able to contradict him, to churches that had other teachers pressing them. No trace of any such denial survives. In Acts it is James himself who rules that the Gentiles are not to be burdened (Acts 15:13-19). And the Quran says that those who believed in Jesus were given the upper hand and “became dominant” (Quran 61:14). If Paul’s gospel pushed out the true followers of Jesus, that promise failed.',
+              answer: 'You could say that of any source, including the hadith that praise the companions. But Paul wrote to the Galatians about twenty years after the cross, while Peter and James were alive and able to contradict him, and no trace of any such denial survives. In Acts it is James himself who rules that the Gentiles are not to be burdened (Acts 15:13-19). And the Quran says that those who believed in Jesus “became dominant” (Quran 61:14). If Paul’s gospel pushed out the true followers of Jesus, that promise failed.',
             },
           ],
         },
         {
           reply: 'Christians have killed each other for centuries. Catholics and Protestants, the Crusades, the Inquisition.',
-          answer: 'They have, and it was sin. I will not excuse it. But those people were not the apostles, and they were disobeying Christ, who said, “love your enemies and pray for those who persecute you” (Matthew 5:44). When Christians kill, they go against their founder and his first witnesses. The first Muslim civil wars were fought by the witnesses themselves, the generation Muhammad called the best (Sahih al-Bukhari 6429). Compare founders with founders.',
+          answer: 'They have, and it was sin that I will not excuse. But those people were not the apostles, and they were disobeying Christ, who said, “love your enemies and pray for those who persecute you” (Matthew 5:44). When Christians kill, they go against their founder and his first witnesses. The first Muslim civil wars were fought by the witnesses themselves, the generation Muhammad called the best (Sahih al-Bukhari 6429). Compare founders with founders.',
           followUps: [
             {
               reply: 'The companions were statesmen as well as believers. Islam is a complete way of life, with government and war in it. Of course there were political conflicts. Christianity escaped them only because it had no state.',
@@ -264,7 +264,7 @@ export const sunniCompanions: Topic = {
         },
         {
           reply: 'Allah promised to guard the Reminder (Quran 15:9). He used the companions to do it, whatever their faults.',
-          answer: 'Then your trust is in the promise and not in the companions. But the promise is known only from the book whose preservation we are discussing, so it cannot be the proof. Christians do not ask you to take the apostles’ character on trust. We show early copies from many places, which no caliph ever gathered up and burned. Test both books by the evidence. And when all is said, the gospel is not about trusting a best generation. It is about Christ, whom the witnesses preached and not themselves (2 Corinthians 4:5).',
+          answer: 'Then your trust is in the promise and not in the companions. But the promise is known only from the book whose preservation we are discussing, so it cannot be the proof. Christians do not ask you to take the apostles’ character on trust: we show early copies from many places, which no caliph ever gathered up and burned. Test both books by the evidence. And in the end the gospel is not about trusting a best generation but about Christ, whom the witnesses preached and not themselves (2 Corinthians 4:5).',
           followUps: [
             {
               reply: 'Your early copies differ from one another in thousands of places. Ours agree.',

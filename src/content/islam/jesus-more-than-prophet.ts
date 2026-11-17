@@ -130,7 +130,7 @@ export const jesusMoreThanProphet: Topic = {
       ],
       objection: '“Word of God” in Quran 4:171 just means Jesus was created by God’s command “Be!”',
       response:
-        'Every person is created by God’s command — yet the Quran gives only Jesus the title “His word” and “a soul from Him”. That uniqueness points somewhere. The Gospel of John explains it: “In the beginning was the Word, and the Word was with God, and the Word was God… The Word became flesh” (John 1:1, 14). God’s Word is eternal, as God himself is.',
+        'Every person is created by God’s command — yet the Quran gives only Jesus the title “His word”. (Adam, too, receives God’s breath, Quran 15:29, so rest the point on “word”, not on “a soul from Him”.) That uniqueness points somewhere. The Gospel of John explains it: “In the beginning was the Word, and the Word was with God, and the Word was God… The Word became flesh” (John 1:1, 14). God’s Word is eternal, as God himself is.',
       keyPoints: ['Only Jesus has this title.', 'John 1:1, 14 explains it.', 'God’s Word is not a created thing.'],
       references: ['Quran 4:171', 'Quran 3:59', 'John 1:1-14'],
     },

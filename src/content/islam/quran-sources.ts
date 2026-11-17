@@ -4,7 +4,7 @@ export const quranSources: Topic = {
   id: 'islam-quran-sources',
   title: 'Borrowed Stories: Legends in the Quran',
   icon: '📜',
-  summary: 'Many Quranic stories match apocryphal gospels and Jewish legends that circulated before or during Muhammad’s time — not the eyewitness Gospels.',
+  summary: 'Many Quranic stories match apocryphal gospels and Jewish legends, most of them in circulation long before Muhammad, and not the eyewitness Gospels.',
   lesson: [
     {
       heading: 'The argument',
@@ -43,7 +43,7 @@ export const quranSources: Topic = {
     {
       heading: 'Jewish legends',
       body: [
-        'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); a raven teaching burial appears in Jewish legend (where it is Adam who learns from it).',
+        'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); a raven teaching burial appears in Jewish legend (where it is Adam who learns from it). Be careful with this one: the Jewish book that records it, Pirke de-Rabbi Eliezer, was completed after Islam began, so it cannot be shown that the Quran drew on it. The stronger example follows in the next verse.',
         'The next verse is even more revealing. Quran 5:32 says, “We decreed upon the Children of Israel that whoever kills a soul… it is as if he had slain mankind entirely.” That sentence is not in the Torah — it comes from the Mishnah (Sanhedrin 4:5, compiled about AD 200), in a rabbinic passage that discusses Cain and Abel and the creation of a single Adam. The Quran presents a rabbinic teaching as God’s decree.',
         'Abraham in the fire: in the Quran, Abraham smashes idols and is thrown into a fire that Allah makes cool (Quran 21:68-69). Genesis says nothing of this. It is a Jewish midrash (Genesis Rabbah), possibly arising from the name “Ur” of the Chaldeans, which resembles a word for fire (Genesis 15:7).',
         'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely parallels a story in the Targum Sheni to Esther, a Jewish expansion whose date is debated but which preserves older Jewish lore — not the account in 1 Kings 10.',
@@ -55,7 +55,7 @@ export const quranSources: Topic = {
       heading: 'More Christian legends',
       body: [
         'The companions of the cave (Quran 18:9-26), young men who sleep in a cave for 309 years (Quran 18:25), is the Christian legend of the Seven Sleepers of Ephesus. The Quran even reflects disagreement over how many there were (Quran 18:22).',
-        'Dhul-Qarnayn (Quran 18:83-98), who travels to where the sun sets in a muddy spring (18:86) and builds an iron-and-copper wall against Gog and Magog (18:96-97), parallels the Syriac Alexander Legend about Alexander the Great.',
+        'Dhul-Qarnayn (Quran 18:83-98), who travels to where the sun sets in a muddy spring (18:86) and builds an iron-and-copper wall against Gog and Magog (18:96-97), parallels the Syriac Alexander Legend about Alexander the Great, a work usually dated to about the time of Muhammad’s last years, though the stories it tells of Alexander are older.',
       ],
       references: ['Quran 18:9-13', 'Quran 18:22', 'Quran 18:25', 'Quran 18:83-86', 'Quran 18:96-97'],
     },

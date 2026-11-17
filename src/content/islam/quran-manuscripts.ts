@@ -352,6 +352,7 @@ export const quranManuscripts: Topic = {
     'Tayyar Altıkulaç — Al-Muṣḥaf al-Sharīf Attributed to ‘Uthmān bin ‘Affān: The Copy at the Topkapı Palace Museum (IRCICA, 2007)',
     'Marijn van Putten — Quranic Arabic: From its Hijazi Origins to its Classical Reading Traditions (Brill, 2022)',
     'Hythem Sidky — review of Brubaker’s Corrections in Early Qur’ān Manuscripts, Al-‘Uṣūr al-Wusṭā 27 (2019)',
+    'Yasin Dutton — “Orality, Literacy and the ‘Seven Aḥruf’ Ḥadīth”, Journal of Islamic Studies 23 (2012)',
     'University of Birmingham, Cadbury Research Library — “The Birmingham Qur’an: FAQs”',
   ],
 };

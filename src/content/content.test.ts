@@ -157,7 +157,7 @@ describe('content', () => {
         expect(q.answer).toBeLessThan(q.options.length);
         expect(new Set(q.options).size).toBe(q.options.length);
         // Options are shown in random order, so none may refer to another by position.
-        expect(q.options.filter((o) => /\b(above|below)\b|^(both|neither) [a-d]\b|\b[a-d] and [a-d]\b/i.test(o)), q.id).toEqual([]);
+        expect(q.options.filter((o) => /\b(all|none|any|both|each|either|neither) of the (above|below|these|those|other)|\bthe (above|below|other (options|answers))\b|^(both|neither) [a-d]\b|\b[a-d] and [a-d]\b/i.test(o)), q.id).toEqual([]);
       }
     });
 

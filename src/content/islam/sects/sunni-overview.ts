@@ -89,11 +89,11 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'Those rulings assumed an Islamic state at war. Apostasy then meant treason, going over to the enemy. The hadith itself says “leaves the community”.',
-              answer: 'One report does add leaving the Muslims (Sahih al-Bukhari 6878). But Ibn Abbas quotes the command with no such condition (Sahih al-Bukhari 6922). And the man in Yemen had only gone back to Judaism. Nothing is said of treason or fighting, yet Mu‘adh said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). The treason reading is a modern one. If it is right, the four schools were wrong together for centuries.',
+              answer: 'One report does add leaving the Muslims (Sahih al-Bukhari 6878), but Ibn Abbas quotes the command with no such condition (Sahih al-Bukhari 6922). The man in Yemen had only gone back to Judaism, with no word of treason or fighting, yet Mu‘adh said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). The treason reading is modern. If it is right, the four schools were wrong together for centuries.',
               followUps: [
                 {
                   reply: 'The Quran says there is no compulsion in religion (Quran 2:256). The hadith must be read in the light of the Quran.',
-                  answer: 'I am glad you hold to that verse. But see what you have done. You have set a verse of the Quran against a report in Bukhari and let the verse win. The classical scholars went the other way. Commentators record the view that this verse was abrogated by the command to fight, and the view that it only covers Jews and Christians who pay the tax. So is Bukhari the most authentic book after the Quran, or a book that needs correcting?',
+                  answer: 'I am glad you hold to that verse. But you have set a verse of the Quran against a report in Bukhari and let the verse win, and the classical scholars went the other way. Commentators record the view that this verse was abrogated by the command to fight, and the view that it only covers Jews and Christians who pay the tax. So is Bukhari the most authentic book after the Quran, or a book that needs correcting?',
                 },
               ],
             },
@@ -105,7 +105,7 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'The scholars decide, by the science of hadith, not by what feels uncomfortable. That is the difference between us and those who reject hadith.',
-              answer: 'Good. Then apply that science. The report of the three whose blood may be shed is in both Sahihs (Sahih al-Bukhari 6878; Sahih Muslim 1676). So is Aisha’s age (Sahih al-Bukhari 5133; Sahih Muslim 1422). The schools built law on them. The method you appeal to confirms the very reports I am asking you about.',
+              answer: 'Good, then apply that science. The report of the three whose blood may be shed is in both Sahihs (Sahih al-Bukhari 6878; Sahih Muslim 1676), and so is Aisha’s age (Sahih al-Bukhari 5133; Sahih Muslim 1422). The schools built law on them. The method you appeal to confirms the very reports I am asking you about.',
             },
           ],
         },
@@ -125,7 +125,7 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'Whatever the proof, look at the fact. For fourteen centuries Muslims have agreed on the Quran, the five prayers and the pillars. That agreement is the sign.',
-              answer: 'That agreement is real and I respect it. But the Shia share all of it, and Sunnis do not count their disagreement about the caliphs, the companions and the hadith. So consensus means the agreement of Sunnis with Sunnis. And agreement does not make a thing true. The whole community agrees that Jesus was not crucified (Quran 4:157). Every source from the first century says he was. See the lesson Denying the Crucifixion.',
+              answer: 'That agreement is real and I respect it. But the Shia share all of it, and Sunnis do not count their disagreement about the caliphs, the companions and the hadith, so consensus means the agreement of Sunnis with Sunnis. And agreement does not make a thing true. The whole community agrees that Jesus was not crucified (Quran 4:157), and every source from the first century says he was. See the lesson Denying the Crucifixion.',
               followUps: [
                 {
                   reply: 'We do not say the majority makes truth. We say Allah protects this community from agreeing on falsehood, as he did not protect the Jews and the Christians.',
@@ -157,17 +157,17 @@ export const sunniOverview: Topic = {
       followUps: [
         {
           reply: 'The schools invented nothing. They set in order what the companions already taught. A later book can record an earlier practice faithfully.',
-          answer: 'It can, and I accept that much of it is early. But hear the principle you have just stated: a later writing can faithfully carry earlier testimony. Christians are told the Gospels cannot be trusted because they were written some decades after Jesus. Bukhari wrote more than two centuries after Muhammad. I only ask for one standard for both. See Can the Hadith Be Trusted?',
+          answer: 'It can, and I accept that much of it is early. But hear the principle you have just stated: a later writing can faithfully carry earlier testimony. Christians are told the Gospels cannot be trusted because they were written some decades after Jesus, and Bukhari wrote more than two centuries after Muhammad. I only ask for one standard for both. See Can the Hadith Be Trusted?',
           followUps: [
             {
               reply: 'The schools differ only in the branches, not the roots. Their differences are a mercy.',
-              answer: 'I agree they are differences in the branches, and I will not make more of them than Sunnis do. Then grant Christians the same. Our differences over baptism or church order are branches, and the root is the gospel (1 Corinthians 15:3-4). But Sunnis also dispute roots. The creed schools disagree about God’s attributes, and Salafis accuse Sufis of shirk at the shrines. Unchanged and undivided is not how Sunnis describe one another.',
+              answer: 'I agree they are differences in the branches, and I will not make more of them than Sunnis do. Then grant Christians the same: our differences over baptism or church order are branches, and the root is the gospel (1 Corinthians 15:3-4). But Sunnis also dispute roots. The creed schools disagree about God’s attributes, and Salafis accuse Sufis of shirk at the shrines.',
             },
           ],
         },
         {
           reply: 'The Prophet told us to hold to his Sunna and the Sunna of the rightly guided caliphs. That is exactly what we do.',
-          answer: 'The report says, “those of you who live after me will see great disagreement. You must then follow my sunnah and that of the rightly-guided caliphs” (Sunan Abi Dawud 4607). So it expects disagreement, and it came in the caliphs’ own time. Uthman was besieged and killed by Muslims. Ali fought Aisha, Talha and al-Zubayr, and then Mu‘awiya. When the rightly guided are at war with other companions, whose Sunna do I follow?',
+          answer: 'The report says, “those of you who live after me will see great disagreement. You must then follow my sunnah and that of the rightly-guided caliphs” (Sunan Abi Dawud 4607). So it expects disagreement, and it came in the caliphs’ own time. Uthman was besieged and killed by Muslims, and Ali fought Aisha, Talha and al-Zubayr, and then Mu‘awiya. When the rightly guided are at war with other companions, whose Sunna do I follow?',
           followUps: [
             {
               reply: 'Their disputes were political. On the religion itself they were agreed.',
@@ -187,11 +187,11 @@ export const sunniOverview: Topic = {
       followUps: [
         {
           reply: 'Every law has penalties. The law of Moses stoned adulterers and put to death anyone who led Israel after other gods. You are condemning your own Bible.',
-          answer: 'The law of Moses did have those penalties, and I will not hide them (Deuteronomy 13:6-10). They were given to Israel as a nation under the old covenant. Christ fulfilled that law and gave his church no sword. He told Peter, “Put your sword back in its place” (Matthew 26:52). The church’s strongest penalty is to put someone out of its fellowship (1 Corinthians 5:12-13). Islam’s law claims to be final and for all people.',
+          answer: 'The law of Moses did have those penalties, and I will not hide them (Deuteronomy 13:6-10). They were given to Israel as a nation under the old covenant. Christ fulfilled that law and gave his church no sword: he told Peter, “Put your sword back in its place” (Matthew 26:52). The church’s strongest penalty is to put someone out of its fellowship (1 Corinthians 5:12-13), while Islam’s law claims to be final and for all people.',
           followUps: [
             {
               reply: 'So God commanded stoning and then cancelled it? At least we are consistent with the earlier prophets.',
-              answer: 'God did not change his mind. The law was “our guardian to lead us to Christ” (Galatians 3:24-25). Its penalties show what sin deserves, and Christ took that curse on himself (Galatians 3:13). And look at your own side of this. The Quran as you have it contains no verse of stoning. Umar says one was revealed and recited (Sahih al-Bukhari 6830). So Sunni law has a penalty that rests on a verse which is not in the book.',
+              answer: 'God did not change his mind. The law was “our guardian to lead us to Christ” (Galatians 3:24-25), and its penalties show what sin deserves, a curse that Christ took on himself (Galatians 3:13). Now look at your own side. The Quran as you have it contains no verse of stoning, yet Umar says one was revealed and recited (Sahih al-Bukhari 6830). So Sunni law has a penalty that rests on a verse which is not in the book.',
               followUps: [
                 {
                   reply: 'A verse whose recitation is abrogated while its ruling remains is a recognised category. The scholars explained this long ago.',
@@ -203,11 +203,11 @@ export const sunniOverview: Topic = {
         },
         {
           reply: 'These penalties have strict conditions and are almost never applied. Adultery needs four eyewitnesses. The aim is to deter.',
-          answer: 'The conditions for proving adultery are strict, and I grant it. Apostasy is different. Mu‘adh would not sit down until the man was killed (Sahih al-Bukhari 6923). And how often a penalty is used is not the question. Is it right to kill a man for leaving a religion? When the rich man walked away from Jesus, Jesus let him go (Mark 10:21-22). When many disciples left, he asked the Twelve, “Do you want to leave too?” (John 6:66-68).',
+          answer: 'The conditions for proving adultery are strict, and I grant it. Apostasy is different: Mu‘adh would not sit down until the man was killed (Sahih al-Bukhari 6923). And the question is not how often a penalty is used but whether it is right to kill a man for leaving a religion. When the rich man walked away from Jesus, Jesus let him go (Mark 10:21-22). When many disciples left, he asked the Twelve, “Do you want to leave too?” (John 6:66-68).',
           followUps: [
             {
               reply: 'Many scholars today say that apostasy alone is not punishable. Islam is not frozen in the past.',
-              answer: 'I am glad of it, and I hope that view wins. But count the cost. Those scholars have to set aside a report in Bukhari and the agreed ruling of the four schools. That means saying the consensus was wrong and that a sound hadith does not settle the matter. I think they are right to say so. But then two of the four Sunni authorities have given way.',
+              answer: 'I am glad of it, and I hope that view wins. But count the cost. Those scholars have to set aside a report in Bukhari and the agreed ruling of the four schools, which means saying that the consensus was wrong and that a sound hadith does not settle the matter. I think they are right to say so, but then two of the four Sunni authorities have given way.',
             },
           ],
         },
@@ -223,11 +223,11 @@ export const sunniOverview: Topic = {
       followUps: [
         {
           reply: 'Its guidance is clear, yes. But law and hadith need training. A patient does not prescribe for himself out of a medical textbook.',
-          answer: 'Agreed, for law. But I am not prescribing. I am asking what the text says and whether it is true. A patient may ask what is in the prescription. So tell me how the scholars explain this hadith. If their explanation matches the plain sense, then my lack of training has changed nothing.',
+          answer: 'Agreed, for law. But I am not prescribing. I am asking what the text says and whether it is true, as a patient may ask what is in the prescription. So tell me how the scholars explain this hadith. If their explanation matches the plain sense, my lack of training has changed nothing.',
           followUps: [
             {
               reply: 'Then ask a scholar and accept his answer. That is taqlid. The ordinary person follows qualified scholarship.',
-              answer: 'I will listen to any scholar. But which one? Salafi scholars say that following a school without weighing the evidence is blameworthy and that you must go to the texts. Traditional scholars say the opposite. You had to judge between them before you could follow either. So everyone judges in the end. Jesus warned teachers who “set aside the command of God to maintain your own tradition” (Mark 7:8-9).',
+              answer: 'I will listen to any scholar, but which one? Salafi scholars say that following a school without weighing the evidence is blameworthy and that you must go to the texts, and traditional scholars say the opposite. You had to judge between them before you could follow either, so everyone judges in the end. Jesus warned teachers who “set aside the command of God to maintain your own tradition” (Mark 7:8-9).',
               followUps: [
                 {
                   reply: 'Christians have priests, popes and seminaries too.',
@@ -259,11 +259,11 @@ export const sunniOverview: Topic = {
       followUps: [
         {
           reply: 'That hadith teaches humility. We do rely on Allah’s mercy, and he has promised Paradise to those who believe and do good. That is assurance enough.',
-          answer: 'I am glad you rely on mercy. But on what ground is mercy given to you, and do you know that you have it? The Quran has Muhammad say, “nor do I know what will be done with me or with you” (Quran 46:9). In Bukhari a man does the deeds of Paradise until he is a cubit from it, and then what was written overtakes him (Sahih al-Bukhari 3208). In the gospel mercy has a ground. “While we were still sinners, Christ died for us” (Romans 5:8). So it can be known.',
+          answer: 'I am glad you rely on mercy. But on what ground is it given to you, and do you know that you have it? The Quran has Muhammad say, “nor do I know what will be done with me or with you” (Quran 46:9), and in Bukhari a man does the deeds of Paradise until he is a cubit from it, and then what was written overtakes him (Sahih al-Bukhari 3208). In the gospel mercy has a ground that can be known: “While we were still sinners, Christ died for us” (Romans 5:8).',
           followUps: [
             {
               reply: 'That verse was early. Later Allah forgave the Prophet his past and future sins (Quran 48:2). And certainty would make people careless. The believer lives between fear and hope.',
-              answer: 'That promise was made to Muhammad alone. You are left, as you say, between fear and hope. Paul met the worry about carelessness long ago: “Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1-2). People who know they are loved obey out of love. “We love because He first loved us” (1 John 4:19).',
+              answer: 'That promise was made to Muhammad alone, and you are left, as you say, between fear and hope. Paul met the worry about carelessness long ago: “Shall we continue in sin so that grace may increase? Certainly not!” (Romans 6:1-2). People who know they are loved obey out of love: “We love because He first loved us” (1 John 4:19).',
               followUps: [
                 {
                   reply: 'A God who must have someone killed before he can forgive is less merciful than Allah, who simply forgives.',

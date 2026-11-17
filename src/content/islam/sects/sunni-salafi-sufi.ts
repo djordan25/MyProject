@@ -84,7 +84,7 @@ export const sunniSalafiSufi: Topic = {
       followUps: [
         {
           reply: 'The Trinity was invented at the Council of Nicaea in 325. The first followers of Jesus were Jews who worshipped one God.',
-          answer: 'They were Jews who worshipped one God, and they worshipped Jesus. Nicaea did not begin that. It answered a new teaching about how the Son is related to the Father. Paul, writing in the 50s, sets Jesus within Israel’s confession of the one God: “one God, the Father… one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6). Thomas says to Jesus, “My Lord and my God!” (John 20:28). See Answering: “Jesus Never Claimed to Be God”.',
+          answer: 'They were Jews who worshipped one God, and they worshipped Jesus. Nicaea did not begin that. It answered a new teaching about how the Son is related to the Father. Paul, writing in the 50s, sets Jesus within Israel’s confession of the one God: “one God, the Father… one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6), and Thomas says to Jesus, “My Lord and my God!” (John 20:28). See Answering: “Jesus Never Claimed to Be God”.',
           followUps: [
             {
               reply: 'Those books were written decades later by unknown authors and changed over time. Our chains of narrators tell us exactly who passed on what.',
@@ -104,7 +104,7 @@ export const sunniSalafiSufi: Topic = {
           followUps: [
             {
               reply: 'Those were acts of the rightly guided caliphs, and the Prophet told us to follow their Sunna. That is not innovation.',
-              answer: 'That saying is in Abu Dawud (Sunan Abi Dawud 4607), and it does give you a category. But the Sufi makes the same move. He speaks of good innovation and quotes Umar’s words and the saying, “He who sets a good precedent in Islam, there is a reward for him” (Sahih Muslim 1017). So the line between Sunna and innovation is drawn in different places, and each side condemns the other. The rule does not apply itself. Someone has to judge, and you are back to trusting men.',
+              answer: 'That saying is in Abu Dawud (Sunan Abi Dawud 4607), and it does give you a category. But the Sufi makes the same move: he speaks of good innovation and quotes Umar’s words and the saying, “He who sets a good precedent in Islam, there is a reward for him” (Sahih Muslim 1017). So the line between Sunna and innovation is drawn in different places, and each side condemns the other. The rule does not apply itself, so someone has to judge, and you are back to trusting men.',
             },
           ],
         },
@@ -128,7 +128,7 @@ export const sunniSalafiSufi: Topic = {
               followUps: [
                 {
                   reply: 'That certainty sounds like presumption. The saints weep in fear until their last breath.',
-                  answer: 'It would be presumption if it rested on me. It rests on Christ’s promise: “I give them eternal life, and they will never perish. No one can snatch them out of My hand” (John 10:27-29). The fear of grieving a father remains. The dread of being cast off has gone, because “perfect love drives out fear” (1 John 4:16-18). That is a child trusting his father’s word.',
+                  answer: 'It would be presumption if it rested on me. It rests on Christ’s promise: “I give them eternal life, and they will never perish. No one can snatch them out of My hand” (John 10:27-29). The fear of grieving a father remains, but the dread of being cast off has gone, because “perfect love drives out fear” (1 John 4:16-18). That is a child trusting his father’s word.',
                 },
               ],
             },
@@ -136,7 +136,7 @@ export const sunniSalafiSufi: Topic = {
         },
         {
           reply: 'All paths lead to the One. The lamps are many but the light is the same. You have your way and I have mine.',
-          answer: 'Neither of our faiths says that. The Quran says, “whoever desires other than Islam as religion - never will it be accepted from him” (Quran 3:85). Jesus says, “No one comes to the Father except through Me” (John 14:6). And the paths disagree about a matter of fact: did Jesus die on the cross and rise? Both answers cannot be true. Love wants to know the truth about the one it loves.',
+          answer: 'Neither of our faiths says that. The Quran says, “whoever desires other than Islam as religion - never will it be accepted from him” (Quran 3:85), and Jesus says, “No one comes to the Father except through Me” (John 14:6). The paths also disagree about a matter of fact: did Jesus die on the cross and rise? Both answers cannot be true, and love wants to know the truth about the one it loves.',
           followUps: [
             {
               reply: 'The outward forms differ, but the inward reality is one. The cross is a picture of dying to self, and we teach that too.',
@@ -160,7 +160,7 @@ export const sunniSalafiSufi: Topic = {
           followUps: [
             {
               reply: 'Jesus sends them on because Muhammad’s rank is higher. Sinless or not, Allah gives intercession to whom he wills.',
-              answer: 'In the hadith, yes. But ask what fits a person to stand between sinners and a holy God. Scripture’s answer is a priest who is “holy, innocent, undefiled”, who has no need to offer sacrifice for his own sins, and who “sacrificed for sin once for all when He offered up Himself” (Hebrews 7:25-27). A forgiven man can plead for mercy. He cannot pay what is owed. Jesus did.',
+              answer: 'In the hadith, yes. But ask what fits a person to stand between sinners and a holy God. Scripture’s answer is a priest who is “holy, innocent, undefiled”, who has no need to offer sacrifice for his own sins, and who “sacrificed for sin once for all when He offered up Himself” (Hebrews 7:25-27). A forgiven man can plead for mercy, but he cannot pay what is owed. Jesus did.',
             },
           ],
         },
@@ -190,11 +190,11 @@ export const sunniSalafiSufi: Topic = {
           followUps: [
             {
               reply: 'There are extremists everywhere. Mainstream scholars reject takfir, and the Amman Message shows that the community can come together.',
-              answer: 'Credit to them. I honour every peacemaker. But it shows that Muslim unity is something leaders have to work for, as Christian leaders do. It is not a miracle that marks Islam out. And the statement did not end the matter. In 2016 a conference of Sunni scholars at Grozny defined the people of the Sunna in a way that left Salafis out, and Saudi scholars protested.',
+              answer: 'Credit to them, and I honour every peacemaker. But it shows that Muslim unity is something leaders have to work for, as Christian leaders do, and not a miracle that marks Islam out. Nor did the statement end the matter. In 2016 a conference of Sunni scholars at Grozny defined the people of the Sunna in a way that left Salafis out, and Saudi scholars protested.',
               followUps: [
                 {
                   reply: 'Still, we all pray the same prayer, facing the same way, with the same Book. Your divisions are about the very nature of God.',
-                  answer: 'On the nature of God, Catholics, Orthodox and Protestants confess the same Trinity and the same Christ in the same creed. Inside Sunni Islam the creed schools dispute God’s attributes: whether his hand and his being above the Throne (Quran 20:5) are to be taken as they stand. Each side says the other has misdescribed God. So both communities argue about deep things. Jesus gave another mark of his people: “By this everyone will know that you are My disciples, if you love one another” (John 13:35). Christians have often failed it, and I admit that.',
+                  answer: 'On the nature of God, Catholics, Orthodox and Protestants confess the same Trinity and the same Christ in the same creed. Inside Sunni Islam the creed schools dispute God’s attributes, such as whether his hand and his being above the Throne (Quran 20:5) are to be taken as they stand, and each side says the other has misdescribed God. So both communities argue about deep things. Jesus gave another mark of his people: “By this everyone will know that you are My disciples, if you love one another” (John 13:35). Christians have often failed it, and I admit that.',
                 },
               ],
             },
@@ -202,7 +202,7 @@ export const sunniSalafiSufi: Topic = {
         },
         {
           reply: 'Jesus himself prayed that his followers would be one. Look at you. His prayer failed.',
-          answer: 'He prayed “that all of them may be one, as You, Father, are in Me, and I am in You” (John 17:20-21). That is a oneness of shared life in God among those who believe the apostles’ message. It is not one organisation. I have found it with believers from churches very unlike my own. Where Christians fight each other they sin against it. The failure is ours and not his.',
+          answer: 'He prayed “that all of them may be one, as You, Father, are in Me, and I am in You” (John 17:20-21). That is a oneness of shared life in God among those who believe the apostles’ message, not one organisation. I have found it with believers from churches very unlike my own. Where Christians fight each other they sin against it, and the failure is ours and not his.',
           followUps: [
             {
               reply: 'That is a convenient answer. Any divided group could claim an invisible unity.',
@@ -222,15 +222,15 @@ export const sunniSalafiSufi: Topic = {
       followUps: [
         {
           reply: 'We follow the evidence and not the man. If al-Albani is shown to be wrong on a hadith, we leave his view. That is the difference between us and the blind followers of the schools.',
-          answer: 'That is a good rule. But what is the evidence for a hadith? It is the verdicts of early critics on each narrator: this one was reliable, that one had a poor memory. Those verdicts are themselves the opinions of men about other men, given long afterwards. And at the top of every chain is a companion who is not examined at all. Your whole method rests on trusting persons.',
+          answer: 'That is a good rule. But the evidence for a hadith is the verdicts of early critics on each narrator: this one was reliable, that one had a poor memory. Those verdicts are themselves the opinions of men about other men, given long afterwards. And at the top of every chain is a companion who is not examined at all. Your whole method rests on trusting persons.',
           followUps: [
             {
               reply: 'Allah promised to guard the Reminder (Quran 15:9). The Sunna explains the Quran, so it is guarded too. He raised up the hadith scholars to do it.',
-              answer: 'That verse speaks of the Reminder. Extending it to the hadith is an interpretation, and the Quran-only Muslims reject it. And look at how the guarding was done, as your own tradition tells it. The critics sifted an enormous mass of reports and threw most of them out. That is careful human work, and I respect it. But it means your certainty rests on the skill of scholars, which is what you said you would not rest on.',
+              answer: 'That verse speaks of the Reminder, and extending it to the hadith is an interpretation that the Quran-only Muslims reject. Look at how the guarding was done, as your own tradition tells it: the critics sifted an enormous mass of reports and threw most of them out. That is careful human work, and I respect it. But it means your certainty rests on the skill of scholars, which is what you said you would not rest on.',
               followUps: [
                 {
                   reply: 'And you? You trust Paul and four anonymous Gospel writers.',
-                  answer: 'I do trust witnesses, and I say so openly. But I can test them. They wrote within a generation, while other eyewitnesses lived. They name people and places that could be checked. They gained nothing by it and suffered for it. And in the end my trust is not in them. They said, “we do not proclaim ourselves, but Jesus Christ as Lord” (2 Corinthians 4:5). Read their account of him and judge it for yourself, as the Bereans did (Acts 17:11).',
+                  answer: 'I do trust witnesses, and I say so openly. But I can test them: they wrote within a generation, while other eyewitnesses lived, they name people and places that could be checked, and they suffered for what they said. And in the end my trust is not in them. They said, “we do not proclaim ourselves, but Jesus Christ as Lord” (2 Corinthians 4:5). Read their account of him and judge it for yourself, as the Bereans did (Acts 17:11).',
                 },
               ],
             },
@@ -258,7 +258,7 @@ export const sunniSalafiSufi: Topic = {
       followUps: [
         {
           reply: 'All religions teach people to be good. I try to be a good person, and Allah is merciful.',
-          answer: 'I am glad you want to be good. But how good is good enough? In Islam the deeds are weighed (Quran 23:102-103). Jesus set the standard higher than any of us reach: “Be perfect, therefore, as your heavenly Father is perfect” (Matthew 5:48). That is why the gospel is good news. “It is by grace you have been saved through faith, and this not from yourselves; it is the gift of God” (Ephesians 2:8-9).',
+          answer: 'I am glad you want to be good, but how good is good enough? In Islam the deeds are weighed (Quran 23:102-103), and Jesus set the standard higher than any of us reach: “Be perfect, therefore, as your heavenly Father is perfect” (Matthew 5:48). That is why the gospel is good news. “It is by grace you have been saved through faith, and this not from yourselves; it is the gift of God” (Ephesians 2:8-9).',
           followUps: [
             {
               reply: 'If it is a free gift, people will just do as they like.',
@@ -268,11 +268,11 @@ export const sunniSalafiSufi: Topic = {
         },
         {
           reply: 'My family would never accept it. If I left Islam it would shame them.',
-          answer: 'That is a real cost, and I will not make light of it. Jesus was honest about it. He promised that no one who leaves home or family for his sake will fail to receive far more, “along with persecutions”, and eternal life (Mark 10:29-30). He does not ask you to stop honouring your parents. But the first question is whether it is true. Would you read one Gospel with me and see?',
+          answer: 'That is a real cost, and I will not make light of it, and neither did Jesus. He promised that no one who leaves home or family for his sake will fail to receive far more, “along with persecutions”, and eternal life (Mark 10:29-30). He does not ask you to stop honouring your parents. But the first question is whether it is true. Would you read one Gospel with me and see?',
           followUps: [
             {
               reply: 'In our law a person who leaves Islam deserves death. You are asking me to risk that.',
-              answer: 'I know what Bukhari records: “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922). It is one reason to ask whether a faith that holds people by that threat is from God. Jesus let people walk away, and asked his friends, “Do you want to leave too?” (John 6:66-68). I am not asking you for a decision today. I am asking you to look at him. See Sharing the Gospel with a Muslim.',
+              answer: 'I know what Bukhari records: “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922). It is one reason to ask whether a faith that holds people by that threat is from God. Jesus let people walk away, and asked his friends, “Do you want to leave too?” (John 6:66-68). I am not asking you for a decision today, only to look at him. See Sharing the Gospel with a Muslim.',
             },
           ],
         },
