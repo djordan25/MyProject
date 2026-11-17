@@ -20,7 +20,7 @@ export const crucifixionDenial: Topic = {
         'The Old Testament foretold a suffering, pierced, dying servant (Psalm 22:16-18; Isaiah 53:5-12; Zechariah 12:10).',
         'Jesus repeatedly predicted his own death and resurrection (Mark 8:31; 9:31; 10:33-34). If he was not crucified, Jesus was a false prophet on this point.',
         'Every New Testament source — the four Gospels, Acts, Paul, Peter, Hebrews, Revelation — affirms his death. Paul passes on a creed he had “received”, that “Christ died for our sins” (1 Corinthians 15:3).',
-        'The crucifixion is the center of the Christian message, not a detail (1 Corinthians 2:2; Galatians 6:14).',
+        'The crucifixion is the centre of the Christian message, not a detail (1 Corinthians 2:2; Galatians 6:14).',
       ],
       references: ['Psalm 22:16-18', 'Isaiah 53:5-12', 'Mark 8:31', 'Mark 10:33-34', '1 Corinthians 15:3-4', '1 Corinthians 2:2'],
     },

@@ -67,7 +67,7 @@ export const quranMisunderstands: Topic = {
               followUps: [
                 {
                   reply: 'You are joining two separate verses. Quran 5:73 condemns saying “three”, and 5:116 condemns worshipping Mary. The Quran never says Mary is part of the Trinity.',
-                  answer: 'It is true that no verse lists the three. But look at how the Quran argues. Straight after condemning those who say Allah is the third of three, it answers that the Messiah was only a messenger, that his mother was a supporter of truth, and that “They both used to eat food” (Quran 5:75). Why bring in his mother’s eating unless she is one of the three? Muslim commentators read it so: the Tafsir al-Jalalayn says of Quran 5:73 that the other two are Jesus and his mother. And the Quran nowhere names the Holy Spirit as one of the three.',
+                  answer: 'It is true that no verse lists the three. But look at how the Quran argues. Straight after condemning those who say Allah is the third of three, it answers that the Messiah was only a messenger, that his mother was a supporter of truth, and that “They both used to eat food” (Quran 5:75). Why bring in his mother’s eating unless she is one of the three? Muslim commentators read it so: the Tafsir al-Jalalayn says of Quran 5:73 that the other two are Jesus and his mother, and calls those who say so a Christian sect. And the Quran nowhere names the Holy Spirit as one of the three.',
                   followUps: [
                     {
                       reply: 'Whoever the three are, the Quran forbids it: “do not say, Three”. The real Trinity is condemned along with every other.',

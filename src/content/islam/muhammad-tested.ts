@@ -54,6 +54,7 @@ export const muhammadTested: Topic = {
       body: [
         'The Quran sets its own test: “If Muhammad had made up about Us some [false] sayings, We would have seized him by the right hand; then We would have cut from him the aorta” (Quran 69:44-46).',
         'In his final illness, Muhammad said: “O Aisha! I still feel the pain caused by the food I ate at Khaibar, and at this time, I feel as if my aorta is being cut from that poison” (Sahih al-Bukhari 4428).',
+        'Be exact when you use this. The Arabic words differ: the Quran has al-watin and the hadith has abhar. Both name the great vessel of the heart, and Muslim translators render both as “aorta”, but a Muslim who knows Arabic will point out the difference. Put it as a question, not a proof: of all the ways to describe his death, why did Muhammad choose this one?',
         'The question to ask: by the Quran’s own stated criterion, what does Muhammad’s description of his death suggest?',
       ],
       references: ['Quran 69:44-47', 'Sahih al-Bukhari 4428'],
