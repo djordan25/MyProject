@@ -120,7 +120,26 @@ export const howWeGotTheBible: Topic = {
     {
       id: 'hb-3',
       followUps: [
-        { reply: 'The King James Bible has verses that modern Bibles leave out.', answer: 'It does, a small number, because its translators worked from a printed Greek text based on a handful of late manuscripts. Much older manuscripts found since then do not have those verses, so modern Bibles move them to the footnotes. Nothing is hidden, and no teaching rests on any of them.' },
+        {
+          reply: 'The King James Bible has verses that modern Bibles leave out.',
+          answer: 'It does, a small number, because its translators worked from a printed Greek text based on a handful of late manuscripts. Much older manuscripts found since then do not have those verses, so modern Bibles move them to the footnotes. Nothing is hidden, and no teaching rests on any of them.',
+          followUps: [
+            {
+              reply: 'Then for centuries Christians read verses that were not original. How do you know your Bible will not be corrected again?',
+              answer: 'It may be, in small ways, and that is no scandal. Keep the scale in view. Counting the two long passages in Mark and John, the verses in question come to a few dozen out of nearly eight thousand in the New Testament. And the trend of discovery has been towards confirmation. The papyri found in the twentieth century are centuries older than anything the King James translators had, and they did not produce a different New Testament. They showed that the text in our hands is substantially the one read around AD 200.',
+              followUps: [
+                {
+                  reply: 'Translations differ on things that matter. Isaiah 7:14 says “virgin” in some Bibles and “young woman” in others.',
+                  answer: 'That is a good example of how open the differences are. The Hebrew word, almah, means a young woman of marriageable age. The old Greek translation, made by Jews before the time of Christ, used the word for virgin, and Matthew quotes it in that form: “Behold, the virgin will be with child” (Matthew 1:23). Translators choose one and usually footnote the other. But the virgin birth does not hang on how Isaiah is translated. Matthew and Luke each state directly that Mary conceived before she had been with a man (Matthew 1:18; Luke 1:34-35).',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'Some versions are altered to fit a doctrine. The Jehovah’s Witnesses’ Bible says “the Word was a god”.',
+          answer: 'It does, which is why I said mainstream translations. The New World Translation is produced by one organisation and follows its teaching, and its wording of John 1:1 is rejected by the great majority of Greek scholars, whatever their own beliefs. The safeguard is that the Greek text is public. A translation made by a committee from many churches, and open to review by scholars of none, cannot bend the text far without being caught. Compare several and the agreement is plain: “the Word was God” (John 1:1).',
+        },
       ],
       objection: 'There are so many Bible versions. Which one is the real Bible?',
       response:
