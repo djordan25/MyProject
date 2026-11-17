@@ -64,7 +64,24 @@ export const quranManuscripts: Topic = {
         'It shows that the standard text of a few passages is very early, and that is worth acknowledging. But it is two leaves out of a whole book, and the dating is of the parchment, not the writing. From the same early period we also have the erased lower text from Sana‘a, which is a different form of the Quran. Early evidence cuts both ways.',
       keyPoints: ['Two leaves, parts of three surahs.', 'The date is of the parchment.', 'Sana‘a’s lower text is just as early and different.'],
       followUps: [
-        { reply: 'Two leaves that match exactly are still strong evidence.', answer: 'They are evidence for those passages. The claim Muslims make is about every word of every surah, and for that you would need the whole book, in many early copies, all agreeing. What we actually have includes a copy that disagrees and was erased.' },
+        { reply: 'Two leaves that match exactly are still strong evidence.', answer: 'They are evidence for those passages. The claim Muslims make is about every word of every surah, and for that you would need the whole book, in many early copies, all agreeing. What we actually have includes a copy that disagrees and was erased.',
+          followUps: [
+            {
+              reply: 'It is not only Birmingham. Every early manuscript we have carries the same text, and Western scholars such as Marijn van Putten have shown that they all go back to a single written original, which can only be Uthman’s.',
+              answer: 'I accept that finding. Van Putten argues from shared oddities of spelling that the early manuscripts of the standard type descend from one written archetype, and that agrees with what Bukhari says Uthman did (Sahih al-Bukhari 4987). But see what it establishes: that Uthman’s edition was copied with great care. The question is whether that edition held everything Muhammad recited, in the same words, and copies of an edition cannot tell you what was left out of it.',
+              followUps: [
+                {
+                  reply: 'The Birmingham parchment may be older than Uthman’s project. So the standard text was already there before him, perhaps in the Prophet’s own lifetime.',
+                  answer: 'The University of Birmingham says the test dates the death of the animal, and that there is no reliable way to date the ink. But take the early date. No one says Uthman’s committee composed the text; Bukhari says they copied sheets already kept by Hafsa (Sahih al-Bukhari 4987). Leaves that agree with the standard show that those passages were stable. And the university describes their script as having few dots and no vowel marks, so they cannot show which of the accepted readings a reciter would have given them.',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'No New Testament manuscript comes anywhere near that. Your earliest scrap of a Gospel was written a century after Jesus.',
+          answer: 'In years, the Quran’s earliest fragments stand closer to its beginning than ours do, and I grant it: the earliest piece of John’s Gospel is usually dated to the second century. But years are not the only measure. The New Testament books were written by several hands, sent to many cities and copied by anyone who wanted them, so no ruler was ever able to call the copies in and issue one text. An early copy of a controlled text shows what the authority issued. Many early copies of an uncontrolled text can be checked against each other.',
+        },
       ],
     },
     {
@@ -75,7 +92,24 @@ export const quranManuscripts: Topic = {
       keyPoints: ['Scholars disagree; say so.', 'Sadeghi and Goudarzi: some variants match companion readings.', 'It was erased and replaced.'],
       references: ['Sahih al-Bukhari 4987'],
       followUps: [
-        { reply: 'Parchment was costly, so scribes reused it. That proves nothing.', answer: 'Reuse was common, yes. What matters is what was underneath: not a letter or a contract, but a Quran with different wording. A community with one fixed text does not produce that.' },
+        { reply: 'Parchment was costly, so scribes reused it. That proves nothing.', answer: 'Reuse was common, yes. What matters is what was underneath: not a letter or a contract, but a Quran with different wording. A community with one fixed text does not produce that.',
+          followUps: [
+            {
+              reply: 'Muslims have always known that companions had their own codices. The lower text is one of them, within the seven ahruf the Prophet allowed. And Sadeghi himself concludes that Uthman’s text is the most faithful to what the Prophet recited.',
+              answer: 'That is a fair account of Sadeghi, and I am glad to have it on the table. He and Uwe Bergmann argue that the lower text, the standard text and Ibn Mas‘ud’s all descend from one original going back to Muhammad, and that the standard text reproduces it most accurately. Notice what kind of argument that is. It is textual criticism: comparing lines of text that differ in their words and judging which is nearest the original. “The best of three” is a long way from “never differed by a letter”.',
+              followUps: [
+                {
+                  reply: 'Then there is nothing new here. The Prophet authorised the variants, and the companions later united on one text. That is our own tradition.',
+                  answer: 'Then that is what should be taught. Many Muslims are told that no copy of the Quran has ever differed from another by a dot, and this parchment shows otherwise. “Authorised” is a belief about the variants; what the manuscript itself shows is that the wording differed and that the differing copy was scraped clean. When Muslims find the same thing in a Bible manuscript, they call it corruption. I am asking for one word for both.',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'Asma Hilali edited the manuscript herself. She found a note in it telling the reader how to recite, which fits a classroom exercise, not a finished codex.',
+          answer: 'Hilali’s edition deserves weight, and the scholars do disagree. Sadeghi and Goudarzi read the same leaves as the remains of a codex, and they report that its surahs run in an order unlike the standard one and nearer to the orders recorded for Ibn Mas‘ud and Ubayy. But take Hilali’s view. Then a learner in Islam’s first century was writing out Quran passages in wording that is not the standard wording. That is still evidence of a text not yet uniform.',
+        },
       ],
     },
     {
@@ -86,7 +120,30 @@ export const quranManuscripts: Topic = {
       keyPoints: ['Several accepted texts, not one.', 'Selected by scholars centuries later.', 'Apply the same standard to the Bible.'],
       references: ['Sahih al-Bukhari 4992', 'Quran 3:146'],
       followUps: [
-        { reply: 'The differences never change the meaning.', answer: 'Sometimes they do. In Quran 3:146 one reading speaks of fighting and the other of being killed. Those are different events. The difference is small beside the whole book, but it is a difference in what the text says.' },
+        { reply: 'The differences never change the meaning.', answer: 'Sometimes they do. In Quran 3:146 one reading speaks of fighting and the other of being killed. Those are different events. The difference is small beside the whole book, but it is a difference in what the text says.',
+          followUps: [
+            {
+              reply: 'Both meanings are true. Some prophets fought and some were killed. The readings complete each other, and that is part of the richness of the Quran.',
+              answer: 'Both may be true as history. But a verse with one fixed wording says one of them, and the claim I am testing is that the wording is fixed. Other pairs are harder to call two sides of one truth. In Quran 21:4 the Hafs reading has “said”, a report of the Prophet’s words, where the Warsh text printed in Medina has “Say”, a command to him. In Quran 2:184 Hafs speaks of feeding “a poor person” and Warsh of poor people, in the plural, in a verse that lays down a legal duty.',
+              followUps: [
+                {
+                  reply: 'Your Bibles differ far more. The King James Version has verses that modern versions leave out.',
+                  answer: 'They do differ at those places, and modern Bibles say so in their footnotes. Christians do not claim that the wording of the King James came down from heaven. We say we have a text with known variants, which scholars weigh in the open. If Muslims said the same of the readings, I would have no argument left. It is the stronger claim, one Quran identical to the letter everywhere, that the readings do not allow.',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'Nobody selected the readings. Each was handed down from the Prophet by so many people in every generation that error is impossible. Ibn Mujahid only recorded what was already known.',
+          answer: 'That is the usual teaching, but it is not the whole history. Yasin Dutton, a specialist in the readings, writes that the seven were Ibn Mujahid’s choice, and that other scholars counted eight, ten, or more. Ibn al-Jazari later admitted three that had been left out, which shows the list was a judgment. Marijn van Putten, citing Shady Nasser’s study, notes that the belief in mass transmission of the readings arose some time after the readers had been canonised. And each reading is in fact traced through named men, such as Hafs from ‘Asim.',
+          followUps: [
+            {
+              reply: 'Even so, the scholars accepted only readings that agree with Uthman’s script, have a sound chain and are good Arabic. That is rigorous preservation.',
+              answer: 'Those are the usual three tests, and they are careful ones. Look at what they are, though. Agreement with a written skeleton, a sound chain of named men and correct grammar are tests a scholar applies when he has to choose between readings. Christians apply tests of the same kind to New Testament manuscripts. I respect the work, and only ask that it be called what it is: scholars sifting variants, not a single text that never needed sifting.',
+            },
+          ],
+        },
       ],
     },
   ],
@@ -130,6 +187,157 @@ export const quranManuscripts: Topic = {
       ],
       answer: 1,
       explanation: 'Be measured: challenge “identical to the letter”, not the text’s general stability.',
+    },
+    {
+      id: 'mq-q6',
+      question: 'Where and when was the Sana‘a palimpsest found?',
+      options: [
+        'In a cave near Mecca in 1947',
+        'In the Great Mosque of Sana‘a in Yemen in 1972',
+        'In the Topkapi Palace in Istanbul in 1924',
+        'In a university library in Birmingham in 2015',
+      ],
+      answer: 1,
+      explanation: 'Workers restoring the mosque found a store of very old Quran fragments. One of them had an erased Quran text under the visible one.',
+    },
+    {
+      id: 'mq-q7',
+      question: 'What did Sadeghi and Goudarzi conclude about the erased lower text at Sana‘a?',
+      options: [
+        'It is identical to the standard text',
+        'It is not a Quran text at all',
+        'It belongs to a different line of text from the one Uthman standardised',
+        'It was written by Uthman’s own committee',
+      ],
+      answer: 2,
+      explanation: 'They call it a distinct companion codex. Other scholars, such as Asma Hilali, read it differently, and you should say so.',
+    },
+    {
+      id: 'mq-q8',
+      question: 'What have scholars concluded about the Topkapi and Samarkand codices?',
+      options: [
+        'They are the copies Uthman sent out',
+        'They are modern forgeries',
+        'They contain a text unlike today’s Quran',
+        'They were made after Uthman’s death',
+      ],
+      answer: 3,
+      explanation: 'The Muslim scholar Tayyar Altıkulaç, who published the Topkapi manuscript, concluded that it is not one of Uthman’s copies.',
+    },
+    {
+      id: 'mq-q9',
+      question: 'What does the radiocarbon date of the Birmingham leaves measure?',
+      options: [
+        'When the animal whose skin became the parchment died',
+        'When the ink was put on the page',
+        'When the surahs were first recited',
+        'When the leaves were bound into a book',
+      ],
+      answer: 0,
+      explanation: 'The University of Birmingham gives the range as 568 to 645 for the parchment, and says the inks have not been dated.',
+    },
+    {
+      id: 'mq-q10',
+      question: 'What has Daniel Brubaker documented in early Quran manuscripts?',
+      options: [
+        'Whole surahs missing from every copy',
+        'Greek translations written in the margins',
+        'Corrections by later hands, often bringing the text into line with the standard wording',
+        'Signatures of the companions',
+      ],
+      answer: 2,
+      explanation: 'Some are ordinary slips being fixed. Brubaker argues that the pattern shows a text still being brought into uniformity.',
+    },
+    {
+      id: 'mq-q11',
+      question: 'Who first gathered seven readings of the Quran as a set, and when?',
+      options: [
+        'Uthman, in the seventh century',
+        'Ibn Mujahid, in the tenth century',
+        'Zaid bin Thabit, under Abu Bakr',
+        'The editors of the Cairo edition, in 1924',
+      ],
+      answer: 1,
+      explanation: 'That was about three hundred years after Muhammad. Ibn al-Jazari added three more in the fifteenth century.',
+    },
+    {
+      id: 'mq-q12',
+      question: 'Where is the Warsh reading mainly used today?',
+      options: ['Turkey and the Balkans', 'Indonesia and Malaysia', 'Iran and Iraq', 'North and West Africa'],
+      answer: 3,
+      explanation: 'Most of the rest of the Muslim world uses Hafs.',
+    },
+    {
+      id: 'mq-q13',
+      question: 'How do the Hafs and Warsh readings differ in Quran 1:4?',
+      options: [
+        '“Owner” or “master” against “king”',
+        '“Day” against “night”',
+        '“Judgment” against “mercy”',
+        'Warsh leaves the verse out',
+      ],
+      answer: 0,
+      explanation: 'Hafs reads maaliki and Warsh reads maliki. English translations often blur the difference.',
+    },
+    {
+      id: 'mq-q14',
+      question: 'How many readings of the Quran do Muslim scholars accept as valid?',
+      options: [
+        'One only',
+        'Seven, each in a single transmission',
+        'Ten, each handed down in two transmissions',
+        'As many as there were companions',
+      ],
+      answer: 2,
+      explanation: 'Hafs from ‘Asim and Warsh from Nafi‘ are two of those transmissions.',
+    },
+    {
+      id: 'mq-q15',
+      question: 'Is there a complete Quran that survives from the lifetime of Muhammad or of Uthman?',
+      options: [
+        'Yes, the Topkapi codex in Istanbul',
+        'Yes, the Samarkand codex in Tashkent',
+        'Yes, the Birmingham manuscript',
+        'No, none is known',
+      ],
+      answer: 3,
+      explanation: 'The two famous codices are dated after Uthman, and the Birmingham manuscript is two leaves.',
+    },
+    {
+      id: 'mq-q16',
+      question: 'How do the Hafs and Warsh readings differ in Quran 2:125?',
+      options: [
+        'One names Abraham and the other Ishmael',
+        'One is a command to take the station of Abraham as a place of prayer, and the other a statement that people took it',
+        'One places the House in Mecca and the other in Jerusalem',
+        'One has the verse and the other omits it',
+      ],
+      answer: 1,
+      explanation: 'A command and a report are not the same sentence, though the two can be harmonised.',
+    },
+    {
+      id: 'mq-q17',
+      question: 'What did the editors of the 1924 Cairo edition work from?',
+      options: [
+        'The oldest surviving manuscripts',
+        'A copy written by Uthman',
+        'The traditional literature on the readings',
+        'The lower text of the Sana‘a palimpsest',
+      ],
+      answer: 2,
+      explanation: 'The edition gave the Hafs reading the standard printed form now used almost everywhere.',
+    },
+    {
+      id: 'mq-q18',
+      question: 'A Muslim points out that the early manuscripts all go back to one written archetype. What does that show?',
+      options: [
+        'That Uthman’s edition was carefully copied, which no one disputes',
+        'That no other form of the Quran ever existed',
+        'That the report of Uthman’s burning is false',
+        'That the Quran was written down in Muhammad’s lifetime',
+      ],
+      answer: 0,
+      explanation: 'It fits Sahih al-Bukhari 4987. Copies of an edition cannot show what the edition left out.',
     },
   ],
   furtherReading: [

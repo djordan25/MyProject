@@ -79,7 +79,7 @@ export const muhammadInBible: Topic = {
         },
         {
           reply: '“I will put My words in his mouth” describes an unlettered man reciting exactly what was given to him. And the prophet speaks in God’s name. Every surah but one opens in the name of Allah.',
-          answer: 'Every true prophet has God’s words put in his mouth. God says the same to Jeremiah: “Behold, I have put My words in your mouth” (Jeremiah 1:9). So the phrase cannot pick out one man. The name in which this prophet speaks is given in the passage: “the name of the LORD” (Deuteronomy 18:22), the covenant name God revealed to Moses and written in Hebrew as YHWH. That name never appears in the Quran. Jesus came in that name and bore it.',
+          answer: 'Every true prophet has God’s words put in his mouth. God says the same to Jeremiah: “Behold, I have put My words in your mouth” (Jeremiah 1:9). So the phrase cannot pick out one man. The name in which this prophet speaks is given in the passage: “the name of the LORD” (Deuteronomy 18:22), the covenant name God revealed to Moses and written in Hebrew as YHWH. That name never appears in the Quran. Jesus said, “I have come in My Father’s name” (John 5:43).',
         },
       ],
       objection: 'Muhammad was like Moses: both were lawgivers, married, led armies, and died naturally. Jesus wasn’t like Moses.',

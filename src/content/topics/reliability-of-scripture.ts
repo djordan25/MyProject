@@ -157,7 +157,7 @@ export const reliabilityOfScripture: Topic = {
         },
         {
           reply: 'Most scholars date the Gospels after AD 70. So their authors never met Jesus.',
-          answer: 'Many scholars do date Matthew, Luke and John after 70 and Mark close to it, and I am content to argue on those dates. AD 70 is forty years after the crucifixion. A disciple who was twenty-five at the crucifixion would be sixty-five. Mark is reported by Papias to have been Peter’s interpreter, and Luke says his material was “handed down to us by the initial eyewitnesses” (Luke 1:2). There is also a serious case for earlier dates. Acts ends with Paul alive in Rome in the early 60s (Acts 28:30-31) and says nothing of his death, of Nero’s persecution or of the fall of Jerusalem. If Acts was written then, Luke’s Gospel is earlier, and Mark earlier still.',
+          answer: 'Many scholars do date Matthew, Luke and John after 70 and Mark close to it, and I am content to argue on those dates. AD 70 is forty years after the crucifixion, when a disciple who had been twenty-five would be sixty-five. Mark is reported by Papias to have been Peter’s interpreter, and Luke says his material was “handed down to us by the initial eyewitnesses” (Luke 1:2). There is also a serious case for earlier dates. Acts ends with Paul alive in Rome in the early 60s (Acts 28:30-31) and says nothing of his death, of Nero’s persecution or of the fall of Jerusalem. If Acts was written then, Luke’s Gospel is earlier, and Mark earlier still.',
         },
       ],
       objection: 'The Gospels were written long after the events by people who weren’t there.',
@@ -178,7 +178,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'That one is easy. Try a hard one. In Mark the last supper is the Passover meal and Jesus dies the next day. In John he dies before the Passover is eaten.',
-              answer: 'That is the one scholars argue about most, and there is no single agreed solution. All four Gospels agree that he ate a last supper with his disciples and was crucified on the Friday of Passover week. The difficulty comes from two verses in John. One says the priests wanted to stay clean so as to “eat the Passover” (John 18:28). The other calls the day “the day of Preparation for the Passover” (John 19:14). But “Preparation” was the ordinary word for Friday, as in Mark 15:42, so the phrase can mean the Friday of Passover week. And the name Passover was used of the whole seven-day feast and its meals (Luke 22:1). Others think two calendars were in use. On any view the question is about the dating of a meal, not about whether he died.',
+              answer: 'That is the one scholars argue about most, and there is no single agreed solution. All four Gospels agree that he ate a last supper with his disciples and was crucified on the Friday of Passover week. The difficulty comes from two verses in John: the priests wanted to stay clean so as to “eat the Passover” (John 18:28), and the day is called “the day of Preparation for the Passover” (John 19:14). But “Preparation” was the ordinary word for Friday, as in Mark 15:42, and the name Passover was used of the whole seven-day feast and its meals (Luke 22:1). Others think two calendars were in use. On any view the question is about the dating of a meal, not about whether he died.',
               followUps: [
                 {
                   reply: 'Harmonising like that is special pleading. You would not accept it from someone defending another holy book.',
@@ -222,7 +222,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Acts itself calls Peter and John unschooled. Literacy in Roman Palestine was only a few per cent.',
-              answer: 'Acts says the council saw that they were “unschooled, ordinary men” (Acts 4:13). In context that means they had no training as scribes or teachers of the law. It does not say they could not read. Some scholars do estimate that only a few per cent could write, and those figures are estimates and disputed. In any case an ancient author often did not hold the pen. Paul dictated Romans: “I, Tertius, who wrote down this letter, greet you in the Lord” (Romans 16:22). Peter’s first letter was written “Through Silvanus” (1 Peter 5:12). And nobody claims that Peter wrote a Gospel. The early report is that Mark wrote down what Peter taught.',
+              answer: 'Acts says the council saw that they were “unschooled, ordinary men” (Acts 4:13). In context that means they had no training as teachers of the law, not that they could not read. Some scholars do estimate that only a few per cent could write, though the figures are disputed. In any case an ancient author often did not hold the pen. Paul dictated Romans: “I, Tertius, who wrote down this letter, greet you in the Lord” (Romans 16:22). And nobody claims that Peter wrote a Gospel. The early report is that Mark wrote down what Peter taught.',
             },
           ],
         },
@@ -232,7 +232,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Papias is a weak witness. Eusebius thought little of his intelligence, and the Matthew he describes wrote sayings in Hebrew, which is not our Greek Gospel.',
-              answer: 'Both points are fair. Eusebius did call Papias a man of very small understanding, though his complaint was about Papias’s views on the thousand-year reign of Christ, and he still quoted him as a source. And what Papias says about Matthew, that he compiled the sayings in the Hebrew language, is a puzzle, because our Matthew does not read like a translation. Scholars disagree about what he meant. So I would not rest the case on Papias alone. His value is his date. He wrote early in the second century and was passing on what he had heard from an older teacher, which puts the names Mark and Matthew within living memory of the apostles. Add the unanimous titles, Irenaeus, and the absence of any rival name.',
+              answer: 'Both points are fair. Eusebius did call Papias a man of very small understanding, though his complaint was about Papias’s views on the thousand-year reign of Christ, and he still quoted him as a source. And what Papias says about Matthew, that he compiled the sayings in the Hebrew language, is a puzzle on which scholars disagree. So I would not rest the case on Papias alone. His value is his date: he wrote early in the second century, passing on what he had heard from an older teacher, which puts the names Mark and Matthew within living memory of the apostles.',
             },
           ],
         },
@@ -255,7 +255,7 @@ export const reliabilityOfScripture: Topic = {
               followUps: [
                 {
                   reply: 'His larger point is about authorship. He argues that books such as 2 Peter and the letters to Timothy and Titus were not written by the men they name.',
-                  answer: 'He argues that in Forged (2011). Two things need separating. The Gospels name no author in their text, so even on his view they are not forgeries. The question there is whether the traditional names are right. For letters such as 2 Peter and those to Timothy and Titus, many critical scholars do doubt the authorship, mainly from style and vocabulary. Others answer that a different secretary, subject and date account for the differences. That debate is open. But the case for the death and resurrection of Jesus does not use those books. It rests on letters that Ehrman accepts as Paul’s own, Romans, 1 Corinthians and Galatians among them, and on the Gospels read as historical sources.',
+                  answer: 'He argues that in Forged (2011). The Gospels name no author in their text, so even on his view they are not forgeries. For letters such as 2 Peter and those to Timothy and Titus, many critical scholars do doubt the authorship, mainly from style and vocabulary, and others answer that a different secretary, subject and date account for the differences. That debate is open. But the case for the death and resurrection of Jesus does not use those books. It rests on letters that Ehrman accepts as Paul’s own, Romans, 1 Corinthians and Galatians among them, and on the Gospels read as historical sources.',
                   followUps: [
                     {
                       reply: 'And he says a historian can never conclude that a miracle happened, because a miracle is by definition the least probable explanation.',

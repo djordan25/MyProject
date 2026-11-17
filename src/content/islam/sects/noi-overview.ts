@@ -11,16 +11,16 @@ export const noiOverview: Topic = {
       heading: 'Detroit, 1930',
       body: [
         'The Nation of Islam began in Detroit in 1930, among black families who had left the segregated South for northern factory work and then met the Depression. A man who gave his name as Wallace D. Fard went from door to door selling silks and cloth, and began to teach in the homes of those who would listen. Malcolm X, repeating what Elijah Muhammad told him, describes a peddler who called himself “a brother from the East”, warned against pork, taught from both the Bible and the Quran, and said that the true religion of black people was Islam.',
-        'Fard’s origins are unknown. The Nation teaches that he came from Mecca, and its members keep his birthday, 26 February, as Saviours’ Day. The FBI reached other conclusions, and Encyclopaedia Britannica notes that its findings suggest he was born in New Zealand. The Nation rejects the FBI’s account. What is agreed is short. He taught in Detroit for about four years, gathered several thousand followers, and in 1934 he disappeared. No one has shown what became of him.',
-        'One of his hearers was Elijah Poole, born in Sandersville, Georgia, in 1897, who had brought his family north to Detroit. Fard renamed him Elijah Muhammad and made him his chief minister.',
+        'Fard’s origins are unknown. The Nation teaches that he came from Mecca, and its members keep his birthday, 26 February, as Saviours’ Day. The FBI reached other conclusions, and Encyclopaedia Britannica notes that its findings suggest he was born in New Zealand. The Nation rejects the FBI’s account. What is agreed is short. He taught in Detroit for about four years, gathered a following among the city’s poor, and in 1934 he disappeared. No one has shown what became of him.',
+        'One of his hearers was Elijah Poole, born in Sandersville, Georgia, in 1897, who had brought his family north to Detroit. Fard renamed him Elijah Muhammad and made him his chief assistant.',
       ],
     },
     {
       heading: 'Elijah Muhammad, 1934 to 1975',
       body: [
         'After Fard vanished, Elijah Muhammad led the movement from Chicago until his death on 25 February 1975. He was known as the Messenger of Allah. It was he who taught the doctrine that marks the Nation off from every other body that uses the name of Islam: that Fard had been Allah himself, God in person.',
-        'From 1942 to 1946 he was in federal prison for refusing the wartime draft. After his release the Nation grew, most of all in the late 1950s and early 1960s. It opened temples in the large cities, ran its own schools and businesses, and sold its newspaper, Muhammad Speaks, on street corners. In 1965 he published Message to the Blackman in America, the fullest statement of his teaching. This lesson takes the Nation’s doctrines from that book and from the list of beliefs printed in it, called “What the Muslims Believe”.',
-        'He did not hide his view of the churches. He wrote that Christianity is “one of the most perfect black-slave-making religions on our planet”. Most of his first followers had been raised in church, and he had seen what professing Christians did in Georgia. That background has to be understood before anything is said in reply.',
+        'From 1942 to 1946 he was in federal prison for resisting the wartime draft. After his release the Nation grew, most of all in the late 1950s and early 1960s. It opened temples in the large cities, ran its own schools and businesses, and sold its newspaper, Muhammad Speaks, on street corners. In 1965 he published Message to the Blackman in America, the fullest statement of his teaching. This lesson takes the Nation’s doctrines from that book and from the twelve-point statement of belief printed in it, part of what the Nation calls the Muslim Program.',
+        'He did not hide his view of the churches. He wrote that Christianity is “one of the most perfect black-slave-making religions on our planet”. Most of his first followers had been raised in church, and he himself had grown up in Georgia in the years of lynching. That background has to be understood before anything is said in reply.',
       ],
     },
     {
@@ -34,15 +34,15 @@ export const noiOverview: Topic = {
     {
       heading: 'After 1975: two roads',
       body: [
-        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He told the members that Fard was not God and that his father was not a prophet in the sense the Nation had taught. He dropped the teaching that white people are devils, opened membership to all races, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission in 1978, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
-        'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change. In the late 1970s he broke away and re-founded the Nation of Islam on Elijah Muhammad’s teachings, with a new newspaper, The Final Call. This is the body that carries the name today. On 16 October 1995 he called the Million Man March in Washington, a day of atonement and responsibility for black men. Estimates of the crowd run from about 400,000 to more than a million.',
+        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission in 1978, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
+        'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change. In the late 1970s he broke away and re-founded the Nation of Islam on Elijah Muhammad’s teachings, with a new newspaper, The Final Call. This is the body that carries the name today. On 16 October 1995 he led the Million Man March in Washington, billed as a day of atonement and reconciliation for black men. Estimates of the crowd run from about 400,000 to more than a million.',
         'The Nation today is small. Britannica gives estimates of 10,000 to 50,000 members. Its influence is far wider than its membership, through its newspaper, its speakers, its work in prisons and its place in the memory of black America.',
       ],
     },
     {
       heading: 'God, the Messenger and the original people',
       body: [
-        'The last article of “What the Muslims Believe” states that “Allah (God) appeared in the Person of Master W. Fard Muhammad, July, 1930”, and calls him the long-awaited Messiah of the Christians and Mahdi of the Muslims. Elijah Muhammad taught that God is not a spirit. The third chapter of Message to the Blackman opens, “God is a man and we just cannot make Him other than man”, and the book mocks the idea of an unseen God as belief in a “spook”.',
+        'The last article of the Muslim Program states that “Allah (God) appeared in the Person of Master W. Fard Muhammad, July, 1930”, and calls him the long-awaited Messiah of the Christians and Mahdi of the Muslims. Elijah Muhammad taught that God is not a spirit. The third chapter of Message to the Blackman opens, “God is a man and we just cannot make Him other than man”, and the book mocks the idea of an unseen God as belief in a “spook”.',
         'Elijah Muhammad is the Messenger of this God. He wrote that orthodox Muslims are mistaken when they apply the prophecies of a last messenger to “Muhammad of 1,400 years ago”, and his book calls the apostle raised among black Americans “the last Apostle”.',
         'Black people, in this teaching, are the Original Man, the first people of the earth, of the tribe of Shabazz, and Muslims by nature. Slavery robbed them of their names, their language and the knowledge of who they are. That is why members drop the surname that came from a slave-owner, and why Malcolm Little became Malcolm X. Salvation, in the Nation’s sense, begins with the knowledge of self.',
       ],
@@ -52,7 +52,7 @@ export const noiOverview: Topic = {
       body: [
         'The story of Yakub explains where white people came from. As Elijah Muhammad tells it, about 6,600 years ago a brilliant and discontented black scientist named Yakub was exiled from Mecca with 59,999 followers to an island in the Aegean called Pelan, which the book identifies with Patmos. There, by rules about who might marry and by killing the darker babies, he began a breeding programme, called grafting, that his followers carried on for six hundred years until a white race had been made. This race was wicked by nature, a race of devils, and was given 6,000 years to rule the earth. Elijah Muhammad taught that its time ran out in 1914.',
         'Judgment will come by the Mother Plane. The book describes a wheel-shaped craft, half a mile by half a mile, “a small human planet made for the purpose of destroying the present world of the enemies of Allah”, carrying fifteen hundred bombing planes, and says that this is what Ezekiel saw in his vision of the wheels. Farrakhan teaches the same. The Final Call records his account of being taken up to the Wheel in a vision in Mexico in September 1985 and hearing Elijah Muhammad speak to him there.',
-        'The Nation uses the Bible constantly, but on its own terms. Its creed says, “We believe in the truth of the Bible, but we believe that it has been tampered with and must be reinterpreted”. Elijah Muhammad also called it “the Poison Book”. The Bible and the Quran alike are read as prophecy about black people in America, with Elijah Muhammad as the interpreter.',
+        'The Nation uses the Bible constantly, but on its own terms. Its statement of belief says, “We believe in the truth of the Bible, but we believe that it has been tampered with and must be reinterpreted”. Elijah Muhammad also called it “the Poison Book”. The Bible and the Quran alike are read as prophecy about black people in America, with Elijah Muhammad as the interpreter.',
         'The resurrection of the dead is “not in physical resurrection but mental resurrection”: the waking of a people who are mentally dead to the knowledge of themselves. Elijah Muhammad wrote plainly that “there is not any life beyond the grave”, and that heaven and hell are conditions in this life and not places after it. Jesus, he taught, “was only a prophet”, who is dead and cannot hear prayer.',
       ],
     },
@@ -60,14 +60,14 @@ export const noiOverview: Topic = {
       heading: 'Why people join',
       body: [
         'Do not begin by asking how anyone could believe this. Begin by asking what the Nation gave them. It told people who had been called worthless for three centuries that they were the first and best of mankind. It demanded discipline: no alcohol, no drugs, no tobacco, no pork, no gambling, clean clothes, punctuality, marriage, work. It told men to protect their women and feed their children, and to build their own shops, farms and schools and not to wait for anyone’s charity.',
-        'It also went where others would not. The Nation has worked in prisons since the 1940s, and Malcolm X is only the most famous of the men it reached there. It has stood on corners where drugs were sold. Many black Americans who reject its doctrine respect it for that.',
-        'And the grievance underneath is true. People were kidnapped, sold, worked, whipped and raped, by men who went to church. After slavery came lynching and segregation, and many white churches defended both or kept silent. Elijah Muhammad said that as a young man in Georgia he had seen what white men did to black men. A Christian who cannot say plainly that these things were evil, and that churches shared in them, has nothing to say to a member of the Nation.',
+        'It also went where others would not. The Nation has long worked in prisons, and Malcolm X is only the most famous of the men it reached there. It has stood on corners where drugs were sold. Many black Americans who reject its doctrine respect it for that.',
+        'And the grievance underneath is true. People were kidnapped, sold, worked, whipped and raped, by men who went to church. After slavery came lynching and segregation, and many white churches defended both or kept silent. A Christian who cannot say plainly that these things were evil, and that churches shared in them, has nothing to say to a member of the Nation.',
       ],
     },
     {
       heading: 'Outside Islam, and what that means for conversation',
       body: [
-        'Sunni and Shia Muslims regard these teachings as outside Islam, for reasons that lie on the surface of the Quran. It says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that he is “the Ever-Living who does not die” (Quran 25:58). To call a man God is the sin the Quran says is not forgiven (Quran 4:48). It calls Muhammad the “last of the prophets” (Quran 33:40), and the hadith have him say, “There will be no prophet after me” (Sahih al-Bukhari 3455). It teaches a bodily resurrection in which Allah reassembles the bones (Quran 75:3-4). And it treats the variety of human colours as one of God’s signs (Quran 30:22), with no hint of a devil race.',
+        'Sunni and Shia Muslims regard these teachings as outside Islam, for reasons that lie on the surface of the Quran. It says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that he is “the Ever-Living who does not die” (Quran 25:58). To associate anything with Allah, which is how Muslims regard calling a man God, is the sin the Quran says he does not forgive (Quran 4:48). It calls Muhammad the “last of the prophets” (Quran 33:40), and the hadith have him say, “There will be no prophet after me” (Sahih al-Bukhari 3455). It teaches a bodily resurrection in which Allah reassembles the bones (Quran 75:3-4). And it treats the variety of human colours as one of God’s signs (Quran 30:22), with no hint of a devil race.',
         'Elijah Muhammad knew this. He wrote that “the Orthodox Muslims will have to bow to the choice of Allah”, and that Allah would bring about “a new Islam”. Malcolm X wrote that the story of Yakub “infuriated the Muslims of the East”. The two men closest to Elijah Muhammad, his chief minister and his own son, both left his doctrine for the Islam of the Quran.',
         'For a Christian this changes the conversation. Most of the main Islam track argues from what Sunni Muslims hold: that the hadith in Bukhari and Muslim are reliable, that Muhammad of Arabia is the final prophet and the model for all time, that the Quran is perfectly preserved. A member of the Nation may hold none of these in the usual sense. His authority is the teaching of Elijah Muhammad, and now of Louis Farrakhan. Quoting Bukhari to him is like quoting it to a man who has never heard of it.',
         'What he does know, often very well, is the Bible. The Nation preaches from it every week. So that is where to meet him: on who God is, on whether evil belongs to one race, on what resurrection means, and on who Jesus is. First ask what he himself believes. Some who sell The Final Call hold every word of Elijah Muhammad’s teaching. Others value the discipline and the pride and have hardly thought about Yakub. Find out before you answer. The next lesson, Answering the Nation of Islam, takes up the arguments.',
@@ -81,9 +81,9 @@ export const noiOverview: Topic = {
       objection:
         'We are Muslims. We believe in Allah, we read the Holy Quran, we pray, we fast and our people go to Mecca. Who are you, a Christian, to tell us we are not real Muslims?',
       response:
-        'It isn’t my place to rule on that, and I’m not trying to take your name from you. I only notice what each side says in its own words. Your creed says that Allah appeared in the person of Master Fard Muhammad in 1930. The Quran says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that Muhammad is the “last of the prophets” (Quran 33:40). Malcolm X and Elijah Muhammad’s own son Warith Deen Mohammed read those verses and decided the two could not be held together. I would like to understand how you hold them together.',
+        'It isn’t my place to rule on that, and I’m not trying to take your name from you. I only notice what each side says in its own words. The Muslim Program says that Allah appeared in the person of Master Fard Muhammad in 1930. The Quran says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that Muhammad is the “last of the prophets” (Quran 33:40). Malcolm X and Elijah Muhammad’s own son Warith Deen Mohammed read those verses and decided the two could not be held together. I would like to understand how you hold them together.',
       keyPoints: [
-        'Do not argue about the name. Compare the Nation’s creed with the Quran.',
+        'Do not argue about the name. Compare the Nation’s own statement of belief with the Quran.',
         'God in the person of a man, and a messenger after Muhammad, contradict Quran 42:11, 112:3 and 33:40.',
         'Malcolm X and Warith Deen Mohammed left the doctrine for that reason.',
       ],
@@ -141,7 +141,7 @@ export const noiOverview: Topic = {
           reply:
             'Truth is what frees the black man. Whatever lifts my people up is true enough for me. Your truth kept us on our knees for four hundred years.',
           answer:
-            'I understand why you weigh it that way. But a thing can help and still be false, and a false foundation gives way in the end. The Nation itself found this out in 1975, when Elijah Muhammad’s own son told the members that Fard was not God. Thousands of disciplined people had built their lives on a claim that their leader’s heir then withdrew. Jesus said, “you will know the truth, and the truth will set you free” (John 8:32). Freedom that lasts needs the truth to be true.',
+            'I understand why you weigh it that way. But a thing can help and still be false, and a false foundation gives way in the end. The Nation itself found this out in 1975, when Elijah Muhammad’s own son rejected the teaching that Fard was God. Thousands of disciplined people had built their lives on a claim that their leader’s heir then withdrew. Jesus said, “you will know the truth, and the truth will set you free” (John 8:32). Freedom that lasts needs the truth to be true.',
           followUps: [
             {
               reply:
@@ -201,7 +201,7 @@ export const noiOverview: Topic = {
         {
           reply: 'Whatever Malcolm said, the Nation did not kill him. In 2021 the courts admitted that the wrong men had been jailed.',
           answer:
-            'Two men were cleared, and I am glad of it. The third, a member of the Nation, confessed at the trial in 1966 and said then that the other two were innocent. Who else stood behind it is still argued, and I will not claim to know. But my point does not hang on who fired. Malcolm’s reasons for leaving stand or fall by themselves. So does the witness of Warith Deen Mohammed, who was never his father’s enemy and still told the Nation that Fard was not God.',
+            'Two men were cleared, and I am glad of it. The third, a member of the Nation, confessed at the trial in 1966 and said then that the other two were innocent. Who else stood behind it is still argued, and I will not claim to know. But my point does not hang on who fired. Malcolm’s reasons for leaving stand or fall by themselves. So does the witness of Warith Deen Mohammed, who was never his father’s enemy and still rejected the teaching that Fard was God.',
           followUps: [
             {
               reply: 'Wallace doubted his father’s teaching for years. He was a weak son, and the Arabs flattered him.',
@@ -217,7 +217,7 @@ export const noiOverview: Topic = {
       objection:
         'Everything you people know about the Nation comes from the FBI and the white press. They called Master Fard a criminal and a fraud, and they have lied about us since 1930. Why should I listen to what our enemies say about us?',
       response:
-        'You shouldn’t take it from them, and I haven’t. The FBI was no friend of the Nation, so I leave its file on Master Fard to one side. What I have described comes from the Nation’s own words: the creed called “What the Muslims Believe” and Elijah Muhammad’s Message to the Blackman in America. There he writes that God is a man and not a spirit, that Allah came from Mecca in 1930 using the name Wallace D. Fard, and that the resurrection is mental and not physical. If I have any of that wrong, show me from the book and I will correct it. If I have it right, the question is not what the FBI said. It is whether those things are true.',
+        'You shouldn’t take it from them, and I haven’t. The FBI was no friend of the Nation, so I leave its file on Master Fard to one side. What I have described comes from the Nation’s own words: the Muslim Program and Elijah Muhammad’s Message to the Blackman in America. There he writes that God is a man and not a spirit, that Allah came from Mecca in 1930 using the name Wallace D. Fard, and that the resurrection is mental and not physical. If I have any of that wrong, show me from the book and I will correct it. If I have it right, the question is not what the FBI said. It is whether those things are true.',
       keyPoints: [
         'Set hostile sources aside and argue only from the Nation’s own writings.',
         'Offer to be corrected from Message to the Blackman in America.',
@@ -252,7 +252,7 @@ export const noiOverview: Topic = {
                   reply:
                     'He raised a dead nation. He took a people who did not know their own names and stood them on their feet. That is the resurrection.',
                   answer:
-                    'That was a real work and I do not belittle it. But teachers and reformers have raised up peoples before without being God. When Fard left in 1934 his following was small and local, and the building was done by Elijah Muhammad over forty years. If raising a people makes a man God, Elijah Muhammad has the better claim, and he never made it. The Bible speaks of God in another way altogether: “the everlasting God, the Creator of the ends of the earth” (Isaiah 40:28).',
+                    'That was a real work and I do not belittle it. But teachers and reformers have raised up peoples before without being God. When Fard left in 1934 his following was local to one or two cities, and the building was done by Elijah Muhammad over forty years. If raising a people makes a man God, Elijah Muhammad has the better claim, and he never made it. The Bible speaks of God in another way altogether: “the everlasting God, the Creator of the ends of the earth” (Isaiah 40:28).',
                 },
               ],
             },
@@ -369,7 +369,7 @@ export const noiOverview: Topic = {
     },
     {
       id: 'noi-q3',
-      question: 'What does the Nation’s creed, “What the Muslims Believe”, say about Fard?',
+      question: 'What does the Nation’s statement of belief, the Muslim Program, say about Fard?',
       options: [
         'That Allah (God) appeared in his person in July 1930',
         'That he was a companion of the prophet Muhammad',
@@ -377,7 +377,7 @@ export const noiOverview: Topic = {
         'That he was an angel sent to guard black people in America',
       ],
       answer: 0,
-      explanation: 'The last article of the creed says that Allah appeared in the Person of Master W. Fard Muhammad, and calls him the Messiah of the Christians and the Mahdi of the Muslims.',
+      explanation: 'Its last article says that Allah appeared in the Person of Master W. Fard Muhammad, and calls him the Messiah of the Christians and the Mahdi of the Muslims.',
     },
     {
       id: 'noi-q4',
@@ -412,7 +412,7 @@ export const noiOverview: Topic = {
     },
     {
       id: 'noi-q7',
-      question: 'How does the Nation’s creed understand the resurrection of the dead?',
+      question: 'How does the Nation’s statement of belief understand the resurrection of the dead?',
       options: [
         'As a bodily rising at the last day',
         'As the return of Fard from Mecca',
@@ -420,11 +420,11 @@ export const noiOverview: Topic = {
         'As a mental resurrection, not a physical one',
       ],
       answer: 3,
-      explanation: 'The creed says “not in physical resurrection but mental resurrection”. Elijah Muhammad also wrote that there is no life beyond the grave. Contrast 1 Corinthians 15:16-17.',
+      explanation: 'It says “not in physical resurrection but mental resurrection”. Elijah Muhammad also wrote that there is no life beyond the grave. Contrast 1 Corinthians 15:16-17.',
     },
     {
       id: 'noi-q8',
-      question: 'What does the Nation’s creed say about the Bible?',
+      question: 'What does the Nation’s statement of belief say about the Bible?',
       options: [
         'That it is true but has been tampered with and must be reinterpreted',
         'That it must never be read or quoted',
@@ -458,7 +458,7 @@ export const noiOverview: Topic = {
       question: 'Who led most members of the Nation into Sunni Islam after 1975?',
       options: ['Louis Farrakhan', 'Malcolm X', 'Muhammad Ali', 'Warith Deen Mohammed'],
       answer: 3,
-      explanation: 'Elijah Muhammad’s son told the members that Fard was not God, opened membership to all races, and in 1985 dissolved the organisation.',
+      explanation: 'Elijah Muhammad’s son rejected the teaching that Fard was God, opened membership to white people, and in 1985 dissolved the organisation.',
     },
     {
       id: 'noi-q12',
@@ -477,7 +477,7 @@ export const noiOverview: Topic = {
         'The annual Saviours’ Day convention in Chicago',
       ],
       answer: 1,
-      explanation: 'It was presented as a day of atonement and responsibility. Estimates of the crowd run from about 400,000 to more than a million.',
+      explanation: 'It was billed as a day of atonement and reconciliation. Estimates of the crowd run from about 400,000 to more than a million.',
     },
     {
       id: 'noi-q14',
@@ -536,7 +536,7 @@ export const noiOverview: Topic = {
         'Newspaper reports from the 1930s',
         'The FBI’s file on Fard',
         'What Sunni scholars say about the Nation',
-        'The Nation’s own creed and Elijah Muhammad’s Message to the Blackman in America',
+        'The Muslim Program and Elijah Muhammad’s Message to the Blackman in America',
       ],
       answer: 3,
       explanation: 'Describe the teaching from the Nation’s own words and offer to be corrected from the book. Then the question is whether the teaching is true.',

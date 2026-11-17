@@ -83,11 +83,11 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'The passion story is prophecy turned into history. The divided clothes, the mocking and the cry from the cross were lifted from Psalm 22 and written up as events. John Dominic Crossan calls this “prophecy historicised”.',
-          answer: 'The central event did not come from a psalm. The Roman historian Tacitus, who despised Christians, records that Christ was executed under Pontius Pilate. That a crucified man was stripped and mocked needs no psalm to explain it. And look at how the writers handle Scripture elsewhere. Matthew says Jesus’ home in Nazareth fulfilled the words “He will be called a Nazarene” (Matthew 2:22-23), a line found in no Old Testament book. Nobody invents Nazareth to match a text that does not exist. He began with the fact and went looking for the Scripture.',
+          answer: 'The central event did not come from a psalm: the Roman historian Tacitus, who despised Christians, records that Christ was executed under Pontius Pilate. That a crucified man was stripped and mocked needs no psalm to explain it. And look at how the writers handle Scripture elsewhere. Matthew says Jesus’ home in Nazareth fulfilled the words “He will be called a Nazarene” (Matthew 2:22-23), a line found in no Old Testament book. Nobody invents Nazareth to match a text that does not exist, so he began with the fact and went looking for the Scripture.',
           followUps: [
             {
               reply: 'Then you have made my point. If Matthew could find a fulfilment for Nazareth where no text exists, he could find one for anything. Matches found after the event prove nothing.',
-              answer: 'For that kind of fulfilment I agree, and I would not offer it as proof. Sometimes the New Testament means that a pattern in Israel’s story reached its goal in Jesus, and that persuades only someone who already trusts him. The argument rests on a different kind of passage: ones that describe something specific, or that Jews themselves read as promises of the Messiah. The synagogue’s own Aramaic paraphrase of Micah 5:2 names the Messiah as the ruler from Bethlehem. Isaiah 53 describes a servant who dies for the sins of others and afterwards lives. Those were written first, and they are not vague.',
+              answer: 'For that kind of fulfilment I agree, and I would not offer it as proof. Sometimes the New Testament means that a pattern in Israel’s story reached its goal in Jesus, and that persuades only someone who already trusts him. The argument rests on passages that describe something specific, or that Jews themselves read as promises of the Messiah. The synagogue’s own Aramaic paraphrase of Micah 5:2 names the Messiah as the ruler from Bethlehem, and Isaiah 53 describes a servant who dies for the sins of others and afterwards lives. Those were written first, and they are not vague.',
             },
           ],
         },
@@ -107,7 +107,7 @@ export const fulfilledProphecy: Topic = {
           followUps: [
             {
               reply: 'That list mixes facts with beliefs. “Dying for the sins of others” and “seen alive” are what Christians believe about him, not things anyone can check. Take those away and you have a Jewish man crucified by Rome, and there were thousands of those.',
-              answer: 'That is a fair distinction. Some items are public facts: he was rejected by the leaders of his own people and executed under Pilate, about forty years before the temple fell. Others need their own evidence, and the resurrection has it. But here is one more public fact. Isaiah’s servant was to be “a light for the nations” (Isaiah 49:5-6). Today billions of people who are not Jews worship the God of Israel, and they do so because of this one Jewish man. Nobody can stage that, and it is not a matter of belief. It can be counted.',
+              answer: 'That is a fair distinction. It is public fact that he was rejected by the leaders of his own people and executed under Pilate, about forty years before the temple fell, and the resurrection has its own evidence. Here is one more public fact. Isaiah’s servant was to be “a light for the nations” (Isaiah 49:5-6), and today billions of people who are not Jews worship the God of Israel because of this one Jewish man. Nobody can stage that, and it can be counted.',
               followUps: [
                 {
                   reply: 'Christianity spread because Constantine put an empire behind it. Any religion with state power grows.',
@@ -119,7 +119,7 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'He could have provoked his own death. He went up to Jerusalem at Passover, caused a disturbance in the temple and waited to be arrested. A man convinced he was Isaiah’s servant can get himself killed.',
-          answer: 'He did go knowingly. He told his disciples beforehand that he would be killed (Mark 8:31-33). But a man can arrange only so much. The Jewish penalty was stoning, and crucifixion needed a Roman governor’s decision (John 18:31-32). He could not make soldiers gamble for his clothes, or make a member of the council give him a rich man’s tomb. Above all he could not arrange what happened on the third day. A man can plan to die. He cannot plan to be raised.',
+          answer: 'He did go knowingly, and told his disciples beforehand that he would be killed (Mark 8:31-33). But a man can arrange only so much. The Jewish penalty was stoning, and crucifixion needed a Roman governor’s decision (John 18:31-32). He could not make soldiers gamble for his clothes, or make a member of the council give him a rich man’s tomb. Above all, a man can plan to die, but he cannot plan to be raised on the third day.',
           followUps: [
             {
               reply: 'Hugh Schonfield argued in The Passover Plot that he planned exactly that: drugged on the cross, taken down early by Joseph of Arimathea, and nursed back to health.',
@@ -143,7 +143,7 @@ export const fulfilledProphecy: Topic = {
           followUps: [
             {
               reply: 'The speakers in Isaiah 53 are the Gentile kings of the verses just before, astonished to discover that Israel suffered because of them. “My people” in verse 8 is each king speaking of his own nation. That has been the main Jewish reading since Rashi.',
-              answer: 'It is a serious reading, and Rashi made it standard in the eleventh century. But it strains the text. In these chapters of Isaiah “My people” is Israel. The speakers confess, “the LORD has laid upon Him the iniquity of us all” (Isaiah 53:4-6), and Scripture never says that Israel’s suffering heals the nations. Isaiah says Israel was handed over to the plunderers for its own sins (Isaiah 42:24). And this servant is silent, without violence or deceit (Isaiah 53:7, 9), while Isaiah calls the nation a blind and deaf servant (Isaiah 42:19).',
+              answer: 'It is a serious reading, and Rashi made it standard in the eleventh century, but it strains the text. In these chapters of Isaiah “My people” is Israel. The speakers confess, “the LORD has laid upon Him the iniquity of us all” (Isaiah 53:4-6), yet Scripture never says that Israel’s suffering heals the nations; Isaiah says Israel was handed over to the plunderers for its own sins (Isaiah 42:24). And this servant is silent, without violence or deceit (Isaiah 53:7, 9), while Isaiah calls the nation a blind and deaf servant (Isaiah 42:19).',
               followUps: [
                 {
                   reply: 'Isaiah has already told us who the servant is. “You are My Servant, Israel” (Isaiah 49:3). You cannot change the subject when you reach chapter 53.',
@@ -191,11 +191,11 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'If Isaiah had meant a virgin he would have written betulah. Almah means a young woman. Even the Greek word parthenos is loose: the Greek Old Testament uses it of Dinah after she had been raped.',
-          answer: 'Much of that is right. Almah is not a technical term for a virgin, and the Greek word can be used loosely. Betulah would not have settled it either, since Joel uses it of a woman mourning her husband (Joel 1:8). What can be said is that almah is used of unmarried girls such as Rebekah (Genesis 24:43), and never clearly of a married woman. So I do not claim the verse proves a virgin birth by itself. Notice what follows from that, though. No Jew we know of was expecting a virgin-born Messiah on the strength of this verse. So nobody had a reason to invent a virgin birth in order to fulfil it. The report came first, and Matthew then saw Isaiah’s words in its light.',
+          answer: 'Much of that is right: almah is not a technical term for a virgin, and the Greek word can be used loosely. Betulah would not have settled it either, since Joel uses it of a woman mourning her husband (Joel 1:8). Still, almah is used of unmarried girls such as Rebekah (Genesis 24:43) and never clearly of a married woman. So I do not claim that the verse proves a virgin birth, but notice what follows: no Jew we know of was expecting a virgin-born Messiah from this verse, so nobody had a reason to invent a virgin birth to fulfil it. The report came first, and Matthew then read Isaiah in its light.',
           followUps: [
             {
               reply: 'Then the report came from paganism. Gods fathering great men on mortal women was a commonplace: Perseus, Alexander, Augustus.',
-              answer: 'In those stories a god takes a woman as a lover. There is nothing like that in Matthew or Luke. There is no union at all, only the creative power of God, and Mary remains a virgin (Luke 1:34-35). Both accounts are thoroughly Jewish in setting and language, and devout Jews found those pagan tales disgusting. They are also independent of each other. Matthew tells it from Joseph’s side and Luke from Mary’s (Matthew 1:18-20; Luke 1:26-27), which is hard to explain if a borrowed myth lay behind them.',
+              answer: 'In those stories a god takes a woman as a lover. In Matthew and Luke there is no union at all, only the creative power of God, and Mary remains a virgin (Luke 1:34-35). Both accounts are thoroughly Jewish in setting and language, and devout Jews found those pagan tales disgusting. They are also independent: Matthew tells it from Joseph’s side and Luke from Mary’s (Matthew 1:18-20; Luke 1:26-27), which is hard to explain if a borrowed myth lay behind them.',
             },
           ],
         },
@@ -215,7 +215,7 @@ export const fulfilledProphecy: Topic = {
           followUps: [
             {
               reply: 'The Hebrew Bible never says the Messiah comes twice. The followers of every failed messiah say he will finish the job later. Sabbatai Zevi’s followers said it, and some of the Lubavitcher Rebbe’s followers say it now.',
-              answer: 'You are right that no verse says “twice” in so many words. What the Scriptures give are two portraits. One comes “with the clouds of heaven” to rule every nation (Daniel 7:13-14). The other comes “humble and riding on a donkey” (Zechariah 9:9). The rabbis felt the tension themselves. The Talmud asks in Sanhedrin 98a how both can be true, and in Sukkah 52a it speaks of two Messiahs, one of whom is killed. So Christians did not invent the problem. As for the comparison, Jesus said beforehand that he would be killed and rise (Mark 8:31-33), and the evidence is that he did. Sabbatai Zevi and the Rebbe are still dead.',
+              answer: 'You are right that no verse says “twice” in so many words. What the Scriptures give are two portraits: one who comes “with the clouds of heaven” to rule every nation (Daniel 7:13-14), and one who comes “humble and riding on a donkey” (Zechariah 9:9). The rabbis felt the tension themselves: the Talmud asks in Sanhedrin 98a how both can be true, and in Sukkah 52a it speaks of two Messiahs, one of whom is killed. So Christians did not invent the problem. As for the comparison, Jesus said beforehand that he would be killed and rise (Mark 8:31-33), and the evidence is that he did, while Sabbatai Zevi and the Rebbe are still dead.',
               followUps: [
                 {
                   reply: 'It has been two thousand years. At what point does a delayed promise count as a failed one?',
@@ -227,11 +227,11 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'Daniel 9 is not about Jesus. Most critical scholars date the book to the 160s BC and take the anointed one who is cut off to be the high priest Onias III, murdered about 171 BC in the time of Antiochus Epiphanes.',
-          answer: 'That is the majority view among critical scholars, and I will not pretend otherwise. It has real difficulties, though. Seventy weeks of years do not fit: counted from any starting point on offer, 490 years runs decades past Antiochus, and scholars who hold the view generally grant that the figures cannot be made to fit exactly. Antiochus defiled the temple, but he did not destroy it or the city, as the passage says will happen (Daniel 9:24-27). Rome did both in AD 70. And Jesus, two centuries after Antiochus, still spoke of Daniel’s desolation as something to come (Matthew 24:15).',
+          answer: 'That is the majority view among critical scholars, and I will not pretend otherwise, but it has real difficulties. Seventy weeks of years do not fit: counted from any starting point on offer, 490 years runs decades past Antiochus, and scholars who hold the view generally grant that the figures cannot be made to fit exactly. Antiochus defiled the temple, but he did not destroy it or the city, as the passage says will happen (Daniel 9:24-27). Rome did both in AD 70. And Jesus, two centuries after Antiochus, still spoke of Daniel’s desolation as something to come (Matthew 24:15).',
           followUps: [
             {
               reply: 'Your sums are no better. Christians cannot agree which decree starts the clock or how the weeks are to be counted.',
-              answer: 'That is true, and it is why I do not press an exact year. Christians start from different decrees and reach slightly different dates. Counting sixty-nine weeks of years from the decree given to Ezra in the seventh year of Artaxerxes (Ezra 7:7), about 458 BC, brings you to the late AD 20s, when Jesus began to preach. What does not depend on the sums is the order of events. An anointed one comes and is cut off, and after that the city and the sanctuary are destroyed. Whoever he is, he came before AD 70.',
+              answer: 'That is true, and it is why I do not press an exact year. Counting sixty-nine weeks of years from the decree Artaxerxes gave Ezra in his seventh year (Ezra 7:7), about 458 BC, brings you to the late AD 20s, when Jesus began to preach, though other Christians start the count elsewhere. What does not depend on the sums is the order of events. An anointed one comes and is cut off, and after that the city and the sanctuary are destroyed. Whoever he is, he came before AD 70.',
             },
           ],
         },

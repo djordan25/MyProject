@@ -118,7 +118,7 @@ export const existenceOfGod: Topic = {
           followUps: [
             {
               reply: 'Even granting a first cause, nothing makes it a personal God. It could be an impersonal force or law.',
-              answer: 'Two things point to a person. First, the cause is beyond space, time and matter. We know of only two sorts of thing that could be like that: abstract objects such as numbers, and minds. Numbers cause nothing. Second, an impersonal cause that had always been enough to produce the universe would always have produced it, so the universe would be as old as its cause. An effect that begins, from a cause that is timeless, looks like a choice. That still does not bring us to Christianity. For that we need Jesus.',
+              answer: 'Two things point to a person. First, the cause is beyond space, time and matter. We know of only two sorts of thing that could be like that: abstract objects such as numbers, and minds. Numbers cause nothing. Second, an impersonal cause that had always been enough to produce the universe would always have produced it, so the universe would be as old as its cause. An effect that begins, from a cause that is timeless, looks like a choice. To get from there to Christianity we need Jesus.',
             },
           ],
         },
@@ -170,11 +170,11 @@ export const existenceOfGod: Topic = {
       ],
       objection: 'Maybe we live in a multiverse, so fine-tuning is just what we’d expect somewhere.',
       response:
-        'There is no direct evidence of a multiverse, so it is a speculative hypothesis. Even if one exists, the mechanism that generates universes would itself require fine-tuning. And a multiverse predicts we should far more likely be a small, briefly-existing observer (a “Boltzmann brain”) than an entire finely-tuned cosmos like ours.',
+        'There is no direct evidence of a multiverse, so it is a speculative hypothesis. Even if one exists, the mechanism that generates universes would itself require fine-tuning. And on some multiverse models we should far more likely be a small, briefly-existing observer (a “Boltzmann brain”) than an entire finely-tuned cosmos like ours.',
       keyPoints: [
         'Multiverse is unobserved and possibly unobservable.',
         'A universe-generator needs its own fine-tuning.',
-        'Boltzmann-brain problem undermines it as an explanation.',
+        'On some models the Boltzmann-brain problem undermines it as an explanation.',
       ],
     },
     {
@@ -239,7 +239,7 @@ export const existenceOfGod: Topic = {
                   followUps: [
                     {
                       reply: '“God did it” explains nothing. It makes no predictions and cannot be tested.',
-                      answer: 'It is not a scientific theory and does not compete with one. It answers a different question: why there is an ordered world for science to study. But it is not empty. If a rational God made the world, we should expect it to be orderly, open to being understood by minds like ours, and fit for life. If there is no God, we have no reason to expect any of that. The pioneers of modern science drew that expectation from their belief in a lawgiver. And explaining something by a person’s intention is an ordinary kind of explanation. We use it whenever we ask why the kettle is on.',
+                      answer: 'It is not a scientific theory and does not compete with one. It answers a different question: why there is an ordered world for science to study. Nor is it empty. If a rational God made the world, we should expect it to be orderly, open to minds like ours and fit for life, and if there is no God we have no reason to expect any of that. And explaining something by a person’s intention is an ordinary kind of explanation. We use it whenever we ask why the kettle is on.',
                     },
                   ],
                 },
@@ -339,7 +339,7 @@ export const existenceOfGod: Topic = {
           followUps: [
             {
               reply: 'Plenty of people have looked honestly and not found him. A loving God would not leave a sincere seeker in the dark.',
-              answer: 'I take that seriously. It is one of the strongest arguments against God, and I would never tell someone that their search was insincere. I would say two things. I cannot see the whole of anyone’s life, including how it ends, and God may have reasons for his timing that I do not know. And the Christian claim is that God has not stayed hidden. He came in person, at a place and time that can be examined. So the search has somewhere definite to look: “seek, and you will find” (Matthew 7:7) is a promise made by Jesus, about coming to him.',
+              answer: 'I take that seriously. It is one of the strongest arguments against God, and I would never tell someone that their search was insincere. But I cannot see the whole of anyone’s life, including how it ends, and God may have reasons for his timing that I do not know. And the Christian claim is that God has not stayed hidden. He came in person, at a place and time that can be examined. So the search has somewhere definite to look: “seek, and you will find” (Matthew 7:7) is a promise made by Jesus, about coming to him.',
               followUps: [
                 {
                   reply: 'I did seek. I prayed, I read the Bible, and nothing happened.',

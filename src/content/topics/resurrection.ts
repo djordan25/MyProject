@@ -74,7 +74,7 @@ export const resurrection: Topic = {
           followUps: [
             {
               reply: 'Group experiences are documented. Crowds have reported seeing the Virgin Mary, and mass hysteria is a recognised thing. A small, frightened, grieving sect is exactly where you would expect it.',
-              answer: 'Where crowds report visions, they have gathered expecting one, and what they say they saw usually differs from person to person. The disciples were not expecting this. Jews looked for a resurrection of everyone at the end of the age, not of one man in the middle of history, and when the women brought the news the others “did not believe” them (Luke 24:11). The appearances were also spread over weeks, to individuals and groups, indoors and outdoors, with conversation and shared meals (Acts 1:3; 10:40-41). One excited crowd on one occasion is a different thing. And the tomb was still empty.',
+              answer: 'Where crowds report visions, they have gathered expecting one, and what they say they saw usually differs from person to person. The disciples were not expecting this: Jews looked for a resurrection of everyone at the end of the age, not of one man in the middle of history, and when the women brought the news the others “did not believe” them (Luke 24:11). The appearances were also spread over weeks, to individuals and groups, indoors and outdoors, with conversation and shared meals (Acts 1:3; 10:40-41). That is a different thing from one excited crowd on one occasion, and the tomb was still empty.',
               followUps: [
                 {
                   reply: 'Paul’s own experience was a vision: a light and a voice on the road. He lists it beside the others with the same word, “appeared”. So the earliest witness is telling us that all of the appearances were visions of that kind.',
@@ -82,7 +82,7 @@ export const resurrection: Topic = {
                   followUps: [
                     {
                       reply: 'Paul says the body is raised “a spiritual body” and that “flesh and blood cannot inherit the kingdom of God”. The touching and eating come decades later in Luke and John. The first belief was in a spiritual exaltation, and the physical stories grew afterwards.',
-                      answer: 'In Paul “spiritual” does not mean made of spirit. He uses the same pair of words for the “natural man” and the “spiritual man”, and both of those have bodies (1 Corinthians 2:14-15). A spiritual body is a body given life by God’s Spirit. “Flesh and blood” is his phrase for our present mortal state, and he goes straight on to say that this mortal body “must be clothed” with immortality, not swapped for something else (1 Corinthians 15:50-53). He expects Christ to “transform our lowly bodies to be like His glorious body” (Philippians 3:20-21). N. T. Wright has shown at length that in the ancient world “resurrection” always meant bodies. Nobody used the word for the survival of a soul.',
+                      answer: 'In Paul “spiritual” does not mean made of spirit. He uses the same pair of words for the “natural man” and the “spiritual man”, and both of those have bodies (1 Corinthians 2:14-15). A spiritual body is a body given life by God’s Spirit, and “flesh and blood” is his phrase for our present mortal state: he goes straight on to say that this mortal body “must be clothed” with immortality, not swapped for something else (1 Corinthians 15:50-53). He expects Christ to “transform our lowly bodies to be like His glorious body” (Philippians 3:20-21). As N. T. Wright has shown at length, “resurrection” in the ancient world always meant bodies, never the survival of a soul.',
                     },
                   ],
                 },
@@ -92,7 +92,7 @@ export const resurrection: Topic = {
         },
         {
           reply: 'Each case has its own psychology. Peter was crushed by guilt after denying Jesus. Paul was a tormented persecutor ripe for a breakdown. James was grieving his brother. Gerd Lüdemann has argued this in detail.',
-          answer: 'Notice that one explanation has now become three or four, each fitted to a different person. We also cannot put people on the couch across two thousand years, and what evidence we have points the other way. Paul describes his old self as confident, not tormented: “as to zeal, persecuting the church; as to righteousness in the law, faultless” (Philippians 3:5-6). James had not believed in his brother at all (John 7:5). People in that state do not have visions of the man they have rejected. And when every diagnosis has been made, the tomb is still empty.',
+          answer: 'Notice that one explanation has now become three or four, each fitted to a different person. We cannot put people on the couch across two thousand years, and what evidence we have points the other way. Paul describes his old self as confident, not tormented: “as to zeal, persecuting the church; as to righteousness in the law, faultless” (Philippians 3:5-6). James had not believed in his brother at all (John 7:5), and a man who has rejected someone is not primed to see him. And when every diagnosis has been made, the tomb is still empty.',
         },
       ],
       objection: 'The disciples just hallucinated.',
@@ -113,11 +113,11 @@ export const resurrection: Topic = {
           followUps: [
             {
               reply: 'That is David Hume’s point, and it still stands. All human experience says dead men stay dead. It will always be more likely that the witnesses were wrong than that a law of nature was broken. And you cannot use the resurrection as evidence for God while needing God to make it believable.',
-              answer: 'Experience tells us what happens when nature is left to itself, and nobody claims nature did this. Hume’s rule also proves too much. It would forbid us to believe any unprecedented event however good the evidence, which is why philosophers who are no friends of Christianity have rejected it. John Earman called his book on the argument Hume’s Abject Failure. As for the circle, I do not need you to assume God exists. I only ask you not to assume he does not. If there is even a fair chance that God is there, the evidence is allowed to count.',
+              answer: 'Experience tells us what happens when nature is left to itself, and nobody claims nature did this. Hume’s rule also proves too much: it would forbid us to believe any unprecedented event however good the evidence, which is why many philosophers, believers and unbelievers, have rejected it. The philosopher of science John Earman called his book on the argument Hume’s Abject Failure. As for the circle, I do not need you to assume God exists, only not to assume he does not. If there is even a fair chance that God is there, the evidence is allowed to count.',
               followUps: [
                 {
                   reply: 'Then be consistent. Eleven men signed statements that they saw Joseph Smith’s golden plates. Other religions have their miracles and their witnesses. You dismiss all of those.',
-                  answer: 'I do not dismiss them in advance. I ask the same questions of each. Were the witnesses in a position to know? Did they stand to gain? Were any of them opponents who changed sides? Could the claim be checked by outsiders at the time? The witnesses to the plates were Smith’s own family and close associates, and the plates are not there to be examined. In Jerusalem the tomb could be visited, the preaching was public, the witnesses gained nothing but trouble, and two of them, Paul and James, began as unbelievers. I am happy for every miracle claim to face those tests.',
+                  answer: 'I do not dismiss them in advance; I ask the same questions of each. Were the witnesses in a position to know, did they stand to gain, were any of them opponents who changed sides, and could outsiders check the claim at the time? The witnesses to the plates were Smith’s own family and close associates, and the plates are not there to be examined. In Jerusalem the tomb could be visited, the preaching was public, the witnesses gained nothing but trouble, and two of them, Paul and James, began as unbelievers. I am happy for every miracle claim to face those tests.',
                 },
               ],
             },
@@ -125,7 +125,7 @@ export const resurrection: Topic = {
         },
         {
           reply: 'People in the ancient world believed in miracles because they did not know any science. We do.',
-          answer: 'They knew that dead men stay dead as well as we do. That is why the first reports were not believed. To the apostles the women’s words “seemed like nonsense” (Luke 24:11). Thomas refused to accept it without touching the wounds (John 20:25). When Paul spoke of resurrection in Athens, some mocked him (Acts 17:32), and a Roman governor told him he was out of his mind (Acts 26:24). Science describes how nature normally runs. It cannot tell us that the one who made nature never acts within it.',
+          answer: 'They knew that dead men stay dead as well as we do, which is why the first reports were not believed. To the apostles the women’s words “seemed like nonsense” (Luke 24:11), and Thomas refused to accept it without touching the wounds (John 20:25). When Paul spoke of resurrection in Athens some mocked him (Acts 17:32), and a Roman governor told him he was out of his mind (Acts 26:24). Science describes how nature normally runs. It cannot tell us that the one who made nature never acts within it.',
         },
       ],
       objection: 'Dead people don’t rise — that’s just impossible.',
@@ -146,17 +146,17 @@ export const resurrection: Topic = {
         },
         {
           reply: 'We do not know that the apostles died as martyrs. The stories about most of them are late legends. There is decent evidence for two or three at most.',
-          answer: 'That is right, and I should not claim more than the evidence gives. It is good for Peter and Paul, whose deaths are mentioned in a letter from the church at Rome written before the end of the first century, for James the brother of Jesus, whose stoning Josephus records, and for James the son of Zebedee (Acts 12:1-2). For the rest the accounts are later and less certain. But the argument does not need every apostle to have been killed. It needs them to have known the cost and gone on. Paul lists his floggings, beatings and a stoning in a letter nobody disputes (2 Corinthians 11:23-27).',
+          answer: 'That is right, and I should not claim more than the evidence gives. It is good for Peter and Paul, whose deaths are mentioned in a letter from the church at Rome written before the end of the first century, for James the brother of Jesus, whose stoning Josephus records, and for James the son of Zebedee (Acts 12:1-2). For the rest the accounts are later and less certain. But the argument does not need every apostle to have been killed, only that they knew the cost and went on. Paul lists his floggings, beatings and a stoning in a letter nobody disputes (2 Corinthians 11:23-27).',
           followUps: [
             {
               reply: 'Being killed is not the same as dying for a claim. Nero executed Christians as scapegoats for the fire of Rome. Nobody offered Peter his life if he would deny the resurrection.',
-              answer: 'For Nero’s persecution that is fair. Tacitus says the Christians were blamed for the fire. But the point was never one moment in a courtroom. These men spent decades announcing the resurrection when it brought them prison and beatings and when silence would have kept them safe. The council ordered them to stop, flogged them, and they carried on the next day (Acts 4:18-20; 5:40-42). A man who knows he is lying has a way out every morning. None of them took it, and no early source, Christian or hostile, says that any of them ever admitted the story was made up.',
+              answer: 'For Nero’s persecution that is fair: Tacitus says the Christians were blamed for the fire. But the point was never one moment in a courtroom. These men spent decades announcing the resurrection when it brought them prison and beatings and when silence would have kept them safe. The council ordered them to stop and flogged them, and they carried on the next day (Acts 4:18-20; 5:40-42). A man who knows he is lying has a way out every morning, and no early source, Christian or hostile, says that any of them ever took it.',
             },
           ],
         },
         {
           reply: 'Joseph Smith was in a position to know whether he had invented his revelations, and he died for them too. So founders do die for what they have made up.',
-          answer: 'Look at how each died and what each gained. Smith was killed by a mob that stormed the jail where he was held in 1844, and he went down firing a pistol. He was not offered a choice between his claims and his life. Before that, his claims had made him the ruler of a city, the commander of its militia and the husband of many wives. The apostles gained poverty, beatings and prison. And they were not one founder but a number of witnesses, who had every chance to break ranks under pressure and did not.',
+          answer: 'Look at how each died and what each gained. Smith was killed by a mob that stormed the jail where he was held in 1844, and he went down firing a pistol; nobody offered him a choice between his claims and his life. Before that, his claims had made him the ruler of a city, the commander of its militia and the husband of many wives. The apostles gained poverty, beatings and prison. And they were not one founder but a number of witnesses, who had every chance to break ranks under pressure and did not.',
         },
       ],
       objection: 'Lots of people die for their beliefs — that doesn’t make them true.',
@@ -186,7 +186,7 @@ export const resurrection: Topic = {
               followUps: [
                 {
                   reply: '“He was buried” says nothing about a tomb, still less an empty one. Paul never mentions the empty tomb. It first appears in Mark, forty years after the event.',
-                  answer: 'Paul’s line runs: died, buried, raised, appeared. For a Jew, a man who was buried and then raised is no longer where he was buried, so the empty grave is implied, not missing. Mark’s account also has a feature nobody would invent. The tomb is found empty by women, at a time when, as Josephus records, a woman’s testimony was not accepted in court. Someone making up the story would have sent Peter. And the opponents never said the grave was still occupied. In the middle of the second century Justin Martyr reports that they were still saying the disciples had stolen the body.',
+                  answer: 'Paul’s line runs: died, buried, raised, appeared. For a Jew, a man who was buried and then raised is no longer where he was buried, so the empty grave is implied, not missing. Mark’s account also has a feature nobody would invent: the tomb is found empty by women, at a time when, as Josephus records, a woman’s testimony was not accepted in court. Someone making up the story would have sent Peter. And the opponents never said the grave was still occupied; in the middle of the second century Justin Martyr reports that they were still saying the disciples had stolen the body.',
                 },
               ],
             },
@@ -212,11 +212,11 @@ export const resurrection: Topic = {
           followUps: [
             {
               reply: 'You can watch it grow inside the New Testament. Mark, the earliest Gospel, ends at 16:8 with an empty tomb and frightened women, and nobody sees Jesus. Matthew adds guards and an earthquake. Luke adds a meal of fish. John adds Thomas and his finger.',
-              answer: 'Mark does seem to have ended at 16:8, at least in the form we have it. But he knows about the appearances, because the messenger at the tomb announces one: “He is going ahead of you into Galilee. There you will see Him” (Mark 16:6-8). And the appearances cannot have been added after Mark, since Paul wrote down his list of them years before Mark’s Gospel and had received it long before that. The later Gospels give more detail, but even John never describes the resurrection itself. For real legend, read the second-century Gospel of Peter, where two figures as tall as the sky lead a third out of the tomb and a cross follows them and speaks.',
+              answer: 'Mark does seem to have ended at 16:8, at least in the form we have it, but he knows about the appearances, because the messenger at the tomb announces one: “He is going ahead of you into Galilee. There you will see Him” (Mark 16:6-8). And the appearances cannot have been added after Mark, since Paul wrote down his list of them years before Mark’s Gospel and had received it long before that. The later Gospels give more detail, but even John never describes the resurrection itself. For real legend, read the second-century Gospel of Peter, where two figures as tall as the sky lead a third out of the tomb and a cross follows them and speaks.',
               followUps: [
                 {
                   reply: 'Paul’s list only says “appeared”. No tomb, no touching, no eating. Those physical details are the legendary layer.',
-                  answer: 'A creed is a summary. It says who saw him, not what it was like. But Paul, who passes the list on, spends the rest of the chapter explaining what “raised” means, and his answer is a body, changed and made imperishable (1 Corinthians 15:42-44). There is no trace anywhere of an earlier preaching in which Jesus was alive but his body lay in the grave. Luke’s account of the first sermon has Peter say that his body did not “see decay” (Acts 2:31-32). The details fill in the creed. They do not change its claim.',
+                  answer: 'A creed is a summary: it says who saw him, not what it was like. But Paul, who passes the list on, spends the rest of the chapter explaining what “raised” means, and his answer is a body, changed and made imperishable (1 Corinthians 15:42-44). There is no trace anywhere of an earlier preaching in which Jesus was alive but his body lay in the grave. Luke’s account of the first sermon has Peter say that his body did not “see decay” (Acts 2:31-32). The details fill in the creed without changing its claim.',
                 },
               ],
             },
@@ -224,11 +224,11 @@ export const resurrection: Topic = {
         },
         {
           reply: 'The ancient world was full of dying and rising gods: Osiris, Adonis, Mithras. The Christians gave Jesus the same story.',
-          answer: 'The likenesses fade when you read the myths. Osiris does not come back to this world. He becomes lord of the dead. Several of these stories follow the yearly death and return of the crops, and none is about a recent man executed under a named governor. Mithras does not die at all. The first Christians were also Jews in Jerusalem, who detested pagan worship. T. N. D. Mettinger, a Swedish scholar who argues that a few such gods did exist, still concludes that there is no clear evidence that the resurrection of Jesus was built out of them.',
+          answer: 'The likenesses fade when you read the myths. Osiris does not come back to this world but becomes lord of the dead, and Mithras does not die at all. Several of these stories follow the yearly death and return of the crops, and none is about a recent man executed under a named governor. The first Christians were also Jews in Jerusalem, who detested pagan worship. T. N. D. Mettinger, a Swedish scholar who argues that a few such gods did exist, still concludes that there is no clear evidence that the resurrection of Jesus was built out of them.',
           followUps: [
             {
               reply: 'Justin Martyr admitted it. He told the pagans that in saying Christ died and rose, “we propound nothing different from what you believe regarding those whom you esteem sons of Jupiter”.',
-              answer: 'Read what Justin is doing. He is writing to the emperor around AD 150 to argue that Christians should not be punished for beliefs no stranger than those the empire honours. It is a plea for fair treatment. He does not say Christians took their message from the myths. Later in the same work he says the myths were imitations spread by demons and that those who tell them offer no proof. In any case the question is where the belief began, and it began among Jews in Jerusalem within weeks of the crucifixion, a century before Justin.',
+              answer: 'Read what Justin is doing. He is writing to the emperor around AD 150 to argue that Christians should not be punished for beliefs no stranger than those the empire honours, which is a plea for fair treatment and not an admission of borrowing. Later in the same work he says the myths were imitations spread by demons and that those who tell them offer no proof. In any case the question is where the belief began, and it began among Jews in Jerusalem within weeks of the crucifixion, a century before Justin.',
             },
           ],
         },

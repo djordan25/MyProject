@@ -70,15 +70,15 @@ export const jesusOnlyWay: Topic = {
           followUps: [
             {
               reply: 'The medicine comparison assumes the religions differ. At bottom they all teach the same thing: love God and be good to people. They are different paths up one mountain.',
-              answer: 'They share a good deal of moral teaching. On the central questions they contradict each other. Christianity says Jesus died on a cross and rose. The Quran says “they did not kill him, nor did they crucify him” (Quran 4:157). Judaism says he was not the Messiah. Classical Buddhism has no creator at all. Those cannot all be right. To say they are really the same is not respect. It tells every one of them that they have misunderstood their own faith.',
+              answer: 'They share a good deal of moral teaching, but on the central questions they contradict each other. Christianity says Jesus died on a cross and rose, while the Quran says “they did not kill him, nor did they crucify him” (Quran 4:157). Judaism says he was not the Messiah, and classical Buddhism has no creator at all. Those cannot all be right. To say they are really the same is not respect, because it tells every one of them that they have misunderstood their own faith.',
               followUps: [
                 {
                   reply: 'It is like the blind men and the elephant. One feels the trunk, another the leg, and each thinks he has the whole animal. Every religion has hold of part of the truth. It is arrogant to say yours is the whole.',
-                  answer: 'Ask who is telling that story. It is someone who can see the whole elephant and knows that the others are blind. So the story claims for the teller the very thing it denies to everyone else. Lesslie Newbigin, a missionary bishop who spent decades in India, pointed this out. “No religion sees the whole” is a claim to see the whole. And the Christian claim is not that we saw further than others. It is that God has spoken: “No one has ever seen God, but the one and only Son… has made Him known” (John 1:18). If the elephant speaks, nobody has to guess.',
+                  answer: 'Ask who is telling that story: someone who can see the whole elephant and knows that the others are blind. So the story claims for the teller the very thing it denies to everyone else, as Lesslie Newbigin, a missionary bishop who spent decades in India, pointed out. “No religion sees the whole” is a claim to see the whole. And the Christian claim is not that we saw further than others but that God has spoken: “No one has ever seen God, but the one and only Son… has made Him known” (John 1:18). If the elephant speaks, nobody has to guess.',
                   followUps: [
                     {
                       reply: 'You only believe that because of where you were born. In Riyadh you would be a Muslim, and just as sure.',
-                      answer: 'Quite possibly, and if you had been born in Riyadh you would not hold your view either. Where a belief came from does not tell us whether it is true. Otherwise your view falls with mine. And Christianity is a poor example of a faith tied to its birthplace. It began in the Middle East, and today most Christians live in Africa, Asia and Latin America, many of them the first in their families to believe. The only way to settle it is to look at Jesus: who he said he was, and whether he rose.',
+                      answer: 'Quite possibly, and if you had been born in Riyadh you would not hold your view either. Where a belief came from does not tell us whether it is true, or your view falls with mine. Christianity is also a poor example of a faith tied to its birthplace: it began in the Middle East, and today most Christians live in Africa, Asia and Latin America, many of them the first in their families to believe. The only way to settle it is to look at Jesus: who he said he was, and whether he rose.',
                     },
                   ],
                 },
@@ -88,11 +88,11 @@ export const jesusOnlyWay: Topic = {
         },
         {
           reply: 'A doctor has evidence. In religion nobody can know, so insisting you are right is what leads to persecution and religious wars. Tolerance means not telling other people they are wrong.',
-          answer: 'Tolerance means treating people well when you think they are wrong. If we agreed there would be nothing to tolerate. Christians have done great evil in Christ’s name, and I will not excuse it. But they did it against his orders. He told his followers, “love your enemies and pray for those who persecute you” (Matthew 5:44), and he told Peter to put his sword away (Matthew 26:52). What matters is what a person is sure of. Someone who is sure that God’s Son died for his enemies has no warrant to harm his own.',
+          answer: 'Tolerance means treating people well when you think they are wrong; if we agreed there would be nothing to tolerate. Christians have done great evil in Christ’s name, and I will not excuse it, but they did it against his orders. He told his followers, “love your enemies and pray for those who persecute you” (Matthew 5:44), and he told Peter to put his sword away (Matthew 26:52). What matters is what a person is sure of. Someone who is sure that God’s Son died for his enemies has no warrant to harm his own.',
           followUps: [
             {
               reply: 'You are still telling billions of people that they are wrong. Who are you to say that?',
-              answer: 'Nobody. But everyone who holds a view thinks those who disagree are mistaken. You think the billions who believe in one true faith are wrong, and I do not call you arrogant for it. The claim does not rest on me. It rests on what Jesus said about himself (John 14:6), and if he rose from the dead he has the standing to say it. I pass it on as someone who needed rescuing, not as someone who worked it out.',
+              answer: 'Nobody. But everyone who holds a view thinks those who disagree are mistaken: you think the billions who believe in one true faith are wrong, and I do not call you arrogant for it. The claim does not rest on me. It rests on what Jesus said about himself (John 14:6), and if he rose from the dead he has the standing to say it. I pass it on as someone who needed rescuing, not as someone who worked it out.',
             },
           ],
         },
@@ -112,11 +112,11 @@ export const jesusOnlyWay: Topic = {
           followUps: [
             {
               reply: 'So they are condemned after all. If everyone has gone against the light they have, the villager is lost for failing a test nobody passes, and was never offered the remedy. You have only moved the unfairness.',
-              answer: 'They are answerable for real wrongs they have done, as I am, and not for where they were born. What becomes of them is in the hands of a judge who is just (Genesis 18:25) and who “rewards those who earnestly seek Him” (Hebrews 11:6). He is able to get the message to anyone who is looking for him. He sent Peter to Cornelius and Philip to an Ethiopian on a desert road (Acts 10:1-6; 8:26-35). Whether he ever saves someone who dies without hearing the name of Jesus, Christians disagree, and the Bible does not spell it out. What it does say is that nobody will have grounds for complaint.',
+              answer: 'They are answerable for real wrongs they have done, as I am, and not for where they were born. What becomes of them is in the hands of a judge who is just (Genesis 18:25) and who “rewards those who earnestly seek Him” (Hebrews 11:6). He is able to get the message to anyone who is looking for him, as when he sent Peter to Cornelius and Philip to an Ethiopian on a desert road (Acts 10:1-6; 8:26-35). Whether he ever saves someone who dies without hearing the name of Jesus, Christians disagree, and the Bible does not spell it out. What it does promise is that the Judge will do right.',
               followUps: [
                 {
                   reply: 'If God might save someone who never heard of Jesus, then Jesus is not the only way. A devout Hindu could be saved as a Hindu.',
-                  answer: 'That confuses two things: who saves, and how much a person has to know. Abraham did not know the name of Jesus. He “believed God, and it was credited to him as righteousness” (Romans 4:3), and it is the death of Christ that covered his sins (Romans 3:25-26). So if God has mercy on anyone anywhere, it is because Jesus died for that person. It is never because another religion worked or because the person was good enough. I hold the possibility loosely, because Scripture does not promise it. What Scripture commands is that we go and tell (Romans 10:14). And none of this is about someone who has heard and said no.',
+                  answer: 'That confuses two things: who saves, and how much a person has to know. Abraham did not know the name of Jesus, yet he “believed God, and it was credited to him as righteousness” (Romans 4:3), and it is the death of Christ that covered his sins (Romans 3:25-26). So if God has mercy on anyone anywhere, it is because Jesus died for that person, never because another religion worked or because the person was good enough. I hold the possibility loosely, because Scripture does not promise it; what it commands is that we go and tell (Romans 10:14). And none of this is about someone who has heard and said no.',
                 },
               ],
             },
@@ -124,7 +124,7 @@ export const jesusOnlyWay: Topic = {
         },
         {
           reply: 'What about babies who die, or people with severe learning disabilities? They cannot believe anything.',
-          answer: 'The Bible says little directly, so I will not say more than it does. When David’s infant son died, David said, “I will go to him, but he will not return to me” (2 Samuel 12:23). Jesus was indignant when children were kept from him, and said the kingdom of God belongs to such as these (Mark 10:14). And the Judge of all the earth will do right. Most Christians have concluded from this that God receives them. If he does, they too are saved by Christ and by no one else.',
+          answer: 'The Bible says little directly, so I will not say more than it does. When David’s infant son died, David said, “I will go to him, but he will not return to me” (2 Samuel 12:23). Jesus was indignant when children were kept from him, and said the kingdom of God belongs to such as these (Mark 10:14). Most Christians have concluded from this, and from the justice of God, that he receives them. If he does, they too are saved by Christ and by no one else.',
         },
       ],
     },
@@ -142,7 +142,7 @@ export const jesusOnlyWay: Topic = {
           followUps: [
             {
               reply: 'Nobody would choose hell. If people could see clearly what they were choosing, every one of them would choose God. So either God has not made it clear, or the choice is not really free.',
-              answer: 'People choose what ruins them all the time. They choose a grudge over a marriage, and pride over an apology. And the choice is not between pleasure and pain. It is whether I will have God as God: admit that I need forgiving, and let him rule my life. Plenty of people say frankly that they do not want that. In Jesus’ story the rich man in torment never asks to be with God. He is still trying to send Lazarus on errands (Luke 16:24). C. S. Lewis wrote that “the doors of hell are locked on the inside”.',
+              answer: 'People choose what ruins them all the time: a grudge over a marriage, pride over an apology. And the choice is not between pleasure and pain. It is whether I will have God as God, admit that I need forgiving, and let him rule my life, and plenty of people say frankly that they do not want that. In Jesus’ story the rich man in torment never asks to be with God; he is still trying to send Lazarus on errands (Luke 16:24). C. S. Lewis wrote that “the doors of hell are locked on the inside”.',
               followUps: [
                 {
                   reply: 'Then a God who is all-loving and all-powerful would keep working until everyone came round. Some Christians believe exactly that.',
@@ -154,7 +154,7 @@ export const jesusOnlyWay: Topic = {
         },
         {
           reply: 'Why can God not simply forgive? I forgive people without demanding that somebody die first.',
-          answer: 'When you forgive, you bear the cost yourself. If I break your window and you forgive me, you pay for the window. Forgiveness always costs the one who forgives. The cross is God bearing that cost: “God was reconciling the world to Himself in Christ, not counting men’s trespasses against them” (2 Corinthians 5:19). He is also the judge of the world, and a judge who waves away what was done to the victims is unjust. At the cross he does both. He is “just”, and he is able “to justify the one who has faith in Jesus” (Romans 3:25-26).',
+          answer: 'When you forgive, you bear the cost yourself: if I break your window and you forgive me, you pay for the window. The cross is God bearing that cost: “God was reconciling the world to Himself in Christ, not counting men’s trespasses against them” (2 Corinthians 5:19). He is also the judge of the world, and a judge who waves away what was done to the victims is unjust. At the cross he does both. He is “just”, and he is able “to justify the one who has faith in Jesus” (Romans 3:25-26).',
           followUps: [
             {
               reply: 'Punishing an innocent man in place of the guilty is unjust in itself. No court would allow it.',
@@ -178,11 +178,11 @@ export const jesusOnlyWay: Topic = {
           followUps: [
             {
               reply: 'Then the standard is unreasonable. Nobody is perfect. A fair God would not demand perfection from creatures he made imperfect. He would set a pass mark.',
-              answer: 'Where would he set it, and how would you ever know you had reached it? A pass mark gives nobody any peace, and it favours people who had an easy start. The standard is God’s own goodness because the destination is life with him, and heaven with our selfishness still in it would not be heaven. So he does not lower the standard. He meets it for us: “God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God” (2 Corinthians 5:21). That is better than a pass mark. It is free.',
+              answer: 'Where would he set it, and how would you ever know you had reached it? A pass mark gives nobody any peace, and it favours people who had an easy start. The standard is God’s own goodness because the destination is life with him, and heaven with our selfishness still in it would not be heaven. So he does not lower the standard; he meets it for us: “God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God” (2 Corinthians 5:21). That is better than a pass mark, because it is free.',
               followUps: [
                 {
                   reply: 'Then it is too easy. A murderer says sorry on his deathbed and is let in, while a decent unbeliever is shut out. That is not justice.',
-                  answer: 'It is shocking, and Jesus meant it to be. He promised paradise to a dying criminal who asked him for mercy (Luke 23:42-43). But it is not cheap. The murderer’s crime is not waved through. It was paid for at the cross, and real repentance is a turning that God sees, not a form of words. The decent unbeliever is not refused something he asked for. He is offered the same gift and declines it as unnecessary. Grace offends us because it leaves nobody anything to boast about: “not by works, so that no one can boast” (Ephesians 2:8-9).',
+                  answer: 'It is shocking, and Jesus meant it to be: he promised paradise to a dying criminal who asked him for mercy (Luke 23:42-43). But it is not cheap. The murderer’s crime is not waved through; it was paid for at the cross, and real repentance is a turning that God sees, not a form of words. The decent unbeliever is not refused something he asked for, since he is offered the same gift and declines it as unnecessary. Grace offends us because it leaves nobody anything to boast about: “not by works, so that no one can boast” (Ephesians 2:8-9).',
                 },
               ],
             },
@@ -190,7 +190,7 @@ export const jesusOnlyWay: Topic = {
         },
         {
           reply: 'I don’t feel guilty. Sin is an idea religion uses to make people feel bad about themselves.',
-          answer: 'Feelings are a poor guide. A person can feel well and be seriously ill. Try your own standards before God’s. You think less of people who lie, who use others, who are generous only when it suits them. Have you kept those rules yourself? I have not. Paul says, “you who pass judgment do the same things” (Romans 2:1). Then there is the first commandment, to love God with all your heart (Matthew 22:37). Living on his gifts every day and giving him no thought is where the trouble starts.',
+          answer: 'Feelings are a poor guide; a person can feel well and be seriously ill. Try your own standards before God’s. You think less of people who lie, who use others, who are generous only when it suits them, and have you kept those rules yourself? I have not, and Paul says, “you who pass judgment do the same things” (Romans 2:1). Then there is the first commandment, to love God with all your heart (Matthew 22:37): living on his gifts every day and giving him no thought is where the trouble starts.',
         },
       ],
     },
