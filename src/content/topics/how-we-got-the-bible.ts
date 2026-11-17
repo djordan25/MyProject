@@ -59,13 +59,57 @@ export const howWeGotTheBible: Topic = {
       keyPoints: ['Nicaea was about Arius, not the canon.', 'Four Gospels named around AD 180.', 'Recognition began within the New Testament itself.'],
       references: ['2 Peter 3:15-16', '1 Timothy 5:18'],
       followUps: [
-        { reply: 'But the church still picked the books it liked.', answer: 'The books were recognised because of where they came from, not because they were convenient. They include plenty that embarrasses the church’s first leaders, such as Peter denying Jesus (Mark 14:66-72).' },
+        {
+          reply: 'But the church still picked the books it liked.',
+          answer: 'The books were recognised because of where they came from, not because they were convenient. They include plenty that embarrasses the church’s first leaders, such as Peter denying Jesus (Mark 14:66-72).',
+          followUps: [
+            {
+              reply: 'The winners write the history. One party won, called itself orthodox, and its books became the Bible. Other Christians, such as the Gnostics, had scriptures of their own.',
+              answer: 'There were rival groups, and that much is true. But “winners” suggests power, and in the second and third centuries, when the four Gospels and Paul’s letters came to be recognised everywhere, the church had none. It was an illegal minority that was persecuted from time to time and could suppress nobody. What settled the matter was a historical question anyone could ask: which books go back to the apostles and their circle? The Gnostic books fail on their dates, not on politics. Even Marcion, who drew up the earliest rival list around AD 140, built it from an edited Luke and ten letters of Paul, books that were already in use.',
+              followUps: [
+                {
+                  reply: 'Even so, the list was not settled until the late fourth century. For three hundred years Christians did not know what their Bible was.',
+                  answer: 'They knew most of it. The four Gospels, Acts, the letters of Paul, 1 Peter and 1 John were not in serious doubt from the second century on. The books discussed for longer stood at the edge: Hebrews, James, 2 Peter, 2 and 3 John, Jude and Revelation. Eusebius, early in the fourth century, sets it all out openly in his Church History, sorting books into the acknowledged, the disputed and the spurious. That the churches took their time over the edges, and said so, is a sign of care. No Christian teaching rests on the disputed books alone.',
+                  followUps: [
+                    {
+                      reply: 'So fallible men drew up the list. How do you know they got it right?',
+                      answer: 'In principle they could have erred, and I do not claim that any council is infallible. My confidence rests on things you can check. The tests they applied were historical: does it come from the apostles’ circle, and has it been read in the churches from the start? The books they recognised are the earliest we have. And no excluded book has a better claim, which you can judge by reading the Gospel of Thomas or the Gospel of Peter. As a Christian I also believe that the God who gave the books saw to it that his people knew them: “My sheep listen to My voice” (John 10:27). But the list stands as history without that.',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'Constantine did order fifty Bibles from Eusebius. So he had a hand in what went into them.',
+          answer: 'He did commission fifty copies of the Scriptures for the churches of his new capital, Constantinople, around AD 330. Eusebius preserves the letter in his Life of Constantine. But the letter leaves the contents to Eusebius and names no books. Eusebius had already described in his Church History which books the churches accepted and which they disputed, as a state of affairs he had inherited. The emperor paid for the copying. He chose nothing.',
+        },
       ],
     },
     {
       id: 'hb-2',
       followUps: [
-        { reply: 'The Gospel of Thomas may be as early as your Gospels.', answer: 'Some scholars argue that, but most date it to the second century, because it appears to know the finished Gospels and reflects later ideas. And it is a list of sayings with no account of the crucifixion or the resurrection, so even at its earliest it would not replace the accounts that have them.' },
+        {
+          reply: 'The Gospel of Thomas may be as early as your Gospels.',
+          answer: 'Some scholars argue that, but most date it to the second century, because it appears to know the finished Gospels and reflects later ideas. And it is a list of sayings with no account of the crucifixion or the resurrection, so even at its earliest it would not replace the accounts that have them.',
+          followUps: [
+            {
+              reply: 'It has no cross or resurrection because it is the more original. Jesus was first remembered as a teacher of wisdom, and the dying and rising came later.',
+              answer: 'The dates run the other way. The earliest Christian documents we have are Paul’s letters, from the 50s, and they are centred on the cross and the resurrection. The summary he quotes was handed to him within a few years of the events (1 Corinthians 15:3-5). No stage of Christianity that we can document comes before that message. Thomas, on the other hand, seems to know sayings in the edited form that Matthew and Luke gave them, which places it after them. Simon Gathercole and Mark Goodacre each argued this in detail in books published in 2012.',
+            },
+          ],
+        },
+        {
+          reply: 'Irenaeus chose four Gospels because there are four winds and four corners of the earth. That is hardly a historical reason.',
+          answer: 'He does say that, and as an argument it is weak. But read the rest. He is giving a fitting reason for something already the case, not deciding it. In the same work he gives his historical grounds: Matthew wrote among the Hebrews, Mark was Peter’s interpreter, Luke was Paul’s companion, and John the disciple wrote at Ephesus. Irenaeus had in his youth heard Polycarp, who by his account had known John. And a generation before him Justin Martyr describes the “memoirs of the apostles” being read at Sunday worship, while Justin’s pupil Tatian wove these four into a single narrative, the Diatessaron, around AD 170.',
+          followUps: [
+            {
+              reply: 'The Gnostic gospels were buried at Nag Hammadi because the church was destroying them. That is suppression.',
+              answer: 'By the late fourth century, when those books were probably buried, bishops had power and used it. Athanasius’s letter of 367 tells the churches to keep away from apocryphal books. I do not defend every use of that power. But by then the books had been rejected for two hundred years, in open argument, by a church that could not destroy anything. Irenaeus answers them by describing and quoting them. And read them. The Gospel of Thomas ends with Jesus saying that Mary must be made male to enter the kingdom. In the Gospel of Judas he laughs at the disciples for giving thanks to their God over bread. These are not lost history. They are another religion using the name of Jesus, in which the world’s maker is a lesser being and salvation comes by secret knowledge.',
+            },
+          ],
+        },
       ],
       objection: 'There were dozens of other gospels that the church suppressed.',
       response:

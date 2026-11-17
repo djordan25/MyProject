@@ -81,7 +81,38 @@ export const quranSources: Topic = {
     {
       id: 'qs-1',
       followUps: [
-        { reply: 'Then how did Muhammad know stories that are not in the Bible?', answer: 'Because those stories were being told around him. His own critics said he was repeating “legends of the former peoples” (Quran 25:5), and he allowed his followers to pass on the stories of the Israelites (Sahih al-Bukhari 3461).' },
+        {
+          reply: 'Then how did Muhammad know stories that are not in the Bible?',
+          answer: 'Because those stories were being told around him. His own critics said he was repeating “legends of the former peoples” (Quran 25:5), and he allowed his followers to pass on the stories of the Israelites (Sahih al-Bukhari 3461).',
+          followUps: [
+            {
+              reply: 'The Quran answers that charge itself. The man they pointed to spoke a foreign tongue, and the Quran is in clear Arabic (Quran 16:103).',
+              answer: 'That answers a charge nobody needs to make. The claim is not that a foreigner composed the Arabic. It is that the stories came from people around him and he put them into his own words. A story heard in broken Arabic can be retold in excellent Arabic. Notice also that the verse does not deny that the man existed or that Muhammad spent time with him. Ibn Ishaq’s biography names one candidate, a young Christian slave called Jabr, at whose booth Muhammad often sat.',
+              followUps: [
+                {
+                  reply: 'The Quran’s versions differ from those books in many details. A borrower would have copied them. The Quran is correcting their mistakes, not repeating them.',
+                  answer: 'Differences in detail are what retelling by word of mouth produces. Nobody claims he copied from a page. And “correcting” assumes there was a real event to correct. The four first-century Gospels know nothing of a child who made clay birds. They say Jesus’ first sign was at Cana, as a grown man (John 2:11), and that his own town was astonished when he began to teach and do miracles (Mark 6:2-3). The clay birds first appear in a second-century book of legends.',
+                  followUps: [
+                    {
+                      reply: 'You cannot date these books securely. Some of them may be later than the Quran and may have taken the stories from it.',
+                      answer: 'Some are hard to date, and I’ll say so. The dates of the Arabic Infancy Gospel and the Targum Sheni are debated, and the Jewish book that tells the raven story, Pirke de-Rabbi Eliezer, was finished after Islam began. The main examples are not in doubt. Irenaeus, writing about AD 180, already quotes a story about the boy Jesus and his teacher that is found in the Infancy Gospel of Thomas. Origen, in the early third century, mentions the Book of James. The Mishnah was compiled about AD 200. These were circulating four centuries before Muhammad.',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'Your own Bible quotes books outside the canon. Jude quotes the Book of Enoch. So a true saying can survive in an uninspired book.',
+          answer: 'Jude does quote a line that is also found in 1 Enoch (Jude 1:14-15), and Paul quotes pagan poets (Acts 17:28; Titus 1:12). Quoting a sentence as true does not endorse the book. What the Quran does is different. It retells these stories at length as history and says the knowledge came from God, not from anyone’s report: “That is from the news of the unseen which We reveal to you” (Quran 3:44). That is said about the casting of lots for Mary, a scene from the Protoevangelium of James.',
+          followUps: [
+            {
+              reply: 'Then Allah revealed the true account, and the Protoevangelium happens to preserve part of it. Agreement with an older book does not prove dependence on it.',
+              answer: 'Agreement in one place would not. The pattern does. Again and again, where the Quran adds to the Bible’s account, the addition matches a story first found in later legend and never in the earliest sources: the clay birds, Mary in the temple, Abraham’s furnace. In Quran 5:32 it gives as God’s decree a sentence from the rabbis’ own argument in the Mishnah. If the Quran had independent access to the facts, we would expect it sometimes to side with the first-century witnesses against the later legends. It never does.',
+            },
+          ],
+        },
       ],
       objection: 'Maybe those apocryphal books preserved true stories that Allah confirmed in the Quran.',
       response:
@@ -92,7 +123,38 @@ export const quranSources: Topic = {
     {
       id: 'qs-2',
       followUps: [
-        { reply: 'Those legends were in Greek and Syriac, which he did not know.', answer: 'Stories cross languages by being retold, not by being read. Jews and Christians lived in Arabia and along its trade routes, and the Quran itself records the charge that a foreigner was teaching him (Quran 16:103). A merchant hears many stories.' },
+        {
+          reply: 'Those legends were in Greek and Syriac, which he did not know.',
+          answer: 'Stories cross languages by being retold, not by being read. Jews and Christians lived in Arabia and along its trade routes, and the Quran itself records the charge that a foreigner was teaching him (Quran 16:103). A merchant hears many stories.',
+          followUps: [
+            {
+              reply: 'Mecca was a pagan town with no church and no synagogue. Name the person who is supposed to have taught him.',
+              answer: 'The Islamic sources name several. His wife’s cousin Waraqa was a Christian who “used to write the writing with Hebrew letters. He would write from the Gospel in Hebrew” (Sahih al-Bukhari 3). A Christian convert wrote for the Prophet, then left Islam saying, “Muhammad knows nothing but what I have written for him” (Sahih al-Bukhari 3617). In Medina the Jews “used to recite the Torah in Hebrew and they used to explain it in Arabic to the Muslims” (Sahih al-Bukhari 4485). I don’t need one teacher. I need a setting where these stories were told, and the hadith describe it.',
+              followUps: [
+                {
+                  reply: 'Waraqa died a few days after the first revelation. The same hadith says so. He cannot be the source of twenty-three years of Quran.',
+                  answer: 'Agreed, and I am not saying he was. Waraqa shows that Christian teaching was present in Muhammad’s own household before any revelation came. The stories about Jesus and Mary did not need twenty-three years of tutoring. They needed a man who listened, in a place where Jews and Christians talked. The early biographies also have him travelling to Syria with trading caravans before his call.',
+                  followUps: [
+                    {
+                      reply: 'If any man had been feeding him stories, the Quraysh would have produced that man and finished him. They never could.',
+                      answer: 'They made the accusation again and again, and the Quran records it: that other people helped him (Quran 25:4), that a human being taught him (Quran 16:103), that these were legends of the former peoples (Quran 6:25; 8:31; 25:5). The Quran’s reply each time is a denial, not a disproof. The people who said it were his own townsmen, who knew whom he met. That is testimony from his own time, preserved in the Quran itself.',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'If Jews and Christians had taught him, the Quran would agree with their Bible. It differs from the Bible, so he did not learn from them.',
+          answer: 'It differs from the Bible in the direction of what ordinary Jews and Christians were telling each other. Preachers and storytellers passed on Scripture mixed with commentary and saints’ tales, and a hearer who could not check a text had no way to tell them apart. So the Quran’s Abraham is thrown into the fire of the Jewish midrash (Quran 21:68-69), and its Mary grows up in the temple and is fed there by a miracle, as in the Protoevangelium (Quran 3:37). That is what learning by ear looks like.',
+          followUps: [
+            {
+              reply: 'Or the Bible is what was corrupted, and the Quran restores what Genesis and the Gospels left out.',
+              answer: 'Then the lost truth survived only in books written centuries after the events, which Jews and Christians themselves treated as commentary and legend, not Scripture. Genesis was translated into Greek long before Christ, and that translation has no furnace for Abraham. The rabbis seem to have drawn the story out of the name Ur, which resembles a Hebrew word for fire (Genesis 15:7). We can watch the legend grow up beside the Bible. Nothing suggests it fell out of the Bible.',
+            },
+          ],
+        },
       ],
       objection: 'Muhammad was illiterate, so he couldn’t have read these books.',
       response:
@@ -103,7 +165,30 @@ export const quranSources: Topic = {
     {
       id: 'qs-3',
       followUps: [
-        { reply: 'The church banned the Gospel of Barnabas, which is why it was hidden.', answer: 'Early lists mention a book of that name, but nothing of its contents survives. The book quoted today has medieval details and mistakes about first-century Palestine, and it gives the title Messiah to Muhammad, which the Quran gives to Jesus (Quran 3:45). A book that contradicts the Quran cannot be the Gospel the Quran confirms.' },
+        { reply: 'The church banned the Gospel of Barnabas, which is why it was hidden.', answer: 'Early lists mention a book of that name, but nothing of its contents survives. The book quoted today has medieval details and mistakes about first-century Palestine, and it gives the title Messiah to Muhammad, which the Quran gives to Jesus (Quran 3:45). A book that contradicts the Quran cannot be the Gospel the Quran confirms.',
+          followUps: [
+            {
+              reply: 'Medieval details and mistakes? That is what Christians say to get rid of it. Give me one.',
+              answer: 'It says the jubilee comes every hundred years (chapter 82). In the Law it is every fiftieth year (Leviticus 25:10-11). A hundred-year jubilee belongs to one period only: Pope Boniface VIII proclaimed the first in 1300, and by 1350 the interval had been shortened. The book’s own translators, Lonsdale and Laura Ragg, pointed this out. It has Jesus sail to Nazareth, a hill town many miles from the lake (chapter 20). And its opening calls Jesus “Christ” while it has him say he is not the Messiah, as if the author did not know that Christ is Greek for Messiah. A companion of the apostles would not make those mistakes.',
+              followUps: [
+                {
+                  reply: 'A late copy can still go back to an early original. Copyists may have added those details.',
+                  answer: 'Nothing shows an earlier original. The Italian manuscript surfaced in Amsterdam at the start of the eighteenth century. No church father quotes the book. Nor do the great Muslim writers against Christianity: the Oxford Arabist D. S. Margoliouth noted that Ibn Hazm and Ibn Taymiyya, who would have welcomed such a gospel, show no knowledge of it. A gospel in which Jesus announces Muhammad by name would have been the first thing they quoted.',
+                  followUps: [
+                    {
+                      reply: 'Even so, the church chose four gospels out of many at Nicaea and suppressed the rest. Who knows what was lost?',
+                      answer: 'The Council of Nicaea in AD 325 did not rule on which books belong in the Bible. Irenaeus, about AD 180, already wrote that the Gospels are four, neither more nor fewer, a century and a half before the council. They were received because they came from the apostles’ own generation (Luke 1:1-4). The others were set aside because they were written later. Many of them survive and can be read and dated. None of them announces Muhammad.',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          reply: 'Leave Barnabas aside then. The Quran says Jesus foretold a messenger named Ahmad (Quran 61:6), so some gospel must once have said it.',
+          answer: 'That shows where the search starts: from the Quran’s claim, not from any evidence. We have copies of the Gospels made centuries before Muhammad, and no such saying is in any of them. Nobody could have removed a prophecy of Muhammad before he was born. And the Quran tells the Christians of Muhammad’s day to judge by what God revealed in the Gospel (Quran 5:47), which assumes they still had it.',
+        },
       ],
       objection: 'The Gospel of Barnabas proves Christians hid the truth about Muhammad.',
       response:
@@ -152,6 +237,137 @@ export const quranSources: Topic = {
       options: ['Poetry of the jinn', 'Legends of the former peoples', 'Greek philosophy', 'Persian law'],
       answer: 1,
       explanation: '“Legends of the former peoples which he has written down.”',
+    },
+    {
+      id: 'qs-q6',
+      question: 'In which work is Mary raised in the temple, fed by an angel, and given a guardian chosen by lot?',
+      options: ['The Gospel of Luke', 'The Gospel of Barnabas', 'The Protoevangelium of James', 'The Mishnah'],
+      answer: 2,
+      explanation: 'A second-century legend. The Quran has the same elements (Quran 3:37, 3:44); Luke has none of them (Luke 1:26-38).',
+    },
+    {
+      id: 'qs-q7',
+      question: 'According to the four Gospels, when and where did Jesus perform his first sign?',
+      options: ['As a boy in Nazareth', 'As an adult, at Cana in Galilee', 'As a newborn, in the cradle', 'As a child in Egypt'],
+      answer: 1,
+      explanation: '“Jesus performed this, the first of His signs, at Cana in Galilee” (John 2:11). That leaves no room for childhood miracles.',
+    },
+    {
+      id: 'qs-q8',
+      question: 'In the Quran, how does Cain learn to bury his brother?',
+      options: ['An angel digs the grave', 'Adam shows him', 'He is told in a dream', 'Allah sends a crow that scratches the ground'],
+      answer: 3,
+      explanation: 'Quran 5:31. Genesis has no bird in the story (Genesis 4:8-12); a raven that teaches burial belongs to Jewish legend.',
+    },
+    {
+      id: 'qs-q9',
+      question: 'Where does the story of Abraham being thrown into a fire come from?',
+      options: ['Genesis 12', 'The Gospel of Matthew', 'Jewish midrash such as Genesis Rabbah', 'The Infancy Gospel of Thomas'],
+      answer: 2,
+      explanation: 'Genesis says nothing of it. The Quran tells it in Quran 21:68-69.',
+    },
+    {
+      id: 'qs-q10',
+      question: 'A Muslim says, “Muhammad could not read, so he could not have used these books.” What is the best answer?',
+      options: [
+        'He could in fact read Greek and Syriac',
+        'The stories were passed on by word of mouth, and his opponents said people were teaching him',
+        'The books had all been translated into Arabic by his time',
+        'Illiterate people cannot remember long stories',
+      ],
+      answer: 1,
+      explanation: 'No reading is needed to hear a story. The Quran records the charge that a human being taught him (Quran 16:103).',
+    },
+    {
+      id: 'qs-q11',
+      question: 'What does Sahih al-Bukhari 3 say about Waraqa, the cousin of Muhammad’s wife Khadija?',
+      options: [
+        'He was a pagan poet who opposed Muhammad',
+        'He was a rabbi from Medina',
+        'He was a Christian who used to write from the Gospel',
+        'He wrote down the whole Quran',
+      ],
+      answer: 2,
+      explanation: 'Christian teaching was present in Muhammad’s own household before the first revelation.',
+    },
+    {
+      id: 'qs-q12',
+      question: 'How does the Gospel of Barnabas contradict the Quran?',
+      options: [
+        'It says Jesus was crucified',
+        'It has Jesus deny that he is the Messiah',
+        'It denies the virgin birth',
+        'It calls Jesus the Son of God',
+      ],
+      answer: 1,
+      explanation: 'The Quran calls Jesus the Messiah (Quran 3:45), so a Muslim cannot rely on this book either.',
+    },
+    {
+      id: 'qs-q13',
+      question: 'Which detail shows the Gospel of Barnabas was written in medieval Europe?',
+      options: [
+        'It mentions the Council of Nicaea',
+        'It is written in Latin verse',
+        'It quotes the Quran by name',
+        'It speaks of a jubilee every hundred years',
+      ],
+      answer: 3,
+      explanation: 'The Law sets the jubilee at every fiftieth year (Leviticus 25:10-11). A hundred-year jubilee was proclaimed by the Pope in 1300.',
+    },
+    {
+      id: 'qs-q14',
+      question: 'The story of Dhul-Qarnayn and the wall against Gog and Magog (Quran 18:83-98) parallels which legend?',
+      options: [
+        'The Syriac legend of Alexander the Great',
+        'The Seven Sleepers of Ephesus',
+        'The Life of Adam and Eve',
+        'The Protoevangelium of James',
+      ],
+      answer: 0,
+      explanation: 'In the Quran he reaches the place where the sun sets and builds a wall of iron and copper (Quran 18:86, 18:96-97).',
+    },
+    {
+      id: 'qs-q15',
+      question: 'Jude quotes a line found in the Book of Enoch. Why is that different from what the Quran does with apocryphal stories?',
+      options: [
+        'Jude was not an apostle, so his letter does not count',
+        'The Book of Enoch is part of the Old Testament',
+        'Jude quotes one sentence as true; the Quran retells whole legends as history revealed from the unseen',
+        'Jude says plainly that Enoch is a forgery',
+      ],
+      answer: 2,
+      explanation: 'Paul quotes pagan poets in the same way (Acts 17:28). The Quran says of the casting of lots for Mary, “That is from the news of the unseen which We reveal to you” (Quran 3:44).',
+    },
+    {
+      id: 'qs-q16',
+      question: 'A Muslim says the apocryphal books may have copied the Quran. Which fact answers this?',
+      options: [
+        'All of them were written in Arabic',
+        'Irenaeus (about AD 180) and Origen (early third century) already knew the infancy legends',
+        'The Quran names the books it used',
+        'None of them survives today',
+      ],
+      answer: 1,
+      explanation: 'The Infancy Gospel of Thomas and the Protoevangelium of James were circulating four centuries before Muhammad. Some other sources are harder to date, and it is right to say so.',
+    },
+    {
+      id: 'qs-q17',
+      question: 'Why does it matter that the Infancy Gospel of Thomas also has the boy Jesus strike other children dead?',
+      options: [
+        'It proves the book was written by Muslims',
+        'It shows the book is a collection of legends that no Muslim would accept as a whole',
+        'It shows the book is older than the four Gospels',
+        'It is the reason the Quran quotes the book by name',
+      ],
+      answer: 1,
+      explanation: 'If the clay birds are a true memory preserved there, on what ground is the rest of the book rejected?',
+    },
+    {
+      id: 'qs-q18',
+      question: 'In the Gospel of Pseudo-Matthew, when does a palm tree bend down to feed Mary?',
+      options: ['At the birth of Jesus', 'During the flight to Egypt', 'At the crucifixion', 'In the temple, when she is a child'],
+      answer: 1,
+      explanation: 'The Quran sets a similar scene at the birth itself (Quran 19:23-25). The Bible places the birth in Bethlehem, with a manger (Luke 2:4-7).',
     },
   ],
 };

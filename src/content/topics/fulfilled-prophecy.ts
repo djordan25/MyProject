@@ -83,7 +83,7 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'The passion story is prophecy turned into history. The divided clothes, the mocking and the cry from the cross were lifted from Psalm 22 and written up as events. John Dominic Crossan calls this “prophecy historicised”.',
-          answer: 'The central event did not come from a psalm. The Roman historian Tacitus, who despised Christians, records that Christ was executed under Pontius Pilate. The details are ordinary too. Executioners commonly kept the condemned man’s clothes, and bystanders mocked. And look at how the writers handle Scripture elsewhere. Matthew says Jesus’ home in Nazareth fulfilled the words “He will be called a Nazarene” (Matthew 2:22-23), a line found in no Old Testament book. Nobody invents Nazareth to match a text that does not exist. He began with the fact and went looking for the Scripture.',
+          answer: 'The central event did not come from a psalm. The Roman historian Tacitus, who despised Christians, records that Christ was executed under Pontius Pilate. That a crucified man was stripped and mocked needs no psalm to explain it. And look at how the writers handle Scripture elsewhere. Matthew says Jesus’ home in Nazareth fulfilled the words “He will be called a Nazarene” (Matthew 2:22-23), a line found in no Old Testament book. Nobody invents Nazareth to match a text that does not exist. He began with the fact and went looking for the Scripture.',
           followUps: [
             {
               reply: 'Then you have made my point. If Matthew could find a fulfilment for Nazareth where no text exists, he could find one for anything. Matches found after the event prove nothing.',
@@ -142,7 +142,7 @@ export const fulfilledProphecy: Topic = {
           answer: 'It has, terribly. But Isaiah’s point is different: this servant’s suffering takes away the guilt of others, “He will bear their iniquities” (Isaiah 53:11). No nation’s suffering is said to do that.',
           followUps: [
             {
-              reply: 'The speakers in Isaiah 53 are the Gentile kings of the verses just before, astonished to discover that Israel suffered because of them. “My people” in verse 8 is each king speaking of his own nation. That has been the Jewish reading since Rashi.',
+              reply: 'The speakers in Isaiah 53 are the Gentile kings of the verses just before, astonished to discover that Israel suffered because of them. “My people” in verse 8 is each king speaking of his own nation. That has been the main Jewish reading since Rashi.',
               answer: 'It is a serious reading, and Rashi made it standard in the eleventh century. But it strains the text. In these chapters of Isaiah “My people” is Israel. The speakers confess, “the LORD has laid upon Him the iniquity of us all” (Isaiah 53:4-6), and Scripture never says that Israel’s suffering heals the nations. Isaiah says Israel was handed over to the plunderers for its own sins (Isaiah 42:24). And this servant is silent, without violence or deceit (Isaiah 53:7, 9), while Isaiah calls the nation a blind and deaf servant (Isaiah 42:19).',
               followUps: [
                 {
@@ -215,7 +215,7 @@ export const fulfilledProphecy: Topic = {
           followUps: [
             {
               reply: 'The Hebrew Bible never says the Messiah comes twice. The followers of every failed messiah say he will finish the job later. Sabbatai Zevi’s followers said it, and some of the Lubavitcher Rebbe’s followers say it now.',
-              answer: 'You are right that no verse says “twice” in so many words. What the Scriptures give are two portraits. One comes “with the clouds of heaven” to rule every nation (Daniel 7:13-14). The other comes “humble and riding on a donkey” (Zechariah 9:9). The rabbis felt the tension themselves. The Talmud asks in Sanhedrin 98a how both can be true, and elsewhere speaks of two Messiahs, one of whom is killed. So Christians did not invent the problem. As for the comparison, Jesus said beforehand that he would be killed and rise (Mark 8:31-33), and the evidence is that he did. Sabbatai Zevi and the Rebbe are still dead.',
+              answer: 'You are right that no verse says “twice” in so many words. What the Scriptures give are two portraits. One comes “with the clouds of heaven” to rule every nation (Daniel 7:13-14). The other comes “humble and riding on a donkey” (Zechariah 9:9). The rabbis felt the tension themselves. The Talmud asks in Sanhedrin 98a how both can be true, and in Sukkah 52a it speaks of two Messiahs, one of whom is killed. So Christians did not invent the problem. As for the comparison, Jesus said beforehand that he would be killed and rise (Mark 8:31-33), and the evidence is that he did. Sabbatai Zevi and the Rebbe are still dead.',
               followUps: [
                 {
                   reply: 'It has been two thousand years. At what point does a delayed promise count as a failed one?',
@@ -227,7 +227,7 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'Daniel 9 is not about Jesus. Most critical scholars date the book to the 160s BC and take the anointed one who is cut off to be the high priest Onias III, murdered about 171 BC in the time of Antiochus Epiphanes.',
-          answer: 'That is the majority view among critical scholars, and I will not pretend otherwise. It has real difficulties, though. Seventy weeks of years do not fit: counted from any starting point on offer, 490 years runs decades past Antiochus, and scholars who hold the view usually say the author’s arithmetic was loose. Antiochus defiled the temple, but he did not destroy it or the city, as the passage says will happen (Daniel 9:24-27). Rome did both in AD 70. And Jesus, two centuries after Antiochus, still spoke of Daniel’s desolation as something to come (Matthew 24:15).',
+          answer: 'That is the majority view among critical scholars, and I will not pretend otherwise. It has real difficulties, though. Seventy weeks of years do not fit: counted from any starting point on offer, 490 years runs decades past Antiochus, and scholars who hold the view generally grant that the figures cannot be made to fit exactly. Antiochus defiled the temple, but he did not destroy it or the city, as the passage says will happen (Daniel 9:24-27). Rome did both in AD 70. And Jesus, two centuries after Antiochus, still spoke of Daniel’s desolation as something to come (Matthew 24:15).',
           followUps: [
             {
               reply: 'Your sums are no better. Christians cannot agree which decree starts the clock or how the weeks are to be counted.',
@@ -278,6 +278,162 @@ export const fulfilledProphecy: Topic = {
       options: ['It denies the promise', 'He comes twice: first to bear sin, then to bring peace', 'Peace already fills the world', 'It ignores the question'],
       answer: 1,
       explanation: 'Hebrews 9:28.',
+    },
+    {
+      id: 'fp-q6',
+      question: 'In Isaiah 53:8 the servant is stricken “for the transgression of My people”. Why does that matter when someone says the servant is the nation of Israel?',
+      options: [
+        'It shows the servant is someone other than the people he suffers for',
+        'It shows the chapter was written after the exile',
+        'It proves Isaiah had a Gentile king in mind',
+        'It shows the servant was punished for his own sins',
+      ],
+      answer: 0,
+      explanation: 'The servant suffers for the people, so he is distinct from them, and he is innocent (Isaiah 53:8-9).',
+    },
+    {
+      id: 'fp-q7',
+      question: 'What should you know about the word “pierced” in Psalm 22:16?',
+      options: [
+        'It is found in every Hebrew manuscript',
+        'It was added by Christian copyists in the Middle Ages',
+        'The psalm is quoted nowhere in the New Testament',
+        'The standard Hebrew text reads “like a lion”, and “pierced” follows the ancient Greek translation and an early Hebrew manuscript',
+      ],
+      answer: 3,
+      explanation: 'Be honest about the textual question. The argument does not rest on that one word.',
+    },
+    {
+      id: 'fp-q8',
+      question: 'At Pentecost Peter argued that Psalm 16:10 could not be about David himself. What was his reason?',
+      options: [
+        'David did not write any psalms',
+        'David was not from the tribe of Judah',
+        'David died and was buried, and his tomb was still there',
+        'David never claimed to be a prophet',
+      ],
+      answer: 2,
+      explanation: 'David’s body saw decay, so he spoke of the Christ, whose body did not (Acts 2:29-31).',
+    },
+    {
+      id: 'fp-q9',
+      question: 'Why does the lesson advise against quoting statistics about the odds of one man fulfilling hundreds of prophecies?',
+      options: [
+        'Because the Bible forbids the use of numbers',
+        'Because they cannot be checked and they invite an argument about arithmetic',
+        'Because there are only three messianic prophecies',
+        'Because sceptics always accept them without discussion',
+      ],
+      answer: 1,
+      explanation: 'A few clear passages, read aloud, persuade better than figures nobody can verify.',
+    },
+    {
+      id: 'fp-q10',
+      question: 'Someone says, “Isaiah calls the servant Israel, so chapter 53 is about the nation.” Which passage answers this best?',
+      options: [
+        'Isaiah 2:4, where the nations beat their swords into ploughshares',
+        'Malachi 3:1, where a messenger prepares the way',
+        'Genesis 12:3, where all families are blessed through Abraham',
+        'Isaiah 49:5-6, where the servant is sent to bring Jacob back and raise up the tribes of Israel',
+      ],
+      answer: 3,
+      explanation: 'A servant whose task is to restore Israel cannot simply be Israel (Isaiah 49:5-6).',
+    },
+    {
+      id: 'fp-q11',
+      question: 'Many critical scholars apply Daniel 9 to the time of Antiochus Epiphanes in the second century BC. Which detail of the passage fits that reading badly?',
+      options: [
+        'It mentions an anointed one',
+        'It speaks of weeks',
+        'It says the city and the sanctuary will be destroyed, and Antiochus defiled the temple but destroyed neither',
+        'It was written in Babylon',
+      ],
+      answer: 2,
+      explanation: 'Rome destroyed both Jerusalem and the temple in AD 70 (Daniel 9:25-26).',
+    },
+    {
+      id: 'fp-q12',
+      question: 'What supports Matthew’s use of “virgin” when he quotes Isaiah 7:14?',
+      options: [
+        'Jewish translators before Jesus had already rendered the word into Greek as “virgin”',
+        'The Hebrew word almah can only ever mean a virgin',
+        'Isaiah 7:14 is quoted in the Dead Sea Scrolls with the Greek word',
+        'Luke quotes the same verse in his birth narrative',
+      ],
+      answer: 0,
+      explanation: 'Matthew quotes the existing Greek translation (Matthew 1:22-23). The virgin birth itself rests on the reports of Matthew and Luke, not on this one word.',
+    },
+    {
+      id: 'fp-q13',
+      question: 'The lesson says the New Testament uses “fulfil” in more than one way. Which two ways?',
+      options: [
+        'A prophecy for Jews and a prophecy for Gentiles',
+        'A direct prediction coming true, and a pattern in Israel’s story reaching its goal in Jesus',
+        'A literal meaning and a secret meaning known only to the apostles',
+        'A fulfilment in the past and one that has been cancelled',
+      ],
+      answer: 1,
+      explanation: 'Do not claim that every fulfilment is a direct prediction. Lead with the passages that are.',
+    },
+    {
+      id: 'fp-q14',
+      question: 'What does the crowd’s objection in John 7:41-42 show?',
+      options: [
+        'That nobody in Jesus’ day expected a Messiah at all',
+        'That Jesus was known to have grown up in Bethlehem',
+        'That Jesus was known as a Galilean, and that Jews expected the Christ to come from Bethlehem and David’s line',
+        'That the crowd had never read the prophets',
+      ],
+      answer: 2,
+      explanation: 'His Galilean upbringing was used against him, so a writer inventing freely would not have left it in (John 7:41-42).',
+    },
+    {
+      id: 'fp-q15',
+      question: 'Someone says, “A second coming is just an excuse for a Messiah who failed.” What is the best reply?',
+      options: [
+        'The prophets never promised peace on earth',
+        'The promise of peace was only a figure of speech',
+        'Jesus never said he would return',
+        'The same Scriptures foretell a servant who suffers and dies and then lives, so two stages are in the prophecies themselves',
+      ],
+      answer: 3,
+      explanation: 'Isaiah 53:10-11 has the servant alive after his death. The rabbis also noticed the two portraits of the Messiah.',
+    },
+    {
+      id: 'fp-q16',
+      question: 'Why is a crucified Messiah unlikely to have been invented by the first Christians?',
+      options: [
+        'Crucifixion was unknown in Judea',
+        'A crucified Messiah was a stumbling block to Jews, an embarrassment and not a selling point',
+        'The Romans never crucified Jews',
+        'The Old Testament says nothing about suffering',
+      ],
+      answer: 1,
+      explanation: 'Paul admits it: “Christ crucified, a stumbling block to Jews and foolishness to Gentiles” (1 Corinthians 1:23).',
+    },
+    {
+      id: 'fp-q17',
+      question: 'A sceptic says Jesus simply provoked his own execution to match Isaiah 53. Which point answers this?',
+      options: [
+        'He could not control the Roman method of execution, his burial, or what happened on the third day',
+        'He did not know he would die',
+        'He had never read Isaiah',
+        'He tried to escape from Jerusalem before Passover',
+      ],
+      answer: 0,
+      explanation: 'He went knowingly (Mark 8:31-33), but a man can plan to die and cannot plan to be raised.',
+    },
+    {
+      id: 'fp-q18',
+      question: 'Which ancient Jewish sources show that reading Isaiah 53 of the Messiah was not a Christian invention?',
+      options: [
+        'The writings of Rashi in the eleventh century',
+        'The Dead Sea community’s War Scroll',
+        'The Aramaic Targum on Isaiah 52:13 and the Talmud in Sanhedrin 98b',
+        'The letters of Pontius Pilate',
+      ],
+      answer: 2,
+      explanation: 'The Targum reads “my servant the Messiah”, and Sanhedrin 98b draws a name for the Messiah from Isaiah 53:4. Rashi made the national reading standard.',
     },
   ],
   furtherReading: [

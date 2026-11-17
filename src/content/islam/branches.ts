@@ -17,7 +17,7 @@ export const branchesOfIslam: Topic = {
       heading: 'Sunni Muslims',
       body: [
         'Sunnis follow the Quran and the Sunnah, the example of Muhammad, as recorded in six major hadith collections. Bukhari and Muslim are the most trusted of the six. Most Sunnis follow one of four schools of law (Hanafi, Maliki, Shafi‘i and Hanbali), which differ on practice more than on belief.',
-        'Every lesson in this course applies directly to Sunnis.',
+        'Every lesson in this course applies directly to Sunnis. The Sunni Islam sub-track covers Sunni authorities, the companions, and the Salafi and Sufi streams in depth.',
       ],
     },
     {
@@ -26,7 +26,7 @@ export const branchesOfIslam: Topic = {
         'Shia Muslims are roughly 10 to 15 percent of the Muslim world, and the majority in Iran and Iraq. They believe leadership after Muhammad belonged to his cousin and son-in-law Ali and to a line of Imams from his family. Most are “Twelvers”, who recognise twelve Imams.',
         'Shia Muslims have their own hadith collections and do not trust many of the narrators Sunnis rely on. “Sahih al-Bukhari says” carries little weight with them.',
         'What still applies: everything argued from the Quran. The Quran’s affirmation of the Gospel (Quran 5:47), its denial of the crucifixion (Quran 4:157), its picture of Christian belief and its internal difficulties are the same for Shia and Sunni.',
-        'Notice, too, what the split shows. The two largest bodies of Muslims disagree about which reports of Muhammad’s words are genuine. That is the problem of the hadith in plain view.',
+        'Notice, too, what the split shows. The two largest bodies of Muslims disagree about which reports of Muhammad’s words are genuine. That is the problem of the hadith in plain view. The Shia Islam sub-track covers the Imams, the Shia sources and Karbala in depth.',
       ],
       references: ['Quran 5:47', 'Quran 4:157'],
     },
@@ -34,7 +34,7 @@ export const branchesOfIslam: Topic = {
       heading: 'Quran-only Muslims',
       body: [
         'A small minority, often called Quranists, reject the hadith altogether and follow the Quran alone. Arguments from Bukhari and Muslim will not move them.',
-        'Use the Quran-based lessons, and ask two questions. How do you know how to pray, since the Quran does not give the details? And how do you obey the Quran’s command to obey the Messenger (Quran 3:32) without a record of what he said?',
+        'Use the Quran-based lessons, and ask two questions. How do you know how to pray, since the Quran does not give the details? And how do you obey the Quran’s command to obey the Messenger (Quran 3:32) without a record of what he said? The Quran-only Muslims sub-track covers their arguments in depth.',
       ],
       references: ['Quran 3:32'],
     },
@@ -42,16 +42,25 @@ export const branchesOfIslam: Topic = {
       heading: 'Ahmadi Muslims',
       body: [
         'The Ahmadiyya movement began in India in the late nineteenth century with Mirza Ghulam Ahmad, whom its members regard as the Promised Messiah and Mahdi. Most other Muslims consider Ahmadis to be outside Islam, and they are persecuted in several countries.',
-        'Ahmadis teach that Jesus was crucified but survived, later travelling east and dying a natural death. So with an Ahmadi you are answering the “swoon” theory, which the lesson Denying the Crucifixion covers.',
+        'Ahmadis teach that Jesus was crucified but survived, later travelling east and dying a natural death. So with an Ahmadi you are answering the “swoon” theory, which the lesson Denying the Crucifixion covers. The Ahmadiyya sub-track covers the founder’s claims and the story of Jesus in India in depth.',
       ],
     },
     {
       heading: 'Sufis, and Muslims in name',
       body: [
-        'Sufism is a mystical tradition found among both Sunnis and Shia, stressing love for God and inward experience. Sufis are often glad to talk about knowing God personally. Jesus’ words are a natural place to begin: eternal life is to know the only true God and Jesus Christ whom he sent (John 17:3).',
+        'Sufism is a mystical tradition found among both Sunnis and Shia, stressing love for God and inward experience. Sufis are often glad to talk about knowing God personally. Jesus’ words are a natural place to begin: eternal life is to know the only true God and Jesus Christ whom he sent (John 17:3). The Sunni Islam sub-track has a lesson on the Salafi and Sufi streams.',
         'Many Muslims are Muslim by family and culture and know little of the Quran or the hadith. Detailed arguments about sources may mean nothing to them. Begin with Jesus himself and with the gospel (see Sharing the Gospel with a Muslim).',
       ],
       references: ['John 17:3'],
+    },
+    {
+      heading: 'Other communities',
+      body: [
+        'Three more communities grew out of Islam or carry its name, and stand apart from both Sunni and Shia Islam. Each has its own sub-track.',
+        'The Nation of Islam is an American movement that began in Detroit in 1930 with W. D. Fard and was built up by Elijah Muhammad. It teaches that Fard was Allah in person, that Elijah Muhammad was his messenger, and that black people are the original people of the earth. Sunni and Shia Muslims reject these teachings. After Elijah Muhammad died in 1975 his son moved the organisation towards mainstream Islam, and in 1978 Louis Farrakhan formed the present Nation of Islam on the older teachings. See the Nation of Islam sub-track.',
+        'The Druze arose in Egypt in the early eleventh century, out of Ismaili Shia Islam in the reign of the Fatimid caliph al-Hakim. About a million live mainly in Syria, Lebanon and Israel. The community has accepted no converts since 1043, its sacred writings are studied only by its initiated members, and it teaches that souls are reborn in new bodies. See the sub-track The Druze.',
+        'Alawites and Alevis are two different communities whose names both come from Ali. The Alawites, also called Nusayris, live mainly in north-western Syria and trace their teaching to Ibn Nusayr in the ninth century. Their doctrine is kept secret and treats Ali as a manifestation of God. The Alevis live in Turkey and among Turkish and Kurdish migrants in Europe. They revere Ali and the twelve Imams and the thirteenth-century saint Haji Bektash, and their central gathering is the cem, with music and ritual dance, in which women take full part. See the Alawites and Alevis sub-track.',
+      ],
     },
   ],
   objections: [
