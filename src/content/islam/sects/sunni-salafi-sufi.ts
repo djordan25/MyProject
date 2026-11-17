@@ -70,7 +70,7 @@ export const sunniSalafiSufi: Topic = {
         'Talk about nearness. The Sufi seeks it through a shaykh, a chain of masters and the help of saints. The gospel offers one mediator, who is alive: “there is one mediator between God and men, the man Christ Jesus” (1 Timothy 2:5), and “He always lives to intercede” for those who come to God through him (Hebrews 7:25). Through him the believer comes to God directly and calls him Father (Romans 8:15-16).',
         'And talk about assurance. The Sufi path is a long climb through stages, and no one can be sure he has arrived. Muhammad said that hearts lie between two fingers of the Merciful, who turns them as he wills (Sahih Muslim 2655). The gospel is God coming down to us (John 1:14), and it gives a settled confidence: “There is no fear in love, but perfect love drives out fear” (1 John 4:16-18). Do not assume that a Sufi is relaxed about doctrine or law. Many are strict. And do not scorn his experiences. Bring him to the words of Jesus.',
       ],
-      references: ['John 17:3', 'Quran 3:31', 'Quran 3:32', 'Sahih al-Bukhari 6502', '1 John 4:8-10', 'Romans 5:8', '1 Timothy 2:5', 'Hebrews 7:25', 'Romans 8:15-16', 'Sahih Muslim 2655', 'John 1:14', '1 John 4:16-18'],
+      references: ['John 17:3', 'Quran 5:54', 'Quran 3:31', 'Quran 3:32', 'Sahih al-Bukhari 6502', '1 John 4:8-10', 'Romans 5:8', '1 Timothy 2:5', 'Hebrews 7:25', 'Romans 8:15-16', 'Sahih Muslim 2655', 'John 1:14', '1 John 4:16-18'],
     },
   ],
   objections: [
@@ -116,7 +116,7 @@ export const sunniSalafiSufi: Topic = {
       response:
         'I honour that longing, and I share it. Jesus said that eternal life is to know God (John 17:3). I am not offering you debate in place of love. I have news about love. May I ask how you know that God loves you? In the Quran his love is for those who follow: “If you should love Allah, then follow me, [so] Allah will love you” (Quran 3:31). The gospel says he loved us first: “not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10).',
       keyPoints: ['Honour the longing to know God.', 'The Quran promises God’s love to those who follow and obey.', 'In the gospel God loves first, and proves it at the cross.'],
-      references: ['John 17:3', 'Quran 3:31', '1 John 4:8-10', 'Romans 5:8'],
+      references: ['John 17:3', 'Quran 3:31', 'Quran 5:54', '1 John 4:8-10', 'Romans 5:8'],
       followUps: [
         {
           reply: 'Allah is al-Wadud, the Loving. His mercy is greater than a mother’s for her child. I do not need a cross to know that.',

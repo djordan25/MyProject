@@ -11,7 +11,7 @@ export const noiOverview: Topic = {
       heading: 'Detroit, 1930',
       body: [
         'The Nation of Islam began in Detroit in 1930, among black families who had left the segregated South for northern factory work and then met the Depression. A man who gave his name as Wallace D. Fard went from door to door selling silks and cloth, and began to teach in the homes of those who would listen. Malcolm X, repeating what Elijah Muhammad told him, describes a peddler who called himself “a brother from the East”, warned against pork, taught from both the Bible and the Quran, and said that the true religion of black people was Islam.',
-        'Fard’s origins are unknown. The Nation teaches that he came from Mecca, and its members keep his birthday, 26 February, as Saviours’ Day. The FBI reached other conclusions, and Encyclopaedia Britannica notes that its findings suggest he was born in New Zealand. The Nation rejects the FBI’s account. What is agreed is short. He taught in Detroit for about four years, gathered a following among the city’s poor, and in 1934 he disappeared. No one has shown what became of him.',
+        'Fard’s origins are unknown. The Nation teaches that he came from Mecca, and its members keep his birthday, 26 February, as Saviours’ Day. The FBI identified him, by fingerprints, with a Wallie D. Ford who had served a sentence in San Quentin prison in California, and its own files give that man two birthplaces, Portland in Oregon and New Zealand. The Nation rejects the identification and says the records were falsified. What is agreed is short. He taught in Detroit for about four years, gathered a following among the city’s poor, and in 1934 he disappeared. No one has shown what became of him.',
         'One of his hearers was Elijah Poole, born in Sandersville, Georgia, in 1897, who had brought his family north to Detroit. Fard renamed him Elijah Muhammad and made him his chief assistant.',
       ],
     },
@@ -26,32 +26,32 @@ export const noiOverview: Topic = {
     {
       heading: 'Malcolm X and Muhammad Ali',
       body: [
-        'Malcolm Little went to prison in Massachusetts in 1946 for burglary. His brothers and sisters had joined the Nation and wrote to him about it, and in prison he accepted Elijah Muhammad’s teaching, gave up pork and cigarettes, and educated himself from the prison library. Paroled in 1952, he became Malcolm X, the minister of the Harlem temple and the Nation’s best-known speaker for twelve years.',
+        'Malcolm Little went to prison in Massachusetts in 1946 for burglary. His brothers and sisters had joined the Nation and wrote to him about it, and in prison he accepted Elijah Muhammad’s teaching, gave up pork and cigarettes, and educated himself from the prison library. Paroled in 1952, he became Malcolm X. He served the Nation for twelve years, from 1954 as minister of the Harlem temple, and was its best-known speaker.',
         'In December 1963 Elijah Muhammad silenced him for ninety days after a remark about the killing of President Kennedy. By then Malcolm had heard, from former secretaries themselves, that Elijah Muhammad had fathered their children. In March 1964 he left the Nation. In April he made the pilgrimage to Mecca, where he prayed and ate with Muslims of every colour. He wrote home that what he had seen had forced him to “re-arrange” much of his thinking and to “toss aside some of my previous conclusions”. He embraced Sunni Islam and took the name El-Hajj Malik El-Shabazz. On 21 February 1965 he was shot dead at the Audubon Ballroom in New York. Three members of the Nation were convicted. One confessed at the trial and said the other two were innocent, and in 2021 those two were cleared.',
-        'The boxer Cassius Clay announced that he had joined the Nation in February 1964, just after winning the heavyweight title, and Elijah Muhammad gave him the name Muhammad Ali. In 1967 he refused to be drafted into the army on the ground of his religion, and lost his title for it. He later followed Elijah Muhammad’s son into Sunni Islam.',
+        'The boxer Cassius Clay announced that he had joined the Nation in February 1964, just after winning the heavyweight title, and Elijah Muhammad gave him the name Muhammad Ali. In 1967 he refused to be drafted into the army on the ground of his religion, and lost his title for it. He left the Nation’s teaching in 1975 and became a Sunni Muslim.',
       ],
     },
     {
       heading: 'After 1975: two roads',
       body: [
-        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission in 1978, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
+        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission in 1978, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
         'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change. In the late 1970s he broke away and re-founded the Nation of Islam on Elijah Muhammad’s teachings, with a new newspaper, The Final Call. This is the body that carries the name today. On 16 October 1995 he led the Million Man March in Washington, billed as a day of atonement and reconciliation for black men. Estimates of the crowd run from about 400,000 to more than a million.',
-        'The Nation today is small. Britannica gives estimates of 10,000 to 50,000 members. Its influence is far wider than its membership, through its newspaper, its speakers, its work in prisons and its place in the memory of black America.',
+        'The Nation today is small. In a Pew Research Center survey of 2017 only 3 percent of American-born black Muslims said they identified with it. Its influence is far wider than its membership, through its newspaper, its speakers, its work in prisons and its place in the memory of black America.',
       ],
     },
     {
       heading: 'God, the Messenger and the original people',
       body: [
-        'The last article of the Muslim Program states that “Allah (God) appeared in the Person of Master W. Fard Muhammad, July, 1930”, and calls him the long-awaited Messiah of the Christians and Mahdi of the Muslims. Elijah Muhammad taught that God is not a spirit. The third chapter of Message to the Blackman opens, “God is a man and we just cannot make Him other than man”, and the book mocks the idea of an unseen God as belief in a “spook”.',
-        'Elijah Muhammad is the Messenger of this God. He wrote that orthodox Muslims are mistaken when they apply the prophecies of a last messenger to “Muhammad of 1,400 years ago”, and his book calls the apostle raised among black Americans “the last Apostle”.',
+        'The last article of the Muslim Program states that “Allah (God) appeared in the Person of Master W. Fard Muhammad, July, 1930”, and calls him the long-awaited Messiah of the Christians and Mahdi of the Muslims. Elijah Muhammad taught that God is not a spirit. The chapter of Message to the Blackman headed “Is God a Spirit or a Man?” opens, “God is a man and we just cannot make Him other than man”, and the book mocks the idea of an unseen God as belief in a “spook”.',
+        'Elijah Muhammad is the Messenger of this God. He wrote that orthodox Muslims are mistaken to think that “Muhammad of nearly 1,400 years ago” was the prophet like Moses whom the Bible foretold, and his book calls the apostle raised among black Americans “the last Apostle”.',
         'Black people, in this teaching, are the Original Man, the first people of the earth, of the tribe of Shabazz, and Muslims by nature. Slavery robbed them of their names, their language and the knowledge of who they are. That is why members drop the surname that came from a slave-owner, and why Malcolm Little became Malcolm X. Salvation, in the Nation’s sense, begins with the knowledge of self.',
       ],
     },
     {
       heading: 'Yakub, the Mother Plane, the Bible and the resurrection',
       body: [
-        'The story of Yakub explains where white people came from. As Elijah Muhammad tells it, about 6,600 years ago a brilliant and discontented black scientist named Yakub was exiled from Mecca with 59,999 followers to an island in the Aegean called Pelan, which the book identifies with Patmos. There, by rules about who might marry and by killing the darker babies, he began a breeding programme, called grafting, that his followers carried on for six hundred years until a white race had been made. This race was wicked by nature, a race of devils, and was given 6,000 years to rule the earth. Elijah Muhammad taught that its time ran out in 1914.',
-        'Judgment will come by the Mother Plane. The book describes a wheel-shaped craft, half a mile by half a mile, “a small human planet made for the purpose of destroying the present world of the enemies of Allah”, carrying fifteen hundred bombing planes, and says that this is what Ezekiel saw in his vision of the wheels. Farrakhan teaches the same. The Final Call records his account of being taken up to the Wheel in a vision in Mexico in September 1985 and hearing Elijah Muhammad speak to him there.',
+        'The story of Yakub explains where white people came from. As Elijah Muhammad tells it, about 6,600 years ago a brilliant and discontented black scientist named Yakub was exiled from Mecca with 59,999 followers to an island in the Aegean called Pelan, which the book identifies with Patmos. There, by rules about who might marry and by killing the darker babies, he began a breeding programme, called grafting, that his followers carried on for six hundred years until a white race had been made. This race was wicked by nature, a race of devils, and was given 6,000 years to rule the earth. Elijah Muhammad taught that its time ran out in 1914, though he added that it could be given an extension.',
+        'Judgment will come by the Mother Plane. The book describes a wheel-shaped craft, half a mile by half a mile, “a small human planet made for the purpose of destroying the present world of the enemies of Allah”, carrying fifteen hundred bombing planes, and says that this is what Ezekiel saw in his vision of the wheels. Farrakhan teaches the same. By his own account he was taken up to the Wheel in a vision in Mexico in September 1985 and heard the voice of Elijah Muhammad speaking to him there.',
         'The Nation uses the Bible constantly, but on its own terms. Its statement of belief says, “We believe in the truth of the Bible, but we believe that it has been tampered with and must be reinterpreted”. Elijah Muhammad also called it “the Poison Book”. The Bible and the Quran alike are read as prophecy about black people in America, with Elijah Muhammad as the interpreter.',
         'The resurrection of the dead is “not in physical resurrection but mental resurrection”: the waking of a people who are mentally dead to the knowledge of themselves. Elijah Muhammad wrote plainly that “there is not any life beyond the grave”, and that heaven and hell are conditions in this life and not places after it. Jesus, he taught, “was only a prophet”, who is dead and cannot hear prayer.',
       ],
@@ -68,7 +68,7 @@ export const noiOverview: Topic = {
       heading: 'Outside Islam, and what that means for conversation',
       body: [
         'Sunni and Shia Muslims regard these teachings as outside Islam, for reasons that lie on the surface of the Quran. It says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that he is “the Ever-Living who does not die” (Quran 25:58). To associate anything with Allah, which is how Muslims regard calling a man God, is the sin the Quran says he does not forgive (Quran 4:48). It calls Muhammad the “last of the prophets” (Quran 33:40), and the hadith have him say, “There will be no prophet after me” (Sahih al-Bukhari 3455). It teaches a bodily resurrection in which Allah reassembles the bones (Quran 75:3-4). And it treats the variety of human colours as one of God’s signs (Quran 30:22), with no hint of a devil race.',
-        'Elijah Muhammad knew this. He wrote that “the Orthodox Muslims will have to bow to the choice of Allah”, and that Allah would bring about “a new Islam”. Malcolm X wrote that the story of Yakub “infuriated the Muslims of the East”. The two men closest to Elijah Muhammad, his chief minister and his own son, both left his doctrine for the Islam of the Quran.',
+        'Elijah Muhammad knew this. He wrote that “the Orthodox Muslims will have to bow to the choice of Allah”, and that Allah would bring about “a new Islam”. Malcolm X wrote that the story of Yakub “infuriated the Muslims of the East”. Two of the men closest to Elijah Muhammad, his best-known minister and his own son, both left his doctrine for the Islam of the Quran.',
         'For a Christian this changes the conversation. Most of the main Islam track argues from what Sunni Muslims hold: that the hadith in Bukhari and Muslim are reliable, that Muhammad of Arabia is the final prophet and the model for all time, that the Quran is perfectly preserved. A member of the Nation may hold none of these in the usual sense. His authority is the teaching of Elijah Muhammad, and now of Louis Farrakhan. Quoting Bukhari to him is like quoting it to a man who has never heard of it.',
         'What he does know, often very well, is the Bible. The Nation’s ministers preach from it constantly. So that is where to meet him: on who God is, on whether evil belongs to one race, on what resurrection means, and on who Jesus is. First ask what he himself believes. Some who sell The Final Call hold every word of Elijah Muhammad’s teaching. Others value the discipline and the pride and have hardly thought about Yakub. Find out before you answer. The next lesson, Answering the Nation of Islam, takes up the arguments.',
       ],
@@ -166,7 +166,7 @@ export const noiOverview: Topic = {
             {
               reply: 'The Bible they preached from is the book that made us slaves. You cannot mend us with the slave-master’s book.',
               answer:
-                'That deserves a full answer, and the lesson Answering the Nation of Islam gives one. Briefly: the men who held slaves had to keep parts of that book from them. An abridged Bible printed in London in 1807 for slaves in the British West Indies left out the story of Israel’s escape from Egypt. Nobody censors a book that is on his side. Slaves who got hold of the whole Bible found in it a God who says, “I have heard them crying out because of their oppressors” (Exodus 3:7-8).',
+                'That deserves a full answer, and the lesson Answering the Nation of Islam gives one. Briefly: parts of that book had to be kept from the slaves. An abridged Bible printed in London in 1807 for use among slaves in the British West Indies left out the story of Israel’s escape from Egypt. Nobody censors a book that is on his side. Slaves who got hold of the whole Bible found in it a God who says, “I have heard them crying out because of their oppressors” (Exodus 3:7-8).',
             },
           ],
         },
@@ -194,7 +194,7 @@ export const noiOverview: Topic = {
             {
               reply: 'Those sisters were his wives in the sight of Allah. There was no sin in it.',
               answer:
-                'Then two things follow. The members were not told so at the time: Malcolm says that ministers were preparing to explain it to the mosques as the fulfilment of prophecy only once it could no longer be kept quiet. And the rule for everyone else stayed as it was. A teacher sent by God lives by what he teaches, and Jesus’ charge against the religious leaders of his day was that they laid heavy loads on others and would not “lift a finger to move them” (Matthew 23:4).',
+                'Then two things follow. The members were not told so at the time: Malcolm calls it one of the Nation’s most closely kept scandals, to be explained in the mosques as the fulfilment of prophecy only if it came out. And the rule for everyone else stayed as it was. A teacher sent by God lives by what he teaches, and Jesus’ charge against the religious leaders of his day was that they laid heavy loads on others and would not “lift a finger to move them” (Matthew 23:4).',
             },
           ],
         },
@@ -206,7 +206,7 @@ export const noiOverview: Topic = {
             {
               reply: 'Wallace doubted his father’s teaching for years. He was a weak son, and the Arabs flattered him.',
               answer:
-                'He did doubt it for years, which means he did not change his mind lightly or late. He concluded that the Quran his father quoted does not teach what his father taught. You may call that weakness. But ask why the two men who knew Elijah Muhammad best, his chief minister and his own son, came to the same conclusion by different roads.',
+                'He did doubt it for years, which means he did not change his mind lightly or late. He concluded that the Quran his father quoted does not teach what his father taught. You may call that weakness. But ask why two of the men who knew Elijah Muhammad best, his best-known minister and his own son, came to the same conclusion by different roads.',
             },
           ],
         },
@@ -265,7 +265,7 @@ export const noiOverview: Topic = {
       objection:
         'The Nation does not teach hate. It teaches black people to love themselves after four hundred years of being taught to hate themselves. “Hate group” is what they call any black man who will not bow.',
       response:
-        'A great deal of that is true. The Nation taught people who had been told they were nothing to stand up straight, and the word “hate” has often been thrown at black people simply for refusing to submit. I do not use it of you. But I have to be honest about the teaching. Elijah Muhammad did not only teach love of self. He taught that the white race was grafted by Yakub as a race of devils, and he wrote of them, “By nature they are murderers.” That is a statement about what a whole people are by birth. It is the kind of statement that was made about your ancestors to excuse enslaving them, turned round. The Bible refuses it in both directions. God “made every nation of men” from one man (Acts 17:26), and “all have sinned” (Romans 3:23).',
+        'A great deal of that is true. The Nation taught people who had been told they were nothing to stand up straight, and the word “hate” has often been thrown at black people simply for refusing to submit. I do not use it of you. But I have to be honest about the teaching. Elijah Muhammad did not only teach love of self. He taught that the white race was grafted by Yakub, wrote that “the whole Caucasian race is a race of devils”, and said it was “made by nature a liar and murderer”. That is a statement about what a whole people are by birth. It is the kind of statement that was made about your ancestors to excuse enslaving them, turned round. The Bible refuses it in both directions. God “made every nation of men” from one man (Acts 17:26), and “all have sinned” (Romans 3:23).',
       keyPoints: [
         'Grant the good of self-respect and the misuse of the word “hate”.',
         'Elijah Muhammad taught that white people are devils by nature.',
@@ -282,7 +282,7 @@ export const noiOverview: Topic = {
             {
               reply: 'So the slave and the slave-master are the same to you. That is the white man’s way of escaping the bill.',
               answer:
-                'No. Both are sinners before God, but they are not equally guilty of this, and the Bible says that God hears the oppressed and comes down against the oppressor (Exodus 3:7-8). It also expects repayment: when Zacchaeus met Jesus he gave back four times what he had taken (Luke 19:8-9). To say that all have sinned does not cancel the debt. It means that the one who is owed also needs a Saviour, and that being paid will not by itself make him whole.',
+                'No. Both are sinners before God, but they are not equally guilty of this, and the Bible says that God hears the oppressed and comes down against the oppressor (Exodus 3:7-8). It also expects repayment: when Zacchaeus met Jesus he pledged to give back four times what he had taken (Luke 19:8-9). To say that all have sinned does not cancel the debt. It means that the one who is owed also needs a Saviour, and that being paid will not by itself make him whole.',
             },
           ],
         },
@@ -326,7 +326,7 @@ export const noiOverview: Topic = {
                 {
                   reply: 'America has been falling ever since. Look at her cities, her wars and her debts. And God can extend the time, as he did for Nineveh.',
                   answer:
-                    'Every nation has troubles in every decade, so “falling” can never be shown wrong, and a prophecy that cannot fail says nothing. Nineveh is a different case: Jonah’s warning was lifted because the city “turned from their evil ways” (Jonah 3:10), and Elijah Muhammad never said that America repented. Sixty years on, America stands and the Messenger has died. I take no pleasure in saying it, but Scripture tells us not to fear a prophet whose word fails.',
+                    'Every nation has troubles in every decade, so “falling” can never be shown wrong, and a prophecy that cannot fail says nothing. Elijah Muhammad did write that the time could be extended. But Nineveh was spared because the city “turned from their evil ways” (Jonah 3:10), and he never said that America repented. He named 1965 and 1966 himself, long after 1914. Sixty years on, America stands and the Messenger has died. I take no pleasure in saying it, but Scripture tells us not to fear a prophet whose word fails.',
                 },
               ],
             },
