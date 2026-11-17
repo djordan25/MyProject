@@ -1,4 +1,5 @@
-import { topLevelTracks, topicsInTrack, type Objection, type QuizQuestion, type Topic } from '../content';
+import type { Objection, QuizQuestion, Topic } from '../content';
+import { orderedTopics, type Audience } from './profile';
 import { isDue, type Progress } from './progress';
 import { shuffle } from './shuffle';
 
@@ -18,8 +19,8 @@ const MAX_REVIEWS = 3;
 const QUIZ = 2;
 
 /** Today's practice: up to three due reviews (oldest first), one new objection, then two quiz questions on the same topics. */
-export function buildSession(p: Progress, now = Date.now()): Session {
-  const ordered = topLevelTracks.flatMap((t) => topicsInTrack(t));
+export function buildSession(p: Progress, audience: Audience | null = null, now = Date.now()): Session {
+  const ordered = orderedTopics(audience);
   const all = ordered.flatMap((topic) => topic.objections.map((objection) => ({ objection, topic })));
 
   const due = all

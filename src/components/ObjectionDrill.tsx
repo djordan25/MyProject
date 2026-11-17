@@ -5,6 +5,8 @@ import RefText from './RefText';
 import RefList from './RefList';
 import ConfidenceRater from './ConfidenceRater';
 import KeyPointCheck, { suggestFromCoverage } from './KeyPointCheck';
+import ListenButton, { objectionSegments } from './ListenButton';
+import ShareButton from './ShareButton';
 
 interface Props {
   objection: Objection;
@@ -50,7 +52,11 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
     <article className="card drill">
       {context && <div className="eyebrow">{context}</div>}
       <blockquote className="objection">“{objection.objection}”</blockquote>
-      {current && <span className={`badge ${current}`}>{current === 'got' ? 'Mastered' : 'Needs review'}</span>}
+      <div className="drill-tools">
+        {current && <span className={`badge ${current}`}>{current === 'got' ? 'Mastered' : 'Needs review'}</span>}
+        <ListenButton key={String(revealed)} segments={objectionSegments(objection, revealed)} label={revealed ? 'Listen to answer' : 'Listen'} />
+        {revealed && <ShareButton objection={objection} />}
+      </div>
 
       <label className="field">
         <span>How would you respond? Write a few lines, then check them against the model answer.</span>

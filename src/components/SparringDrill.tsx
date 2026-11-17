@@ -6,6 +6,8 @@ import { buzz } from '../lib/haptics';
 import RefList from './RefList';
 import ConfidenceRater from './ConfidenceRater';
 import KeyPointCheck, { suggestFromCoverage } from './KeyPointCheck';
+import ListenButton from './ListenButton';
+import ShareButton from './ShareButton';
 
 interface Props {
   objection: Objection;
@@ -75,6 +77,9 @@ export default function SparringDrill({ objection, context, onRated }: Props) {
           <div key={i} className="spar-turn" ref={i === step ? latest : undefined}>
             <div className="bubble them">
               <span className="who">{i === 0 ? 'They say' : `Round ${i + 1} · They reply`}</span>“{t.line}”
+              {i === step && !answered && (
+                <span className="bubble-tools"><ListenButton segments={[{ text: t.line }]} /></span>
+              )}
             </div>
             {done && mine && <div className="bubble you"><span className="who">You</span>{mine}</div>}
             {done && (
@@ -125,6 +130,7 @@ export default function SparringDrill({ objection, context, onRated }: Props) {
             </>
           )}
           <RefList refs={objection.references} />
+          <div className="drill-tools"><ShareButton objection={objection} /></div>
           <ConfidenceRater
             objectionId={objection.id}
             onRate={rate}

@@ -6,14 +6,16 @@ import ProgressBar from '../components/ProgressBar';
 import { useDrillFormat } from '../lib/drillFormat';
 import { daysPractised, progress, useProgress } from '../lib/progress';
 import { buildSession } from '../lib/session';
+import { useAudience } from '../lib/profile';
 
 const LABEL = { review: 'Review', new: 'New objection', refresh: 'Refresher' };
 
 /** Today's practice: a few due reviews, one new objection, two quiz questions, then a summary. */
 export default function Session() {
   const p = useProgress();
+  const audience = useAudience();
   // Fixed when the session starts: rating cards must not reshuffle it.
-  const [session] = useState(() => buildSession(p));
+  const [session] = useState(() => buildSession(p, audience));
   const [format] = useDrillFormat();
   const [step, setStep] = useState(0);
   const [solid, setSolid] = useState(0);

@@ -413,3 +413,41 @@ button.chip { font: inherit; cursor: pointer; }
 /* Focus mode for the daily session */
 .app.focus .topbar .topnav, .app.focus .tabbar, .app.focus .footer { display: none; }
 .app.focus main { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+
+/* Onboarding */
+.onboarding h2 { font-size: 1.4rem; margin: 0 0 0.25rem; }
+.onboarding > p { margin: 0 0 1rem; }
+.audiences { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.6rem; }
+.audience {
+  font: inherit; text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 0.2rem;
+  padding: 0.85rem 1rem; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);
+  transition: border-color 0.15s, transform 0.12s;
+}
+.audience:hover { border-color: var(--primary); }
+.audience:active { transform: scale(0.98); }
+.audience small { color: var(--muted); font-size: 0.85rem; line-height: 1.4; }
+.audience[aria-pressed='true'] { border-color: var(--primary); box-shadow: inset 0 0 0 1px var(--primary); }
+.hero p.focus-line { font-size: 0.95rem; margin: -0.75rem 0 1.25rem; }
+.focus-line strong { color: var(--text); font-weight: 600; }
+.link-btn { font: inherit; color: var(--primary); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Listen and share */
+.drill-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0.25rem 0 0; }
+.listen-btn {
+  font: inherit; font-size: 0.85rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer;
+  padding: 0.3rem 0.75rem; min-height: 36px; border-radius: 99px; border: 1px solid var(--border); background: var(--surface); color: var(--primary);
+}
+.listen-btn:hover { border-color: var(--primary); }
+.listen-btn:disabled { opacity: 0.6; cursor: progress; }
+.listen-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.listen-btn svg rect { fill: currentColor; stroke: none; }
+.listen-btn[aria-pressed='true'] { background: var(--primary); border-color: var(--primary); color: var(--primary-text); }
+.bubble-tools { display: block; margin-top: 0.5rem; font-family: system-ui, sans-serif; font-size: 1rem; }
+.bubble.them .listen-btn { background: var(--surface); }
+
+.listen-deck .objection { font-size: 1.4rem; }
+.listen-phase { min-height: 1.6em; margin: 0.5rem 0; color: var(--accent-ink); font-weight: 600; }
+.listen-answer { margin: 0 0 1rem; animation: reveal-in 0.3s ease-out; }
+.listen-controls { display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 0.5rem; margin: 1rem 0 0.75rem; }
+.listen-play { font-size: 1.1rem; min-height: 52px; }
+.listen-settings { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1rem; font-size: 0.9rem; }

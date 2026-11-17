@@ -5,6 +5,8 @@ import { isDue, useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
+import ListenDeck from '../components/ListenDeck';
+import { canSpeak } from '../lib/speech';
 
 type Mode = 'all' | 'new' | 'review';
 
@@ -67,7 +69,7 @@ export default function Practice() {
         <button className={`btn ${mode === 'all' ? 'primary' : ''}`} onClick={() => restart('all')}>All objections</button>
         <button className={`btn ${mode === 'new' ? 'primary' : ''}`} onClick={() => restart('new')}>New</button>
         <button className={`btn ${mode === 'review' ? 'primary' : ''}`} onClick={() => restart('review')}>Due for review</button>
-        <FormatToggle format={format} onChange={setFormat} />
+        <FormatToggle format={format} onChange={setFormat} listen />
       </div>
       {!card ? (
         <section className="card">
@@ -78,6 +80,8 @@ export default function Practice() {
                 : 'Nothing is due. Objections come back for review based on how confident you said you were.'}</h2>
           <button className="btn primary" onClick={() => restart(mode)}>Start again</button>
         </section>
+      ) : format === 'listen' && canSpeak ? (
+        <ListenDeck key={`${seed}-${trackId}-${mode}`} deck={deck} />
       ) : (
         <>
           <p className="muted">Card {i + 1} of {deck.length}</p>
