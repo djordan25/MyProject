@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom';
 import { getTopic, trackForTopic, type Topic } from '../content';
 import { progress, useProgress } from '../lib/progress';
-import ObjectionDrill from '../components/ObjectionDrill';
+import Drill, { FormatToggle } from '../components/Drill';
+import { useDrillFormat } from '../lib/drillFormat';
 import Quiz from '../components/Quiz';
 import RefText from '../components/RefText';
 import RefList from '../components/RefList';
@@ -76,10 +77,18 @@ function Learn({ topic }: { topic: Topic }) {
 }
 
 function Objections({ topic }: { topic: Topic }) {
+  const [format, setFormat] = useDrillFormat();
   return (
     <>
-      <p className="muted">Read each objection, try answering it in your own words, then compare with the model response.</p>
-      {topic.objections.map((o) => <ObjectionDrill key={o.id} objection={o} />)}
+      <div className="row between">
+        <p className="muted">
+          {format === 'sparring'
+            ? 'Each objection plays out as a conversation: reply in your own words, see a strong answer, then hear their comeback.'
+            : 'Read each objection, try answering it in your own words, then compare with the model response.'}
+        </p>
+        <FormatToggle format={format} onChange={setFormat} />
+      </div>
+      {topic.objections.map((o) => <Drill key={`${format}-${o.id}`} format={format} objection={o} />)}
       <div className="row end">
         <Link className="btn primary" to={`/topic/${topic.id}/quiz`}>Take the quiz →</Link>
       </div>

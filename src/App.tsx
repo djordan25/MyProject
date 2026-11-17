@@ -11,6 +11,7 @@ import About from './pages/About';
 import Glossary from './pages/Glossary';
 import MixedQuiz from './pages/MixedQuiz';
 import NotFound from './pages/NotFound';
+import Session from './pages/Session';
 import { PassageProvider } from './components/PassagePopup';
 
 export default function App() {
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/glossary" element={<Glossary />} />
           <Route path="/quiz" element={<MixedQuiz />} />
+          <Route path="/today" element={<Session />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
