@@ -162,9 +162,9 @@ export const branchesOfIslam: Topic = {
     {
       id: 'ib-q4',
       question: 'Roughly what share of Muslims are Sunni?',
-      options: ['About half', 'About two thirds', '85 to 90 percent', 'Nearly all'],
+      options: ['About half', 'About two thirds', '87 to 90 percent', 'About 99 percent'],
       answer: 2,
-      explanation: 'Shia Muslims are roughly 10 to 15 percent.',
+      explanation: 'That is the Pew Research Center’s estimate of 2009. Shia Muslims are an estimated 10 to 13 percent.',
     },
     {
       id: 'ib-q5',
