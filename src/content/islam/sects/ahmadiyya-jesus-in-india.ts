@@ -82,7 +82,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
       followUps: [
         {
           reply: 'A sign has to match. Jonah’s miracle was survival where death was certain. If Jesus simply died like any man, where is the sign?',
-          answer: 'The sign is that he came back. Jonah, praying inside the fish, says, “From the belly of Sheol I called for help” (Jonah 2:1-2). Sheol is the place of the dead. In his own account Jonah had gone down to death’s realm and been brought up again, and he then stood in Nineveh as a man returned from it. Jesus says he will be a sign to his generation in the same way (Luke 11:29-30). Dying is not the sign. Rising on the third day is.',
+          answer: 'The sign is that he came back. Jonah, praying inside the fish, says, “From the belly of Sheol I called for help” (Jonah 2:1-2), and Sheol is the place of the dead. In his own account Jonah had gone down to death’s realm and been brought up again, and he then stood in Nineveh as a man returned from it. Jesus says he will be a sign to his generation in the same way (Luke 11:29-30). The sign is not dying but rising on the third day.',
           followUps: [
             {
               reply: 'The plain predictions of death and resurrection were put into his mouth later by the church. The Jonah saying is the genuine one, which is why it does not fit their doctrine.',
@@ -116,7 +116,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
               followUps: [
                 {
                   reply: 'Jesus did have help. Nicodemus brought a hundred pounds of myrrh and aloes, which are healing herbs. Books of medicine for a thousand years have described the ointment of Jesus, Marham-i-Isa, made for his wounds.',
-                  answer: 'John says what the spices were for. They “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay. Nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it were written about a thousand years after the event. They show that physicians in the Muslim world named a salve after Jesus the healer. They are not evidence of what happened in a tomb in Jerusalem.',
+                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it were written about a thousand years after the event. They show that physicians in the Muslim world named a salve after Jesus the healer, not what happened in a tomb in Jerusalem.',
                 },
               ],
             },
@@ -138,7 +138,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
           followUps: [
             {
               reply: 'They were sincere but mistaken. They saw him alive after the cross and took a recovery for a resurrection.',
-              answer: 'Could they have made that mistake with the man in front of them? Someone who has survived crucifixion needs weeks of nursing. Nobody looks at him and concludes that death has been defeated. And Jesus would have had to leave them in their error. Instead he told them that it was written that the Christ would “suffer and rise from the dead on the third day” (Luke 24:46-47). Either he rose, or he told them something he knew to be false. You honour him as a prophet, so you cannot say he lied.',
+              answer: 'Could they have made that mistake with the man in front of them? Someone who has survived crucifixion needs weeks of nursing, and nobody looks at him and concludes that death has been defeated. Jesus would also have had to leave them in their error. Instead he told them it was written that the Christ would “suffer and rise from the dead on the third day” (Luke 24:46-47). Either he rose, or he told them something he knew to be false, and you honour him as a prophet.',
               followUps: [
                 {
                   reply: 'And the ascension is only his departure. He left them on the Mount of Olives, on the road east, and passed out of sight.',
@@ -184,7 +184,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
       followUps: [
         {
           reply: 'That is easily explained. The Buddhists of the region received Jesus as a promised Buddha, so he was given a Buddhist title. They had long awaited a teacher called Metteyya, which is the word Messiah.',
-          answer: 'That reply grants that the name is the Buddha’s title. Then look at the story attached to it. It has a royal father who shuts his son in a palace, a hermit who teaches him, the prince’s renunciation, and a deathbed with a disciple whose name is a form of Ananda, the Buddha’s companion. It has no Galilee, no Mary, no twelve disciples and no cross. The simple explanation is that it is the Buddha’s story because it is about the Buddha. And Metteyya is the Pali form of Maitreya, from an Indian word for friendliness. It has no connection with the Hebrew word Messiah, which means anointed.',
+          answer: 'That reply grants that the name is the Buddha’s title. Now look at the story attached to it: a royal father who shuts his son in a palace, a hermit who teaches him, the prince’s renunciation, and a deathbed with a disciple whose name is a form of Ananda, the Buddha’s companion. It has no Galilee, no Mary, no twelve disciples and no cross. The simple explanation is that it is the Buddha’s story because it is about the Buddha. As for Metteyya, it is the Pali form of Maitreya, from an Indian word for friendliness, and has no connection with the Hebrew word Messiah, which means anointed.',
           followUps: [
             {
               reply: 'Then let the grave speak. It is aligned east to west in the Jewish way, not the Muslim way, and beside it is a stone carved with footprints that show the scars of crucifixion.',

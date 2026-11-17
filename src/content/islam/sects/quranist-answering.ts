@@ -91,7 +91,7 @@ export const quranistAnswering: Topic = {
           followUps: [
             {
               reply: 'His pattern is in the Quran itself: his patience, his trust in God, his steadfastness when the confederate armies came. That is all we need.',
-              answer: 'The verses around it do mention the confederates (Quran 33:22), so that reading has something in its favour. But the Quran tells you almost nothing of what he did there, or anywhere. And where it does speak of his conduct, it often corrects him. He frowned and turned away from a blind man (Quran 80:1-2). He forbade himself what God allowed, to please his wives (Quran 66:1). He is told to ask forgiveness for his sin (Quran 47:19). On the Quran alone, the excellent pattern is very thin and partly a warning.',
+              answer: 'The verses around it do mention the confederates (Quran 33:22), so that reading has something in its favour. But the Quran tells you almost nothing of what he did there, or anywhere. Where it does speak of his conduct, it often corrects him: he turned away from a blind man (Quran 80:1-2), he forbade himself what God allowed to please his wives (Quran 66:1), and he is told to ask forgiveness for his sin (Quran 47:19). On the Quran alone, the excellent pattern is very thin and partly a warning.',
               followUps: [
                 {
                   reply: 'That shows the Quran’s honesty. A man who invented it would not have recorded his own faults.',
@@ -153,7 +153,7 @@ export const quranistAnswering: Topic = {
       followUps: [
         {
           reply: 'Then I reject those stories as well. God says, “upon Us is its collection” (Quran 75:17). The Prophet left the Quran complete and written.',
-          answer: 'You are free to reject them, but then you have no account at all of how the Book came to you. You are also left with facts that need explaining. The earliest manuscripts differ from one another in places. Muslims recite in several readings that differ in words. Somebody at some point fixed a standard text. The reports say it was Uthman, and that he burned the rest (Sahih al-Bukhari 4987). If that is false, what is the true story, and what is your evidence for it?',
+          answer: 'You are free to reject them, but then you have no account at all of how the Book came to you. You are also left with facts that need explaining: the earliest manuscripts differ in places, Muslims recite in several readings that differ in words, and somebody at some point fixed a standard text. The reports say it was Uthman, and that he burned the rest (Sahih al-Bukhari 4987). If that is false, what is the true story, and what is your evidence for it?',
           followUps: [
             {
               reply: 'The evidence is the Quran in our hands. Sunni and Shia, who agree on nothing else, share the same text. Enemies do not agree on a forgery.',
@@ -183,7 +183,7 @@ export const quranistAnswering: Topic = {
       followUps: [
         {
           reply: 'The lesson is plain enough. Do not forbid what God permits. Do not gossip. God’s decree overrides social custom. That is all a believer needs.',
-          answer: 'Those are fair summaries, and I grant that a reader can take that much. But notice how much of the passage is left over. In Quran 33:37 Muhammad is said to have hidden something in himself that God would bring to light, and to have feared the people. Hidden what? Feared what? The verse is part of God’s eternal word, on your view, and half of it is closed to you. And these are passages that bear on whether the messenger’s revelations served his own interests, which is a question an honest enquirer has to ask.',
+          answer: 'Those are fair summaries, and a reader can take that much. But notice how much is left over. In Quran 33:37 Muhammad is said to have hidden something in himself that God would bring to light, and to have feared the people. What did he hide, and what did he fear? The verse is part of God’s eternal word, on your view, and half of it is closed to you. These passages also bear on whether the messenger’s revelations served his own interests, which an honest enquirer has to ask.',
           followUps: [
             {
               reply: 'You only think that because you have read the hadith version of the story. Read the verse without it and there is no scandal.',

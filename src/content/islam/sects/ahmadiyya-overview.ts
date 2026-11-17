@@ -110,7 +110,7 @@ export const ahmadiyyaOverview: Topic = {
       followUps: [
         {
           reply: 'He turned in his heart. He was afraid, he spoke of Hazrat Ahmad with reverence for the rest of his life, and members of the family joined the community. God sees the heart, and fear of God is repentance.',
-          answer: 'If an unseen change of heart is enough, the prediction could not have failed whatever happened. Had he died, it was fulfilled. Since he lived, he must have repented. A test that cannot be failed is not a test. And there was a second half that was not a warning at all. Ahmad wrote that God would “in any event” bring Muhammadi Begum to him “as a virgin or a widow” and “remove all obstructions”. That is a promise of something God would do, and God did not do it.',
+          answer: 'If an unseen change of heart is enough, the prediction could not have failed whatever happened: had he died it was fulfilled, and since he lived he must have repented. A test that cannot be failed is not a test. And the second half was not a warning at all. Ahmad wrote that God would “in any event” bring Muhammadi Begum to him “as a virgin or a widow” and “remove all obstructions”. That is a promise of something God would do, and God did not do it.',
           followUps: [
             {
               reply: 'Those words in Izala Auham were his own understanding of the revelation, not the revelation itself. Prophets can misjudge how a prophecy will be fulfilled. Jonah expected Nineveh to fall.',
@@ -164,7 +164,7 @@ export const ahmadiyyaOverview: Topic = {
           followUps: [
             {
               reply: 'Sanaullah wrote at the time that liars are given long lives. By his own rule, his long life marks him as the liar. And he died in grief after losing his son and his library.',
-              answer: 'That may be a fair point against Sanaullah’s logic, and I am not his advocate. He rejected the gospel as firmly as you do. But it leaves the question where it was. Ahmad asked God in public to decide between them by death, and he died first. If Dowie’s death is evidence, so is this. If this is not evidence, neither is Dowie’s. I do not think God settles truth by which of two men outlives the other. Scripture never offers that as a test.',
+              answer: 'That may be a fair point against Sanaullah’s logic, and I am not his advocate, since he rejected the gospel as firmly as you do. But it leaves the question where it was. Ahmad asked God in public to decide between them by death, and he died first. If Dowie’s death is evidence, so is this, and if this is not, neither is Dowie’s. For my part I do not think God settles truth by which of two men outlives the other, and Scripture never offers that as a test.',
             },
           ],
         },
@@ -194,7 +194,7 @@ export const ahmadiyyaOverview: Topic = {
         },
         {
           reply: 'His community has grown from one village to millions in two hundred countries, as he foretold. If this work were of human origin it would have failed (Acts 5:38-39).',
-          answer: 'Those words in Acts are the advice of Gamaliel, a Pharisee, to a council. Luke records them. He does not present them as a promise from God. Many movements have grown large while contradicting each other, and the mainstream Islam that calls you unbelievers is far larger than yours. If size and survival proved God’s favour, your persecutors would win the argument. Growth cannot be the test. Truth is.',
+          answer: 'Those words in Acts are the advice of Gamaliel, a Pharisee, to a council. Luke records them without presenting them as a promise from God. Many movements have grown large while contradicting each other, and the mainstream Islam that calls you unbelievers is far larger than yours. If size and survival proved God’s favour, your persecutors would win the argument. Growth cannot be the test.',
         },
       ],
     },
