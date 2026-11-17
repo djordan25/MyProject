@@ -10,7 +10,7 @@ export const druze: Topic = {
     {
       heading: 'Who the Druze are',
       body: [
-        'The Druze are an Arabic-speaking community of about one million people. That figure is an estimate, as is every figure in this lesson. Most live in Syria, Lebanon and Israel, with a few thousand in Jordan. In Syria their heartland is the southern province of Suwayda. In Lebanon it is the Chouf and Aley districts of Mount Lebanon and the valley of Wadi al-Taym around Hasbaya. In Israel it is Galilee, Mount Carmel and the Golan Heights. There are emigrant communities in the Americas, Australia, West Africa and Europe.',
+        'The Druze are an Arabic-speaking community of about one million people. That figure is an estimate, as is every figure in this lesson. Most live in Syria, Lebanon and Israel, with a few thousand in Jordan. In Syria their heartland is the southern province of Suwayda. In Lebanon it is the Chouf and Aley districts of Mount Lebanon and the valley of Wadi al-Taym at the foot of Mount Hermon, around Hasbaya and Rashaya. In Israel it is Galilee and Mount Carmel. There are also Druze villages on the Golan Heights, which Israel took from Syria in 1967, and many Druze there still count themselves Syrian. There are emigrant communities in the Americas, Australia, West Africa and Europe.',
         'Lebanon has held no census since 1932. The polling firm Statistics Lebanon, quoted in United States government reports, puts the Druze at about five percent of the population. The Pew Research Center puts them at roughly two percent of Israel’s population, and American government estimates put them at about three percent of Syria’s.',
         'They call themselves the Muwahhidun, the Unitarians, the people who declare that God is one. Outsiders took the name “Druze” from an early preacher, al-Darazi, whom the Druze themselves regard as a heretic. It is a name they live with, not one they chose.',
         'They are a minority with a long history of persecution, and it is not over. A United Nations Commission of Inquiry reported that more than 1,700 people were killed in Suwayda in July 2025. It documented the execution of Druze civilians by government forces and tribal fighters, and attacks on Bedouin civilians by Druze armed groups. Remember that history when a Druze friend is slow to speak about his faith.',
@@ -22,16 +22,16 @@ export const druze: Topic = {
         'The Druze faith arose in Cairo in the early eleventh century, inside Ismaili Shia Islam. Egypt was then ruled by the Fatimid caliphs, who were Ismailis. The sixth of them, al-Hakim, reigned from 996 to 1021.',
         'Hamza ibn Ali, a teacher from Persia, came to Cairo, and in 1017 the new teaching was proclaimed openly under the caliph’s protection. The Druze regard Hamza, not al-Darazi, as the authority behind their faith. Al-Darazi was a rival preacher who claimed the leadership for himself. He was killed about 1019, and Druze writings condemn him.',
         'In 1021 al-Hakim set out for the hills east of Cairo and did not return. His body was never found, and historians have not settled what happened to him. Hamza withdrew from public view in the same year. Leadership passed to Baha al-Din, also called al-Muqtana, who guided the scattered believers through years of persecution under the next caliph.',
-        'Baha al-Din later declared the call closed. The date usually given is 1043, though some older books give an earlier one. Since then no one has been allowed to join. A Druze is someone born into the community.',
+        'Under Baha al-Din the call was closed. The date usually given is 1043, though Hitti, writing in 1928, put it at 1031. Since then no one has been allowed to join. A Druze is someone born into the community.',
       ],
     },
     {
       heading: 'What they teach, so far as outsiders can know',
       body: [
-        'Take care here. The Druze scriptures are not given to outsiders, and most Druze have not read them either. What follows comes from published scholarship, some of it written by Druze scholars. Say “I have read that” and ask your friend whether it is so.',
-        'The centre is the oneness of God. God is one, and his nature is beyond human description. The sacred book is the Epistles of Wisdom (Rasa’il al-Hikma), a collection of letters by Hamza, Baha al-Din and other early leaders. The Druze scholar Samy Swayd describes it as an interpretation of the teaching of the Bible and the Quran, not a separate book of revelations.',
-        'The hardest point is al-Hakim. Outside scholars, among them the historian Philip Hitti, report that the Epistles teach a series of appearances of God in human form and treat al-Hakim as the last and most perfect of them. Swayd replies that al-Hakim apparently never claimed to be divine, and that others attributed the claim to him. Do not tell a Druze what he believes about this. Ask him.',
-        'Druze teaching honours seven great messengers: Adam, Noah, Abraham, Moses, Jesus, Muhammad and Muhammad ibn Isma‘il. Jethro, the father-in-law of Moses, whom the Druze know as the prophet Shu‘ayb, holds a special place. His shrine at Hittin, above the Sea of Galilee, is the most sacred Druze site, and Druze gather there each April. Hitti also reports that some of the epistles addressed to Christians give the title of Messiah to Hamza.',
+        'Take care here. The Druze scriptures are not given to outsiders, and most Druze have not read them either. What follows comes from published scholarship, and the scholars do not all agree. Say “I have read that” and ask your friend whether it is so.',
+        'The centre is the oneness of God. God is one, and his nature is beyond human description. The sacred book is the Epistles of Wisdom (Rasa’il al-Hikma), a collection of letters and treatises from the first years of the movement, chief among them the writings of Hamza and Baha al-Din. Samy Swayd, writing in the Encyclopedia of Religion, describes it as an interpretation of the teaching of the Bible and the Quran, not a separate book of revelations.',
+        'The hardest point is al-Hakim. Outside scholars, among them the historian Philip Hitti, report that the Druze writings teach a series of appearances of God in human form and treat al-Hakim as the last and most perfect of them. Swayd writes that al-Hakim apparently never claimed to be divine, that others attributed the claim to him, and that it was al-Darazi who altered Hamza’s teaching to present the caliph as divine. Do not tell a Druze what he believes about this. Ask him.',
+        'Druze teaching honours seven great messengers: Adam, Noah, Abraham, Moses, Jesus, Muhammad and Muhammad ibn Isma‘il. Jethro, the father-in-law of Moses, whom the Druze know as the prophet Shu‘ayb, holds a special place. His shrine at Hittin, above the Sea of Galilee, is often called the most sacred Druze site, and Druze gather there for a festival each April. Hitti also reports that Baha al-Din, in an epistle on Christianity, identifies Hamza with the Messiah.',
       ],
     },
     {
@@ -47,7 +47,7 @@ export const druze: Topic = {
       heading: 'Rebirth, the precepts and the closed door',
       body: [
         'One teaching every Druze knows is the return of the soul. The Druze word is taqammus, from the Arabic for a shirt: the soul changes bodies as a man changes his shirt. At death it passes at once into a newborn human body. According to published accounts a Druze is always reborn as a Druze. Reward and punishment come only at the Day of Judgment, after a great many lives. Stories of children who remember a former life and family are common, and they are told in good faith.',
-        'Hitti reports that Hamza set aside the five pillars of Islam and put seven precepts in their place. As Druze writers list them they are: to speak the truth, to protect one’s brethren, to abandon false worship, to keep away from evil and oppression, to declare the unity of God, to be content with what he does, and to submit to his will. The fast of Ramadan and the pilgrimage to Mecca are not required of a Druze.',
+        'Hitti reports that Hamza set aside the five pillars of Islam and put seven precepts in their place. As Swayd lists them they are: to speak the truth, to protect one’s brethren, to abandon false worship, to keep away from evil and oppression, to declare the unity of God, to be content with what he does, and to submit to his will. The fast of Ramadan and the pilgrimage to Mecca are not required of a Druze.',
         'Marriage is within the community. In the Pew survey fewer than one in a hundred married Druze in Israel had a spouse of another religion. A Druze who marries out, or who openly takes another faith, may lose his place among his people. And because their history has been dangerous, the Druze have long allowed themselves to conceal their beliefs from outsiders when under threat.',
       ],
     },
@@ -62,7 +62,7 @@ export const druze: Topic = {
     {
       heading: 'Where the gospel meets a Druze',
       body: [
-        'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus, and Druze scholars count the New Testament among the sources of their teaching. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
+        'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus, and by Swayd’s account the Druze writings count the New Testament among the sources of their teaching. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
         'Then come to the differences, gently and plainly. First, one life. Scripture says that “man is appointed to die once, and after that to face judgment” (Hebrews 9:27). Jesus told the dying thief, “today you will be with Me in Paradise” (Luke 23:43). The Christian hope is resurrection, not return: this same person, raised and made new. And rebirth cannot deal with guilt. On the Druze account itself the judgment still waits at the end of all the lives.',
         'Second, open truth. Jesus said, “I have spoken openly to the world… I said nothing in secret” (John 18:20). He told his disciples, “what is whispered in your ear, proclaim from the housetops” (Matthew 10:27). Paul says that the mystery once hidden “is now revealed”, and that “We proclaim Him, admonishing and teaching everyone with all wisdom” (Colossians 1:25-28). There is no inner circle. A dying thief, a child and a scholar receive the same Christ.',
         'Third, God’s final word. “On many past occasions and in many different ways, God spoke to our fathers through the prophets. But in these last days He has spoken to us by His Son” (Hebrews 1:1-2). The Son is not one messenger in a series, to be followed by a later and fuller one. Fourth, assurance. John wrote “so that you may know that you have eternal life” (1 John 5:13). Ask your friend whether he knows that he is forgiven, and what that knowledge rests on.',
@@ -210,7 +210,7 @@ export const druze: Topic = {
             {
               reply: 'Certainty is exactly what makes people dangerous. A humble man says he does not know.',
               answer:
-                'It depends what one is certain of. A man who is certain that God loved his enemies and died for them has no ground for hating anyone: “While we were still sinners, Christ died for us” (Romans 5:8). And “no one can know” is itself a confident claim about God, that he has not spoken clearly. My confidence is not in my own wisdom. It is that God has spoken in his Son.',
+                'It depends what one is certain of. A man who is certain that God loved his enemies and died for them has no ground for hating anyone: “While we were still sinners, Christ died for us” (Romans 5:8). And to say that no one can know is itself a confident claim about God, that he has not spoken clearly. My confidence is not in my own wisdom. It is that God has spoken in his Son.',
             },
           ],
         },
@@ -384,7 +384,7 @@ export const druze: Topic = {
       question: 'Whom do the Druze regard as the authority behind their teaching?',
       options: ['Al-Darazi', 'Ibn Nusayr', 'Haji Bektash Veli', 'Hamza ibn Ali'],
       answer: 3,
-      explanation: 'Hamza ibn Ali came to Cairo from Persia, and the teaching was proclaimed openly in 1017.',
+      explanation: 'Hamza ibn Ali, a Persian, came to Cairo, and the teaching was proclaimed openly in 1017.',
     },
     {
       id: 'drz-q5',
@@ -437,9 +437,9 @@ export const druze: Topic = {
     {
       id: 'drz-q9',
       question: 'What is the Druze sacred book called?',
-      options: ['The Buyruk', 'The Epistles of Wisdom', 'The Kitab al-Majmu', 'The Book of the Covenant'],
+      options: ['The Buyruk', 'The Epistles of Wisdom', 'The Kitab al-Majmu', 'The Nahj al-Balagha'],
       answer: 1,
-      explanation: 'The Rasa’il al-Hikma is a collection of letters by Hamza, Baha al-Din and other early leaders. Only the initiated read it.',
+      explanation: 'The Rasa’il al-Hikma is a collection of letters and treatises, chief among them the writings of Hamza and Baha al-Din. Only the initiated read it.',
     },
     {
       id: 'drz-q10',
@@ -520,12 +520,12 @@ export const druze: Topic = {
       question: 'How should you speak about what the Druze teach concerning al-Hakim?',
       options: [
         'Tell your friend with confidence that he worships al-Hakim',
-        'Say what published scholars report, note that Druze scholars dispute it, and ask your friend',
+        'Say what published scholars report, note that the scholars do not all agree, and ask your friend',
         'Avoid ever mentioning al-Hakim',
         'Insist that he read you the Epistles of Wisdom',
       ],
       answer: 1,
-      explanation: 'Outside scholars report that the Epistles treat al-Hakim as a manifestation of God. Druze scholars reply that he never claimed divinity. Most Druze have not read the texts.',
+      explanation: 'Hitti and others report that the Druze writings treat al-Hakim as a manifestation of God. Swayd writes that al-Hakim apparently never claimed divinity. Most Druze have not read the texts.',
     },
     {
       id: 'drz-q18',

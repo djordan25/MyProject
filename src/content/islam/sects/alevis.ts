@@ -10,17 +10,17 @@ export const alevis: Topic = {
     {
       heading: 'A different community from the Alawites',
       body: [
-        'The Alevis are not the Alawites. Both names come from Ali, and they are easily confused, but the communities are distinct. The Alawites are Arabs of the Syrian coast with a secret teaching (see the lesson on the Alawites). The Alevis are Turkish- and Kurdish-speaking people of Anatolia whose faith grew out of Sufism and village tradition.',
-        'They are the largest religious minority in Turkey. No census counts them, and estimates vary widely. A United States government report says that experts generally put them at 10 to 15 percent of the population, and that leaders of Alevi foundations claim 25 to 31 percent, while in one large opinion survey only 4 percent called themselves Alevi. A common estimate is somewhere between a tenth and a fifth. Part of the difficulty is that many Alevis have long kept their identity quiet.',
+        'The Alevis are not the Alawites. Both names come from Ali, and they are easily confused, but the communities are distinct. The Alawites are Arabs of the Syrian coast with a secret teaching (see the lesson on the Alawites). The Alevis are Turkish- and Kurdish-speaking people of Anatolia whose faith took shape there out of Sufism, devotion to Ali and village tradition. Turkish usage adds to the confusion, because the Arabic-speaking Alawites of southern Turkey are also called Alevis there, and some reference works count them in.',
+        'They are the largest religious minority in Turkey. No census counts them, and estimates vary widely. A United States government report says that experts generally put them at 10 to 15 percent of the population, and that leaders of Alevi foundations claim 25 to 31 percent, while in one large opinion survey only 4 percent called themselves Alevi. Part of the difficulty is that many Alevis have long kept their identity quiet.',
         'They live across Turkey, especially in central and eastern Anatolia and in the big cities. Tunceli, the old Dersim, is the one province with an Alevi majority. Alevis speak Turkish, Kurdish or Zazaki.',
-        'Migration has carried them into Europe. The Alevi federation in Germany estimates that about 800,000 Alevis live there, and there are organised communities in Austria, France, the Netherlands and Britain. Many of them were born in Europe.',
+        'Migration has carried them into Europe. The Alevi federation in Germany puts the number of Alevis there at 700,000 to 800,000, and there are Alevi federations in Austria, France, the Netherlands, Switzerland, Britain and other countries. Many of their members were born in Europe.',
       ],
     },
     {
       heading: 'Roots in Anatolian Sufism',
       body: [
-        'Alevis look back to Haji Bektash Veli, a mystic who settled in central Anatolia in the thirteenth century. The town that bears his name is still a place of pilgrimage, with a festival each August. The Bektashi order of dervishes grew up around his memory and was closely linked with the Janissaries, the Ottoman infantry. In 1925 the Turkish Republic closed all the Sufi orders and their lodges, the Bektashis among them.',
-        'The other root is the Kizilbash, the “red heads”. The name was given to those in Anatolia who in the sixteenth century sided with Shah Ismail, the founder of the Safavid state in Iran, and it was meant as an insult. The Ottoman sultans treated them as heretics and traitors and persecuted them. Most village Alevis are thought to descend from these communities.',
+        'Alevis look back to Haji Bektash Veli, a mystic who settled in central Anatolia in the thirteenth century. The town that bears his name is still a place of pilgrimage, with a festival each August. The Bektashi order of dervishes grew up around his memory and was closely linked with the Janissaries, the Ottoman infantry. In 1925 the Turkish Republic closed all the Sufi orders and their lodges, the Bektashis among them. Scholars have offered many theories about older, pre-Islamic strands in Alevi belief, and Alevis themselves debate them.',
+        'The other root is the Kizilbash, the “red heads”. The name was given to those in Anatolia who in the sixteenth century sided with Shah Ismail, the founder of the Safavid state in Iran, and in Ottoman mouths it was a term of abuse. The Ottoman sultans treated them as heretics and traitors and persecuted them. Most Alevis are thought to descend from Kizilbash or Bektashi communities.',
         'For centuries Alevi faith was carried in poetry and song more than in books. The hymns of Pir Sultan Abdal, and of Shah Ismail under the pen-name Hatayi, are still sung. There is a book of teaching called the Buyruk, but scholars note that it exists in several versions and is not used as a rulebook.',
       ],
     },
@@ -28,8 +28,8 @@ export const alevis: Topic = {
       heading: 'Worship and practice',
       body: [
         'Alevis revere Ali and the twelve Imams of his line, and speak of God, Muhammad and Ali together (Hak-Muhammed-Ali). They mourn the killing of Ali’s son Husayn at Karbala.',
-        'Their central act of worship is the cem, held in a house of gathering called a cemevi. It is led by a dede, a spiritual guide who comes from one of a number of hereditary families. There is sung poetry to the saz, a long-necked lute. There is the semah, a ritual dance in which men and women turn together, which UNESCO has listed as part of the world’s cultural heritage. The gathering ends with a shared meal. Men and women worship side by side.',
-        'Alevis generally do not pray in mosques, do not keep the fast of Ramadan and do not make the pilgrimage to Mecca. Many fast instead for twelve days in the month of Muharram, in mourning for Karbala. They do not veil women or separate the sexes.',
+        'Their central act of worship is the cem, held in a house of gathering called a cemevi. It is led by a dede, a spiritual guide who comes from one of a number of hereditary families. There is sung poetry to the saz, a long-necked lute. There is the semah, a ritual dance in which men and women turn together, which UNESCO has placed on its list of the intangible cultural heritage of humanity. The gathering ends with a shared meal. Men and women worship side by side.',
+        'Alevis generally do not pray in mosques, do not keep the fast of Ramadan and do not treat the pilgrimage to Mecca as a duty. Many fast instead for twelve days in the month of Muharram, in mourning for Karbala. Alevi women are not expected to veil, and the sexes are not separated in worship.',
         'There is no single Alevi creed. One scholar told Canadian government researchers that there is no generally accepted set of beliefs, that many Alevis would deny that Alevism is a religion at all, and that those who practise its rituals are probably a minority. Some Alevis also speak of the soul returning in another body. So ask your friend what being Alevi means to him.',
       ],
     },
@@ -39,14 +39,14 @@ export const alevis: Topic = {
         'Alevis call their faith the Yol, the Path. It is described as four gates: şeriat (the law), tarikat (the way), marifet (knowledge) and hakikat (truth), with forty stations along them. The goal is to bring a person from a raw state to maturity, to become the insan-ı kâmil, the perfect or complete human being.',
         'The ethic is summed up in a saying every Alevi knows: “Eline, diline, beline sahip ol.” Be master of your hand, your tongue and your loins. Do not steal or do violence, do not lie or slander, do not be unfaithful.',
         'There is a strong humanist strain. The British Alevi Federation says that every human being carries the essence of God, and Alevis address one another as can, “soul”, a word that makes no difference between man and woman. The German Alevi federation attributes to Haji Bektash the saying that what you seek you will find in yourself, not in Jerusalem and not in Mecca.',
-        'Another saying is “Yol bir, sürek binbir”: the path is one, the ways of walking it are a thousand and one. In its first sense it describes the variety of practice among Alevi communities. It is often stretched to mean that every sincere religion leads to the same truth.',
+        'Another saying is “Yol bir, sürek binbir”: the path is one, the ways of walking it are a thousand and one. In its first sense it describes the variety of practice among Alevi communities. Alevi writers also use it as a motto for living at peace with every belief, and you may hear it stretched to mean that every sincere religion leads to the same truth.',
       ],
     },
     {
       heading: 'A history of persecution',
       body: [
         'Alevis remember their history as a chain of killings. It begins for them at Karbala in 680 and runs through the Ottoman persecution of the Kizilbash into modern times.',
-        'In 1937 and 1938 the Turkish army crushed a rising in Dersim, the heartland of the Kurdish Alevis. In 2011 the Turkish prime minister apologised for the killings, and the BBC reported the death toll as more than 13,000. In the late 1970s Alevis were attacked by right-wing and Sunni militants in Malatya, Kahramanmaraş and Çorum. At Kahramanmaraş in December 1978 the dead numbered 111 by the official count, most of them Alevis. On 2 July 1993 a mob set fire to a hotel in Sivas where guests at an Alevi festival were staying. Thirty-three Alevi intellectuals died, and two of the hotel staff. There was further violence against Alevis in Istanbul in 1995.',
+        'In the late 1930s the Turkish army crushed what the state called a rebellion in Dersim, the heartland of the Kurdish Alevis, bombing the region from the air. Alevis remember it as a massacre. In 2011 the Turkish prime minister apologised for the killings and called Dersim the most tragic event in the country’s recent history, and the BBC reported the death toll as more than 13,000. In the late 1970s Alevis were attacked by right-wing and Sunni militants in Malatya, Kahramanmaraş and Çorum. At Kahramanmaraş in December 1978 the dead numbered 111 by the official count, most of them Alevis. On 2 July 1993 a mob set fire to a hotel in Sivas where guests at an Alevi festival were staying. Thirty-three of the guests died, among them poets, writers and Alevi musicians, and two of the hotel staff. In May 1995, after an attack on a café used by Alevis in the Gazi district of Istanbul, police fired into crowds of Alevi protesters and killed many.',
         'The Turkish state counts Alevis as Muslims. It does not recognise the cemevi as a place of worship, and Alevi children are placed in compulsory religion classes which Alevis say teach Sunni Islam. In 2016 the European Court of Human Rights ruled that Turkey’s refusal to give Alevis the religious public services it gives to Sunnis violated their freedom of religion and was discriminatory.',
         'Many Alevis therefore distrust organised religion, and Sunni Islam above all. They are wary of anyone who claims to possess the truth. Bear this in mind before you speak.',
       ],
@@ -55,8 +55,8 @@ export const alevis: Topic = {
       heading: 'Is Alevism Islam?',
       body: [
         'Alevis themselves disagree. Some say Alevism is the true, inward Islam. Some say it is a faith in its own right. Some say it is a culture and a philosophy, not a religion. An Australian government report says that most Alevis see their belief as a distinct religion, while some identify as Shia or Sunni and others regard being Alevi as mainly cultural.',
-        'Abroad the community has won a standing it lacks in Turkey. In Germany the Alevi federation is recognised as a religious community. Alevi religious lessons have been taught in state schools in Berlin since 2002 and in North Rhine-Westphalia since 2008. Hamburg signed an agreement with the Alevi community in 2012, and in 2020 North Rhine-Westphalia gave the federation the status of a public-law corporation, which the main churches also hold. In Austria the Alevi faith community has been a legally recognised religious society since 2013.',
-        'For you the practical point is the same as with the Druze and the Alawites. The arguments of the main Islam track, from the Quran and the hadith of al-Bukhari and Muslim, mostly do not apply. Alevis do not follow the Sunni hadith or Islamic law, and they do not generally read the Quran as God’s literal word. Ask instead: “What does being Alevi mean to you?”',
+        'Abroad the community has won a standing it lacks in Turkey. In Germany the Alevi federation is recognised as a religious community. Alevi religious lessons have been taught in state schools in Berlin since 2002 and in North Rhine-Westphalia since 2008. Hamburg signed an agreement with the Alevi community in 2012, and in 2020 North Rhine-Westphalia gave the federation the status of a public-law corporation, which the main churches also hold. In Austria an Alevi faith community has been a legally recognised religious society since 2013. Even there the question of Islam divides Alevis: in 2022 a separate body of Alevis who do not count their faith as part of Islam was registered as a confessional community.',
+        'For you the practical point is the same as with the Druze and the Alawites. The arguments of the main Islam track, from the Quran and the hadith of al-Bukhari and Muslim, mostly do not apply. Alevis do not follow the Sunni hadith or Islamic law. Traditional Alevi teaching honours the Quran but sets aside the outward duties it lays down, and many Alevis, as you have seen, do not think of Alevism as a religion at all. Ask instead: “What does being Alevi mean to you?”',
       ],
     },
     {
@@ -164,7 +164,7 @@ export const alevis: Topic = {
             {
               reply: 'Cruelty comes from ignorance and fanaticism. Education and enlightenment will cure it.',
               answer:
-                'Education is a great good. But the twentieth century was highly educated and terribly bloody. Aleksandr Solzhenitsyn, who survived the Soviet camps, wrote that the line dividing good and evil runs through every human heart. Knowledge gives a man more power, but it does not give him a new will. God’s promise goes further: “I will give you a new heart and put a new spirit within you” (Ezekiel 36:26).',
+                'Education is a great good. But the twentieth century was highly educated and terribly bloody. Aleksandr Solzhenitsyn, who survived the Soviet camps, wrote in The Gulag Archipelago that the line separating good and evil passes through every human heart. Knowledge gives a man more power, but it does not give him a new will. God’s promise goes further: “I will give you a new heart and put a new spirit within you” (Ezekiel 36:26).',
             },
           ],
         },
@@ -356,11 +356,11 @@ export const alevis: Topic = {
       options: [
         'The census records them as exactly a third of the population',
         'They are fewer than one percent',
-        'No census counts them, and estimates vary widely, commonly between a tenth and a fifth of the population',
+        'No census counts them, and estimates vary widely, with experts generally saying 10 to 15 percent of the population',
         'They are the majority in every eastern province',
       ],
       answer: 2,
-      explanation: 'Experts often give 10 to 15 percent. Alevi foundations claim more, and in one survey only 4 percent identified themselves as Alevi.',
+      explanation: 'These are the figures in a United States government report. Leaders of Alevi foundations claim 25 to 31 percent, and in one survey only 4 percent identified themselves as Alevi.',
     },
     {
       id: 'alv-q3',
@@ -379,7 +379,7 @@ export const alevis: Topic = {
         'People of Anatolia who sided with the Safavid Shah Ismail in the sixteenth century and were persecuted by the Ottomans',
       ],
       answer: 3,
-      explanation: 'The name means “red heads” and was meant as an insult. Most village Alevis are thought to descend from these communities.',
+      explanation: 'The name means “red heads”, and in Ottoman mouths it was a term of abuse. Most Alevis are thought to descend from Kizilbash or Bektashi communities.',
     },
     {
       id: 'alv-q5',
@@ -403,7 +403,7 @@ export const alevis: Topic = {
         'The twelve-day fast',
       ],
       answer: 2,
-      explanation: 'UNESCO has listed the semah as part of the world’s cultural heritage.',
+      explanation: 'In 2010 UNESCO placed the semah on its list of the intangible cultural heritage of humanity.',
     },
     {
       id: 'alv-q7',
@@ -457,7 +457,7 @@ export const alevis: Topic = {
       id: 'alv-q11',
       question: 'What happened at Sivas on 2 July 1993?',
       options: [
-        'A mob set fire to a hotel where guests at an Alevi festival were staying, and thirty-three Alevi intellectuals and two hotel staff died',
+        'A mob set fire to a hotel where guests at an Alevi festival were staying, and thirty-three of the guests and two hotel staff died',
         'The Turkish state recognised the cemevi as a place of worship',
         'Haji Bektash Veli’s lodge was reopened',
         'An earthquake destroyed the city',
@@ -467,12 +467,12 @@ export const alevis: Topic = {
     },
     {
       id: 'alv-q12',
-      question: 'Which event took place in Dersim, the heartland of the Kurdish Alevis, in 1937 and 1938?',
+      question: 'Which event took place in Dersim, the heartland of the Kurdish Alevis, in the late 1930s?',
       options: [
         'The founding of the Bektashi order',
         'The first Alevi religious lessons in state schools',
         'A ruling of the European Court of Human Rights',
-        'The Turkish army crushed a rising, with many thousands killed',
+        'The Turkish army crushed what the state called a rebellion, and many thousands were killed',
       ],
       answer: 3,
       explanation: 'In 2011 the Turkish prime minister apologised, and the BBC reported the death toll as more than 13,000.',
@@ -482,7 +482,7 @@ export const alevis: Topic = {
       question: 'What legal standing do Alevis have in Austria?',
       options: [
         'None at all',
-        'The Alevi faith community has been a legally recognised religious society since 2013',
+        'An Alevi faith community has been a legally recognised religious society since 2013',
         'They are registered as a branch of the Catholic Church',
         'They are counted as Sunni Muslims',
       ],

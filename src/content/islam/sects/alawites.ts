@@ -10,10 +10,10 @@ export const alawites: Topic = {
     {
       heading: 'Who the Alawites are',
       body: [
-        'The Alawites are an Arabic-speaking community whose home is the coast of Syria and the mountains behind it, around Latakia and Tartus. Many also live in Homs and Damascus. Across the border they are found in the Hatay province of Turkey, and in northern Lebanon, in the Jabal Mohsen district of Tripoli and in Akkar. Lebanon counts them among its recognised religious communities.',
+        'The Alawites are an Arabic-speaking community whose home is the coast of Syria and the mountains behind it, around Latakia and Tartus. Many also live in Homs and Damascus. Across the border they are found in southern Turkey, in the provinces of Hatay, Adana and Mersin, and in northern Lebanon, above all in the Jabal Mohsen district of Tripoli. Lebanon counts them among its recognised religious communities.',
         'There is no reliable count. Reference works commonly put them at roughly a tenth of Syria’s people. American government estimates give 13 percent for Alawites, Ismailis and other Shia together.',
-        'Their older name is Nusayris, after Ibn Nusayr, to whom they trace their teaching. The name Alawite, meaning a follower of Ali, came into general use under French rule after the First World War. Their enemies still use the old name as a term of abuse, so do not use it yourself.',
-        'Do not confuse them with the Alevis of Turkey, who have a separate lesson. The names sound alike because both come from Ali, and Turkish often uses one word for both. They are different communities with different histories, languages and practices.',
+        'Their older name is Nusayris, after Ibn Nusayr, to whom they trace their teaching. The name Alawite, meaning a follower of Ali, came into general use under French rule after the First World War. Alawite writers today reject the old name as one used by their enemies, and it is still thrown at them as abuse, so do not use it yourself.',
+        'Do not confuse them with the Alevis of Turkey, who have a separate lesson. The names sound alike because both come from Ali, and in Turkish the one word Alevi serves for both, so that the Alawites of southern Turkey are known there as Arab Alevis. They are different communities with different histories, languages and practices.',
       ],
     },
     {
@@ -21,13 +21,13 @@ export const alawites: Topic = {
       body: [
         'Ibn Nusayr lived in Iraq in the ninth century, in Shia circles. Alawite tradition holds that he was the “gate” (bab) to the eleventh Shia Imam, al-Hasan al-Askari, who died in 874. That is, he was the one through whom the Imam’s hidden teaching could be reached.',
         'In the tenth century a teacher named al-Khasibi carried the movement to northern Syria, where it found favour at the Shia court of Aleppo. Hymns used in Alawite worship are attributed to him. When Sunni powers took control of the region, the community drew back into the coastal mountains.',
-        'There it lived for centuries, poor and despised. Under the Ottomans the Alawites were not recognised as a religious community at all. A study published by the United States Library of Congress describes most of them, until the twentieth century, as tenant farmers and labourers on the land of Sunni owners.',
+        'There it lived for centuries, poor and despised. Under the Ottomans the Alawites were not recognised as a religious community at all. A study published by the United States Library of Congress says that for centuries most of them were tenant farmers, sharecroppers and bound labourers on the land of Sunni owners.',
       ],
     },
     {
       heading: 'What outsiders report of their teaching',
       body: [
-        'Be careful with everything in this section. The teaching is kept secret. It is passed on by initiation, in stages, to men only, and by published accounts only men take part in the worship. What outsiders know comes from medieval Muslim writers who were hostile, from a nineteenth-century book by Sulayman al-Adhani, a man who had been initiated and then made the teaching public, and from manuscripts studied by modern scholars. One reference work adds that it is uncertain how far that older doctrine is still held by most Alawites today.',
+        'Be careful with everything in this section. The teaching is kept secret. It is passed on by initiation, in stages, to men only, and by published accounts only men take part in the worship. What outsiders know comes from medieval Muslim writers who were hostile, from a nineteenth-century book by Sulayman al-Adhani, a man who had been initiated, left the community for Christianity and made the teaching public, and from manuscripts studied by modern scholars. Al-Adhani wrote as an opponent, and scholars such as Yaron Friedman judge parts of his account unreliable. One reference work adds that it is uncertain how far that older doctrine is still held by most Alawites today.',
         'With that caution, the published accounts agree on these points. The reverence for Ali goes as far as treating him as a manifestation of God. There is a triad. Ali is the Meaning (ma‘na), the inner reality. Muhammad is the Name (ism), the outward form, also called the veil. Salman the Persian, a companion of Muhammad, is the Gate (bab) through whom the Meaning is approached.',
         'The accounts also report belief in the transmigration of souls. Souls were once lights in a world above. They fell, and they must pass through a series of lives before they can return.',
         'Alongside Muslim festivals the Alawites are reported to mark Christian ones, among them Christmas, Epiphany and Easter, and to use wine in some ceremonies. The Quran is honoured, and the pillars of Islam are read as symbols with an inner meaning. Traditionally Alawite villages had no mosques.',
@@ -37,7 +37,7 @@ export const alawites: Topic = {
       heading: 'How other Muslims have regarded them',
       body: [
         'Muslim scholars classed them among the ghulat, the “exaggerators”, meaning those who go too far in their reverence for Ali. The Sunni jurist Ibn Taymiyya, who died in 1328, wrote a ruling against them. He declared their unbelief worse than that of Jews and Christians, and forbade Muslims to marry them or eat their food. That ruling has been quoted by those who attack Alawites ever since, including in our own day.',
-        'In the twentieth century there were moves the other way. In the 1930s (the date usually given is 1936) the Sunni Mufti of Jerusalem, Hajj Amin al-Husayni, issued a ruling that accepted the Alawites as Muslims. In 1936 a body of Alawite religious leaders declared that Alawites are simply partisans of Ali, and in 1973 some eighty of them stated that the community holds the teaching of the Twelver Shia. In the 1970s the Lebanese Shia leader Musa al-Sadr brought the Alawites of Lebanon under his Shia council, and he is widely reported to have declared them Shia Muslims, though scholars differ about exactly what he ruled. Historians note that these rulings came at politically useful moments. Many Sunni scholars never accepted them.',
+        'In the twentieth century there were moves the other way. In 1936 a body of Alawite religious leaders declared that Alawites are simply partisans of Ali, and in the same year the Sunni Mufti of Jerusalem, Hajj Amin al-Husayni, issued a ruling that the Alawites are Muslims. In 1973 some eighty Alawite religious leaders stated that the community holds the teaching of the Twelver Shia. In the 1970s the Lebanese Shia leader Musa al-Sadr brought Alawites of Lebanon into his Shia council, a step that Alawites in Tripoli protested against in 1973. Historians note that these moves came at politically useful moments. The mufti was urged on by Syrian nationalists who wanted the Alawites in the national movement. Many Sunni scholars never accepted the Alawites as Muslims.',
         'Alawites today present themselves as Muslims. The declaration of 1973 said that anything else attributed to them was the invention of their enemies. In 2016 the BBC reported a document from unnamed Alawite leaders which called their faith a current “of and within Islam”, with the Quran as its only holy book, and said that they are not a branch of Shia Islam. Take your friend’s own account of himself as your starting point.',
       ],
     },
@@ -45,7 +45,7 @@ export const alawites: Topic = {
       heading: 'The Assads, and after',
       body: [
         'In 1970 an Alawite officer, Hafez al-Assad, took power in Syria. He ruled until his death in 2000, and his son Bashar ruled until December 2024. Under them Alawites held a large share of the senior posts in the army and the security services. Yet many Alawites stayed poor, and the regime’s prisons and guns were turned on Syrians of every community, above all the Sunni majority.',
-        'When the regime fell, many Syrians held the whole Alawite community responsible for it. In March 2025, after what the new authorities described as attacks by Assad loyalists on their forces, fighters aligned with the new government killed Alawite civilians in towns and villages along the coast. A United Nations Commission of Inquiry reported that some 1,400 people were killed, most of them civilians, in violence aimed mainly at Alawite communities. It found that Alawite men were separated from the women and children, led away and killed. It concluded that war crimes were probably committed both by government-aligned forces and by pro-Assad fighters, and it found no evidence of a government plan to carry out the attacks. Tens of thousands of people fled into northern Lebanon.',
+        'When the regime fell, many Syrians held the whole Alawite community responsible for it. A United Nations Commission of Inquiry has reported on what followed. In March 2025 fighters loyal to Assad ambushed government forces in Latakia. In the days after, members of the new government’s forces and armed men fighting alongside them killed Alawite civilians in towns and villages along the coast. The Commission said that some 1,400 people, most of them civilians, were reported killed in violence aimed mainly at Alawite communities. It found that men identified as Alawites were separated from the women and children, led outside and shot. It concluded that acts likely to amount to war crimes were committed both by members of the government forces and by pro-Assad fighters, and it found no evidence of a government policy or plan to carry out the attacks. The United Nations refugee agency counted tens of thousands of people who fled into northern Lebanon.',
         'So the Alawite you meet may be grieving and frightened. He may have lost relatives. He may be blamed for the crimes of a government that did little for him.',
       ],
     },
@@ -53,7 +53,7 @@ export const alawites: Topic = {
       heading: 'Why the usual arguments do not fit',
       body: [
         'The main Islam track argues from the Quran and from the hadith collections of al-Bukhari and Muslim. Those arguments mostly miss an Alawite. He does not take the Sunni hadith as an authority, and his tradition reads the Quran for an inner meaning.',
-        'Many Alawites are secular. Being Alawite is for them a matter of family, village and shared danger. Most have never been taught the doctrine, and no woman has. Your friend may know less about it than you have just read.',
+        'Many Alawites are secular. Being Alawite is for them a matter of family, village and shared danger. Most have never been taught the doctrine, and by every published account women are not taught it at all. Your friend may know less about it than you have just read.',
         'Remember also what questions about belief have meant for this community. “What do you people really believe?” is what their persecutors asked. Do not interrogate. Earn the right to talk about God by being a friend first, and let him choose what to tell you.',
       ],
     },
@@ -373,7 +373,7 @@ export const alawites: Topic = {
         'Southern Iraq and Bahrain',
       ],
       answer: 2,
-      explanation: 'In Lebanon they live mainly in Jabal Mohsen in Tripoli and in Akkar. Estimates put them at roughly a tenth of Syria’s people.',
+      explanation: 'In Lebanon their best-known centre is the Jabal Mohsen district of Tripoli. Estimates put them at roughly a tenth of Syria’s people.',
     },
     {
       id: 'alw-q3',
@@ -427,10 +427,10 @@ export const alawites: Topic = {
         'A decree of the Ottoman sultan in 1908',
         'A vote of the United Nations in 1948',
         'A ruling of Ibn Battuta',
-        'A ruling of Hajj Amin al-Husayni, the Sunni Mufti of Jerusalem, in the 1930s',
+        'A ruling of Hajj Amin al-Husayni, the Sunni Mufti of Jerusalem, in 1936',
       ],
       answer: 3,
-      explanation: 'Later the Lebanese Shia leader Musa al-Sadr brought the Alawites of Lebanon under his Shia council. Many Sunni scholars never accepted these rulings.',
+      explanation: 'Later the Lebanese Shia leader Musa al-Sadr brought Alawites of Lebanon into his Shia council. Many Sunni scholars never accepted these moves.',
     },
     {
       id: 'alw-q9',
@@ -445,11 +445,11 @@ export const alawites: Topic = {
       options: [
         'That no civilians were harmed',
         'That the reports could not be investigated',
-        'That some 1,400 people were killed, most of them civilians, in violence aimed mainly at Alawite communities',
+        'That some 1,400 people, most of them civilians, were reported killed in violence aimed mainly at Alawite communities',
         'That the Alawites had left Syria before the violence began',
       ],
       answer: 2,
-      explanation: 'The Commission concluded that war crimes were probably committed both by government-aligned forces and by pro-Assad fighters.',
+      explanation: 'The Commission concluded that acts likely to amount to war crimes were committed both by members of the government forces and by pro-Assad fighters.',
     },
     {
       id: 'alw-q11',
