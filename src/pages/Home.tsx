@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { topics, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
 import { daysPractised, isDue, topicCompletion, useProgress } from '../lib/progress';
 import { buildSession } from '../lib/session';
-import { trackCompletion } from '../lib/trackProgress';
+import { trackCompletion, trackSeals } from '../lib/trackProgress';
+import Seal from '../components/Seal';
 import ProgressBar from '../components/ProgressBar';
 
 const MAX_SHOWN = 3;
@@ -56,15 +57,17 @@ export default function Home() {
         {topLevelTracks.map((t) => {
           const done = trackCompletion(p, t);
           const subs = subtracksOf(t).length;
+          const seals = trackSeals(p, t);
           return (
             <Link key={t.id} to={`/track/${t.id}`} className="card track-card">
-              <div className="topic-icon" aria-hidden>{t.icon}</div>
+              {seals.sealed === seals.total ? <Seal tone="track" size={44} label={`${t.title}: complete`} /> : <div className="topic-icon" aria-hidden>{t.icon}</div>}
               <div className="track-body">
                 <h2>{t.title}</h2>
                 <p>{t.summary}</p>
                 <ProgressBar value={done} label={`${t.title} progress`} />
                 <small className="muted">
-                  {topicsInTrack(t).length} topics{subs ? ` · ${subs} sub-tracks` : ''} · {Math.round(done * 100)}% complete
+                  {topicsInTrack(t).length} topics{subs ? ` · ${subs} sub-tracks` : ''} · {Math.round(done * 100)}% ready
+                  {seals.sealed > 0 && ` · ${seals.sealed} sealed`}
                 </small>
               </div>
             </Link>

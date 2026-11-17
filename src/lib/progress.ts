@@ -149,10 +149,27 @@ export function useProgress(): Progress {
   );
 }
 
-/** 0..1 completion for a topic: lesson read, quiz best, share of objections mastered — equally weighted. */
+const LEVEL_SCORE: Record<Confidence, number> = { again: 0, shaky: 0.5, solid: 1, teach: 1 };
+
+/** 0..1 for one objection: Solid or better counts in full, Shaky as half. Ratings from before confidence levels count as Solid or Again. */
+export function objectionScore(p: Progress, objectionId: string): number {
+  const c = p.confidence[objectionId];
+  if (c) return LEVEL_SCORE[c];
+  return p.drills[objectionId] === 'got' ? 1 : 0;
+}
+
+/** 0..1 readiness for a topic: lesson read, quiz best, and objection confidence — equally weighted. */
 export function topicCompletion(p: Progress, topicId: string, objectionIds: string[]): number {
   const lesson = p.lessonsRead[topicId] ? 1 : 0;
   const quiz = p.quizBest[topicId] ?? 0;
-  const drills = objectionIds.length ? objectionIds.filter((id) => p.drills[id] === 'got').length / objectionIds.length : 0;
+  const drills = objectionIds.length ? objectionIds.reduce((n, id) => n + objectionScore(p, id), 0) / objectionIds.length : 0;
   return (lesson + quiz + drills) / 3;
+}
+
+/** Quiz score a topic needs, alongside the lesson and every objection at Solid or better, to earn its seal. */
+export const SEAL_QUIZ = 0.8;
+
+/** A topic's seal: lesson read, quiz best at least 80%, and every objection rated Solid or better. */
+export function topicSealed(p: Progress, topicId: string, objectionIds: string[]): boolean {
+  return Boolean(p.lessonsRead[topicId]) && (p.quizBest[topicId] ?? 0) >= SEAL_QUIZ && objectionIds.every((id) => objectionScore(p, id) === 1);
 }

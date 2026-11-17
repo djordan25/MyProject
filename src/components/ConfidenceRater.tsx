@@ -1,3 +1,4 @@
+import { buzz } from '../lib/haptics';
 import { CONFIDENCE, daysUntilReview, useProgress, type Confidence } from '../lib/progress';
 
 const when = (days: number) =>
@@ -24,7 +25,10 @@ export default function ConfidenceRater({ objectionId, onRate, suggested }: Prop
             type="button"
             className={l.id === suggested ? 'suggested' : undefined}
             aria-pressed={current === l.id}
-            onClick={() => onRate(l.id)}
+            onClick={() => {
+              buzz(l.id === 'solid' || l.id === 'teach' ? 'success' : 'tap');
+              onRate(l.id);
+            }}
           >
             <strong>{l.label}</strong>
             <small>{when(daysUntilReview(p.review[objectionId], l.id))}</small>

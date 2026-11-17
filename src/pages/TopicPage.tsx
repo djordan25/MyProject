@@ -1,7 +1,9 @@
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom';
 import { getTopic, trackForTopic, type Topic } from '../content';
-import { progress, useProgress } from '../lib/progress';
+import { objectionScore, progress, SEAL_QUIZ, topicSealed, useProgress } from '../lib/progress';
+import { buzz } from '../lib/haptics';
+import Seal from '../components/Seal';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
 import Quiz from '../components/Quiz';
@@ -20,6 +22,7 @@ export default function TopicPage() {
     <>
       <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
       <h1><span aria-hidden>{topic.icon}</span> {topic.title}</h1>
+      <SealStatus key={topic.id} topic={topic} />
       <nav className="tabs">
         <NavLink to={base} end>Learn</NavLink>
         <NavLink to={`${base}/objections`}>Objections ({topic.objections.length})</NavLink>
@@ -34,6 +37,43 @@ export default function TopicPage() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
+  );
+}
+
+/** What the topic still needs for its seal, and a moment of celebration when it is earned. */
+function SealStatus({ topic }: { topic: Topic }) {
+  const p = useProgress();
+  const ids = topic.objections.map((o) => o.id);
+  const sealed = topicSealed(p, topic.id, ids);
+  const wasSealed = useRef(sealed);
+  const [justEarned, setJustEarned] = useState(false);
+  useEffect(() => {
+    if (sealed && !wasSealed.current) {
+      setJustEarned(true);
+      buzz('success');
+    }
+    wasSealed.current = sealed;
+  }, [sealed]);
+
+  if (sealed) {
+    return (
+      <div className={`seal-status done${justEarned ? ' just' : ''}`} role="status">
+        <Seal size={justEarned ? 56 : 32} />
+        <span>
+          <strong>{justEarned ? 'Seal earned!' : 'Topic complete'}</strong>
+          {justEarned && <small className="muted">Lesson read, quiz passed, every objection Solid. Keep it fresh with reviews.</small>}
+        </span>
+      </div>
+    );
+  }
+  const solid = ids.filter((id) => objectionScore(p, id) === 1).length;
+  const best = p.quizBest[topic.id] ?? 0;
+  return (
+    <ul className="seal-status" aria-label="Steps to this topic’s seal">
+      <li className={p.lessonsRead[topic.id] ? 'met' : undefined}>Lesson read</li>
+      <li className={best >= SEAL_QUIZ ? 'met' : undefined}>Quiz {Math.round(SEAL_QUIZ * 100)}%+</li>
+      <li className={solid === ids.length ? 'met' : undefined}>{solid}/{ids.length} objections Solid</li>
+    </ul>
   );
 }
 

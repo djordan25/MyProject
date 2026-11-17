@@ -34,6 +34,8 @@ All training content lives in `src/content/topics/*.ts`, one file per topic (see
 
 - **Today's practice:** the home page leads with a short daily session — up to three due reviews, one new objection, two quiz questions — ending on a summary with how many of the last 7 days you practised.
 - **Sparring mode (default):** each objection plays out as a conversation. You reply, see a strong answer, then they come back with their next line, following one path through the `followUps` tree. Switch to **Cards** on the Practice page or a topic's Objections tab; the choice is remembered.
+- **Readiness and seals:** each topic shows a readiness ring (lesson, best quiz score, and objection confidence, equally weighted). A topic earns its shield seal when the lesson is read, the quiz is 80% or better and every objection is Solid; a track's seal turns gold when all its topics are sealed.
+- **Phone-first:** a bottom tab bar on small screens, larger tap targets, and a distraction-free Today's practice with navigation hidden. Ratings and quiz answers give a short vibration on phones that support it (not iOS), skipped under reduced motion.
 - **Follow-up replies:** many objections include "If they reply…" with the likely next response and how to answer it (`followUps` in the content files).
 - **Key-point self-check:** if you wrote an answer, you tick which key points it covered and get a score, which suggests a confidence rating.
 - **Confidence ratings and spaced repetition:** rate each objection Again (today), Shaky (tomorrow), Solid (1, 3, 7, 14, then 30 days as the run grows) or Could teach it (jumps to 14+ days). Each button shows when the objection will come back.

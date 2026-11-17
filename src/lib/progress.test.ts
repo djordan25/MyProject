@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { daysPractised, daysUntilReview, isDue, localDate, nextReview, progress, type Progress } from './progress';
+import { daysPractised, daysUntilReview, isDue, localDate, nextReview, progress, topicCompletion, topicSealed, type Progress } from './progress';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -57,6 +57,23 @@ describe('confidence ratings', () => {
     const now = new Date(2026, 10, 17, 12).getTime();
     const p = { days: ['2026-11-01', '2026-11-11', '2026-11-12', '2026-11-16', '2026-11-17'] } as Progress;
     expect(daysPractised(p, now)).toBe(4);
+  });
+});
+
+describe('readiness and seals', () => {
+  const base: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [] };
+
+  it('weights objections by confidence, counting old ratings as Solid or Again', () => {
+    const p: Progress = { ...base, confidence: { a: 'shaky', b: 'teach' }, drills: { a: 'review', b: 'got', c: 'got', d: 'review' } };
+    expect(topicCompletion(p, 't', ['a', 'b', 'c', 'd'])).toBeCloseTo((0 + 0 + 2.5 / 4) / 3);
+  });
+
+  it('seals a topic only with the lesson, an 80% quiz and every objection Solid or better', () => {
+    const p: Progress = { ...base, lessonsRead: { t: true }, quizBest: { t: 0.8 }, confidence: { a: 'solid', b: 'teach' } };
+    expect(topicSealed(p, 't', ['a', 'b'])).toBe(true);
+    expect(topicSealed({ ...p, quizBest: { t: 0.7 } }, 't', ['a', 'b'])).toBe(false);
+    expect(topicSealed({ ...p, confidence: { a: 'shaky', b: 'teach' } }, 't', ['a', 'b'])).toBe(false);
+    expect(topicSealed({ ...p, lessonsRead: {} }, 't', ['a', 'b'])).toBe(false);
   });
 });
 
