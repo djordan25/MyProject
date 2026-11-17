@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { topics } from '../content';
+import { flattenFollowUps, topics } from '../content';
 import { glossary } from '../content/glossary';
 
 interface Entry {
@@ -25,7 +25,7 @@ const index: Entry[] = [
     kind: 'Objection' as const,
     topic: t.title,
     title: o.objection,
-    text: [o.response, ...o.keyPoints, ...(o.references ?? []), ...(o.followUps ?? []).flatMap((f) => [f.reply, f.answer])].join(' '),
+    text: [o.response, ...o.keyPoints, ...(o.references ?? []), ...flattenFollowUps(o.followUps).flatMap((f) => [f.reply, f.answer])].join(' '),
     to: `/topic/${t.id}/objections`,
   })),
   ]),

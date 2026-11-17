@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { topics, tracks, topicsInTrack } from '../content';
+import { topics, tracks, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
 import { isDue, useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
 import ObjectionDrill from '../components/ObjectionDrill';
@@ -57,7 +57,9 @@ export default function Practice() {
             }}
           >
             <option value="all">All tracks</option>
-            {tracks.map((t) => <option key={t.id} value={t.id}>{t.title}</option>)}
+            {topLevelTracks.flatMap((t) => [t, ...subtracksOf(t)]).map((t) => (
+              <option key={t.id} value={t.id}>{t.parent ? `— ${t.title}` : t.title}</option>
+            ))}
           </select>
         </label>
         <button className={`btn ${mode === 'all' ? 'primary' : ''}`} onClick={() => restart('all')}>All objections</button>

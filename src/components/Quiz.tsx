@@ -6,11 +6,23 @@ import RefText from './RefText';
 interface Props {
   questions: QuizQuestion[];
   onFinish: (score: number) => void;
+  /** Ask at most this many questions per attempt, drawn at random from the bank. */
+  limit?: number;
 }
 
-export default function Quiz({ questions, onFinish }: Props) {
+/** A question with its options in random order and the answer index moved to match. */
+function shuffleOptions(q: QuizQuestion): QuizQuestion {
+  const order = shuffle(q.options.map((_, i) => i));
+  return { ...q, options: order.map((i) => q.options[i]), answer: order.indexOf(q.answer) };
+}
+
+export default function Quiz({ questions, onFinish, limit }: Props) {
   const [round, setRound] = useState(0);
-  const order = useMemo(() => shuffle(questions), [questions, round]);
+  // A fresh random draw, question order and option order on every attempt.
+  const order = useMemo(
+    () => shuffle(questions).slice(0, limit ?? questions.length).map(shuffleOptions),
+    [questions, limit, round],
+  );
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [correct, setCorrect] = useState(0);
@@ -22,6 +34,9 @@ export default function Quiz({ questions, onFinish }: Props) {
       <section className="card quiz-result">
         <h2>{score === 1 ? 'Perfect score!' : score >= 0.7 ? 'Well done!' : 'Keep practising'}</h2>
         <p className="big">{correct} / {order.length}</p>
+        {questions.length > order.length && (
+          <p className="muted">Each attempt draws {order.length} of this topic’s {questions.length} questions at random.</p>
+        )}
         <button
           className="btn primary"
           onClick={() => {
@@ -65,7 +80,7 @@ export default function Quiz({ questions, onFinish }: Props) {
         {q.options.map((opt, idx) => {
           const state = !answered ? '' : idx === q.answer ? 'correct' : idx === picked ? 'wrong' : 'dim';
           return (
-            <button key={idx} className={`option ${state}`} onClick={() => choose(idx)} disabled={answered}>
+            <button key={`${q.id}-${idx}`} className={`option ${state}`} onClick={() => choose(idx)} disabled={answered}>
               {opt}
             </button>
           );

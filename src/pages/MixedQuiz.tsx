@@ -1,29 +1,42 @@
 import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { topics, tracks, topicsInTrack } from '../content';
-import { shuffle } from '../lib/shuffle';
 import Quiz from '../components/Quiz';
 
-const LENGTH = 10;
+const LENGTHS = [10, 25, 50];
 
-/** Ten random questions drawn from every topic in a track (or from all tracks). */
+/** Random questions drawn from every topic in a track or sub-track (or from everything). */
 export default function MixedQuiz() {
   const [params] = useSearchParams();
   const track = tracks.find((t) => t.id === params.get('track'));
+  const parent = track?.parent ? tracks.find((t) => t.id === track.parent) : undefined;
   const [round, setRound] = useState(0);
-  const questions = useMemo(
-    () => shuffle((track ? topicsInTrack(track) : topics).flatMap((t) => t.quiz)).slice(0, LENGTH),
-    [track, round],
-  );
+  const [length, setLength] = useState(LENGTHS[0]);
+  const bank = useMemo(() => (track ? topicsInTrack(track) : topics).flatMap((t) => t.quiz), [track]);
 
   return (
     <>
       <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
       <h1>Mixed quiz</h1>
       <p className="muted">
-        {LENGTH} random questions from {track ? track.title : 'all tracks'}.
+        Random questions from {track ? `${parent ? `${parent.title}: ` : ''}${track.title}` : 'all tracks'}, drawn from a bank of {bank.length}.
       </p>
-      <Quiz key={round} questions={questions} onFinish={() => {}} />
+      <div className="row">
+        <span className="muted">Questions:</span>
+        {LENGTHS.filter((n, i) => i === 0 || n <= bank.length).map((n) => (
+          <button
+            key={n}
+            className={`btn ${n === length ? 'primary' : ''}`}
+            onClick={() => {
+              setLength(n);
+              setRound((r) => r + 1);
+            }}
+          >
+            {n}
+          </button>
+        ))}
+      </div>
+      <Quiz key={`${round}-${length}`} questions={bank} limit={length} onFinish={() => {}} />
       <div className="row">
         <button className="btn" onClick={() => setRound((r) => r + 1)}>New set of questions</button>
       </div>

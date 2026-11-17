@@ -1,15 +1,22 @@
 import { Link, useParams } from 'react-router-dom';
-import { getTopic, getTrack } from '../content';
+import { getTopic, getTrack, subtracksOf, topicsInTrack } from '../content';
+import { useProgress } from '../lib/progress';
+import { trackCompletion } from '../lib/trackProgress';
 import TopicCard from '../components/TopicCard';
+import ProgressBar from '../components/ProgressBar';
 import RefText from '../components/RefText';
 import NotFound from './NotFound';
 
 export default function TrackPage() {
+  const p = useProgress();
   const track = getTrack(useParams().trackId);
   if (!track) return <NotFound />;
+  const parent = getTrack(track.parent);
+  const subs = subtracksOf(track);
   return (
     <>
-      <Link to="/" className="back">← All tracks</Link>
+      <Link to={parent ? `/track/${parent.id}` : '/'} className="back">← {parent ? parent.title : 'All tracks'}</Link>
+      {parent && <div className="eyebrow">{parent.title} · sub-track</div>}
       <h1><span aria-hidden>{track.icon}</span> {track.title}</h1>
       {track.intro && (
         <section className="card intro">
@@ -17,9 +24,9 @@ export default function TrackPage() {
         </section>
       )}
       <div className="row">
-        <Link className="btn" to={`/practice?track=${track.id}`}>Practise objections from this track →</Link>
+        <Link className="btn" to={`/practice?track=${track.id}`}>Practise objections from this {parent ? 'sub-track' : 'track'} →</Link>
         <Link className="btn" to={`/quiz?track=${track.id}`}>Mixed quiz →</Link>
-        {track.id === 'islam' && <Link className="btn" to="/glossary">Glossary of Islamic terms</Link>}
+        {(track.id === 'islam' || track.parent === 'islam') && <Link className="btn" to="/glossary">Glossary of Islamic terms</Link>}
       </div>
       {track.sections.map((s, i) => (
         <section key={s.title} className="track-section">
@@ -36,6 +43,34 @@ export default function TrackPage() {
           </div>
         </section>
       ))}
+      {subs.length > 0 && (
+        <section className="track-section">
+          <h2 className="section-title">
+            <span className="section-num">{track.sections.length + 1}</span>
+            Sub-tracks: who are you talking to?
+          </h2>
+          <p className="muted">
+            Muslims do not all accept the same sources or beliefs. Each sub-track covers one group: what it teaches, which
+            arguments apply, and how to answer its own claims.
+          </p>
+          <div className="track-list">
+            {subs.map((s) => {
+              const done = trackCompletion(p, s);
+              return (
+                <Link key={s.id} to={`/track/${s.id}`} className="card track-card">
+                  <div className="topic-icon" aria-hidden>{s.icon}</div>
+                  <div className="track-body">
+                    <h3>{s.title}</h3>
+                    <p>{s.summary}</p>
+                    <ProgressBar value={done} label={`${s.title} progress`} />
+                    <small className="muted">{topicsInTrack(s).length} topics · {Math.round(done * 100)}% complete</small>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
     </>
   );
 }

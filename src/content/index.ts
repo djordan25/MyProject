@@ -1,4 +1,4 @@
-import type { Topic, Track } from './types';
+import type { FollowUp, Topic, Track } from './types';
 import { tracks } from './tracks';
 import { existenceOfGod } from './topics/existence-of-god';
 import { reliabilityOfScripture } from './topics/reliability-of-scripture';
@@ -51,9 +51,19 @@ export { tracks };
 
 export const getTopic = (id: string | undefined) => topics.find((t) => t.id === id);
 export const getTrack = (id: string | undefined) => tracks.find((t) => t.id === id);
+/** The track (or sub-track) whose own sections list the topic. */
 export const trackForTopic = (topicId: string): Track | undefined =>
   tracks.find((t) => t.sections.some((s) => s.topicIds.includes(topicId)));
-export const topicsInTrack = (track: Track): Topic[] =>
+export const topLevelTracks: Track[] = tracks.filter((t) => !t.parent);
+export const subtracksOf = (track: Track): Track[] => tracks.filter((t) => t.parent === track.id);
+/** Topics listed in the track's own sections, not counting its sub-tracks. */
+export const ownTopics = (track: Track): Topic[] =>
   track.sections.flatMap((s) => s.topicIds).map((id) => getTopic(id)!).filter(Boolean);
+/** Every topic in the track, including those in its sub-tracks. */
+export const topicsInTrack = (track: Track): Topic[] => [...ownTopics(track), ...subtracksOf(track).flatMap(topicsInTrack)];
+
+/** A follow-up chain flattened into a list: every reply and answer at every depth. */
+export const flattenFollowUps = (followUps: FollowUp[] | undefined): FollowUp[] =>
+  (followUps ?? []).flatMap((f) => [f, ...flattenFollowUps(f.followUps)]);
 
 export * from './types';

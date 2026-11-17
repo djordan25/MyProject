@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { Objection } from '../content';
+import type { FollowUp, Objection } from '../content';
 import { progress, useProgress, type DrillRating } from '../lib/progress';
 import RefText from './RefText';
 import RefList from './RefList';
@@ -8,6 +8,26 @@ interface Props {
   objection: Objection;
   context?: string;
   onRated?: (rating: DrillRating) => void;
+}
+
+const LEAD = ['If they reply', 'If they push back', 'If they press further', 'And if they then say'];
+
+/** The back-and-forth after the model response: each reply opens to its answer, which may hold further replies. */
+function FollowUps({ items, depth }: { items?: FollowUp[]; depth: number }) {
+  if (!items?.length) return null;
+  return (
+    <>
+      {items.map((f) => (
+        <details key={f.reply} className="followup">
+          <summary>
+            <span className="round">Round {depth + 2}</span> {LEAD[Math.min(depth, LEAD.length - 1)]}: “{f.reply}”
+          </summary>
+          <p><RefText text={f.answer} /></p>
+          <FollowUps items={f.followUps} depth={depth + 1} />
+        </details>
+      ))}
+    </>
+  );
 }
 
 /** Shows an objection, lets the learner draft a response, then reveals a model answer for self-assessment. */
@@ -44,12 +64,7 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
             {objection.keyPoints.map((k) => <li key={k}><RefText text={k} /></li>)}
           </ul>
           <RefList refs={objection.references} />
-          {objection.followUps?.map((f) => (
-            <details key={f.reply} className="followup">
-              <summary>If they reply: “{f.reply}”</summary>
-              <p><RefText text={f.answer} /></p>
-            </details>
-          ))}
+          <FollowUps items={objection.followUps} depth={0} />
           <div className="row">
             <span className="muted">How did you do?</span>
             <button className="btn" onClick={() => rate('review')}>Needs review</button>
