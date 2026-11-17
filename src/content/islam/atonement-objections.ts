@@ -10,7 +10,7 @@ export const atonementObjections: Topic = {
       heading: 'The Muslim objection',
       body: [
         '“No bearer of burdens will bear the burden of another” (Quran 6:164; 53:38). Muslims argue that it would be unjust for Jesus to die for others’ sins, and that God can simply forgive the repentant.',
-        'Muslims sometimes cite Ezekiel 18:20: “The son shall not suffer for the iniquity of the father.”',
+        'Muslims sometimes cite the prophet Ezekiel: “A son will not bear the iniquity of his father” (Ezekiel 18:20).',
       ],
       references: ['Quran 6:164', 'Quran 53:38', 'Ezekiel 18:20'],
     },

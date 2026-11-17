@@ -200,7 +200,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     },
     {
       id: 'ahj-6',
-      objection: 'The Quran settles it. God said to Jesus, “I will cause you to die” (Quran 3:55), and Jesus himself says, “when You caused me to die” (Quran 5:117). All the messengers before Muhammad have passed away (Quran 3:144). Jesus is dead like every other prophet. He is not sitting alive in the sky.',
+      objection: 'The Quran settles it. In Quran 3:55 God says to Jesus, “I will cause you to die”, and in Quran 5:117 Jesus himself says, “when You caused me to die”. All the messengers before Muhammad have passed away (Quran 3:144). Jesus is dead like every other prophet. He is not sitting alive in the sky.',
       response:
         'On the Arabic you have a real point against the usual Muslim view. The word in Quran 3:55 is the one the Quran uses for God taking souls at death, and Christians agree that Jesus died. The Quran even has him speak of “the day I will die and the day I am raised alive” (Quran 19:33). Where we differ is when and how. Nothing in the Quran says he was nailed to a cross and survived it, or that he went to Kashmir. That was added in the nineteenth century. And the Quran was recited six hundred years after the event, so what actually happened has to be settled by the evidence from the time.',
       keyPoints: ['Agree that the Quran’s wording points to Jesus dying.', 'The swoon and the journey to Kashmir are not in the Quran.', 'What happened is a question of history, and the early evidence is unanimous.'],
