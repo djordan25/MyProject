@@ -1,6 +1,7 @@
 export type Theme = 'auto' | 'light' | 'dark';
 
 const KEY = 'apologetics-theme';
+const dark = () => typeof window !== 'undefined' && window.matchMedia?.('(prefers-color-scheme: dark)').matches;
 
 export function loadTheme(): Theme {
   try {
@@ -11,10 +12,21 @@ export function loadTheme(): Theme {
   }
 }
 
+let current: Theme = 'auto';
+
+/** EditorialUI switches on data-theme, so 'auto' resolves the device setting to light or dark and follows changes. */
+function paint() {
+  const resolved = current === 'auto' ? (dark() ? 'dark' : 'light') : current;
+  document.documentElement.dataset.theme = resolved;
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', resolved === 'dark' ? '#0e1216' : '#f8fafd');
+}
+
+if (typeof window !== 'undefined') window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener?.('change', () => current === 'auto' && paint());
+
 /** Applies the theme to the page and remembers it. 'auto' follows the device setting. */
 export function applyTheme(theme: Theme): void {
-  if (theme === 'auto') delete document.documentElement.dataset.theme;
-  else document.documentElement.dataset.theme = theme;
+  current = theme;
+  paint();
   try {
     if (theme === 'auto') localStorage.removeItem(KEY);
     else localStorage.setItem(KEY, theme);

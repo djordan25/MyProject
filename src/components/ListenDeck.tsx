@@ -1,3 +1,4 @@
+import { EdButton, EdIcon, EdIconButton, EdProgressMeter } from 'editorial-ui';
 import { useEffect, useRef, useState } from 'react';
 import type { Objection } from '../content';
 import { progress } from '../lib/progress';
@@ -66,10 +67,13 @@ export default function ListenDeck({ deck }: { deck: Card[] }) {
           : playing ? '' : 'Press play. Works with the screen on; some phones pause speech when locked.'}
       </p>
       {showAnswer && <p className="listen-answer"><RefText text={card.o.response} /></p>}
+      <EdProgressMeter percent={((i + 1) / deck.length) * 100} tone="brand" ariaLabel="Deck position" valueText={`Card ${i + 1} of ${deck.length}`} />
       <div className="listen-controls">
-        <button className="btn" aria-label="Previous objection" onClick={() => go(i - 1)} disabled={i === 0}>‹ Prev</button>
-        <button
-          className="btn primary listen-play"
+        <EdIconButton aria-label="Previous objection" variant="bordered" size="lg" icon={<EdIcon name="SkipBack" size="md" />} onClick={() => go(i - 1)} disabled={i === 0} />
+        <EdButton
+          variant="primary"
+          size="xl"
+          leadingIcon={<EdIcon name={playing ? 'Pause' : 'Play'} size="md" />}
           onClick={() => {
             if (!playing) progress.recordPractice();
             setPlaying(!playing);
@@ -77,11 +81,11 @@ export default function ListenDeck({ deck }: { deck: Card[] }) {
           }}
         >
           {playing ? 'Pause' : 'Play'}
-        </button>
-        <button className="btn" aria-label="Next objection" onClick={() => go(i + 1)} disabled={i + 1 >= deck.length}>Next ›</button>
+        </EdButton>
+        <EdIconButton aria-label="Next objection" variant="bordered" size="lg" icon={<EdIcon name="SkipForward" size="md" />} onClick={() => go(i + 1)} disabled={i + 1 >= deck.length} />
       </div>
       <div className="listen-settings">
-        <span className="muted">Card {i + 1} of {deck.length}</span>
+        <span className="mono muted">Card {i + 1} of {deck.length}</span>
         <label className="select">
           <span className="muted">Thinking time</span>
           <select value={think} onChange={(e) => setThink(Number(e.target.value))}>

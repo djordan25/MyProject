@@ -1,58 +1,50 @@
-import { Link } from 'react-router-dom';
 import { topics, topLevelTracks, subtracksOf, ownTopics } from '../content';
-import { daysPractised, objectionScore, progress, topicCompletion, topicSealed, useProgress } from '../lib/progress';
-import ReadinessRing from '../components/ReadinessRing';
-import Seal from '../components/Seal';
+import { EdButton, EdIcon, EdStat, EdStatGrid } from 'editorial-ui';
+import { daysPractised, objectionScore, progress, topicSealed, useProgress } from '../lib/progress';
+import TopicIcon from '../components/TopicIcon';
+import TopicRow from '../components/TopicRow';
 import { trackCompletion } from '../lib/trackProgress';
 import ProgressBar from '../components/ProgressBar';
 
 export default function ProgressPage() {
   const p = useProgress();
   const totalObjections = topics.reduce((n, t) => n + t.objections.length, 0);
-  const mastered = topics.flatMap((t) => t.objections).filter((o) => p.drills[o.id] === 'got').length;
+  const mastered = topics.flatMap((t) => t.objections).filter((o) => objectionScore(p, o.id) === 1).length;
   const sealed = topics.filter((t) => topicSealed(p, t.id, t.objections.map((o) => o.id))).length;
   const lessons = topics.filter((t) => p.lessonsRead[t.id]).length;
-  const quizzes = topics.filter((t) => p.quizBest[t.id] !== undefined).length;
 
   return (
     <>
       <h1>Your progress</h1>
       <div className="stats">
-        <div className="card stat"><span className="big">{lessons}/{topics.length}</span>lessons read</div>
-        <div className="card stat"><span className="big">{mastered}/{totalObjections}</span>objections solid</div>
-        <div className="card stat"><span className="big">{quizzes}/{topics.length}</span>quizzes taken</div>
-        <div className="card stat"><span className="big">{sealed}/{topics.length}</span>topics sealed</div>
-        <div className="card stat"><span className="big">{daysPractised(p)}/7</span>days practised this week</div>
+        <EdStatGrid columns={4}>
+          <EdStat label="Lessons read" value={`${lessons}/${topics.length}`} />
+          <EdStat label="Objections solid" value={`${mastered}/${totalObjections}`} tone={mastered ? 'success' : 'neutral'} />
+          <EdStat label="Topics sealed" value={`${sealed}/${topics.length}`} />
+          <EdStat label="Days this week" value={`${daysPractised(p)}/7`} />
+        </EdStatGrid>
       </div>
-      {topLevelTracks.flatMap((t) => [t, ...subtracksOf(t)]).map((track) => (
-        <section key={track.id} className="track-section">
-          <h2 className="section-title">{track.icon} {track.title}{subtracksOf(track).length ? ' (with sub-tracks)' : ''}</h2>
-          <ProgressBar value={trackCompletion(p, track)} label={`${track.title} progress`} />
-          <div className="spacer" />
-          {ownTopics(track).map((t) => {
-            const done = topicCompletion(p, t.id, t.objections.map((o) => o.id));
-            const best = p.quizBest[t.id];
-            return (
-              <Link to={`/topic/${t.id}`} key={t.id} className="card progress-row">
-                {topicSealed(p, t.id, t.objections.map((o) => o.id))
-                  ? <Seal size={44} label={`${t.title}: complete`} />
-                  : <ReadinessRing value={done} label={t.title} size={48} />}
-                <span className="progress-row-body">
-                  <strong>{t.icon} {t.title}</strong>
-                  <small className="muted">
-                    Lesson {p.lessonsRead[t.id] ? '✓' : '—'} · Quiz best {best === undefined ? '—' : `${Math.round(best * 100)}%`} ·{' '}
-                    {t.objections.filter((o) => objectionScore(p, o.id) === 1).length}/{t.objections.length} solid
-                  </small>
-                </span>
-              </Link>
-            );
-          })}
-        </section>
-      ))}
+      {topLevelTracks.flatMap((t) => [t, ...subtracksOf(t)]).map((track) => {
+        const pct = Math.round(trackCompletion(p, track) * 100);
+        return (
+          <section key={track.id}>
+            <div className="progress-head">
+              <h2><TopicIcon glyph={track.icon} size="sm" />{track.title}</h2>
+              <span className="mono muted">{pct}% ready</span>
+            </div>
+            <ProgressBar value={pct / 100} label={`${track.title} readiness`} />
+            <div className="spacer" />
+            <div className="list">
+              {ownTopics(track).map((t) => <TopicRow key={t.id} topic={t} summary={false} />)}
+            </div>
+          </section>
+        );
+      })}
       <p className="muted">Progress is saved on this device only. Download a backup to keep it safe or move it to another device.</p>
       <div className="row">
-        <button
-          className="btn"
+        <EdButton
+          variant="secondary"
+          leadingIcon={<EdIcon name="Download" size="sm" />}
           onClick={() => {
             const url = URL.createObjectURL(new Blob([progress.exportJson()], { type: 'application/json' }));
             const a = document.createElement('a');
@@ -63,7 +55,7 @@ export default function ProgressPage() {
           }}
         >
           Download backup
-        </button>
+        </EdButton>
         <label className="btn">
           Restore from backup
           <input
@@ -79,7 +71,7 @@ export default function ProgressPage() {
             }}
           />
         </label>
-        <button className="btn" onClick={() => confirm('Reset all progress?') && progress.reset()}>Reset progress</button>
+        <EdButton variant="ghost" onClick={() => confirm('Reset all progress?') && progress.reset()}>Reset progress</EdButton>
       </div>
     </>
   );

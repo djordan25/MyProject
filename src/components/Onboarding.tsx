@@ -1,4 +1,7 @@
+import { EdIcon, type EdIconName } from 'editorial-ui';
 import { AUDIENCES, setAudience, type Audience } from '../lib/profile';
+
+const ICON: Record<Audience, EdIconName> = { skeptic: 'MessageCircleQuestion', muslim: 'Moon', doubts: 'CloudRain', all: 'Library' };
 
 /** First-run question: who is the learner preparing to talk with? */
 export default function Onboarding({ current, onDone }: { current: Audience | null; onDone?: () => void }) {
@@ -19,6 +22,7 @@ export default function Onboarding({ current, onDone }: { current: Audience | nu
               onDone?.();
             }}
           >
+            <EdIcon name={ICON[a.id]} size="lg" color="brand" aria-hidden />
             <strong>{a.label}</strong>
             <small>{a.detail}</small>
           </button>

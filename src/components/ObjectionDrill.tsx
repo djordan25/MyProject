@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import type { FollowUp, Objection } from '../content';
 import { progress, useProgress, type Confidence } from '../lib/progress';
+import { EdButton, EdDisclosure, EdTextField } from 'editorial-ui';
 import RefText from './RefText';
+import ConfidenceBadge from './ConfidenceBadge';
 import RefList from './RefList';
 import ConfidenceRater from './ConfidenceRater';
 import KeyPointCheck, { suggestFromCoverage } from './KeyPointCheck';
@@ -20,17 +22,22 @@ const LEAD = ['If they reply', 'If they push back', 'If they press further', 'An
 function FollowUps({ items, depth }: { items?: FollowUp[]; depth: number }) {
   if (!items?.length) return null;
   return (
-    <>
+    <div className="rounds">
       {items.map((f) => (
-        <details key={f.reply} className="followup">
-          <summary>
-            <span className="round">Round {depth + 2}</span> {LEAD[Math.min(depth, LEAD.length - 1)]}: “{f.reply}”
-          </summary>
+        <EdDisclosure
+          key={f.reply}
+          label={
+            <span className="round-label">
+              <span className="round-num">Round {depth + 2}</span>
+              <span>{LEAD[Math.min(depth, LEAD.length - 1)]}: “{f.reply}”</span>
+            </span>
+          }
+        >
           <p><RefText text={f.answer} /></p>
           <FollowUps items={f.followUps} depth={depth + 1} />
-        </details>
+        </EdDisclosure>
       ))}
-    </>
+    </div>
   );
 }
 
@@ -40,7 +47,7 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
   const [draft, setDraft] = useState('');
   const [revealed, setRevealed] = useState(false);
   const [covered, setCovered] = useState<number[]>([]);
-  const current = p.drills[objection.id];
+  const current = p.confidence[objection.id] ?? (p.drills[objection.id] === 'got' ? 'solid' : p.drills[objection.id] ? 'again' : undefined);
   const drafted = draft.trim().length > 0;
 
   const rate = (level: Confidence) => {
@@ -53,18 +60,26 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
       {context && <div className="eyebrow">{context}</div>}
       <blockquote className="objection">“{objection.objection}”</blockquote>
       <div className="drill-tools">
-        {current && <span className={`badge ${current}`}>{current === 'got' ? 'Mastered' : 'Needs review'}</span>}
+        <ConfidenceBadge level={current} />
         <ListenButton key={String(revealed)} segments={objectionSegments(objection, revealed)} label={revealed ? 'Listen to answer' : 'Listen'} />
         {revealed && <ShareButton objection={objection} />}
       </div>
 
-      <label className="field">
-        <span>How would you respond? Write a few lines, then check them against the model answer.</span>
-        <textarea value={draft} onChange={(e) => setDraft(e.target.value)} rows={4} placeholder="Type your answer…" />
-      </label>
+      <div className="field">
+        <EdTextField
+          label="Your answer"
+          hint="Write a few lines, then check them against the model answer."
+          multiline
+          minRows={3}
+          fullWidth
+          value={draft}
+          onChange={(e) => setDraft(e.target.value)}
+          placeholder="Say it the way you would to a friend…"
+        />
+      </div>
 
       {!revealed ? (
-        <button className="btn primary" onClick={() => setRevealed(true)}>Show model answer</button>
+        <div className="row end"><EdButton variant="primary" onClick={() => setRevealed(true)}>Show model answer</EdButton></div>
       ) : (
         <div className="reveal">
           <h3>Model response</h3>
@@ -73,7 +88,7 @@ export default function ObjectionDrill({ objection, context, onRated }: Props) {
             <KeyPointCheck points={objection.keyPoints} checked={covered} onChange={setCovered} />
           ) : (
             <>
-              <h4>Key points</h4>
+              <span className="eyebrow">Key points</span>
               <ul>
                 {objection.keyPoints.map((k) => <li key={k}><RefText text={k} /></li>)}
               </ul>

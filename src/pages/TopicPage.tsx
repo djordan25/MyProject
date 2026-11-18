@@ -4,6 +4,8 @@ import { getTopic, trackForTopic, type Topic } from '../content';
 import { objectionScore, progress, SEAL_QUIZ, topicSealed, useProgress } from '../lib/progress';
 import { buzz } from '../lib/haptics';
 import Seal from '../components/Seal';
+import TopicIcon from '../components/TopicIcon';
+import { EdButton, EdIcon, EdNotification, EdStatusBadge } from 'editorial-ui';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
 import Quiz from '../components/Quiz';
@@ -21,7 +23,7 @@ export default function TopicPage() {
   return (
     <>
       <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
-      <h1><span aria-hidden>{topic.icon}</span> {topic.title}</h1>
+      <h1 className="track-title"><TopicIcon glyph={topic.icon} size="lg" /> {topic.title}</h1>
       <SealStatus key={topic.id} topic={topic} />
       <nav className="tabs">
         <NavLink to={base} end>Learn</NavLink>
@@ -56,14 +58,17 @@ function SealStatus({ topic }: { topic: Topic }) {
   }, [sealed]);
 
   if (sealed) {
-    return (
-      <div className={`seal-status done${justEarned ? ' just' : ''}`} role="status">
-        <Seal size={justEarned ? 56 : 32} />
-        <span>
-          <strong>{justEarned ? 'Seal earned!' : 'Topic complete'}</strong>
-          {justEarned && <small className="muted">Lesson read, quiz passed, every objection Solid. Keep it fresh with reviews.</small>}
-        </span>
-      </div>
+    return justEarned ? (
+      <EdNotification
+        className="seal-earned"
+        severity="success"
+        variant="rail"
+        icon={<Seal size={40} />}
+        title="Seal earned"
+        description="Lesson read, quiz passed, every objection Solid. Keep it fresh with reviews."
+      />
+    ) : (
+      <p className="seal-done"><Seal size={24} /> Topic sealed</p>
     );
   }
   const solid = ids.filter((id) => objectionScore(p, id) === 1).length;
@@ -106,11 +111,11 @@ function Learn({ topic }: { topic: Topic }) {
       )}
       <div className="row end">
         {read ? (
-          <span className="badge got">Lesson complete ✓</span>
+          <EdStatusBadge tone="success" dot>Lesson complete</EdStatusBadge>
         ) : (
-          <button className="btn success" onClick={() => progress.markLessonRead(topic.id)}>Mark lesson complete</button>
+          <EdButton variant="secondary" leadingIcon={<EdIcon name="Check" size="sm" />} onClick={() => progress.markLessonRead(topic.id)}>Mark lesson complete</EdButton>
         )}
-        <Link className="btn primary" to={`/topic/${topic.id}/objections`}>Practise objections →</Link>
+        <EdButton asChild variant="primary" trailingIcon={<EdIcon name="ArrowRight" size="sm" />}><Link to={`/topic/${topic.id}/objections`}>Practise objections</Link></EdButton>
       </div>
     </>
   );
@@ -130,7 +135,7 @@ function Objections({ topic }: { topic: Topic }) {
       </div>
       {topic.objections.map((o) => <Drill key={`${format}-${o.id}`} format={format} objection={o} />)}
       <div className="row end">
-        <Link className="btn primary" to={`/topic/${topic.id}/quiz`}>Take the quiz →</Link>
+        <EdButton asChild variant="primary" trailingIcon={<EdIcon name="ArrowRight" size="sm" />}><Link to={`/topic/${topic.id}/quiz`}>Take the quiz</Link></EdButton>
       </div>
     </>
   );
@@ -143,7 +148,7 @@ function Summary({ topic }: { topic: Topic }) {
     <>
       <div className="row no-print">
         <p className="muted">A one-page review of this topic. Tap a reference to read it.</p>
-        <button className="btn" onClick={() => window.print()}>Print</button>
+        <EdButton variant="secondary" leadingIcon={<EdIcon name="Printer" size="sm" />} onClick={() => window.print()}>Print</EdButton>
       </div>
       <section className="card summary">
         <h2>Main points</h2>
