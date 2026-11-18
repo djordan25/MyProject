@@ -1,3 +1,4 @@
+import { EdChip } from 'editorial-ui';
 import type { Objection } from '../content';
 import type { DrillFormat } from '../lib/drillFormat';
 import type { Confidence } from '../lib/progress';
@@ -20,11 +21,16 @@ export default function Drill({ format, ...rest }: Props) {
 /** Switch between the two drill formats. */
 export function FormatToggle({ format, onChange, listen = false }: { format: DrillFormat; onChange: (f: DrillFormat) => void; listen?: boolean }) {
   const shown = format === 'listen' && !(listen && canSpeak) ? 'sparring' : format;
+  const options: { id: DrillFormat; label: string }[] = [
+    { id: 'sparring', label: 'Sparring' },
+    { id: 'cards', label: 'Cards' },
+    ...(listen && canSpeak ? [{ id: 'listen' as const, label: 'Listen' }] : []),
+  ];
   return (
-    <div className="segmented" role="group" aria-label="Drill format">
-      <button type="button" aria-pressed={shown === 'sparring'} onClick={() => onChange('sparring')}>Sparring</button>
-      <button type="button" aria-pressed={shown === 'cards'} onClick={() => onChange('cards')}>Cards</button>
-      {listen && canSpeak && <button type="button" aria-pressed={shown === 'listen'} onClick={() => onChange('listen')}>Listen</button>}
+    <div className="format-toggle" role="radiogroup" aria-label="Drill format">
+      {options.map((o) => (
+        <EdChip key={o.id} kind="radio" selected={shown === o.id} onSelectedChange={() => onChange(o.id)}>{o.label}</EdChip>
+      ))}
     </div>
   );
 }

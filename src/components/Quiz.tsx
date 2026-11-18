@@ -1,3 +1,4 @@
+import { EdButton, EdIcon } from 'editorial-ui';
 import { useMemo, useState } from 'react';
 import type { QuizQuestion } from '../content';
 import { shuffle } from '../lib/shuffle';
@@ -38,8 +39,8 @@ export default function Quiz({ questions, onFinish, limit }: Props) {
         {questions.length > order.length && (
           <p className="muted">Each attempt draws {order.length} of this topic’s {questions.length} questions at random.</p>
         )}
-        <button
-          className="btn primary"
+        <EdButton
+          variant="primary"
           onClick={() => {
             setRound((r) => r + 1);
             setI(0);
@@ -49,7 +50,7 @@ export default function Quiz({ questions, onFinish, limit }: Props) {
           }}
         >
           Try again
-        </button>
+        </EdButton>
       </section>
     );
   }
@@ -82,7 +83,7 @@ export default function Quiz({ questions, onFinish, limit }: Props) {
         {q.options.map((opt, idx) => {
           const state = !answered ? '' : idx === q.answer ? 'correct' : idx === picked ? 'wrong' : 'dim';
           return (
-            <button key={`${q.id}-${idx}`} className={`option ${state}`} onClick={() => choose(idx)} disabled={answered}>
+            <button key={`${q.id}-${idx}`} className={`option ${state}`} data-key={'ABCDEF'[idx]} onClick={() => choose(idx)} disabled={answered}>
               {opt}
             </button>
           );
@@ -91,7 +92,9 @@ export default function Quiz({ questions, onFinish, limit }: Props) {
       {answered && (
         <div className="reveal">
           <p><strong>{picked === q.answer ? 'Correct.' : 'Not quite.'}</strong> <RefText text={q.explanation} /></p>
-          <button className="btn primary" onClick={next}>{i + 1 < order.length ? 'Next question' : 'See results'}</button>
+          <div className="row end">
+            <EdButton variant="primary" trailingIcon={<EdIcon name="ArrowRight" size="sm" />} onClick={next}>{i + 1 < order.length ? 'Next question' : 'See results'}</EdButton>
+          </div>
         </div>
       )}
     </section>

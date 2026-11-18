@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { FollowUp, Objection } from '../content';
 import { progress, type Confidence } from '../lib/progress';
+import { EdButton, EdIcon, EdProgressSegmented } from 'editorial-ui';
 import RefText from './RefText';
 import { buzz } from '../lib/haptics';
 import RefList from './RefList';
@@ -65,10 +66,9 @@ export default function SparringDrill({ objection, context, onRated }: Props) {
     <article className="card spar">
       <div className="spar-head">
         <div className="eyebrow">{context ? `${context} · Sparring` : 'Sparring'}</div>
-        <div className="spar-rounds" role="img" aria-label={`Round ${step + 1} of ${path.length}`}>
-          {path.map((_, i) => <i key={i} className={i <= step ? 'on' : undefined} />)}
-        </div>
+        <span className="mono muted">Round {step + 1} of {path.length}</span>
       </div>
+      <EdProgressSegmented segments={path.length} filled={step + 1} tone="brand" ariaLabel="Rounds" valueText={`Round ${step + 1} of ${path.length}`} />
 
       {path.slice(0, step + 1).map((t, i) => {
         const done = i < step || answered;
@@ -106,15 +106,17 @@ export default function SparringDrill({ objection, context, onRated }: Props) {
             }}
           />
           <div className="row end">
-            <button className="btn" onClick={() => reply('')}>Show me a strong answer</button>
-            <button className="btn primary" disabled={!draft.trim()} onClick={() => reply(draft.trim())}>Reply</button>
+            <EdButton variant="ghost" onClick={() => reply('')}>Show me a strong answer</EdButton>
+            <EdButton variant="primary" disabled={!draft.trim()} onClick={() => reply(draft.trim())}>Reply</EdButton>
           </div>
         </div>
       )}
 
       {answered && !last && (
         <div className="row end">
-          <button className="btn primary" onClick={() => { setStep(step + 1); setAnswered(false); }}>They respond →</button>
+          <EdButton variant="primary" trailingIcon={<EdIcon name="ArrowRight" size="sm" />} onClick={() => { setStep(step + 1); setAnswered(false); }}>
+            They respond
+          </EdButton>
         </div>
       )}
 
@@ -125,7 +127,7 @@ export default function SparringDrill({ objection, context, onRated }: Props) {
             <KeyPointCheck points={objection.keyPoints} checked={covered} onChange={setCovered} />
           ) : (
             <>
-              <h4>Key points</h4>
+              <span className="eyebrow">Key points</span>
               <ul>{objection.keyPoints.map((k) => <li key={k}><RefText text={k} /></li>)}</ul>
             </>
           )}

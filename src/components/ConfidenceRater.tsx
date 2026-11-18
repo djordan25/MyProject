@@ -1,8 +1,7 @@
 import { buzz } from '../lib/haptics';
 import { CONFIDENCE, daysUntilReview, useProgress, type Confidence } from '../lib/progress';
 
-const when = (days: number) =>
-  days === 0 ? 'Again today' : days === 1 ? 'Review tomorrow' : days >= 28 ? 'Review in a month' : `Review in ${days} days`;
+const when = (days: number) => (days === 0 ? 'review today' : days >= 28 ? 'review 30d' : `review ${days}d`);
 
 interface Props {
   objectionId: string;
@@ -11,25 +10,26 @@ interface Props {
   suggested?: Confidence;
 }
 
-/** Four-step self-rating; each button shows when the objection will come back. */
+/** Four joined steps; each shows its colour bar, its word, and when the objection will come back. */
 export default function ConfidenceRater({ objectionId, onRate, suggested }: Props) {
   const p = useProgress();
   const current = p.confidence[objectionId];
   return (
     <div className="conf-wrap">
-      <p className="muted conf-prompt">How ready are you to answer this in a real conversation?</p>
+      <span className="eyebrow">How ready are you to say this out loud?</span>
       <div className="conf" role="group" aria-label="Confidence">
         {CONFIDENCE.map((l) => (
           <button
             key={l.id}
             type="button"
-            className={l.id === suggested ? 'suggested' : undefined}
+            className={`conf-${l.id}${l.id === suggested ? ' suggested' : ''}`}
             aria-pressed={current === l.id}
             onClick={() => {
               buzz(l.id === 'solid' || l.id === 'teach' ? 'success' : 'tap');
               onRate(l.id);
             }}
           >
+            <span className="conf-bar" aria-hidden />
             <strong>{l.label}</strong>
             <small>{when(daysUntilReview(p.review[objectionId], l.id))}</small>
           </button>

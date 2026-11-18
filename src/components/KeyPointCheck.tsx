@@ -1,3 +1,4 @@
+import { EdCheckbox, EdStatusBadge } from 'editorial-ui';
 import type { Confidence } from '../lib/progress';
 import RefText from './RefText';
 
@@ -13,21 +14,18 @@ export default function KeyPointCheck({ points, checked, onChange }: Props) {
   const n = checked.length;
   return (
     <div className="kpc-wrap">
-      <h4>Which key points did your answer cover?</h4>
-      <ul className="kpc">
+      <span className="eyebrow">Key points · tick what your answer covered</span>
+      <div className="kpc">
         {points.map((k, i) => (
-          <li key={k}>
-            <label className={checked.includes(i) ? 'hit' : undefined}>
-              <input type="checkbox" checked={checked.includes(i)} onChange={() => toggle(i)} />
-              <span><RefText text={k} /></span>
-            </label>
-          </li>
+          <EdCheckbox key={k} checked={checked.includes(i)} onCheckedChange={() => toggle(i)} label={<RefText text={k} />} />
         ))}
-      </ul>
+      </div>
       <p className="kpc-score" aria-live="polite">
-        <strong>You covered {n} of {points.length}</strong>{' '}
+        <EdStatusBadge tone={n === points.length ? 'success' : n === 0 ? 'neutral' : 'warning'} dot>
+          {n} of {points.length} covered
+        </EdStatusBadge>
         <span className="muted">
-          {n === points.length ? 'A complete answer.' : n === 0 ? 'Read the model response, then try again next time.' : 'Close — add the missing point next time.'}
+          {n === points.length ? 'A complete answer.' : n === 0 ? 'Read the model response, then try again next time.' : 'Add the missing point next time.'}
         </span>
       </p>
     </div>

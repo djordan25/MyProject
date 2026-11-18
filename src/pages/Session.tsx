@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Drill from '../components/Drill';
 import Quiz from '../components/Quiz';
-import ProgressBar from '../components/ProgressBar';
+import { EdButton, EdProgressSegmented, EdStat, EdStatGrid } from 'editorial-ui';
+import Seal from '../components/Seal';
 import { useDrillFormat } from '../lib/drillFormat';
 import { daysPractised, progress, useProgress } from '../lib/progress';
 import { buildSession } from '../lib/session';
@@ -30,19 +31,21 @@ export default function Session() {
   if (done) {
     return (
       <section className="card done">
-        <img className="done-seal" src="./icon.svg" alt="" width={72} height={72} />
+        <Seal size={72} label="Session seal" />
         <div className="eyebrow">Session complete</div>
         <h1>You’re more ready than yesterday</h1>
         <div className="done-stats">
-          <div><b>{drills.length}</b>objection{drills.length === 1 ? '' : 's'} practised</div>
-          <div><b>{solid}</b>now solid</div>
-          <div><b>{daysPractised(p)}</b>of the last 7 days</div>
+          <EdStatGrid columns={3}>
+            <EdStat label="Practised" value={drills.length} />
+            <EdStat label="Now solid" value={solid} tone={solid ? 'success' : 'neutral'} />
+            <EdStat label="Days this week" value={`${daysPractised(p)}/7`} />
+          </EdStatGrid>
         </div>
         {quizScore !== null && <p className="muted">Quiz: {Math.round(quizScore * quiz.length)} of {quiz.length} correct.</p>}
-        <p className="done-verse">“…with gentleness and respect.” — 1 Peter 3:15</p>
+        <p className="done-verse">“…with gentleness and respect.”<span className="mono">1 Pet 3:15</span></p>
         <div className="row center">
-          <Link className="btn" to="/">Done for today</Link>
-          <Link className="btn primary" to="/practice">Keep practising</Link>
+          <EdButton asChild variant="secondary"><Link to="/">Done for today</Link></EdButton>
+          <EdButton asChild variant="primary"><Link to="/practice">Keep practising</Link></EdButton>
         </div>
       </section>
     );
@@ -55,7 +58,7 @@ export default function Session() {
         <Link to="/" className="back">← Home</Link>
         <span className="muted">Step {step + 1} of {total}</span>
       </div>
-      <ProgressBar value={step / total} label="Session progress" />
+      <EdProgressSegmented segments={total} filled={step} tone="brand" ariaLabel="Session progress" valueText={`Step ${step + 1} of ${total}`} />
       <div className="spacer" />
       {inDrills && (
         <Drill

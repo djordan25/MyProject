@@ -1,18 +1,20 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { topics, subtracksOf, topicsInTrack } from '../content';
+import { Link, useNavigate } from 'react-router-dom';
+import { EdButton, EdIcon } from 'editorial-ui';
+import { topics } from '../content';
+import { isDue, localDate, topicCompletion, useProgress } from '../lib/progress';
+import { buildSession } from '../lib/session';
 import { AUDIENCES, orderedTopics, orderedTracks, useAudience } from '../lib/profile';
 import Onboarding from '../components/Onboarding';
-import { daysPractised, isDue, topicCompletion, useProgress } from '../lib/progress';
-import { buildSession } from '../lib/session';
-import { trackCompletion, trackSeals } from '../lib/trackProgress';
-import Seal from '../components/Seal';
-import ProgressBar from '../components/ProgressBar';
+import TopicIcon from '../components/TopicIcon';
+import TrackRow from '../components/TrackRow';
 
 const MAX_SHOWN = 3;
+const DAY = 24 * 60 * 60 * 1000;
 
 export default function Home() {
   const p = useProgress();
+  const navigate = useNavigate();
   const audience = useAudience();
   const [changing, setChanging] = useState(false);
   // The topic to suggest: the first one begun but unfinished, otherwise the first not yet begun.
@@ -26,65 +28,67 @@ export default function Home() {
   const today = buildSession(p, audience);
   const reviews = today.drills.filter((d) => d.kind !== 'new').length;
   const fresh = today.drills.length - reviews;
-  const week = daysPractised(p);
   const parts = [
     reviews && `${reviews} review${reviews === 1 ? '' : 's'}`,
     fresh && `${fresh} new objection`,
     today.quiz.length && `${today.quiz.length} quiz questions`,
   ].filter(Boolean);
+  // The last seven days, oldest first, for the practice strip.
+  const now = Date.now();
+  const week = Array.from({ length: 7 }, (_, i) => {
+    const t = now - (6 - i) * DAY;
+    return { key: localDate(t), label: new Date(t).toLocaleDateString(undefined, { weekday: 'narrow' }), on: p.days.includes(localDate(t)), today: i === 6 };
+  });
+  const practised = week.filter((d) => d.on).length;
+
   return (
     <>
       <section className="hero">
         <h1>Be ready with an answer</h1>
-        <p>Learn the arguments, practise responding to real objections, and test yourself — a few minutes at a time.</p>
+        <p>Learn the arguments, practise answering real objections, and test yourself — a few minutes at a time.</p>
         {audience && !changing && (
           <p className="focus-line">
-            Preparing for: <strong>{AUDIENCES.find((a) => a.id === audience)?.focus}</strong>{' '}
+            Preparing for <strong>{AUDIENCES.find((a) => a.id === audience)?.focus}</strong> ·{' '}
             <button type="button" className="link-btn" onClick={() => setChanging(true)}>Change</button>
           </p>
         )}
       </section>
       {(!audience || changing) && <Onboarding current={audience} onDone={() => setChanging(false)} />}
-      <Link to="/today" className="card today">
-        <span className="today-body">
-          <span className="eyebrow">Today’s practice · about {today.minutes} min</span>
-          <strong>{parts.join(' · ')}</strong>
-          <small className="muted">
-            {week ? `You’ve practised on ${week} of the last 7 days.` : 'A few minutes a day keeps the answers ready.'}
-            {due > MAX_SHOWN ? ` ${due} objections are due in all.` : ''}
-          </small>
-        </span>
-        <span className="btn primary">Start</span>
-      </Link>
-      {next && (
-        <Link to={`/topic/${next.id}`} className="card due-banner">
-          <span className="continue-label">
-            <small className="muted">{started ? 'Continue' : 'Start here'}</small>
-            <strong>{next.icon} {next.title}</strong>
+
+      <Link to="/today" className="card today" aria-label={`Start today’s practice: ${parts.join(', ')}`}>
+        <div className="today-main">
+          <span className="today-body">
+            <span className="eyebrow">Today’s practice · about {today.minutes} min</span>
+            <strong>{parts.join(' · ')}</strong>
           </span>
-          <span>{started ? 'Resume →' : 'Begin →'}</span>
+          <EdButton variant="primary" size="lg" tabIndex={-1} trailingIcon={<EdIcon name="ArrowRight" size="sm" />} onClick={(e) => { e.preventDefault(); navigate('/today'); }}>
+            Start
+          </EdButton>
+        </div>
+        <div className="today-week" aria-label={`Practised on ${practised} of the last 7 days`}>
+          {week.map((d) => (
+            <span key={d.key} className={`day${d.on ? ' on' : ''}${d.today ? ' today' : ''}`}><i />{d.label}</span>
+          ))}
+          <small>{due > MAX_SHOWN ? `${due} objections due in all` : practised ? `${practised} of 7 days` : 'A few minutes a day'}</small>
+        </div>
+      </Link>
+
+      {next && (
+        <Link to={`/topic/${next.id}`} className="card card-link continue">
+          <span className="continue-label">
+            <TopicIcon glyph={next.icon} />
+            <span>
+              <span className="eyebrow">{started ? 'Continue' : 'Start here'}</span>
+              <strong>{next.title}</strong>
+            </span>
+          </span>
+          <span className="go">{started ? 'Resume →' : 'Begin →'}</span>
         </Link>
       )}
-      <div className="track-list">
-        {orderedTracks(audience).map((t) => {
-          const done = trackCompletion(p, t);
-          const subs = subtracksOf(t).length;
-          const seals = trackSeals(p, t);
-          return (
-            <Link key={t.id} to={`/track/${t.id}`} className="card track-card">
-              {seals.sealed === seals.total ? <Seal tone="track" size={44} label={`${t.title}: complete`} /> : <div className="topic-icon" aria-hidden>{t.icon}</div>}
-              <div className="track-body">
-                <h2>{t.title}</h2>
-                <p>{t.summary}</p>
-                <ProgressBar value={done} label={`${t.title} progress`} />
-                <small className="muted">
-                  {topicsInTrack(t).length} topics{subs ? ` · ${subs} sub-tracks` : ''} · {Math.round(done * 100)}% ready
-                  {seals.sealed > 0 && ` · ${seals.sealed} sealed`}
-                </small>
-              </div>
-            </Link>
-          );
-        })}
+
+      <div className="section-head"><h2>Tracks</h2></div>
+      <div className="list">
+        {orderedTracks(audience).map((t) => <TrackRow key={t.id} track={t} />)}
       </div>
     </>
   );

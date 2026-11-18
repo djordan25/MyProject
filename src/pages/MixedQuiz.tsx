@@ -1,3 +1,4 @@
+import { EdButton, EdChip, EdIcon } from 'editorial-ui';
 import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { topics, tracks, topicsInTrack } from '../content';
@@ -24,21 +25,22 @@ export default function MixedQuiz() {
       <div className="row">
         <span className="muted">Questions:</span>
         {LENGTHS.filter((n, i) => i === 0 || n <= bank.length).map((n) => (
-          <button
+          <EdChip
             key={n}
-            className={`btn ${n === length ? 'primary' : ''}`}
-            onClick={() => {
+            kind="radio"
+            selected={n === length}
+            onSelectedChange={() => {
               setLength(n);
               setRound((r) => r + 1);
             }}
           >
             {n}
-          </button>
+          </EdChip>
         ))}
       </div>
       <Quiz key={`${round}-${length}`} questions={bank} limit={length} onFinish={() => {}} />
       <div className="row">
-        <button className="btn" onClick={() => setRound((r) => r + 1)}>New set of questions</button>
+        <EdButton variant="secondary" leadingIcon={<EdIcon name="Shuffle" size="sm" />} onClick={() => setRound((r) => r + 1)}>New set of questions</EdButton>
       </div>
     </>
   );

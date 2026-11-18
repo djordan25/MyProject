@@ -7,6 +7,7 @@ A web app for learning Christian apologetics: short lessons, objection drills, a
 ## Stack
 
 - **Vite + React + TypeScript** — static site, no server, no database.
+- **EditorialUI v0.8.0** (`github:djordan25/EditorialUi#v0.8.0`) — components (`Ed*`) and design tokens (`--ed-*`). Inter Tight and JetBrains Mono are bundled with `@fontsource` so the app works offline.
 - **vite-plugin-pwa** — manifest + service worker (installable, offline).
 - **HashRouter + relative base** — deploys to any static host with zero config.
 - **localStorage** for progress.
@@ -72,6 +73,12 @@ python3 scripts/build-passages.py
 
 **Cloudflare Pages / Netlify:** build command `npm run build`, output directory `dist`.
 
+## Design: Reading Room
+
+The look is the *Reading Room* design system: EditorialUI's quiet surfaces, hairlines and Inter Tight, plus one signature colour, the rubric (vermilion), used only for the objection being answered, round labels, verse numbers and the wax seal. Everything in `src/styles.css` resolves through EditorialUI's `--ed-*` tokens or the app's own `--at-*` tokens defined at its top; never inline a colour. Topics and tracks are list rows (`TopicRow`, `TrackRow`), citations are set in mono, and topic icons are lucide line icons mapped from the content glyphs in `src/lib/icons.ts`. Light and dark both follow EditorialUI's `data-theme`; "auto" resolves the device setting in `src/lib/theme.ts`.
+
+EditorialUI's barrel imports its optional table libraries, so `@tanstack/react-table` and `@tanstack/react-virtual` are installed even though the app does not use them; they are tree-shaken out of the build.
+
 ## Icons
 
-`public/icon.svg` is the source. Regenerate PNGs with `npm i -D playwright && npm run icons`.
+`public/icon.svg` (the wax seal) is the source. Regenerate PNGs with `npm i -D playwright && npm run icons`.
