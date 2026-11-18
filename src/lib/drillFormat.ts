@@ -1,11 +1,12 @@
 import { useState } from 'react';
 
-export type DrillFormat = 'sparring' | 'cards';
+export type DrillFormat = 'sparring' | 'cards' | 'listen';
 const KEY = 'apologetics-drill-format';
 
 function load(): DrillFormat {
   try {
-    return localStorage.getItem(KEY) === 'cards' ? 'cards' : 'sparring';
+    const v = localStorage.getItem(KEY);
+    return v === 'cards' || v === 'listen' ? v : 'sparring';
   } catch {
     return 'sparring';
   }

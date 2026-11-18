@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { topics, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
+import { topics, subtracksOf, topicsInTrack } from '../content';
+import { AUDIENCES, orderedTopics, orderedTracks, useAudience } from '../lib/profile';
+import Onboarding from '../components/Onboarding';
 import { daysPractised, isDue, topicCompletion, useProgress } from '../lib/progress';
 import { buildSession } from '../lib/session';
 import { trackCompletion, trackSeals } from '../lib/trackProgress';
@@ -10,15 +13,17 @@ const MAX_SHOWN = 3;
 
 export default function Home() {
   const p = useProgress();
+  const audience = useAudience();
+  const [changing, setChanging] = useState(false);
   // The topic to suggest: the first one begun but unfinished, otherwise the first not yet begun.
-  const ordered = topLevelTracks.flatMap((t) => topicsInTrack(t));
+  const ordered = orderedTopics(audience);
   const done = (id: string) => topicCompletion(p, id, ordered.find((t) => t.id === id)!.objections.map((o) => o.id));
   const inProgress = ordered.find((t) => done(t.id) > 0 && done(t.id) < 1);
   const next = inProgress ?? ordered.find((t) => done(t.id) === 0);
   const started = Boolean(inProgress);
   // Objections already practised at least once whose review date has arrived.
   const due = topics.flatMap((t) => t.objections).filter((o) => p.drills[o.id] && isDue(p, o.id)).length;
-  const today = buildSession(p);
+  const today = buildSession(p, audience);
   const reviews = today.drills.filter((d) => d.kind !== 'new').length;
   const fresh = today.drills.length - reviews;
   const week = daysPractised(p);
@@ -32,7 +37,14 @@ export default function Home() {
       <section className="hero">
         <h1>Be ready with an answer</h1>
         <p>Learn the arguments, practise responding to real objections, and test yourself — a few minutes at a time.</p>
+        {audience && !changing && (
+          <p className="focus-line">
+            Preparing for: <strong>{AUDIENCES.find((a) => a.id === audience)?.focus}</strong>{' '}
+            <button type="button" className="link-btn" onClick={() => setChanging(true)}>Change</button>
+          </p>
+        )}
       </section>
+      {(!audience || changing) && <Onboarding current={audience} onDone={() => setChanging(false)} />}
       <Link to="/today" className="card today">
         <span className="today-body">
           <span className="eyebrow">Today’s practice · about {today.minutes} min</span>
@@ -54,7 +66,7 @@ export default function Home() {
         </Link>
       )}
       <div className="track-list">
-        {topLevelTracks.map((t) => {
+        {orderedTracks(audience).map((t) => {
           const done = trackCompletion(p, t);
           const subs = subtracksOf(t).length;
           const seals = trackSeals(p, t);
