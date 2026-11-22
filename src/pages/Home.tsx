@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { EdButton, EdIcon } from 'editorial-ui';
+import { Link } from 'react-router-dom';
+import { EdIcon } from 'editorial-ui';
 import { topics } from '../content';
 import { isDue, localDate, topicCompletion, useProgress } from '../lib/progress';
 import { buildSession } from '../lib/session';
@@ -14,7 +14,6 @@ const DAY = 24 * 60 * 60 * 1000;
 
 export default function Home() {
   const p = useProgress();
-  const navigate = useNavigate();
   const audience = useAudience();
   const [changing, setChanging] = useState(false);
   // The topic to suggest: the first one begun but unfinished, otherwise the first not yet begun.
@@ -61,9 +60,9 @@ export default function Home() {
             <span className="eyebrow">Today’s practice · about {today.minutes} min</span>
             <strong>{parts.join(' · ')}</strong>
           </span>
-          <EdButton variant="primary" size="lg" tabIndex={-1} trailingIcon={<EdIcon name="ArrowRight" size="sm" />} onClick={(e) => { e.preventDefault(); navigate('/today'); }}>
-            Start
-          </EdButton>
+          <span className="btn primary today-start" aria-hidden>
+            Start <EdIcon name="ArrowRight" size="sm" />
+          </span>
         </div>
         <div className="today-week" aria-label={`Practised on ${practised} of the last 7 days`}>
           {week.map((d) => (
