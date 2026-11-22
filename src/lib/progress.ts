@@ -27,6 +27,8 @@ export interface Progress {
   confidence: Record<string, Confidence>;
   /** Local dates (YYYY-MM-DD) on which the learner practised, most recent last. */
   days: string[];
+  /** Bible passages the learner is memorising, by reference. Ratings live in drills/confidence/review under verse:<ref>. */
+  verses: string[];
 }
 
 export interface ReviewState {
@@ -78,7 +80,7 @@ export function isDue(p: Progress, objectionId: string, now = Date.now()): boole
 }
 
 const KEY = 'apologetics-progress-v1';
-const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [] };
+const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [] };
 
 function load(): Progress {
   try {
@@ -120,6 +122,9 @@ export const progress = {
       days: withToday(state.days),
     });
   },
+  /** Adds a Bible passage to the learner's memory verses, or removes it. Its rating is kept either way. */
+  toggleVerse: (ref: string) =>
+    set({ ...state, verses: state.verses.includes(ref) ? state.verses.filter((r) => r !== ref) : [...state.verses, ref] }),
   /** Marks today as a practice day (for practice that is not a drill rating or a topic quiz). */
   recordPractice: () => set({ ...state, days: withToday(state.days) }),
   setNote: (topicId: string, text: string) => set({ ...state, notes: { ...state.notes, [topicId]: text } }),
@@ -157,6 +162,9 @@ export function objectionScore(p: Progress, objectionId: string): number {
   if (c) return LEVEL_SCORE[c];
   return p.drills[objectionId] === 'got' ? 1 : 0;
 }
+
+/** Practised, and last rated Again or Shaky. */
+export const isWeak = (p: Progress, objectionId: string): boolean => Boolean(p.drills[objectionId]) && objectionScore(p, objectionId) < 1;
 
 /** 0..1 readiness for a topic: lesson read, quiz best, and objection confidence — equally weighted. */
 export function topicCompletion(p: Progress, topicId: string, objectionIds: string[]): number {

@@ -1,6 +1,8 @@
 import { createContext, useCallback, useContext, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 import { loadPassages, type Passage } from '../lib/passages';
 import { parseRef } from '../lib/references';
+import { EdIcon } from 'editorial-ui';
+import { progress, useProgress } from '../lib/progress';
 
 interface OpenState {
   id: number;
@@ -38,6 +40,7 @@ export function PassageProvider({ children }: { children: ReactNode }) {
 function Popup({ state, onClose }: { state: OpenState; onClose: () => void }) {
   const { ref, anchor } = state;
   const parsed = parseRef(ref);
+  const saved = useProgress().verses.includes(ref);
   const [passage, setPassage] = useState<Passage | null | undefined>(undefined);
   const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -124,9 +127,17 @@ function Popup({ state, onClose }: { state: OpenState; onClose: () => void }) {
           {passage?.note && <p className="passage-note">{passage.note}</p>}
         </div>
         {parsed && (
-          <a className="passage-link" href={parsed.url} target="_blank" rel="noopener noreferrer">
-            Read in context on {SOURCE_SITE[parsed.kind]} ↗
-          </a>
+          <div className="passage-foot">
+            <a className="passage-link" href={parsed.url} target="_blank" rel="noopener noreferrer">
+              Read in context on {SOURCE_SITE[parsed.kind]} ↗
+            </a>
+            {parsed.kind === 'bible' && passage?.v && (
+              <button type="button" className="listen-btn" aria-pressed={saved} onClick={() => progress.toggleVerse(ref)}>
+                <EdIcon name={saved ? 'BookmarkCheck' : 'Bookmark'} size="sm" />
+                {saved ? 'Memorising' : 'Memorise'}
+              </button>
+            )}
+          </div>
         )}
       </div>
     </>

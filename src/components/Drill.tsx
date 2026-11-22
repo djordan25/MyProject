@@ -1,4 +1,4 @@
-import { EdChip } from 'editorial-ui';
+import RadioChips from './RadioChips';
 import type { Objection } from '../content';
 import type { DrillFormat } from '../lib/drillFormat';
 import type { Confidence } from '../lib/progress';
@@ -26,11 +26,5 @@ export function FormatToggle({ format, onChange, listen = false }: { format: Dri
     { id: 'cards', label: 'Cards' },
     ...(listen && canSpeak ? [{ id: 'listen' as const, label: 'Listen' }] : []),
   ];
-  return (
-    <div className="format-toggle" role="radiogroup" aria-label="Drill format">
-      {options.map((o) => (
-        <EdChip key={o.id} kind="radio" selected={shown === o.id} onSelectedChange={() => onChange(o.id)}>{o.label}</EdChip>
-      ))}
-    </div>
-  );
+  return <RadioChips label="Drill format" value={shown} onChange={onChange} options={options} />;
 }

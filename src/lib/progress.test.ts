@@ -21,7 +21,7 @@ describe('spaced repetition', () => {
       review: { fresh: { due: 10 * DAY, streak: 1 }, old: { due: 1 * DAY, streak: 1 } },
       notes: {},
       confidence: {},
-      days: [],
+      days: [], verses: [],
     };
     const now = 2 * DAY;
     expect(isDue(p, 'unseen', now)).toBe(true);
@@ -61,7 +61,7 @@ describe('confidence ratings', () => {
 });
 
 describe('readiness and seals', () => {
-  const base: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [] };
+  const base: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [] };
 
   it('weights objections by confidence, counting old ratings as Solid or Again', () => {
     const p: Progress = { ...base, confidence: { a: 'shaky', b: 'teach' }, drills: { a: 'review', b: 'got', c: 'got', d: 'review' } };
