@@ -13,6 +13,8 @@ import Glossary from './pages/Glossary';
 import MixedQuiz from './pages/MixedQuiz';
 import NotFound from './pages/NotFound';
 import Session from './pages/Session';
+import Verses from './pages/Verses';
+import Journal from './pages/Journal';
 import Seal from './components/Seal';
 import { PassageProvider } from './components/PassagePopup';
 
@@ -25,7 +27,11 @@ const NAV: { to: string; label: string; icon: EdIconName }[] = [
 
 /** Tracks stays active while browsing a track or topic. */
 const isActive = (to: string, path: string) =>
-  to === '/' ? path === '/' || path.startsWith('/track') || path.startsWith('/topic') : path.startsWith(to);
+  to === '/'
+    ? path === '/' || path.startsWith('/track') || path.startsWith('/topic')
+    : to === '/practice'
+      ? ['/practice', '/verses', '/quiz'].some((x) => path.startsWith(x))
+      : path.startsWith(to) || (to === '/progress' && path.startsWith('/journal'));
 
 export default function App() {
   const [theme, setTheme] = useState(loadTheme);
@@ -66,6 +72,8 @@ export default function App() {
             <Route path="/glossary" element={<Glossary />} />
             <Route path="/quiz" element={<MixedQuiz />} />
             <Route path="/today" element={<Session />} />
+            <Route path="/verses" element={<Verses />} />
+            <Route path="/journal" element={<Journal />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

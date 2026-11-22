@@ -2,6 +2,8 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { EdChip, EdEmptyState, EdIcon, EdStatusBadge, EdTextField } from 'editorial-ui';
 import { flattenFollowUps, topics } from '../content';
+import QuickAnswers from '../components/QuickAnswers';
+import RadioChips from '../components/RadioChips';
 import { glossary } from '../content/glossary';
 
 interface Entry {
@@ -53,6 +55,8 @@ function snippet(text: string, word: string): string {
 /** Finds lessons and objections containing every word typed (also matches references, e.g. "Bukhari 4987"). */
 export default function Search() {
   const [q, setQ] = useState('');
+  // 'said': in-the-moment help that shows the closest answer; 'all': a plain search of everything.
+  const [mode, setMode] = useState<'said' | 'all'>('said');
   const words = q.toLowerCase().split(/\s+/).filter((w) => w.length >= 2);
   const results = useMemo(() => {
     if (!words.length) return [];
@@ -65,6 +69,14 @@ export default function Search() {
   return (
     <>
       <h1>Search</h1>
+      <div className="search-modes">
+        <RadioChips
+          label="Search mode"
+          value={mode}
+          onChange={setMode}
+          options={[{ id: 'said', label: 'They just said…' }, { id: 'all', label: 'Everything' }]}
+        />
+      </div>
       <div className="search-field">
         <EdTextField
           label="Search"
@@ -74,10 +86,12 @@ export default function Search() {
           fullWidth
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Lessons, objections, references…"
+          placeholder={mode === 'said' ? 'Type roughly what they said…' : 'Lessons, objections, references…'}
           prefix={<EdIcon name="Search" size="sm" />}
         />
       </div>
+      {mode === 'said' ? <QuickAnswers q={q} onPick={setQ} /> : (
+        <>
       {!words.length && (
         <div className="filters" aria-label="Try searching for">
           <span className="muted">Try</span>
@@ -104,6 +118,8 @@ export default function Search() {
             </Link>
           ))}
         </div>
+      )}
+        </>
       )}
     </>
   );

@@ -1,15 +1,17 @@
 import { useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { topics, tracks, topLevelTracks, subtracksOf, topicsInTrack } from '../content';
-import { isDue, useProgress } from '../lib/progress';
+import { isDue, isWeak, useProgress } from '../lib/progress';
 import { shuffle } from '../lib/shuffle';
-import { EdButton, EdChip, EdEmptyState, EdIcon } from 'editorial-ui';
+import { EdButton, EdEmptyState, EdIcon } from 'editorial-ui';
+import RadioChips from '../components/RadioChips';
+import { verseId } from '../lib/verses';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
 import ListenDeck from '../components/ListenDeck';
 import { canSpeak } from '../lib/speech';
 
-type Mode = 'all' | 'new' | 'review';
+type Mode = 'all' | 'new' | 'review' | 'weak';
 
 /** Mixed drill: random objections across a track (or everything): all of them, only new ones, or only those due for review. */
 export default function Practice() {
@@ -20,15 +22,24 @@ export default function Practice() {
   const [seed, setSeed] = useState(0);
   const [i, setI] = useState(0);
   const [format, setFormat] = useDrillFormat();
+  const dueVerses = p.verses.filter((r) => isDue(p, verseId(r))).length;
 
+  const only = params.get('ids');
   const pool = useMemo(() => {
     const track = tracks.find((t) => t.id === trackId);
     const ts = track ? topicsInTrack(track) : topics;
-    return ts.flatMap((t) => t.objections.map((o) => ({ o, topic: t.title })));
-  }, [trackId]);
+    const all = ts.flatMap((t) => t.objections.map((o) => ({ o, topic: t.title })));
+    // ?ids=a,b,c narrows practice to those objections (used by the conversation journal).
+    const ids = only?.split(',');
+    return ids ? all.filter(({ o }) => ids.includes(o.id)) : all;
+  }, [trackId, only]);
 
   const counts = useMemo(
-    () => ({ fresh: pool.filter(({ o }) => !p.drills[o.id]).length, due: pool.filter(({ o }) => p.drills[o.id] && isDue(p, o.id)).length }),
+    () => ({
+      fresh: pool.filter(({ o }) => !p.drills[o.id]).length,
+      due: pool.filter(({ o }) => p.drills[o.id] && isDue(p, o.id)).length,
+      weak: pool.filter(({ o }) => isWeak(p, o.id)).length,
+    }),
     [pool, p],
   );
 
@@ -40,7 +51,9 @@ export default function Practice() {
           ? pool.filter(({ o }) => p.drills[o.id] && isDue(p, o.id))
           : mode === 'new'
             ? pool.filter(({ o }) => !p.drills[o.id])
-            : pool,
+            : mode === 'weak'
+              ? pool.filter(({ o }) => isWeak(p, o.id))
+              : pool,
       ),
     [pool, mode, seed],
   );
@@ -55,7 +68,13 @@ export default function Practice() {
 
   return (
     <>
-      <h1>Practice</h1>
+      <div className="page-head">
+        <h1>Practice</h1>
+        <EdButton asChild variant="secondary">
+          <Link to="/verses"><EdIcon name="Bookmark" size="sm" /> Memory verses{dueVerses ? ` · ${dueVerses} due` : ''}</Link>
+        </EdButton>
+      </div>
+      {only && <p className="deck-count">From a conversation you logged · <Link to="/practice">show all objections</Link></p>}
       <div className="filters">
         <label className="select">
           <span className="muted">Track</span>
@@ -73,11 +92,17 @@ export default function Practice() {
           </select>
         </label>
         <span className="divider" aria-hidden />
-        <span role="radiogroup" aria-label="Which objections" className="format-toggle">
-          <EdChip kind="radio" selected={mode === 'all'} count={pool.length} onSelectedChange={() => mode !== 'all' && restart('all')}>All</EdChip>
-          <EdChip kind="radio" selected={mode === 'new'} count={counts.fresh} onSelectedChange={() => mode !== 'new' && restart('new')}>New</EdChip>
-          <EdChip kind="radio" selected={mode === 'review'} count={counts.due} onSelectedChange={() => mode !== 'review' && restart('review')}>Due</EdChip>
-        </span>
+        <RadioChips
+          label="Which objections"
+          value={mode}
+          onChange={restart}
+          options={[
+            { id: 'all', label: 'All', count: pool.length },
+            { id: 'new', label: 'New', count: counts.fresh },
+            { id: 'review', label: 'Due', count: counts.due },
+            { id: 'weak', label: 'Weak spots', count: counts.weak },
+          ]}
+        />
         <span className="divider" aria-hidden />
         <FormatToggle format={format} onChange={setFormat} listen />
       </div>
@@ -86,7 +111,7 @@ export default function Practice() {
           <EdEmptyState
             icon={<EdIcon name={deck.length > 0 ? 'CircleCheck' : 'Inbox'} size="xl" />}
             tone={deck.length > 0 ? 'success' : 'neutral'}
-            title={deck.length > 0 ? 'Round complete' : mode === 'new' ? 'You have practised every objection here' : mode === 'review' ? 'Nothing is due' : 'No objections here yet'}
+            title={deck.length > 0 ? 'Round complete' : mode === 'new' ? 'You have practised every objection here' : mode === 'review' ? 'Nothing is due' : mode === 'weak' ? 'No weak spots right now' : 'No objections here yet'}
             body={deck.length > 0 || mode !== 'review' ? undefined : 'Objections come back for review based on how confident you said you were.'}
             actions={<EdButton variant="primary" onClick={() => restart(mode)}>Start again</EdButton>}
           />

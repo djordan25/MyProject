@@ -1,6 +1,7 @@
 import type { Objection, QuizQuestion, Topic } from '../content';
 import { orderedTopics, type Audience } from './profile';
 import { isDue, type Progress } from './progress';
+import { verseId } from './verses';
 import { shuffle } from './shuffle';
 
 export interface SessionDrill {
@@ -13,6 +14,8 @@ export interface Session {
   drills: SessionDrill[];
   quiz: QuizQuestion[];
   minutes: number;
+  /** A saved memory verse that is due, if any. */
+  verse: string | null;
 }
 
 const MAX_REVIEWS = 3;
@@ -47,5 +50,11 @@ export function buildSession(p: Progress, audience: Audience | null = null, now 
   const quiz = shuffle(pool).slice(0, QUIZ);
 
   const minutes = drills.reduce((m, d) => m + (d.kind === 'new' ? 2 : 1), 0) + Math.ceil(quiz.length / 2);
-  return { drills, quiz, minutes };
+  // The saved verse that has waited longest, if one is due.
+  const verse =
+    (p.verses ?? [])
+      .filter((r) => isDue(p, verseId(r), now))
+      .sort((a, b) => (p.review[verseId(a)]?.due ?? 0) - (p.review[verseId(b)]?.due ?? 0))[0] ?? null;
+
+  return { drills, quiz, verse, minutes: minutes + (verse ? 1 : 0) };
 }

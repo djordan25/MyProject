@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Drill from '../components/Drill';
 import Quiz from '../components/Quiz';
+import VerseDrill from '../components/VerseDrill';
 import { EdButton, EdProgressSegmented, EdStat, EdStatGrid } from 'editorial-ui';
 import Seal from '../components/Seal';
 import { useDrillFormat } from '../lib/drillFormat';
@@ -22,10 +23,11 @@ export default function Session() {
   const [solid, setSolid] = useState(0);
   const [quizScore, setQuizScore] = useState<number | null>(null);
 
-  const { drills, quiz } = session;
-  const total = drills.length + (quiz.length ? 1 : 0);
+  const { drills, quiz, verse } = session;
+  const total = drills.length + (verse ? 1 : 0) + (quiz.length ? 1 : 0);
   const inDrills = step < drills.length;
-  const inQuiz = step === drills.length && quiz.length > 0;
+  const inVerse = Boolean(verse) && step === drills.length;
+  const inQuiz = quiz.length > 0 && step === drills.length + (verse ? 1 : 0);
   const done = step >= total;
 
   if (done) {
@@ -72,6 +74,7 @@ export default function Session() {
           }}
         />
       )}
+      {inVerse && verse && <VerseDrill refName={verse} onRated={() => setStep(step + 1)} />}
       {inQuiz && (
         <Quiz
           questions={quiz}

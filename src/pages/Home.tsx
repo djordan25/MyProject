@@ -30,6 +30,7 @@ export default function Home() {
   const parts = [
     reviews && `${reviews} review${reviews === 1 ? '' : 's'}`,
     fresh && `${fresh} new objection`,
+    today.verse && '1 memory verse',
     today.quiz.length && `${today.quiz.length} quiz questions`,
   ].filter(Boolean);
   // The last seven days, oldest first, for the practice strip.

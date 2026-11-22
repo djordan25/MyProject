@@ -19,8 +19,8 @@ export const tracks: Track[] = [
       },
       {
         title: 'Can we trust the Bible?',
-        description: 'How the Bible came to us and why its record of Jesus is reliable.',
-        topicIds: ['reliability-of-scripture', 'how-we-got-the-bible'],
+        description: 'How the Bible came to us, why its record of Jesus is reliable, and what to do with the verses translators dispute.',
+        topicIds: ['reliability-of-scripture', 'how-we-got-the-bible', 'disputed-translations'],
       },
       {
         title: 'Who is Jesus?',
