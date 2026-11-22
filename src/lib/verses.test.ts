@@ -31,7 +31,7 @@ describe('memory verses', () => {
   });
 
   it('adds a due saved verse to the daily session, and leaves it out once it is not due', () => {
-    const p: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: ['John 14:6'] };
+    const p: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: ['John 14:6'], conversations: [] };
     expect(buildSession(p).verse).toBe('John 14:6');
     const id = verseId('John 14:6');
     const later: Progress = { ...p, drills: { [id]: 'got' }, review: { [id]: { due: Date.now() + 5 * 864e5, streak: 2 } } };

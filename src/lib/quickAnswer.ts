@@ -9,6 +9,8 @@ export interface SaidLine {
   references?: string[];
   topicId: string;
   topicTitle: string;
+  /** The objection itself, or the objection a follow-up reply belongs to. */
+  objectionId: string;
 }
 
 const STOP = new Set(
@@ -48,11 +50,11 @@ function build() {
     const inTitle = new Set(terms(t.title));
     return t.objections.flatMap((o) => [
       {
-        line: o.objection, answer: o.response, kind: 'objection' as const, keyPoints: o.keyPoints, references: o.references,
+        line: o.objection, answer: o.response, kind: 'objection' as const, keyPoints: o.keyPoints, references: o.references, objectionId: o.id,
         topicId: t.id, topicTitle: t.title, inLine: new Set(terms(o.objection)), inAnswer: new Set(terms(`${o.response} ${o.keyPoints.join(' ')}`)), inTitle,
       },
       ...flattenFollowUps(o.followUps).map((f) => ({
-        line: f.reply, answer: f.answer, kind: 'reply' as const,
+        line: f.reply, answer: f.answer, kind: 'reply' as const, objectionId: o.id,
         topicId: t.id, topicTitle: t.title, inLine: new Set(terms(f.reply)), inAnswer: new Set(terms(f.answer)), inTitle,
       })),
     ]);
@@ -92,7 +94,7 @@ export function quickAnswers(said: string, limit = 5): SaidLine[] {
     .filter((r) => r.inLine > 0)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
-    .map(({ l }) => ({ line: l.line, answer: l.answer, kind: l.kind, keyPoints: l.keyPoints, references: l.references, topicId: l.topicId, topicTitle: l.topicTitle }));
+    .map(({ l }) => ({ line: l.line, answer: l.answer, kind: l.kind, keyPoints: l.keyPoints, references: l.references, topicId: l.topicId, topicTitle: l.topicTitle, objectionId: l.objectionId }));
 }
 
 /** Example lines for the empty state. A test checks each finds an answer. */

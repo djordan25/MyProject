@@ -29,6 +29,20 @@ export interface Progress {
   days: string[];
   /** Bible passages the learner is memorising, by reference. Ratings live in drills/confidence/review under verse:<ref>. */
   verses: string[];
+  /** Real conversations the learner has logged, newest first. */
+  conversations: Conversation[];
+}
+
+export interface Conversation {
+  id: string;
+  /** Local date, YYYY-MM-DD. */
+  date: string;
+  who: string;
+  notes: string;
+  /** Something to send, ask or pray for. */
+  next: string;
+  /** Objections that came up. */
+  objectionIds: string[];
 }
 
 export interface ReviewState {
@@ -80,7 +94,7 @@ export function isDue(p: Progress, objectionId: string, now = Date.now()): boole
 }
 
 const KEY = 'apologetics-progress-v1';
-const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [] };
+const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [], conversations: [] };
 
 function load(): Progress {
   try {
@@ -122,6 +136,14 @@ export const progress = {
       days: withToday(state.days),
     });
   },
+  /** Logs a real conversation. Tagged objections already practised become due now, so practice follows real life. */
+  addConversation: (c: Omit<Conversation, 'id'>) => {
+    const now = Date.now();
+    const review = { ...state.review };
+    for (const id of c.objectionIds) if (state.drills[id]) review[id] = { due: now, streak: state.review[id]?.streak ?? 0 };
+    set({ ...state, review, conversations: [{ ...c, id: String(now) }, ...state.conversations] });
+  },
+  removeConversation: (id: string) => set({ ...state, conversations: state.conversations.filter((c) => c.id !== id) }),
   /** Adds a Bible passage to the learner's memory verses, or removes it. Its rating is kept either way. */
   toggleVerse: (ref: string) =>
     set({ ...state, verses: state.verses.includes(ref) ? state.verses.filter((r) => r !== ref) : [...state.verses, ref] }),

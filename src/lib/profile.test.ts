@@ -4,7 +4,7 @@ import { forSpeech } from './speech';
 import { buildSession } from './session';
 import type { Progress } from './progress';
 
-const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [] };
+const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [], conversations: [] };
 
 describe('audience ordering', () => {
   it('puts the Islam track first for a Muslim friend', () => {

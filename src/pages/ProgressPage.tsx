@@ -1,4 +1,5 @@
 import { topics, topLevelTracks, subtracksOf, ownTopics } from '../content';
+import { Link } from 'react-router-dom';
 import { EdButton, EdIcon, EdStat, EdStatGrid } from 'editorial-ui';
 import { daysPractised, objectionScore, progress, topicSealed, useProgress } from '../lib/progress';
 import TopicIcon from '../components/TopicIcon';
@@ -15,7 +16,12 @@ export default function ProgressPage() {
 
   return (
     <>
-      <h1>Your progress</h1>
+      <div className="page-head">
+        <h1>Your progress</h1>
+        <EdButton asChild variant="secondary">
+          <Link to="/journal"><EdIcon name="NotebookPen" size="sm" /> Conversations{p.conversations.length ? ` · ${p.conversations.length}` : ''}</Link>
+        </EdButton>
+      </div>
       <div className="stats">
         <EdStatGrid columns={4}>
           <EdStat label="Lessons read" value={`${lessons}/${topics.length}`} />

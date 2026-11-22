@@ -422,6 +422,23 @@ button.verse-open { font: inherit; text-align: left; background: none; border: 0
 .passage-foot { display: flex; align-items: center; justify-content: space-between; gap: var(--ed-space-2); border-top: 1px solid var(--ed-color-hairline); padding-right: var(--ed-space-3); }
 .passage-foot .passage-link { border-top: 0; flex: 1; }
 
+/* ---------- Conversations ---------- */
+.journal-form { display: flex; flex-direction: column; gap: var(--ed-space-4); }
+.journal-two { display: grid; grid-template-columns: 1fr 180px; gap: var(--ed-space-3); }
+@media (max-width: 520px) { .journal-two { grid-template-columns: 1fr; } }
+.journal-matches { display: flex; flex-direction: column; border: 1px solid var(--ed-color-hairline-strong); border-radius: var(--ed-radius-md); overflow: hidden; margin-top: var(--ed-space-2); }
+.journal-matches button {
+  font: inherit; text-align: left; display: flex; flex-direction: column; gap: 2px; padding: var(--ed-space-2) var(--ed-space-3); cursor: pointer;
+  background: var(--ed-color-surface-1); color: inherit; border: 0; border-bottom: 1px solid var(--ed-color-hairline);
+}
+.journal-matches button:last-child { border-bottom: 0; }
+.journal-matches button:hover { background: var(--ed-color-row-hover); }
+.journal-tags { margin-top: var(--ed-space-3); }
+.journal-head { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--ed-space-3); }
+.journal-entry h3 { margin: 0 0 var(--ed-space-3); }
+.journal-entry ul { margin: 0 0 var(--ed-space-3); padding-left: var(--ed-space-5); }
+.journal-entry p { max-width: var(--at-measure); white-space: pre-wrap; }
+
 /* ---------- Session ---------- */
 .session-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--ed-space-2); }
 .session-head .muted { font: 11px/16px var(--ed-font-mono); }

@@ -14,6 +14,7 @@ import MixedQuiz from './pages/MixedQuiz';
 import NotFound from './pages/NotFound';
 import Session from './pages/Session';
 import Verses from './pages/Verses';
+import Journal from './pages/Journal';
 import Seal from './components/Seal';
 import { PassageProvider } from './components/PassagePopup';
 
@@ -30,7 +31,7 @@ const isActive = (to: string, path: string) =>
     ? path === '/' || path.startsWith('/track') || path.startsWith('/topic')
     : to === '/practice'
       ? ['/practice', '/verses', '/quiz'].some((x) => path.startsWith(x))
-      : path.startsWith(to);
+      : path.startsWith(to) || (to === '/progress' && path.startsWith('/journal'));
 
 export default function App() {
   const [theme, setTheme] = useState(loadTheme);
@@ -72,6 +73,7 @@ export default function App() {
             <Route path="/quiz" element={<MixedQuiz />} />
             <Route path="/today" element={<Session />} />
             <Route path="/verses" element={<Verses />} />
+            <Route path="/journal" element={<Journal />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

@@ -21,7 +21,7 @@ describe('spaced repetition', () => {
       review: { fresh: { due: 10 * DAY, streak: 1 }, old: { due: 1 * DAY, streak: 1 } },
       notes: {},
       confidence: {},
-      days: [], verses: [],
+      days: [], verses: [], conversations: [],
     };
     const now = 2 * DAY;
     expect(isDue(p, 'unseen', now)).toBe(true);
@@ -61,7 +61,7 @@ describe('confidence ratings', () => {
 });
 
 describe('readiness and seals', () => {
-  const base: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [] };
+  const base: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [], conversations: [] };
 
   it('weights objections by confidence, counting old ratings as Solid or Again', () => {
     const p: Progress = { ...base, confidence: { a: 'shaky', b: 'teach' }, drills: { a: 'review', b: 'got', c: 'got', d: 'review' } };
@@ -91,6 +91,24 @@ describe('backup', () => {
     expect(JSON.parse(progress.exportJson()).notes).toEqual({ 'some-topic': 'remember Luke 1' });
     expect(progress.importJson('not json')).toBe(false);
     expect(progress.importJson('{"foo":1}')).toBe(false);
+    progress.reset();
+  });
+});
+
+describe('conversation journal', () => {
+  it('stores entries newest first and makes tagged, practised objections due again', () => {
+    progress.reset();
+    progress.rateDrill('known', 'teach');
+    const before = JSON.parse(progress.exportJson()) as Progress;
+    expect(isDue(before, 'known')).toBe(false);
+    progress.addConversation({ date: '2026-11-20', who: 'Sam', notes: 'Went well', next: '', objectionIds: ['known', 'never-practised'] });
+    const after = JSON.parse(progress.exportJson()) as Progress;
+    expect(after.conversations).toHaveLength(1);
+    expect(after.conversations[0].who).toBe('Sam');
+    expect(isDue(after, 'known')).toBe(true);
+    expect(after.review['never-practised']).toBeUndefined();
+    progress.removeConversation(after.conversations[0].id);
+    expect((JSON.parse(progress.exportJson()) as Progress).conversations).toEqual([]);
     progress.reset();
   });
 });
