@@ -40,7 +40,7 @@ export default defineConfig({
         name: 'Apologetics Trainer',
         short_name: 'Apologetics',
         description: 'Learn to give a reason for the hope that is in you (1 Peter 3:15).',
-        theme_color: '#09466f',
+        theme_color: '#f8fafd',
         background_color: '#f8fafd',
         display: 'standalone',
         start_url: './',

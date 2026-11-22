@@ -74,9 +74,9 @@ export default function Practice() {
         </label>
         <span className="divider" aria-hidden />
         <span role="radiogroup" aria-label="Which objections" className="format-toggle">
-          <EdChip kind="radio" selected={mode === 'all'} count={pool.length} onSelectedChange={() => restart('all')}>All</EdChip>
-          <EdChip kind="radio" selected={mode === 'new'} count={counts.fresh} onSelectedChange={() => restart('new')}>New</EdChip>
-          <EdChip kind="radio" selected={mode === 'review'} count={counts.due} onSelectedChange={() => restart('review')}>Due</EdChip>
+          <EdChip kind="radio" selected={mode === 'all'} count={pool.length} onSelectedChange={() => mode !== 'all' && restart('all')}>All</EdChip>
+          <EdChip kind="radio" selected={mode === 'new'} count={counts.fresh} onSelectedChange={() => mode !== 'new' && restart('new')}>New</EdChip>
+          <EdChip kind="radio" selected={mode === 'review'} count={counts.due} onSelectedChange={() => mode !== 'review' && restart('review')}>Due</EdChip>
         </span>
         <span className="divider" aria-hidden />
         <FormatToggle format={format} onChange={setFormat} listen />
@@ -86,8 +86,8 @@ export default function Practice() {
           <EdEmptyState
             icon={<EdIcon name={deck.length > 0 ? 'CircleCheck' : 'Inbox'} size="xl" />}
             tone={deck.length > 0 ? 'success' : 'neutral'}
-            title={deck.length > 0 ? 'Round complete' : mode === 'new' ? 'You have practised every objection here' : 'Nothing is due'}
-            body={deck.length > 0 ? undefined : 'Objections come back for review based on how confident you said you were.'}
+            title={deck.length > 0 ? 'Round complete' : mode === 'new' ? 'You have practised every objection here' : mode === 'review' ? 'Nothing is due' : 'No objections here yet'}
+            body={deck.length > 0 || mode !== 'review' ? undefined : 'Objections come back for review based on how confident you said you were.'}
             actions={<EdButton variant="primary" onClick={() => restart(mode)}>Start again</EdButton>}
           />
         </section>
