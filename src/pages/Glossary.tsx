@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { glossary } from '../content/glossary';
 import RefText from '../components/RefText';
+import { EdEmptyState, EdIcon, EdTextField } from 'editorial-ui';
 
 export default function Glossary() {
   const [q, setQ] = useState('');
@@ -13,7 +14,10 @@ export default function Glossary() {
     <>
       <Link to="/track/islam" className="back">← Islam Specialization</Link>
       <h1>Glossary</h1>
-      <input className="search-input" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Filter terms…" aria-label="Filter terms" />
+      <p className="muted">Islamic terms in plain English. {glossary.length} entries.</p>
+      <div className="search-field">
+        <EdTextField label="Filter terms" visuallyHidden type="search" fullWidth value={q} onChange={(e) => setQ(e.target.value)} placeholder="Filter terms…" prefix={<EdIcon name="Search" size="sm" />} />
+      </div>
       <section className="card">
         <dl className="glossary">
           {terms.map((t) => (
@@ -23,7 +27,7 @@ export default function Glossary() {
             </div>
           ))}
         </dl>
-        {terms.length === 0 && <p className="muted">No matching terms.</p>}
+        {terms.length === 0 && <EdEmptyState compact icon={<EdIcon name="SearchX" size="lg" />} title="No matching terms" />}
       </section>
     </>
   );
