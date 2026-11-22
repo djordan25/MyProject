@@ -45,6 +45,7 @@ All training content lives in `src/content/topics/*.ts`, one file per topic (see
 - **Follow-up replies:** many objections include "If they reply…" with the likely next response and how to answer it (`followUps` in the content files).
 - **Key-point self-check:** if you wrote an answer, you tick which key points it covered and get a score, which suggests a confidence rating.
 - **Confidence ratings and spaced repetition:** rate each objection Again (today), Shaky (tomorrow), Solid (1, 3, 7, 14, then 30 days as the run grows) or Could teach it (jumps to 14+ days). Each button shows when the objection will come back.
+- **They just said…:** the Search page opens in this mode. Type roughly what someone said and the closest objection or follow-up reply appears with its answer, key points and references, plus other likely matches. Matching is offline and word-based (`src/lib/quickAnswer.ts`); switch to Everything for a plain search.
 - **Search:** finds lessons, objections and references (try a hadith number).
 - **Summary tab:** each topic has a printable one-page review of its main points and objections.
 - **Glossary:** Islamic terms in plain English (`src/content/glossary.ts`).

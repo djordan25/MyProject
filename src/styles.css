@@ -440,6 +440,10 @@ button.verse-open { font: inherit; text-align: left; background: none; border: 0
 
 /* ---------- Search, glossary, summary ---------- */
 .search-field { margin-bottom: var(--ed-space-3); }
+.search-modes { margin: 0 0 var(--ed-space-3); }
+.quick-points { margin: 0 0 var(--ed-space-2); padding-left: var(--ed-space-5); }
+.quick-more { padding-top: var(--ed-space-2); padding-bottom: var(--ed-space-2); margin-top: 0; }
+.quick-more .round-label { flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; }
 .search-row { grid-template-columns: 1fr; }
 .search-kind { display: flex; align-items: center; gap: var(--ed-space-2); margin-bottom: var(--ed-space-1); }
 mark { background: var(--ed-color-brand-bg-strong); color: inherit; border-radius: 2px; padding: 0 1px; }
