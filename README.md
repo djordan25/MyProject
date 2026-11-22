@@ -79,6 +79,8 @@ The look is the *Reading Room* design system: EditorialUI's quiet surfaces, hair
 
 EditorialUI's barrel imports its optional table libraries, so `@tanstack/react-table` and `@tanstack/react-virtual` are installed even though the app does not use them; they are tree-shaken out of the build.
 
+EditorialUI's `EdIcon` looks icon names up in the whole lucide set, which would add about 800 KB. `vite.config.ts` swaps it for `src/lib/EdIconShim.tsx` (same API and styles) that resolves names from `src/lib/iconRegistry.ts`. **Add an icon to the registry before using its name**; a test checks every topic and track icon is there.
+
 ## Icons
 
 `public/icon.svg` (the wax seal) is the source. Regenerate PNGs with `npm i -D playwright && npm run icons`.
