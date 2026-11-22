@@ -21,7 +21,13 @@ function paint() {
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', resolved === 'dark' ? '#0e1216' : '#f8fafd');
 }
 
-if (typeof window !== 'undefined') window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener?.('change', () => current === 'auto' && paint());
+if (typeof window !== 'undefined' && window.matchMedia) {
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  const onChange = () => current === 'auto' && paint();
+  // Safari before 14 only has the deprecated addListener.
+  if (mq.addEventListener) mq.addEventListener('change', onChange);
+  else mq.addListener?.(onChange);
+}
 
 /** Applies the theme to the page and remembers it. 'auto' follows the device setting. */
 export function applyTheme(theme: Theme): void {

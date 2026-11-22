@@ -115,7 +115,7 @@ function Learn({ topic }: { topic: Topic }) {
         ) : (
           <EdButton variant="secondary" leadingIcon={<EdIcon name="Check" size="sm" />} onClick={() => progress.markLessonRead(topic.id)}>Mark lesson complete</EdButton>
         )}
-        <EdButton asChild variant="primary" trailingIcon={<EdIcon name="ArrowRight" size="sm" />}><Link to={`/topic/${topic.id}/objections`}>Practise objections</Link></EdButton>
+        <EdButton asChild variant="primary"><Link to={`/topic/${topic.id}/objections`}>Practise objections <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link></EdButton>
       </div>
     </>
   );
@@ -135,7 +135,7 @@ function Objections({ topic }: { topic: Topic }) {
       </div>
       {topic.objections.map((o) => <Drill key={`${format}-${o.id}`} format={format} objection={o} />)}
       <div className="row end">
-        <EdButton asChild variant="primary" trailingIcon={<EdIcon name="ArrowRight" size="sm" />}><Link to={`/topic/${topic.id}/quiz`}>Take the quiz</Link></EdButton>
+        <EdButton asChild variant="primary"><Link to={`/topic/${topic.id}/quiz`}>Take the quiz <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link></EdButton>
       </div>
     </>
   );

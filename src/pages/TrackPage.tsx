@@ -31,15 +31,15 @@ export default function TrackPage() {
         </section>
       )}
       <div className="row">
-        <EdButton asChild variant="primary" leadingIcon={<EdIcon name="MessagesSquare" size="sm" />}>
-          <Link to={`/practice?track=${track.id}`}>Practise this {parent ? 'sub-track' : 'track'}</Link>
+        <EdButton asChild variant="primary">
+          <Link to={`/practice?track=${track.id}`}><EdIcon name="MessagesSquare" size="sm" aria-hidden /> Practise this {parent ? 'sub-track' : 'track'}</Link>
         </EdButton>
-        <EdButton asChild variant="secondary" leadingIcon={<EdIcon name="ListChecks" size="sm" />}>
-          <Link to={`/quiz?track=${track.id}`}>Mixed quiz</Link>
+        <EdButton asChild variant="secondary">
+          <Link to={`/quiz?track=${track.id}`}><EdIcon name="ListChecks" size="sm" aria-hidden /> Mixed quiz</Link>
         </EdButton>
         {(track.id === 'islam' || track.parent === 'islam') && (
-          <EdButton asChild variant="ghost" leadingIcon={<EdIcon name="BookA" size="sm" />}>
-            <Link to="/glossary">Glossary</Link>
+          <EdButton asChild variant="ghost">
+            <Link to="/glossary"><EdIcon name="BookA" size="sm" aria-hidden /> Glossary</Link>
           </EdButton>
         )}
       </div>
