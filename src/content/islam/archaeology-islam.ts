@@ -53,8 +53,8 @@ export const archaeologyIslam: Topic = {
       heading: 'Arabia was not simply pagan',
       body: [
         'Muslims commonly call the time before Muhammad the “age of ignorance” and picture Arabia as given over to idols. Inscriptions tell a more mixed story.',
-        'In the south, the kingdom of Himyar in Yemen left thousands of inscriptions. From about AD 380 the inscriptions to the old gods stop. The kings had adopted a form of Judaism, and God is now called Rahmanan, “the Merciful”, the same word as the Quran’s al-Rahman. After Christians from Ethiopia conquered Himyar in the 520s, royal inscriptions open in the name of Rahmanan and his Messiah.',
-        'In the north, the three oldest dated inscriptions in the Arabic script, from 512 to 568, are all from Syria, and two of them are on Christian shrines. And in recent years short Arabic inscriptions of the fifth and sixth centuries have been found in Arabia itself, some marked with crosses, and at least one on a road north of Ta’if with a prayer to the one God.',
+        'In the south, ancient Yemen left thousands of inscriptions. In its kingdom of Himyar, from about AD 380, the inscriptions to the old gods stop. The kings had adopted a form of Judaism, or a faith of their own modelled on it, and God is soon called Rahmanan, “the Merciful”, the same word as the Quran’s al-Rahman. After Christians from Ethiopia conquered Himyar in the 520s, royal inscriptions open in the name of Rahmanan and his Messiah.',
+        'In the north, three dated inscriptions in the Arabic script, from 512 to 568, come from Syria, and two of them are on Christian shrines. And in recent years short Arabic inscriptions of the fifth and sixth centuries have been found in Arabia itself, the oldest dated to 470. Some are marked with crosses, and one on a road north of Ta’if, undated but from before Islam, says “May our Lord bless you”.',
         'The Quran’s own picture fits this better than the popular one does. Its opponents believe that Allah created the heavens and the earth (Quran 29:61), and they treat their lesser gods as intercessors with him (Quran 10:18; 39:3).',
         'This matters for a common argument: that an unlettered man in a pagan town could not have known the stories of the prophets unless God revealed them. Jews and Christians had been in Arabia for centuries. Their stories, including the legends listed in the lesson on borrowed stories, were being told all around him.',
       ],
@@ -65,7 +65,7 @@ export const archaeologyIslam: Topic = {
       body: [
         'Surah 105 asks whether the hearer has considered how God dealt with “the companions of the elephant” (Quran 105:1). Muslim tradition explains that Abraha, the Christian ruler of Yemen, marched on Mecca with an elephant to destroy the Kaaba, and that this happened in the year Muhammad was born, about 570.',
         'Abraha is a real figure. His inscriptions survive, among them a long one about repairs to the great dam at Marib. Another, at a well called Murayghan in south-west Arabia, records a campaign into central Arabia and is dated to the year that corresponds to AD 552. It does not mention Mecca, the Kaaba or an elephant. His dated inscriptions run to the end of the 550s, and historians put the end of his reign in the 560s.',
-        'So the inscriptions confirm the man and a campaign to the north. They do not confirm the attack on Mecca. And if the campaign of 552 is what lies behind the story, the tradition that Muhammad was born in the year of the elephant cannot stand as it is, since he would then have died at about eighty and not at sixty-three.',
+        'So the inscriptions confirm the man and a campaign to the north. They do not confirm the attack on Mecca. And if the campaign of 552 is what lies behind the story, the tradition that Muhammad was born in the year of the elephant cannot stand as it is, since he would then have died at about eighty and not at sixty-three. But Christian Robin, who published a second inscription from Murayghan, holds that the campaign of 552 was not the march on Mecca, and thinks a later one plausible though unrecorded.',
       ],
       references: ['Quran 105:1-5'],
     },
@@ -175,7 +175,7 @@ export const archaeologyIslam: Topic = {
       id: 'ia-5',
       objection: 'Archaeology confirms the Quran. It said that Pharaoh’s body would be preserved as a sign for later generations, and his mummy was found in the nineteenth century.',
       response:
-        'The verse says, “today We will save you in body that you may be to those who succeed you a sign” (Quran 10:92). It does not say that the body would be embalmed, lost, and found again twelve centuries after Muhammad. Classical commentators such as Ibn Kathir took it to mean that the sea cast his body up, so that the Israelites could see he was dead. The modern reading goes back to a French doctor, Maurice Bucaille, in 1976. And think about what was found. The mummies of many Egyptian kings survive, because the Egyptians embalmed their kings, and the ancient world knew that they did. Genesis records that Jacob and Joseph were embalmed in Egypt (Genesis 50:2-3; 50:26), and the Greek historian Herodotus describes the method. So a preserved Pharaoh is what anyone would have expected. The Quran does not say which Pharaoh it means, and nothing marks out any of the royal mummies as a king who drowned.',
+        'The verse says, “today We will save you in body that you may be to those who succeed you a sign” (Quran 10:92). It does not say that the body would be embalmed, lost, and found again twelve centuries after Muhammad. Classical commentators such as Ibn Kathir took it to mean that the sea cast his body up, so that the Israelites could see he was dead. The modern reading was made popular by a French doctor, Maurice Bucaille, in 1976. And think about what was found. The mummies of many Egyptian kings survive, because the Egyptians embalmed their kings, and the ancient world knew that they did. Genesis records that Jacob and Joseph were embalmed in Egypt (Genesis 50:2-3; 50:26), and the Greek historian Herodotus describes the method. So a preserved Pharaoh is what anyone would have expected. The Quran does not say which Pharaoh it means, and no study of the royal mummies has shown that any of these kings drowned.',
       keyPoints: [
         'Quran 10:92 says nothing of embalming or of a discovery centuries later.',
         'Classical commentators read it as the body being cast ashore.',
@@ -185,7 +185,7 @@ export const archaeologyIslam: Topic = {
       followUps: [
         {
           reply: 'The Quran calls the ruler in Joseph’s time “king” and the ruler in Moses’ time “Pharaoh”. Egyptologists say that the title Pharaoh was used of the king only from the New Kingdom, after Joseph. The Bible gets this wrong and the Quran gets it right.',
-          answer: 'It is a neat observation, and the fact about the title is correct. “Pharaoh” means “great house”, and it came to be used of the king himself only in the New Kingdom. But see how much weight it can bear. Genesis also calls Joseph’s ruler “the king of Egypt” (Genesis 40:1; 41:46), and when it says Pharaoh it is using the title its readers knew, as we might say that President Lincoln was born in Kentucky. The Quran, for its part, uses Pharaoh as though it were a man’s name, and only for the ruler who opposed Moses. And beside that ruler it places a minister called Haman, who belongs to Persia about a thousand years later, as the lesson on historical errors shows. That does not look like inside knowledge of the Egyptian court.',
+          answer: 'It is a neat observation, and the fact about the title is correct. “Pharaoh” means “great house”, and it came to be used of the king himself only in the New Kingdom. But see how much weight it can bear. Genesis also calls Joseph’s ruler “the king of Egypt” (Genesis 40:1; 41:46), and when it says Pharaoh it is using the title its readers knew, as we might say that President Lincoln was born in Kentucky. The Quran, for its part, uses Pharaoh as though it were a man’s name, and only for the ruler who opposed Moses. And beside that ruler it places a minister called Haman, who belongs to Persia many centuries later, as the lesson on historical errors shows. That does not look like inside knowledge of the Egyptian court.',
         },
       ],
     },
@@ -193,7 +193,7 @@ export const archaeologyIslam: Topic = {
       id: 'ia-6',
       objection: 'Arabia before Islam was sunk in idolatry and ignorance, and Muhammad could not read. Where could the Quran’s knowledge of the earlier prophets have come from, if not from God?',
       response:
-        'From the Jews and Christians of Arabia, who had been there for centuries. This is where inscriptions help. In Yemen the kings of Himyar gave up the old gods around AD 380 and adopted a form of Judaism. Their inscriptions call God Rahmanan, the Merciful, which is the Quran’s al-Rahman. In the sixth century Yemen was ruled by Christians, whose inscriptions open in the name of Rahmanan and his Messiah. The oldest dated inscriptions in the Arabic script are from Syria, two of them on Christian shrines, and more early Arabic inscriptions with crosses and prayers to one God are being found in Arabia itself. The Quran agrees with this picture. It says that Muhammad’s opponents already believed Allah made the heavens and the earth (Quran 29:61). So the stories of Abraham, Moses and Jesus did not need to come down from heaven. They were being told all around him.',
+        'From the Jews and Christians of Arabia, who had been there for centuries. This is where inscriptions help. In Yemen the kings of Himyar gave up the old gods around AD 380 and adopted a form of Judaism, or a faith modelled on it. Their inscriptions soon call God Rahmanan, the Merciful, which is the Quran’s al-Rahman. In the sixth century Yemen was ruled by Christians, whose inscriptions open in the name of Rahmanan and his Messiah. Dated inscriptions in the Arabic script from sixth-century Syria include two on Christian shrines, and still older Arabic inscriptions, some with crosses, are being found in Arabia itself. The Quran agrees with this picture. It says that Muhammad’s opponents already believed Allah made the heavens and the earth (Quran 29:61). So the stories of Abraham, Moses and Jesus did not need to come down from heaven. They were being told all around him.',
       keyPoints: [
         'Inscriptions show Jewish and Christian belief across Arabia long before Muhammad.',
         'God was called “the Merciful” in Yemen two centuries before the Quran.',
@@ -217,17 +217,17 @@ export const archaeologyIslam: Topic = {
       id: 'ia-7',
       objection: 'Abraha’s own inscriptions have been found in Arabia. They confirm the Quran’s story of the army of the elephant.',
       response:
-        'They confirm that Abraha lived, that he was a Christian king of Yemen, and that he sent armies north into Arabia. That is real support for the setting of the story. But they do not confirm the story. The inscription usually cited, at Murayghan, is dated to AD 552. It names the tribes he defeated in central Arabia and says nothing of Mecca, the Kaaba or an elephant. And the date is a difficulty for the tradition, which says that the elephant came in the year Muhammad was born, about 570. Abraha’s dated inscriptions end around 560. If the campaign of 552 is behind the story, then either Muhammad was not born in that year or he died at about eighty and not at sixty-three. The surah itself names no king, no city and no date (Quran 105:1-5). The details all come from later tradition.',
+        'They confirm that Abraha lived, that he was a Christian king of Yemen, and that he sent armies north into Arabia. That is real support for the setting of the story. But they do not confirm the story. The inscription usually cited, at Murayghan, is dated to AD 552. It names the tribes he defeated in central Arabia and says nothing of Mecca, the Kaaba or an elephant. And the date is a difficulty for the tradition, which says that the elephant came in the year Muhammad was born, about 570. Abraha’s dated inscriptions end around 560. If the campaign of 552 is behind the story, then either Muhammad was not born in that year or he died at about eighty and not at sixty-three. Christian Robin, who published a second inscription from Murayghan, thinks the march on Mecca was a separate and later campaign, plausible but unrecorded. The surah itself names no king, no city and no date (Quran 105:1-5). The details all come from later tradition.',
       keyPoints: [
         'Abraha and his northern campaign are confirmed by inscriptions.',
         'The inscription of 552 mentions neither Mecca nor an elephant.',
-        'The date does not fit the tradition that Muhammad was born in the year of the elephant.',
+        'If that campaign is the one in the story, its date does not fit the tradition about Muhammad’s birth. No inscription records a march on Mecca.',
       ],
       references: ['Quran 105:1-5'],
       followUps: [
         {
           reply: 'A king does not carve his defeats in stone. Of course the inscription is silent about Mecca.',
-          answer: 'True, and that is a fair point about royal inscriptions. So the inscription cannot disprove the attack on Mecca, and I do not say that it does. But then it cannot confirm it either. What we are left with is a real king, a real campaign in a different year, and a story of birds and stones that is first told in Muslim tradition. You are free to believe it on the Quran’s word. You cannot say that archaeology has proved it.',
+          answer: 'True, and that is a fair point about royal inscriptions. So the inscription cannot disprove the attack on Mecca, and I do not say that it does. But then it cannot confirm it either. What we are left with is a real king, a real campaign in a different year, and a story whose king, city and date come only from Muslim tradition. You are free to believe it on the Quran’s word. You cannot say that archaeology has proved it.',
         },
       ],
     },
@@ -339,7 +339,7 @@ export const archaeologyIslam: Topic = {
       id: 'ia-q8',
       question: 'What do the inscriptions of Himyar in Yemen show from about AD 380?',
       options: [
-        'The kings turned from the old gods to one God, called Rahmanan, “the Merciful”',
+        'The kings turned from the old gods to one God, soon called Rahmanan, “the Merciful”',
         'The kings became Muslims',
         'The kingdom was abandoned',
         'The kings worshipped the Roman emperor',
@@ -357,7 +357,7 @@ export const archaeologyIslam: Topic = {
         'His conversion to Islam',
       ],
       answer: 2,
-      explanation: 'It confirms the man and a northern campaign, but not the story, and the date does not fit the tradition.',
+      explanation: 'It confirms the man and a northern campaign, but not the march on Mecca, which no inscription records.',
     },
     {
       id: 'ia-q10',
