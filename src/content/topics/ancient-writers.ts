@@ -76,7 +76,7 @@ export const ancientWriters: Topic = {
       followUps: [
         {
           reply: 'Philo of Alexandria lived at exactly that time, wrote about Pilate, and never mentions Jesus.',
-          answer: 'True, and worth granting. Philo lived in Egypt and wrote philosophy and commentary on the Law of Moses. He mentions Pilate only to complain of his treatment of the Jews (Embassy to Gaius 299-305), and he does not mention John the Baptist either, whom Josephus does describe. Silence proves something only where a writer had a reason to speak. Paul, who did have a reason, is writing about Jesus by about AD 50.',
+          answer: 'True, and worth granting. Philo lived in Egypt and wrote philosophy and commentary on the Law of Moses. He mentions Pilate only to complain of his treatment of the Jews (Embassy to Gaius 299-305). Silence proves something only where a writer had a reason to speak. Paul, who did have a reason, is writing about Jesus by about AD 50.',
           followUps: [
             {
               reply: 'Paul never met Jesus and says almost nothing about his life. His Christ is a heavenly figure, not a man from Nazareth.',
