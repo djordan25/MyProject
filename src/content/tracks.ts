@@ -71,6 +71,11 @@ export const tracks: Track[] = [
         topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-manuscripts', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
       },
       {
+        title: 'Evidence outside Islam',
+        description: 'What early writers outside Islam and archaeology show about Muhammad and the first Muslims, what they cannot show, and the Muslim replies drawn from the same evidence.',
+        topicIds: ['islam-outside-writers', 'islam-archaeology'],
+      },
+      {
         title: 'Answering the arguments for Islam',
         description: 'The most common proofs offered for Islam — and why they fail.',
         topicIds: ['islam-muhammad-in-bible', 'islam-quran-challenge', 'islam-scientific-miracles'],
