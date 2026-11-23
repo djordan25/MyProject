@@ -45,7 +45,7 @@ export const ancientWriters: Topic = {
       heading: 'Where outside writers seem to disagree with the Bible',
       body: [
         'An honest account includes the places where a writer outside the Bible seems to count against it. Three come up most often, and each is taken further in the objections below.',
-        'The census. Luke says Jesus was born at the time of a census that took place “while Quirinius was governor of Syria” (Luke 2:2), and both he and Matthew place the birth in the reign of Herod the Great (Matthew 2:1; Luke 1:5), who died in 4 BC on the usual reckoning. Josephus dates a census under Quirinius to AD 6, when Judea became a Roman province (Antiquities 18.1-2). Solutions have been proposed, and none has won general agreement.',
+        'The census. Luke says Jesus was born at the time of a census that took place “while Quirinius was governor of Syria” (Luke 2:2). Matthew places the birth in the reign of Herod the Great (Matthew 2:1), who died in 4 BC on the usual reckoning, and Luke begins his own account in Herod’s time (Luke 1:5). Josephus dates a census under Quirinius to AD 6, when Judea became a Roman province (Antiquities 18.1-2 and 18.26). Solutions have been proposed, and none has won general agreement.',
         'Theudas. In Acts, Gamaliel speaks of a rebel named Theudas and says that Judas the Galilean arose “after him” (Acts 5:36-37). Josephus knows a Theudas whose revolt was about AD 45, some years after Gamaliel’s speech and long after Judas (Antiquities 20.97-98).',
         'The children of Bethlehem. Matthew says that Herod killed the boys of Bethlehem who were two years old and under (Matthew 2:16). Josephus, who records Herod’s crimes at length, does not mention it.',
       ],
@@ -154,7 +154,7 @@ export const ancientWriters: Topic = {
       id: 'aw-5',
       objection: 'Luke says Jesus was born during the census of Quirinius, which Josephus dates to AD 6. Matthew says he was born under Herod, who died in 4 BC. The Gospels fail their own history test.',
       response:
-        'This is a real difficulty and I will not pretend otherwise. Josephus does date a census under Quirinius to AD 6, and Herod had died about ten years before. Several answers have been offered. Luke’s Greek can be translated “this census took place before Quirinius was governor of Syria”. Quirinius was on campaign in the east in earlier years and may have held some authority then. And Luke plainly knows of the census of AD 6, because he mentions it in Acts as the one that provoked a revolt (Acts 5:37). None of these is proven. What I would say is that one unresolved date, in a writer who is right about so many governors, titles and places, is a reason for caution and not for throwing him out.',
+        'This is a real difficulty and I will not pretend otherwise. Josephus does date a census under Quirinius to AD 6, and Herod had died about ten years before. Several answers have been offered. Some scholars translate Luke’s Greek as “this census took place before Quirinius was governor of Syria”, though most think that strains the wording. Quirinius was on campaign in Asia Minor in earlier years, and some suggest he held authority in Syria then, though no ancient source says so. And Luke plainly knows of the census of AD 6, because he mentions it in Acts as the one that provoked a revolt (Acts 5:37). None of these is proven. What I would say is that one unresolved date, in a writer who is right about so many governors, titles and places, is a reason for caution and not for throwing him out.',
       keyPoints: [
         'Admit the difficulty: Josephus dates Quirinius’s census to AD 6.',
         'Luke knows that census and mentions it separately in Acts 5:37.',
@@ -164,11 +164,11 @@ export const ancientWriters: Topic = {
       followUps: [
         {
           reply: 'Rome never held an empire-wide census, and nobody was made to travel to an ancestral town. Luke invented it to get Jesus to Bethlehem.',
-          answer: 'Luke does not say there was one census on a single day. Augustus did begin regular registrations, province by province, and they are best attested in Egypt, where they came round every fourteen years. An edict of the governor of Egypt in AD 104 orders everyone who is away from home to return to their own district to be registered. That is a return to one’s home, not to an ancestor’s town, so it is a partial parallel and not a proof. What it shows is that travelling to be registered was a known requirement.',
+          answer: 'Luke does not say there was one census on a single day. Augustus did have the provinces registered one by one, at different times. The registrations are best attested in Egypt, where from at least AD 33 they came round every fourteen years, and an edict of the governor of Egypt in AD 104 orders everyone who is away from their own district to return home to be registered. That is a return to one’s home, not to an ancestor’s town, so it is a partial parallel and not a proof. There is a harder point, which you have not raised. Under Herod, Judea was a client kingdom and not a province, and historians of Rome doubt that a Roman census would have been taken there. I do not have a good answer to that.',
         },
         {
           reply: 'Why not admit that Luke simply got it wrong?',
-          answer: 'He may have, and Christians answer that differently. Those who hold that Scripture is without error believe there is an answer even where we do not yet have it; others conclude that Luke slipped on a date. Either way, look at what follows. Luke himself says the story begins “in the time of Herod king of Judea” (Luke 1:5), Matthew says the same independently, and Tacitus confirms the crucifixion under Pilate. The case for who Jesus is does not pass through Quirinius.',
+          answer: 'He may have, and Christians answer that differently. Those who hold that Scripture is without error believe there is an answer even where we do not yet have it; others conclude that Luke slipped on a date. Either way, look at what follows. Luke himself begins his story “in the time of Herod king of Judea” (Luke 1:5), Matthew independently places the birth under Herod, and Tacitus confirms the crucifixion under Pilate. The case for who Jesus is does not pass through Quirinius.',
         },
       ],
     },
@@ -176,7 +176,7 @@ export const ancientWriters: Topic = {
       id: 'aw-6',
       objection: 'Josephus lists Herod’s crimes in detail and never mentions a massacre of babies in Bethlehem. Matthew made it up.',
       response:
-        'Josephus is silent about it, and silence is not contradiction. Bethlehem was a village. The boys of two and under in the village and its surroundings would have numbered perhaps a dozen or two, a small crime beside the ones Josephus does record. And the act is in character. According to Josephus, Herod executed his wife Mariamne and three of his own sons, and when he was dying he ordered that the leading men of the nation be shut up and killed at his death, so that the country would mourn (Antiquities 17.174-179). A king like that would not hesitate over a village.',
+        'Josephus is silent about it, and silence is not contradiction. Bethlehem was a village. The boys of two and under in the village and its surroundings would have numbered perhaps a dozen or two, a small crime beside the ones Josephus does record. And the act is in character. According to Josephus, Herod executed his wife Mariamne and three of his own sons, and when he was dying he ordered that the leading men of the nation be shut up and killed at his death, so that the country would mourn (Antiquities 17.174-179), an order that was not carried out. A king like that would not hesitate over a village.',
       keyPoints: [
         'Silence is not contradiction.',
         'Bethlehem was small; the number of boys was perhaps a dozen or two.',
@@ -194,17 +194,17 @@ export const ancientWriters: Topic = {
       id: 'aw-7',
       objection: 'Acts has Gamaliel mention the revolt of Theudas years before it happened, and puts Judas the Galilean after him. Luke got his history from Josephus and muddled it.',
       response:
-        'There is a real problem here. In Acts, Gamaliel is speaking in the 30s and puts Theudas before Judas the Galilean, whose revolt was in AD 6 (Acts 5:36-37). The Theudas whom Josephus describes led his followers to the Jordan about AD 45. So either Luke is mistaken, or Josephus is, or there were two rebels called Theudas. The third is possible. Josephus says that after Herod’s death Judea was full of uprisings and names only a few of the leaders. But there is no direct evidence for an earlier Theudas, and I would not claim there is. As for copying: Luke’s account differs from Josephus in its details, including the number of followers, and many scholars doubt that Luke had read him.',
+        'There is a real problem here. In Acts, Gamaliel is speaking in the 30s and puts Theudas before Judas the Galilean, whose revolt was in AD 6 (Acts 5:36-37). The Theudas whom Josephus describes led his followers to the Jordan about AD 45. So either Luke is mistaken, or Josephus is, or there were two rebels called Theudas. The third is possible. Josephus says that after Herod’s death Judea was full of uprisings and names only a few of the leaders. But there is no direct evidence for an earlier Theudas, and I would not claim there is. As for copying: Josephus mentions Theudas and then the sons of Judas, in the same order as Acts, and some scholars think Luke half-remembered that passage. Others doubt that he had read Josephus, since the details differ: Acts gives about four hundred followers where Josephus speaks of a great crowd.',
       keyPoints: [
         'Admit it: the two accounts do not fit as they stand.',
         'An earlier Theudas is possible but unproven.',
-        'Luke’s details differ from Josephus’s, which tells against copying.',
+        'Scholars are divided on whether Luke knew Josephus.',
       ],
       references: ['Acts 5:36-37'],
       followUps: [
         {
           reply: 'If Luke can be wrong about Theudas, why trust him about anything?',
-          answer: 'Because one doubtful point does not cancel a record. Every ancient historian has disputed passages, Josephus and Tacitus included, and historians go on using them because they are right far more often than not. Luke names Roman officials by their correct and changing titles across half a dozen provinces, and where inscriptions have turned up they have supported him, as with Gallio at Corinth (Acts 18:12). Judge him the way you would judge any other historian of his time: by the whole.',
+          answer: 'Because one doubtful point does not cancel a record. Every ancient historian has disputed passages, Josephus and Tacitus included, and historians go on using them because they are right far more often than not. Luke names Roman officials by their correct and changing titles across several provinces, and inscriptions have confirmed several of those titles, as with Gallio at Corinth (Acts 18:12). Judge him the way you would judge any other historian of his time: by the whole.',
         },
       ],
     },
