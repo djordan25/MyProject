@@ -9,7 +9,7 @@ export const outsideWriters: Topic = {
     {
       heading: 'What outside sources can and cannot do',
       body: [
-        'The lessons on the Bible asked what writers outside the New Testament say about Jesus. The same question can be put to Islam. Muhammad died, on the traditional date, in AD 632. Within a generation, Christian and Jewish writers in Syria, Armenia, Iraq and North Africa were writing about the Arab conquests, and several of them mention him. This lesson sets out what they say and how much it is worth.',
+        'The lessons on the Bible asked what writers outside the New Testament say about Jesus. The same question can be put to Islam. Muhammad died, on the traditional date, in AD 632. Within a generation, Christian and Jewish writers in Syria, Armenia, Mesopotamia and North Africa were writing about the Arab conquests, and several of them mention him. This lesson sets out what they say and how much it is worth.',
         'Begin with what these writers cannot do. They cannot show that Muhammad never lived. They show the opposite, and you should say so. Nor can they show whether God spoke to him, which no chronicle could settle. What they can do is narrower and still useful. They let us check the traditional story of Islam’s beginnings against witnesses who wrote long before that story was set down, and they show how the first outsiders judged what they saw.',
         'Apply the same rules as before. Quote only what a source says, give its date, and say who wrote it. Most of these writers were hostile to the conquerors, and some were badly informed. Their value lies in their date.',
       ],
@@ -22,10 +22,10 @@ export const outsideWriters: Topic = {
     {
       heading: 'The earliest witnesses',
       body: [
-        'The Teaching of Jacob (in Latin, Doctrina Jacobi) is a Greek Christian tract set in Carthage in the year 634 and, on the usual dating, written within a few years of it. It quotes a letter from a Jew in Palestine named Abraham, who reports that “a prophet has appeared, coming with the Saracens”. Abraham asks an old man learned in the Scriptures what he makes of this prophet, and the old man answers: “He is false, for the prophets do not come armed with a sword.” Abraham then makes his own enquiries and hears that there is nothing to be found in the man except the shedding of blood, and that he claims to hold “the keys of paradise”. The tract does not give the prophet’s name.',
-        'The first writer to name him is a Syriac chronicler known as Thomas the Presbyter, writing about 640. He records that on Friday 4 February 634 “there was a battle between the Romans and the Arabs of Muhammad” in Palestine, twelve miles east of Gaza, and that some four thousand villagers were killed. A damaged note on the flyleaf of a Syriac Gospel book, probably written about 637, also seems to name Muhammad in connection with the fighting in Syria.',
+        'The Teaching of Jacob (in Latin, Doctrina Jacobi) is a Greek Christian tract set in Carthage in the year 634 and, on the usual dating, written within a few years of it. It quotes a letter from a Jew in Palestine named Abraham, who reports that “a prophet has appeared, coming with the Saracens”. Abraham asks an old man learned in the Scriptures what he makes of this prophet, and the old man answers: “He is false, for the prophets do not come armed with a sword.” Abraham then makes his own enquiries and hears that there is no truth to be found in the so-called prophet, only the shedding of blood, and that he claims to hold “the keys of paradise”. The tract does not give the prophet’s name.',
+        'The first writer who clearly names him is a Syriac chronicler known as Thomas the Presbyter, writing about 640. He records that on Friday 4 February 634 “there was a battle between the Romans and the Arabs of Muhammad” in Palestine, twelve miles east of Gaza, and that some four thousand villagers were killed. A damaged note on the flyleaf of a Syriac Gospel book, probably written about 637, seems to name him earlier still, in connection with the fighting in Syria.',
         'The fullest early account is in an Armenian history written in the 660s and attributed to a bishop named Sebeos. It says that a man of the sons of Ishmael “whose name was Mahmet, a merchant” appeared to the Arabs as a preacher and taught them to recognise the God of Abraham, because he was well informed in the history of Moses. He gave them laws: not to eat carrion, not to drink wine, not to speak falsely and not to commit fornication. And he told them that God had promised the land to Abraham and his descendants, so that they, as Abraham’s children, should go and take it.',
-        'Two writers from Iraq complete the early picture. A Syriac chronicle from Khuzistan, written about 660, calls Muhammad the leader of the sons of Ishmael and mentions a sanctuary in the desert that the Arabs connected with Abraham. And the monk John bar Penkaye, writing about 687, calls Muhammad the Arabs’ “guide” and says they kept to his tradition so strictly that they put to death anyone who openly broke his laws.',
+        'Two writers from further east, in Mesopotamia and Persia, complete the early picture. A Syriac chronicle from Khuzistan, written about 660, calls Muhammad the leader of the sons of Ishmael and mentions a sanctuary in the desert that the Arabs connected with Abraham. And the monk John bar Penkaye, writing about 687, calls Muhammad the Arabs’ “guide” and says they kept to his tradition so strictly that they put to death anyone who openly broke his laws.',
       ],
     },
     {
@@ -38,9 +38,9 @@ export const outsideWriters: Topic = {
     {
       heading: 'Where they differ from the Muslim account',
       body: [
-        'On some points the earliest witnesses do not match the story as Muslims tell it. The best known concerns the end of Muhammad’s life. Muslim tradition says that he died in Medina in 632, before the armies entered Palestine. The Teaching of Jacob speaks of the prophet as coming with the Saracens when they invaded in 634. The historian Stephen Shoemaker has collected eleven sources from the seventh and eighth centuries that seem to place Muhammad at the head of the Arabs when the conquest of Palestine began. Other historians answer that these writers were far from the events and were speaking loosely of the Arabs as Muhammad’s people. The question is open.',
+        'On some points the earliest witnesses do not match the story as Muslims tell it. The best known concerns the end of Muhammad’s life. Muslim tradition says that he died in Medina in 632, before the armies entered Palestine. The Teaching of Jacob speaks of the prophet as coming with the Saracens when they invaded in 634. The historian Stephen Shoemaker has collected eleven sources from the seventh and eighth centuries that seem to place Muhammad at the head of the Arabs when the conquest of Palestine began. Other historians answer that these writers were far from the events and were speaking loosely of the Arabs as Muhammad’s people, and most keep the traditional date.',
         'The message also sounds different. In Sebeos the preaching is about the land promised to Abraham, and Jewish refugees join the Arabs in claiming it. In the Teaching of Jacob the prophet is announcing the coming of the Messiah. Neither is how the later tradition sums up his message, though both have points of contact with the Quran.',
-        'Then there is what these writers do not mention. None of them reports a miracle. They do not call the conquerors Muslims: they call them Saracens, Ishmaelites, Hagarenes, or “emigrants”, a word taken from the Arabic muhajirun. And for decades none of them speaks of a Muslim holy book. The first clear references to the Quran by outside writers come from about the year 700 or later.',
+        'Then there is what these writers do not mention. None of the writers quoted above reports a miracle. They do not call the conquerors Muslims: they call them Saracens, Ishmaelites, Hagarenes, or “emigrants”, a word taken from the Arabic muhajirun. And for decades none of them speaks of a Muslim holy book. The first clear references to the Quran by outside writers come from the early eighth century.',
         'None of this overturns the Muslim account. Arguments from what a writer leaves out are weak, and these writers knew little about the religion of their new rulers. What it shows is that the traditional account was not the only one in circulation, and that the earliest witnesses do not simply repeat it.',
       ],
     },
@@ -92,7 +92,7 @@ export const outsideWriters: Topic = {
           followUps: [
             {
               reply: 'Sebeos says he appeared “as if by God’s command”. A Christian bishop saw the hand of God in it.',
-              answer: 'He did see the hand of God in it, and so did most Christians of that century. They thought God had raised up the Arabs to punish the Christian empire for its sins, as he once raised up Assyria against Israel. That is a judgement about who rules history. It is not a judgement that Muhammad’s teaching was true, and Sebeos never became a Muslim. Read the writers themselves and you will find them grieving over the conquests, not welcoming a new revelation.',
+              answer: 'He did see the hand of God in it, and so did many Christian writers of that century. They thought God had raised up the Arabs to punish the Christian empire for its sins, as he once raised up Assyria against Israel. That is a judgement about who rules history. It is not a judgement that Muhammad’s teaching was true, and Sebeos never became a Muslim. Read the writers themselves and you will find them grieving over the conquests, not welcoming a new revelation.',
             },
           ],
         },
@@ -166,7 +166,7 @@ export const outsideWriters: Topic = {
       id: 'iw-5',
       objection: 'These outside writers were enemies of Islam, far from Arabia, and they got things wrong. Why trust them over Muslims who knew the Prophet?',
       response:
-        'You are right to weigh that. They were hostile, they were far away, and one of them is a tract written to convert Jews. I don’t trust them over Muslim sources as a rule. I treat them as a historian treats any witness: an early date counts in their favour, and distance and bias count against them. Where they agree with the Muslim account, as they do on his name, his preaching of Abraham’s God and his laws, the agreement is strong evidence, because the two sides did not get it from each other. Where they differ, we cannot assume the later account is right just because it is fuller. And remember that no account written by a Muslim who knew him survives either. What we have are reports set down generations afterwards.',
+        'You are right to weigh that. They were hostile, they were far away, and one of them is a tract written to convert Jews. I don’t trust them over Muslim sources as a rule. I treat them as a historian treats any witness: an early date counts in their favour, and distance and bias count against them. Where they agree with the Muslim account, as they do on his name, his preaching of Abraham’s God and his laws, the agreement is strong evidence, because the outsiders wrote it down generations before the Muslim biographies were composed. Where they differ, we cannot assume the later account is right just because it is fuller. And remember that no account written by a Muslim who knew him survives either. What we have are reports set down generations afterwards.',
       keyPoints: [
         'Weigh every witness the same way: early date for, distance and bias against.',
         'Where hostile outsiders and Muslim tradition agree, the point is secure.',
@@ -175,7 +175,7 @@ export const outsideWriters: Topic = {
       followUps: [
         {
           reply: 'They say he was alive at the conquest of Palestine. Everyone knows he died in Medina two years earlier. That shows how little they knew.',
-          answer: 'It may. Many historians think these writers simply spoke of the Arabs as Muhammad’s people without knowing that he had died. Others, such as Stephen Shoemaker, think the earliest memory did have him leading the armies towards the Holy Land, and that the tradition placed his death earlier when it was written up. I don’t know which is right, and I would not build anything on it. My point is modest. The oldest witnesses we have do not simply repeat the later story, so the later story has to be argued for and cannot just be assumed.',
+          answer: 'It may. Most historians think these writers simply spoke of the Arabs as Muhammad’s people without knowing that he had died. Others, such as Stephen Shoemaker, think the earliest memory did have him leading the armies towards the Holy Land, and that the tradition placed his death earlier when it was written up. I don’t know which is right, and I would not build anything on it. My point is modest. The oldest witnesses we have do not simply repeat the later story, so the later story has to be argued for and cannot just be assumed.',
         },
       ],
     },
@@ -235,7 +235,7 @@ export const outsideWriters: Topic = {
     },
     {
       id: 'iw-q2',
-      question: 'Which is the earliest datable writing outside Islam to mention Muhammad by name?',
+      question: 'Which is the earliest writing outside Islam that clearly names Muhammad?',
       options: [
         'The Syriac chronicle of Thomas the Presbyter, about 640',
         'The works of John of Damascus, before about 750',
@@ -243,7 +243,7 @@ export const outsideWriters: Topic = {
         'The Babylonian Talmud',
       ],
       answer: 0,
-      explanation: 'Thomas records a battle near Gaza in 634 between the Romans and “the Arabs of Muhammad”.',
+      explanation: 'Thomas records a battle near Gaza in 634 between the Romans and “the Arabs of Muhammad”. A damaged note of about 637 may name him earlier still.',
     },
     {
       id: 'iw-q3',
@@ -279,7 +279,7 @@ export const outsideWriters: Topic = {
         'They say he wrote the Quran in Greek',
       ],
       answer: 0,
-      explanation: 'Tradition says he died in Medina in 632. Historians disagree about what the difference means, so do not build on it.',
+      explanation: 'Tradition says he died in Medina in 632, and most historians keep that date, so do not build on the difference.',
     },
     {
       id: 'iw-q6',

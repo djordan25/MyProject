@@ -17,15 +17,15 @@ export const archaeologyIslam: Topic = {
     {
       heading: 'What the earliest objects confirm',
       body: [
-        'The oldest dated document in Arabic is a papyrus from Egypt, a receipt for sheep handed over to an Arab commander, written in Greek and Arabic in AD 643. It opens “In the name of God” and is dated “year twenty-two”. The oldest dated inscription, cut on a rock in north-west Arabia by a man named Zuhayr, says that he wrote it “at the time Umar died”, in the year twenty-four, which is AD 644. Two inscriptions name the caliph Mu‘awiya and call him “commander of the believers”: one at the hot baths of Gadara in Palestine, dated 662–3, and one on a dam near Ta’if, dated 677–8.',
+        'The oldest dated document in Arabic is a papyrus from Egypt, a receipt for sheep handed over to an Arab commander, written in Greek and Arabic in AD 643. It opens “In the name of God” and is dated “year twenty-two”. The oldest securely dated inscription of the Muslim era, cut on a rock in north-west Arabia by a man named Zuhayr, says that he wrote it “at the time Umar died”, in the year twenty-four, which is AD 644. Two dated inscriptions name the caliph Mu‘awiya and call him “commander of the believers”: one at the hot baths of Gadara in Palestine, dated 662–3, and one on a dam near Ta’if, dated 677–8.',
         'These are a real confirmation of the Muslim account. Within about ten years of Muhammad’s death the Arabs were counting years from a new starting point, and it works out to AD 622, the year tradition gives for his migration to Medina. Umar and Mu‘awiya are real, and they ruled when tradition says they did. The conquests happened as the outside writers also report.',
       ],
     },
     {
       heading: 'When Muhammad’s name appears',
       body: [
-        'What the earliest objects leave out is just as interesting. For about sixty years after the migration, no dated inscription, coin or papyrus that has been published names Muhammad or uses the word Islam. They call on God and ask his forgiveness. The first coins the Arabs issued copied Roman and Persian ones, some with the cross or the Persian fire altar still on them. The inscription at Gadara is in Greek and begins with a cross.',
-        'In the 680s and 690s that changes. A silver coin struck in Persia in 685–6 carries the words “Muhammad is the messenger of God”. In 691–2 the caliph Abd al-Malik built the Dome of the Rock in Jerusalem, with a long inscription that names Muhammad several times. A few years later he replaced the old coinage with coins that carry no image at all, only religious texts.',
+        'What the earliest objects leave out is just as interesting. For about sixty years after the migration, no dated inscription, coin or papyrus that has been published names Muhammad as God’s messenger or uses the word Islam. A few earlier coins carry the bare name Muhammad, but specialists take it to be a governor’s. The inscriptions call on God and ask his forgiveness. The first coins the Arabs issued copied Roman and Persian ones, some with the cross or the Persian fire altar still on them. The inscription at Gadara is in Greek and begins with a cross.',
+        'In the 680s and 690s that changes. A silver coin struck in Persia in 685–6 carries the words “Muhammad is the messenger of God”. It was issued by a governor of Ibn al-Zubayr, a rival who claimed the caliphate. In 691–2 the caliph Abd al-Malik built the Dome of the Rock in Jerusalem, with a long inscription that names Muhammad several times. A few years later he replaced the old coinage with coins that carry no image at all, only religious texts.',
         'Historians explain the sixty years in different ways. Jeremy Johns, who set the evidence out, thinks that the early Arab state was loose and weak and had not yet developed the means of proclaiming its faith in public. Fred Donner thinks that the first community was a movement of “Believers” which only later marked itself off as a separate religion called Islam. A few writers go much further and say that Muhammad’s role was built up afterwards. The outside writers of the previous lesson, who name him by about 640, count against that last view.',
         'What can safely be said is this. The public Islam we know, with Muhammad’s name set beside God’s and the words of the Quran on monuments, comes into view about two generations after his death, in the reign of Abd al-Malik.',
       ],
@@ -33,19 +33,19 @@ export const archaeologyIslam: Topic = {
     {
       heading: 'The Dome of the Rock',
       body: [
-        'The Dome of the Rock stands on the Temple Mount in Jerusalem. Its mosaic inscription, about 240 metres long, gives the date 72 of the Muslim era, which is AD 691–2. It is the oldest dated monument of Islam, and it holds the oldest dated texts that match the Quran.',
+        'The Dome of the Rock stands on the Temple Mount in Jerusalem. Its mosaic inscription, about 240 metres long, gives the date 72 of the Muslim era, which is AD 691–2. It is the oldest dated monument of Islam, and it holds the oldest securely dated passages that also appear in the Quran.',
         'Much of the inscription is addressed to Christians. It says that the Messiah, Jesus son of Mary, was only a messenger of God. It tells the People of the Book not to say “three”. And it says that God is far above having a son (compare Quran 4:171; 19:35). In a city full of churches, Islam’s first great monument declares that Jesus is not the Son of God.',
-        'The wording is close to the Quran but not always identical. In the Quran Jesus says “peace is on me the day I was born” (Quran 19:33). The Dome has “peace be upon him the day he was born”. Some scholars see in such differences a text that was not yet fixed. Others, such as Estelle Whelan, argue that the builders were adapting a text they already knew, as a preacher does. Either way, these parts of the Quran existed by 691.',
+        'The wording is close to the Quran but not always identical. In the Quran Jesus says “peace is on me the day I was born” (Quran 19:33). The Dome has “peace be upon him the day he was born”, which is the form the Quran uses of John the Baptist (Quran 19:15), here applied to Jesus. Some scholars see in such differences a text that was not yet fixed. Others, such as Estelle Whelan, argue that the builders were adapting a text they already knew, as a preacher does. Either way, these parts of the Quran existed by 691–2.',
       ],
       references: ['Quran 4:171', 'Quran 19:33'],
     },
     {
       heading: 'Mecca before Islam',
       body: [
-        'Muslim tradition describes Mecca as an ancient sanctuary founded by Abraham and, in Muhammad’s day, a rich centre of the caravan trade. The Quran calls it the “Mother of Cities” (Quran 42:7).',
-        'In 1987 Patricia Crone examined that picture in a book called Meccan Trade and the Rise of Islam. She argued that Mecca did not lie on the natural route of the incense trade, which had in any case declined long before; that what the Meccans traded, according to the Muslim sources themselves, was mostly leather, cloth and other humble goods; and that no Greek, Latin or Syriac writer mentions Mecca or its tribe, the Quraysh, before the conquests, although such writers took a close interest in Arabia. The geographer Ptolemy, in the second century, lists a place called Macoraba, which used to be identified with Mecca. Crone doubted it, and a detailed study by Ian Morris in 2018 concluded that the identification has no good basis. A Syriac chronicle of about 660 knows of a sanctuary of Abraham in the desert but does not name the place. The earliest outside writer known to use the name Mecca is a Latin chronicle composed in Spain about 741.',
-        'Crone later drew attention to the Quran’s own descriptions. The people it argues with are farmers. They grow grain, grapes, olives and pomegranates (Quran 6:99; 6:141; 80:27-29). Of the ruins of Lot’s people it says, “you pass by them in the morning” and at night (Quran 37:137-138). Yet the Quran itself calls the valley of the sanctuary “an uncultivated valley” (Quran 14:37), and Mecca is about seven hundred miles from the Dead Sea, where tradition places Lot’s cities.',
-        'There are answers. The town of Ta’if, in the hills not far from Mecca, is fertile. The Meccans travelled to trade, and the Quran mentions their winter and summer journeys (Quran 106:1-2). Silence in foreign writers proves little about a small town. Most historians still think the Quran began in western Arabia. What the evidence does not support is the picture of Mecca as a great international market. And the claim that Abraham founded its sanctuary rests on the Quran alone.',
+        'Muslim tradition describes Mecca as an ancient sanctuary founded by Abraham and, in Muhammad’s day, a rich centre of the caravan trade. The Quran speaks of the “Mother of Cities” (Quran 42:7), which Muslims take to be Mecca.',
+        'In 1987 Patricia Crone examined that picture in a book called Meccan Trade and the Rise of Islam. She argued that Mecca did not lie on the natural route of the incense trade, which had in any case declined long before; that what the Meccans traded, according to the Muslim sources themselves, was mostly leather, cloth and other humble goods; and that no Greek, Latin or Syriac writer mentions Mecca or its tribe, the Quraysh, before the conquests, although such writers took a close interest in Arabia. Not every historian agrees with her. Glen Bowersock, for one, thinks that Mecca’s trade was larger than she allowed. The geographer Ptolemy, in the second century, lists a place called Macoraba, which has usually been identified with Mecca, and by many historians still is. Crone rejected this, and a detailed study by Ian Morris in 2018 concluded that the case for it is weak and should be given up unless it can be better defended. A Syriac chronicle of about 660 knows of a sanctuary of Abraham in the desert but does not name the place. The earliest outside writer who certainly uses the name Mecca is a Latin chronicle composed in Spain about 741, though a Syriac apocalypse that many scholars date to the 690s may name it earlier, and Jacob of Edessa, who died in 708, names the Kaaba.',
+        'Crone later drew attention to the Quran’s own descriptions. The people it argues with are farmers. They grow grain, grapes, olives and pomegranates (Quran 6:136-141; 36:33-35). Of the ruins of Lot’s people it says, “you pass by them in the morning” and at night (Quran 37:137-138). Yet the Quran itself calls the valley of the sanctuary “an uncultivated valley” (Quran 14:37), and Mecca is about seven hundred miles from the Dead Sea, where tradition places Lot’s cities.',
+        'There are answers. The town of Ta’if, in the hills not far from Mecca, is fertile. The Meccans travelled to trade, and the Quran mentions their winter and summer journeys (Quran 106:1-2). Silence in foreign writers proves little about a small town. Many historians still hold that the Quran began in western Arabia. What the evidence does not support is the picture of Mecca as a great international market. And the claim that Abraham founded its sanctuary rests on the Quran and later Muslim tradition alone.',
       ],
       references: ['Quran 42:7', 'Quran 14:37', 'Quran 37:137-138'],
     },
@@ -72,7 +72,7 @@ export const archaeologyIslam: Topic = {
     {
       heading: 'Arguments to leave alone',
       body: [
-        'A Canadian writer, Dan Gibson, has argued in books and a widely watched film that the earliest mosques point to Petra in Jordan and that Islam began there. Specialists have not accepted this. David King, a historian of Islamic astronomy, replied that the first Muslims had no means of calculating the direction of a distant city. They set their mosques by the points of sunrise and sunset, by the winds and by the cardinal directions, so the “errors” that Gibson measures by satellite are what we should expect. Do not use the Petra argument.',
+        'A Canadian writer, Dan Gibson, has argued in books and a film that the earliest mosques point to Petra in Jordan and that Islam began there. Specialists have not accepted this. David King, a historian of Islamic astronomy, replied that the first Muslims had no means of calculating the direction of a distant city. They set their mosques by the points of sunrise and sunset, by the rising of certain stars and by the cardinal directions, so the “errors” that Gibson measures by satellite are what we should expect. Do not use the Petra argument.',
         'Do not say that archaeology has disproved Islam, or that Mecca did not exist in Muhammad’s time. And do not use the sixty years of silence to argue that Muhammad was invented. The previous lesson explains why.',
       ],
     },
@@ -80,7 +80,7 @@ export const archaeologyIslam: Topic = {
       heading: 'How to use this',
       body: [
         'Archaeology cannot tell us whether Muhammad was a prophet. What it can do is correct the picture on four points.',
-        'First, the antiquity of Mecca and its link with Abraham are not facts of history. They rest on the Quran’s word, and Genesis, which is far older, places Ishmael in the wilderness of Paran, towards Egypt (Genesis 21:20-21; 25:18).',
+        'First, the antiquity of Mecca and its link with Abraham are not facts of history. They rest on the Quran’s word. Genesis, which is far older, has Ishmael grow up in the wilderness of Paran with a wife from Egypt (Genesis 21:20-21), and it never brings Abraham to Mecca.',
         'Second, Arabia was full of Jewish and Christian teaching before Muhammad. The Quran’s knowledge of the prophets needs no miracle to explain it.',
         'Third, the public form of Islam took shape over about sixty years. That does not make it false, but it does not match the claim that everything was fixed and proclaimed from the first day.',
         'Fourth, when Islam did first speak in public, on the Dome of the Rock, what it chose to say was that God has no Son. That is still the question between us. “Whoever denies the Son does not have the Father” (1 John 2:23).',
@@ -93,10 +93,10 @@ export const archaeologyIslam: Topic = {
       id: 'ia-1',
       objection: 'Mecca is the Mother of Cities, a centre of trade and pilgrimage since the time of Abraham. Even the Greek geographer Ptolemy put it on his map.',
       response:
-        'Mecca certainly existed in Muhammad’s day, and I would never say otherwise. The Quran names it (Quran 48:24), and the Quran is early. What the evidence does not support is the grander picture. Ptolemy lists a place called Macoraba, and for a long time people assumed that it was Mecca, but the most careful recent study found no good reason to think so. No Greek, Roman or Syriac writer before the conquests mentions Mecca or the Quraysh, although they wrote a good deal about Arabia. And the historian Patricia Crone showed from the Muslim sources themselves that what the Meccans traded was mostly leather and cloth, not the spices of legend. As for Abraham, the claim that he built the sanctuary is not found anywhere before the Quran, some two and a half thousand years after his time. Genesis, which is far older, says that Ishmael grew up in the wilderness of Paran, towards Egypt (Genesis 21:20-21).',
+        'Mecca certainly existed in Muhammad’s day, and I would never say otherwise. The Quran names it (Quran 48:24), and the Quran is early. What the evidence does not support is the grander picture. Ptolemy lists a place called Macoraba, which many people take to be Mecca, but the most careful recent study found the case for that weak. No Greek, Roman or Syriac writer before the conquests clearly mentions Mecca or the Quraysh, although they wrote a good deal about Arabia. And the historian Patricia Crone showed from the Muslim sources themselves that what the Meccans traded was mostly leather and cloth, not the spices of legend. As for Abraham, the claim that he built the sanctuary is not found anywhere before the Quran, some two and a half thousand years after his time. Genesis, which is far older, says that Ishmael grew up in the wilderness of Paran and took a wife from Egypt (Genesis 21:20-21).',
       keyPoints: [
         'Grant that Mecca existed. The question is its antiquity and importance.',
-        'No outside writer before the conquests mentions Mecca or the Quraysh, and Ptolemy’s Macoraba is probably not Mecca.',
+        'No outside writer before the conquests clearly mentions Mecca or the Quraysh, and Ptolemy’s Macoraba has not been shown to be Mecca.',
         'The link between Abraham and Mecca first appears in the Quran.',
       ],
       references: ['Quran 48:24', 'Genesis 21:20-21'],
@@ -117,7 +117,7 @@ export const archaeologyIslam: Topic = {
       id: 'ia-2',
       objection: 'I watched a film that proves the first mosques all face Petra, not Mecca. So Islam really began in Petra.',
       response:
-        'I would leave that one alone. The film is by Dan Gibson, who is not a trained archaeologist, and the scholars who study early mosques have not accepted his case. David King, who has spent a career on how Muslims found the direction of prayer, points out that nobody in the seventh century could calculate the bearing of a city hundreds of miles away. The first mosques were lined up by sunrise and sunset and the cardinal directions. When you measure them against a modern map they miss Mecca, sometimes by a wide margin, and they miss Petra too. A Muslim who has read King’s reply will know that the argument has been answered, and you will have lost his trust for the points that are sound.',
+        'I would leave that one alone. The film is by Dan Gibson, who is not a trained archaeologist, and the scholars who study early mosques have not accepted his case. David King, who has spent a career on how Muslims found the direction of prayer, points out that nobody in the seventh century could calculate the bearing of a city hundreds of miles away. The first mosques were lined up by sunrise and sunset and the cardinal directions. When you measure them against a modern map they miss Mecca, sometimes by a wide margin. Where they seem to point at Petra, King’s answer is that this is chance, because they were lined up on the sun, on the cardinal directions or on older foundations. A Muslim who has read King’s reply will know that the argument has been answered, and you will have lost his trust for the points that are sound.',
       keyPoints: [
         'The Petra theory has not been accepted by specialists.',
         'Early mosques were aligned by sun and compass points, not by calculation.',
@@ -134,20 +134,20 @@ export const archaeologyIslam: Topic = {
       id: 'ia-3',
       objection: 'There are Muslim inscriptions from the very first years. One is dated to the year 24 and records the death of Umar. Archaeology confirms our history.',
       response:
-        'It confirms a good deal of it, and I grant that gladly. The inscription of Zuhayr is dated to the year 24, which is AD 644, and mentions Umar’s death. An Egyptian papyrus is dated to the year 22. So the new calendar was in use within about ten years of Muhammad’s death, and the caliphs are real. But look at what the earliest inscriptions say and what they do not. For about sixty years none of the dated ones names Muhammad or uses the word Islam. They call on God and ask his forgiveness. Muhammad’s name first appears on a coin in 685–6 and then on the Dome of the Rock in 691–2. I do not conclude that he was invented, since outside writers name him by about 640. I conclude something smaller. The public form of Islam that we know took shape under the caliph Abd al-Malik, two generations after Muhammad.',
+        'It confirms a good deal of it, and I grant that gladly. The inscription of Zuhayr is dated to the year 24, which is AD 644, and mentions Umar’s death. An Egyptian papyrus is dated to the year 22. So the new calendar was in use within about ten years of Muhammad’s death, and the caliphs are real. But look at what the earliest inscriptions say and what they do not. For about sixty years none of the dated ones names Muhammad as God’s messenger or uses the word Islam. They call on God and ask his forgiveness. He is first named as God’s messenger on a coin of 685–6, struck for a rival of the caliph, and then on the Dome of the Rock in 691–2. I do not conclude that he was invented, since outside writers name him by about 640. I conclude something smaller. The public form of Islam that we know took shape under the caliph Abd al-Malik, two generations after Muhammad.',
       keyPoints: [
         'Grant it: the calendar, the early caliphs and the conquests are confirmed.',
-        'No dated object names Muhammad or Islam for about sixty years.',
+        'No dated object names Muhammad as God’s messenger, or uses the word Islam, for about sixty years.',
         'Do not claim he was invented. Claim only that public Islam took shape over time.',
       ],
       followUps: [
         {
           reply: 'That is an argument from silence. Very little survives from those years at all.',
-          answer: 'It is, and that is why I put it no higher. Jeremy Johns, who set this evidence out, explains the silence by the weakness of the early state and not by any absence of the faith. I think that is reasonable. But it does leave you unable to show from archaeology what the first generation believed about Muhammad. For that you depend on the Quran and on reports written down much later, which is where the previous lesson began.',
+          answer: 'It is, and that is why I put it no higher. Jeremy Johns, who set this evidence out, explains the silence by the weakness of the early state and not by any absence of the faith. I think that is reasonable. But it does mean that archaeology shows us very little of what the first generation believed about Muhammad. For that you depend mainly on the Quran and on reports written down much later, which is where the previous lesson began.',
           followUps: [
             {
               reply: 'Abd al-Malik invented nothing. He only proclaimed what Muslims had always believed.',
-              answer: 'That may well be so, and the inscriptions cannot tell us either way. I am not claiming that he invented Islam. I am saying that the evidence in stone and metal starts with him, and that for the sixty years before him we have to rely on later memory. When someone tells you that every detail of the faith has been known and unchanged since the first day, it is fair to ask how he knows.',
+              answer: 'That may well be so, and the inscriptions cannot tell us either way. I am not claiming that he invented Islam. I am saying that the evidence in stone and metal for Muhammad’s place in the faith starts in his time, first on his rivals’ coins, and that for the sixty years before it we have to rely mostly on later memory. When someone tells you that every detail of the faith has been known and unchanged since the first day, it is fair to ask how he knows.',
             },
           ],
         },
@@ -157,7 +157,7 @@ export const archaeologyIslam: Topic = {
       id: 'ia-4',
       objection: 'The Dome of the Rock carries verses of the Quran from the year 72. That proves the Quran was complete and unchanged from the beginning.',
       response:
-        'It proves something real, but less than that. The inscription is dated 691–2 and contains passages that match the Quran closely, so those passages existed by then. Together with the early manuscripts, it rules out a late date for the Quran. But the inscription is not a copy of the Quran. It joins passages from different surahs, and in places the wording differs. Where the Quran has Jesus say “peace is on me the day I was born” (Quran 19:33), the Dome has “peace be upon him the day he was born”. Scholars differ on whether that is free adaptation or a text not yet fixed. It cannot show that the whole Quran was complete, and still less that nothing had ever changed. And notice what the builders chose to write. Much of it is about Jesus: that he was only a messenger, that God has no son, that Christians must not say “three”. Islam’s first monument is an argument with the gospel.',
+        'It proves something real, but less than that. The inscription is dated 691–2 and contains passages that match the Quran closely, so those passages existed by then. Together with the early manuscripts, it rules out a late date for the Quran. But the inscription is not a copy of the Quran. It joins passages from different surahs, and in places the wording differs. Where the Quran has Jesus say “peace is on me the day I was born” (Quran 19:33), the Dome has “peace be upon him the day he was born”, the form the Quran uses of John the Baptist (Quran 19:15). Scholars differ on whether that is free adaptation or a text not yet fixed. It cannot show that the whole Quran was complete, and still less that nothing had ever changed. And notice what the builders chose to write. Much of it is about Jesus: that he was only a messenger, that God has no son, that Christians must not say “three”. Islam’s first monument is an argument with the gospel.',
       keyPoints: [
         'The Dome shows that parts of the Quran existed by 691–2.',
         'Its wording is close to the Quran but not identical.',
@@ -235,10 +235,10 @@ export const archaeologyIslam: Topic = {
       id: 'ia-8',
       objection: 'You admit that archaeology has not confirmed Abraham or the exodus. So you cannot complain that there is no evidence for Abraham in Mecca.',
       response:
-        'That is a fair hit, and I accept the principle. Abraham lived in tents and left nothing to dig up, in Canaan or anywhere else. I do not reject the story of the Kaaba because nobody has found his footprints. My reason is different. The written record of Abraham in Genesis is older than the Quran by well over a thousand years. It follows his movements in detail and places him in Canaan, the Negev and Egypt, and it says that Ishmael’s descendants settled “from Havilah to Shur, which is near the border of Egypt” (Genesis 25:18). The claim that Abraham built a house of God at Mecca appears for the first time in the Quran. When a much later source contradicts a much earlier one about where a man lived, a historian goes with the earlier unless he has a reason not to. That is a judgement about texts, not about ruins.',
+        'That is a fair hit, and I accept the principle. Abraham lived in tents and left nothing to dig up, in Canaan or anywhere else. I do not reject the story of the Kaaba because nobody has found his footprints. My reason is different. The written record of Abraham in Genesis is older than the Quran by a thousand years or more. It follows his movements in detail, through Canaan, the Negev and Egypt. It says that Ishmael grew up in the wilderness of Paran and took a wife from Egypt (Genesis 21:20-21), and it spreads his descendants widely, from the border of Egypt towards Assyria (Genesis 25:18). Nowhere does it bring Abraham to Mecca. The claim that Abraham built a house of God at Mecca appears for the first time in the Quran. When a much later source contradicts a much earlier one about where a man lived, a historian goes with the earlier unless he has a reason not to. That is a judgement about texts, not about ruins.',
       keyPoints: [
         'Accept the principle: tent-dwellers leave nothing to excavate.',
-        'The argument is from texts: Genesis is far older and puts Abraham and Ishmael elsewhere.',
+        'The argument is from texts: Genesis is far older and never brings Abraham to Mecca.',
         'Abraham at Mecca is first heard of in the Quran.',
       ],
       references: ['Genesis 25:18', 'Quran 2:125-127'],
@@ -273,11 +273,11 @@ export const archaeologyIslam: Topic = {
         'The conquest of Spain',
       ],
       answer: 2,
-      explanation: 'It is the oldest dated Arabic inscription of the Muslim era, from AD 644, and it confirms a caliph of the tradition.',
+      explanation: 'It is the oldest securely dated Arabic inscription of the Muslim era, from AD 644, and it confirms a caliph of the tradition.',
     },
     {
       id: 'ia-q3',
-      question: 'When does Muhammad’s name first appear on a dated coin or inscription?',
+      question: 'When is Muhammad first named as God’s messenger on a dated coin or inscription?',
       options: [
         'In 622, the year of the migration',
         'In 632, the year of his death',
@@ -289,7 +289,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       id: 'ia-q4',
-      question: 'How should you use the sixty years in which no dated object names Muhammad?',
+      question: 'How should you use the sixty years in which no dated object names Muhammad as God’s messenger?',
       options: [
         'To show that the public form of Islam took shape over time, and no more',
         'To prove that Muhammad was invented',
@@ -387,13 +387,13 @@ export const archaeologyIslam: Topic = {
       id: 'ia-q12',
       question: 'A Muslim says, “You have no archaeology for Abraham either.” What is the best reply?',
       options: [
-        'Agree, and explain that the argument rests on texts: Genesis is far older and places Abraham and Ishmael elsewhere',
+        'Agree, and explain that the argument rests on texts: Genesis is far older and never brings Abraham to Mecca',
         'Claim that Abraham’s house has been excavated in Canaan',
         'Say that archaeology does not matter',
         'Deny that Abraham lived in tents',
       ],
       answer: 0,
-      explanation: 'Ishmael’s descendants settled “from Havilah to Shur, which is near the border of Egypt” (Genesis 25:18). Abraham at Mecca is first heard of in the Quran.',
+      explanation: 'Genesis follows Abraham through Canaan, the Negev and Egypt, and has Ishmael grow up in the wilderness of Paran (Genesis 21:20-21). Abraham at Mecca is first heard of in the Quran.',
     },
   ],
   furtherReading: [
