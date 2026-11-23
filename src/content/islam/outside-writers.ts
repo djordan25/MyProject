@@ -47,10 +47,10 @@ export const outsideWriters: Topic = {
     {
       heading: 'How late the Muslim account is',
       body: [
-        'The Quran is early, as the lesson on its manuscripts explained. But it says very little about Muhammad’s life. It names him only four times (Quran 3:144; 33:40; 47:2; 48:29), and it gives almost no names, dates or places for the events it alludes to. On its own it could not tell us where he was born, whom he married or how he died.',
+        'The Quran is early, as the lesson on its manuscripts explained. But it says very little about Muhammad’s life. It uses the name Muhammad only four times (Quran 3:144; 33:40; 47:2; 48:29), and it gives almost no names, dates or places for the events it alludes to. On its own it could not tell us where he was born, whom he married or how he died.',
         'Those things come from the biography (sira) and the hadith. The earliest biography that survives is by Ibn Ishaq, who died in 767 and wrote for the Abbasid court in Iraq. His own book is lost. We have it in the edition of Ibn Hisham, who died about 833 and who says in his preface that he left out, among other things, matters that are disgraceful to discuss and reports that would distress certain people. The great hadith collections were made later still, in the ninth century.',
-        'The tradition is not empty before that. The document called the Constitution of Medina, an agreement between Muhammad and the clans of Medina, is accepted as genuine by nearly all historians. And some scholars argue that a body of reports can be traced to Urwa ibn al-Zubayr, a nephew of Muhammad’s wife Aisha, who died about 712. Others doubt that it can be traced so far. But for the great mass of detail, the gap between the events and the books is four to seven generations.',
-        'Patricia Crone, who was among the most sceptical historians of early Islam, summed it up in 2008. That a prophet was active among the Arabs in the early seventh century is as certain as such things can be, she wrote, and the Quran can reasonably be taken as his preaching. Almost everything else about his life is uncertain. Compare the New Testament. Paul’s letters were written within about thirty years of the crucifixion by a man who knew Jesus’ brother and his leading disciples (Galatians 1:18-19), and the Gospels within the lifetime of people who had seen Jesus.',
+        'The tradition is not empty before that. The document called the Constitution of Medina, an agreement between Muhammad and the clans of Medina, is accepted as genuine by nearly all historians. And some scholars argue that a body of reports can be traced to Urwa ibn al-Zubayr, a nephew of Muhammad’s wife Aisha, who died about 712. Others doubt that it can be traced so far. But for the great mass of detail, the books we have begin four or five generations after his death.',
+        'Patricia Crone, who was among the most sceptical historians of early Islam, summed it up in 2008. The evidence that a prophet was active among the Arabs in the early seventh century is “exceptionally good”, she wrote, and we can be “reasonably sure” that the Quran is a collection of his utterances. Everything else about him is “more uncertain”, though she added that a fair amount can still be said with reasonable assurance. Crone herself thought that we probably know more about Muhammad than about Jesus. The comparison drawn here is a narrower one, and it is not hers: how soon each life was written down. Paul’s letters were written within about thirty years of the crucifixion by a man who knew Jesus’ brother and his leading disciples (Galatians 1:18-19), and the Gospels within about forty to seventy years, when some who had seen Jesus could still have been alive.',
       ],
       references: ['Quran 3:144', 'Galatians 1:18-19'],
     },
@@ -58,7 +58,7 @@ export const outsideWriters: Topic = {
       heading: 'The theory that Muhammad never lived',
       body: [
         'Since the 1970s a line of Western scholars has challenged the traditional story much more radically. John Wansbrough argued that the Quran took its final form about two centuries after Muhammad. Patricia Crone and Michael Cook, in a book called Hagarism (1977), tried to write the history of Islam’s origins from the outside sources alone. Later writers went further and proposed that Muhammad was not a historical person at all. You will meet that claim in popular books and videos.',
-        'Do not use it. Outside writers name Muhammad within a decade of his death. Leaves of the Quran have been dated by radiocarbon to the seventh century, which rules out a text composed two hundred years later. The tradition preserves material no later Muslim would have invented, such as the story of the “Satanic verses”. And the authors of Hagarism both drew back from its reconstruction. Among historians of every faith and none, the view that Muhammad never lived is held by very few.',
+        'Do not use it. Outside writers name Muhammad within a decade of his death. Leaves of the Quran have been dated by radiocarbon to the seventh century, which rules out a text that only reached its final form two hundred years later. The Constitution of Medina, which nearly all historians accept as genuine, names him. And the authors of Hagarism both later gave up parts of its reconstruction. Among historians of every faith and none, the view that Muhammad never lived is held by very few.',
         'A Christian who argues that Muhammad never existed is making the same mistake as the sceptic who argues that Jesus never existed, and he deserves the same answer.',
       ],
     },
@@ -68,7 +68,7 @@ export const outsideWriters: Topic = {
         'The question between Christians and Muslims is not whether Muhammad lived. It is whether his message came from God. On that question the outside writers help in three ways.',
         'First, they show how thin the early record of his life is. Muslims are told to take Muhammad as their pattern (Quran 33:21), and the pattern is drawn almost entirely from books written generations after him. Confident statements about his character and his miracles rest on that late testimony.',
         'Second, they show that from the beginning people tested him as a prophet, and that what they noticed first was the sword. The old man’s rule in the Teaching of Jacob is too simple as it stands, as an objection below explains. But the contrast with Jesus is real. Jesus said, “My kingdom is not of this world; if it were, My servants would fight” (John 18:36).',
-        'Third, they remind us that the Quran can be checked against history. It says of Jesus that “they did not kill him, nor did they crucify him” (Quran 4:157). That was first recited in Arabia six centuries after the event. The crucifixion is reported by Paul within about twenty-five years, by all four Gospels, and by the Roman historian Tacitus, and no writer of the first century, friend or enemy, says that Jesus escaped it.',
+        'Third, they remind us that the Quran can be checked against history. It says of Jesus that “they did not kill him, nor did they crucify him” (Quran 4:157). That was first recited in Arabia six centuries after the event. The crucifixion is reported by Paul within about twenty-five years and by all four Gospels, the Roman historian Tacitus records his execution under Pilate, and no surviving writer of the first century, friend or enemy, says that Jesus escaped it.',
         'Scripture tells us to test every claim to speak for God: “do not believe every spirit, but test the spirits to see whether they are from God” (1 John 4:1). Do it without contempt. Many Muslims have never heard of these writers, and nobody enjoys learning that the story they love is less certain than they were taught.',
       ],
       references: ['Quran 33:21', 'John 18:36', 'Quran 4:157', '1 John 4:1', 'Galatians 1:8'],
@@ -79,7 +79,7 @@ export const outsideWriters: Topic = {
       id: 'iw-1',
       objection: 'Christian and Jewish writers of his own century mention Muhammad. Even your own sources confirm him.',
       response:
-        'They do, and I’m glad to grant it. A Syriac chronicle written about 640 speaks of “the Arabs of Muhammad”, and an Armenian history from the 660s knows him as a merchant who preached the God of Abraham and gave his people laws. He lived, he led the movement that conquered the Near East, and his followers took him for a prophet. Anyone who tells you otherwise is not reading the evidence. But notice what kind of fact that is. Tacitus confirms that Jesus was crucified under Pilate, and I would never say that Tacitus proves the resurrection. In the same way these writers confirm that Muhammad lived and preached. They cannot tell us whether God sent him. For that we have to look at what he taught and set it beside what God had already said.',
+        'They do, and I’m glad to grant it. A Syriac chronicle written about 640 speaks of “the Arabs of Muhammad”, and an Armenian history from the 660s knows him as a merchant who preached the God of Abraham and gave his people laws. He lived, he led the movement that conquered the Near East, and his followers took him for a prophet. Anyone who tells you otherwise is not reading the evidence. But notice what kind of fact that is. Tacitus confirms that Jesus was executed under Pilate, and I would never say that Tacitus proves the resurrection. In the same way these writers confirm that Muhammad lived and preached. They cannot tell us whether God sent him. For that we have to look at what he taught and set it beside what God had already said.',
       keyPoints: [
         'Grant it: outside writers name Muhammad within about ten years of his death.',
         'An outside witness can confirm events. It cannot confirm that a message is from God.',
@@ -120,7 +120,7 @@ export const outsideWriters: Topic = {
       id: 'iw-3',
       objection: 'I have read that Muhammad never existed and that the Arabs invented him later. Why not simply say that?',
       response:
-        'Because the evidence is against it, and a Muslim who knows the sources will rightly stop listening to you. A Syriac chronicler names Muhammad about 640, within ten years of his death, and an Armenian historian describes his preaching in the 660s. Those writers were Christians with no reason to invent a prophet for the Arabs. Parts of the Quran survive in copies dated by radiocarbon to the seventh century. And Muslim tradition records things about him that no admirer would make up. It is the same argument we use for Jesus against people who say he was a myth. We cannot use it for our side and refuse it to the other.',
+        'Because the evidence is against it, and a Muslim who knows the sources will rightly stop listening to you. A Syriac chronicler names Muhammad about 640, within ten years of his death, and an Armenian historian describes his preaching in the 660s. Those writers were Christians with no reason to invent a prophet for the Arabs. Parts of the Quran survive in copies dated by radiocarbon to the seventh century. And the Constitution of Medina, a document that nearly all historians accept as genuine, names him. It is the same argument we use for Jesus against people who say he was a myth. We cannot use it for our side and refuse it to the other.',
       keyPoints: [
         'Outside writers name Muhammad within about ten years of his death.',
         'Very few historians, of any faith or none, think he never lived.',
@@ -143,16 +143,16 @@ export const outsideWriters: Topic = {
       id: 'iw-4',
       objection: 'The Prophet’s biography was handed down by chains of trustworthy narrators. The date it was written down does not matter.',
       response:
-        'I think it matters, though I grant that the tradition is not empty. Nearly all historians accept the Constitution of Medina as a genuine document from Muhammad’s time, and some trace a body of reports back to Urwa ibn al-Zubayr, who died about 712. So the outline is firm: Mecca, the move to Medina, the battles, the return. But the detail is another matter. The earliest biography that survives was written by Ibn Ishaq more than a century after Muhammad died, and we have it only in the edition of Ibn Hisham, who tells us in his preface that he cut out matters that were disgraceful to discuss or would distress people. A chain of names tells me who is said to have passed a story on. It cannot tell me that the story did not change on the way. And where we have witnesses from outside, written generations earlier, they do not simply repeat the story.',
+        'I think it matters, though I grant that the tradition is not empty. Nearly all historians accept the Constitution of Medina as a genuine document from Muhammad’s time, and some trace a body of reports back to Urwa ibn al-Zubayr, who died about 712. So the outline is firm: Mecca, the move to Medina, the battles, the return. But the detail is another matter. The earliest biography that survives was written by Ibn Ishaq more than a century after Muhammad died, and we have it mainly in the edition of Ibn Hisham, who tells us in his preface that he cut out matters that were disgraceful to discuss or would distress people. A chain of names tells me who is said to have passed a story on. It cannot tell me that the story did not change on the way. And where we have witnesses from outside, written generations earlier, they do not simply repeat the story.',
       keyPoints: [
-        'The outline of Muhammad’s life is secure. The detail rests on books written four to seven generations later.',
-        'Ibn Ishaq’s biography survives only in an edition whose editor says he removed material.',
+        'The outline of Muhammad’s life is secure. The detail rests on books that begin four or five generations later.',
+        'Ibn Ishaq’s biography survives mainly in an edition whose editor says he removed material.',
         'The earliest outside witnesses do not simply repeat the traditional account.',
       ],
       followUps: [
         {
           reply: 'You are in no position to complain. Your Gospels are anonymous and were written decades after Jesus.',
-          answer: 'Decades, yes, and that is the difference. Paul’s letters were written within about thirty years of the crucifixion, by a man who had met Jesus’ brother James and the apostle Peter (Galatians 1:18-19). He passes on a summary of the death, burial and resurrection that he had himself received, and says that most of the five hundred who saw the risen Jesus were still alive (1 Corinthians 15:3-6). The Gospels were written while such people could still be asked. I apply one standard to both. I accept the early outline of Muhammad’s life, and I accept the Quran as his preaching. What I cannot do is treat a story first written down in the eighth or ninth century as though an eyewitness had signed it.',
+          answer: 'Decades, yes, and that is the difference. Paul’s letters were written within about thirty years of the crucifixion, by a man who had met Jesus’ brother James and the apostle Peter (Galatians 1:18-19). He passes on a summary of the death, burial and resurrection that he had himself received, and says that most of the five hundred who saw the risen Jesus were still alive (1 Corinthians 15:3-6). The Gospels followed within about forty to seventy years, while some who had seen Jesus could still have been alive. I apply one standard to both. I accept the early outline of Muhammad’s life, and I accept the Quran as his preaching. What I cannot do is treat a story first written down in the eighth or ninth century as though an eyewitness had signed it.',
           followUps: [
             {
               reply: 'The Arabs had extraordinary memories. Oral tradition among them was as good as writing.',
@@ -183,7 +183,7 @@ export const outsideWriters: Topic = {
       id: 'iw-6',
       objection: 'Christians of his own day recognised him. The monk Bahira saw the mark of prophethood on him as a boy, and the emperor Heraclius admitted that he was the prophet who had been foretold.',
       response:
-        'Both stories come from Muslim tradition, and neither is found in any Christian or Roman writer of the time. Bahira appears in Ibn Ishaq’s biography, more than a century after the event. The story of Heraclius is in the hadith (Sahih al-Bukhari 7), told on the authority of Abu Sufyan. No Roman historian mentions that the emperor received such a letter or said such things. Christian writers tell a different story about a monk. John of Damascus, writing before about 750, says that Muhammad devised his teaching after talking with an Arian monk, and later Christian legends turned the monk into a heretic who taught Muhammad everything. I don’t rely on those either. They are polemic, just as the Muslim versions are praise. The honest conclusion is that we have no independent evidence that any Christian of his day recognised him as a prophet.',
+        'Both stories come from Muslim tradition, and neither is found in any Christian or Roman writer of the time. Bahira appears in Ibn Ishaq’s biography, more than a century after the event. The story of Heraclius is in the hadith (Sahih al-Bukhari 7), told on the authority of Abu Sufyan. No Roman historian mentions that the emperor received such a letter or said such things. Christian writers tell a different story about a monk. John of Damascus, writing before about 750, says that Muhammad devised his teaching after talking with an Arian monk, and later Christian legends made a heretical monk Muhammad’s teacher and the writer of his scripture. I don’t rely on those either. They are polemic, just as the Muslim versions are praise. The honest conclusion is that we have no independent evidence that any Christian of his day recognised him as a prophet.',
       keyPoints: [
         'The stories of Bahira and Heraclius are known only from Muslim tradition.',
         'Christian writers told a rival story of a heretical monk, which is no better attested.',
@@ -201,11 +201,11 @@ export const outsideWriters: Topic = {
       id: 'iw-7',
       objection: 'Whatever you say about the biography, the Quran itself is early, and you have admitted that it goes back to Muhammad. That is the revelation, and no outside source touches it.',
       response:
-        'I do admit it. The early manuscripts make it very likely that the Quran, in substance, is what Muhammad preached. But being early makes it good evidence for what he said. It does not make what he said true. And outside sources do touch the Quran at one point, because it makes a claim about a public event. It says of Jesus, “they did not kill him, nor did they crucify him” (Quran 4:157). That was first recited in Arabia about six hundred years after the event. Against it stand Paul, writing within about twenty-five years; the four Gospels; and the Roman historian Tacitus, who had no love for Christians. No writer of the first century, friend or enemy, says that Jesus escaped the cross. So at the one place where the Quran can be checked against the history of Jesus, all the early evidence is on the other side.',
+        'I do admit it. The early manuscripts make it very likely that the Quran, in substance, is what Muhammad preached. But being early makes it good evidence for what he said. It does not make what he said true. And outside sources do touch the Quran at one point, because it makes a claim about a public event. It says of Jesus, “they did not kill him, nor did they crucify him” (Quran 4:157). That was first recited in Arabia about six hundred years after the event. Against it stand Paul, writing within about twenty-five years; the four Gospels; and the Roman historian Tacitus, who had no love for Christians and records the execution under Pilate. No surviving writer of the first century, friend or enemy, says that Jesus escaped the cross. So at the one place where the Quran can be checked against the history of Jesus, all the early evidence is on the other side.',
       keyPoints: [
         'An early text is good evidence of what was preached, not that it is true.',
         'Quran 4:157 denies the crucifixion six centuries after the event.',
-        'Every early source, Christian and non-Christian, says that Jesus was crucified.',
+        'Every surviving early source, Christian and non-Christian, says that Jesus was put to death.',
       ],
       references: ['Quran 4:157', '1 Corinthians 15:3-4'],
       followUps: [
@@ -215,7 +215,7 @@ export const outsideWriters: Topic = {
         },
         {
           reply: 'Tacitus only repeated what Christians told him.',
-          answer: 'He may have, directly or indirectly. Even so, he shows what was being said in Rome within living memory of the event, and he reports it as plain fact. Josephus, a Jew, very probably mentioned the execution too. The important thing is what is missing. No one in the first century, Jewish, Roman or Christian, offers the story that someone else died in Jesus’ place.',
+          answer: 'He may have, directly or indirectly. Even so, he shows what an educated Roman took for plain fact some eighty-five years after the event. Josephus, a Jew, very probably mentioned the execution too. The important thing is what is missing. No surviving writing from the first century, Jewish, Roman or Christian, says that someone else died in Jesus’ place. Stories of that kind first appear in the second century.',
         },
       ],
     },
@@ -331,7 +331,7 @@ export const outsideWriters: Topic = {
     },
     {
       id: 'iw-q10',
-      question: 'How many times does the Quran mention Muhammad by name?',
+      question: 'How many times does the Quran use the name Muhammad?',
       options: ['Four', 'Forty', 'About two hundred', 'Never'],
       answer: 0,
       explanation: 'Quran 3:144; 33:40; 47:2; 48:29. The Quran is early, but it tells us very little about his life.',
@@ -346,7 +346,7 @@ export const outsideWriters: Topic = {
         'Its laws of inheritance',
       ],
       answer: 2,
-      explanation: 'Quran 4:157 denies the crucifixion six centuries later. Paul, the Gospels and Tacitus all report it.',
+      explanation: 'Quran 4:157 denies the crucifixion six centuries later. Paul and the Gospels report it, and Tacitus records the execution under Pilate.',
     },
     {
       id: 'iw-q12',
@@ -358,7 +358,7 @@ export const outsideWriters: Topic = {
         'Agree, and point out that confirming he lived is not the same as confirming that God sent him',
       ],
       answer: 3,
-      explanation: 'Tacitus confirms the crucifixion without proving the resurrection. Outside writers confirm events, not revelation.',
+      explanation: 'Tacitus confirms the execution without proving the resurrection. Outside writers confirm events, not revelation.',
     },
   ],
   furtherReading: [
