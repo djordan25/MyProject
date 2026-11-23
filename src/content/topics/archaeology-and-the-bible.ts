@@ -22,14 +22,14 @@ export const archaeologyAndTheBible: Topic = {
     {
       heading: 'Israel and Judah in their neighbours’ records',
       body: [
-        'The earliest mention of Israel outside the Bible is on a victory monument of the Egyptian pharaoh Merneptah, carved about 1208 BC and found at Thebes in 1896. Among the peoples he claims to have crushed in Canaan it says, “Israel is laid waste, his seed is not”. The boast was premature, but it shows a people called Israel living in Canaan by that date.',
+        'The earliest mention of Israel outside the Bible is on a victory monument of the Egyptian pharaoh Merneptah, carved about 1208 BC and found at Thebes in 1896. Among the enemies he claims to have crushed in Canaan it says, “Israel is laid waste, his seed is not”. The boast was premature, but it shows a people called Israel living in Canaan by that date.',
         'For a long time no inscription named King David, and some scholars doubted that he had existed. In 1993 and 1994 fragments of a monument were found at Tel Dan in northern Israel. It was set up in the ninth century BC by an Aramean king, probably Hazael of Damascus, who boasts of killing a king of Israel and a king of the “House of David”. Ancient kingdoms were often named after the founder of the ruling family, and this comes from an enemy, about a century and a half after David.',
-        'The Mesha Stele, found in 1868 east of the Dead Sea and now in the Louvre, was set up about 840 BC by Mesha king of Moab. It names “Omri king of Israel”, says that he oppressed Moab, and mentions the men of Gad and Israel’s God by name. The Bible tells of the same conflict from Israel’s side (2 Kings 3:4-5).',
+        'The Mesha Stele, found in 1868 east of the Dead Sea and now in the Louvre, was set up about 840 to 830 BC by Mesha king of Moab. It names “Omri king of Israel”, says that he oppressed Moab, and mentions the men of Gad and Israel’s God by name. The Bible tells of the same conflict from Israel’s side (2 Kings 3:4-5).',
         'Assyrian kings name Israel’s rulers too. Shalmaneser III lists “Ahab the Israelite” among his opponents at the battle of Qarqar in 853 BC. His Black Obelisk, now in the British Museum, shows “Jehu son of Omri”, or his envoy, bowing to bring tribute about 841 BC.',
-        'In 701 BC the Assyrian king Sennacherib invaded Judah. The Bible says he captured the fortified cities and took tribute from Hezekiah, but did not take Jerusalem (2 Kings 18:13-16; 19:35-36). Sennacherib’s own account, preserved on clay prisms, claims forty-six walled cities and says of Hezekiah, “Himself, like a caged bird, I shut up in Jerusalem, his royal city”. He lists the tribute. He does not claim to have captured Jerusalem, and the reliefs he put up in his palace at Nineveh celebrate the capture of Lachish instead. Each side tells the story in its own way, and on the main facts they agree.',
-        'To prepare for that siege Hezekiah “constructed the pool and the tunnel to bring water into the city” (2 Kings 20:20). The tunnel is still there, cut for about 530 metres through the rock under Jerusalem, and an inscription found inside it in 1880 describes the two teams of diggers meeting in the middle.',
-        'The Babylonian Chronicle, a clay tablet in the British Museum, records that in his seventh year Nebuchadnezzar besieged “the city of Judah”, captured its king, and appointed a king of his own choosing. That is the fall of Jerusalem in 597 BC, as told in 2 Kings 24:10-17. Ration tablets found in Babylon list oil issued to “Jehoiachin, king of the land of Judah” and his sons, as the Bible says he lived there on the king’s allowance (2 Kings 25:27-30).',
-        'The Cyrus Cylinder, also in the British Museum, records the Persian king’s policy of sending exiled peoples and their gods back to their homes. It does not mention the Jews, and the places it names are in and around Mesopotamia. But it shows the kind of policy that the book of Ezra describes (Ezra 1:1-4).',
+        'In 701 BC the Assyrian king Sennacherib invaded Judah. The Bible says he captured the fortified cities and took tribute from Hezekiah, but did not take Jerusalem (2 Kings 18:13-16; 19:35-36). Sennacherib’s own account, preserved on clay prisms, claims forty-six walled cities and says of Hezekiah, “Himself, like a caged bird, I shut up in Jerusalem, his royal city”. He lists the tribute, with the same thirty talents of gold as the Bible and a larger sum of silver. He does not claim to have captured Jerusalem, and the reliefs he put up in his palace at Nineveh celebrate the capture of Lachish instead. Each side tells the story in its own way, and on the main facts they agree.',
+        'The Bible says that Hezekiah “constructed the pool and the tunnel to bring water into the city” (2 Kings 20:20). A tunnel about 530 metres long still runs through the rock under Jerusalem, and an inscription found in it in 1880 describes two teams of diggers cutting towards each other until they met. It names no king. Most scholars date the tunnel to Hezekiah’s time, though some put it a few decades earlier.',
+        'The Babylonian Chronicle, a clay tablet in the British Museum, records that in his seventh year Nebuchadnezzar besieged “the city of Judah”, captured its king, and appointed a king of his own choosing. That is the first capture of Jerusalem, in 597 BC, as told in 2 Kings 24:10-17. Ration tablets found in Babylon, from about 591 BC, list oil issued to “Jehoiachin, king of the land of Judah” and to the sons of the king of Judah. They show the exiled king alive in Babylon and fed by the crown (2 Kings 24:15; see 25:27-30).',
+        'The Cyrus Cylinder, also in the British Museum, records that the Persian king sent exiled peoples and their gods back to their homes. It does not mention the Jews, and the places it names are in and around Mesopotamia, so how far it describes a general policy is debated. But it is the same kind of act that the book of Ezra describes (Ezra 1:1-4).',
       ],
       references: ['2 Kings 3:4-5', '2 Kings 18:13-16', '2 Kings 20:20', '2 Kings 24:10-17', '2 Kings 25:27-30', 'Ezra 1:1-4'],
     },
@@ -37,7 +37,7 @@ export const archaeologyAndTheBible: Topic = {
       heading: 'Names on seals and tablets',
       body: [
         'Officials in ancient Judah sealed documents with lumps of clay stamped with their names. Several of these seal impressions, found in controlled excavations in Jerusalem, carry names known from the Bible. One reads “Belonging to Hezekiah, son of Ahaz, king of Judah”. Another, from the City of David, reads “Belonging to Gemariah son of Shaphan”, the name of a royal official in Jeremiah 36:10. Two more, found a few metres apart, name Jehucal son of Shelemiah and Gedaliah son of Pashhur, who appear together in Jeremiah 38:1 among the officials who wanted Jeremiah put to death.',
-        'The book of Daniel says the last ruler in Babylon was Belshazzar (Daniel 5:1). The Greek historians did not know the name, and for centuries Belshazzar was known only from the Bible. Then Babylonian tablets were deciphered in the nineteenth century. They show that he was the eldest son of the last king, Nabonidus, and governed the kingdom for years while his father was away in Arabia. That may explain a detail in Daniel: the highest reward Belshazzar can offer is to be “the third highest ruler in the kingdom” (Daniel 5:16).',
+        'The book of Daniel says the last ruler in Babylon was Belshazzar (Daniel 5:1). The Greek historians did not know the name, and for centuries Belshazzar was known only from the Bible. Then Babylonian tablets were deciphered in the nineteenth century. They show that he was the eldest son of the last king, Nabonidus, and governed the kingdom for years while his father was away in Arabia. That may explain a detail in Daniel: the highest reward Belshazzar can offer is to be “the third highest ruler in the kingdom” (Daniel 5:16). Some scholars read the Aramaic word as a court title instead, so the point should not be pressed.',
       ],
       references: ['Jeremiah 36:10', 'Jeremiah 38:1', 'Daniel 5:1', 'Daniel 5:16'],
     },
@@ -125,7 +125,7 @@ export const archaeologyAndTheBible: Topic = {
       followUps: [
         {
           reply: 'The letters on the Tel Dan stone could mean something else, such as a place name. And the stone contradicts the Bible: its king claims to have killed Joram and Ahaziah, but 2 Kings says Jehu killed them.',
-          answer: 'Other readings were proposed when the fragments were first published, and very few scholars hold them now. “House of David” is the standard translation, like “House of Omri” for Israel in Assyrian texts. The second point is true and worth knowing. As most scholars restore the broken names, the king of Aram claims to have killed both kings, while in the Bible it is Jehu who does it (2 Kings 9:24, 27). Kings regularly claimed the deeds of their allies and agents as their own, and the Bible itself has Hazael of Aram at war with both kings at that very moment (2 Kings 8:28-29). Two hostile accounts that agree that the two kings died together, and differ about who struck the blow, are what independent sources look like.',
+          answer: 'Other readings were proposed when the fragments were first published, and very few scholars hold them now. “House of David” is the standard translation, like “House of Omri” for Israel in Assyrian texts. The second point is true and worth knowing. As most scholars restore the broken names, the king of Aram claims to have killed both kings, while in the Bible it is Jehu who does it (2 Kings 9:24, 27). A king may have claimed the deed of an ally or an agent as his own, and the Bible itself has Hazael of Aram at war with both kings at that very moment (2 Kings 8:28-29). Two hostile accounts that agree that the two kings died together, and differ about who struck the blow, are what independent sources look like.',
         },
       ],
     },
@@ -190,14 +190,14 @@ export const archaeologyAndTheBible: Topic = {
         'Take them one at a time. Belshazzar’s name was lost to the Greek historians, and it was the Babylonian tablets that restored him. He was the eldest son of the last king, Nabonidus, who left him in charge of the kingdom for about ten years, and one Babylonian text says that the king “entrusted the kingship to him”. The tablets call him the king’s son and not king, so Daniel’s title is loose, but it is closer to the facts than the Greek writers were. “Son of Nebuchadnezzar” uses the word the way Semitic languages often do, for a successor; the Assyrians called Jehu “son of Omri”, though Jehu had destroyed Omri’s family. Darius the Mede is harder. No Babylonian or Persian text names him. He has been identified with a governor appointed by Cyrus, or with Cyrus himself under another name, and neither proposal is proven. I would say that Belshazzar counts in Daniel’s favour and that Darius is an unsolved problem.',
       keyPoints: [
         'Babylonian tablets confirm Belshazzar, whom the Greek historians had forgotten.',
-        'He governed as his father’s deputy, which fits the offer of the third place in the kingdom.',
+        'He governed as his father’s deputy, which may explain the offer of the third place in the kingdom.',
         'Darius the Mede has not been identified; say so.',
       ],
       references: ['Daniel 5:1', 'Daniel 5:16', 'Daniel 5:31'],
       followUps: [
         {
           reply: 'If the author knew Babylon so well, why does he make Belshazzar a king when the Babylonian records never give him that title?',
-          answer: 'Because that is how the man looked from below. Belshazzar commanded the army and ran the government while his father was away for years, and oaths were sworn in his name beside his father’s. To the people of Babylon, and to a Jewish official at court, he was the ruler in the palace. The detail that suggests real knowledge is a small one. Belshazzar can offer Daniel only the third place in the kingdom (Daniel 5:29), which makes sense if he himself was the second. A writer inventing the scene centuries later, when Belshazzar’s very name had been forgotten elsewhere, would have had no reason to write “third”.',
+          answer: 'Because that is how the man looked from below. Belshazzar commanded the army and ran the government while his father was away for years, and oaths were sworn in his name beside his father’s. To the people of Babylon, and to a Jewish official at court, he was the ruler in the palace. One small detail may point the same way. Belshazzar can offer Daniel only the third place in the kingdom (Daniel 5:29), which would make sense if he himself was the second. Some scholars take that as a trace of real knowledge. Others read the Aramaic word as a court title, or as “one of three”, so do not rest much on it.',
         },
       ],
     },
@@ -243,7 +243,7 @@ export const archaeologyAndTheBible: Topic = {
         'The Dead Sea Scrolls',
       ],
       answer: 1,
-      explanation: 'Merneptah’s monument lists Israel among the peoples he claims to have defeated in Canaan.',
+      explanation: 'Merneptah’s monument lists Israel among the enemies he claims to have defeated in Canaan.',
     },
     {
       id: 'arc-q3',
@@ -319,7 +319,7 @@ export const archaeologyAndTheBible: Topic = {
     },
     {
       id: 'arc-q9',
-      question: 'Babylonian tablets show that Belshazzar was the son of the last king and governed in his absence. Which detail in Daniel does that fit?',
+      question: 'Babylonian tablets show that Belshazzar was the son of the last king and governed in his absence. Which detail in Daniel may that explain?',
       options: [
         'Daniel is thrown to the lions',
         'Belshazzar offers the place of third ruler in the kingdom',
@@ -327,7 +327,7 @@ export const archaeologyAndTheBible: Topic = {
         'The exiles return under Cyrus',
       ],
       answer: 1,
-      explanation: 'If Belshazzar was second to his father, the highest place he could give was “the third highest ruler in the kingdom” (Daniel 5:16).',
+      explanation: 'If Belshazzar was second to his father, the highest place he could give was “the third highest ruler in the kingdom” (Daniel 5:16). Some scholars read the word as a court title instead, so do not rest much on it.',
     },
     {
       id: 'arc-q10',
