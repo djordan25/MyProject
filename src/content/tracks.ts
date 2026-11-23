@@ -23,6 +23,11 @@ export const tracks: Track[] = [
         topicIds: ['reliability-of-scripture', 'how-we-got-the-bible', 'disputed-translations'],
       },
       {
+        title: 'Evidence outside the Bible',
+        description: 'What ancient writers and archaeology confirm, what they cannot, and the hardest objections drawn from the same evidence.',
+        topicIds: ['ancient-writers', 'archaeology-and-the-bible'],
+      },
+      {
         title: 'Who is Jesus?',
         description: 'His claims, the prophecies about him, his resurrection, and whether he is the only way.',
         topicIds: ['identity-of-jesus', 'fulfilled-prophecy', 'resurrection', 'jesus-only-way'],
