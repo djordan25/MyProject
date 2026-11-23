@@ -19,7 +19,7 @@ export const farthestMosque: Topic = {
       heading: 'What stood in Jerusalem in Muhammad’s day',
       body: [
         'The temple that Jesus knew was destroyed by the Romans in AD 70. After a second Jewish revolt the emperor Hadrian rebuilt Jerusalem as a Roman city called Aelia, the name the hadith still use for it. When the empire became Christian, churches were built in the city, the Church of the Holy Sepulchre above all, but the Temple Mount was left in ruins. In 614 the Persians captured Jerusalem and held it for about fifteen years.',
-        'So at the time Muslims give for the Night Journey, about 621, there was no temple on the Mount and no church, and of course no mosque. Jerusalem was taken by the Arabs in about 637, five years after Muhammad’s death. A Christian pilgrim named Arculf, who visited around 680, described a plain house of prayer that the Arabs had put up on the site, built of beams and planks over old ruins and large enough for three thousand people. The Dome of the Rock followed in 691–2, and the building now called the al-Aqsa Mosque was put up in the early eighth century under the caliphs Abd al-Malik and his son al-Walid.',
+        'So at the time Muslims give for the Night Journey, about 621, there was no temple on the Mount and no church, and of course no mosque. Jerusalem was taken by the Arabs in about 637, five years after Muhammad’s death. A Christian pilgrim named Arculf, who visited around 680, described a plain house of prayer that the Arabs had put up on the site, built of beams and planks over old ruins and said to hold three thousand people. The Dome of the Rock followed in 691–2, and the building now called the al-Aqsa Mosque was put up around the year 700 under the caliphs Abd al-Malik and his son al-Walid.',
       ],
     },
     {
@@ -35,7 +35,7 @@ export const farthestMosque: Topic = {
       heading: 'Is the farthest mosque in Jerusalem?',
       body: [
         'The Quran never names Jerusalem, here or anywhere else. That the “farthest mosque” is the Temple Mount is the teaching of the hadith and the commentators. It is a natural reading, since the verse speaks of a place “whose surroundings We have blessed”, and the Quran elsewhere calls the land of the earlier prophets blessed (Quran 21:71).',
-        'It has been questioned all the same. A number of Western scholars in the last century argued that the verse first referred to a sanctuary in heaven, and that it was attached to Jerusalem under the Umayyad caliphs, who ruled from Syria and built the Dome of the Rock. They pointed out that the long inscriptions inside the Dome quote many passages that are in the Quran but do not quote this verse or mention the Night Journey. Other scholars, such as Uri Rubin, have argued that Jerusalem was meant from the beginning.',
+        'It has been questioned all the same. Since 1916 many Western scholars have argued that the verse first referred to a sanctuary in heaven, and that it was attached to Jerusalem later, perhaps under the Umayyad caliphs, who ruled from Syria and built the Dome of the Rock. They pointed out that the long inscriptions inside the Dome quote many passages that are in the Quran but do not quote this verse or mention the Night Journey. Other scholars, such as Uri Rubin and Angelika Neuwirth, have argued that Jerusalem was meant from the beginning, and the earliest Muslim commentaries that survive all read it so.',
         'This is an open question among historians, and you should not claim more than that. What can be said is that the link between the verse and Jerusalem depends on tradition outside the Quran, and that the earliest great monument on the site does not make the link.',
       ],
     },
@@ -44,8 +44,8 @@ export const farthestMosque: Topic = {
       body: [
         'A hadith in both of the most trusted collections raises a problem of its own. A companion named Abu Dharr asked Muhammad which mosque was built first on earth. He answered that it was the Sacred Mosque. Abu Dharr asked which came next, and he said al-Aqsa. Asked how long there was between the two, he said, “Forty years” (Sahih al-Bukhari 3366; Sahih Muslim 520).',
         'The Quran says that Abraham and Ishmael raised the foundations of the house at Mecca (Quran 2:127). The temple in Jerusalem was built by Solomon, as the Bible records (1 Kings 6:1) and as another hadith also says (Sunan Ibn Majah 1408). Abraham and Solomon lived roughly a thousand years apart.',
-        'Muslim scholars saw the difficulty long ago. Ibn al-Jawzi and Ibn Hajar answered that the hadith is speaking of the first foundations, not of Abraham’s and Solomon’s buildings. On one view Adam founded both, forty years apart. On another, Jacob founded the sanctuary at Jerusalem forty years after his grandfather Abraham built the Kaaba, and Solomon only rebuilt it.',
-        'Weigh that answer fairly. It is possible, and it shows that Muslims have not ignored the problem. But nothing in the Quran or the Bible says that Adam or Jacob built a sanctuary at Jerusalem. Genesis has Jacob set up a stone pillar at Bethel, some miles to the north, and call it God’s house (Genesis 28:18-22). The plain sense of the hadith, read beside the Quran, is that the Kaaba and the temple were built forty years apart, and that does not fit the history.',
+        'Muslim scholars saw the difficulty long ago. Ibn al-Jawzi and Ibn Hajar answered that the hadith is speaking of the first foundations, not of Abraham’s and Solomon’s buildings. On one view Adam founded the first, and he or one of his children the second, forty years later. On another, held by Ibn al-Qayyim, Jacob founded the sanctuary at Jerusalem forty years after his grandfather Abraham built the Kaaba, and Solomon only rebuilt it.',
+        'Weigh that answer fairly. It is possible, and it shows that Muslims have not ignored the problem. But nothing in the Quran or the Bible says that Adam or Jacob built a sanctuary at Jerusalem. Genesis has Jacob set up a stone pillar at Bethel, about ten miles to the north, and call it God’s house (Genesis 28:18-22). The plain sense of the hadith, read beside the Quran, is that the Kaaba and the temple were built forty years apart, and that does not fit the history.',
       ],
       references: ['Sahih al-Bukhari 3366', 'Quran 2:127', '1 Kings 6:1', 'Sunan Ibn Majah 1408'],
     },
@@ -81,7 +81,7 @@ export const farthestMosque: Topic = {
       followUps: [
         {
           reply: 'But the hadith says that he tied his animal to a ring and “entered the mosque”. There was nothing there to enter.',
-          answer: 'That is a fairer question, and it is worth asking once. In 621 the Temple Mount was a ruin that the Christians had left empty. The hadith speaks of a ring that the prophets used and of entering and praying (Sahih Muslim 162). A Muslim can answer that the enclosure and its old walls and gates were still there, which is true, and that “the mosque” means that enclosure. I would not press it further. It is a detail in a report written down long afterwards, and nothing much hangs on it.',
+          answer: 'That is a fairer question, and it is worth asking once. In 621 the Temple Mount was a ruin that the Christians had left empty. The hadith speaks of a ring that the prophets used and of entering and praying (Sahih Muslim 162). A Muslim can answer that the great platform, with much of its walls and gateways, was still there, which is true, and that “the mosque” means that enclosure. I would not press it further. It is a detail in a report written down long afterwards, and nothing much hangs on it.',
         },
       ],
     },
@@ -89,7 +89,7 @@ export const farthestMosque: Topic = {
       id: 'fm-2',
       objection: 'The Quran itself names al-Masjid al-Aqsa. Muslims have always known that it is in Jerusalem, and the Prophet prayed there.',
       response:
-        'The Quran names al-Masjid al-Aqsa, the farthest place of prostration. It does not name Jerusalem, in that verse or in any other. That the two are the same is what the hadith and the commentators teach, and I grant that it is a reasonable reading, since the verse speaks of blessed surroundings. But it is tradition, not the text. Some historians have argued that the phrase first meant a sanctuary in heaven and was connected with Jerusalem later, under the caliphs who ruled from Syria. Others disagree. One fact is worth knowing whichever is right. The Dome of the Rock, built on the site in 691–2, is covered with words that match the Quran, and it does not quote this verse or mention the Night Journey at all.',
+        'The Quran names al-Masjid al-Aqsa, the farthest place of prostration. It does not name Jerusalem, in that verse or in any other. That the two are the same is what the hadith and the commentators teach, and I grant that it is a reasonable reading, since the verse speaks of blessed surroundings. But it is tradition, not the text. Many Western historians have argued that the phrase first meant a sanctuary in heaven and was connected with Jerusalem later, perhaps under the caliphs who ruled from Syria. Others disagree, and the earliest Muslim commentaries that survive read it as Jerusalem. One fact is worth knowing whichever is right. The Dome of the Rock, built on the site in 691–2, is covered with words that match the Quran, and it does not quote this verse or mention the Night Journey at all.',
       keyPoints: [
         'The Quran never names Jerusalem.',
         'The identification with the Temple Mount comes from hadith and commentary.',
@@ -117,11 +117,11 @@ export const farthestMosque: Topic = {
       followUps: [
         {
           reply: 'The scholars explained this long ago. The hadith speaks of the first foundations. Adam built both, forty years apart, and Abraham and Solomon only rebuilt them.',
-          answer: 'Ibn al-Jawzi and Ibn Hajar do give that answer, and I respect that they faced the problem. But see what it costs. The Quran says nothing of Adam building at Mecca or at Jerusalem. The answer has to bring in reports from outside both the Quran and the two great collections in order to rescue a hadith inside them. And it leaves a question. If the hadith needs that much help before it agrees with history, how much weight can I put on other reports in the same collections where nothing outside lets us check them?',
+          answer: 'Ibn al-Jawzi says something close to that and Ibn Hajar says it outright, and I respect that they faced the problem. But see what it costs. The Quran says nothing of Adam building at Mecca or at Jerusalem. The answer has to bring in reports from outside both the Quran and the two great collections in order to rescue a hadith inside them. And it leaves a question. If the hadith needs that much help before it agrees with history, how much weight can I put on other reports in the same collections where nothing outside lets us check them?',
           followUps: [
             {
               reply: 'Others say it was Jacob who founded the house at Jerusalem, forty years after Abraham built the Kaaba. Your own Bible says Jacob built a house of God.',
-              answer: 'Genesis says that Jacob set up a stone as a pillar, poured oil on it, and named the place Bethel, which means house of God (Genesis 28:18-22). Bethel is not Jerusalem. It lies some miles to the north, and Genesis says its older name was Luz. And what Jacob set up was a single stone, not a sanctuary. So the Bible does not support the suggestion. It remains a guess made in order to save the forty years.',
+              answer: 'Genesis says that Jacob set up a stone as a pillar, poured oil on it, and named the place Bethel, which means house of God (Genesis 28:18-22). Bethel is not Jerusalem. It lies about ten miles to the north, and Genesis says its older name was Luz. And what Jacob set up was a single stone, not a sanctuary. So the Bible does not support the suggestion. It rests on a later tradition that moved Jacob’s vision to Jerusalem, not on Genesis.',
             },
           ],
         },
@@ -131,7 +131,7 @@ export const farthestMosque: Topic = {
       id: 'fm-4',
       objection: 'The Christians left the site of the temple in ruins. It was the Muslims who honoured it and restored the worship of God there.',
       response:
-        'It is true that the Christians left it empty, and true that the Arabs built there. A pilgrim named Arculf saw their first house of prayer about 680, and the Dome of the Rock followed in 691–2. But the Christians did not leave the Mount empty out of neglect. Jesus had said of the temple, “not one stone here will be left on another” (Matthew 24:2), and he had said something greater: “Destroy this temple, and in three days I will raise it up again”, speaking of his own body (John 2:19-21). For Christians the temple had done its work. It was the place of sacrifice, and the sacrifice had been offered once for all. It was the place where God lived among his people, and God had come to live among us in his Son. To rebuild it would have been to say that Jesus had not finished what he came to do.',
+        'It is true that the Christians left it empty, and true that the Arabs built there. A pilgrim named Arculf saw their first house of prayer about 680, and the Dome of the Rock followed in 691–2. The Christians had neglected it, and by some accounts used it as a rubbish tip, which was no credit to them. But they had a reason for not building there. Jesus had said of the temple, “not one stone here will be left on another” (Matthew 24:2), and he had said something greater: “Destroy this temple, and in three days I will raise it up again”, speaking of his own body (John 2:19-21). For Christians the temple had done its work. It was the place of sacrifice, and the sacrifice had been offered once for all. It was the place where God lived among his people, and God had come to live among us in his Son. To rebuild it would have been to say that Jesus had not finished what he came to do.',
       keyPoints: [
         'Christians left the Mount empty because Jesus foretold the temple’s fall.',
         'Jesus called his own body the temple (John 2:19-21).',
@@ -149,11 +149,11 @@ export const farthestMosque: Topic = {
       id: 'fm-5',
       objection: 'When the Quraysh doubted him, the Prophet described Jerusalem to them exactly. He could only have known it if he had been there.',
       response:
-        'The hadith says, “Allah displayed Jerusalem in front of me, and I began describing it to them while I was looking at it” (Sahih al-Bukhari 3886). Notice first what that report itself says. He did not describe it from memory of a visit. Another version says he could not recall the things they asked about and was greatly distressed until God raised the city before his eyes (Sahih Muslim 172). Second, we are not told what he described, so there is nothing to check. Third, the Quraysh were merchants who travelled to Syria, and a description of Jerusalem was not beyond what could be learned in Mecca. And last, the report tells us that the Quraysh were not persuaded. If the description did not convince the people who heard it and knew the city, it cannot be offered as proof to us.',
+        'The hadith says, “Allah displayed Jerusalem in front of me, and I began describing it to them while I was looking at it” (Sahih al-Bukhari 3886). Notice first what that report itself says. He did not describe it from memory of a visit. Another version says he could not recall the things they asked about and was greatly distressed until God raised the city before his eyes (Sahih Muslim 172). Second, the hadith do not record what he said about the city, so there is nothing to check. Third, the Quraysh were merchants who travelled to Syria, and a description of Jerusalem was not beyond what could be learned in Mecca. And last, neither report says that the description changed the minds of the Quraysh. A description whose effect on its hearers is not recorded cannot be offered as proof to us.',
       keyPoints: [
         'By the hadith’s own account he described a vision shown to him then, not a memory of the visit.',
         'The description itself is not recorded, so it cannot be checked.',
-        'The Quraysh who heard it were not convinced.',
+        'Neither hadith says the description convinced the Quraysh.',
       ],
       references: ['Sahih al-Bukhari 3886', 'Sahih Muslim 172'],
       followUps: [
@@ -239,7 +239,7 @@ export const farthestMosque: Topic = {
         'They rejected the hadith as forged',
         'They said that Solomon lived in Abraham’s time',
         'They said the hadith meant forty centuries',
-        'They said it refers to the first foundations, laid by an earlier figure such as Adam or Jacob',
+        'They said it refers to the first foundations, laid long before Solomon, for instance by Adam',
       ],
       answer: 3,
       explanation: 'It is a possible answer, but neither the Quran nor the Bible says that Adam or Jacob built at Jerusalem.',
@@ -250,7 +250,7 @@ export const farthestMosque: Topic = {
       options: [
         'A temple in Jerusalem',
         'A mosque',
-        'A stone pillar, at a place some miles north of Jerusalem',
+        'A stone pillar, at a place about ten miles north of Jerusalem',
         'The Kaaba',
       ],
       answer: 2,
@@ -278,7 +278,7 @@ export const farthestMosque: Topic = {
         'God displayed it before him as he spoke',
       ],
       answer: 3,
-      explanation: 'So even in the hadith the description is a vision at the time, and the Quraysh were not persuaded.',
+      explanation: 'So even in the hadith the description is a vision at the time, not a memory.',
     },
     {
       id: 'fm-q11',

@@ -53,9 +53,9 @@ export const nightJourney: Topic = {
     {
       heading: 'Journeys to heaven before Islam',
       body: [
-        'Stories of a holy man taken up through the heavens were common among Jews and Christians long before Muhammad. In the Ascension of Isaiah, a Christian work of about the second century, an angel leads the prophet up through seven heavens. In 2 Enoch the patriarch passes through one heaven after another and is shown what each contains. The Apocalypse of Paul, written in the third or fourth century, takes its start from Paul’s own words about being “caught up to the third heaven” (2 Corinthians 12:2). The rabbis of the Talmud named seven heavens. Even the bargaining recalls an older scene: Abraham pleading with God for Sodom and bringing the number down step by step (Genesis 18:32).',
+        'Stories of a holy man taken up through the heavens were common among Jews and Christians long before Muhammad. In the Ascension of Isaiah, a Christian work of about the second century, an angel leads the prophet up through seven heavens. In 2 Enoch, which is usually dated before Islam though its date is disputed, the patriarch passes through one heaven after another and is shown what each contains. The Apocalypse of Paul, written in the third or fourth century, takes its start from Paul’s own words about being “caught up to the third heaven” (2 Corinthians 12:2). The rabbis of the Talmud named seven heavens. Even the bargaining recalls an older scene: Abraham pleading with God for Sodom and bringing the number down step by step (Genesis 18:32).',
         'Keep this in proportion. It does not prove that the story was copied from any one book. What it shows is that the form of the story, an angel guide, a ladder of heavens, a meeting with the prophets of old, was familiar in the world in which the hadith took shape.',
-        'One argument should be dropped. Older Christian writers claimed that the story was taken from a Persian book about a priest named Arda Viraf, who visits heaven and hell. That book, in the form we have it, was written down after the rise of Islam, so it cannot be shown to be a source.',
+        'One argument should be dropped. Older writers, Christian missionaries among them, claimed that the story was taken from a Persian book about a priest named Arda Viraf, who visits heaven and hell. That book, in the form we have it, was written down after the rise of Islam, so it cannot be shown to be a source.',
       ],
       references: ['2 Corinthians 12:2-4', 'Genesis 18:32'],
     },
@@ -63,10 +63,10 @@ export const nightJourney: Topic = {
       heading: 'How to use this',
       body: [
         'Do not mock. Jokes about a flying horse will end the conversation and they prove nothing: Christians believe that Elijah was taken up in a whirlwind and that Jesus ascended. The question is never whether God could do such a thing. The question is how we know that he did.',
-        'On that question the contrast with the gospel is plain. Jesus’ resurrection was public. He appeared to more than five hundred people at once, most of whom were still alive when Paul wrote (1 Corinthians 15:6). His ascension was seen: “they watched as He was taken up” (Acts 1:9). Peter says, “we were eyewitnesses of His majesty” (2 Peter 1:16). Paul did have a private vision of heaven, and he refused to build anything on it, “so no one will credit me with more than he sees in me or hears from me” (2 Corinthians 12:6).',
+        'On that question the contrast with the gospel is plain. Jesus’ resurrection had many witnesses. He appeared to more than five hundred people at once, most of whom were still alive when Paul wrote (1 Corinthians 15:6). His ascension was seen: “they watched as He was taken up” (Acts 1:9). Peter says, “God has raised this Jesus to life, to which we are all witnesses” (Acts 2:32). Paul did have a private vision of heaven, and he refused to build anything on it, “so no one will credit me with more than he sees in me or hears from me” (2 Corinthians 12:6).',
         'And notice where the story places Jesus: in the second heaven, greeting Muhammad as he passes upward. The New Testament says that after making purification for sins the Son “sat down at the right hand of the Majesty on high” (Hebrews 1:3), and that “No one has ascended into heaven except the One who descended from heaven” (John 3:13). Both accounts cannot be true. One rests on witnesses who saw and touched the risen Jesus. The other rests on one man’s report of one night.',
       ],
-      references: ['1 Corinthians 15:6', 'Acts 1:9', '2 Peter 1:16', 'Hebrews 1:3', 'John 3:13'],
+      references: ['1 Corinthians 15:6', 'Acts 1:9', 'Acts 2:32', 'Hebrews 1:3', 'John 3:13'],
     },
   ],
   objections: [
@@ -158,17 +158,17 @@ export const nightJourney: Topic = {
       id: 'nj-5',
       objection: 'That night all the prophets, Jesus among them, prayed behind Muhammad. He is the leader and seal of them all.',
       response:
-        'That is what the hadith says: “When the time of prayer came I led them” (Sahih Muslim 172). And it places Jesus in the second heaven, below Joseph, Aaron, Moses and Abraham. I can see why that matters to you. But set it beside what Jesus’ own companions wrote within a few decades of his life. They say that when he had made purification for sins he “sat down at the right hand of the Majesty on high” (Hebrews 1:3). Stephen, as he died, saw “the Son of Man standing at the right hand of God” (Acts 7:56). Jesus himself said, “No one has ascended into heaven except the One who descended from heaven” (John 3:13). So there are two accounts of where Jesus is. One comes from people who knew him. The other comes from a report about one night, six hundred years later, with no witness. I have to go with those who knew him.',
+        'The hadith says that he saw Moses, Jesus and Abraham among the prophets, and adds: “When the time of prayer came I led them” (Sahih Muslim 172). And it places Jesus in the second heaven, below Joseph, Aaron, Moses and Abraham. I can see why that matters to you. But set it beside the New Testament, written in the first century by the apostles and those who learned from them. They say that when he had made purification for sins he “sat down at the right hand of the Majesty on high” (Hebrews 1:3). Stephen, as he died, saw “the Son of Man standing at the right hand of God” (Acts 7:56). Jesus himself said, “No one has ascended into heaven except the One who descended from heaven” (John 3:13). So there are two accounts of where Jesus is. One comes from the first generations of his followers. The other comes from a report about one night, six hundred years later, with no witness. I have to go with the earlier witness.',
       keyPoints: [
         'The hadith puts Jesus in the second heaven and has him pray behind Muhammad.',
         'The New Testament puts Jesus at God’s right hand (Hebrews 1:3; Acts 7:56).',
-        'The earlier testimony of eyewitnesses outweighs a later private vision.',
+        'The earlier testimony of the apostles’ generation outweighs a later private vision.',
       ],
       references: ['Sahih Muslim 172', 'Hebrews 1:3', 'Acts 7:55-56', 'John 3:13'],
       followUps: [
         {
           reply: 'If no one has ascended into heaven, what about Enoch and Elijah? Your own verse is wrong.',
-          answer: 'Read the sentence before it. Jesus has just said, “If I have told you about earthly things and you do not believe, how will you believe if I tell you about heavenly things?” (John 3:12). He is speaking of who can tell us about heaven at first hand. Nobody has gone up and come back with that knowledge. He alone came down from there. Enoch and Elijah were taken and did not return to teach. That is the very claim the Night Journey makes for Muhammad, and Jesus rules it out in advance.',
+          answer: 'Read the sentence before it. Jesus has just said, “If I have told you about earthly things and you do not believe, how will you believe if I tell you about heavenly things?” (John 3:12). He is speaking of who can tell us about heaven at first hand. Nobody has gone up and come back with that knowledge. He alone came down from there. Enoch and Elijah were taken and did not return to teach. The Night Journey makes that very claim for Muhammad, and Jesus says that the only one who can speak of heaven at first hand is the one who came down from it.',
         },
       ],
     },
@@ -176,7 +176,7 @@ export const nightJourney: Topic = {
       id: 'nj-6',
       objection: 'Nothing like the Night Journey had ever been told before. No man could have imagined it.',
       response:
-        'It is a remarkable story, but it is not without precedent. Jews and Christians had been telling of journeys through the heavens for centuries. In the Ascension of Isaiah, a Christian book from about the second century, an angel takes the prophet up through seven heavens. In 2 Enoch the patriarch is led from heaven to heaven. The Apocalypse of Paul builds a tour of heaven and hell on Paul’s remark that he was caught up to the third heaven (2 Corinthians 12:2). The rabbis counted seven heavens and gave each a name. I don’t claim that the hadith copied any one of these. I only say that an ascent through seven heavens with an angel as guide was a well-known kind of story, so the Night Journey is not beyond what people of that time could tell.',
+        'It is a remarkable story, but it is not without precedent. Jews and Christians had been telling of journeys through the heavens for centuries. In the Ascension of Isaiah, a Christian book from about the second century, an angel takes the prophet up through seven heavens. In 2 Enoch, which is usually dated before Islam though its date is disputed, the patriarch is led from heaven to heaven. The Apocalypse of Paul builds a tour of heaven and hell on Paul’s remark that he was caught up to the third heaven (2 Corinthians 12:2). The rabbis counted seven heavens and gave each a name. I don’t claim that the hadith copied any one of these. I only say that an ascent through seven heavens with an angel as guide was a well-known kind of story, so the Night Journey is not beyond what people of that time could tell.',
       keyPoints: [
         'Ascents through the heavens were a familiar kind of story before Islam.',
         'Examples: the Ascension of Isaiah, 2 Enoch, the Apocalypse of Paul.',
@@ -186,7 +186,7 @@ export const nightJourney: Topic = {
       followUps: [
         {
           reply: 'A likeness proves nothing. If the earlier prophets really ascended, their true accounts would resemble his.',
-          answer: 'That is a fair reply, and it is why I put the point no higher. Likeness does not prove copying. But notice that the books I named are not Scripture for either of us. They are later legends, and both Jews and Christians have treated them as such. So the likeness is with pious storytelling, not with the prophets’ own words. I should add that some Christians have argued the story came from a Persian tale about a priest called Arda Viraf. I don’t use that argument, because the Persian book as we have it was written down after Islam began.',
+          answer: 'That is a fair reply, and it is why I put the point no higher. Likeness does not prove copying. But notice that the books I named are not Scripture for either of us. They were written long after the prophets whose names they bear, and neither the synagogue nor the church received them as Scripture. So the likeness is with pious storytelling, not with the prophets’ own words. I should add that some Christians have argued the story came from a Persian tale about a priest called Arda Viraf. I don’t use that argument, because the Persian book as we have it was written down after Islam began.',
         },
       ],
     },
@@ -294,7 +294,7 @@ export const nightJourney: Topic = {
       options: [
         'He makes it the basis of his authority',
         'He derives the Lord’s Supper from it',
-        'He says he is not permitted to tell what he heard and refuses to boast of it',
+        'He says he is not permitted to tell what he heard and will not boast about himself',
         'He describes each heaven in turn',
       ],
       answer: 2,
