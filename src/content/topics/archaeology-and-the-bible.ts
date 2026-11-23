@@ -15,7 +15,7 @@ export const archaeologyAndTheBible: Topic = {
       ],
       argument: [
         'Writers who invent stories far from the events get the background wrong.',
-        'Where the Bible’s rulers, places and customs can be tested against inscriptions and excavations, they are confirmed again and again, and the open questions lie mostly in its earliest periods.',
+        'From the time of Israel’s kings onward, where the Bible’s rulers, places and customs can be tested against inscriptions and excavations, they are confirmed again and again. The open questions lie mostly in its earliest periods.',
         'So the writers deserve to be read as people who knew the world they describe.',
       ],
     },
@@ -58,7 +58,7 @@ export const archaeologyAndTheBible: Topic = {
       body: [
         'The same discipline that confirms so much also asks hard questions, mostly about the earliest periods. An honest apologist knows them, and the objections below take each in turn.',
         'No Egyptian text mentions the exodus, and no camp sites have been found in Sinai.',
-        'Jericho was excavated in the 1950s by Kathleen Kenyon, who dated the destruction of its last walled city to about 1550 BC, too early for Joshua on any reckoning. At Ai, the site most scholars identify with it lay in ruins for a thousand years before the Israelites arrived.',
+        'Jericho was excavated in the 1950s by Kathleen Kenyon, who dated the destruction of its great walled city to about 1550 BC, too early for Joshua on any reckoning. At Ai, the site most scholars identify with it lay in ruins for a thousand years before the Israelites arrived.',
         'Archaeologists disagree sharply about how large the kingdom of David and Solomon was.',
         'In every case the right first move is to grant what is true in the objection. Nothing is gained by claiming more than the evidence gives, and a great deal is lost when a friend finds out.',
       ],
@@ -69,11 +69,11 @@ export const archaeologyAndTheBible: Topic = {
       id: 'arc-1',
       objection: 'There is not a scrap of archaeological evidence for the exodus. Two million people cannot cross a desert without leaving a trace.',
       response:
-        'There is no direct evidence, and I would rather say so plainly. No Egyptian inscription mentions it and no encampments have been found. Three things are worth weighing against that. Egyptian royal inscriptions record victories, not humiliations. People who live in tents and move on leave almost nothing for a spade to find. And the story has an Egyptian colour that is hard to explain if it was invented centuries later in Judah: Semitic peoples did live in the eastern Nile delta in the second millennium BC, and names such as Moses, Phinehas and Hophni are Egyptian. By about 1208 BC a pharaoh’s monument can already name Israel as a people in Canaan.',
+        'There is no direct evidence, and I would rather say so plainly. No Egyptian inscription mentions it and no encampments have been found. Three things are worth weighing against that. Egyptian royal inscriptions record victories, not humiliations. People who live in tents and move on leave very little, though archaeologists have traced the camps of other nomads in Sinai. And the story has an Egyptian colour that is hard to explain if it was invented centuries later in Judah: Semitic peoples did live in the eastern Nile delta in the second millennium BC, and names in Moses’ family such as Phinehas are Egyptian, as his own name may be. By about 1208 BC a pharaoh’s monument can already name Israel as a people in Canaan.',
       keyPoints: [
         'Concede it: there is no direct evidence for the exodus.',
         'Pharaohs did not record defeats, and tent-dwellers leave little trace.',
-        'Egyptian names and the Merneptah monument fit a people who came out of Egypt before 1208 BC.',
+        'Semites lived in the Nile delta, and Israel is named in Canaan by about 1208 BC.',
       ],
       references: ['Exodus 12:37', 'Exodus 2:10'],
       followUps: [
@@ -83,7 +83,7 @@ export const archaeologyAndTheBible: Topic = {
           followUps: [
             {
               reply: 'Archaeologists such as Israel Finkelstein say the Israelites were simply Canaanites who never left. The exodus is a national myth written down in the seventh century BC.',
-              answer: 'That is a serious view held by able scholars, and the villages that appear in the hill country around 1200 BC do continue Canaanite pottery traditions. But those villages also differ. They have almost no pig bones, where Philistine sites of the same period have plenty, which suggests a people with customs of its own. Other scholars, such as James Hoffmeier and Kenneth Kitchen, argue that the Egyptian details in the story fit the late second millennium better than the seventh century. And it would be a strange thing for a nation to invent. Most peoples give themselves heroic beginnings, not centuries of slavery.',
+              answer: 'That is a serious view held by able scholars, and the villages that appear in the hill country around 1200 BC do continue Canaanite pottery traditions. But those villages also differ. They have almost no pig bones, where the Philistine cities have plenty. Later study found few pigs at Canaanite lowland sites too, so this proves less than was once thought. Other scholars, such as James Hoffmeier and Kenneth Kitchen, argue that the Egyptian details in the story fit the late second millennium better than the seventh century. And it would be a strange thing for a nation to invent. Most peoples give themselves heroic beginnings, not centuries of slavery.',
             },
           ],
         },
@@ -93,17 +93,17 @@ export const archaeologyAndTheBible: Topic = {
       id: 'arc-2',
       objection: 'Kathleen Kenyon proved that Jericho’s walls fell centuries before Joshua, and that nobody was living there when he is supposed to have arrived.',
       response:
-        'Kenyon was a careful excavator, and her date for the destruction of the walled city, about 1550 BC, is still the majority view. Radiocarbon tests in the 1990s supported it. A minority, following Bryant Wood, argue from the pottery that the city fell about 1400 BC, which would suit an early date for Joshua. What nobody disputes is what the diggers found: a fortified city whose mudbrick walls had collapsed, destroyed in a great fire, with jars still full of grain. So it fell quickly, soon after a harvest, and its food was not carried off. Those details are close to the account in Joshua (Joshua 6:20, 24). The date, on the usual view, is not. I think it is an open question, and I would not use Jericho as a proof.',
+        'Kenyon was a careful excavator, and her date for the destruction of the walled city, about 1550 BC, is still the majority view. Radiocarbon tests in the 1990s supported it. A minority, following Bryant Wood, argue from the pottery that the city fell about 1400 BC, which would suit an early date for Joshua. What is little disputed is what the diggers found: a fortified city destroyed in a great fire, with stores of charred grain from the last harvest before it fell. Wood argues from the grain that the city fell quickly and was not plundered, as Joshua describes (Joshua 6:24). Others think the attackers may have been Egyptian. Later work found a smaller town there in the fourteenth century BC, but none from the thirteenth. So the fire and the grain resemble Joshua’s account, and the date, on the usual view, does not. I think it is an open question, and I would not use Jericho as a proof.',
       keyPoints: [
         'Kenyon’s date of about 1550 BC is still the majority view.',
-        'The finds themselves, fallen walls, fire and full grain jars, are close to Joshua’s account.',
+        'The fire and the stores of grain resemble Joshua’s account; the usual date does not.',
         'The date is disputed; do not use Jericho as a proof.',
       ],
       references: ['Joshua 6:20', 'Joshua 6:24', 'Joshua 3:15'],
       followUps: [
         {
           reply: 'And Ai? The site was an empty ruin from about 2400 BC until long after Joshua. The name even means “the ruin”. The story was made up to explain a heap of stones.',
-          answer: 'Yes. At et-Tell, the site most scholars identify as Ai, there was no town between about 2400 and 1200 BC, and the name does mean ruin. This is one of the hardest problems in the book of Joshua. The proposals are that the old ruin was used as an outpost by the nearby town of Bethel, or that Ai was somewhere else. Excavators at Khirbet el-Maqatir, a short distance away, have found a small fortress of the right period and argue for that site. That is a minority view. I mention it as a possibility, not as an answer.',
+          answer: 'Yes. At et-Tell, the site most scholars identify as Ai, there was no town between about 2400 and 1200 BC, and the name does mean ruin. This is one of the hardest problems in the book of Joshua. The proposals are that the old ruin was used as an outpost by the nearby town of Bethel, or that Ai was somewhere else. Excavators at Khirbet el-Maqatir, a short distance away, have found a small fortress that they date to about 1400 BC, the right period only on the early date for Joshua, and argue for that site. That is a minority view. I mention it as a possibility, not as an answer.',
         },
         {
           reply: 'Surveys show no wave of destruction across Canaan at one time. The conquest never happened.',
@@ -115,7 +115,7 @@ export const archaeologyAndTheBible: Topic = {
       id: 'arc-3',
       objection: 'There is no evidence of a great kingdom of David and Solomon. Jerusalem in the tenth century BC was a hill village. They were tribal chiefs at most, if they existed.',
       response:
-        'Until 1993 some scholars doubted that David existed at all. Then the Tel Dan inscription was found, in which an enemy king about a century and a half later refers to Judah’s rulers as the “House of David”. So there was a David, and he founded a dynasty. How large his kingdom was is a fair debate. Tenth-century Jerusalem has been built over ever since and has yielded little, and archaeologists disagree about the dating of the large structures found there and of the great gates at Hazor, Megiddo and Gezer, cities the Bible says Solomon built up (1 Kings 9:15). A fortified town of about 1000 BC at Khirbet Qeiyafa, on Judah’s border with the Philistines, is taken by its excavator as evidence of an organised kingdom in David’s time. I would say that David’s existence is settled and the size of his kingdom is not.',
+        'Until 1993 some scholars doubted that David existed at all. Then the Tel Dan inscription was found, in which an enemy king about a century and a half later refers to Judah’s rulers as the “House of David”. So there was a David, and he founded a dynasty. How large his kingdom was is a fair debate. Tenth-century Jerusalem has been built over ever since and has yielded little, and archaeologists disagree about the dating of the large structures found there and of the great gates at Hazor, Megiddo and Gezer, cities the Bible says Solomon built up (1 Kings 9:15). A fortified town of about 1000 BC at Khirbet Qeiyafa, on Judah’s border with the Philistines, is taken by its excavator as evidence of an organised kingdom in David’s time. Others date it a little later, or doubt that it belonged to Judah. I would say that David’s existence is settled and the size of his kingdom is not.',
       keyPoints: [
         'The Tel Dan inscription shows that David founded a dynasty.',
         'The extent of his kingdom is honestly debated among archaeologists.',
@@ -205,7 +205,7 @@ export const archaeologyAndTheBible: Topic = {
       id: 'arc-8',
       objection: 'Genesis has Abraham using camels a thousand years before camels were domesticated. Archaeologists proved it in 2014. The stories were written much later.',
       response:
-        'The study, published in 2013 and widely reported the next year, was real and careful. Two archaeologists from Tel Aviv University dated the camel bones at ancient copper works in the Arabah valley, south of the Dead Sea, and found that camels appear there as pack animals only in the late tenth century BC. That is good evidence for when camels came into regular use in that region. It does not show when camels were first tamed anywhere, and there is some evidence, which scholars weigh differently, for domesticated camels in Mesopotamia and Arabia much earlier. Genesis pictures camels as the costly possession of a rich man with family ties to Mesopotamia (Genesis 12:16; 24:10), not as a common animal. I would call it an open question and not make more of it than that.',
+        'The study, published in 2013 and widely reported the next year, was real and careful. Two archaeologists from Tel Aviv University dated the layers at ancient copper works in the Arabah valley, south of the Dead Sea, and found that camel bones appear there only from the late tenth century BC. That is good evidence for when camels came into regular use in that region. It does not show when camels were first tamed anywhere. There is some evidence, which scholars weigh differently, that camels were known in Mesopotamia and Syria much earlier, though most date the taming of the Arabian camel to the late second millennium BC. Genesis pictures camels as the costly possession of a rich man with family ties to Mesopotamia (Genesis 12:16; 24:10), not as a common animal. I would call it an open question and not make more of it than that.',
       keyPoints: [
         'The study dates camels as pack animals at copper works in southern Israel.',
         'It does not settle when camels were first domesticated elsewhere.',
@@ -215,7 +215,7 @@ export const archaeologyAndTheBible: Topic = {
       followUps: [
         {
           reply: 'You keep saying “open question”. Is there anything in archaeology that would make you give up the Bible?',
-          answer: 'That is a fair challenge. Christianity makes claims that could in principle be shown false, above all that Jesus was crucified, buried and raised (1 Corinthians 15:14). If his tomb had been produced with the body in it, the faith would have ended in Jerusalem. On the questions in this lesson, I try to hold each one in proportion. A disputed date for Jericho is not the same kind of thing as the evidence for the resurrection, and I would not stake my faith on a camel bone in either direction. What I can say is that over the last century and a half the trend has been for finds to fill in the Bible’s world, not to dissolve it.',
+          answer: 'That is a fair challenge. Christianity makes claims that could in principle be shown false, above all that Jesus was crucified, buried and raised (1 Corinthians 15:14). If his tomb had been produced with the body in it, the faith would have ended in Jerusalem. On the questions in this lesson, I try to hold each one in proportion. A disputed date for Jericho is not the same kind of thing as the evidence for the resurrection, and I would not stake my faith on a camel bone in either direction. What I can say is this. From the kings of Israel onward, and for the New Testament, finds have steadily filled in the Bible’s world. For the patriarchs, the exodus and the conquest, opinion among archaeologists has moved the other way since the 1970s, and I would rather you heard that from me.',
         },
       ],
     },
@@ -310,12 +310,12 @@ export const archaeologyAndTheBible: Topic = {
       question: 'What is the present state of the debate about Jericho?',
       options: [
         'Everyone agrees that the walls fell in Joshua’s time',
-        'Most archaeologists date the destruction to about 1550 BC, a minority to about 1400 BC, and the finds themselves resemble Joshua’s account',
+        'Most archaeologists date the destruction to about 1550 BC and a minority to about 1400 BC; the burned city and its stores of grain resemble Joshua’s account',
         'No walls have ever been found there',
         'The site has never been excavated',
       ],
       answer: 1,
-      explanation: 'Fallen walls, a great fire and jars full of grain were found. The dispute is over the date, so Jericho should not be used as a proof.',
+      explanation: 'A great fire and stores of charred grain were found. The dispute is over the date, so Jericho should not be used as a proof.',
     },
     {
       id: 'arc-q9',
@@ -344,7 +344,7 @@ export const archaeologyAndTheBible: Topic = {
   ],
   furtherReading: [
     'K. A. Kitchen, On the Reliability of the Old Testament (inscriptions and the Old Testament, by an Egyptologist who defends its history)',
-    'Israel Finkelstein and Amihai Mazar, The Quest for the Historical Israel (two leading archaeologists who disagree, in debate)',
+    'Israel Finkelstein and Amihai Mazar, The Quest for the Historical Israel: Debating Archaeology and the History of Early Israel (two leading archaeologists who disagree, in debate)',
     'James K. Hoffmeier, Israel in Egypt: The Evidence for the Authenticity of the Exodus Tradition',
     'Craig A. Evans, Jesus and His World: The Archaeological Evidence',
     'Mordechai Cogan, The Raging Torrent: Historical Inscriptions from Assyria and Babylonia Relating to Ancient Israel (the texts in translation)',
