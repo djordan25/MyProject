@@ -44,11 +44,11 @@ export const archaeologyAndTheBible: Topic = {
     {
       heading: 'The New Testament in stone',
       body: [
-        'In 1961 a limestone block was found at Caesarea, the Roman capital of Judea, where it had been reused in the theatre. It carries a dedication by “Pontius Pilatus, Prefect of Judea”. It is the only known inscription that names him.',
-        'In 1990 a burial cave was found by accident in Jerusalem. One ornate bone box, or ossuary, is inscribed “Joseph son of Caiaphas”, which is the name Josephus gives to the high priest of Jesus’ trial (Antiquities 18.35). Most scholars accept it as the tomb of that family, though some doubt the reading of the name.',
+        'In 1961 a limestone block was found at Caesarea, the Roman capital of Judea, where it had been reused in the theatre. It carries a dedication by “Pontius Pilatus, Prefect of Judea”. It is the only inscription on stone that names him.',
+        'In 1990 a burial cave was found by accident in Jerusalem. One ornate bone box, or ossuary, is inscribed “Joseph son of Caiaphas”. Josephus calls the high priest of Jesus’ trial “Joseph, who was also called Caiaphas” (Antiquities 18.35 and 18.95). Many scholars accept it as the tomb of that family, though some doubt the identification.',
         'John mentions two pools in Jerusalem. The pool of Bethesda had “five covered colonnades” (John 5:2), a detail that some once took as symbolic. Excavations north of the Temple Mount uncovered a pair of pools divided by a wall, which would give colonnades on four sides and one across the middle. The pool of Siloam, where the blind man was sent to wash (John 9:7), came to light in 2004 during work on a sewer: a large stepped pool of the time of Jesus.',
-        'Luke says that Paul was brought before Gallio, “proconsul of Achaia” (Acts 18:12). An inscription from Delphi, a letter of the emperor Claudius, names Gallio as proconsul and dates his term to AD 51 or 52, which fixes Paul’s stay in Corinth. For the city officials of Thessalonica, Luke uses an unusual title, politarchs (Acts 17:6). It is not found in other ancient literature, but it has turned up on inscriptions from the city and the region, one of which, from a Roman gate, is in the British Museum.',
-        'Luke dates the ministry of John the Baptist to the time when Lysanias was tetrarch of Abilene (Luke 3:1). The only Lysanias known from the historians had died in 36 BC, and Luke was charged with a mistake, until an inscription near Abila was noticed that names “Lysanias the tetrarch” and dates from the reign of Tiberius.',
+        'Luke says that Paul was brought before Gallio, “proconsul of Achaia” (Acts 18:12). An inscription from Delphi, a letter of the emperor Claudius written in AD 52, names Gallio as proconsul, which puts his term in AD 51 or 52 and gives a date for Paul’s stay in Corinth. For the city officials of Thessalonica, Luke uses an unusual title, politarchs (Acts 17:6). It is almost unknown in other ancient literature, but it has turned up on inscriptions from the city and the region, one of which, from a Roman gate, is in the British Museum.',
+        'Luke dates the ministry of John the Baptist to the time when Lysanias was tetrarch of Abilene (Luke 3:1). Josephus tells the story of only one Lysanias, who was killed about 36 BC, and Luke was charged with a mistake. But Josephus also speaks of Abila, which “had been the tetrarchy of Lysanias” (Antiquities 20.138), and an inscription from Abila names “Lysanias the tetrarch” and was most likely cut in the reign of Tiberius.',
         'In 1968 the bones of a crucified man named Yehohanan were found in a family tomb in Jerusalem, with an iron nail still through the heel bone. It was the first physical evidence of Roman crucifixion to be found, and it shows that a crucified man could be given an honourable burial, as the Gospels say Jesus was (Mark 15:43-46).',
       ],
       references: ['John 5:2', 'John 9:7', 'Acts 17:6', 'Acts 18:12', 'Luke 3:1', 'Mark 15:43-46'],
@@ -133,7 +133,7 @@ export const archaeologyAndTheBible: Topic = {
       id: 'arc-4',
       objection: 'Nazareth did not exist in the time of Jesus. It is not mentioned in the Old Testament, in Josephus or in the Talmud. The Gospels invented it.',
       response:
-        'It is true that no writer mentions Nazareth before the Gospels, which is what you would expect of a village of a few hundred people. Josephus says Galilee had 204 towns and villages and names only a fraction of them. But the ground has answered the question. Excavations in Nazareth have found houses of the first century, including one uncovered by the Israel Antiquities Authority in 2009, along with storage pits, cisterns and rock-cut tombs of the kind Jews used in that period. An inscription from Caesarea also lists Nazareth as the home of a family of priests. And nobody inventing a home town for a Messiah would have chosen it: “Can anything good come from Nazareth?” (John 1:46).',
+        'It is true that no writer mentions Nazareth before the Gospels, which is what you would expect of a village of a few hundred people. Josephus says Galilee had 204 towns and villages and names only a fraction of them. But the ground has answered the question. Excavations in Nazareth have found houses of the first century, including one uncovered by the Israel Antiquities Authority in 2009, along with storage pits, cisterns and rock-cut tombs of the kind Jews used in that period. A later Hebrew inscription from Caesarea, of about the third to fifth century, lists Nazareth as a place where a family of priests settled after the temple fell. And nobody inventing a home town for a Messiah would have chosen it: “Can anything good come from Nazareth?” (John 1:46).',
       keyPoints: [
         'A small village goes unmentioned in most ancient writing.',
         'First-century houses and tombs have been excavated at Nazareth.',
@@ -143,7 +143,7 @@ export const archaeologyAndTheBible: Topic = {
       followUps: [
         {
           reply: 'Those remains are from after AD 70. René Salm has shown there was no village there in the time of Jesus.',
-          answer: 'Salm is not an archaeologist, and the archaeologists who have worked at Nazareth reject his reading of their reports. Ken Dark, who has studied the site for years, dates houses there to the first century, and the tombs lie in a ring around the ancient village, outside it, as Jewish custom required. The 2009 excavation reported pottery of the early Roman period. Even scholars who doubt a great deal in the Gospels accept that Jesus came from Nazareth.',
+          answer: 'Salm is not an archaeologist, and the archaeologists who have worked at Nazareth reject his reading of their reports. Ken Dark, who has studied the site for years, dates a house there to the first century, and reports that tombs were cut on the spot only after it had gone out of use. The 2009 excavation reported pottery of the early Roman period. Even scholars who doubt a great deal in the Gospels accept that Jesus came from Nazareth.',
         },
       ],
     },
@@ -161,7 +161,7 @@ export const archaeologyAndTheBible: Topic = {
       followUps: [
         {
           reply: 'Homer gets the geography of Troy right too. Accurate background and legendary events can go together.',
-          answer: 'They can, and the comparison is useful. Homer composed his poems centuries after the war he describes, in verse, about gods who take the field. The Gospels and Acts were written within a lifetime of their events, in the plain prose of ancient biography and history, and they name governors, priests and rulers who can be checked. The fair comparison is with other ancient historians. When Josephus or Tacitus proves accurate where we can test him, historians give more weight to the rest. The same rule should apply to Luke.',
+          answer: 'They can, and the comparison is useful. Homer composed his poems centuries after the war he describes, in verse, about gods who take the field. The Gospels and Acts, on the view of most scholars, were written within a lifetime of their events, in the plain prose of ancient biography and history, and they name governors, priests and rulers who can be checked. The fair comparison is with other ancient historians. When Josephus or Tacitus proves accurate where we can test him, historians give more weight to the rest. The same rule should apply to Luke.',
         },
       ],
     },
@@ -169,7 +169,7 @@ export const archaeologyAndTheBible: Topic = {
       id: 'arc-6',
       objection: 'Christians keep announcing finds that turn out to be fakes: the James ossuary, Noah’s ark, chariot wheels in the Red Sea. Why trust any of it?',
       response:
-        'You are right to be wary, and Christians have earned some of that suspicion. The claims about the ark and the chariot wheels come from amateurs and have never been verified. The James ossuary, a bone box with an inscription naming James the brother of Jesus, came from the antiquities market and not from an excavation. After a trial in Israel that lasted seven years, its owner was acquitted of forging the inscription, but the judge said that this did not prove it genuine, and scholars remain divided. That is exactly why the finds in this lesson are of a different kind. The Tel Dan inscription, the Pilate stone, the Caiaphas tomb and the pool of Siloam were found in the ground by professional archaeologists, published, and put on display. The rule is simple: if it was not excavated and published, do not build on it.',
+        'You are right to be wary, and Christians have earned some of that suspicion. The claims about the ark and the chariot wheels come from amateurs and have never been verified. The James ossuary, a bone box with an inscription naming James the brother of Jesus, came from the antiquities market and not from an excavation. After a long trial in Israel, which ended in 2012, its owner was acquitted of forging the inscription, but the judge said that this did not prove it genuine, and scholars remain divided. That is exactly why the finds in this lesson are of a different kind. The Tel Dan inscription, the Pilate stone, the Caiaphas tomb and the pool of Siloam were excavated and published by professional archaeologists, and can be seen today. The rule is simple: if it was not excavated and published, do not build on it.',
       keyPoints: [
         'Agree: sensational and market-bought finds deserve suspicion.',
         'The finds in this lesson were excavated by professionals and published.',
@@ -279,19 +279,19 @@ export const archaeologyAndTheBible: Topic = {
         'The location of the tomb of Jesus',
       ],
       answer: 1,
-      explanation: 'It is the only known inscription that names Pilate, and it gives his title.',
+      explanation: 'It is the only inscription on stone that names Pilate, and it gives his title.',
     },
     {
       id: 'arc-q6',
-      question: 'Why was Luke’s word for the city officials of Thessalonica once counted as a mistake?',
+      question: 'What is unusual about Luke’s word for the city officials of Thessalonica?',
       options: [
-        'Because Thessalonica had no officials',
-        'Because the title, politarchs, was not found in other ancient literature until inscriptions turned up',
-        'Because the word is Latin',
-        'Because Luke never visited the city',
+        'It is a Latin word in a Greek book',
+        'The title, politarchs, is almost unknown in ancient literature, yet inscriptions from the city confirm it',
+        'It is the usual title of a Roman governor',
+        'It is found only in the Old Testament',
       ],
       answer: 1,
-      explanation: 'The title in Acts 17:6 has since been found on inscriptions from Thessalonica and its region.',
+      explanation: 'The title in Acts 17:6 has been found on inscriptions from Thessalonica and its region.',
     },
     {
       id: 'arc-q7',
