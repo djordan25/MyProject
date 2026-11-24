@@ -12,7 +12,7 @@ export const islamicDilemma: Topic = {
         'The Quran repeatedly affirms the Torah (Tawrat) and the Gospel (Injil) as revelations from God: “He revealed the Torah and the Gospel” (Quran 3:3). It says the Gospel contains “guidance and light” (Quran 5:46).',
         'Crucially, it treats these scriptures as available and authoritative in Muhammad’s own day. “Let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47). Jews are asked why they come to Muhammad for judgment “while they have the Torah, in which is the judgement of Allah” (Quran 5:43).',
         'It even tells Christians and Jews they are “standing on nothing” unless they uphold the Torah and the Gospel (Quran 5:68), and tells Muhammad, if in doubt, to “ask those who have been reading the Scripture before you” (Quran 10:94).',
-        'And the Quran insists that no one can change God’s words (Quran 6:34, 6:115, 10:64, 18:27).',
+        'And the Quran insists that no one can change God’s words (Quran 6:34, 6:115, 10:64, 18:27). Expect the reply that commentators such as Ibn Kathir read most of these verses as speaking of God’s decrees and promises, not of written scripture.',
       ],
       references: ['Quran 3:3', 'Quran 5:43-48', 'Quran 5:68', 'Quran 10:94', 'Quran 6:115', 'Quran 18:27'],
     },
@@ -30,7 +30,7 @@ export const islamicDilemma: Topic = {
     {
       heading: 'The dilemma',
       body: [
-        'The Bible that Christians possessed in the seventh century is the same Bible we have today: Greek Bibles such as the fourth-century Codex Sinaiticus (the complete New Testament and about half the Old) and Codex Vaticanus (most of both) were copied centuries before Muhammad and still exist. And that Bible teaches that Jesus is the divine Son of God who died on the cross for sins and rose again (John 1:1-14; 1 Corinthians 15:3-4).',
+        'The Bible that Christians possessed in the seventh century is in substance the same Bible we have today: Greek Bibles such as the fourth-century Codex Sinaiticus (the complete New Testament and about half the Old) and Codex Vaticanus (most of both) were copied centuries before Muhammad and still exist. And that Bible teaches that Jesus is the divine Son of God who died on the cross for sins and rose again (John 1:1-14; 1 Corinthians 15:3-4).',
         'So either the Torah and Gospel in Christian hands were reliable in Muhammad’s day, or they were not.',
         'If they were reliable, Islam is false — because the Quran contradicts them on the most central points (the crucifixion, Jesus’ deity, salvation).',
         'If they were not reliable, Islam is false — because the Quran tells Christians to judge by a Gospel they supposedly don’t have, and tells Muhammad to check his revelation against corrupted books, and claims no one can change God’s words.',
@@ -61,7 +61,7 @@ export const islamicDilemma: Topic = {
       heading: 'Common escape routes',
       body: [
         '“The Injil was a book given to Jesus, not the four Gospels.” But the Quran addresses “the People of the Gospel” living in Muhammad’s day and tells them to judge by what is in it (Quran 5:47). Those people used the four Gospels. There is no other Injil they could have consulted.',
-        '“The Quran says they distorted the words.” Read those verses closely. Quran 2:75, 4:46 and 5:13 speak of some Jews distorting words — twisting meaning or speech (“twisting their tongues”, Quran 4:46) — not rewriting every copy of the text. Quran 2:79 condemns some who write a book with their own hands and pass it off as from God — that describes a forgery, not the corruption of the genuine Torah everyone could still consult.',
+        '“The Quran says they distorted the words.” Read those verses closely. Quran 2:75, 4:46 and 5:13 speak of some Jews distorting words — twisting meaning or speech (“twisting their tongues”, Quran 4:46) — not rewriting every copy of the text. Quran 2:79 condemns some who write a book with their own hands and pass it off as from God — that describes a forgery, not the corruption of the genuine Torah everyone could still consult, though some early commentators took it to mean that the Torah’s description of Muhammad was altered.',
         'Expect Muslims to cite Sahih al-Bukhari 7363, where Ibn Abbas says Allah has told the Muslims that the People of the Scripture changed and distorted their scripture. He seems to have Quran 2:79 in mind, which condemns some who write a book with their own hands; it does not say the Torah itself was rewritten. His statement has to be weighed against the Quran itself (Quran 5:47; 6:115) and against Muhammad’s own practice of calling for the Torah and judging by it (Sahih al-Bukhari 7543).',
       ],
       references: ['Quran 2:75', 'Quran 2:79', 'Quran 4:46', 'Quran 5:13', 'Sahih al-Bukhari 7363'],
@@ -81,11 +81,11 @@ export const islamicDilemma: Topic = {
               followUps: [
                 {
                   reply: 'They could tell by the Quran. To judge by the Gospel is to accept Muhammad, whom they find foretold in it (Quran 7:157). Ibn Kathir explains the verse that way.',
-                  answer: 'Ibn Kathir does give that reading: they are to believe all that is in it, including the news of Muhammad. Notice what it grants. The book in Jewish and Christian hands in the seventh century is called the Torah and the Gospel, and Muhammad is said to be written “in what they have” of it (Quran 7:157). So the book was sound enough to be evidence for Muhammad. That same book says Jesus was crucified and rose. It cannot be reliable when it is wanted as a witness and corrupt when it disagrees.',
+                  answer: 'Ibn Kathir does give that reading: they are to believe all that is in it, including the news of Muhammad. (His other reading applies the verse to the Gospel’s people in their own time.) Notice what it grants. The book in Jewish and Christian hands in the seventh century is called the Torah and the Gospel, and Muhammad is said to be written “in what they have” of it (Quran 7:157). So the book was sound enough to be evidence for Muhammad. That same book says Jesus was crucified and rose. It cannot be reliable when it is wanted as a witness and corrupt when it disagrees.',
                   followUps: [
                     {
                       reply: 'Allah preserved the prophecies of Muhammad in it and let the rest be changed. The Comforter whom Jesus promised in John is Muhammad.',
-                      answer: 'Jesus calls the one he promises “the Spirit of truth”, whom the world cannot see, who was already with the disciples and would be in them (John 14:16-17). He told those same disciples to wait in Jerusalem for him, and that it would be “in a few days” (Acts 1:4-5). That is not a man born more than five centuries later. And no copy of John, in any language, has those sayings without the cross. The lesson Is Muhammad Foretold in the Bible? covers this.',
+                      answer: 'Jesus calls the one he promises “the Spirit of truth”, whom the world cannot see, who was already with the disciples and would be in them (John 14:16-17). He told those same disciples to wait in Jerusalem for him, and that it would be “in a few days” (Acts 1:4-5). That is not a man born more than five centuries later. And the same Gospel of John that records those sayings goes on to record the cross. The lesson Is Muhammad Foretold in the Bible? covers this.',
                     },
                   ],
                 },
@@ -107,7 +107,7 @@ export const islamicDilemma: Topic = {
       objection: 'The Injil the Quran mentions was the original revelation given to Jesus, which is now lost.',
       response:
         'If it was lost before Muhammad, why does the Quran command Christians in Muhammad’s day to judge by what God revealed in it (Quran 5:47)? Why tell them they’re standing on nothing until they uphold it (Quran 5:68)? You can’t judge by a book that doesn’t exist. The only Gospel the Christians of Arabia had was the one we have now.',
-      keyPoints: ['Quran 5:47 assumes Christians possess the Gospel.', 'Quran 5:68 commands them to uphold it.', 'No other “Injil” existed in the seventh century.'],
+      keyPoints: ['Quran 5:47 assumes Christians possess the Gospel.', 'Quran 5:68 commands them to uphold it.', 'No church in the seventh century is known to have had another “Injil”.'],
       references: ['Quran 5:47', 'Quran 5:68'],
     },
     {
@@ -127,7 +127,7 @@ export const islamicDilemma: Topic = {
                   followUps: [
                     {
                       reply: 'The scholars of Islam have taught for centuries that the text was corrupted. Did they all misread the Quran?',
-                      answer: 'They did not all teach it. Al-Bukhari, in a chapter heading in the Book of Tawhid in his Sahih, explains “they distort” this way: no one removes the wording of any of Allah’s books; they distort it by misinterpreting it. Ibn Kathir’s own gloss on the distortion in Quran 2:75 is that they distorted its meaning. A detailed case that the text itself had been rewritten came from Ibn Hazm in Spain, who died in 1064, four centuries after Muhammad. He listed what he took to be errors in the Bible and reasoned that, since it disagrees with the Quran, it must have been altered. That is a conclusion drawn from the dilemma, not evidence against it.',
+                      answer: 'They did not all teach it. Al-Bukhari, in a chapter heading in the Book of Tawhid in his Sahih, explains “they distort” this way: no one removes the wording of any of Allah’s books; they distort it by misinterpreting it. Ibn Kathir’s own gloss on the distortion in Quran 2:75 is that they distorted its meaning, though elsewhere he says the books in their hands had also been altered. A detailed case that the text itself had been rewritten came from Ibn Hazm in Spain, who died in 1064, four centuries after Muhammad. He listed what he took to be contradictions and errors in the Bible and argued from them, and from its disagreement with the Quran, that it must have been altered. So far as that rests on the Quran, it is a conclusion drawn from the dilemma, not evidence against it.',
                     },
                   ],
                 },
@@ -137,7 +137,7 @@ export const islamicDilemma: Topic = {
         },
         {
           reply: 'Your own scholars admit the Bible was changed. The ending of Mark, the woman caught in adultery and 1 John 5:7 were all added later.',
-          answer: 'They are open about it, and they can be because thousands of manuscripts survive to compare. Those passages are marked in my Bible. Take all three away and nothing changes: the cross, the resurrection and the deity of Christ are in every manuscript of every Gospel. And this does not touch the dilemma. The Gospel that Christians had in the seventh century taught those things, and that is the book the Quran told them to judge by (Quran 5:47).',
+          answer: 'They are open about it, and they can be because thousands of manuscripts survive to compare. Those passages are marked in my Bible. Take all three away and nothing changes: the cross, the resurrection and the deity of Christ do not rest on any of them. And this does not touch the dilemma. The Gospel that Christians had in the seventh century taught those things, and that is the book the Quran told them to judge by (Quran 5:47).',
           followUps: [
             {
               reply: 'If even one verse was added, the book is no longer the pure word of God, and the Quran cannot have been approving it.',
@@ -149,7 +149,7 @@ export const islamicDilemma: Topic = {
       objection: 'The Bible was corrupted after Muhammad’s time.',
       response:
         'That’s historically impossible. We have manuscripts containing the whole New Testament and most of the Old, copied centuries before Muhammad was born, and thousands of New Testament manuscripts spread across the world. They teach the same things about Jesus’ death and deity. And if the Bible was reliable in Muhammad’s day, then the Quran is contradicting reliable scripture.',
-      keyPoints: ['Pre-Islamic manuscripts match today’s Bible.', 'Global spread made coordinated corruption impossible.', 'Either way, the dilemma stands.'],
+      keyPoints: ['Pre-Islamic manuscripts match today’s Bible in substance.', 'Global spread made coordinated corruption impossible.', 'Either way, the dilemma stands.'],
       references: ['Isaiah 40:8', 'Matthew 24:35'],
     },
     {
@@ -197,7 +197,7 @@ export const islamicDilemma: Topic = {
           followUps: [
             {
               reply: 'Ibn Kathir explains muhaymin: whatever in the earlier books agrees with the Quran is true, and whatever disagrees with it is false.',
-              answer: 'Ibn Kathir does quote that rule from an earlier scholar. He also reports that Ibn Abbas explained the word as “trustworthy” and as “witness”, and the Tafsir al-Jalalayn explains it as watching over the earlier Book and testifying to it. The rule is a later inference. It cannot be drawn from the verse, which begins by saying the Quran confirms the earlier Scripture (Quran 5:48). A witness who testifies for a document and then contradicts it is not a trustworthy witness.',
+              answer: 'Ibn Kathir does quote that rule from an earlier scholar. He also reports that Ibn Abbas explained the word as “trustworthy”, as “witness” and as “dominant”, and the Tafsir al-Jalalayn explains it as watching over the earlier Book and testifying to it. The rule is a later inference. It cannot be drawn from the verse, which begins by saying the Quran confirms the earlier Scripture (Quran 5:48). A witness who testifies for a document and then contradicts it is not a trustworthy witness.',
               followUps: [
                 {
                   reply: 'A later revelation always has authority over an earlier one. You do the same when you read the Old Testament in the light of the New.',

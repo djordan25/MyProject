@@ -20,7 +20,7 @@ export const understandingIslam: Topic = {
         'The Quran: believed to be the literal, uncreated word of Allah, revealed to Muhammad through the angel Gabriel (Jibril) between roughly AD 610 and 632. It has 114 surahs (chapters).',
         'The Sunnah: the example of Muhammad — what he said, did and approved — recorded in the hadith. Most of Islamic practice (how to pray, fast, etc.) comes from the hadith, not the Quran alone. The Quran itself commands obedience to the Messenger (Quran 3:32).',
         'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections. That is why this course leans on them first: a Sunni Muslim cannot simply dismiss them.',
-        'A note on translation: Quran quotations here follow Sahih International, a translation most Muslims accept. Words in [square brackets] are the translators’ additions and are not in the Arabic. Sometimes they soften a difficulty, so notice them.',
+        'A note on translation: Quran quotations here follow Sahih International, a widely used translation made by Muslims. Words in [square brackets] are the translators’ additions and are not in the Arabic. Sometimes they soften a difficulty, so notice them.',
       ],
       references: ['Quran 3:32', 'Quran 15:9'],
     },
@@ -29,7 +29,7 @@ export const understandingIslam: Topic = {
       body: [
         'Beyond the Quran and the two Sahih collections, Muslims draw on other writings. Know what each one is, because a Muslim may accept one and brush aside another.',
         'Other hadith collections: Sunan Abi Dawud, Jami at-Tirmidhi, Sunan Ibn Majah, Sunan an-Nasa’i and Musnad Ahmad. Each hadith in them is graded by Muslim scholars as sahih (authentic), hasan (good) or da‘if (weak). When this course cites one, the popup shows its grade. A hadith graded sahih or hasan carries real weight; a weak one does not.',
-        'Biography (sira): the earliest surviving full biography of Muhammad was written by Ibn Ishaq, about 120 years after his death, and survives in later editions and in the history of al-Tabari. Muslims value it for the story of Muhammad’s life, but hold it to a lower standard than the hadith, and will often reject a report from it that they dislike.',
+        'Biography (sira): the earliest surviving full biography of Muhammad was written by Ibn Ishaq, about 120 years after his death, and survives in later editions and in the history of al-Tabari. Muslims value it for the story of Muhammad’s life, but hold it to a lower standard than the hadith, and may reject a report from it as weakly attested.',
         'Commentary (tafsir): classical commentators such as al-Tabari, Ibn Kathir and the two Jalals explain the Quran verse by verse. They show how Muslims have traditionally read a verse, which answers the reply “that is only your interpretation”.',
         'Use these in order of strength: the Quran first, then Bukhari and Muslim, then other graded hadith, then commentary and biography. Say which one you are quoting.',
       ],
@@ -122,18 +122,18 @@ export const understandingIslam: Topic = {
         },
         {
           reply: 'Bukhari collected his hadith more than two hundred years after the Prophet. Why should anyone trust that?',
-          answer: 'That is a serious point, and I am not asking you to trust Bukhari. I quote him because most Muslims do. But see what you lose if the hadith go. The account of how the Quran was gathered after Muhammad’s death, and how Uthman made the standard copies and burned the rest, comes from the same collections (Sahih al-Bukhari 4986, 4987). So does nearly everything known about Muhammad’s life. The Quran mentions him by name only four times (Quran 3:144; 33:40; 47:2; 48:29).',
+          answer: 'That is a serious point, and I am not asking you to trust Bukhari. I quote him because most Muslims do. But see what you lose if the hadith go. The account of how the Quran was gathered after Muhammad’s death, and how Uthman made the standard copies and burned the rest, comes from the same collections (Sahih al-Bukhari 4986, 4987). Nearly everything known about Muhammad’s life comes from the same body of tradition. The Quran mentions him by name only four times (Quran 3:144; 33:40; 47:2; 48:29).',
           followUps: [
             {
               reply: 'Allah promised to guard the Quran himself (Quran 15:9). I do not need the hadith to know it was preserved.',
-              answer: 'That promise stands inside the book whose preservation is in question, so it cannot be the evidence for it. A historical claim needs historical support, and for the Quran that support is the tradition you have set aside. The Gospels, by comparison, were written while eyewitnesses were still alive, and Luke says he drew on those eyewitnesses and investigated everything carefully (Luke 1:1-4).',
+              answer: 'That promise stands inside the book whose preservation is in question, so it cannot be the evidence for it. A historical claim needs historical support, and for the Quran, apart from the early manuscripts, that support is the tradition you have set aside. The Gospels, by comparison, were written within living memory of the events, while some eyewitnesses were still alive, and Luke says he drew on those eyewitnesses and investigated everything carefully (Luke 1:1-4).',
             },
           ],
         },
       ],
       objection: 'We only follow the Quran; the hadith are not reliable.',
       response:
-        'Some Muslims take that position, but the Quran itself repeatedly commands obedience to the Messenger as well as to Allah (Quran 3:32). Without the hadith, you couldn’t know how to perform the five daily prayers — the Quran doesn’t give the details. That’s why the vast majority of Muslims throughout history have accepted Sahih al-Bukhari and Sahih Muslim as authentic.',
+        'Some Muslims take that position, but the Quran itself repeatedly commands obedience to the Messenger as well as to Allah (Quran 3:32). Without the hadith, you couldn’t know how to perform the five daily prayers — the Quran doesn’t give the details. That’s why Sunni Muslims, the great majority, have for many centuries accepted Sahih al-Bukhari and Sahih Muslim as authentic.',
       keyPoints: ['Quran commands obeying the Messenger.', 'Core practice depends on hadith.', '“Quran-only” is a small minority view.'],
       references: ['Quran 3:32', 'Sahih al-Bukhari 8'],
     },
@@ -201,7 +201,7 @@ export const understandingIslam: Topic = {
       question: 'Where are the six articles of faith listed?',
       options: ['Quran 1:1-7', 'The Hadith of Gabriel (Sahih Muslim 8)', 'Quran 112', 'Sahih al-Bukhari 1'],
       answer: 1,
-      explanation: 'Gabriel asks Muhammad “What is iman (faith)?” and the six articles are listed.',
+      explanation: 'Gabriel asks Muhammad to tell him about iman (faith), and the six articles are listed.',
     },
     {
       id: 'iu-q5',
