@@ -6,6 +6,7 @@ import { shuffle } from '../lib/shuffle';
 import { EdButton, EdEmptyState, EdIcon } from 'editorial-ui';
 import RadioChips from '../components/RadioChips';
 import { verseId } from '../lib/verses';
+import { lockedTopicIds } from '../lib/path';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
 import ListenDeck from '../components/ListenDeck';
@@ -25,14 +26,18 @@ export default function Practice() {
   const dueVerses = p.verses.filter((r) => isDue(p, verseId(r))).length;
 
   const only = params.get('ids');
+  const lockedKey = [...lockedTopicIds(p)].join(',');
+  const locked = useMemo(() => new Set(lockedKey.split(',')), [lockedKey]);
   const pool = useMemo(() => {
     const track = tracks.find((t) => t.id === trackId);
     const ts = track ? topicsInTrack(track) : topics;
-    const all = ts.flatMap((t) => t.objections.map((o) => ({ o, topic: t.title })));
+    const everything = ts.flatMap((t) => t.objections.map((o) => ({ o, topic: t.title, topicId: t.id })));
     // ?ids=a,b,c narrows practice to those objections (used by the conversation journal).
     const ids = only?.split(',');
-    return ids ? all.filter(({ o }) => ids.includes(o.id)) : all;
-  }, [trackId, only]);
+    if (ids) return everything.filter(({ o }) => ids.includes(o.id));
+    // Topics still locked on the path stay out of practice, apart from anything already practised.
+    return everything.filter(({ o, topicId }) => !locked.has(topicId) || p.drills[o.id]);
+  }, [trackId, only, locked]);
 
   const counts = useMemo(
     () => ({
@@ -74,7 +79,8 @@ export default function Practice() {
           <Link to="/verses"><EdIcon name="Bookmark" size="sm" /> Memory verses{dueVerses ? ` · ${dueVerses} due` : ''}</Link>
         </EdButton>
       </div>
-      {only && <p className="deck-count">From a conversation you logged · <Link to="/practice">show all objections</Link></p>}
+      {only && <p className="deck-count">A chosen set of objections · <Link to="/practice">show all objections</Link></p>}
+      {!only && lockedKey && <p className="deck-count">Objections from topics still locked on the path are left out until you reach them.</p>}
       <div className="filters">
         <label className="select">
           <span className="muted">Track</span>

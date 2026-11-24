@@ -6,7 +6,7 @@ import VerseDrill from '../components/VerseDrill';
 import { EdButton, EdProgressSegmented, EdStat, EdStatGrid } from 'editorial-ui';
 import Seal from '../components/Seal';
 import { useDrillFormat } from '../lib/drillFormat';
-import { daysPractised, progress, useProgress } from '../lib/progress';
+import { daysPractised, progress, useProgress, XP } from '../lib/progress';
 import { buildSession } from '../lib/session';
 import { useAudience } from '../lib/profile';
 
@@ -78,9 +78,9 @@ export default function Session() {
       {inQuiz && (
         <Quiz
           questions={quiz}
-          onFinish={(score) => {
+          onFinish={(score, correct) => {
             setQuizScore(score);
-            progress.recordPractice();
+            progress.award(correct * XP.quizCorrect);
             setStep(step + 1);
           }}
         />

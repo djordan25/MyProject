@@ -2,9 +2,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { EdIcon } from 'editorial-ui';
 import { topics } from '../content';
-import { isDue, localDate, topicCompletion, useProgress } from '../lib/progress';
+import { isDue, localDate, useProgress } from '../lib/progress';
+import { nextStep, stepLink, stepTitle, topicCleared, topicStarted } from '../lib/path';
+import { getTopic } from '../content';
+import PlayerStrip from '../components/PlayerStrip';
 import { buildSession } from '../lib/session';
-import { AUDIENCES, orderedTopics, orderedTracks, useAudience } from '../lib/profile';
+import { AUDIENCES, DOUBTS_FIRST, orderedTracks, useAudience } from '../lib/profile';
 import Onboarding from '../components/Onboarding';
 import TopicIcon from '../components/TopicIcon';
 import TrackRow from '../components/TrackRow';
@@ -16,12 +19,13 @@ export default function Home() {
   const p = useProgress();
   const audience = useAudience();
   const [changing, setChanging] = useState(false);
-  // The topic to suggest: the first one begun but unfinished, otherwise the first not yet begun.
-  const ordered = orderedTopics(audience);
-  const done = (id: string) => topicCompletion(p, id, ordered.find((t) => t.id === id)!.objections.map((o) => o.id));
-  const inProgress = ordered.find((t) => done(t.id) > 0 && done(t.id) < 1);
-  const next = inProgress ?? ordered.find((t) => done(t.id) === 0);
-  const started = Boolean(inProgress);
+  // The step to suggest: the next one on the path of the track this learner is working through.
+  const doubt = audience === 'doubts' ? DOUBTS_FIRST.map((id) => getTopic(id)).find((t) => t && !topicCleared(p, t)) : undefined;
+  const step = orderedTracks(audience).map((t) => nextStep(p, t)).find(Boolean);
+  const next = doubt ? { title: doubt.title, icon: doubt.icon, to: `/topic/${doubt.id}`, started: topicStarted(p, doubt) }
+    : step ? { title: stepTitle(step), icon: step.kind === 'topic' ? step.topic.icon : '⚔', to: stepLink(step), started: step.kind === 'boss' || topicStarted(p, step.topic) }
+    : null;
+  const started = Boolean(next?.started);
   // Objections already practised at least once whose review date has arrived.
   const due = topics.flatMap((t) => t.objections).filter((o) => p.drills[o.id] && isDue(p, o.id)).length;
   const today = buildSession(p, audience);
@@ -55,6 +59,8 @@ export default function Home() {
       </section>
       {(!audience || changing) && <Onboarding current={audience} onDone={() => setChanging(false)} />}
 
+      <PlayerStrip />
+
       <Link to="/today" className="card today" aria-label={`Start today’s practice: ${parts.join(', ')}`}>
         <div className="today-main">
           <span className="today-body">
@@ -74,11 +80,11 @@ export default function Home() {
       </Link>
 
       {next && (
-        <Link to={`/topic/${next.id}`} className="card card-link continue">
+        <Link to={next.to} className="card card-link continue">
           <span className="continue-label">
             <TopicIcon glyph={next.icon} />
             <span>
-              <span className="eyebrow">{started ? 'Continue' : 'Start here'}</span>
+              <span className="eyebrow">{started ? 'Continue on the path' : 'Start here'}</span>
               <strong>{next.title}</strong>
             </span>
           </span>

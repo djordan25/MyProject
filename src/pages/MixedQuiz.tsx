@@ -3,6 +3,8 @@ import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { topics, tracks, topicsInTrack } from '../content';
 import Quiz from '../components/Quiz';
+import { progress, useProgress, XP } from '../lib/progress';
+import { lockedTopicIds } from '../lib/path';
 
 const LENGTHS = [10, 25, 50];
 
@@ -13,14 +15,20 @@ export default function MixedQuiz() {
   const parent = track?.parent ? tracks.find((t) => t.id === track.parent) : undefined;
   const [round, setRound] = useState(0);
   const [length, setLength] = useState(LENGTHS[0]);
-  const bank = useMemo(() => (track ? topicsInTrack(track) : topics).flatMap((t) => t.quiz), [track]);
+  const p = useProgress();
+  const lockedKey = [...lockedTopicIds(p)].join(',');
+  // Questions come only from topics that are open on the path.
+  const bank = useMemo(() => {
+    const locked = new Set(lockedKey.split(','));
+    return (track ? topicsInTrack(track) : topics).filter((t) => !locked.has(t.id)).flatMap((t) => t.quiz);
+  }, [track, lockedKey]);
 
   return (
     <>
       <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
       <h1>Mixed quiz</h1>
       <p className="muted">
-        Random questions from {track ? `${parent ? `${parent.title}: ` : ''}${track.title}` : 'all tracks'}, drawn from a bank of {bank.length}.
+        Random questions from the topics you have opened in {track ? `${parent ? `${parent.title}: ` : ''}${track.title}` : 'all tracks'}, drawn from a bank of {bank.length}.
       </p>
       <div className="row">
         <span className="muted">Questions:</span>
@@ -38,7 +46,7 @@ export default function MixedQuiz() {
           </EdChip>
         ))}
       </div>
-      <Quiz key={`${round}-${length}`} questions={bank} limit={length} onFinish={() => {}} />
+      <Quiz key={`${round}-${length}`} questions={bank} limit={length} onFinish={(_, correct) => progress.award(correct * XP.quizCorrect)} />
       <div className="row">
         <EdButton variant="secondary" leadingIcon={<EdIcon name="Shuffle" size="sm" />} onClick={() => setRound((r) => r + 1)}>New set of questions</EdButton>
       </div>

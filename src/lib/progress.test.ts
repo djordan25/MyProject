@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { daysPractised, daysUntilReview, isDue, localDate, nextReview, progress, topicCompletion, topicSealed, type Progress } from './progress';
+import { daysPractised, daysUntilReview, emptyProgress, isDue, localDate, nextReview, progress, topicCompletion, topicSealed, type Progress } from './progress';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -15,6 +15,7 @@ describe('spaced repetition', () => {
 
   it('treats unseen, missed and expired objections as due', () => {
     const p: Progress = {
+      ...emptyProgress(),
       lessonsRead: {},
       quizBest: {},
       drills: { missed: 'review', fresh: 'got', old: 'got', legacy: 'got' },
@@ -61,7 +62,7 @@ describe('confidence ratings', () => {
 });
 
 describe('readiness and seals', () => {
-  const base: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [], conversations: [] };
+  const base: Progress = emptyProgress();
 
   it('weights objections by confidence, counting old ratings as Solid or Again', () => {
     const p: Progress = { ...base, confidence: { a: 'shaky', b: 'teach' }, drills: { a: 'review', b: 'got', c: 'got', d: 'review' } };

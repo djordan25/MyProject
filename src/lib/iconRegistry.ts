@@ -61,6 +61,17 @@ import {
   Sun as SunIcon,
   Swords as SwordsIcon,
   Triangle as TriangleIcon,
+  Lock as LockIcon,
+  Trophy as TrophyIcon,
+  Gamepad2 as Gamepad2Icon,
+  ChevronUp as ChevronUpIcon,
+  ChevronDown as ChevronDownIcon,
+  Timer as TimerIcon,
+  Snowflake as SnowflakeIcon,
+  Zap as ZapIcon,
+  ListOrdered as ListOrderedIcon,
+  Target as TargetIcon,
+  RotateCcw as RotateCcwIcon,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
@@ -132,4 +143,15 @@ export const ICONS: Record<string, LucideIcon> = {
   Sun: SunIcon,
   Swords: SwordsIcon,
   Triangle: TriangleIcon,
+  Lock: LockIcon,
+  Trophy: TrophyIcon,
+  Gamepad2: Gamepad2Icon,
+  ChevronUp: ChevronUpIcon,
+  ChevronDown: ChevronDownIcon,
+  Timer: TimerIcon,
+  Snowflake: SnowflakeIcon,
+  Zap: ZapIcon,
+  ListOrdered: ListOrderedIcon,
+  Target: TargetIcon,
+  RotateCcw: RotateCcwIcon,
 };
