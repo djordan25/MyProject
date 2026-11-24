@@ -9,6 +9,10 @@ import Emblem from '../components/Emblem';
 import ArgumentDiagram from '../components/ArgumentDiagram';
 import TimeAxis from '../components/TimeAxis';
 import { TIMELINE } from '../content/games';
+import { MAPS } from '../content/maps';
+import { chartsFor } from '../content/charts';
+import LessonChart from '../components/LessonChart';
+import LessonMap from '../components/LessonMap';
 import { EdButton, EdIcon, EdNotification, EdStatusBadge } from 'editorial-ui';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
@@ -167,6 +171,18 @@ function Learn({ topic }: { topic: Topic }) {
           <RefList refs={s.references} />
         </section>
       ))}
+      {chartsFor(topic.id).map((c) => (
+        <section key={c.id} className="card">
+          <h2>{c.title}</h2>
+          <LessonChart chart={c} topicId={topic.id} />
+        </section>
+      ))}
+      {MAPS[topic.id] && (
+        <section className="card">
+          <h2>Places in this lesson</h2>
+          <LessonMap topic={topic} />
+        </section>
+      )}
       {dated.length >= 2 && (
         <section className="card">
           <h2>Dates in this lesson</h2>
