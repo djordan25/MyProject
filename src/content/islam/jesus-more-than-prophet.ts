@@ -12,7 +12,7 @@ export const jesusMoreThanProphet: Topic = {
         'Born of a virgin (Quran 3:47; 19:20). Called the Messiah and “a word from Him” (Quran 3:45), “His word… and a soul from Him” (Quran 4:171).',
         'Called “a pure boy” (Quran 19:19). The Quran never records Jesus sinning or asking forgiveness, while it tells Muhammad to ask forgiveness for his sin (Quran 47:19). Sahih al-Bukhari 3431 says every child is touched by Satan at birth, except Mary and her son.',
         'Creates life from clay and gives life to the dead (Quran 3:49; 5:110). The Quran adds “by permission of Allah” — yet no other prophet is described as giving life this way.',
-        'Raised alive to Allah (Quran 4:158) and a sign of the Hour (Quran 43:61) — understood by Muslims as his return. Sahih al-Bukhari 3448: he will descend and judge justly.',
+        'Raised alive to Allah (Quran 4:158) and a sign of the Hour (Quran 43:61) — commonly understood by Muslims as his return. Sahih al-Bukhari 3448: he will descend and judge justly.',
         'Ask your Muslim friend: no other prophet is called God’s Word, said to give life, or expected to return. Why is Jesus so unique? Use this as a conversation opener, not a proof. Muslims will answer that all prophets are protected from sin and that Jesus acted “by permission of Allah”, and the Quran’s titles do not mean to them what they mean in the Bible. The proof is what Jesus himself said and did, below.',
       ],
       references: ['Quran 3:45-49', 'Quran 4:171', 'Quran 19:19', 'Quran 4:158', 'Quran 43:61', 'Sahih al-Bukhari 3431', 'Sahih al-Bukhari 3448'],
@@ -22,15 +22,15 @@ export const jesusMoreThanProphet: Topic = {
       body: [
         'He forgave sins committed against others, and his critics rightly asked, “Who can forgive sins but God alone?” (Mark 2:5-12).',
         'He claimed to be Lord of the Sabbath (Mark 2:28), which God instituted.',
-        'He will judge all people, and all will honour the Son as they honour the Father (John 5:22-23).',
-        'He received worship — from the disciples (Matthew 14:33; 28:9, 17) and from Thomas, who called him “My Lord and my God!” (John 20:28). Jesus did not correct him, while angels and apostles refused worship (Acts 10:25-26; Revelation 22:8-9).',
+        'He will judge all people, and all are to honour the Son as they honour the Father (John 5:22-23).',
+        'He received worship — from the disciples (Matthew 14:33; 28:9, 17) and from Thomas, who called him “My Lord and my God!” (John 20:28). Jesus did not correct him. The Greek word for worship can also mean bowing to a king or master, yet Peter and an angel refused it (Acts 10:25-26; Revelation 22:8-9).',
       ],
       references: ['Mark 2:5-12', 'Mark 2:28', 'John 5:22-23', 'Matthew 14:33', 'Matthew 28:9', 'John 20:28', 'Acts 10:25-26', 'Revelation 22:8-9'],
     },
     {
       heading: 'Jesus said who he was',
       body: [
-        '“Before Abraham was born, I am” (John 8:58) — taking the divine name of Exodus 3:14. The crowd picked up stones to stone him.',
+        '“Before Abraham was born, I am” (John 8:58) — echoing God’s “I am” in Exodus 3:14 and his “I am He” in Isaiah. The crowd picked up stones to stone him.',
         '“I and the Father are one” — again they picked up stones, “because You, who are a man, declare Yourself to be God” (John 10:30-33).',
         'Before the high priest, asked if he was the Christ, the Son of the Blessed, Jesus answered “I am”, and claimed to be the Son of Man who would sit at God’s right hand and come with the clouds of heaven (Mark 14:61-64; Daniel 7:13-14). He was condemned for blasphemy.',
         '“Anyone who has seen Me has seen the Father” (John 14:9).',
@@ -54,7 +54,7 @@ export const jesusMoreThanProphet: Topic = {
       heading: 'The Old Testament expected a divine Messiah',
       body: [
         'The child born would be called “Mighty God, Everlasting Father” (Isaiah 9:6). The Son of Man in Daniel 7 receives everlasting dominion and is served by all peoples (Daniel 7:13-14). The ruler from Bethlehem is one “whose origins are of old, from the days of eternity” (Micah 5:2).',
-        'The New Testament writers, all Jewish monotheists, proclaim him as God: John 1:1; Philippians 2:5-11; Colossians 2:9; Titus 2:13; Hebrews 1:8.',
+        'The New Testament writers, nearly all of them Jews and all of them monotheists, proclaim him as God: John 1:1; Philippians 2:5-11; Colossians 2:9; Titus 2:13; Hebrews 1:8.',
       ],
       references: ['Isaiah 9:6', 'Daniel 7:13-14', 'Micah 5:2', 'John 1:1', 'Philippians 2:5-11', 'Colossians 2:9', 'Titus 2:13', 'Hebrews 1:8'],
     },
@@ -107,7 +107,7 @@ export const jesusMoreThanProphet: Topic = {
           followUps: [
             {
               reply: 'It is a title of honour, as Abraham is called the friend of Allah. The same verse goes on to say he was only a messenger and that Allah has no son (Quran 4:171). And Allah breathed of his spirit into Adam too (Quran 15:29).',
-              answer: 'You are right that the Quran denies that Jesus is divine, and I am not claiming it teaches otherwise. But the title did not start with the Quran. Christians had been calling Jesus the Word of God for five hundred years and meant something definite by it (John 1:1), and the Quran keeps the title without saying why this one man should bear it. Here is a question in return: is Allah’s word created or uncreated? Sunni teaching is that the Quran, as Allah’s speech, is uncreated and eternal, so Muslims already hold that God’s Word can be eternal and distinct from him without being a second god.',
+              answer: 'You are right that the Quran denies that Jesus is divine, and I am not claiming it teaches otherwise. But the title did not start with the Quran. Christians had been calling Jesus the Word of God for five hundred years and meant something definite by it (John 1:1), and the Quran keeps the title without saying why this one man should bear it. Here is a question in return: is Allah’s word created or uncreated? Sunni teaching is that the Quran, as Allah’s speech, is uncreated and eternal, so most Muslims already hold that God’s Word can be eternal without being a second god.',
               followUps: [
                 {
                   reply: 'The Quran is Allah’s attribute of speech. It is not a person, and nobody worships it. The comparison fails.',
@@ -164,8 +164,8 @@ export const jesusMoreThanProphet: Topic = {
       ],
       objection: 'Jesus called himself “Son of Man”, which shows he was just a human.',
       response:
-        '“Son of Man” comes from Daniel 7:13-14, where one like a son of man comes with the clouds of heaven and receives everlasting dominion, glory and the service of all nations. When Jesus applied that title to himself before the high priest, he was condemned for blasphemy (Mark 14:62-64). It’s one of the highest claims he made.',
-      keyPoints: ['Origin: Daniel 7:13-14.', 'Receives everlasting dominion and service.', 'Led to the blasphemy charge.'],
+        'The phrase can simply mean a human being, but Jesus tied it to Daniel 7:13-14, where one like a son of man comes with the clouds of heaven and receives everlasting dominion, glory and the service of all nations. When Jesus applied that title to himself before the high priest, he was condemned for blasphemy (Mark 14:62-64). It’s one of the highest claims he made.',
+      keyPoints: ['Background: Daniel 7:13-14.', 'Receives everlasting dominion and service.', 'Led to the blasphemy charge.'],
       references: ['Daniel 7:13-14', 'Mark 14:61-64'],
     },
   ],
@@ -189,11 +189,11 @@ export const jesusMoreThanProphet: Topic = {
       question: 'According to Sahih al-Bukhari 3431, who were not touched by Satan at birth?',
       options: ['All prophets', 'Mary and her son', 'Muhammad and Abraham', 'No one'],
       answer: 1,
-      explanation: 'The hadith set Jesus apart from all other people.',
+      explanation: 'The hadith sets Mary and her son apart from all other people.',
     },
     {
       id: 'jp-q4',
-      question: 'Where does the title “Son of Man” come from?',
+      question: 'Which passage stands behind Jesus’ claim to be the “Son of Man”?',
       options: ['Genesis 1', 'Daniel 7:13-14', 'Psalm 23', 'Proverbs 8'],
       answer: 1,
       explanation: 'A divine figure receiving everlasting dominion.',
@@ -295,7 +295,7 @@ export const jesusMoreThanProphet: Topic = {
       id: 'jp-q14',
       question: 'Why is the Sunni belief that the Quran is uncreated useful in conversation about Jesus as the Word?',
       options: [
-        'It shows Muslims already accept that God’s Word can be eternal without being a second god',
+        'It shows most Muslims already accept that God’s Word can be eternal without being a second god',
         'It shows Muslims worship the Quran',
         'It proves the Quran teaches the Trinity',
         'It shows the Quran was written before creation by Jesus',

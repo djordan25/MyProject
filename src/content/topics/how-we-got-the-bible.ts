@@ -28,7 +28,7 @@ export const howWeGotTheBible: Topic = {
     {
       heading: 'Copying and textual criticism',
       body: [
-        'Because the books were copied by hand, copies differ in small ways: spellings, word order, a skipped line. With about 5,800 Greek manuscripts of the New Testament to compare, scholars can see where copies differ and work back to the original wording. This work is called textual criticism.',
+        'Because the books were copied by hand, copies differ in small ways: spellings, word order, a skipped line. With more than 5,000 Greek manuscripts of the New Testament to compare, scholars can see where copies differ and work back to the original wording. This work is called textual criticism.',
         'Christians are open about the results. The two longest passages missing from the earliest manuscripts are the ending of Mark (Mark 16:9-20) and the story of the woman caught in adultery (John 8:1-11). Modern Bibles mark both. No Christian teaching depends on either.',
         'The abundance of copies is a strength. A text controlled by one authority could be changed without trace. A text copied freely across three continents cannot.',
       ],
@@ -44,7 +44,7 @@ export const howWeGotTheBible: Topic = {
     {
       heading: 'The “lost gospels”',
       body: [
-        'Books such as the Gospel of Thomas, the Gospel of Judas and the Gospel of Mary are sometimes presented as suppressed alternatives to the four Gospels. They were written in the second century or later, long after the apostles had died, by authors who borrowed famous names.',
+        'Books such as the Gospel of Thomas, the Gospel of Judas and the Gospel of Mary are sometimes presented as suppressed alternatives to the four Gospels. They are generally dated to the second century or later, long after the apostles had died, by authors who borrowed famous names.',
         'They were never part of the Bible and then removed. Early Christians knew them, and rejected them because they came too late and contradicted what the apostles taught. The four Gospels are the only narrative accounts of Jesus’ life generally dated to the first century.',
       ],
       references: ['Luke 1:1-4', '2 Peter 1:16'],
@@ -55,7 +55,7 @@ export const howWeGotTheBible: Topic = {
       id: 'hb-1',
       objection: 'Constantine and the Council of Nicaea decided which books went into the Bible.',
       response:
-        'That is a modern myth. Nicaea in AD 325 dealt with Arius’s teaching about Christ, and none of its records mention choosing books. The four Gospels and Paul’s letters were being read as Scripture across the churches more than a century before Nicaea. Irenaeus named the four Gospels around AD 180, and Peter already speaks of Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16).',
+        'That is a myth. Nicaea in AD 325 dealt with Arius’s teaching about Christ, and none of its records mention choosing books. The four Gospels and Paul’s letters were being read as Scripture across the churches more than a century before Nicaea. Irenaeus named the four Gospels around AD 180, and 2 Peter, even on the later date critical scholars give it, already speaks of Paul’s letters alongside the rest of the Scriptures (2 Peter 3:15-16).',
       keyPoints: ['Nicaea was about Arius, not the canon.', 'Four Gospels named around AD 180.', 'Recognition began within the New Testament itself.'],
       references: ['2 Peter 3:15-16', '1 Timothy 5:18'],
       followUps: [
@@ -65,7 +65,7 @@ export const howWeGotTheBible: Topic = {
           followUps: [
             {
               reply: 'The winners write the history. One party won, called itself orthodox, and its books became the Bible. Other Christians, such as the Gnostics, had scriptures of their own.',
-              answer: 'There were rival groups, and that much is true. But “winners” suggests power, and in the second and third centuries, when the four Gospels and Paul’s letters came to be recognised everywhere, the church had none. It was an illegal minority that was persecuted from time to time and could suppress nobody. What settled the matter was a historical question anyone could ask: which books go back to the apostles and their circle? The Gnostic books fail on their dates, not on politics. Even Marcion, who drew up the earliest rival list around AD 140, built it from an edited Luke and ten letters of Paul, books that were already in use.',
+              answer: 'There were rival groups, and that much is true. But “winners” suggests power, and in the second and third centuries, when the four Gospels and Paul’s letters came to be recognised everywhere, the church had none. It was an illegal minority that was persecuted from time to time and could suppress nobody. What settled the matter was a historical question anyone could ask: which books go back to the apostles and their circle? The Gnostic books fail on their dates, not on politics. Even Marcion, whose list of around AD 140 is the earliest we know of, built it from an edited Luke and ten letters of Paul, books that were already in use.',
               followUps: [
                 {
                   reply: 'Even so, the list was not settled until the late fourth century. For three hundred years Christians did not know what their Bible was.',
@@ -73,7 +73,7 @@ export const howWeGotTheBible: Topic = {
                   followUps: [
                     {
                       reply: 'So fallible men drew up the list. How do you know they got it right?',
-                      answer: 'In principle they could have erred, and I do not claim that any council is infallible. My confidence rests on things you can check. The tests they applied were historical, and the books they recognised are the earliest we have. No excluded book has a better claim, which you can judge by reading the Gospel of Thomas or the Gospel of Peter. As a Christian I also believe that the God who gave the books saw to it that his people knew them: “My sheep listen to My voice” (John 10:27). But the list stands as history without that.',
+                      answer: 'In principle they could have erred, and I do not claim that any council is infallible. My confidence rests on things you can check. The tests they applied were historical, and the books they recognised are, with very few exceptions, the earliest we have. No excluded book has a better claim, which you can judge by reading the Gospel of Thomas or the Gospel of Peter. As a Christian I also believe that the God who gave the books saw to it that his people knew them: “My sheep listen to My voice” (John 10:27). But the list stands as history without that.',
                     },
                   ],
                 },
@@ -113,7 +113,7 @@ export const howWeGotTheBible: Topic = {
       ],
       objection: 'There were dozens of other gospels that the church suppressed.',
       response:
-        'There were other writings called gospels, but they come from the second century or later, written by people who never met Jesus or the apostles. Early Christians knew about them, and discussed and rejected them openly; nothing was secretly removed. Compare them with Luke, who investigated eyewitness testimony (Luke 1:1-4), and the difference is clear.',
+        'There were other writings called gospels, but they are generally dated to the second century or later, written by people who never met Jesus or the apostles. Early Christians knew about them, and discussed and rejected them openly; nothing was secretly removed. Compare them with Luke, who investigated eyewitness testimony (Luke 1:1-4), and the difference is clear.',
       keyPoints: ['Written in the second century or later.', 'Known and openly rejected, not hidden.', 'Only the four Gospels are generally dated to the first century.'],
       references: ['Luke 1:1-4', '2 Peter 1:16'],
     },
@@ -215,14 +215,14 @@ export const howWeGotTheBible: Topic = {
         'They were too long',
       ],
       answer: 1,
-      explanation: 'They date from the second century or later.',
+      explanation: 'They are generally dated to the second century or later.',
     },
     {
       id: 'hb-q5',
       question: 'Who, in AD 367, listed exactly the 27 books of the New Testament we have today?',
       options: ['Athanasius', 'Constantine', 'Marcion', 'Papias'],
       answer: 0,
-      explanation: 'His list recorded what the churches already used. The core had been recognised since the second century.',
+      explanation: 'His list matched what most churches already used, though agreement was not yet complete. The core had been recognised since the second century.',
     },
     {
       id: 'hb-q6',
@@ -253,7 +253,7 @@ export const howWeGotTheBible: Topic = {
         'Deciding which books belong in the Bible',
       ],
       answer: 1,
-      explanation: 'With about 5,800 Greek manuscripts of the New Testament to compare, copying slips can be identified.',
+      explanation: 'With more than 5,000 Greek manuscripts of the New Testament to compare, copying slips can be identified.',
     },
     {
       id: 'hb-q9',
@@ -325,7 +325,7 @@ export const howWeGotTheBible: Topic = {
         'A list, usually dated to the late second century, that already names most of the New Testament books',
       ],
       answer: 3,
-      explanation: 'It shows that most of the New Testament was recognised well over a century before Nicaea.',
+      explanation: 'If that date is right, it shows that most of the New Testament was recognised well over a century before Nicaea.',
     },
     {
       id: 'hb-q15',
@@ -349,7 +349,7 @@ export const howWeGotTheBible: Topic = {
         'Books he had written himself',
       ],
       answer: 1,
-      explanation: 'Even the earliest rival list was built from books the churches already read.',
+      explanation: 'Even the earliest list we know of was built from books the churches already read.',
     },
     {
       id: 'hb-q17',
