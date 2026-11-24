@@ -42,6 +42,8 @@ import { branchesOfIslam } from './islam/branches';
 import { quranManuscripts } from './islam/quran-manuscripts';
 import { outsideWriters } from './islam/outside-writers';
 import { archaeologyIslam } from './islam/archaeology-islam';
+import { nightJourney } from './islam/night-journey';
+import { farthestMosque } from './islam/farthest-mosque';
 import { sunniOverview } from './islam/sects/sunni-overview';
 import { sunniCompanions } from './islam/sects/sunni-companions';
 import { sunniSalafiSufi } from './islam/sects/sunni-salafi-sufi';
@@ -63,7 +65,7 @@ export const topics: Topic[] = [
   truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, disputedTranslations, ancientWriters, archaeologyAndTheBible, resurrection, jesusOnlyWay, problemOfEvil, hardPassages, havingTheConversation,
   understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
   quranOral, quranPreservation, quranManuscripts, quranConsistency, quranHistory, quranSources, hadithReliability,
-  outsideWriters, archaeologyIslam,
+  outsideWriters, archaeologyIslam, nightJourney, farthestMosque,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,
   trinity, deityObjections, atonementObjections, bibleCorruption, sharingTheGospel,

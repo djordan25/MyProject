@@ -76,6 +76,11 @@ export const tracks: Track[] = [
         topicIds: ['islam-outside-writers', 'islam-archaeology'],
       },
       {
+        title: 'The Night Journey',
+        description: 'Muhammad’s journey by night to Jerusalem and the heavens, and the “farthest mosque”: what the sources say, which arguments are sound, and which to leave alone.',
+        topicIds: ['islam-night-journey', 'islam-farthest-mosque'],
+      },
+      {
         title: 'Answering the arguments for Islam',
         description: 'The most common proofs offered for Islam — and why they fail.',
         topicIds: ['islam-muhammad-in-bible', 'islam-quran-challenge', 'islam-scientific-miracles'],
