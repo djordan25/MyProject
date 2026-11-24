@@ -38,8 +38,8 @@ export const identityOfJesus: Topic = {
       heading: 'The first Christians worshipped him',
       body: [
         'The idea that Jesus was made divine centuries later runs into the earliest Christian writings we have. Paul’s letters were written within about twenty to thirty years of the crucifixion, and they quote hymns and confessions that are older still.',
-        'One of them takes Israel’s daily confession that there is one God and places Jesus inside it: “for us there is but one God, the Father, from whom all things came… And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6). Another says that Jesus existed in the form of God and that every knee will bow to him (Philippians 2:6-11), which is how Isaiah speaks of the LORD alone.',
-        'Paul even preserves a prayer to Jesus in Aramaic, the language of the first believers in Jerusalem: Maranatha, “Come, O Lord!” (1 Corinthians 16:22). And a Roman governor, Pliny, reported to the emperor around AD 112 that Christians met before dawn to sing a hymn to Christ as to a god.',
+        'One passage takes Israel’s daily confession that there is one God and places Jesus inside it: “for us there is but one God, the Father, from whom all things came… And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6). Another says that Jesus existed in the form of God and that every knee will bow to him (Philippians 2:6-11), which is how Isaiah speaks of the LORD alone.',
+        'Paul even preserves a prayer to Jesus in Aramaic, the language of the first believers in Jerusalem: Maranatha, most likely “Come, O Lord!” (1 Corinthians 16:22). And a Roman governor, Pliny, reported to the emperor around AD 112 that Christians met before dawn to sing a hymn to Christ as to a god.',
         'These were Jews, raised to worship one God only. Something drove them to worship Jesus within a few years of his death.',
       ],
       references: ['1 Corinthians 8:6', 'Philippians 2:6-11', '1 Corinthians 16:22'],
@@ -60,7 +60,7 @@ export const identityOfJesus: Topic = {
       followUps: [
         {
           reply: 'John’s Gospel is late. The earliest Jesus made no such claims.',
-          answer: 'The claims are in Mark, the earliest Gospel: he forgives sins on his own authority (Mark 2:5-7), and tells the high priest he will sit at the right hand of God and come with the clouds of heaven (Mark 14:62). And Paul, writing before any Gospel, already says he existed in the form of God (Philippians 2:6).',
+          answer: 'Most critical scholars do think John has put Jesus’ teaching into his own words. But the claims are also in Mark, the earliest Gospel: he forgives sins on his own authority (Mark 2:5-7), and tells the high priest he will sit at the right hand of God and come with the clouds of heaven (Mark 14:62). And Paul, writing before any Gospel, already says he existed in the form of God (Philippians 2:6).',
           followUps: [
             {
               reply: 'In Mark “Son of Man” only means a human being, and forgiving sins was something priests and prophets did on God’s behalf. Neither is a claim to be God.',
@@ -72,7 +72,7 @@ export const identityOfJesus: Topic = {
                   followUps: [
                     {
                       reply: 'Bart Ehrman argues that the first Christians thought of Jesus as a man whom God exalted at the resurrection. The belief that he existed before his birth came later.',
-                      answer: 'Ehrman argues that in How Jesus Became God (2014). But in the same book he grants that Paul already thought of Christ as a divine being who existed before becoming human, and Paul is our earliest source. So even on Ehrman’s account, no Christian writing survives from a stage when Jesus was thought to be only a man. Philippians 2:6-11 has him in the form of God before he took human likeness, and many scholars think Paul is there quoting a hymn older than the letter. Other historians, such as Larry Hurtado and Richard Bauckham, conclude from the same evidence that Jewish believers were worshipping Jesus alongside God within the first few years.',
+                      answer: 'Ehrman argues that in How Jesus Became God (2014). But in the same book he grants that Paul already thought of Christ as a divine being who existed before becoming human, and Paul is our earliest source. Ehrman finds the older view in creeds Paul quotes, but even on his account no Christian writing survives from a stage when Jesus was thought to be only a man. Philippians 2:6-11 has him in the form of God before he took human likeness, and many scholars think Paul is there quoting a hymn older than the letter. Other historians, such as Larry Hurtado and Richard Bauckham, conclude from the same evidence that Jewish believers were worshipping Jesus alongside God within the first few years.',
                     },
                   ],
                 },
@@ -87,7 +87,7 @@ export const identityOfJesus: Topic = {
       ],
       objection: 'Jesus never actually claimed to be God — that was invented later.',
       response:
-        'Even if you only look at the earliest material, Jesus does things only God can do: he forgives sins committed against other people, he claims authority to judge everyone, and he describes himself with the divine Son of Man imagery from Daniel 7. His opponents understood the claim — that’s why they charged him with blasphemy. And Paul, writing in the 50s AD, already quotes hymns that worship Jesus as God.',
+        'Even if you only look at the earliest material, Jesus does things only God can do: he forgives sins committed against other people, he claims authority to judge everyone, and he describes himself with the divine Son of Man imagery from Daniel 7. His opponents understood the claim — that’s why they charged him with blasphemy. And Paul, writing in the 50s AD, already quotes what many scholars take to be an older hymn, in which every knee bows to Jesus.',
       keyPoints: [
         'Implicit claims: forgiving sins, judging the world.',
         'Explicit claims: “I am”, Son of Man (Mark 14:62).',
@@ -121,7 +121,7 @@ export const identityOfJesus: Topic = {
         },
         {
           reply: 'No writer of his own lifetime mentions him. If he had done all those things, someone would have noticed.',
-          answer: 'Very little writing of any kind survives from Palestine in the 30s. A travelling preacher in a minor province, who held no office and wrote nothing, was not the sort of person Roman authors recorded. What is unusual is how soon we do hear of him: letters from Paul within about twenty years, and four accounts of his life within the lifetime of people who knew him. Compare the emperor Tiberius, who ruled the whole empire at the time. The fullest accounts of his reign that we have, by Tacitus and Suetonius, were written some eighty years after his death.',
+          answer: 'Very little writing of any kind survives from Palestine in the 30s. A travelling preacher in a minor province, who held no office and wrote nothing, was not the sort of person Roman authors recorded. What is unusual is how soon we do hear of him: letters from Paul within about twenty years, and four accounts of his life within living memory of him. Compare the emperor Tiberius, who ruled the whole empire at the time. The fullest accounts of his reign that we have, by Tacitus and Suetonius, were written some eighty years after his death.',
         },
       ],
       objection: 'Jesus probably never even existed.',
@@ -206,13 +206,13 @@ export const identityOfJesus: Topic = {
       id: 'joj-5',
       objection: 'Jesus was only declared to be God at the Council of Nicaea, three hundred years later.',
       response:
-        'Nicaea was called because a teacher named Arius had begun to deny what the churches already confessed. The New Testament calls Jesus God (John 1:1; 20:28), Paul’s early letters place him alongside the Father as the one Lord through whom all things were made (1 Corinthians 8:6), and a Roman governor two centuries before Nicaea reported Christians singing to Christ as to a god. The council put an old belief into careful words. It did not create it.',
+        'Nicaea was called because Arius, a priest in Alexandria, taught that the Son was a created being. Even Arius called him God; the dispute was over in what sense. The New Testament calls Jesus God (John 1:1; 20:28), Paul’s early letters place him alongside the Father as the one Lord through whom all things were made (1 Corinthians 8:6), and a Roman governor two centuries before Nicaea reported Christians singing to Christ as to a god. The council put an old belief into careful words. It did not create it.',
       keyPoints: ['Nicaea answered Arius; it did not invent the belief.', 'The New Testament already calls Jesus God.', 'Worship of Jesus is attested from the start.'],
       references: ['John 1:1', 'John 20:28', '1 Corinthians 8:6'],
       followUps: [
         {
           reply: 'The emperor Constantine forced the bishops to agree.',
-          answer: 'Constantine wanted unity and called the council, but the bishops were not his creatures: many of them bore the scars of persecution under earlier emperors. All but a handful sided against Arius because his teaching was the novelty.',
+          answer: 'Constantine wanted unity and called the council, but the bishops were not his creatures: many of them bore the scars of persecution under earlier emperors. All but a handful sided against Arius, whom his own bishop had excommunicated years before Constantine took any part.',
           followUps: [
             {
               reply: 'They voted on it. A doctrine settled by a vote, with the losers sent into exile, is politics, not truth.',
@@ -234,7 +234,7 @@ export const identityOfJesus: Topic = {
         },
         {
           reply: '“Of one substance” is Greek philosophy. The simple Jesus of Galilee was buried under metaphysics.',
-          answer: 'The word the council used, homoousios, is not in the Bible. The bishops knew that, and some were uneasy about it. They used it because Arius could accept every biblical phrase and give it his own sense, so a word was needed that he could not sign. It was a fence round what Scripture already says, that the Son is truly God and not a creature: “the Word was God” (John 1:1). Finding a new word to guard an old meaning is what any community must do when its old words are being given new meanings.',
+          answer: 'The word the council used, homoousios, is not in the Bible. The bishops knew that, and some were uneasy about it. They used it, as Athanasius later told it, because Arius’s supporters could accept every biblical phrase and give it their own sense, so a word was needed that they could not explain away. It was a fence round what Scripture already says, that the Son is truly God and not a creature: “the Word was God” (John 1:1). Finding a new word to guard an old meaning is what any community must do when its old words are being given new meanings.',
         },
       ],
     },
@@ -252,7 +252,7 @@ export const identityOfJesus: Topic = {
       question: 'In John 8:58 Jesus says “before Abraham was born, I am.” Why is this significant?',
       options: [
         'It shows he was older than Abraham’s descendants.',
-        'It echoes the divine name revealed in Exodus 3:14.',
+        'It echoes God’s “I am” in Isaiah and in Exodus 3:14.',
         'It claims he was a prophet.',
         'It is a reference to the temple.',
       ],
@@ -361,7 +361,7 @@ export const identityOfJesus: Topic = {
         'To choose the books of the Bible',
         'To declare for the first time that Jesus was divine',
         'To make Christianity the religion of the empire',
-        'To answer Arius, who had begun to deny what the churches already confessed about Christ',
+        'To settle the dispute over Arius, who taught that the Son was a created being',
       ],
       answer: 3,
       explanation: 'The council put an old belief into careful words. The New Testament already calls Jesus God (John 1:1; 20:28).',
@@ -411,7 +411,7 @@ export const identityOfJesus: Topic = {
     },
     {
       id: 'joj-q18',
-      question: 'Arius appealed to the phrase “the firstborn over all creation”. How should “firstborn” there be understood?',
+      question: 'Arians appealed to the phrase “the firstborn over all creation”. How should “firstborn” there be understood?',
       options: [
         'As meaning the first thing God created',
         'As a title of rank, as when God calls David his firstborn, with the next verse saying all things were created through the Son',
