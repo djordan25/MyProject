@@ -16,7 +16,7 @@ export const quranMisunderstands: Topic = {
       heading: 'Mistake 1: A Trinity that includes Mary',
       body: [
         'Quran 5:116 pictures Allah asking Jesus: “Did you say to the people, ‘Take me and my mother as deities besides Allah?’” (Quran 5:116). Quran 5:73 condemns those who say “Allah is the third of three”, and Quran 5:75 adds that Jesus and his mother “both used to eat food” — as if both were being worshipped as gods.',
-        'No Christian creed has ever taught that the Trinity is Allah, Jesus and Mary. The Trinity is Father, Son and Holy Spirit (Matthew 28:19). The Quran denies a Trinity Christians never believed.',
+        'No Christian creed has ever taught that the Trinity is Allah, Jesus and Mary. The Trinity is Father, Son and Holy Spirit (Matthew 28:19). As these verses are often read, the Quran denies a Trinity Christians never believed. Scholars differ on why: some see a mistake, some a rebuke of excessive devotion to Mary, and others (such as Sidney Griffith and Gabriel Said Reynolds) deliberate polemical exaggeration.',
       ],
       references: ['Quran 5:116', 'Quran 5:73-75', 'Matthew 28:19', '2 Corinthians 13:14'],
     },
@@ -31,9 +31,9 @@ export const quranMisunderstands: Topic = {
     {
       heading: 'Mistake 3: Mary, sister of Aaron, daughter of Imran',
       body: [
-        'The Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12). In the Bible, Amram (Imran) was the father of Aaron, Moses and their sister Miriam (Numbers 26:59) — about 1,400 years before Jesus. In Arabic, Mary and Miriam are the same name (Maryam).',
+        'The Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12). In the Bible, Amram (Imran) was the father of Aaron, Moses and their sister Miriam (Numbers 26:59) — well over a thousand years before Jesus. In Arabic, Mary and Miriam are the same name (Maryam).',
         'Christians raised this exact problem in Muhammad’s time. Sahih Muslim 2135 records that the Christians of Najran asked how Mary could be the sister of Aaron when Moses lived long before Jesus. Muhammad replied that people used to be named after earlier prophets and pious persons.',
-        'Even granting that explanation for “sister of Aaron”, the Quran also gives her the father of the biblical Miriam, Imran. The cluster of names — Miriam, sister of Aaron, daughter of Amram — matches Moses’ sister exactly. Some scholars, and many Muslims, read this as deliberate typology: Mary as a new Miriam. So raise it as a question rather than as a proven error.',
+        'Even granting that explanation for “sister of Aaron”, the Quran also gives her the father of the biblical Miriam, Imran. The cluster of names — Miriam, sister of Aaron, daughter of Amram — matches Moses’ sister exactly. Some scholars read this as deliberate typology (Mary as a new Miriam), and most Muslim commentators take “sister of Aaron” as a title of descent from Aaron. So raise it as a question rather than as a proven error.',
       ],
       references: ['Quran 19:28', 'Quran 66:12', 'Numbers 26:59', 'Exodus 15:20', 'Sahih Muslim 2135'],
     },
@@ -47,7 +47,7 @@ export const quranMisunderstands: Topic = {
     {
       heading: 'Mistake 5: Stories from later legends',
       body: [
-        'The Quran includes stories about Jesus that appear nowhere in the Bible: Jesus speaking from the cradle (Quran 19:29-30) and making clay birds come to life (Quran 3:49; 5:110). These episodes match legends that circulated among fringe groups long after the apostles, not the eyewitness Gospels written in the first century.',
+        'The Quran includes stories about Jesus that appear nowhere in the Bible: Jesus speaking from the cradle (Quran 19:29-30) and making clay birds come to life (Quran 3:49; 5:110). These episodes match legends found in apocryphal infancy gospels, the earliest written in the second century, not the first-century Gospels, which appeal to eyewitness testimony.',
         'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',
       ],
       references: ['Quran 19:29-30', 'Quran 3:49', 'Quran 5:110', 'Luke 1:1-4'],
@@ -67,7 +67,7 @@ export const quranMisunderstands: Topic = {
               followUps: [
                 {
                   reply: 'You are joining two separate verses. Quran 5:73 condemns saying “three”, and 5:116 condemns worshipping Mary. The Quran never says Mary is part of the Trinity.',
-                  answer: 'It is true that no verse lists the three. But look at how the Quran argues. Straight after condemning those who say Allah is the third of three, it answers that the Messiah was only a messenger, that his mother was a supporter of truth, and that “They both used to eat food” (Quran 5:75). Why bring in his mother’s eating unless she is one of the three? Muslim commentators read it so: the Tafsir al-Jalalayn says of Quran 5:73 that the other two are Jesus and his mother, and calls those who say so a Christian sect. And the Quran nowhere names the Holy Spirit as one of the three.',
+                  answer: 'It is true that no verse lists the three. But look at how the Quran argues. Straight after condemning those who say Allah is the third of three, it answers that the Messiah was only a messenger, that his mother was a supporter of truth, and that “They both used to eat food” (Quran 5:75). Why bring in his mother’s eating unless she is one of the three? Some Muslim commentators read it so, though they generally knew that the church’s Trinity names the Holy Spirit and not Mary: the Tafsir al-Jalalayn says of Quran 5:73 that the other two are Jesus and his mother, and calls those who say so a Christian sect. And the Quran nowhere names the Holy Spirit as one of the three.',
                   followUps: [
                     {
                       reply: 'Whoever the three are, the Quran forbids it: “do not say, Three”. The real Trinity is condemned along with every other.',
@@ -86,7 +86,7 @@ export const quranMisunderstands: Topic = {
       ],
       objection: 'Quran 5:116 is not describing the Trinity; it’s condemning Christians who worshipped Mary.',
       response:
-        'Even if some fringe group venerated Mary, the Quran presents this as what Christians in general believe about Jesus and his mother being “deities besides Allah”, right next to its condemnation of saying “Allah is the third of three” (Quran 5:73). The all-knowing God would correct the actual Christian doctrine — Father, Son and Spirit — not an aberration. The Quran never once mentions the Father, Son and Holy Spirit as the Trinity.',
+        'Even if some fringe group venerated Mary, the Quran seems to present this as what Christians in general believe about Jesus and his mother being “deities besides Allah”, in the same surah as its condemnation of saying “Allah is the third of three” (Quran 5:73). The all-knowing God would correct the actual Christian doctrine — Father, Son and Spirit — not an aberration. The Quran never once mentions the Father, Son and Holy Spirit as the Trinity.',
       keyPoints: ['Context links 5:73 (three) with 5:75 and 5:116 (Jesus and Mary).', 'The Quran never describes the real Trinity.', 'An omniscient author would get it right.'],
       references: ['Quran 5:73-75', 'Quran 5:116'],
     },
@@ -99,7 +99,7 @@ export const quranMisunderstands: Topic = {
           followUps: [
             {
               reply: 'Imran was simply the name of Mary’s own father, who was named after the ancestor, as the Prophet explained. The Quran knows that many messengers came between Moses and Jesus.',
-              answer: 'I grant the second point. The Quran does place messengers between Moses and Jesus (Quran 2:87), so I do not claim its author thought Jesus was Moses’ nephew. That is why I put this as a question and not as a proven error. But no source before the Quran calls Mary’s father Imran. Early Christian tradition, in the second-century Protevangelium of James, names him Joachim. And the Quran’s own account moves straight from the family of Imran and the wife of Imran to the birth of Mary (Quran 3:33-36). The simplest explanation is that traditions about two women named Maryam have run together.',
+              answer: 'I grant the second point. The Quran does place messengers between Moses and Jesus (Quran 2:87), so I do not claim its author thought Jesus was Moses’ nephew. That is why I put this as a question and not as a proven error. But no known source before the Quran calls Mary’s father Imran. Early Christian tradition, in the second-century Protevangelium of James, names him Joachim. And the Quran’s own account moves straight from the family of Imran and the wife of Imran to the birth of Mary (Quran 3:33-36). The simplest explanation is that traditions about two women named Maryam have run together.',
               followUps: [
                 {
                   reply: 'Luke says Elizabeth was a daughter of Aaron, and that she was Mary’s relative. So Mary belonged to Aaron’s house, and “sister of Aaron” is accurate.',
@@ -169,7 +169,7 @@ export const quranMisunderstands: Topic = {
       question: 'According to Quran 5:116, who are the two “deities besides Allah” Jesus is asked about?',
       options: ['Jesus and the Holy Spirit', 'Jesus and his mother', 'Jesus and Gabriel', 'Jesus and Moses'],
       answer: 1,
-      explanation: '“Take me and my mother as deities besides Allah?” — a Trinity Christians never held.',
+      explanation: '“Take me and my mother as deities besides Allah?” — a belief no Christian creed has taught.',
     },
     {
       id: 'qm-q2',
@@ -248,7 +248,7 @@ export const quranMisunderstands: Topic = {
       options: [
         'Because the Bible never mentions Miriam',
         'Because the hadith do not discuss it',
-        'Because some scholars, and many Muslims, read it as deliberate typology',
+        'Because some scholars read it as deliberate typology, and Muslim commentators as a title of descent',
         'Because the Quran never calls Mary the sister of Aaron',
       ],
       answer: 2,
