@@ -23,6 +23,7 @@ export default function Play() {
     { to: '/play/volley', icon: 'Swords', title: 'Volley', summary: 'A conversation at speed. They object, you pick the reply, they come back. Each right answer builds your combo.', best: volleyBest ? `Best ${volleyBest}` : undefined },
     { to: '/play/sound-or-weak', icon: 'Scale', title: 'Sound or weak?', summary: 'Judge the argument: use it, overstated, or leave alone. Learn which claims will not stand up.', best: p.games.sort !== undefined ? `Best ${p.games.sort}/8` : undefined },
     { to: '/play/timeline', icon: 'ListOrdered', title: 'Timeline', summary: 'Put the sources and events in order, from Merneptah’s monument to the Dome of the Rock.', best: p.games.timeline !== undefined ? `Best ${p.games.timeline}/${HAND}` : undefined },
+    { to: '/play/build', icon: 'Puzzle', title: 'Build the argument', summary: 'One step of an argument is missing. Pick the premise or conclusion that makes it hold together.', best: p.games.build !== undefined ? `Best ${p.games.build}/6` : undefined },
     { to: '/quiz', icon: 'ListChecks', title: 'Mixed quiz', summary: 'Random questions from every topic you have opened.' },
     { to: '/verses', icon: 'Bookmark', title: 'Memory verses', summary: 'Recall the passages you are learning by heart.' },
   ];

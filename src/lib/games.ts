@@ -94,3 +94,46 @@ export function drawHand(events: TimelineEvent[] = TIMELINE, size = HAND): Timel
   }
   return hand;
 }
+
+/** A lesson's numbered argument: premises, then the conclusion. */
+export interface LessonArgument {
+  topic: Topic;
+  heading: string;
+  steps: string[];
+}
+
+/** An argument with one step taken out, to be chosen from a list. */
+export interface GapQuestion {
+  argument: LessonArgument;
+  /** Index of the missing step. */
+  gap: number;
+  options: string[];
+  /** Index into options. */
+  answer: number;
+}
+
+/** Every numbered argument in these topics' lessons. */
+export const argumentsOf = (topics: Topic[]): LessonArgument[] =>
+  topics.flatMap((topic) => topic.lesson.flatMap((s) => (s.argument && s.argument.length >= 3 ? [{ topic, heading: s.heading, steps: s.argument }] : [])));
+
+/**
+ * Takes one step out of an argument. Wrong options are steps from other arguments in the same role
+ * (a conclusion for a missing conclusion, a premise for a missing premise), so each one reads as a possible step.
+ */
+export function gapQuestion(argument: LessonArgument, all: LessonArgument[], count = 4, near: (a: LessonArgument) => boolean = () => false): GapQuestion {
+  const gap = Math.floor(Math.random() * argument.steps.length);
+  const conclusion = gap === argument.steps.length - 1;
+  const right = argument.steps[gap];
+  // Arguments on a nearby subject come first: their steps are the harder ones to rule out.
+  const mixed = shuffle(all.filter((a) => a !== argument));
+  const others = [...mixed.filter(near), ...mixed.filter((a) => !near(a))];
+  const sameRole = others.flatMap((a) => (conclusion ? [a.steps[a.steps.length - 1]] : a.steps.slice(0, -1)));
+  const otherRole = others.flatMap((a) => (conclusion ? a.steps.slice(0, -1) : [a.steps[a.steps.length - 1]]));
+  const wrong: string[] = [];
+  for (const step of [...sameRole, ...otherRole]) {
+    if (!argument.steps.includes(step) && !wrong.includes(step)) wrong.push(step);
+    if (wrong.length === count - 1) break;
+  }
+  const options = shuffle([right, ...wrong]);
+  return { argument, gap, options, answer: options.indexOf(right) };
+}

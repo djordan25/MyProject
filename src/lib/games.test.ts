@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { getTopic, topics } from '../content';
 import { ARGUMENTS, TIMELINE, VERDICTS } from '../content/games';
-import { ask, chainOf, drawHand, exchangesOf, HAND, missesAllowed, snippet } from './games';
+import { argumentsOf, ask, chainOf, drawHand, exchangesOf, gapQuestion, HAND, missesAllowed, snippet } from './games';
 
 describe('game material', () => {
   it('ties every argument to a real topic, with a known verdict and a unique id', () => {
@@ -65,5 +65,26 @@ describe('conversation games', () => {
   it('allows two misses in ten at an 80% pass mark', () => {
     expect(missesAllowed(10, 0.8)).toBe(2);
     expect(missesAllowed(5, 0.8)).toBe(1);
+  });
+});
+
+describe('build the argument', () => {
+  const all = argumentsOf(topics);
+
+  it('finds the numbered arguments in the lessons', () => {
+    expect(all.length).toBeGreaterThanOrEqual(12);
+    for (const a of all) expect(a.steps.length, a.heading).toBeGreaterThanOrEqual(3);
+  });
+
+  it('removes one step and offers four distinct options, none of them another step of the same argument', () => {
+    for (const a of all) {
+      for (let n = 0; n < 20; n++) {
+        const q = gapQuestion(a, all);
+        expect(q.options).toHaveLength(4);
+        expect(new Set(q.options).size).toBe(4);
+        expect(q.options[q.answer]).toBe(a.steps[q.gap]);
+        expect(q.options.filter((o) => a.steps.includes(o))).toHaveLength(1);
+      }
+    }
   });
 });
