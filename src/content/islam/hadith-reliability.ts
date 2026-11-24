@@ -17,9 +17,9 @@ export const hadithReliability: Topic = {
     {
       heading: 'Two hundred years later',
       body: [
-        'Muhammad died in AD 632. Al-Bukhari, compiler of Sahih al-Bukhari, died in AD 870; Muslim ibn al-Hajjaj died in AD 875. Their collections were compiled roughly 200 to 240 years after Muhammad’s death. Earlier, smaller collections existed, but the authoritative Sahih collections come from this much later period.',
-        'Each hadith comes with a chain of narrators (isnad): “Narrated A: B told me that C said that he heard D…” — often six or more links of people passing a report orally across generations. Muslims rightly object to “telephone game” transmission of the Bible; here the comparison actually applies.',
-        'For contrast, the New Testament documents were written within the lifetime of eyewitnesses — Paul could point to over 500 witnesses “most of whom are still living” (1 Corinthians 15:6; see also Luke 1:1-4).',
+        'Muhammad died in AD 632. Al-Bukhari, compiler of Sahih al-Bukhari, died in AD 870; Muslim ibn al-Hajjaj died in AD 875. Their collections were compiled roughly 200 to 240 years after Muhammad’s death. Earlier collections existed, such as Malik’s Muwatta (before 796) and the eleven-volume Musannaf of Abd al-Razzaq (before 826), but the authoritative Sahih collections come from this later period.',
+        'Each hadith comes with a chain of narrators (isnad): “Narrated A: B told me that C said that he heard D…” — usually several links of people passing a report on across generations. Muslims rightly object to “telephone game” transmission of the Bible; here the comparison actually applies.',
+        'For contrast, Paul’s letters and, on the usual dating, the Gospels were written within the lifetime of eyewitnesses — Paul could point to over 500 witnesses “most of whom are still living” (1 Corinthians 15:6; see also Luke 1:1-4).',
       ],
       references: ['1 Corinthians 15:6', 'Luke 1:1-4'],
     },
@@ -27,7 +27,7 @@ export const hadithReliability: Topic = {
       heading: '“Do not write anything from me”',
       body: [
         'Muhammad said: “Do not take down anything from me, and he who took down anything from me except the Qur’an, he should efface that” (Sahih Muslim 3004).',
-        'So the earliest Muslims were told not to write down his words. Some companions did keep notes — Abu Huraira said Abdullah bin Amr “used to write them” (Sahih al-Bukhari 113) — but the bulk of the hadith was passed on largely orally for generations before being gathered into the great collections.',
+        'So, on this report, the earliest Muslims were told not to write down his words, though other reports have him allow it. Some companions did keep notes — Abu Huraira said Abdullah bin Amr “used to write them” (Sahih al-Bukhari 113) — but most hadith were passed on by word of mouth, with private notes as aids, until writing on a large scale began about a century after Muhammad.',
       ],
       references: ['Sahih Muslim 3004', 'Sahih al-Bukhari 113'],
     },
@@ -35,8 +35,8 @@ export const hadithReliability: Topic = {
       heading: 'Fabrication was a known problem',
       body: [
         'Muhammad repeatedly warned: “Whoever tells a lie against me intentionally, then (surely) let him occupy his seat in Hell-fire” (Sahih al-Bukhari 108; see also 107 and 110). Az-Zubair said this warning was why he narrated so few hadith (Sahih al-Bukhari 107), and Anas said the same (Sahih al-Bukhari 108). The warning only makes sense if false reports were a real danger.',
-        'Muslim tradition itself reports that al-Bukhari examined hundreds of thousands of reports and accepted only a small fraction. Islamic scholars openly acknowledge that fabricated hadith were produced in large numbers for political, sectarian and personal reasons.',
-        'Different Muslim groups accept different hadith: Shia Muslims reject much of Bukhari and Muslim and have their own collections, while “Quran-only” Muslims reject hadith altogether. There is no agreed body of reliable reports.',
+        'Muslim tradition itself reports that al-Bukhari chose his Sahih from a pool of some 600,000 narrations. That figure counts each chain as a separate narration, and he did not claim that everything he left out was false. Islamic scholars openly acknowledge that fabricated hadith were produced in large numbers for political, sectarian and personal reasons.',
+        'Different Muslim groups accept different hadith: Shia Muslims reject much of Bukhari and Muslim and have their own collections, while the small modern “Quran-only” movement rejects hadith altogether. No single body of reports is accepted by all Muslims.',
       ],
       references: ['Sahih al-Bukhari 107', 'Sahih al-Bukhari 108', 'Sahih al-Bukhari 110'],
     },
@@ -73,11 +73,11 @@ export const hadithReliability: Topic = {
           followUps: [
             {
               reply: 'Luke was not an eyewitness and does not name who told him. By the standards of hadith science that is a broken chain. We would grade it weak.',
-              answer: 'Luke says his material was handed down by “the initial eyewitnesses and servants of the word” and that he investigated everything carefully (Luke 1:1-4). He travelled with Paul and met James in Jerusalem (Acts 21:17-18). John’s Gospel claims direct testimony (John 19:35; 21:24). A historian asks how close a source stands to the events. An account written within one lifetime, while witnesses could contradict it, stands closer than a list of six names written down two hundred years later.',
+              answer: 'Luke says his material was handed down by “the initial eyewitnesses and servants of the word” and that he investigated everything carefully (Luke 1:1-4). The first-person passages of Acts place him with Paul, and with James in Jerusalem (Acts 21:17-18). John’s Gospel claims direct testimony (John 19:35; 21:24). A historian asks how close a source stands to the events. An account written within one lifetime, while witnesses could contradict it, stands closer than a list of six names written down two hundred years later.',
               followUps: [
                 {
                   reply: 'But our scholars examined the character and memory of every narrator in every chain. No other civilisation has done anything like it.',
-                  answer: 'It is a remarkable body of work, and I respect it. But the verdicts on narrators are themselves reports, passed on by later men about people long dead, and the critics often disagreed with one another. The method can test whether a chain hangs together. It cannot test whether the first link told the truth, and a careful forger supplies good names. Shia scholars use the same kind of method, trust different narrators, and arrive at a different body of hadith. The method depends on whom you already trust.',
+                  answer: 'It is a remarkable body of work, and I respect it. But the critics graded a narrator mainly by comparing his reports with those of his fellow students, often long after he was dead, and they frequently disagreed with one another. The method can test whether a chain hangs together. It cannot test whether the first link told the truth, and a careful forger supplies good names. Shia scholars use the same kind of method, trust different narrators, and arrive at a different body of hadith. The method depends on whom you already trust.',
                   followUps: [
                     {
                       reply: 'The essentials do not depend on single chains. They are mutawatir, passed on by so many people in every generation that agreement on a lie is impossible.',
@@ -91,13 +91,13 @@ export const hadithReliability: Topic = {
         },
         {
           reply: 'Western academics no longer accept the old scepticism. Harald Motzki showed that hadith can be traced back to the first Islamic century.',
-          answer: 'Motzki did argue against the most sceptical scholars, and he should be heard. What he argued is that some reports can be traced to teachers active late in the first Islamic century. That is earlier than the sceptics allowed. It still leaves a generation or two between those teachers and Muhammad, and it covers particular reports, not the collections as a whole. It does not turn Sahih al-Bukhari into eyewitness testimony.',
+          answer: 'Motzki did argue against the most sceptical scholars, and he should be heard. What he argued is that some reports can be traced to teachers active late in the first Islamic century. That is earlier than the sceptics allowed. It still leaves a generation between those teachers and Muhammad, though Motzki held that some reports can be shown to go back further, and it covers particular reports, not the collections as a whole. It does not turn Sahih al-Bukhari into eyewitness testimony.',
         },
       ],
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
       response:
-        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). Up to two centuries of largely oral transmission, with only some early written notes, is a long time for any method to bridge.',
-      keyPoints: ['Acknowledge the effort.', 'Chains can be fabricated too.', 'Up to two centuries of largely oral transmission.'],
+        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). About a century of largely oral transmission before writing on a large scale, and two centuries before the Sahih collections, is a long time for any method to bridge.',
+      keyPoints: ['Acknowledge the effort.', 'Chains can be fabricated too.', 'A century largely oral, two before the Sahih collections.'],
       references: ['Sahih al-Bukhari 107', 'Sahih Muslim 3004'],
     },
     {
@@ -125,7 +125,7 @@ export const hadithReliability: Topic = {
         },
         {
           reply: 'You lift hadith out of context. Our scholars wrote volumes explaining these reports, and you have not read them.',
-          answer: 'That is a fair caution, so let us read the whole report together and see whether the context changes it. I give you the number so you can check. Take Aisha’s report that a verse about five sucklings was still being recited as part of the Quran when Muhammad died (Sahih Muslim 1452). The scholars explain it by saying its recitation was abrogated. That is an explanation of why the verse is missing. It is not a denial that it is missing.',
+          answer: 'That is a fair caution, so let us read the whole report together and see whether the context changes it. I give you the number so you can check. Take Aisha’s report that a verse about five sucklings was still being recited as part of the Quran when Muhammad died (Sahih Muslim 1452). The scholars explain it by saying its recitation was abrogated shortly before he died, so that some had not yet heard. That is an explanation of why the verse is missing. It is not a denial that it is missing.',
           followUps: [
             {
               reply: 'Abrogation is taught by the Quran itself (Quran 2:106). An abrogated verse is not a lost verse.',
@@ -143,11 +143,11 @@ export const hadithReliability: Topic = {
     {
       id: 'hr-3',
       followUps: [
-        { reply: 'Your Gospels are anonymous. At least the hadith name their narrators.', answer: 'A chain of names can be invented as easily as a saying, which is why Muslim scholars set aside the great majority of the reports they examined. No surviving copy of the Gospels that has a title names anyone but Matthew, Mark, Luke or John. And Luke tells us how he worked: from those who were eyewitnesses from the beginning (Luke 1:1-4).',
+        { reply: 'Your Gospels are anonymous. At least the hadith name their narrators.', answer: 'A chain of names can be invented as easily as a saying, which is why Muslim scholars built a whole discipline to sift out forgeries. No surviving copy of the Gospels that has a title names anyone but Matthew, Mark, Luke or John. And Luke tells us how he worked: from those who were eyewitnesses from the beginning (Luke 1:1-4).',
           followUps: [
             {
               reply: 'The titles were added later. Scholars like Bart Ehrman say the Gospels were written thirty-five to sixty-five years after Jesus by unknown Greek-speaking Christians.',
-              answer: 'Take Ehrman’s dates: Mark about AD 70, John about AD 95. That is still within the lifetime of people who knew Jesus, against two centuries for al-Bukhari. The names are also not what a forger would choose. Mark and Luke were not apostles, and no copy or early writer gives any Gospel a different author. Papias, a bishop writing early in the second century, already reports that Mark wrote down Peter’s teaching. The historian Eusebius quotes him.',
+              answer: 'Take Ehrman’s dates: Mark about AD 70, John about AD 95. That is still within the lifetime of people who knew Jesus, against two centuries for al-Bukhari. The names are also not what a forger would choose. Mark and Luke were not apostles, and no copy and almost no early writer gives any Gospel a different author. Papias, a bishop writing early in the second century, already reports that Mark wrote down Peter’s teaching. The historian Eusebius quotes him.',
               followUps: [
                 {
                   reply: 'Your oldest complete New Testament manuscripts are from the fourth century, three hundred years after Jesus. That gap is bigger than ours.',
@@ -181,7 +181,7 @@ export const hadithReliability: Topic = {
           followUps: [
             {
               reply: 'A sound chain is not the only test. Scholars also examine the content. A report that contradicts the Quran or sound reason is rejected, however good its chain.',
-              answer: 'That principle exists, but look at what it does. It makes your present judgment the test of what Muhammad said, when the hadith were supposed to tell you what he said. And who decides what contradicts the Quran? The classical scholars knew the Quran by heart, and they accepted the report of the spell (Sahih al-Bukhari 5763) and of Aisha’s age at marriage (Sahih al-Bukhari 5134). They saw no contradiction. The objection arrived with modern discomfort, not with new evidence.',
+              answer: 'That principle exists, but look at what it does. It makes your present judgment the test of what Muhammad said, when the hadith were supposed to tell you what he said. And who decides what contradicts the Quran? The classical Sunni scholars knew the Quran by heart, and they accepted the report of the spell (Sahih al-Bukhari 5763) and of Aisha’s age at marriage (Sahih al-Bukhari 5134). They saw no contradiction. The Mutazilites did reject the spell report, but Sunni scholarship as a whole did not follow them, and the objection to Aisha’s age arrived only with modern discomfort, not with new evidence.',
               followUps: [
                 {
                   reply: 'Not only modern Muslims. Some scholars in every age have questioned particular reports in the Sahih collections.',
@@ -386,7 +386,7 @@ export const hadithReliability: Topic = {
         'The hadith have no manuscripts at all',
       ],
       answer: 0,
-      explanation: 'The Gospels were written within decades, and papyrus copies survive from the second and third centuries. The hadith collections were first compiled about two centuries after Muhammad.',
+      explanation: 'The Gospels were written within decades, and papyrus copies survive from the second and third centuries. The Sahih collections were compiled about two centuries after Muhammad.',
     },
   ],
 };

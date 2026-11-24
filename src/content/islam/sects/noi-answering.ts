@@ -12,7 +12,7 @@ export const noiAnswering: Topic = {
       body: [
         'Elijah Muhammad wrote that Islam “is not a European-organized white man’s religion”, and Malcolm X preached that the white man had taught black people to worship “a blond-haired, blue-eyed Jesus”. Begin by agreeing with what is true in that. Those pictures were false. Jesus was a Jew from Galilee, in the Middle East, and the Bible gives no portrait of him beyond saying that “He had no stately form or majesty to attract us” (Isaiah 53:2). As a child he was a refugee in Africa (Matthew 2:13-15).',
         'Then follow the New Testament. The man made to carry Jesus’ cross came from Africa: Simon of Cyrene, a city in what is now Libya (Mark 15:21). People from “Egypt and the parts of Libya near Cyrene” heard the first Christian sermon (Acts 2:10). A court official of the Candace, queen of the Ethiopians, was baptised on the road to Gaza (Acts 8:26-39). His country was probably the kingdom of Kush on the Nile, in what is now Sudan. This is eight chapters before Acts records any preaching in Europe (Acts 16:9-10). The church at Antioch, which sent out Paul, counted among its leaders “Simeon called Niger” and “Lucius of Cyrene” (Acts 13:1). Niger is Latin for black.',
-        'The history continues the same way. Alexandria in Egypt was one of the chief cities of the early church, and the Coptic church traces its beginning, by tradition, to Mark. Tertullian of Carthage was the first major theologian to write in Latin. Athanasius of Alexandria defended the full deity of Christ through the fourth century. Augustine was born and served as bishop in what is now Algeria. The king of Aksum, in Ethiopia, became a Christian in the fourth century, and the Nubian kingdoms on the Nile followed in the sixth. Ethiopia had a Christian king more than two hundred years before the first missionaries reached the English in 597, and much longer before the Scandinavians or the Russians were converted. Its church has never ceased.',
+        'The history continues the same way. Alexandria in Egypt was one of the chief cities of the early church, and the Coptic church traces its beginning, by tradition, to Mark. Tertullian of Carthage was the first major theologian to write in Latin. Athanasius of Alexandria defended the full deity of Christ through much of the fourth century. Augustine was born and served as bishop in what is now Algeria. The king of Aksum, in Ethiopia, became a Christian in the fourth century, and the Nubian kingdoms on the Nile followed in the sixth. Ethiopia had a Christian king more than two hundred years before the first missionaries reached the English in 597, and much longer before the Scandinavians or the Russians were converted. Its church has never ceased.',
         'Be exact about what this shows. It does not tell us the colour of every North African Christian, and it does not mean the ancestors of most black Americans, who came from West Africa, were Christians. It shows that the faith was at home in Africa centuries before the slave ships, and six centuries before Islam, which came to stay in Africa when Arab armies took Egypt about the year 640. Africa did not first receive the gospel from Europe. Much of Europe received it later than Africa did.',
       ],
       references: ['Isaiah 53:2', 'Matthew 2:13-15', 'Mark 15:21', 'Acts 2:10', 'Acts 8:26-39', 'Acts 16:9-10', 'Acts 13:1'],
@@ -41,7 +41,7 @@ export const noiAnswering: Topic = {
       heading: 'Slavery in the Muslim world and in Muhammad’s practice',
       body: [
         'The Nation offers Islam as the black man’s own religion, free of the stain of slavery. That cannot be said truthfully, and it should be answered plainly. This is not raised to excuse anything in the last section. It is raised because the comparison has been made.',
-        'Arab and other Muslim traders carried Africans across the Sahara, the Red Sea and the Indian Ocean for more than a thousand years. Numbers are estimates and historians differ, but Encyclopaedia Britannica puts the total at about eighteen million between 650 and 1905. East Africans were set to clear the salt lands of southern Iraq until they rose in the Zanj rebellion of 869 to 883. Saudi Arabia abolished slavery only in 1962.',
+        'Arab and other Muslim traders carried Africans across the Sahara, the Red Sea and the Indian Ocean for more than a thousand years. Numbers are rough estimates and historians differ: totals for 650 to 1900 run from about eleven million to seventeen million or more. East Africans were set to clear the salt lands of southern Iraq until they rose in the Zanj rebellion of 869 to 883. Saudi Arabia abolished slavery only in 1962.',
         'This goes back to the sources. The Quran permits men to own slaves and to have intercourse with the women they own, “those their right hands possess” (Quran 23:5-6; 4:24; 33:50). Muhammad himself owned slaves, bought them and gave them in payment. When a slave came to him and pledged allegiance, and the owner came to claim him, Muhammad “bought him for two black slaves” (Sahih Muslim 1602). He had a black slave who kept his door (Sahih al-Bukhari 7263) and another, Anjasha, who drove his camels (Sahih al-Bukhari 6161). When a dying man who had no other property freed his six slaves, Muhammad cast lots, “set two free and kept four in slavery” (Sahih Muslim 1668), because a man may will away only a third of his estate. After the defeat of the Banu Qurayza he “distributed their women, children and property among the Muslims” (Sahih al-Bukhari 4028).',
         'Be fair as well. The Quran counts the freeing of a slave as a righteous act (Quran 90:12-13). Muhammad said, “Your slaves are your brothers” and told owners to feed and clothe them as themselves (Sahih al-Bukhari 30). Bilal, an African slave freed by Abu Bakr, is honoured by all Muslims (Sahih al-Bukhari 3754). But kindness inside slavery is not its end, and no verse or sound hadith forbids it. The fair comparison is between the founders. Muhammad owned people. Jesus owned no one. He took “the form of a servant” and died on a cross (Philippians 2:6-8), and he announced his mission as “liberty to the captives” (Luke 4:18).',
       ],
@@ -98,7 +98,7 @@ export const noiAnswering: Topic = {
       keyPoints: [
         'Agree that the white Jesus of the pictures was false. He was a Middle Eastern Jew.',
         'Africans are in the New Testament from the cross onward (Mark 15:21; Acts 8:26-39; 13:1).',
-        'Egypt, Nubia and Ethiopia were Christian before most of Europe, and before Islam existed.',
+        'Egypt, Nubia and Ethiopia were Christian before much of Europe, and before Islam existed.',
       ],
       references: ['Matthew 2:13-15', 'Mark 15:21', 'Acts 2:10', 'Acts 8:26-39', 'Acts 13:1', 'Isaiah 53:2', 'Revelation 1:14-15'],
       followUps: [
@@ -111,7 +111,7 @@ export const noiAnswering: Topic = {
             {
               reply: 'Our ancestors were Muslims before the slave ship. Christianity was beaten into us.',
               answer:
-                'Some were Muslims. One historian’s estimate is ten to fifteen percent of those brought to North America, so the great majority were not. And Christianity was often kept from slaves, not beaten into them. Frederick Douglass was told that it was unlawful to teach a slave to read, and men who called themselves Christians broke up his Sabbath school with sticks and stones. Owners feared what slaves would find in the book. They met in secret anyway, and found a God who brings slaves out of Egypt. What they saw in Jesus is what I would like you to see.',
+                'Some were Muslims. Historians’ estimates of their share run from under ten percent to about twenty, so the great majority were not. And Christianity was often kept from slaves, not beaten into them. Frederick Douglass was told that it was unlawful to teach a slave to read, and men who called themselves Christians broke up his Sabbath school with sticks and stones. Owners feared what slaves would find in the book. They met in secret anyway, and found a God who brings slaves out of Egypt. What they saw in Jesus is what I would like you to see.',
               followUps: [
                 {
                   reply: 'They took it because they had nothing else. A drowning man grabs whatever floats.',
@@ -141,10 +141,10 @@ export const noiAnswering: Topic = {
       objection:
         'Christianity is the slave-master’s religion. They baptised us and whipped us the same day, and preached “slaves, obey your masters” every Sunday. Why would I take the religion of the people who did that?',
       response:
-        'First, I grant it. Men who called themselves Christians bought and sold your ancestors, whipped them and broke up their families, and preachers told them God willed it. Whole denominations were formed by men who defended it. That was wickedness, and I will not soften it. But ask what had to be done to the Bible before it was thought safe for slaves. It had to be cut. An edition printed in London in 1807 for use among slaves in the British West Indies left out the exodus from Egypt. The whole book condemns them: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16). Frederick Douglass, who had been a slave, saw it exactly. He wrote that between the Christianity of that land and the Christianity of Christ he recognised “the widest possible difference”. I am asking you to judge Christ by Christ.',
+        'First, I grant it. Men who called themselves Christians bought and sold your ancestors, whipped them and broke up their families, and preachers told them God willed it. Whole denominations were formed by men who defended it. That was wickedness, and I will not soften it. But ask what had to be done to the Bible before it was thought safe for slaves. In one case it was cut. An edition printed in London in 1807 for use among slaves in the British West Indies left out the exodus from Egypt. The whole book condemns them: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16). Frederick Douglass, who had been a slave, saw it exactly. He wrote that between the Christianity of that land and the Christianity of Christ he recognised “the widest possible difference”. I am asking you to judge Christ by Christ.',
       keyPoints: [
         'Concede fully and without excuses what was done in Christ’s name.',
-        'The Bible given to slaves had to be cut, because the whole book condemns kidnapping and slave trading (Exodus 21:16; 1 Timothy 1:10).',
+        'A Bible made for slaves in 1807 had to be cut, because the whole book condemns kidnapping and slave trading (Exodus 21:16; 1 Timothy 1:10).',
         'Douglass distinguished the Christianity of Christ from the slaveholding religion. Compare the founders: Jesus owned no one.',
       ],
       references: ['Exodus 21:16', '1 Timothy 1:9-10', 'Ephesians 6:5-9', '1 Corinthians 7:21', 'Philemon 1:15-16', 'Sahih Muslim 1602', 'Sahih al-Bukhari 2517', 'Sahih al-Bukhari 3754', 'Quran 23:5-6', 'Quran 4:24', 'Sahih al-Bukhari 7263', 'Sahih Muslim 1668', 'Philippians 2:6-8', 'Luke 4:18', 'Leviticus 25:44-46', 'Deuteronomy 23:15-16', 'Galatians 3:28'],
@@ -157,7 +157,7 @@ export const noiAnswering: Topic = {
             {
               reply: 'It survived eighteen hundred years of them. If the book was against slavery, your people took a long time to notice.',
               answer:
-                'They did, and that is to our shame and not the book’s. Slavery was normal in every civilisation on record, and Christians went along with it far too long. But when the campaign against the British slave trade came, it was led by Christians such as William Wilberforce, arguing from the Bible, and by black Christians such as Olaudah Equiano, and Douglass argued from the same book a generation later. The slave-holders’ own book was the strongest weapon against them. That is why they would not let slaves read it whole.',
+                'They did, and that is to our shame and not the book’s. Slavery was normal in nearly every civilisation on record, and Christians went along with it far too long. But when the campaign against the British slave trade came, it was led by Christians such as William Wilberforce, arguing from the Bible, and by black Christians such as Olaudah Equiano, and Douglass argued from the same book a generation later. The slave-holders’ own book was the strongest weapon against them. That is why they would not let slaves read it whole.',
               followUps: [
                 {
                   reply: 'White abolitionists freed us on paper, and then the same pulpits gave us a hundred years of Jim Crow.',
@@ -171,7 +171,7 @@ export const noiAnswering: Topic = {
         {
           reply: 'Even if Christ is different from the Christians, Islam never did this to us. In Islam there is no colour line. Malcolm saw that in Mecca.',
           answer:
-            'Malcolm did find brotherhood among the pilgrims, and I don’t doubt him. But Arab and Muslim traders took Africans across the Sahara, the Red Sea and the Indian Ocean for more than a thousand years, about eighteen million people between 650 and 1905 by Britannica’s estimate. East African slaves worked the salt lands of Iraq until they rose in the Zanj rebellion of 869, and Saudi Arabia abolished slavery only in 1962. It goes back to the founder: the hadith record that Muhammad bought a slave by giving “two black slaves” for him (Sahih Muslim 1602).',
+            'Malcolm did find brotherhood among the pilgrims, and I don’t doubt him. But Arab and Muslim traders took Africans across the Sahara, the Red Sea and the Indian Ocean for more than a thousand years, perhaps eleven to seventeen million people between 650 and 1900 on historians’ rough estimates. East African slaves worked the salt lands of Iraq until they rose in the Zanj rebellion of 869, and Saudi Arabia abolished slavery only in 1962. It goes back to the founder: the hadith record that Muhammad bought a slave by giving “two black slaves” for him (Sahih Muslim 1602).',
           followUps: [
             {
               reply: 'The Prophet freed slaves. Bilal, a black man, gave the first call to prayer. Islam teaches that your slaves are your brothers.',
@@ -478,7 +478,7 @@ export const noiAnswering: Topic = {
         'Every mention of Africa',
       ],
       answer: 1,
-      explanation: 'The Bible had to be cut before it was thought safe to give to slaves. The whole book speaks of a God who hears the oppressed (Exodus 3:7-8).',
+      explanation: 'This edition was cut before it was thought safe to give to slaves. The whole book speaks of a God who hears the oppressed (Exodus 3:7-8).',
     },
     {
       id: 'noa-q10',

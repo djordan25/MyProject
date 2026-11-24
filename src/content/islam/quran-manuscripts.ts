@@ -25,7 +25,7 @@ export const quranManuscripts: Topic = {
     {
       heading: 'Is there a copy from Uthman’s own hand?',
       body: [
-        'Famous manuscripts in Istanbul (the Topkapi codex) and Tashkent (the Samarkand codex) are traditionally said to be Uthman’s own copies. Scholars who have examined them date them after Uthman’s death: the Topkapi codex to the late seventh or the first half of the eighth century, and the Samarkand codex to the eighth or ninth. The Muslim scholar Tayyar Altıkulaç, who published the Topkapi manuscript, himself concluded that it is not one of the copies Uthman sent out.',
+        'Famous manuscripts in Istanbul (the Topkapi codex) and Tashkent (the Samarkand codex) are traditionally said to be Uthman’s own copies. Scholars who have examined them date them after Uthman’s death: the Topkapi codex to the late seventh or the eighth century, and the Samarkand codex to the eighth or ninth. The Muslim scholar Tayyar Altıkulaç, who published the Topkapi manuscript, himself concluded that it is not one of the copies Uthman sent out.',
         'The Birmingham leaves made headlines in 2015 when their parchment was radiocarbon dated to between about AD 568 and 645. They are two leaves, with parts of three surahs, and their text is close to the standard one. That shows the standard text is early. It cannot show that the whole Quran was copied without change, and a radiocarbon date tells when the animal died, not when the ink was applied.',
         'No complete Quran survives from the lifetime of Muhammad or of Uthman.',
       ],
@@ -33,8 +33,8 @@ export const quranManuscripts: Topic = {
     {
       heading: 'Corrections in the early copies',
       body: [
-        'Early Quran manuscripts were corrected by later hands: words erased and rewritten, letters inserted, text added in the margin. The researcher Daniel Brubaker has documented a great many of these. Often the change brings a manuscript into line with what later became the standard wording.',
-        'Some corrections are ordinary slips being fixed, as in any hand-copied book. Brubaker argues that the pattern shows a text still being brought into uniformity after Uthman’s time.',
+        'Early Quran manuscripts were corrected by later hands: words erased and rewritten, letters inserted, text added in the margin. The researcher Daniel Brubaker has documented a great many of these. Often the change brings a manuscript into line with the standard wording.',
+        'Many corrections are ordinary slips being fixed, as in any hand-copied book. Brubaker argues that the pattern shows a text still being brought into uniformity after Uthman’s time. His reviewer Hythem Sidky calls that unproven and finds most of the examples best explained as simple copying errors.',
       ],
     },
     {
@@ -52,7 +52,7 @@ export const quranManuscripts: Topic = {
       body: [
         'Do not overclaim. You are not arguing that the Quran is wildly corrupt. You are showing that it has a human history of variants, editing and standardisation, like other ancient books.',
         'Then ask for one standard. Muslims are taught that variants disqualify the Bible. If erased texts, corrected manuscripts and multiple readings do not disqualify the Quran, the Bible’s openly documented variants cannot disqualify it either (see Uthman’s Burning and the Lost Verses).',
-        'Some Muslim scholars now say openly that the simple account given to ordinary believers leaves out much of this history. Your Muslim friend may never have heard it. Share it as information, with the sources, and give them time.',
+        'Specialists such as Yasin Dutton note that the state of the text before Uthman is less well known to most Muslims. Your Muslim friend may never have heard it. Share it as information, with the sources, and give them time.',
       ],
     },
   ],
@@ -246,7 +246,7 @@ export const quranManuscripts: Topic = {
         'Signatures of the companions',
       ],
       answer: 2,
-      explanation: 'Some are ordinary slips being fixed. Brubaker argues that the pattern shows a text still being brought into uniformity.',
+      explanation: 'Many are ordinary slips being fixed. Brubaker argues that the pattern shows a text still being brought into uniformity; reviewers such as Hythem Sidky call that unproven.',
     },
     {
       id: 'mq-q11',
@@ -258,7 +258,7 @@ export const quranManuscripts: Topic = {
         'The editors of the Cairo edition, in 1924',
       ],
       answer: 1,
-      explanation: 'That was about three hundred years after Muhammad. Ibn al-Jazari added three more in the fifteenth century.',
+      explanation: 'That was about three hundred years after Muhammad. Ibn al-Jazari (d. 1429) later gave three more the same standing.',
     },
     {
       id: 'mq-q12',

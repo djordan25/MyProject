@@ -19,7 +19,7 @@ export const crucifixionDenial: Topic = {
       body: [
         'The Old Testament foretold a suffering, pierced, dying servant (Psalm 22:16-18; Isaiah 53:5-12; Zechariah 12:10).',
         'Jesus repeatedly predicted his own death and resurrection (Mark 8:31; 9:31; 10:33-34). If he was not crucified, Jesus was a false prophet on this point.',
-        'Every New Testament source — the four Gospels, Acts, Paul, Peter, Hebrews, Revelation — affirms his death. Paul passes on a creed he had “received”, that “Christ died for our sins” (1 Corinthians 15:3).',
+        'Every main New Testament witness — the four Gospels, Acts, Paul, Peter, Hebrews, Revelation — affirms his death. Paul passes on a creed he had “received”, that “Christ died for our sins” (1 Corinthians 15:3).',
         'The crucifixion is the centre of the Christian message, not a detail (1 Corinthians 2:2; Galatians 6:14).',
       ],
       references: ['Psalm 22:16-18', 'Isaiah 53:5-12', 'Mark 8:31', 'Mark 10:33-34', '1 Corinthians 15:3-4', '1 Corinthians 2:2'],
@@ -27,17 +27,17 @@ export const crucifixionDenial: Topic = {
     {
       heading: 'The Quran’s own problems',
       body: [
-        'Divine deception: if God made someone else look like Jesus, then God deceived Jesus’ mother, his disciples and the watching crowd. That deception produced the entire Christian faith. Quran 3:54 says “Allah is the best of planners.” (The Arabic word, makr, normally means scheming or deceiving; translators soften it.) Would a God of truth found a worldwide false religion by trickery?',
+        'Divine deception: if God made someone else look like Jesus, then God deceived Jesus’ mother, his disciples and the watching crowd. That deception produced the entire Christian faith. Quran 3:54 says “Allah is the best of planners.” (The Arabic word, makr, means plotting or scheming; where God is its subject, the Quran uses it of his counter-plot against plotters.) Would a God of truth found a worldwide false religion by trickery?',
         'The disciples: the Quran praises Jesus’ disciples as true believers whom Allah supported until “they became dominant” (Quran 61:14; 3:52-55). Yet those very disciples proclaimed the death and resurrection of Jesus (Acts 2:23-24, 32). If God supported them, he supported their message.',
-        'Quran 19:33: Jesus says “peace is on me the day I was born and the day I will die and the day I am raised alive.” The order — birth, death, raised alive — fits the Christian account naturally.',
-        'Quran 3:55 uses the word mutawaffika (“I will take you”), the same root used for God taking souls at death (Quran 39:42).',
+        'Quran 19:33: Jesus says “peace is on me the day I was born and the day I will die and the day I am raised alive.” Nothing in the verse hints that his death is still to come, though “raised alive” is usually taken to mean the general resurrection.',
+        'Quran 3:55 uses the word mutawaffika (“I will take you”), the verb the Quran most often uses for God taking people in death, though it also uses it of sleep (Quran 39:42).',
       ],
       references: ['Quran 3:54-55', 'Quran 61:14', 'Quran 19:33', 'Quran 39:42', 'Acts 2:23-24'],
     },
     {
       heading: 'What the Muslim commentators say',
       body: [
-        'The classical commentators did not agree on what happened. Al-Tabari records several accounts: that a disciple volunteered to take on Jesus’ appearance and die in his place, that a man named Sergius was made to look like him, and that, as he says some Christians claimed, it was Judas who was made to look like Jesus and was crucified protesting that he was not the man. Al-Tabari ends: God knows best which it was. Ibn Kathir gives the account of the volunteer disciple. The short commentary of the two Jalals says the man killed was an associate of the Jews on whom God cast Jesus’ likeness.',
+        'The classical commentators did not agree on what happened. Al-Tabari records several accounts: that a disciple volunteered to take on Jesus’ appearance and die in his place, that a man named Sergius was made to look like him, and that, as one report says some Christians claimed, it was Judas who was made to look like Jesus and was crucified protesting that he was not the man; that report ends: God knows best which it was. Al-Tabari himself prefers two reports from Wahb ibn Munabbih, in one of which all the disciples present were made to look like Jesus. Ibn Kathir gives the account of the volunteer disciple. The short commentary of the two Jalals says the man killed was an associate of the Jews on whom God cast Jesus’ likeness.',
         'None of these accounts names a source from the time of Jesus, and they contradict one another. The verse itself says that those who differ about it “have no knowledge of it except the following of assumption” (Quran 4:157). That describes the commentators’ position exactly.',
         'Use this when a Muslim says the substitution is clear. Ask: who was crucified, and how do you know?',
       ],
@@ -76,7 +76,7 @@ export const crucifixionDenial: Topic = {
           followUps: [
             {
               reply: 'That verb can also mean taking someone in sleep, or taking him whole, body and soul. Ibn Kathir explains Quran 3:55 as sleep.',
-              answer: 'Ibn Kathir does, and the Tafsir al-Jalalayn says Jesus was taken “without death”. But al-Bukhari, in the Book of Tafsir in his Sahih, records how Ibn Abbas explained the word: “I will cause you to die.” The plain sense is death, and the commentators move away from it because Quran 4:157 seems to require it. To get your reading, the verse must also be reversed. It says “take” and then “raise”. You need “raise” now and “take” thousands of years later.',
+              answer: 'Ibn Kathir does, and the Tafsir al-Jalalayn says Jesus was taken “without death”. But al-Bukhari, in the Book of Tafsir in his Sahih, records how Ibn Abbas explained the word: “I will cause you to die.” The plain sense is death, and the commentators move away from it because Quran 4:157 seems to require it. And if the word does mean death, your reading has to reverse the verse. It says “take” and then “raise”. You need “raise” now and “take” thousands of years later.',
             },
           ],
         },
@@ -104,7 +104,7 @@ export const crucifixionDenial: Topic = {
                   followUps: [
                     {
                       reply: 'Those are followers of Paul, not of Jesus. Paul changed the religion.',
-                      answer: 'Paul says he passed on what he had received: that Christ died for our sins, was buried and was raised (1 Corinthians 15:3-4). He set his gospel before the leaders in Jerusalem, and James, Peter and John gave him “the right hand of fellowship” (Galatians 2:9). He could write, “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11). Peter was preaching the cross and the resurrection in Jerusalem within weeks of the event (Acts 2:23-24). The first people known to deny that he truly died were Gnostic teachers of the second century, who denied that he had a real body at all.',
+                      answer: 'Paul says he passed on what he had received: that Christ died for our sins, was buried and was raised (1 Corinthians 15:3-4). He set his gospel before the leaders in Jerusalem, and James, Peter and John gave him “the right hand of fellowship” (Galatians 2:9). He could write, “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11). Peter was preaching the cross and the resurrection in Jerusalem within weeks of the event (Acts 2:23-24). The first people known to deny that he truly died were docetic and Gnostic teachers of the second century, who denied that he had a real body at all.',
                     },
                   ],
                 },
@@ -118,7 +118,7 @@ export const crucifixionDenial: Topic = {
           followUps: [
             {
               reply: 'Even early Christians disagreed about it. Basilides taught that Simon of Cyrene was crucified in Jesus’ place.',
-              answer: 'Irenaeus reports that about Basilides, a teacher in Egypt in the second century, roughly a hundred years after the event. Basilides had no eyewitness source. He held that Christ was a bodiless power who could not suffer, so someone else must have died. Islam rejects that starting point, since the Quran insists that Jesus was a man who ate food (Quran 5:75). A second-century Gnostic who denied that Jesus was truly human is no witness for the Quran’s account.',
+              answer: 'Irenaeus reports that about Basilides, a teacher in Egypt in the second century, roughly a hundred years after the event. No eyewitness is cited for it. On Irenaeus’ account Basilides held that Christ was a bodiless power who could not suffer, so someone else must have died. Islam rejects that starting point, since the Quran insists that Jesus was a man who ate food (Quran 5:75). A second-century Gnostic who denied that Jesus was truly human is no witness for the Quran’s account.',
             },
           ],
         },
@@ -164,11 +164,11 @@ export const crucifixionDenial: Topic = {
       followUps: [
         {
           reply: 'His tomb is in Kashmir.',
-          answer: 'The claim that a shrine in Kashmir is the tomb of Jesus was first made in the nineteenth century. Against it stand accounts written within a lifetime of the event: the centurion confirmed to Pilate that Jesus was dead (Mark 15:44-45), and a spear was driven into his side (John 19:33-34).',
+          answer: 'The claim that a shrine in Kashmir is the tomb of Jesus was put forward by Mirza Ghulam Ahmad in the 1890s. Against it stand accounts written within a lifetime of the event: the centurion confirmed to Pilate that Jesus was dead (Mark 15:44-45), and a spear was driven into his side (John 19:33-34).',
           followUps: [
             {
               reply: 'Mirza Ghulam Ahmad showed that the tomb of Yuz Asaf in Srinagar is the tomb of Jesus, and that an old remedy called the “ointment of Jesus” healed his wounds.',
-              answer: 'The shrine in Srinagar is the grave of a man called Yuz Asaf. The claim that he was Jesus was put forward by Mirza Ghulam Ahmad in the 1890s and set out in his book Jesus in India, written in 1899. No Christian, Jewish or Roman source from the early centuries says that Jesus went east. A medieval remedy with the name of Jesus attached is not evidence of what happened in a tomb in Jerusalem. Most Muslims reject the Ahmadi account as well, because it has Jesus crucified, which Quran 4:157 denies. The Ahmadiyya sub-track examines this in detail.',
+              answer: 'The shrine in Srinagar is the grave of a man called Yuz Asaf. The claim that he was Jesus was put forward by Mirza Ghulam Ahmad in the 1890s and set out in his book Jesus in India, written in 1899. No Christian, Jewish or Roman source from the early centuries says that Jesus went east. A medieval remedy with the name of Jesus attached is not evidence of what happened in a tomb in Jerusalem. Most Muslims reject the Ahmadi account as well, because it has Jesus nailed to the cross, which the usual reading of Quran 4:157 denies. The Ahmadiyya sub-track examines this in detail.',
             },
           ],
         },
@@ -235,11 +235,11 @@ export const crucifixionDenial: Topic = {
         'For the pilgrimage to Mecca',
       ],
       answer: 0,
-      explanation: 'Read plainly, Quran 3:55 has Allah take Jesus in death and then raise him, which is the order the Gospels give.',
+      explanation: 'Death is the verb’s usual sense in the Quran, though Quran 39:42 also uses it of sleep. In that usual sense, Quran 3:55 has Allah take Jesus in death and then raise him, which is the order the Gospels give.',
     },
     {
       id: 'cd-q6',
-      question: 'What does al-Tabari conclude after listing the accounts of who was crucified in Jesus’ place?',
+      question: 'Al-Tabari records a report that some Christians said Judas was crucified in Jesus’ place. How does that report end?',
       options: [
         'It was certainly Judas',
         'It was certainly Simon of Cyrene',

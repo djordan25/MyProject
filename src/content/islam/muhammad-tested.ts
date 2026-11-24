@@ -13,7 +13,7 @@ export const muhammadTested: Topic = {
         'A prophet who leads people away from the God who has revealed himself is false, even if he performs signs (Deuteronomy 13:1-5).',
         'A message that contradicts the apostolic gospel is to be rejected, “even if we or an angel from heaven” should preach it (Galatians 1:8).',
         'Whoever denies that Jesus is the Christ, and denies the Father and the Son, is described as antichrist (1 John 2:22-23).',
-        'The Quran denies that God has a Son (Quran 19:88-92; 112:3) and denies the crucifixion at the heart of the gospel (Quran 4:157). By the Bible’s own tests — which the Quran says came from God — Muhammad’s message fails.',
+        'The Quran denies that God has a Son (Quran 19:88-92; 112:3) and denies the crucifixion at the heart of the gospel (Quran 4:157). By the Bible’s own tests — and the Quran says the Torah and the Gospel came from God — Muhammad’s message fails.',
       ],
       argument: [
         'A true prophet’s message agrees with God’s earlier revelation.',
@@ -26,8 +26,8 @@ export const muhammadTested: Topic = {
       heading: 'Muhammad’s own doubts about the source',
       body: [
         'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija and her Christian cousin Waraqa who reassured him that it was the angel (Sahih al-Bukhari 3).',
-        'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). Muhammad’s assurance came from his wife and her cousin.',
-        'Bukhari also records that when the revelations paused, Muhammad became so sad that “he intended several times to throw himself from the tops of high mountains” (Sahih al-Bukhari 6982). Muslim scholars point out that this part of the report comes from the narrator al-Zuhri without a full chain. The earliest surviving biography, by Ibn Ishaq as preserved by al-Tabari, reports a similar impulse straight after the first revelation.',
+        'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
+        'Bukhari also records that when the revelations paused, Muhammad became so sad that “he intended several times to throw himself from the tops of high mountains” (Sahih al-Bukhari 6982); each time, the report says, Gabriel appeared and told him he was truly Allah’s Messenger. Muslim scholars point out that this part of the report comes from the narrator al-Zuhri without a full chain. The earliest surviving biography, by Ibn Ishaq as preserved by al-Tabari, reports a similar impulse straight after the first revelation, stopped by a voice from heaven telling him he was God’s messenger and that the speaker was Gabriel.',
       ],
       references: ['Sahih al-Bukhari 3', 'Sahih al-Bukhari 6982', 'Isaiah 6:5', 'Daniel 10:8-9', 'Luke 1:11-13', 'Luke 1:28-30'],
     },
@@ -36,7 +36,7 @@ export const muhammadTested: Topic = {
       body: [
         'Early Muslim historians, among them Ibn Ishaq (as preserved by al-Tabari) and Ibn Sa‘d, report that Muhammad once recited words honouring three goddesses of Mecca as exalted beings whose intercession could be hoped for, and that the pagans of Mecca then bowed down together with the Muslims. Afterwards, they say, he was told that Satan had put the words on his tongue, and the words were withdrawn.',
         'Bukhari confirms the bowing without giving the reason: when Muhammad finished reciting Surat an-Najm, “all the Muslims and pagans” prostrated with him (Sahih al-Bukhari 4862). At that point the Quran now names the three goddesses and dismisses them (Quran 53:19-23). Another verse says that whenever a messenger recited, Satan threw something into it, which Allah then abolished (Quran 22:52).',
-        'Be accurate about its standing. Most Muslim scholars today reject the story as poorly attested, though several early scholars recorded it. The commentators themselves divide: the Tafsir al-Jalalayn tells the story as the explanation of Quran 22:52, while Ibn Kathir says that many commentators mention it but that its reports all have incomplete chains and none of them is sound. Present it as what early Muslim sources report, not as an agreed fact, and ask what else explains Quran 22:52 and the pagans bowing.',
+        'Be accurate about its standing. Muslims today almost universally reject the story, and their scholars call it poorly attested; yet Shahab Ahmed has shown that in Islam’s first two centuries it was almost universally accepted. The commentators themselves divide: the Tafsir al-Jalalayn tells the story as the explanation of Quran 22:52, while Ibn Kathir says that many commentators mention it but that its reports all have incomplete chains and none of them is sound. Present it as what early Muslim sources report, not as an agreed fact, and ask what else explains Quran 22:52 and the pagans bowing.',
         'The Bible’s test is direct: a prophet who speaks in God’s name what God did not command, or who speaks in the name of other gods, is condemned (Deuteronomy 18:20).',
       ],
       references: ['Sahih al-Bukhari 4862', 'Quran 53:19-23', 'Quran 22:52', 'Deuteronomy 18:20'],
@@ -71,7 +71,7 @@ export const muhammadTested: Topic = {
     {
       heading: 'Revelations that served the messenger',
       body: [
-        'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd, and Quran 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
+        'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd (the verse gives the reason: so that believers may marry the former wives of their adopted sons), and Quran 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
         'When Quran 33:51 came, giving Muhammad freedom regarding his wives’ turns, Aisha said: “I feel that your Lord hastens in fulfilling your wishes and desires” (Sahih al-Bukhari 4788).',
         'Sahih al-Bukhari 5133 states that Muhammad married Aisha when she was six and consummated the marriage when she was nine. This is not an insult; it is what Islam’s most trusted hadith collection records. It matters because Muslims hold Muhammad as the perfect moral example for all time. Is this an example for all time?',
         'Contrast Jesus, who “did not come to be served, but to serve, and to give His life as a ransom for many” (Mark 10:45).',
@@ -131,7 +131,7 @@ export const muhammadTested: Topic = {
         },
         {
           reply: 'Aisha was really eighteen or nineteen. Scholars have worked it out from the age of her sister Asma, and the report about nine comes from one narrator in his old age.',
-          answer: 'That is a modern argument, built on calculations from later histories. Against it stand Aisha’s own words in both Sahih collections (Sahih al-Bukhari 5133, 5134; Sahih Muslim 1422). The details fit a child: she was playing on a swing with her friends when her mother fetched her (Sahih al-Bukhari 3894), and she played with dolls in Muhammad’s house (Sahih al-Bukhari 6130). Muslim scholars accepted this for more than a thousand years. If Bukhari and Muslim are wrong here, what else in them may be set aside?',
+          answer: 'That is a modern argument, built on calculations from later histories. Against it stand the reports given as Aisha’s own words in both Sahih collections (Sahih al-Bukhari 5133, 5134; Sahih Muslim 1422). The details fit a child: she was playing on a swing with her friends when her mother fetched her (Sahih al-Bukhari 3894), and she played with dolls in Muhammad’s house (Sahih al-Bukhari 6130). Muslim scholars accepted this for more than a thousand years. One recent academic study (Joshua Little, Oxford, 2022) does argue that the hadith itself arose in eighth-century Iraq. But if Bukhari and Muslim are wrong here, what else in them may be set aside?',
           followUps: [
             {
               reply: 'She had reached puberty, and that was the mark of adulthood everywhere at that time. Nobody objected, not even his enemies.',
@@ -161,7 +161,7 @@ export const muhammadTested: Topic = {
           followUps: [
             {
               reply: 'The Arabic word there does not mean sin as you understand it. It means a shortcoming, or it refers to the sins of his people. The Prophet asked forgiveness out of humility.',
-              answer: 'The word is dhanb, the Quran’s ordinary word for sin. It is the word used when Allah seized Pharaoh’s people “for their sins” (Quran 3:11). And Quran 47:19 keeps Muhammad’s sin apart from other people’s: he is to ask forgiveness for his own sin and also for the believing men and women. His prayers say the same: “O Allah! Wash away my sins with the water of snow and hail” (Sahih al-Bukhari 6368). Humility is good, but a humble man does not confess sins he does not have.',
+              answer: 'The word is dhanb, one of the Quran’s ordinary words for sin. It is the word used when Allah seized Pharaoh’s people “for their sins” (Quran 3:11). And Quran 47:19 keeps Muhammad’s sin apart from other people’s: he is to ask forgiveness for his own sin and also for the believing men and women. His prayers say the same: “O Allah! Wash away my sins with the water of snow and hail” (Sahih al-Bukhari 6368). Humility is good, but a humble man does not confess sins he does not have.',
               followUps: [
                 {
                   reply: 'Jesus was baptised by John with a baptism of repentance, and he taught the prayer “forgive us our debts”. So he confessed sin as well.',
@@ -177,7 +177,7 @@ export const muhammadTested: Topic = {
           followUps: [
             {
               reply: 'Those were small slips, or they happened before the prophet was called. They are nothing like adultery.',
-              answer: 'The Quran does not draw that line. Later theology does. And look at David in the Quran. Two men climb into his chamber with a case about a man who had ninety-nine ewes and took his neighbour’s one. David gives judgement, realises that he is the one being tested, asks forgiveness, falls down and repents, and Allah forgives him (Quran 38:21-25). The Quran does not say what he had done. The Bible does: this is Nathan’s parable, told after David took Uriah’s wife (2 Samuel 12:1-7). The Quran alludes to the story that the Bible tells in full.',
+              answer: 'The Quran does not draw that line. Later theology does. And look at David in the Quran. Two men climb into his chamber with a case about a man who had ninety-nine ewes and demanded his brother’s one. David gives judgement, realises that he is the one being tested, asks forgiveness, falls down and repents, and Allah forgives him (Quran 38:21-25). The Quran does not say what he had done. The Bible does: this is Nathan’s parable, told after David took Uriah’s wife (2 Samuel 12:1-7). The Quran alludes to the story that the Bible tells in full.',
             },
           ],
         },
@@ -215,7 +215,7 @@ export const muhammadTested: Topic = {
         },
         {
           reply: 'Moses was affected by magic too. The Quran says the magicians’ ropes seemed to him to be moving (Quran 20:66). That did not undo his prophethood.',
-          answer: 'That was a trick performed before a crowd. The ropes seemed to move, to Moses as to everyone watching, and at once Allah told him not to fear and he overcame it (Quran 20:66-69). Muhammad’s case is different in kind. The spell was aimed at him, it lasted until two visitors told him the cause, and it made him believe things about his own actions that were not so (Sahih al-Bukhari 5763). An illusion before the eyes is not a delusion in the mind.',
+          answer: 'That was a trick performed before a crowd. The ropes seemed to move, to Moses as to everyone watching, and at once Allah told him not to fear and he overcame it (Quran 20:66-69). Muhammad’s case is different in kind. The spell was aimed at him, it lasted until, as he said, Allah showed him the cause through two men, and it made him believe things about his own actions that were not so (Sahih al-Bukhari 5763). An illusion before the eyes is not a delusion in the mind.',
         },
       ],
       objection: 'The magic hadith only affected his worldly matters, not the revelation.',
@@ -245,7 +245,7 @@ export const muhammadTested: Topic = {
         },
         {
           reply: 'Those girls were kept for the soldiers’ use. That is worse than anything in Islam.',
-          answer: 'The text says the girls were spared and taken into Israel’s households. It does not say what you describe. Where the law of Moses deals with a captive woman, it requires a month of mourning and then marriage, and it forbids selling her afterwards (Deuteronomy 21:10-14). It is still a hard passage, as I said. But compare the law that stands in Islam. The Quran permits men their wives and “those their right hands possess” (Quran 23:5-6), and Sahih Muslim reports that Quran 4:24 was sent down when Muhammad’s men hesitated to have intercourse with captive women whose husbands were living (Sahih Muslim 1456). Numbers 31 records one judgement in one war. It gives no rule for anyone now.',
+          answer: 'The text says the girls were spared and shared out among Israel with the rest of the plunder. It does not say what you describe. Where the law of Moses deals with a captive woman, it requires a month of mourning and then marriage, and it forbids selling her afterwards (Deuteronomy 21:10-14). It is still a hard passage, as I said. But compare the law that stands in Islam. The Quran permits men their wives and “those their right hands possess” (Quran 23:5-6), and Sahih Muslim reports that Quran 4:24 was sent down when Muhammad’s men hesitated to have intercourse with captive women whose husbands were living (Sahih Muslim 1456). Numbers 31 records one judgement in one war. It gives no rule for anyone now.',
         },
       ],
       objection: 'The Bible is worse. Moses told his soldiers to keep the young girls for themselves (Numbers 31:17-18).',
@@ -301,7 +301,7 @@ export const muhammadTested: Topic = {
       question: 'After the first revelation, who reassured Muhammad that what he had met was the angel (Sahih al-Bukhari 3)?',
       options: ['The angel himself', 'His wife Khadija and her Christian cousin Waraqa', 'Abu Bakr and Umar', 'His uncle Abu Talib'],
       answer: 1,
-      explanation: 'In Scripture the heavenly messenger gives the reassurance himself: “Do not be afraid” (Luke 1:11-13). Muhammad’s came from his wife and her cousin.',
+      explanation: 'In Scripture the heavenly messenger gives the reassurance himself: “Do not be afraid” (Luke 1:11-13). In this report Muhammad’s came from his wife and her cousin.',
     },
     {
       id: 'mt-q7',
@@ -309,7 +309,7 @@ export const muhammadTested: Topic = {
       options: [
         'Muhammad felt no fear at all',
         'Muhammad saw nothing',
-        'His assurance came from other people, not from the messenger',
+        'In Bukhari’s account of the first night, his assurance came from other people, not from the messenger',
         'His experience took place in daylight',
       ],
       answer: 2,

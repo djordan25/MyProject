@@ -17,7 +17,7 @@ export const sunniOverview: Topic = {
     {
       heading: 'The four authorities',
       body: [
-        'Sunni scholars name four sources for belief and law. The jurist al-Shafi‘i, who died in 820, did most to set them in order.',
+        'Sunni scholars name four sources of the law. The jurist al-Shafi‘i, who died in 820, is traditionally credited with setting them in order.',
         'The first is the Quran. The second is the Sunna, known through the hadith. Sunnis hold that Muhammad’s example binds every Muslim, because the Quran says so: “He who obeys the Messenger has obeyed Allah” (Quran 4:80), and “whatever the Messenger has given you - take; and what he has forbidden you - refrain from” (Quran 59:7). Six hadith collections have special standing. They were compiled by al-Bukhari (died 870), Muslim (died 875), Abu Dawud, al-Tirmidhi, al-Nasa’i and Ibn Majah. The first two are called the two Sahihs, the two sound books, and stand above the rest. The thirteenth-century scholar al-Nawawi wrote that the scholars agree they are the most authentic books after the Quran and that the community has received them with acceptance.',
         'The third source is consensus (ijma‘). If the qualified scholars of a generation agree on a matter, that agreement is binding. The proof usually given is a saying of Muhammad: “My nation will not unite on misguidance, so if you see them differing, follow the great majority” (Sunan Ibn Majah 3950; see also Jami at-Tirmidhi 2167 and Sunan Abi Dawud 4253), together with the Quran’s warning to anyone who “follows other than the way of the believers” (Quran 4:115).',
         'The fourth is analogy (qiyas): extending a known ruling to a new case that shares its reason. Wine is forbidden, so other intoxicants are forbidden. The lesson Can the Hadith Be Trusted? asks how reliable the hadith are. Here the point is simpler. This is what a Sunni is committed to.',
@@ -27,16 +27,16 @@ export const sunniOverview: Topic = {
     {
       heading: 'Four schools of law, three schools of creed',
       body: [
-        'Most Sunnis follow one of four schools of law (madhhabs), each named after a jurist. The Hanafi school follows Abu Hanifa (died 767) and is the largest. It prevails in Turkey, the Balkans, Central Asia and South Asia. The Maliki school follows Malik ibn Anas (died 795) and prevails in North and West Africa. The Shafi‘i school follows al-Shafi‘i (died 820) and prevails in East Africa, Southeast Asia and parts of Egypt and the Levant. The Hanbali school follows Ahmad ibn Hanbal (died 855) and prevails in the Arabian peninsula.',
+        'Most Sunnis follow one of four schools of law (madhhabs), each named after a jurist. The Hanafi school follows Abu Hanifa (died 767) and is the largest. It prevails in Turkey, the Balkans, Central Asia and South Asia. The Maliki school follows Malik ibn Anas (died 795) and prevails in North and West Africa. The Shafi‘i school follows al-Shafi‘i (died 820) and prevails in East Africa, Southeast Asia and parts of Egypt and the Levant. The Hanbali school follows Ahmad ibn Hanbal (died 855) and prevails in Saudi Arabia.',
         'The schools differ on details of practice: how to hold the hands in prayer, what breaks ritual purity, the terms of a marriage contract. They accept one another as valid. Following a school’s rulings without weighing the evidence oneself is called taqlid, and traditional Sunnis think it is the right course for anyone who is not a trained jurist.',
-        'In creed there are three main schools. The Ash‘ari school, named after al-Ash‘ari (died about 935), and the Maturidi school, named after al-Maturidi (died 944), use reasoned theology to defend Sunni belief, and read verses about God’s hand or God’s throne as figures of speech or leave their meaning to God. The Athari or traditionalist school, linked with the Hanbalis, refuses that kind of interpretation and affirms the texts as they stand without asking how. From about the eleventh century most Sunni scholars were Ash‘ari or Maturidi. Salafis today hold the Athari creed and say it was the creed of the first generations, and the argument between them is sharp. The lesson Salafis, Sufis and Traditionalists takes it further.',
+        'In creed there are three main schools. The Ash‘ari school, named after al-Ash‘ari (died about 935), and the Maturidi school, named after al-Maturidi (died 944), use reasoned theology to defend Sunni belief, and read verses about God’s hand or God’s throne as figures of speech or leave their meaning to God. The Athari or traditionalist school, linked with the Hanbalis, refuses that kind of interpretation and affirms the texts as they stand without asking how. After the eleventh century most Sunni scholars were Ash‘ari or Maturidi. Salafis today hold the Athari creed and say it was the creed of the first generations, and the argument between them is sharp. The lesson Salafis, Sufis and Traditionalists takes it further.',
       ],
     },
     {
       heading: 'Where you will meet Sunnis',
       body: [
         'In the United States, the Pew Research Center estimated about 3.45 million Muslims in 2017. In its survey that year 55 percent identified as Sunni and 16 percent as Shia, and 14 percent named no particular tradition. American Sunnis include immigrants and their children from South Asia and the Arab world, and many African Americans. After Elijah Muhammad died in 1975, his son Warith Deen Mohammed led most of the Nation of Islam into Sunni Islam.',
-        'In Europe, Pew estimated 25.8 million Muslims in 2016, about 4.9 percent of the population of the European Union as it then was, with Norway and Switzerland. Most are Sunni. Germany’s Muslims are largely of Turkish background and Hanafi. Those of France, Belgium and Spain are largely North African and Maliki. Britain’s are largely South Asian and Hanafi. Bosnia, Albania and Kosovo have Sunni communities centuries old.',
+        'In Europe, Pew estimated 25.8 million Muslims in 2016, about 4.9 percent of the population of the European Union as it then was, with Norway and Switzerland. Most are Sunni. The largest group of Germany’s Muslims is of Turkish background and Hanafi. Those of France, Belgium and Spain are largely North African and Maliki. Britain’s are largely South Asian and Hanafi. Bosnia, Albania and Kosovo have Sunni communities centuries old.',
         'Lebanon has had no census since 1932, so every figure is an estimate. One that is often quoted, from the research firm Statistics Lebanon and cited by the United States State Department in 2023, puts Sunnis at about 31 percent of citizens and Shia at about 32 percent. Sunnis live mainly in the coastal cities, Beirut, Tripoli and Sidon, and in the Akkar region in the north. By long-standing convention the prime minister is a Sunni. Most of the Palestinian and Syrian refugees in the country are Sunni as well.',
       ],
     },
@@ -58,9 +58,9 @@ export const sunniOverview: Topic = {
     {
       heading: 'Three Sunni claims to answer',
       body: [
-        'First: “Sahih al-Bukhari is the most authentic book after the Book of Allah.” Accept this as the Sunni position and hold your friend to it. If the book is that sound, its contents stand: the collection of the Quran under threat of loss and the burning of other copies (Sahih al-Bukhari 4986, 4987), the spell on Muhammad (Sahih al-Bukhari 5763), the apostasy ruling. Be accurate about its standing too. Early hadith critics did question some of its reports. Al-Daraqutni, who died in 995, criticised about two hundred narrations in the two Sahihs, on technical points about their chains and not about their content, and al-Nawawi says that all or most of his criticisms were answered. The lessons Can the Hadith Be Trusted? and Uthman’s Burning and the Lost Verses give the detail.',
+        'First: “Sahih al-Bukhari is the most authentic book after the Book of Allah.” Accept this as the Sunni position and hold your friend to it. If the book is that sound, its contents stand: the collection of the Quran under threat of loss and the burning of other copies (Sahih al-Bukhari 4986, 4987), the spell on Muhammad (Sahih al-Bukhari 5763), the apostasy ruling. Be accurate about its standing too. Early hadith critics did question some of its reports. Al-Daraqutni, who died in 995, criticised about two hundred narrations in the two Sahihs, almost all on technical points about their chains and not about their content, and al-Nawawi says that all or most of his criticisms were answered. The lessons Can the Hadith Be Trusted? and Uthman’s Burning and the Lost Verses give the detail.',
         'Second: “The community will never agree on an error.” Look at the proof. The saying as it stands in Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 is graded weak. Sunni scholars reply that its many chains support one another. Then ask whose agreement counts. In practice it is the agreement of Sunni scholars, with the Shia and others left out, so the rule proves Sunni Islam only to those who are already Sunni. And the classical consensus includes the death penalty for apostasy, which many Sunnis today want to leave behind. A community can agree and be wrong. Sunni scholars agree that Jesus was not crucified (Quran 4:157), against every first-century source that speaks of his death.',
-        'Third: “Sunni Islam is simply the original Islam, preserved.” Sunnis do stand in line with the majority of the early community, and their scholars took great care. But the things that mark Sunni Islam took shape over centuries. The jurists behind the four schools died between 767 and 855. The six books were compiled in the ninth century and the first years of the tenth. The creeds were settled in the tenth. The first generation itself was torn by civil war. And Shia and Ibadi Muslims each say the same thing about themselves. The claim has to be tested by the earliest evidence, not assumed.',
+        'Third: “Sunni Islam is simply the original Islam, preserved.” Sunnis do stand in line with the majority of the early community, and their scholars took great care. But the things that mark Sunni Islam took shape over centuries. The jurists behind the four schools died between 767 and 855. The six books were compiled in the ninth century and the first years of the tenth. The creeds took shape in the tenth. The first generation itself was torn by civil war. And Shia and Ibadi Muslims each say the same thing about themselves. The claim has to be tested by the earliest evidence, not assumed.',
       ],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987', 'Sahih al-Bukhari 5763', 'Sunan Ibn Majah 3950', 'Jami at-Tirmidhi 2167', 'Quran 4:157'],
     },
@@ -101,7 +101,7 @@ export const sunniOverview: Topic = {
         },
         {
           reply: 'Scholars did criticise a few hadith in Bukhari. Accepting the book does not mean every line is beyond question.',
-          answer: 'True. Al-Daraqutni criticised about two hundred narrations in the two Sahihs, on points about the chains, and later scholars answered him. So the claim becomes “almost all of it is sound”. Then who decides which parts are not? If you may set aside the apostasy reports because they are uncomfortable, a Quran-only Muslim may set aside the reports that teach the prayer.',
+          answer: 'True. Al-Daraqutni criticised about two hundred narrations in the two Sahihs, on points about the chains, and later scholars answered most of them. So the claim becomes “almost all of it is sound”. Then who decides which parts are not? If you may set aside the apostasy reports because they are uncomfortable, a Quran-only Muslim may set aside the reports that teach the prayer.',
           followUps: [
             {
               reply: 'The scholars decide, by the science of hadith, not by what feels uncomfortable. That is the difference between us and those who reject hadith.',
@@ -141,7 +141,7 @@ export const sunniOverview: Topic = {
           followUps: [
             {
               reply: 'Those are disputes with sects that went astray. The main body has stayed one, and the Prophet told us to follow the great majority.',
-              answer: 'That instruction is part of the same report, graded weak (Sunan Ibn Majah 3950). And Sunnis themselves honour a man for standing against the doctrine that the rulers and their scholars enforced. When the caliphs required everyone to confess that the Quran was created, Ahmad ibn Hanbal refused and was flogged. So truth was not settled by who held the pulpits. Jesus said the way to life is narrow, “and only a few find it” (Matthew 7:13-14).',
+              answer: 'That instruction is part of the same report, graded weak (Sunan Ibn Majah 3950). And Sunnis themselves honour a man for standing against the doctrine that the rulers and their scholars enforced. When the caliphs required judges and scholars to confess that the Quran was created, Ahmad ibn Hanbal refused and was flogged. So truth was not settled by who held the pulpits. Jesus said the way to life is narrow, “and only a few find it” (Matthew 7:13-14).',
             },
           ],
         },
@@ -151,7 +151,7 @@ export const sunniOverview: Topic = {
       id: 'sno-3',
       objection: 'Sunni Islam is not a sect. It is simply Islam as the Prophet and his companions practised it, handed down unchanged.',
       response:
-        'I respect that Sunnis have worked hard to stay faithful to the first generation. But the things that define Sunni Islam were fixed later. The four schools are named after jurists who died between 767 and 855. The six books were compiled in the ninth century and the first years of the tenth, and the creeds were settled in the tenth. Shia and Ibadi Muslims make the same claim to be the original. So it has to be tested by the earliest evidence. And the earliest generation was not at peace: Uthman was killed by Muslims, and Ali fought Aisha and then Mu‘awiya.',
+        'I respect that Sunnis have worked hard to stay faithful to the first generation. But the things that define Sunni Islam were fixed later. The four schools are named after jurists who died between 767 and 855. The six books were compiled in the ninth century and the first years of the tenth, and the creeds took shape in the tenth. Shia and Ibadi Muslims make the same claim to be the original. So it has to be tested by the earliest evidence. And the earliest generation was not at peace: Uthman was killed by Muslims, and Ali fought Aisha and then Mu‘awiya.',
       keyPoints: ['The schools, the six books and the creeds came generations later.', 'Other Muslim groups claim to be the original too.', 'Test the claim by the earliest evidence.'],
       references: ['Sahih al-Bukhari 7100', 'Sahih al-Bukhari 4024'],
       followUps: [
@@ -296,7 +296,7 @@ export const sunniOverview: Topic = {
     },
     {
       id: 'sno-q2',
-      question: 'Which four sources do Sunni scholars name for belief and law?',
+      question: 'Which four sources of the law do Sunni scholars name?',
       options: [
         'The Quran, the Sunna, consensus and analogy',
         'The Quran, the Torah, the Gospel and the Psalms',
@@ -304,7 +304,7 @@ export const sunniOverview: Topic = {
         'The Quran, the Sunna, the caliph’s decree and local custom',
       ],
       answer: 0,
-      explanation: 'Quran, Sunna, consensus (ijma‘) and analogy (qiyas). Al-Shafi‘i, who died in 820, did most to set them in order.',
+      explanation: 'Quran, Sunna, consensus (ijma‘) and analogy (qiyas). Al-Shafi‘i, who died in 820, is traditionally credited with setting them in order.',
     },
     {
       id: 'sno-q3',

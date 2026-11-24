@@ -4,7 +4,7 @@ export const quranPreservation: Topic = {
   id: 'islam-quran-preservation',
   title: 'Uthman’s Burning and the Lost Verses',
   icon: '🔥',
-  summary: 'One official text was imposed and the rest destroyed — and Islam’s most trusted hadith describe verses that never made it in.',
+  summary: 'One official text was imposed and the rest ordered burned — and Islam’s most trusted hadith describe verses that never made it in.',
   lesson: [
     {
       heading: 'The claim',
@@ -19,7 +19,7 @@ export const quranPreservation: Topic = {
       body: [
         'Under the third caliph Uthman (about 20 years after Muhammad), Muslims in different provinces were reciting the Quran differently. Hudhaifa urged him to “save this nation before they differ about the Book as Jews and the Christians did before” (Sahih al-Bukhari 4987).',
         'Uthman had a committee led by Zaid bin Thabit copy Hafsa’s manuscript, instructing three Quraishi members that where they differed with Zaid, they should write it in the dialect of Quraish (Sahih al-Bukhari 3506). He sent a copy to every province and “ordered that all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987).',
-        'You only need to burn other copies if they differ. The variant evidence was deliberately destroyed, so the “perfect preservation” of today’s text is the preservation of Uthman’s edition — not proof that it matches what Muhammad recited in every detail.',
+        'You only need to burn other copies if they differ. The rival copies were deliberately destroyed and their readings survive mainly as later reports, so the “perfect preservation” of today’s text is the preservation of Uthman’s edition — not proof that it matches what Muhammad recited in every detail.',
         'Even after this, Muslims today recite the Quran in several canonical readings (qira’at), such as Hafs and Warsh, whose differences include actual words and letters, not just pronunciation.',
       ],
       references: ['Sahih al-Bukhari 4987', 'Sahih al-Bukhari 3506'],
@@ -31,14 +31,14 @@ export const quranPreservation: Topic = {
         'The verse of suckling: Aisha said a verse on ten sucklings was revealed, then replaced by five, “and Allah’s Messenger died and it was before that time (found) in the Holy Qur’an” (Sahih Muslim 1452). It is not in the Quran today.',
         'The sheep: Aisha also reported that the verse of stoning and a verse on breastfeeding were on a sheet kept under her pillow, and that when Muhammad died and the household was busy with his death, “a tame sheep came in and ate it” (Sunan Ibn Majah 1944, graded hasan). Muslim scholars reply that these verses had already been withdrawn from recitation.',
         'A forgotten surah: Abu Musa al-Ash’ari said they used to recite a surah similar in length to Surat Bara’at (at-Tawba), which he had forgotten except for one line (Sahih Muslim 1050).',
-        'Muhammad himself said a man’s recitation reminded him of verses “which I was caused to forget” (Sahih al-Bukhari 5038). The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
+        'Muhammad himself said a man’s recitation reminded him of verses “which I was caused to forget” (Sahih al-Bukhari 5038), though here the reciter still knew them. The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
       ],
       references: ['Sahih al-Bukhari 6830', 'Sahih Muslim 1691', 'Sahih Muslim 1452', 'Sunan Ibn Majah 1944', 'Sahih Muslim 1050', 'Sahih al-Bukhari 5038', 'Quran 2:106', 'Quran 87:6-7'],
     },
     {
       heading: 'The double standard',
       body: [
-        'Muslims often say the Bible is unreliable because of textual variants. But the Bible’s variants are visible: thousands of manuscripts survive, so scholars can compare them and reconstruct the original. The Quran’s early variants were largely destroyed in an official burning.',
+        'Muslims often say the Bible is unreliable because of textual variants. But the Bible’s variants are visible: thousands of manuscripts survive, so scholars can compare them and work back towards the original. The Quran’s rival early copies were ordered burned, and their variants are known mainly from later Muslim reports and one erased manuscript from Sanaa.',
         'Ask your friend to apply one standard to both books. If burned variants, lost verses and multiple readings don’t disqualify the Quran, then visible variants can’t disqualify the Bible.',
       ],
       references: ['Isaiah 40:8', '1 Peter 1:24-25'],
@@ -62,7 +62,7 @@ export const quranPreservation: Topic = {
             },
             {
               reply: 'These are isolated reports. The Quran is established by mass transmission, and a report from one or two people cannot add a verse to it.',
-              answer: 'That is a fair rule for deciding what to print in the Quran, and I am not asking you to add anything, only what the reports tell us. They are in Bukhari and Muslim, graded sound, and they come from the Prophet’s wife and the second caliph. If they are true, words once recited as Quran are missing. If they are false, the soundest hadith collections carry false reports about the Quran itself. And the rule was not kept at the beginning: Zaid found the closing verses of Surah 9 with one man only (Sahih al-Bukhari 4986).',
+              answer: 'That is a fair rule for deciding what to print in the Quran, and I am not asking you to add anything, only what the reports tell us. They are in Bukhari and Muslim, graded sound, and they come from the Prophet’s wife and the second caliph. If they are true, words once recited as Quran are missing. If they are false, the soundest hadith collections carry false reports about the Quran itself. And at the beginning Zaid says he found the closing verses of Surah 9 with one man only (Sahih al-Bukhari 4986), though commentators such as Ibn Hajar take him to mean in writing.',
             },
           ],
         },
@@ -152,15 +152,15 @@ export const quranPreservation: Topic = {
           followUps: [
             {
               reply: 'At least we have the text of Uthman, word for word, from within twenty years of the Prophet. You do not have your originals.',
-              answer: 'Neither of us has originals: no copy from Uthman’s own hand is known to survive, and none from Muhammad’s lifetime. You have a text that was fixed by authority about twenty years after its prophet and guarded from then on. I have writings from the first century that were copied freely across three continents, with no one able to gather them in and edit them. A controlled text gives uniformity, but it cannot tell you what was there before the control began. An uncontrolled text gives variants, and with them the means to check.',
+              answer: 'Neither of us has originals: none of the copies Uthman sent out is known to survive, and no manuscript is securely dated to Muhammad’s lifetime. You have a text that was fixed by authority about twenty years after its prophet and guarded from then on. I have writings from the first century that were copied freely across three continents, with no one able to gather them in and edit them. A controlled text gives uniformity, but it cannot tell you what was there before the control began. An uncontrolled text gives variants, and with them the means to check.',
             },
           ],
         },
       ],
       objection: 'The Bible has thousands of variants; the Quran has none.',
       response:
-        'The Bible’s variants are visible because thousands of manuscripts survived and weren’t destroyed — that’s how we know what the original said. The Quran’s early variant copies were burned (Sahih al-Bukhari 4987), it was revealed in seven ways (Sahih al-Bukhari 4992), and it is still recited in several canonical readings. Apply the same standard to both books, and the Bible comes out very well.',
-      keyPoints: ['Visible variants = evidence, not weakness.', 'Quran’s variants were destroyed.', 'Seven ahruf and multiple readings.'],
+        'The Bible’s variants are visible because thousands of manuscripts survived and weren’t destroyed — that’s how scholars can work back towards what the original said. The Quran’s early variant copies were burned (Sahih al-Bukhari 4987), it was revealed in seven ways (Sahih al-Bukhari 4992), and it is still recited in several canonical readings. Apply the same standard to both books, and the Bible comes out very well.',
+      keyPoints: ['Visible variants = evidence, not weakness.', 'Quran’s variant copies were burned.', 'Seven ahruf and multiple readings.'],
       references: ['Sahih al-Bukhari 4987', 'Sahih al-Bukhari 4992', 'Isaiah 40:8'],
     },
   ],

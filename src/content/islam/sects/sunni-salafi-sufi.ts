@@ -17,7 +17,7 @@ export const sunniSalafiSufi: Topic = {
     {
       heading: 'Traditional and cultural Muslims',
       body: [
-        'For most of Islamic history a Sunni scholar followed one of the four schools in law, the Ash‘ari or Maturidi school in creed, and very often a Sufi order in his devotional life. Many Sunnis still think of that threefold pattern as normal Islam. Its great centres include al-Azhar in Cairo. Knowledge is handed from teacher to student, and an ordinary believer follows qualified scholars instead of reasoning from the texts himself (taqlid).',
+        'For many centuries a Sunni scholar normally followed one of the four schools in law, the Ash‘ari or Maturidi school in creed, and very often a Sufi order in his devotional life. Many Sunnis still think of that threefold pattern as normal Islam. Its great centres include al-Azhar in Cairo. Knowledge is handed from teacher to student, and an ordinary believer follows qualified scholars instead of reasoning from the texts himself (taqlid).',
         'A traditional Sunni will often answer a hard hadith by saying, “Ask the scholars,” or by citing a commentary. That is a real answer within his system, so be ready to quote the classical commentators and the rulings of the schools. The lesson Sunni Islam: Beliefs and Authorities deals with the reply “you are not qualified”.',
         'Many Muslims you meet are Muslim by family and culture. They may fast in Ramadan, keep the feasts and avoid pork, and know little of the Quran and less of the hadith. Their Islam is bound up with family, honour and belonging. A list of problem passages will mean little to them, and may only sound like an attack on their people. Begin with their life, with what they believe about God, and with Jesus himself. See Sharing the Gospel with a Muslim.',
       ],
@@ -37,7 +37,7 @@ export const sunniSalafiSufi: Topic = {
       body: [
         'Sufism (tasawwuf) is the inward side of Islam: cleansing the heart, loving God and drawing near to him. Sufis point to the hadith of Gabriel, where the third and deepest part of religion, ihsan, is “That you worship Allah as if you are seeing Him, for though you don’t see Him, He, verily, sees you” (Sahih Muslim 8). The theologian al-Ghazali, who died in 1111 and is among the most influential of all Sunni scholars, took the Sufi path himself and wrote it into his teaching.',
         'Sufis are organised in orders, each under a master (shaykh) who traces his authority back through a chain of teachers to Muhammad. The Qadiri order is found almost everywhere, the Naqshbandi in Turkey and Central and South Asia, the Chishti in South Asia, the Shadhili in North Africa and the Tijani in West Africa. Their central practice is dhikr, the repeated remembrance of God’s names, alone or in a circle (Quran 33:41; 13:28). Many also honour dead saints, the friends of God (Quran 10:62-63), visit their tombs, ask for their intercession and celebrate Muhammad’s birthday.',
-        'In South Asia, and so among South Asian Muslims in Britain, North America and Europe, two movements matter most. The Barelvi movement follows Ahmad Raza Khan of Bareilly (1856 to 1921). It defends shrine devotion and holds a very high view of Muhammad: that he was created from God’s light, has knowledge of the unseen, and mediates for believers now. The Deobandi movement began at a seminary founded at Deoband in north India in 1867. It is strictly Hanafi and has Sufi roots, but it opposes what it sees as excesses at saints’ tombs. The missionary movement Tablighi Jamaat, which sends small groups from mosque to mosque calling Muslims back to prayer, grew out of it in the 1920s. In the 2017 count of British mosques about 41 percent were Deobandi and about 24 percent Barelvi.',
+        'In South Asia, and so among South Asian Muslims in Britain, North America and Europe, two movements matter most. The Barelvi movement follows Ahmad Raza Khan of Bareilly (1856 to 1921). It defends shrine devotion and holds a very high view of Muhammad: that he was created from God’s light, has knowledge of the unseen, and mediates for believers now. The Deobandi movement began at a seminary founded at Deoband in north India in 1866 or 1867. It is strictly Hanafi and has Sufi roots, but it opposes what it sees as excesses at saints’ tombs. The missionary movement Tablighi Jamaat, which sends small groups from mosque to mosque calling Muslims back to prayer, grew out of it in the 1920s. In the 2017 count of British mosques about 41 percent were Deobandi and about 24 percent Barelvi.',
         'In Lebanon you will meet both tendencies among Sunnis. The group known as al-Ahbash, which follows the Ethiopian-born scholar Abdullah al-Harari, is Sufi in outlook and strongly opposed to Salafis, while Salafi teaching has its main following in Tripoli and the north.',
       ],
       references: ['Sahih Muslim 8', 'Quran 33:41', 'Quran 13:28', 'Quran 10:62-63'],
@@ -66,7 +66,7 @@ export const sunniSalafiSufi: Topic = {
       heading: 'Talking with a Sufi: knowing God, love and assurance',
       body: [
         'A Sufi longs to know God and to love him. Honour that longing. It is nearer to the heart of the gospel than any argument about sources. Jesus said, “Now this is eternal life, that they may know You, the only true God, and Jesus Christ, whom You have sent” (John 17:3).',
-        'Then talk about love. The Quran does speak of God’s love, and of a people “He will love and who will love Him” (Quran 5:54). But it promises that love to those who follow: “If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins” (Quran 3:31), and the next verse says, “Allah does not like the disbelievers” (Quran 3:32). A much-loved hadith says the servant draws near by extra acts of devotion “till I love him” (Sahih al-Bukhari 6502). In the gospel God’s love comes first. “God is love… And love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10). “While we were still sinners, Christ died for us” (Romans 5:8).',
+        'Then talk about love. The Quran does speak of God’s love, and of a people “He will love and who will love Him” (Quran 5:54), which Sufis read as God’s love coming before ours. But the Quran promises that love to those who follow: “If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins” (Quran 3:31), and the next verse says, “Allah does not like the disbelievers” (Quran 3:32). A much-loved hadith says the servant draws near by extra acts of devotion “till I love him” (Sahih al-Bukhari 6502). In the gospel God’s love comes first. “God is love… And love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10). “While we were still sinners, Christ died for us” (Romans 5:8).',
         'Talk about nearness. The Sufi seeks it through a shaykh, a chain of masters and the help of saints. The gospel offers one mediator, who is alive: “there is one mediator between God and men, the man Christ Jesus” (1 Timothy 2:5), and “He always lives to intercede” for those who come to God through him (Hebrews 7:25). Through him the believer comes to God directly and calls him Father (Romans 8:15-16).',
         'And talk about assurance. The Sufi path is a long climb through stages, and no one can be sure he has arrived. Muhammad said that hearts lie between two fingers of the Merciful, who turns them as he wills (Sahih Muslim 2655). The gospel is God coming down to us (John 1:14), and it gives a settled confidence: “There is no fear in love, but perfect love drives out fear” (1 John 4:16-18). Do not assume that a Sufi is relaxed about doctrine or law. Many are strict. And do not scorn his experiences. Bring him to the words of Jesus.',
       ],
@@ -192,7 +192,7 @@ export const sunniSalafiSufi: Topic = {
       followUps: [
         {
           reply: 'Those are differences of law and method. Nobody says the other group is outside Islam.',
-          answer: 'I wish that were so. Shirk is the sin Allah does not forgive (Quran 4:48), and that is the charge Salafis bring against prayer at tombs. In 2005 the Amman Message had to declare that Ash‘aris, Sufis and Salafis may not be called apostates. No one issues that unless people are being called apostates. And Ibn Abd al-Wahhab’s followers pulled down the domes over graves in Medina and Mecca that other Sunnis revered.',
+          answer: 'I wish that were so. Shirk is the sin Allah does not forgive (Quran 4:48), and that is the charge Salafis bring against calling on the dead at tombs. In 2005 the Amman Message had to declare that Ash‘aris, Sufis and Salafis may not be called apostates. No one issues that unless people are being called apostates. And Ibn Abd al-Wahhab’s followers pulled down the domes over graves in Medina and Mecca that other Sunnis revered.',
           followUps: [
             {
               reply: 'There are extremists everywhere. Mainstream scholars reject takfir, and the Amman Message shows that the community can come together.',
@@ -200,7 +200,7 @@ export const sunniSalafiSufi: Topic = {
               followUps: [
                 {
                   reply: 'Still, we all pray the same prayer, facing the same way, with the same Book. Your divisions are about the very nature of God.',
-                  answer: 'On the nature of God, Catholics, Orthodox and Protestants confess the same Trinity and the same Christ in the same creed. Inside Sunni Islam the creed schools dispute God’s attributes, such as whether his hand and his being above the Throne (Quran 20:5) are to be taken as they stand, and each side says the other has misdescribed God. So both communities argue about deep things. Jesus gave another mark of his people: “By this everyone will know that you are My disciples, if you love one another” (John 13:35). Christians have often failed it, and I admit that.',
+                  answer: 'On the nature of God, Catholics, Orthodox and Protestants confess the same Trinity and the same Christ in the Nicene Creed, though East and West dispute one clause of it. Inside Sunni Islam the creed schools dispute God’s attributes, such as whether his hand and his being above the Throne (Quran 20:5) are to be taken as they stand, and each side says the other has misdescribed God. So both communities argue about deep things. Jesus gave another mark of his people: “By this everyone will know that you are My disciples, if you love one another” (John 13:35). Christians have often failed it, and I admit that.',
                 },
               ],
             },
@@ -228,7 +228,7 @@ export const sunniSalafiSufi: Topic = {
       followUps: [
         {
           reply: 'We follow the evidence and not the man. If al-Albani is shown to be wrong on a hadith, we leave his view. That is the difference between us and the blind followers of the schools.',
-          answer: 'That is a good rule. But the evidence for a hadith is the verdicts of early critics on each narrator: this one was reliable, that one had a poor memory. Those verdicts are themselves the opinions of men about other men, given long afterwards. And at the top of every chain is a companion who is not examined at all. Your whole method rests on trusting persons.',
+          answer: 'That is a good rule. But the evidence for a hadith is chiefly the verdicts of early critics on each narrator: this one was reliable, that one had a poor memory. Those verdicts are themselves the opinions of men about other men, often given long afterwards. And at the top of every chain is a companion who is not examined at all. Your whole method rests on trusting persons.',
           followUps: [
             {
               reply: 'Allah promised to guard the Reminder (Quran 15:9). The Sunna explains the Quran, so it is guarded too. He raised up the hadith scholars to do it.',
@@ -347,15 +347,15 @@ export const sunniSalafiSufi: Topic = {
       options: [
         'Barelvis reject the hadith',
         'Barelvis follow the Hanbali school',
-        'Barelvis defend shrine devotion and a very exalted view of Muhammad, which Deobandis oppose',
+        'Barelvis defend shrine devotion and teachings about Muhammad, such as his knowledge of the unseen, that Deobandis reject',
         'Barelvis do not pray five times a day',
       ],
       answer: 2,
-      explanation: 'The Barelvi movement follows Ahmad Raza Khan (1856 to 1921). The Deobandi movement began at a seminary founded in north India in 1867.',
+      explanation: 'The Barelvi movement follows Ahmad Raza Khan (1856 to 1921). The Deobandi movement began at a seminary founded in north India in 1866 or 1867.',
     },
     {
       id: 'sns-q7',
-      question: 'What charge do Salafis bring against prayer at saints’ tombs?',
+      question: 'What charge do Salafis bring against calling on saints at their tombs?',
       options: [
         'That it wastes money',
         'That it is shirk, associating others with God',

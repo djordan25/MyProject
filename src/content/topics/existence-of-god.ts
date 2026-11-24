@@ -30,7 +30,7 @@ export const existenceOfGod: Topic = {
     {
       heading: 'The Fine-Tuning Argument',
       body: [
-        'The constants and initial conditions of physics (e.g. the cosmological constant, the strength of gravity, the ratio of electron to proton mass) fall within extraordinarily narrow life-permitting ranges.',
+        'The constants and initial conditions of physics (e.g. the cosmological constant, the strength of gravity, the ratio of electron to proton mass) appear to fall within narrow life-permitting ranges, some of them extraordinarily narrow.',
         'This fine-tuning is due to physical necessity, chance, or design. It is not necessary — the constants appear independent of the laws of nature — and chance is overwhelmingly improbable. Design is the best explanation.',
       ],
       argument: [
@@ -44,7 +44,7 @@ export const existenceOfGod: Topic = {
       heading: 'The Moral Argument',
       body: [
         'Most people recognise that some things — torturing children for fun, for example — are really wrong, not just unfashionable. That is a claim about objective moral values: true regardless of anyone’s opinion.',
-        'Without God, it is hard to ground such values; morality reduces to evolutionary instinct or social convention. God, whose nature is the standard of goodness, provides a firm foundation.',
+        'Without God, it is hard to ground such values; morality seems to reduce to evolutionary instinct or social convention. God, whose nature is the standard of goodness, provides a firm foundation.',
         'Key distinction: the argument is not that atheists cannot be moral or know right from wrong. It is about what makes moral claims objectively true (moral ontology), not how we come to know them (moral epistemology).',
       ],
       argument: [
@@ -92,11 +92,11 @@ export const existenceOfGod: Topic = {
       followUps: [
         {
           reply: 'Then why can’t the universe be the uncaused thing?',
-          answer: 'Because the evidence points to the universe having a beginning, and whatever begins to exist needs a cause. An eternal universe was the standard atheist view until the evidence for a beginning became hard to resist.',
+          answer: 'Because the evidence points to the universe having a beginning, and whatever begins to exist needs a cause. An eternal universe was a common atheist view until the evidence for a beginning became hard to resist.',
           followUps: [
             {
               reply: 'The Big Bang is only as far back as our physics reaches. There may have been something before it: an earlier universe, a bounce, a quantum vacuum.',
-              answer: 'There may, and cosmologists work on such models. But they move the question back without removing it. In 2003 Arvind Borde, Alan Guth and Alexander Vilenkin proved that any universe which has on average been expanding cannot be extended into an infinite past. Vilenkin wrote in Many Worlds in One (2006) that cosmologists can no longer hide behind the possibility of a past-eternal universe. Others, such as Sean Carroll, reply that a full theory of quantum gravity might change the picture. So I put it modestly: the evidence we have points to a beginning, and an eternal past is at present a hope, not a finding.',
+              answer: 'There may, and cosmologists work on such models. But they move the question back without removing it. In 2003 Arvind Borde, Alan Guth and Alexander Vilenkin proved that any universe which has on average been expanding cannot be extended into an infinite past. Vilenkin wrote in Many Worlds in One (2006) that cosmologists can no longer hide behind the possibility of a past-eternal universe. The paper itself concludes only that some new physics is needed at the past boundary it finds, and others, such as Sean Carroll, reply that the theorem covers only classical spacetime, so a full theory of quantum gravity might change the picture. So I put it modestly: the evidence we have points to a beginning, and an eternal past is at present a possibility, not a finding.',
               followUps: [
                 {
                   reply: 'Quantum physics shows that things happen without causes. Particles appear out of nothing in a vacuum, so a universe could too.',
@@ -125,7 +125,7 @@ export const existenceOfGod: Topic = {
       ],
       objection: 'If everything needs a cause, then who caused God?',
       response:
-        'The premise isn’t that everything needs a cause — only that whatever begins to exist does. God, by definition, is eternal and never began to exist, so he doesn’t need a cause. In fact, the atheist used to say the same about the universe; the evidence that the universe had a beginning is what makes the question pressing.',
+        'The premise isn’t that everything needs a cause — only that whatever begins to exist does. God, by definition, is eternal and never began to exist, so he doesn’t need a cause. In fact, many atheists used to say the same about the universe; the evidence that the universe had a beginning is what makes the question pressing.',
       keyPoints: [
         'Correct the misquote: “whatever begins to exist”, not “everything”.',
         'God is uncaused because he is eternal.',
@@ -141,7 +141,7 @@ export const existenceOfGod: Topic = {
           followUps: [
             {
               reply: 'God is not simple. A mind able to design a universe would have to be more complex than the universe, and so even less probable.',
-              answer: 'That is Richard Dawkins’s argument in The God Delusion, and it pictures God as a vast physical brain whose parts had to be assembled. A mind is not complex in that way. Its thoughts may be complex, but a mind is not built out of pieces as a brain or a machine is. And an explanation does not have to be simpler than what it explains before we may accept it. A human being is far more complex than an arrowhead, and we still explain arrowheads by people.',
+              answer: 'That is Richard Dawkins’s argument in The God Delusion, and it treats God as something elaborately constructed, like a brain or a computer on a vast scale. A mind is not complex in that way. Its thoughts may be complex, but a mind is not built out of pieces as a brain or a machine is. And an explanation does not have to be simpler than what it explains before we may accept it. A human being is far more complex than an arrowhead, and we still explain arrowheads by people.',
               followUps: [
                 {
                   reply: 'Then you are simply declaring that God needs no explanation. I can say the same of the multiverse.',
@@ -170,10 +170,10 @@ export const existenceOfGod: Topic = {
       ],
       objection: 'Maybe we live in a multiverse, so fine-tuning is just what we’d expect somewhere.',
       response:
-        'There is no direct evidence of a multiverse, so it is a speculative hypothesis. Even if one exists, the mechanism that generates universes would itself require fine-tuning. And on some multiverse models we should far more likely be a small, briefly-existing observer (a “Boltzmann brain”) than an entire finely-tuned cosmos like ours.',
+        'There is no direct evidence of a multiverse, so it remains speculative, though many physicists think inflation and string theory point to one. Even if one exists, the mechanism that generates universes may itself require fine-tuning. And on some multiverse models we should far more likely be a small, briefly-existing observer (a “Boltzmann brain”) than an entire finely-tuned cosmos like ours.',
       keyPoints: [
         'Multiverse is unobserved and possibly unobservable.',
-        'A universe-generator needs its own fine-tuning.',
+        'A universe-generator may need its own fine-tuning.',
         'On some models the Boltzmann-brain problem undermines it as an explanation.',
       ],
     },
@@ -249,16 +249,16 @@ export const existenceOfGod: Topic = {
         },
         {
           reply: 'The founders of science believed in God because everyone did then. As science has advanced, God has had less and less to do.',
-          answer: 'That would count if God had been brought in to fill the holes in science. Some believers did argue that way, and they were wrong to. But the arguments I am using start from what science has found, and the findings are modern: the beginning of the universe and the fine-tuning of its constants are discoveries of the twentieth century. The Big Bang theory was first proposed by Georges Lemaître, a physicist who was also a Catholic priest. Fred Hoyle, who gave it its name, disliked the idea of a beginning and defended an eternal steady-state universe for years.',
+          answer: 'That would count if God had been brought in to fill the holes in science. Some believers did argue that way, and they were wrong to. But the arguments I am using start from what science has found, and the findings are modern: the evidence for a beginning of the universe and for the fine-tuning of its constants was found in the twentieth century. The Big Bang theory was first proposed by Georges Lemaître, a physicist who was also a Catholic priest. Fred Hoyle, who gave it its name, disliked the idea of a beginning and defended an eternal steady-state universe for years.',
         },
       ],
       objection: 'Science can explain the universe without God.',
       response:
-        'Science explains how processes within the universe work, and that’s wonderful. But the question here is why there is a universe at all, and why its laws are suited to life. Science describes the laws; it can’t explain why there are laws or why anything exists. Many of the founders of modern science believed in God precisely because they expected a rational, orderly creation.',
+        'Science explains how processes within the universe work, and that’s wonderful. But the question here is why there is a universe at all, and why its laws are suited to life. Science describes the laws; it can’t explain why there are laws or why anything exists. Many of the founders of modern science believed in God, and several historians argue that this belief led them to expect a rational, orderly creation.',
       keyPoints: [
         'Science answers “how”, not ultimate “why”.',
         'Laws of nature describe; they do not create.',
-        'Christian theism historically motivated science.',
+        'Christian theism helped motivate early science, several historians argue.',
       ],
     },
     {
@@ -391,7 +391,7 @@ export const existenceOfGod: Topic = {
         'Chance, luck, and coincidence',
       ],
       answer: 1,
-      explanation: 'Fine-tuning is due to physical necessity, chance, or design; the argument shows the first two are implausible.',
+      explanation: 'Fine-tuning is due to physical necessity, chance, or design; the argument is that the first two are implausible.',
     },
     {
       id: 'eog-q3',
@@ -586,6 +586,6 @@ export const existenceOfGod: Topic = {
   furtherReading: [
     'William Lane Craig — Reasonable Faith',
     'C.S. Lewis — Mere Christianity (Book 1)',
-    'Frank Turek & Norman Geisler — I Don’t Have Enough Faith to Be an Atheist',
+    'Norman Geisler & Frank Turek — I Don’t Have Enough Faith to Be an Atheist',
   ],
 };

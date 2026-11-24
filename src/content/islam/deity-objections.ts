@@ -48,11 +48,11 @@ export const deityObjections: Topic = {
         },
         {
           reply: 'Thomas was only crying out in amazement, as anyone might say “My God!” He was not calling Jesus God.',
-          answer: 'A devout Jew of the first century did not use God’s name as an exclamation. That would have been taking it in vain. In the Greek, Thomas says the words to Jesus. And Jesus treats them as faith, not as a slip: “Because you have seen Me, you have believed” (John 20:29). Peter and the angel in Revelation both stopped men who bowed to them (Acts 10:25-26; Revelation 22:8-9). Jesus accepts “My Lord and my God” and blesses those who will believe the same.',
+          answer: 'A devout Jew of the first century would hardly have used God’s name as an exclamation. That would have been taking it in vain. In the Greek, Thomas says the words to Jesus. And Jesus treats them as faith, not as a slip: “Because you have seen Me, you have believed” (John 20:29). Peter and the angel in Revelation both stopped men who bowed to them (Acts 10:25-26; Revelation 22:8-9). Jesus accepts “My Lord and my God” and blesses those who will believe the same.',
         },
         {
           reply: 'Even after the resurrection Paul says the Son will be made subject to God (1 Corinthians 15:28), and that “the head of Christ is God” (1 Corinthians 11:3). That is permanent inferiority.',
-          answer: 'It is order, not inferiority. The same sentence says “the head of the woman is man” (1 Corinthians 11:3), and a woman is no less human than a man. A son who obeys his father shares his father’s nature. The same Paul says that Christ existed in the form of God before he took the form of a servant (Philippians 2:6-7), and calls him “God over all, forever worthy of praise” (Romans 9:5).',
+          answer: 'It is order, not inferiority. The same sentence says “the head of the woman is man” (1 Corinthians 11:3), and a woman is no less human than a man. A son who obeys his father shares his father’s nature. The same Paul says that Christ existed in the form of God before he took the form of a servant (Philippians 2:6-7), and, on a widely held reading of the Greek, calls him “God over all, forever worthy of praise” (Romans 9:5).',
         },
       ],
       objection: 'Jesus said “The Father is greater than I” (John 14:28).',
@@ -82,7 +82,7 @@ export const deityObjections: Topic = {
         },
         {
           reply: 'Scribes were so embarrassed by this saying that some of them cut “nor the Son” out of Matthew 24:36. The text was altered to protect his divinity.',
-          answer: 'Some later copies of Matthew do lack those words, and we know it because other copies keep them. Modern Bibles print them: “not even the angels in heaven, nor the Son, but only the Father” (Matthew 24:36). No one removed them from Mark. And think about what the saying shows. A church that was inventing a divine Jesus would never have invented a line in which he says he does not know something. It is there because he said it. That is a reason to trust the Gospels when they also record his claims to be more than a man.',
+          answer: 'Most later copies of Matthew do lack those words, and we know it because other copies keep them. Modern Bibles print them: “not even the angels in heaven, nor the Son, but only the Father” (Matthew 24:36). Hardly any copy of Mark lacks them. And think about what the saying shows. A church that was inventing a divine Jesus would never have invented a line in which he says he does not know something. It is there because he said it. That is a reason to trust the Gospels when they also record his claims to be more than a man.',
         },
       ],
       objection: 'Jesus didn’t know the day or hour (Mark 13:32), so he can’t be all-knowing God.',
@@ -160,7 +160,7 @@ export const deityObjections: Topic = {
           followUps: [
             {
               reply: 'Matthew changed the question to “Why do you ask Me about what is good?” (Matthew 19:17), because Mark’s wording embarrassed him. The Gospels were edited to make Jesus look more divine.',
-              answer: 'Matthew keeps the point. In the same verse Jesus says, “There is only One who is good” (Matthew 19:17). The Gospel writers often report one conversation in different words, as any two witnesses do. And Mark, the Gospel said to have the lower view of Jesus, shows him forgiving sins, which the scribes say only God can do (Mark 2:5-7), calling himself Lord of the Sabbath (Mark 2:28), and being condemned for blasphemy (Mark 14:61-64). Mark needed no editing to present a Jesus who is more than a prophet.',
+              answer: 'Matthew keeps the point. In the same verse Jesus says, “There is only One who is good” (Matthew 19:17). The Gospel writers often report one conversation in different words, and Matthew may well have reworded this one to prevent a misunderstanding. And Mark, the Gospel said to have the lower view of Jesus, shows him forgiving sins, which the scribes say only God can do (Mark 2:5-7), calling himself Lord of the Sabbath (Mark 2:28), and being condemned for blasphemy (Mark 14:61-64). Mark needed no editing to present a Jesus who is more than a prophet.',
               followUps: [
                 {
                   reply: 'He was showing the humility of a prophet, turning praise away from himself to God. That is how a Muslim prophet speaks.',
@@ -182,7 +182,7 @@ export const deityObjections: Topic = {
       followUps: [
         {
           reply: 'The mission to the nations was added later. Jesus himself only went to Jews.',
-          answer: 'During his ministry Jesus praised a Roman centurion’s faith and said many would come from east and west into the kingdom (Matthew 8:10-11). He said he had other sheep, not of this fold, whom he must bring in (John 10:16). The mission to the nations was his plan from the start.',
+          answer: 'During his ministry Jesus praised a Gentile centurion’s faith and said many would come from east and west into the kingdom (Matthew 8:10-11). He said he had other sheep, not of this fold, whom he must bring in (John 10:16). The mission to the nations was his plan from the start.',
           followUps: [
             {
               reply: 'Jesus told the Twelve, “Do not go onto the road of the Gentiles” (Matthew 10:5), and the Quran calls him a messenger to the Children of Israel (Quran 3:49). Matthew 28:19 contradicts that, so it was added.',
@@ -190,7 +190,7 @@ export const deityObjections: Topic = {
               followUps: [
                 {
                   reply: 'He called the Gentile woman a dog (Matthew 15:26). That is not a man with a mission to the nations. Muhammad is the one who was sent to all mankind (Quran 34:28).',
-                  answer: 'He tested her with a saying about children and the dogs under the family table, and she answered it with faith. He then told her, “your faith is great!”, and healed her daughter (Matthew 15:28). A prophet for Jews only would not have praised a Roman centurion above everyone in Israel (Matthew 8:10), or stayed with Samaritans who went on to call him “the Savior of the world” (John 4:42). And the Quran itself says that Mary and her son were made “a sign for the worlds” (Quran 21:91), not a sign for Israel alone.',
+                  answer: 'He tested her with a saying about children and the dogs under the family table, and she answered it with faith. He then told her, “your faith is great!”, and healed her daughter (Matthew 15:28). A prophet for Jews only would not have praised a Gentile centurion above everyone in Israel (Matthew 8:10), or stayed with Samaritans who went on to call him “the Savior of the world” (John 4:42). And the Quran itself says that Mary and her son were made “a sign for the worlds” (Quran 21:91), not a sign for Israel alone.',
                 },
               ],
             },
@@ -216,11 +216,11 @@ export const deityObjections: Topic = {
               followUps: [
                 {
                   reply: 'In 1 John 5:20 “the true God” refers to the Father, who has just been called “Him who is true”. Many of your own scholars read it that way.',
-                  answer: 'Some do, which is why I called it the most natural reading and not the only one. The nearest name before those words is “His Son Jesus Christ”, and John has already called Jesus “the eternal life that was with the Father” (1 John 1:2). But nothing rests on that one verse. The same writer opens his Gospel with “the Word was God” (John 1:1) and closes it with Thomas saying to Jesus, “My Lord and my God!” (John 20:28).',
+                  answer: 'Some do, which is why I did not call it the only reading. The nearest name before those words is “His Son Jesus Christ”, and John has already called Jesus “the eternal life that was with the Father” (1 John 1:2). But nothing rests on that one verse. The same writer opens his Gospel with “the Word was God” (John 1:1) and closes it with Thomas saying to Jesus, “My Lord and my God!” (John 20:28).',
                   followUps: [
                     {
                       reply: 'In the Greek of John 1:1 the word God has no article when it is used of the Word. It means “a god” or “divine”, not God himself.',
-                      answer: 'The article is absent because of how Greek marks which noun is the subject, not because the meaning is weaker. The same word without the article is used of the Father several times in that chapter: “sent from God” (John 1:6), “children of God” (John 1:12), “No one has ever seen God” (John 1:18). No one translates those as “a god”. And “a god” beside God would be a second god, which John, a Jew, would never teach, and which you do not believe either. John is saying that the Word is everything God is, and yet is distinct from the Father he is with.',
+                      answer: 'The article is absent because the noun here describes what the Word is and is not the subject of the sentence, not because the meaning is weaker. The same word without the article is used of the Father several times in that chapter: “sent from God” (John 1:6), “children of God” (John 1:12), “No one has ever seen God” (John 1:18). No one translates those as “a god”. And “a god” beside God would be a second god, which John, a Jew, would never teach, and which you do not believe either. John is saying that the Word is everything God is, and yet is distinct from the Father he is with.',
                     },
                   ],
                 },
@@ -231,8 +231,8 @@ export const deityObjections: Topic = {
       ],
       objection: 'Jesus called the Father “the only true God” (John 17:3). So Jesus is not God.',
       response:
-        'Christians agree that the Father is the only true God: there is only one God. The question is whether the Son shares that one divine being. In this same prayer Jesus says eternal life is knowing the Father and himself together, and two verses later he asks the Father to glorify him “with the glory I had with You before the world existed” (John 17:5). No mere prophet could pray that. Scripture also calls Jesus “our only Master and Lord” (Jude 1:4), which doesn’t stop the Father being Lord. And John, on the most natural reading, calls Jesus “the true God and eternal life” (1 John 5:20).',
-      keyPoints: ['The Father is the only true God; the Son shares that being.', 'John 17:5: glory before the world existed.', 'Jude 1:4 and 1 John 5:20 apply “only” and “true God” language to Jesus.'],
+        'Christians agree that the Father is the only true God: there is only one God. The question is whether the Son shares that one divine being. In this same prayer Jesus says eternal life is knowing the Father and himself together, and two verses later he asks the Father to glorify him “with the glory I had with You before the world existed” (John 17:5). No mere prophet could pray that. Scripture also calls Jesus “our only Master and Lord” (Jude 1:4), which doesn’t stop the Father being Lord. And John, on a reading many scholars defend, calls Jesus “the true God and eternal life” (1 John 5:20).',
+      keyPoints: ['The Father is the only true God; the Son shares that being.', 'John 17:5: glory before the world existed.', 'Jude 1:4 and, on one reading, 1 John 5:20 apply “only” and “true God” language to Jesus.'],
       references: ['John 17:3', 'John 17:5', 'Jude 1:4', '1 John 5:20'],
     },
     {
@@ -257,7 +257,7 @@ export const deityObjections: Topic = {
       ],
       objection: 'Jesus said, “I am ascending to My Father and your Father, to My God and your God” (John 20:17). God does not have a God.',
       response:
-        'As a true man, Jesus worships and prays to the Father. That is what the incarnation means. But notice that he doesn’t say “our Father” or “our God”: his relationship to the Father is not the same as ours. Eleven verses later Thomas says to him, “My Lord and my God!” (John 20:28), and Jesus accepts it. Hebrews holds both truths together: God says to the Son, “Your throne, O God, endures forever and ever” (Hebrews 1:8), and then speaks of “God, Your God” (Hebrews 1:9).',
+        'As a true man, Jesus worships and prays to the Father. That is what the incarnation means. But notice that he doesn’t say “our Father” or “our God”, which many readers take to mean that his relationship to the Father is not the same as ours. Eleven verses later Thomas says to him, “My Lord and my God!” (John 20:28), and Jesus accepts it. Hebrews holds both truths together: God says to the Son, “Your throne, O God, endures forever and ever” (Hebrews 1:8), and then speaks of “God, Your God” (Hebrews 1:9).',
       keyPoints: ['True man: he has a God.', '“My… and your…”, never “our”.', 'John 20:28 and Hebrews 1:8-9: the Son is called God.'],
       references: ['John 20:17', 'John 20:28', 'Hebrews 1:8-9'],
     },
@@ -296,7 +296,7 @@ export const deityObjections: Topic = {
           followUps: [
             {
               reply: 'Peter says God made him Lord and Christ (Acts 2:36). Whoever is made Lord by someone else is not God.',
-              answer: 'Peter is speaking of the crucified man Jesus being raised and publicly enthroned. Look at what the enthroned Jesus then does: “Exalted, then, to the right hand of God, He … has poured out what you now see and hear” (Acts 2:33). In the prophecy Peter has just quoted, it is God who says, “I will pour out My Spirit” (Acts 2:17). Jesus does what God said he himself would do. And Peter goes on to call him “the Author of life” (Acts 3:15). Someone who became Lord only at Easter could not be the author of life.',
+              answer: 'Peter is speaking of the crucified man Jesus being raised and publicly enthroned. Look at what the enthroned Jesus then does: “Exalted, then, to the right hand of God, He … has poured out what you now see and hear” (Acts 2:33). In the prophecy Peter has just quoted, it is God who says, “I will pour out My Spirit” (Acts 2:17). Jesus does what God said he himself would do. And Peter goes on to call him “the Author of life” (Acts 3:15). The Greek word can also mean leader or pioneer; but if he is the source of life, as many translations take it, he did not first become Lord at Easter.',
             },
           ],
         },
@@ -310,7 +310,7 @@ export const deityObjections: Topic = {
               followUps: [
                 {
                   reply: 'The Greek word translated worship only means to bow. People bowed to kings and elders. That is respect, not worship.',
-                  answer: 'The word can mean that, so look at how the New Testament uses it. Jesus says, “Worship the Lord your God and serve Him only” (Matthew 4:10). When Cornelius bows to Peter, Peter stops him: “I am only a man myself” (Acts 10:26). When John bows to an angel, the angel says, “Do not do that! … Worship God!” (Revelation 22:9). Jesus alone receives it and never refuses it. And in heaven every creature gives one and the same praise “to Him who sits on the throne and to the Lamb” (Revelation 5:13).',
+                  answer: 'The word can mean that, so look at how the New Testament uses it. Jesus says, “Worship the Lord your God and serve Him only” (Matthew 4:10). When Cornelius bows to Peter, Peter stops him: “I am only a man myself” (Acts 10:26). When John bows to an angel, the angel says, “Do not do that! … Worship God!” (Revelation 22:9). Jesus receives it and never refuses it. And in heaven every creature gives one and the same praise “to Him who sits on the throne and to the Lamb” (Revelation 5:13).',
                 },
               ],
             },
@@ -336,7 +336,7 @@ export const deityObjections: Topic = {
               followUps: [
                 {
                   reply: 'The Quran says his disciples declared, “we are Muslims” (Quran 3:52). They knew what they were.',
-                  answer: 'That is the Quran’s report, six hundred years later. We have what the disciples and their companions wrote themselves, and they confess Jesus as Lord and God, crucified and risen (John 20:28; Acts 2:36). The Quran also says God supported the disciples until they became dominant (Quran 61:14). The only followers of Jesus who ever prevailed are the ones who preached the cross. If the first disciples were Muslims in your sense, they vanished without trace and God’s promise to them failed.',
+                  answer: 'That is the Quran’s report, six hundred years later. We have what the disciples and their companions wrote themselves, and they confess Jesus as Lord and God, crucified and risen (John 20:28; Acts 2:36). The Quran also says God supported the disciples until they became dominant (Quran 61:14). The only followers of Jesus who ever prevailed are the ones who preached the cross. If the first disciples were Muslims in your sense, they vanished without trace, and commentators such as Ibn Kathir have to place the promised victory six centuries later, with Muhammad.',
                 },
               ],
             },

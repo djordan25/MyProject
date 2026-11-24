@@ -88,7 +88,7 @@ export const jesusOnlyWay: Topic = {
         },
         {
           reply: 'A doctor has evidence. In religion nobody can know, so insisting you are right is what leads to persecution and religious wars. Tolerance means not telling other people they are wrong.',
-          answer: 'Tolerance means treating people well when you think they are wrong; if we agreed there would be nothing to tolerate. Christians have done great evil in Christ’s name, and I will not excuse it, but they did it against his orders. He told his followers, “love your enemies and pray for those who persecute you” (Matthew 5:44), and he told Peter to put his sword away (Matthew 26:52). What matters is what a person is sure of. Someone who is sure that God’s Son died for his enemies has no warrant to harm his own.',
+          answer: 'Tolerance means treating people well when you think they are wrong; if we agreed there would be nothing to tolerate. Christians have done great evil in Christ’s name, and I will not excuse it, but they did it against his orders. He told his followers, “love your enemies and pray for those who persecute you” (Matthew 5:44), and he told his disciple to put his sword away (Matthew 26:52). What matters is what a person is sure of. Someone who is sure that God’s Son died for his enemies has no warrant to harm his own.',
           followUps: [
             {
               reply: 'You are still telling billions of people that they are wrong. Who are you to say that?',
@@ -124,7 +124,7 @@ export const jesusOnlyWay: Topic = {
         },
         {
           reply: 'What about babies who die, or people with severe learning disabilities? They cannot believe anything.',
-          answer: 'The Bible says little directly, so I will not say more than it does. When David’s infant son died, David said, “I will go to him, but he will not return to me” (2 Samuel 12:23). Jesus was indignant when children were kept from him, and said the kingdom of God belongs to such as these (Mark 10:14). Most Christians have concluded from this, and from the justice of God, that he receives them. If he does, they too are saved by Christ and by no one else.',
+          answer: 'The Bible says little directly, so I will not say more than it does. When David’s infant son died, David said, “I will go to him, but he will not return to me” (2 Samuel 12:23). Jesus was indignant when children were kept from him, and said the kingdom of God belongs to such as these (Mark 10:14). Many Christians have concluded from this, and from the justice of God, that he receives them, and others at least hope so. If he does, they too are saved by Christ and by no one else.',
         },
       ],
     },
@@ -146,7 +146,7 @@ export const jesusOnlyWay: Topic = {
               followUps: [
                 {
                   reply: 'Then a God who is all-loving and all-powerful would keep working until everyone came round. Some Christians believe exactly that.',
-                  answer: 'Some have hoped so, from Origen in the third century to David Bentley Hart in ours, and I understand the hope. But I have to go by what Jesus said, and he spoke of a final separation, using the same word for both sides: “eternal punishment” and “eternal life” (Matthew 25:46). Love that overrides every refusal in the end is no longer asking. And I have no right to promise you a later chance that he never promised. What Scripture says is, “now is the day of salvation” (2 Corinthians 6:2).',
+                  answer: 'Some have taught so, from Origen in the third century to David Bentley Hart in ours, and I understand the hope. But I have to go by what Jesus said, and he spoke of a final separation, using the same word for both sides: “eternal punishment” and “eternal life” (Matthew 25:46). Love that overrides every refusal in the end is no longer asking. And I have no right to promise you a later chance that he never promised. What Scripture says is, “now is the day of salvation” (2 Corinthians 6:2).',
                 },
               ],
             },

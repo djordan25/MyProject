@@ -16,7 +16,7 @@ export const quranHistory: Topic = {
       heading: 'Haman in Pharaoh’s court',
       body: [
         'The Quran has Pharaoh command “Haman” to build a tower so he can look at the God of Moses (Quran 28:38; 40:36-37).',
-        'In the Bible, Haman is an official of the Persian king Xerxes, called Ahasuerus in older translations (Esther 3:1) — roughly a thousand years after Moses, in a different empire. And a tower to reach the heavens recalls the tower of Babel (Genesis 11:4).',
+        'In the Bible, Haman is an official of the Persian king Xerxes, called Ahasuerus in older translations (Esther 3:1) — some eight to ten centuries after Moses, in a different empire. And a tower to reach the heavens recalls the tower of Babel (Genesis 11:4).',
         'Some Muslims point to an Egyptian name that sounds similar. But no evidence shows a Haman as Pharaoh’s chief minister building a tower to reach God. The simplest explanation is that biblical stories were blended together.',
       ],
       references: ['Quran 28:38', 'Quran 40:36-37', 'Esther 3:1', 'Genesis 11:4'],
@@ -32,7 +32,7 @@ export const quranHistory: Topic = {
     {
       heading: 'Mary, sister of Aaron',
       body: [
-        'As covered in The Quran Misunderstands Christianity, the Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12) — the family of Moses’ sister Miriam, about 1,400 years earlier (Numbers 26:59). Christians raised this problem in Muhammad’s own day (Sahih Muslim 2135).',
+        'As covered in The Quran Misunderstands Christianity, the Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12) — the family of Moses’ sister Miriam, some 1,200 to 1,400 years earlier (Numbers 26:59). Christians raised this problem in Muhammad’s own day, and he replied that people used to be named after earlier prophets and righteous men (Sahih Muslim 2135). Most Muslim commentators take “sister of Aaron” to mean a descendant of Aaron, and some Western scholars, Suleiman Mourad among them, also read the titles as claims of descent rather than confusion.',
       ],
       references: ['Quran 19:28', 'Quran 66:12', 'Numbers 26:59', 'Sahih Muslim 2135'],
     },
@@ -40,7 +40,7 @@ export const quranHistory: Topic = {
       heading: 'Beliefs no one held',
       body: [
         '“The Jews say, ‘Ezra is the son of Allah’” (Quran 9:30). No Jewish source records any Jewish group holding this belief. The Jewish scriptures present Ezra as a scribe and priest (Ezra 7:6, 11), and Judaism has always rejected any human as God’s son in that sense.',
-        'Likewise the Quran pictures Christians worshipping Jesus and his mother as two gods besides Allah (Quran 5:116) — a belief no Christian church has taught.',
+        'Likewise the Quran pictures Christians worshipping Jesus and his mother as two gods besides Allah (Quran 5:116) — a belief no Christian church has taught. Some Muslim commentators reply that the verse rebukes exaggerated devotion to Mary rather than describing a creed.',
       ],
       references: ['Quran 9:30', 'Ezra 7:6', 'Ezra 7:11', 'Quran 5:116'],
     },
@@ -48,7 +48,7 @@ export const quranHistory: Topic = {
       heading: 'Abraham and Ishmael in Mecca',
       body: [
         'The Quran says Abraham and Ishmael raised the foundations of “the House” (Quran 2:127), which Muslims identify as the Kaaba in Mecca.',
-        'Genesis places Abraham in Canaan (Genesis 13:12) and Ishmael in the wilderness of Paran in the Sinai region (Genesis 21:21). There is no historical record of Abraham in Mecca before Islam claimed it.',
+        'Genesis places Abraham in Canaan (Genesis 13:12) and Ishmael in the wilderness of Paran in the Sinai region (Genesis 21:21). The accounts that bring Abraham to Mecca reach us only through Islamic sources, though some scholars think Arabs told such a legend before Islam.',
       ],
       references: ['Quran 2:127', 'Genesis 13:12', 'Genesis 21:21'],
     },
@@ -64,7 +64,7 @@ export const quranHistory: Topic = {
       heading: 'Shooting stars as missiles',
       body: [
         'The Quran says the stars of the nearest heaven are made into things “thrown at the devils” to stop them eavesdropping on the angels (Quran 67:5; 37:6-10).',
-        'Shooting stars are small rocks burning up in our atmosphere; stars are distant suns. The description fits the ancient world’s picture of the sky, not reality.',
+        'Shooting stars are small rocks burning up in our atmosphere; stars are distant suns. Ibn Kathir says it is meteors taken from the stars, not the stars themselves, that are thrown; even so, the description fits the ancient world’s picture of the sky, not reality.',
       ],
       references: ['Quran 67:5', 'Quran 37:6-10'],
     },
@@ -77,7 +77,7 @@ export const quranHistory: Topic = {
           followUps: [
             {
               reply: 'It goes further than that. Maurice Bucaille found the name Haman in a hieroglyphic inscription now in Vienna, with the title “chief of the quarry workers”. Nobody could read hieroglyphs in the Prophet’s day.',
-              answer: 'That claim has been withdrawn by the Muslim apologists who promoted it. The website Islamic Awareness reports that the Egyptologist Jürgen Osing examined it: the name on the Vienna doorpost is written ḥmn-ḥ, and the final letter belongs to the name. Its owner was an overseer of quarry workers, a post of local importance, not a confidant of Pharaoh. The site now says the identification is no longer a possibility. A different name, for a man who was not a minister, is not evidence of hidden knowledge.',
+              answer: 'That claim is still repeated, but the Muslim website Islamic Awareness, which once put it forward as a possibility, has withdrawn it. The site reports that the Egyptologist Jürgen Osing examined it: the name on the Vienna doorpost is written ḥmn-ḥ, and the final letter belongs to the name, which the Vienna museum reads as Hemen-hetep. Its owner was an overseer of quarry workers, a post of local importance, not a confidant of Pharaoh. The site now says the identification is no longer a possibility. A different name, for a man who was not a minister, is not evidence of hidden knowledge.',
               followUps: [
                 {
                   reply: 'The book of Esther is not history. Many of your own scholars call it a tale, and no Persian record names a Haman. You cannot use Esther to correct the Quran.',
@@ -93,7 +93,7 @@ export const quranHistory: Topic = {
           followUps: [
             {
               reply: 'The Prophet answered that about Mary himself. People used to be named after the prophets and the righteous who went before them (Sahih Muslim 2135).',
-              answer: 'He did, and that hadith shows that the Christians of Najran saw the problem at once. The answer can cover “sister of Aaron” as a manner of speaking. It does not cover the rest. Mary is “the daughter of ‘Imran” (Quran 66:12), and her mother is “the wife of ‘Imran” (Quran 3:35), while in the Torah Amram is the father of Aaron, Moses and their sister Miriam (Numbers 26:59). A father, a brother and a name, all from the family of Moses, is more than an honorific.',
+              answer: 'He did, and that hadith shows that the Christians of Najran saw the problem at once. The answer can cover “sister of Aaron” as a manner of speaking. It covers the rest less easily: commentators must suppose that Mary’s father was a second ‘Imran, while earlier Christian tradition calls him Joachim. Mary is “the daughter of ‘Imran” (Quran 66:12), and her mother is “the wife of ‘Imran” (Quran 3:35), while in the Torah Amram is the father of Aaron, Moses and their sister Miriam (Numbers 26:59). A father, a brother and a name, all from the family of Moses, is more than an honorific.',
             },
           ],
         },
@@ -157,7 +157,7 @@ export const quranHistory: Topic = {
         },
         {
           reply: 'You cannot prove a negative. The Jews of Medina heard this verse recited, and there is no report that they denied it.',
-          answer: 'I have heard that argument, and it rests on silence. But whose silence? We have no writings from the Jews of Medina at all: their tribes were expelled or, in the case of Banu Qurayza, killed (Quran 33:26). What does survive is the vast literature of Judaism before and after Muhammad, and the Jews of Yemen, who lived on in Arabia, and none of it knows this belief. In any other inquiry, a claim found only in the mouth of an opponent would not be taken as fact.',
+          answer: 'I have heard that argument, and it rests on silence. But whose silence? We have no writings from the Jews of Medina at all: their tribes were expelled or, in the case of Banu Qurayza, the men killed and the women and children taken captive (Quran 33:26). What does survive is the vast literature of Judaism before and after Muhammad, and the Jews of Yemen, who lived on in Arabia, and none of it knows this belief. In any other inquiry, a claim found only in the mouth of an opponent would not be taken as fact.',
         },
       ],
       objection: 'Maybe some small Jewish sect in Arabia called Ezra the son of God.',
@@ -213,7 +213,7 @@ export const quranHistory: Topic = {
       question: 'In the Bible, Haman serves which king?',
       options: ['Pharaoh of Egypt', 'Xerxes (Ahasuerus) of Persia', 'David of Israel', 'Nebuchadnezzar of Babylon'],
       answer: 1,
-      explanation: 'Esther 3:1 — about a thousand years after Moses.',
+      explanation: 'Esther 3:1 — some eight to ten centuries after Moses.',
     },
     {
       id: 'qh-q2',
@@ -247,7 +247,7 @@ export const quranHistory: Topic = {
       id: 'qh-q6',
       question: 'Why is “sister of Aaron” (Quran 19:28) a difficulty?',
       options: [
-        'Aaron’s sister Miriam lived about 1,400 years before Mary the mother of Jesus',
+        'Aaron’s sister Miriam lived well over a thousand years before Mary the mother of Jesus',
         'The Bible says Aaron had no sister',
         'The verse is missing from the early manuscripts',
         'Mary is never mentioned elsewhere in the Quran',

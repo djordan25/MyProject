@@ -4,7 +4,7 @@ export const quranOral: Topic = {
   id: 'islam-quran-oral',
   title: 'From Recitation to Book',
   icon: '🗣',
-  summary: 'The Quran began as oral recitation and was only collected into a book after Muhammad died — after many of its reciters had been killed.',
+  summary: 'The Quran began as oral recitation and was only collected into a book after Muhammad died and after, by the hadith’s account, many of its reciters had been killed.',
   lesson: [
     {
       heading: 'Revealed piece by piece, recited from memory',
@@ -18,7 +18,7 @@ export const quranOral: Topic = {
     {
       heading: 'The battle of Yamama: reciters killed',
       body: [
-        'Shortly after Muhammad’s death, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared that, unless it was collected, “a large part of the Qur’an may be lost” (Sahih al-Bukhari 4986).',
+        'Shortly after Muhammad’s death, the hadith report, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared that, unless it was collected, “a large part of the Qur’an may be lost” (Sahih al-Bukhari 4986).',
         'Notice what this admits: the Quran’s survival depended on living memorisers, and when they died, its loss was a real danger in the minds of the leading companions.',
         'Abu Bakr hesitated — “How can you do something which Allah’s Messenger did not do?” Zaid said that moving a mountain would have been easier than this task (Sahih al-Bukhari 4986).',
       ],
@@ -46,8 +46,8 @@ export const quranOral: Topic = {
       heading: 'Is it a “telephone game”?',
       body: [
         'Muslims often accuse the Bible of being like a game of telephone. Be fair: communal recitation is more stable than one person whispering to the next, because many people check each other.',
-        'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and, as Sahih al-Bukhari 4977 is usually understood, did not count the last two surahs as Quran; and Umar said of Ubai bin Ka’b, the best reciter among them, “we leave some of what he recites” (Sahih al-Bukhari 5005). The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',
-        'By contrast, the New Testament was written down within the lifetime of eyewitnesses (Luke 1:1-4; 1 John 1:1-3), and copied so widely that no one could control or destroy the variant copies.',
+        'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and, as Sahih al-Bukhari 4977 is usually understood, did not count the last two surahs as Quran; and Umar said of Ubai bin Ka’b, the best reciter among them, “we leave some of what he recites” (Sahih al-Bukhari 5005), appealing to abrogation. The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',
+        'By contrast, most of the New Testament was written down within the lifetime of eyewitnesses (Luke 1:1-4; 1 John 1:1-3), and copied so widely that no one could control or destroy the variant copies.',
       ],
       references: ['Sahih al-Bukhari 4944', 'Sahih al-Bukhari 4977', 'Sahih al-Bukhari 5005', 'Luke 1:1-4', '1 John 1:1-3'],
     },
@@ -60,7 +60,7 @@ export const quranOral: Topic = {
           followUps: [
             {
               reply: 'The reports are right, and you misread them. Umar’s fear shows how carefully the companions acted. Allah kept His promise through their effort, and nothing was in fact lost.',
-              answer: 'I agree that the fear does not prove a loss. It shows what the leading companions believed about memory: that it was not enough. If thousands held the whole Quran by heart, the deaths at Yamama could not have put “a large part of the Qur’an” at risk (Sahih al-Bukhari 4986). As to whether anything was lost, the same collections answer: Abu Musa says he forgot a surah as long as Bara’at, all but one line (Sahih Muslim 1050).',
+              answer: 'I agree that the fear does not prove a loss. It shows what the leading companions believed about memory: that it was not enough. If thousands held the whole Quran by heart, the deaths at Yamama could not have put “a large part of the Qur’an” at risk (Sahih al-Bukhari 4986). As to whether anything was lost, the same collections answer: Abu Musa says he forgot a surah as long as Bara’at, all but one line (Sahih Muslim 1050); Muslim scholars class that surah as abrogated, though the report says only that he forgot it.',
               followUps: [
                 {
                   reply: 'Zaid was not short of men who knew those verses. He knew them himself. He means that he found them in writing with only one man, because he would accept nothing without a written copy.',
@@ -76,14 +76,14 @@ export const quranOral: Topic = {
           followUps: [
             {
               reply: 'Anas was speaking only of his own tribe. The commentators explain that many others knew it all, such as Abu Bakr, Ali and Ibn Mas’ud.',
-              answer: 'Ibn Hajar, the chief commentator on Bukhari, offers that as one possible reading, from a report in which the two tribes of Medina are boasting against each other. He may be right, since “none but four” can hardly be a full count. But then the large numbers rest on inference, not on a record. The seventy men killed at Bi’r Ma’una are called reciters (Sahih al-Bukhari 4090), and so are the dead of Yamama, but no report says that each of them held the whole Quran. What the sources name is a handful of collectors, who did not all recite alike.',
+              answer: 'Ibn Hajar, the chief commentator on Bukhari, offers that as one possible reading, from a report in which the two tribes of Medina are boasting against each other. He may be right, since “none but four” can hardly be a full count. But then the large numbers rest on inference, not on a record. The seventy men killed at Bi’r Ma’una are called reciters (Sahih al-Bukhari 4090), and so are the dead of Yamama, but these reports do not say that each of them held the whole Quran. What the sources name is a handful of collectors, who did not all recite alike.',
             },
           ],
         },
       ],
       objection: 'The whole Quran was memorised by thousands of companions, so nothing could be lost.',
       response:
-        'If that were true, Umar wouldn’t have feared that a large part of the Quran might be lost when the reciters died at Yamama, and Zaid wouldn’t have found some verses with only one man (Sahih al-Bukhari 4986, 4988). Those are reports in Bukhari, the most trusted hadith collection. They show the Quran’s preservation was fragile, not guaranteed.',
+        'If that were true, Umar wouldn’t have feared that a large part of the Quran might be lost when the reciters died at Yamama, and Zaid wouldn’t have found some verses with only one man (Sahih al-Bukhari 4986, 4988). Those are reports in Bukhari, the hadith collection Sunni Muslims trust most. They show the Quran’s preservation was fragile, not guaranteed.',
       keyPoints: ['Umar feared loss after Yamama.', 'Verses found with one man only.', 'Source: Sahih al-Bukhari, not critics.'],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4988'],
     },
@@ -98,7 +98,7 @@ export const quranOral: Topic = {
               followUps: [
                 {
                   reply: 'Zaid was the Prophet’s scribe and was present at the final review with Gabriel. That is why he was chosen, and why his collection matches it.',
-                  answer: 'Bukhari says Zaid used to write down the revelation (Sahih al-Bukhari 4986). It does not say he was at the final review. That comes from later writers such as al-Baghawi, in the twelfth century, who introduces it with the words “it is said”. Musnad Ahmad 3422, with a chain graded sound, has Ibn Abbas say that the last recitation was Abdullah’s, meaning Ibn Mas’ud, and that he therefore knew what had been abrogated and changed. Yet Ibn Mas’ud and Zaid did not recite alike, and Ibn Mas’ud would not give way (Sahih Muslim 2462). If both men stand for the final review, the final review did not leave one agreed text.',
+                  answer: 'Bukhari says Zaid used to write down the revelation (Sahih al-Bukhari 4986). It does not say he was at the final review. That comes from later writers such as al-Baghawi, in the twelfth century, who introduces it with the words “it is said” and cites one early reciter, al-Sulami. Musnad Ahmad 3422, with a chain graded sound, has Ibn Abbas say that the last recitation was Abdullah’s, meaning Ibn Mas’ud, and that he therefore knew what had been abrogated and changed. Yet Ibn Mas’ud and Zaid did not recite alike, and Ibn Mas’ud would not give way (Sahih Muslim 2462). If both men stand for the final review, the final review did not leave one agreed text.',
                 },
               ],
             },
@@ -122,7 +122,7 @@ export const quranOral: Topic = {
           followUps: [
             {
               reply: 'Nothing binding was lost. The seven were a permission. Uthman kept the one in the tongue of Quraish, in which the Quran first came down, and the companions agreed.',
-              answer: 'Al-Tabari says much the same, and adds that knowledge of the other six has perished. But dialect does not explain the hadith. Umar and Hisham were both men of Quraish, and still they recited the surah differently (Sahih al-Bukhari 4992). The Muslim scholar Ibn al-Jazari made that very point against the dialect theory. So the differences were of wording, between two speakers of one dialect, and of each the Prophet said, “It was revealed in this way”.',
+              answer: 'Al-Tabari says much the same, and adds that knowledge of the other six has perished; most Muslim scholars hold that Uthman’s text keeps as much of the seven as its script allows. But dialect does not explain the hadith. Umar and Hisham were both men of Quraish, and still they recited the surah differently (Sahih al-Bukhari 4992). The Muslim scholar Ibn al-Jazari made that very point against the dialect theory. So the differences were of wording, between two speakers of one dialect, and of each the Prophet said, “It was revealed in this way”.',
               followUps: [
                 {
                   reply: 'They are still all from Allah. Several revealed wordings is not corruption. You have four Gospels that tell the same events in different words.',
@@ -294,7 +294,7 @@ export const quranOral: Topic = {
       question: 'How does the lesson contrast the way the New Testament was handed on?',
       options: [
         'It was dictated word for word by an angel',
-        'It was written within the lifetime of eyewitnesses and copied too widely for anyone to control',
+        'Most of it was written within the lifetime of eyewitnesses, and it was copied too widely for anyone to control',
         'It was memorised first and written down centuries later',
         'One bishop collected it and had the other copies burned',
       ],

@@ -22,15 +22,15 @@ export const resurrection: Topic = {
         'Jesus died by crucifixion.',
         'His disciples sincerely believed he rose and appeared to them.',
         'Paul, a persecutor of the church, was suddenly converted.',
-        'James, Jesus’ sceptical brother, was converted.',
-        'The tomb was empty (accepted by a strong majority, though not all).',
+        'James, Jesus’ sceptical brother, was converted (granted by most scholars who discuss it, though fewer do).',
+        'The tomb was empty (not strictly one of the minimal facts: about three quarters of the publications Habermas surveyed accept it).',
       ],
     },
     {
       heading: 'Weighing the explanations',
       body: [
         'Any theory has to explain all the facts. Natural alternatives each explain one or two at best:',
-        'Hallucination: hallucinations are individual, not group experiences, and wouldn’t empty a tomb or convert hostile sceptics like Paul and James.',
+        'Hallucination: hallucinations are normally individual, not group experiences, and wouldn’t empty a tomb or convert hostile sceptics like Paul and James.',
         'Stolen body / conspiracy: the disciples were willing to suffer and die for the claim, and the deaths of Peter, Paul and James are well attested; people don’t die for what they know is a lie.',
         'Swoon (Jesus didn’t really die): Roman executioners were expert, and a half-dead man would not inspire belief in a glorious resurrection.',
         'Wrong tomb: the authorities could simply have produced the body.',
@@ -42,7 +42,7 @@ export const resurrection: Topic = {
       body: [
         'The resurrection was first preached in Jerusalem, a short walk from the tomb, within weeks of the crucifixion. If the body had still been there, the authorities could have ended the movement in an afternoon by producing it.',
         'Instead, the earliest reply on record is that the disciples stole the body (Matthew 28:12-13). That is an explanation of an empty tomb, not a denial of one.',
-        'The burial itself is credible. All four Gospels say Jesus was buried by Joseph of Arimathea, “a prominent Council member” (Mark 15:43): a named member of the very council that condemned him. Christians would not have invented a favourable role for one of its members.',
+        'The burial itself is credible. All four Gospels say Jesus was buried by Joseph of Arimathea, “a prominent Council member” (Mark 15:43): a named member of the very council that condemned him. Christians are unlikely to have invented a favourable role for one of its members.',
       ],
       references: ['Matthew 28:12-13', 'Mark 15:43', 'Acts 2:29-32'],
     },
@@ -51,7 +51,7 @@ export const resurrection: Topic = {
       body: [
         'Two days after the crucifixion the disciples were behind locked doors, afraid (John 20:19). Weeks later the same men were preaching in the temple courts, and told the council that had killed Jesus, “We must obey God rather than men” (Acts 5:29). The authorities noticed their boldness (Acts 4:13).',
         'Devout Jews began meeting to worship on the first day of the week, the day he rose. James, who had not believed in his brother, became a leader of the church. Paul turned from hunting Christians to planting churches.',
-        'Each of them gave the same explanation: they had seen Jesus alive.',
+        'The explanation given for each is the same: they had seen Jesus alive.',
       ],
       references: ['John 20:19', 'Acts 4:13', 'Acts 5:29', '1 Corinthians 15:7-8'],
     },
@@ -70,7 +70,7 @@ export const resurrection: Topic = {
       followUps: [
         {
           reply: 'Grief can make people see things.',
-          answer: 'Grief visions happen to individuals. They do not happen to groups at the same time (1 Corinthians 15:5-8), they do not convince enemies like Paul, and they do not empty a tomb.',
+          answer: 'Grief visions nearly always come to individuals. They seldom come to groups at the same time (1 Corinthians 15:5-8), they do not convince enemies like Paul, and they do not empty a tomb.',
           followUps: [
             {
               reply: 'Group experiences are documented. Crowds have reported seeing the Virgin Mary, and mass hysteria is a recognised thing. A small, frightened, grieving sect is exactly where you would expect it.',
@@ -82,7 +82,7 @@ export const resurrection: Topic = {
                   followUps: [
                     {
                       reply: 'Paul says the body is raised “a spiritual body” and that “flesh and blood cannot inherit the kingdom of God”. The touching and eating come decades later in Luke and John. The first belief was in a spiritual exaltation, and the physical stories grew afterwards.',
-                      answer: 'In Paul “spiritual” does not mean made of spirit. He uses the same pair of words for the “natural man” and the “spiritual man”, and both of those have bodies (1 Corinthians 2:14-15). A spiritual body is a body given life by God’s Spirit, and “flesh and blood” is his phrase for our present mortal state: he goes straight on to say that this mortal body “must be clothed” with immortality, not swapped for something else (1 Corinthians 15:50-53). He expects Christ to “transform our lowly bodies to be like His glorious body” (Philippians 3:20-21). As N. T. Wright has shown at length, “resurrection” in the ancient world always meant bodies, never the survival of a soul.',
+                      answer: 'In Paul “spiritual” does not mean made of spirit. He uses the same pair of words for the “natural man” and the “spiritual man”, and both of those have bodies (1 Corinthians 2:14-15). A spiritual body is a body given life by God’s Spirit, and “flesh and blood” is his phrase for our present mortal state: he goes straight on to say that this mortal body “must be clothed” with immortality, not swapped for something else (1 Corinthians 15:50-53). He expects Christ to “transform our lowly bodies to be like His glorious body” (Philippians 3:20-21). As N. T. Wright has argued at length, “resurrection” in the ancient world always meant bodies, never the survival of a soul.',
                     },
                   ],
                 },
@@ -97,7 +97,7 @@ export const resurrection: Topic = {
       ],
       objection: 'The disciples just hallucinated.',
       response:
-        'Hallucinations are private experiences, like dreams — you can’t share them with a group. Yet appearances were to groups, including over 500 at once. Hallucinations also don’t explain the empty tomb, or why enemies like Paul and sceptics like James came to believe.',
+        'Hallucinations are private experiences, like dreams — as a rule you can’t share them with a group. Yet appearances were to groups, including over 500 at once. Hallucinations also don’t explain the empty tomb, or why enemies like Paul and sceptics like James came to believe.',
       keyPoints: [
         'Group appearances (1 Cor 15:5-7).',
         'Doesn’t explain the empty tomb.',
@@ -146,7 +146,7 @@ export const resurrection: Topic = {
         },
         {
           reply: 'We do not know that the apostles died as martyrs. The stories about most of them are late legends. There is decent evidence for two or three at most.',
-          answer: 'That is right, and I should not claim more than the evidence gives. It is good for Peter and Paul, whose deaths are mentioned in a letter from the church at Rome written before the end of the first century, for James the brother of Jesus, whose stoning Josephus records, and for James the son of Zebedee (Acts 12:1-2). For the rest the accounts are later and less certain. But the argument does not need every apostle to have been killed, only that they knew the cost and went on. Paul lists his floggings, beatings and a stoning in a letter nobody disputes (2 Corinthians 11:23-27).',
+          answer: 'That is right, and I should not claim more than the evidence gives. It is good for Peter and Paul, whose deaths are mentioned in a letter from the church at Rome written before the end of the first century, for James the brother of Jesus, whose stoning Josephus records, and for James the son of Zebedee (Acts 12:1-2). For the rest the accounts are later and less certain. But the argument does not need every apostle to have been killed, only that they knew the cost and went on. Paul lists his floggings, beatings and a stoning in a letter that scholars agree is his (2 Corinthians 11:23-27).',
           followUps: [
             {
               reply: 'Being killed is not the same as dying for a claim. Nero executed Christians as scapegoats for the fire of Rome. Nobody offered Peter his life if he would deny the resurrection.',
@@ -172,7 +172,7 @@ export const resurrection: Topic = {
       id: 'res-4',
       objection: 'The disciples stole the body and made up the story.',
       response:
-        'That was the first explanation offered (Matthew 28:12-13), and it has always had the same problem: it makes the disciples deliberate frauds. They then spent the rest of their lives being beaten, imprisoned and in some cases killed for a claim they knew to be a lie, and none of them broke. Liars make poor martyrs. It also leaves Paul and James unexplained, who were not disciples and had no part in any plot.',
+        'That was the first explanation offered (Matthew 28:12-13), and it has always had the same problem: it makes the disciples deliberate frauds. They then spent the rest of their lives being beaten, imprisoned and in some cases killed for a claim they knew to be a lie, and none of them is known to have broken. Liars make poor martyrs. It also leaves Paul and James unexplained, who were not disciples and had no part in any plot.',
       keyPoints: ['It makes the disciples knowing frauds.', 'People do not suffer and die for what they know is false.', 'It does not explain Paul or James.'],
       references: ['Matthew 28:12-13', '1 Corinthians 15:7-8'],
       followUps: [
@@ -186,7 +186,7 @@ export const resurrection: Topic = {
               followUps: [
                 {
                   reply: '“He was buried” says nothing about a tomb, still less an empty one. Paul never mentions the empty tomb. It first appears in Mark, forty years after the event.',
-                  answer: 'Paul’s line runs: died, buried, raised, appeared. For a Jew, a man who was buried and then raised is no longer where he was buried, so the empty grave is implied, not missing. Mark’s account also has a feature nobody would invent: the tomb is found empty by women, at a time when, as Josephus records, a woman’s testimony was not accepted in court. Someone making up the story would have sent Peter. And the opponents never said the grave was still occupied; in the middle of the second century Justin Martyr reports that they were still saying the disciples had stolen the body.',
+                  answer: 'Paul’s line runs: died, buried, raised, appeared. For a Jew, a man who was buried and then raised is no longer where he was buried, so the empty grave is implied, not missing. Mark’s account also has a feature few would invent: the tomb is found empty by women, at a time when, as Josephus and the Mishnah show, a woman’s testimony was not normally accepted in court. Someone making up the story would have sent Peter. And the opponents never said the grave was still occupied; in the middle of the second century Justin Martyr reports that they were still saying the disciples had stolen the body.',
                 },
               ],
             },
@@ -202,8 +202,8 @@ export const resurrection: Topic = {
       id: 'res-5',
       objection: 'The resurrection story is a legend that grew over time.',
       response:
-        'Legends need time, and here there is none. The summary Paul quotes in 1 Corinthians 15:3-7 was handed to him within a few years of the event, and it already contains the death, the burial, the resurrection and a list of named witnesses. It was circulating while those witnesses, and plenty of hostile ones, were alive to contradict it. The Gospel accounts are also strikingly plain: none of them describes the resurrection itself.',
-      keyPoints: ['The creed dates to within a few years.', 'Named witnesses were alive.', 'The accounts are restrained, not embroidered.'],
+        'Legends need time, and here there is none. The summary Paul quotes in 1 Corinthians 15:3-7 was, on the dating most scholars accept, handed to him within a few years of the event, and it already contains the death, the burial, the resurrection and a list of named witnesses. It was circulating while those witnesses, and plenty of hostile ones, were alive to contradict it. The Gospel accounts are also strikingly plain: none of them describes the resurrection itself.',
+      keyPoints: ['Most scholars date the creed to within a few years.', 'Named witnesses were alive.', 'The accounts are restrained, not embroidered.'],
       references: ['1 Corinthians 15:3-7'],
       followUps: [
         {
@@ -313,7 +313,7 @@ export const resurrection: Topic = {
       options: [
         'It is the longest account of the resurrection in the Bible',
         'It was written by Peter himself',
-        'It was handed to Paul within a few years of the event and names witnesses who were still alive',
+        'It was probably handed to Paul within a few years of the event and names witnesses who were still alive',
         'It describes the moment Jesus left the tomb',
       ],
       answer: 2,
@@ -323,7 +323,7 @@ export const resurrection: Topic = {
       id: 'res-q8',
       question: 'Why does the hallucination theory fail to explain the facts?',
       options: [
-        'Hallucinations are private, so they do not explain group appearances, the empty tomb, or the conversion of Paul and James',
+        'Hallucinations are normally private, so they do not explain group appearances, the empty tomb, or the conversion of Paul and James',
         'Hallucinations were unknown in the ancient world',
         'The disciples were all trained physicians',
         'Hallucinations only happen at night, and the appearances were in daylight',
@@ -413,7 +413,7 @@ export const resurrection: Topic = {
         'Only women were allowed in the garden',
       ],
       answer: 2,
-      explanation: 'Josephus records that women’s testimony was not accepted in court. Even the apostles at first “did not believe the women” (Luke 24:11).',
+      explanation: 'Josephus gives the rule that women’s testimony was not to be accepted in court, though the Mishnah allows some exceptions. Even the apostles at first “did not believe the women” (Luke 24:11).',
     },
     {
       id: 'res-q16',

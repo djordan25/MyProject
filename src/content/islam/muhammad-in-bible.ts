@@ -30,15 +30,15 @@ export const muhammadInBible: Topic = {
         'Jesus promised “another Advocate to be with you forever” (John 14:16). The Greek word is parakletos, also translated Helper or Comforter. Some Muslims claim this is Muhammad, linking Quran 61:6 (“Ahmad”).',
         'But read the very next verse: he is “the Spirit of truth. The world cannot receive Him, because it neither sees Him nor knows Him. But you do know Him, for He abides with you and will be in you” (John 14:17). Muhammad was seen by the world and was not known by the disciples 600 years earlier.',
         'Jesus names him plainly: “the Advocate, the Holy Spirit, whom the Father will send in My name” (John 14:26). He would come to the disciples themselves within days (Acts 1:4-5, 8) — fulfilled at Pentecost (Acts 2:1-4).',
-        'The Advocate would glorify Jesus (John 16:14). Muhammad’s message denied Jesus’ divine sonship and his death.',
+        'The Advocate would glorify Jesus (John 16:14). Muhammad’s message denied Jesus’ divine sonship and his death on the cross.',
       ],
       references: ['John 14:16-17', 'John 14:26', 'John 16:7-14', 'Acts 1:4-8', 'Acts 2:1-4'],
     },
     {
-      heading: 'Song of Songs 5:16: “mahamaddim”',
+      heading: 'Song of Songs 5:16: “machamaddim”',
       body: [
         'Some claim the Hebrew word machamaddim (“altogether lovely”) in Song of Songs 5:16 is Muhammad’s name.',
-        'The word is a common Hebrew adjective meaning “desirable things”, used elsewhere for precious objects (e.g. 1 Kings 20:6; Lamentations 1:10). It is plural, and in the passage it describes a bridegroom in a love poem. Similar sounds don’t make a prophecy — by that logic many unrelated words could be “prophecies”.',
+        'The word is an ordinary Hebrew noun meaning “desirable things”, used elsewhere for precious objects (e.g. 1 Kings 20:6; Lamentations 1:10). It is plural, and in the passage it describes a bridegroom in a love poem. Similar sounds don’t make a prophecy — by that logic many unrelated words could be “prophecies”.',
       ],
       references: ['Song of Songs 5:16', '1 Kings 20:6', 'Lamentations 1:10'],
     },
@@ -118,7 +118,7 @@ export const muhammadInBible: Topic = {
       ],
       objection: 'Jesus said the Advocate (Helper) could not come unless he left (John 16:7). The Holy Spirit was already present before, so it must be Muhammad.',
       response:
-        'The Spirit was active in the Old Testament, but Jesus promised a new indwelling: “He abides with you and will be in you” (John 14:17). That’s what happened at Pentecost (Acts 2). And Jesus explicitly calls the Helper “the Holy Spirit” (John 14:26) and says the disciples already know him. Muhammad was born 500 years after those disciples died.',
+        'The Spirit was active in the Old Testament, but Jesus promised a new indwelling: “He abides with you and will be in you” (John 14:17). That’s what happened at Pentecost (Acts 2). And Jesus explicitly calls the Helper “the Holy Spirit” (John 14:26) and says the disciples already know him. Muhammad was born about 500 years after those disciples died.',
       keyPoints: ['New indwelling, not first appearance.', 'Explicitly named the Holy Spirit (14:26).', 'Disciples would receive him personally.'],
       references: ['John 14:17', 'John 14:26', 'John 16:7', 'Acts 2:1-4'],
     },
@@ -128,8 +128,8 @@ export const muhammadInBible: Topic = {
         { reply: 'The Greek was changed after Muhammad appeared.', answer: 'Manuscripts of John copied centuries before Muhammad was born already read parakletos. Nobody could alter a text hundreds of years before the reason to alter it existed.',
           followUps: [
             {
-              reply: 'Jesus spoke Aramaic, not Greek. The word he used meant “the praised one”, and the Greek translators garbled it. The earliest Muslim biographer, Ibn Ishaq, already found Muhammad in John’s Gospel.',
-              answer: 'Ibn Ishaq is worth reading here, because he supports the Greek text we have. Writing in the eighth century, he quotes John 15:23 onwards from a Syriac version. He says the promised one is called the Munahhemana in Syriac and “in Greek he is the paraclete”. So the earliest Muslim witness knew the Greek word as parakletos, not periklytos. His translator, Alfred Guillaume, notes that the Syriac word here means one who comforts. And the passage as Ibn Ishaq quotes it still calls this Comforter the spirit of truth, who comes from the Lord’s presence.',
+              reply: 'Jesus spoke Aramaic, not Greek. The word he used meant “the praised one”, and the Greek translators garbled it. One of the earliest Muslim biographers, Ibn Ishaq, already found Muhammad in John’s Gospel.',
+              answer: 'Ibn Ishaq is worth reading here, because he supports the Greek text we have. Writing in the eighth century, he quotes John 15:23 onwards from a Syriac version. He says that the Munahhemana in Syriac is Muhammad, and that “in Greek he is the paraclete”. So the earliest known Muslim use of the passage pairs the Greek word with an Aramaic word for a comforter, which fits parakletos and not periklytos. His translator, Alfred Guillaume, notes that the Syriac word here means one who comforts. And in Guillaume’s translation the passage still names the spirit of truth alongside this Comforter, as coming from the Lord’s presence.',
               followUps: [
                 {
                   reply: 'Then take the word as it stands. A comforter and advocate who comes after Jesus with a message for the world is a fair description of Muhammad.',
@@ -152,7 +152,7 @@ export const muhammadInBible: Topic = {
       ],
       objection: 'The original Greek said periklytos (“praised one” = Ahmad), not parakletos.',
       response:
-        'Not one of the thousands of Greek manuscripts of John reads periklytos — they all read parakletos (“helper, advocate”). And the context — the Spirit of truth, unseen by the world, dwelling in the disciples — doesn’t fit Muhammad regardless of the word.',
+        'No known Greek manuscript of John reads periklytos — they read parakletos (“helper, advocate”). And the context — the Spirit of truth, unseen by the world, dwelling in the disciples — doesn’t fit Muhammad regardless of the word.',
       keyPoints: ['No manuscript evidence for periklytos.', 'Context fits only the Holy Spirit.', 'The claim requires a corruption theory with no evidence.'],
       references: ['John 14:16-17', 'John 15:26'],
     },
@@ -265,17 +265,17 @@ export const muhammadInBible: Topic = {
     },
     {
       id: 'mb-q9',
-      question: 'How many Greek manuscripts of John read periklytos (“praised one”) in place of parakletos?',
+      question: 'How many Greek manuscripts of John read periklytos (“famous”, taken as “praised one”) in place of parakletos?',
       options: ['About half of them', 'Only the oldest ones', 'None', 'Only those copied after AD 700'],
       answer: 2,
-      explanation: 'Every manuscript reads parakletos, including copies made centuries before Muhammad.',
+      explanation: 'Every known manuscript reads parakletos, including copies made centuries before Muhammad.',
     },
     {
       id: 'mb-q10',
-      question: 'Ibn Ishaq, the earliest biographer of Muhammad, quotes John 15 about the coming Comforter. What does he say the Greek word is?',
+      question: 'Ibn Ishaq, one of the earliest biographers of Muhammad, quotes John 15 about the coming Comforter. What does he say the Greek word is?',
       options: ['Periklytos', 'Ahmad', 'Christos', 'Paraclete'],
       answer: 3,
-      explanation: 'He writes that “in Greek he is the paraclete”. The earliest Muslim witness knew the word as parakletos.',
+      explanation: 'He writes that “in Greek he is the paraclete”. He pairs it with an Aramaic word for a comforter, which fits parakletos.',
     },
     {
       id: 'mb-q11',
@@ -325,7 +325,7 @@ export const muhammadInBible: Topic = {
         'In the fall of Jerusalem',
       ],
       answer: 2,
-      explanation: 'Matthew quotes the passage in full and applies it to Jesus.',
+      explanation: 'Matthew quotes the passage at length and applies it to Jesus.',
     },
     {
       id: 'mb-q16',

@@ -71,7 +71,7 @@ export const bibleCorruption: Topic = {
               followUps: [
                 {
                   reply: 'The great scholars, Ibn Hazm above all, proved that the text itself was corrupted.',
-                  answer: 'Ibn Hazm of Cordoba, who died in 1064, did argue at length that the text was corrupted. That is four centuries after Muhammad. He had read the Bible and found that it does not say what the Quran says is in it, and he put the choice bluntly: either Jews and Christians altered their books, or the Quran is false. He also complains that some Muslims of his own day denied that the books had been altered. Muslim writers of the eighth and ninth centuries who raised the charge mostly meant that Jews and Christians misinterpreted their books. The Quran itself never says that the text of the Torah or the Gospel was rewritten. It says, “None can alter His words” (Quran 6:115).',
+                  answer: 'Ibn Hazm of Cordoba, who died in 1064, did argue at length that the text was corrupted. That is four centuries after Muhammad. He had read the Bible and found that it does not say what the Quran says is in it, and he put the choice bluntly: either Jews and Christians altered their books, or the Quran is false. He also complains that some Muslims of his own day denied that the books had been altered. The earliest Quran commentators mostly describe the People of the Book hiding or misreading what their books said, though the charge of altering the text was also made early. The Quran itself never plainly says that the text of the Torah or the Gospel was rewritten. It says, “None can alter His words” (Quran 6:115).',
                 },
               ],
             },
@@ -125,7 +125,7 @@ export const bibleCorruption: Topic = {
       followUps: [
         {
           reply: 'Jesus preached one Gospel. Where is that book?',
-          answer: 'Jesus never wrote a book, and no one in the first century says he did. What he preached was recorded by those who heard him and by their companions. Mark opens with “the gospel of Jesus Christ” (Mark 1:1): the good news is about him. A book called the Injil, handed to Jesus, is an idea that first appears in the Quran, six hundred years later.',
+          answer: 'Jesus never wrote a book, and no one in the first century says he did. What he preached was recorded by those who heard him and by their companions. Mark opens with “the gospel of Jesus Christ” (Mark 1:1): the good news is about him. A book called the Injil, handed to Jesus, is the picture the Quran gives, six hundred years later.',
           followUps: [
             {
               reply: 'The Gospels are anonymous. The names Matthew, Mark, Luke and John were attached in the second century. No eyewitness wrote them, and Luke admits he was not one (Luke 1:1-4).',
@@ -133,11 +133,11 @@ export const bibleCorruption: Topic = {
               followUps: [
                 {
                   reply: 'Bart Ehrman says they were written thirty-five to sixty-five years later by Greek-speaking Christians who never met Jesus, after decades of stories passed from mouth to mouth.',
-                  answer: 'Take Ehrman’s dates: Mark about AD 70 and John in the 90s. That is within the lifetime of people who had known Jesus, and Paul’s letters are earlier still. Now apply the same standard to Islam. The earliest biography of Muhammad, by Ibn Ishaq, was written more than a century after his death and survives only in a later edition. Al-Bukhari compiled his hadith more than two hundred years after Muhammad. If forty years of oral tradition makes the Gospels worthless, Islam’s sources about its prophet fall first. And Ehrman himself holds that Jesus was crucified under Pontius Pilate, which is the very thing the Quran denies.',
+                  answer: 'Take Ehrman’s dates: Mark about AD 70 and John in the 90s. That is within the lifetime of people who had known Jesus, and Paul’s letters are earlier still. Now apply the same standard to Islam. The earliest biography of Muhammad, by Ibn Ishaq, was written more than a century after his death and survives only in later editions and quotations. Al-Bukhari compiled his hadith more than two hundred years after Muhammad. If forty years of oral tradition makes the Gospels worthless, Islam’s sources about its prophet fall first. And Ehrman himself holds that Jesus was crucified under Pontius Pilate, which is the very thing the Quran denies.',
                   followUps: [
                     {
                       reply: 'At least our hadith have chains of narrators. Your Gospels have no chain at all.',
-                      answer: 'A chain is needed when centuries pass between the event and the writing. The Gospels were written while eyewitnesses were alive, by them or by people who knew them, so the chain is one or two links long. John’s Gospel ends, “This is the disciple who testifies to these things and who has written them down” (John 21:24). A list of names written down two hundred years later is only as reliable as the people who recorded it, and the hadith scholars themselves acknowledged that many reports had been forged.',
+                      answer: 'A chain is needed when centuries pass between the event and the writing. By the early testimony the Gospels were written while eyewitnesses were alive, by them or by people who knew them, so the chain is one or two links long. John’s Gospel ends, “This is the disciple who testifies to these things and who has written them down” (John 21:24). A list of names written down two hundred years later is only as reliable as the people who recorded it, and the hadith scholars themselves acknowledged that many reports had been forged.',
                     },
                   ],
                 },
@@ -157,15 +157,15 @@ export const bibleCorruption: Topic = {
       followUps: [
         {
           reply: 'If those passages were added, what else was?',
-          answer: 'We know about those two passages because the manuscripts show it, and the same manuscripts show how stable everything else is. A few short verses are flagged in the same way, and any other addition would show up too. The evidence is public, and every modern Bible marks the passages.',
+          answer: 'We know about those two passages because the manuscripts show it, and the same manuscripts show how stable everything else is. A few short verses are flagged in the same way, and any other addition would show up too. The evidence is public, and most modern Bibles mark the passages.',
           followUps: [
             {
               reply: 'Bart Ehrman says there are more differences among the manuscripts than there are words in the New Testament, and that we have only copies of copies, full of errors.',
-              answer: 'The number is right, and the reason for it is that we have so many manuscripts: about 5,800 in Greek alone. Every spelling difference in every copy is counted. Ehrman himself has written that most of the variants are completely unimportant, and that a variant cannot overturn a doctrine, because doctrines rest on many passages and not on one verse. He is right that some variants change the sense of a particular verse, and Bibles note those in the margin. When a text is copied by hand in thousands of places with nobody controlling it, changes can be seen.',
+              answer: 'The number is right, and the reason for it is that we have so many manuscripts: more than 5,000 in Greek alone. Even the smallest slip in a single copy counts as a variant. Ehrman himself has written that most of the variants are completely immaterial, and has said that he does not dispute Bruce Metzger’s position that essential Christian beliefs are not affected by the variants. He is right that some variants change the sense of a particular verse, and Bibles note those in the margin. When a text is copied by hand in thousands of places with nobody controlling it, changes can be seen.',
               followUps: [
                 {
                   reply: 'The Quran has none of this. It is one text, memorised and written, the same to the letter for fourteen hundred years.',
-                  answer: 'That is what Muslims are taught, but it is not what the sources show. The Quran is recited today in more than one accepted reading, and the readings differ in words: in Quran 1:4 the Hafs reading has “owner” of the Day of Judgment and the Warsh reading has “king” (see What the Manuscripts Show). Uthman standardised the text and ordered every other copy burned (Sahih al-Bukhari 4987). Umar said a verse about stoning had been sent down and recited (Sahih Muslim 1691), and Aisha said the same of a verse about suckling (Sahih Muslim 1452). Neither is in the Quran today. Christians kept their variant copies and can study them. The early Muslim variants were destroyed.',
+                  answer: 'That is what Muslims are taught, but it is not what the sources show. The Quran is recited today in more than one accepted reading, and the readings differ in words: in Quran 1:4 the Hafs reading has “owner” of the Day of Judgment and the Warsh reading has “king” (see What the Manuscripts Show). Uthman standardised the text and ordered every other copy burned (Sahih al-Bukhari 4987). Umar said a verse about stoning had been sent down and recited (Sahih Muslim 1691), and Aisha said the same of a verse about suckling (Sahih Muslim 1452). Neither is in the Quran today; Muslim scholars say their recitation was abrogated. Christians kept their variant copies and can study them. The early Muslim variant copies were ordered burned.',
                 },
               ],
             },
@@ -178,7 +178,7 @@ export const bibleCorruption: Topic = {
       ],
       objection: 'Mark 16:9-20 and the story of the woman caught in adultery (John 8:1-11) aren’t in the earliest manuscripts. The Bible was added to!',
       response:
-        'Yes — and every modern Bible tells you so in a footnote. We know these passages are later because we have so many early manuscripts to compare. That’s the strength of the evidence, not a weakness. No Christian doctrine depends on those passages. Compare: the Quran’s variant copies were burned (Sahih al-Bukhari 4987), so we can’t compare them in the same way.',
+        'Yes — and most modern Bibles tell you so in a footnote. We know these passages are later because we have so many early manuscripts to compare. That’s the strength of the evidence, not a weakness. No Christian doctrine depends on those passages. Compare: the Quran’s variant copies were burned (Sahih al-Bukhari 4987), so we can’t compare them in the same way.',
       keyPoints: ['Concede honestly; Bibles footnote them.', 'Known through abundant manuscripts.', 'No doctrine depends on them.'],
       references: ['Mark 16:8', 'Sahih al-Bukhari 4987'],
     },
@@ -217,11 +217,11 @@ export const bibleCorruption: Topic = {
           followUps: [
             {
               reply: 'Then there are the hundreds of versions: King James, NIV, RSV and the rest, all different. The Quran is one book in one language.',
-              answer: 'Those are translations, and all of them are made from the same Hebrew and Greek texts. English has many translations of the Quran as well, and they differ from one another in wording. Nobody concludes that there are many Qurans. Christians have always translated the Bible because its message is for every nation. At Pentecost God himself had the apostles’ message heard in the languages of the crowd (Acts 2:5-11). Anyone who wants to test a translation can go back to the Greek and Hebrew, which are published with their variants.',
+              answer: 'Those are translations, and all of them translate the same Hebrew and Greek books. English has many translations of the Quran as well, and they differ from one another in wording. Nobody concludes that there are many Qurans. Christians have always translated the Bible because its message is for every nation. At Pentecost God himself had the apostles’ message heard in the languages of the crowd (Acts 2:5-11). Anyone who wants to test a translation can go back to the Greek and Hebrew, which are published with their variants.',
               followUps: [
                 {
                   reply: 'Men decided the canon by vote, centuries after Jesus. The Ethiopian church has eighty-one books. Who gave the church that authority?',
-                  answer: 'No council created the New Testament. The four Gospels, Acts and Paul’s letters were being read as Scripture across the churches in the second century, as Irenaeus shows about AD 180. The later discussion concerned a few short books such as 2 Peter and Jude. The Ethiopian church reads further books beside them, but it has the same Gospels and the same letters of Paul. When Athanasius listed our twenty-seven books in 367 he was recording what the churches already used. The Quran was also collected by a committee, under Abu Bakr and again under Uthman (Sahih al-Bukhari 4986, 4987). If a human process of collection does not stop the Quran being God’s word for you, it cannot be the objection to the Bible.',
+                  answer: 'No council created the New Testament. The four Gospels, Acts and Paul’s letters were being read as Scripture across the churches in the second century, as Irenaeus shows about AD 180. The later discussion concerned a few books such as Hebrews, 2 Peter and Revelation. The Ethiopian church reads further books beside them, but it has the same Gospels and the same letters of Paul. When Athanasius listed our twenty-seven books in 367 he was recording what most churches already used. The Quran was also collected by men appointed for the task, under Abu Bakr and again under Uthman (Sahih al-Bukhari 4986, 4987). If a human process of collection does not stop the Quran being God’s word for you, it cannot be the objection to the Bible.',
                 },
               ],
             },
@@ -420,7 +420,7 @@ export const bibleCorruption: Topic = {
         'The compiler of the most trusted hadith collection',
       ],
       answer: 1,
-      explanation: 'The Quran itself never says the text of the Torah or the Gospel was rewritten. It says none can alter Allah’s words (Quran 6:115).',
+      explanation: 'The Quran itself never plainly says the text of the Torah or the Gospel was rewritten. It says none can alter Allah’s words (Quran 6:115).',
     },
   ],
 };
