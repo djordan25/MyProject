@@ -9,16 +9,16 @@ export const ahmadiyyaOverview: Topic = {
     {
       heading: 'Who the Ahmadis are',
       body: [
-        'The Ahmadiyya movement began in the village of Qadian in the Punjab, in British India. Its founder, Mirza Ghulam Ahmad (1835-1908), first became known as a writer defending Islam against Christian missionaries and Hindu reformers. In 1889 he began to accept pledges of allegiance, and the community dates its founding from that year.',
+        'The Ahmadiyya movement began in the village of Qadian in the Punjab, in British India. Its founder, Mirza Ghulam Ahmad (c. 1835-1908), first became known as a writer defending Islam against Christian missionaries and Hindu reformers. In 1889, at Ludhiana, he began to accept pledges of allegiance, and the community dates its founding from that year.',
         'Ahmadis regard themselves as Muslims. They recite the same confession of faith, pray the five prayers, fast in Ramadan and revere Muhammad and the Quran. What sets them apart is what they believe about their founder, and what he taught about Jesus.',
-        'The main body, the Ahmadiyya Muslim Community, says it has tens of millions of members in more than two hundred countries. Independent figures are hard to come by. You are most likely to meet Ahmadis in Britain, Germany, Canada and the United States, in West and East Africa, and among people from Pakistan and India.',
+        'The main body, the Ahmadiyya Muslim Community, says it has tens of millions of members in more than two hundred countries. Independent figures are hard to come by, and outside estimates are lower: Human Rights Watch has suggested under ten million. You are most likely to meet Ahmadis in Britain, Germany, Canada and the United States, in West and East Africa, and among people from Pakistan and India.',
       ],
     },
     {
       heading: 'What Mirza Ghulam Ahmad claimed',
       body: [
         'His claims grew over time. He first presented himself as a reformer sent to renew Islam, the kind of figure Muslims expect at the head of each century. By the early 1890s he had announced that he was both the Mahdi whom Muslims await and the Promised Messiah. He did not mean that he was Jesus in person. He taught that Jesus had died a natural death long ago and would never return, and that the prophecies of his return were fulfilled in a man who came with his spirit and character, namely himself.',
-        'He also claimed to be a prophet. He explained the claim in a short work of 1901, A Misconception Removed, where he wrote: “Whenever I have denied being a Prophet or Messenger, it has only been in the sense that I have not brought an independent law nor am I an independent Prophet.” On this view Muhammad remains the last prophet to bring a law, and Ahmad is a prophet under him who brings no new scripture.',
+        'He also claimed to be a prophet. He explained the claim in a short work of 1901, A Misconception Removed, where he wrote: “Wherever I have denied being a Prophet or Messenger, it has only been in the sense that I have not brought an independent law nor am I an independent Prophet.” On this view Muhammad remains the last prophet to bring a law, and Ahmad is a prophet under him who brings no new scripture.',
         'He said that God spoke to him and gave him knowledge of future events, and he published many predictions as proofs of his mission. He taught that jihad by the sword has no place in this age and that Islam must be spread by argument alone. Much of his writing was aimed at Christianity, and above all at the death and resurrection of Jesus. The next lesson examines his teaching that Jesus survived the cross and died in Kashmir.',
       ],
     },
@@ -54,7 +54,7 @@ export const ahmadiyyaOverview: Topic = {
       body: [
         'Scripture tells us to test anyone who claims to speak for God (1 John 4:1), and it gives a plain test for predictions: “When a prophet speaks in the name of the LORD and the message does not come to pass or come true, that is a message the LORD has not spoken” (Deuteronomy 18:21-22). Ahmad staked his mission on his predictions, so this test is one he invited.',
         'There is a second test, because he claimed to be the Messiah come again. Jesus warned about exactly this: “if anyone says to you, ‘Look, here is the Christ!’ or ‘There He is!’ do not believe it” (Matthew 24:23-27). He said false christs and false prophets would show great signs. He said his own coming would need no announcement, since it will be like lightning that lights the sky from east to west.',
-        'When Jesus was taken up, the angels told the disciples: “This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven” (Acts 1:11). The promise is of the same Jesus, coming visibly, from heaven. A man born in a Punjabi village in 1835 does not fit it. Ahmad’s answer was that Jesus is dead and so cannot return in person. Everything therefore turns on whether Jesus died and rose, which is the subject of the next lesson.',
+        'When Jesus was taken up, the angels told the disciples: “This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven” (Acts 1:11). The promise is of the same Jesus, coming visibly, from heaven. A man born in a Punjabi village in the 1830s does not fit it. Ahmad’s answer was that Jesus is dead and so cannot return in person. Everything therefore turns on whether Jesus died and rose, which is the subject of the next lesson.',
       ],
       references: ['1 John 4:1', 'Deuteronomy 18:21-22', 'Matthew 24:23-27', 'Acts 1:11'],
     },
@@ -64,7 +64,7 @@ export const ahmadiyyaOverview: Topic = {
         'The facts below are taken from the Ahmadiyya community’s own publications, so that nothing rests on the word of its enemies. The Ahmadi explanations are given in the objections, with replies.',
         'Muhammadi Begum. In 1888 Ahmad announced that God had told him to ask for the hand of Muhammadi Begum, the young daughter of a relative, Mirza Ahmad Beg. The revelation, as he published it, said that if she were married to anyone else her father would die “within three years” and that “the husband of his daughter will also die within two years and a half”. In 1891 he wrote that God would “in any event” bring her to him “as a virgin or a widow”. In April 1892 she was married to Mirza Sultan Muhammad. Her father died that September. Her husband did not die. He was still living, and still married to her, years after Ahmad’s own death in 1908. Ahmad never married her.',
         'Abdullah Atham. In May and June 1893 Ahmad debated a Christian, Abdullah Atham, for fifteen days at Amritsar. On the last day he announced a revelation that whichever side was following falsehood would be “cast into Hell” within fifteen months, “on the condition that he does not return to the Truth”. He added that if that party was “not thrown into Hell sentenced to death within fifteen months from today’s date”, he would accept any punishment: “I may be humiliated, my face may be blackened, or I may be hanged with a rope around my neck.” The fifteen months ended in September 1894. Atham was alive, and still a Christian. He died on 27 July 1896.',
-        'The prayer duels. Ahmad challenged opponents to pray that God would destroy whichever of them was the liar. The case Ahmadis cite most is John Alexander Dowie, an American faith healer who founded the town of Zion, Illinois, and claimed to be the forerunner of Christ’s return. In 1902 and 1903 Ahmad challenged him to a contest of prayer and predicted that if Dowie took it up, directly or indirectly, he would leave the world in pain and misery within Ahmad’s lifetime. Dowie never answered him, though he spoke of him with contempt. He suffered strokes, was deposed by his own followers, who charged him with extravagance and hypocrisy, and died in March 1907. Ahmadis count this as a great sign. In April 1907 Ahmad published a prayer against a Muslim critic, Maulvi Sanaullah of Amritsar, under the title “Final decision”, asking God to let the liar die in the lifetime of the truthful. Ahmad died thirteen months later. Sanaullah lived another forty years.',
+        'The prayer duels. Ahmad challenged opponents to pray that God would destroy whichever of them was the liar. The case Ahmadis cite most is John Alexander Dowie, an American faith healer who founded the town of Zion, Illinois, and claimed to be the forerunner of Christ’s return. In 1902 and 1903 Ahmad challenged him to a contest of prayer and predicted that if Dowie took it up, directly or indirectly, he would leave the world in pain and misery within Ahmad’s lifetime, and that calamity would overtake Zion even if he declined. Dowie never answered him, though he spoke of him with contempt. He suffered strokes, was deposed by his own followers, who charged him with extravagance and hypocrisy, and died in March 1907. Ahmadis count this as a great sign. In April 1907 Ahmad published a prayer against a Muslim critic, Maulvi Sanaullah of Amritsar, under the title “Final decision”, asking God to let the liar die in the lifetime of the truthful. Ahmad died thirteen months later. Sanaullah lived another forty years.',
       ],
       references: ['Deuteronomy 18:21-22'],
     },
@@ -96,7 +96,7 @@ export const ahmadiyyaOverview: Topic = {
         },
         {
           reply: 'God confirmed him with signs. The moon and the sun were both eclipsed in Ramadan of 1894, as foretold for the Mahdi, and plague and earthquakes followed his warnings.',
-          answer: 'Signs cannot settle it, because Jesus said the false claimants would have them: “false Christs and false prophets will appear and perform great signs and wonders” (Matthew 24:24). The eclipse sign rests on a report in the collection of al-Daraqutni, compiled in the tenth century. It is traced to a later figure, Muhammad ibn Ali, and not to Muhammad himself, and other Muslim scholars reject it as unreliable. By the reckoning of your own writers, a lunar and a solar eclipse have fallen together in Ramadan more than a hundred times since Muhammad’s day. Eclipses, plagues and earthquakes happen in every generation. The Bible’s tests are whether the message agrees with what God has already said (Galatians 1:8) and whether the prophet’s own predictions come to pass (Deuteronomy 18:21-22).',
+          answer: 'Signs cannot settle it, because Jesus said the false claimants would have them: “false Christs and false prophets will appear and perform great signs and wonders” (Matthew 24:24). The eclipse sign rests on a report in the collection of al-Daraqutni, compiled in the tenth century. It is traced to a later figure, Muhammad ibn Ali, and not to Muhammad himself, and other Muslim scholars reject it as unreliable. By the reckoning of your own writers, a lunar and a solar eclipse have fallen together in Ramadan more than a hundred times since Muhammad’s day, though they add that only seven of those pairs could be seen from Qadian. Eclipses, plagues and earthquakes happen in every generation. The Bible’s tests are whether the message agrees with what God has already said (Galatians 1:8) and whether the prophet’s own predictions come to pass (Deuteronomy 18:21-22).',
         },
       ],
     },
@@ -104,12 +104,12 @@ export const ahmadiyyaOverview: Topic = {
       id: 'ahm-2',
       objection: 'The prophecy about Muhammadi Begum was a warning, and warnings are conditional. Her father defied it and died within six months, as foretold. Her husband repented, so God spared him, exactly as he spared Nineveh when Jonah’s warning was heeded (Jonah 3:10).',
       response:
-        'I accept the principle. In the Bible God does relent from announced judgment when people repent (Jeremiah 18:7-8). But look at what was announced here. The warning was against giving her in marriage to anyone else, and the penalty named for the man who married her was death within two and a half years. Sultan Muhammad married her and kept her as his wife for the rest of his life. He never gave up the very thing the warning was against, and nothing in the community’s own account says he ever took the pledge and joined the movement. In a letter of 1912 he wrote that he regretted he “was not able to have the honor of meeting” Ahmad. Nineveh turned from its violence. From what did this man turn?',
+        'I accept the principle. In the Bible God does relent from announced judgment when people repent (Jeremiah 18:7-8). But look at what was announced here. The warning was against giving her in marriage to anyone else, and the penalty named for the man who married her was death within two and a half years. Sultan Muhammad married her and kept her as his wife for the rest of his life. He never gave up the very thing the warning was against, and nothing in the community’s own account says he ever took the pledge and joined the movement. In a letter of 1912 or 1913 he wrote that he regretted he “was not able to have the honor of meeting” Ahmad. Nineveh turned from its violence. From what did this man turn?',
       keyPoints: ['Grant that warnings of judgment can be conditional.', 'The husband kept the wife and never joined the movement.', 'The marriage was a promise, and it never happened.'],
       references: ['Jonah 3:10', 'Jeremiah 18:7-8', 'Deuteronomy 18:21-22'],
       followUps: [
         {
-          reply: 'He turned in his heart. Hazrat Ahmad challenged him in print to publish a denial, and he never did, though Christians offered him money to act against him. In 1921 he said on oath that his faith in Hazrat Ahmad was stronger than that of many who had taken the pledge. Members of the family, including Muhammadi Begum’s own son, joined the community. God sees the heart, and fear of God is repentance.',
+          reply: 'He turned in his heart. Hazrat Ahmad challenged him in print to publish a denial, and he never did, though Christians offered him money to act against him. In 1921 he said on oath that his faith in Hazrat Ahmad was stronger than that of those who had taken the pledge. Members of the family, including Muhammadi Begum’s own son, joined the community. God sees the heart, and fear of God is repentance.',
           answer: 'I accept that he spoke respectfully of Ahmad. But the statement of 1921 was made a generation after the deadline, to an Ahmadi missionary, by a man whose own words set him apart from those who had taken the pledge, and who still had the wife. Staying silent is not repentance. And if an unseen change of heart is enough, the prediction could not have failed whatever happened: had he died it was fulfilled, and since he lived he must have repented. A test that cannot be failed is not a test. The second half was not a warning at all. Ahmad wrote that God would “in any event” bring Muhammadi Begum to him “as a virgin or a widow” and “remove all obstructions”. That is a promise of something God would do, and God did not do it.',
           followUps: [
             {
@@ -170,7 +170,7 @@ export const ahmadiyyaOverview: Topic = {
         },
         {
           reply: 'Then take Pandit Lekh Ram. Hazrat Ahmad foretold his death within six years, and in 1897 he was killed. That was no even chance.',
-          answer: 'Lekh Ram was killed by a man who was never identified, after years in which a religious leader with devoted followers had published predictions of his violent death. I make no accusation against Ahmad. But a prediction of that kind, made that publicly, can bring about its own fulfilment without any miracle. And Scripture warns that even a sign that comes true proves nothing if the message leads away from what God has revealed (Deuteronomy 13:1-3). Ahmad’s message denies that Jesus died for sins and rose. That is the heart of what God has revealed.',
+          answer: 'Lekh Ram was killed by a man who was never caught, after years in which a religious leader with devoted followers had published predictions of his violent death. I make no accusation against Ahmad. But a prediction of that kind, made that publicly, can bring about its own fulfilment without any miracle. And Scripture warns that even a sign that comes true proves nothing if the message leads away from what God has revealed (Deuteronomy 13:1-3). Ahmad’s message denies that Jesus died for sins and rose. That is the heart of what God has revealed.',
         },
       ],
     },
@@ -234,7 +234,7 @@ export const ahmadiyyaOverview: Topic = {
         'Mirza Masroor Ahmad, in London',
       ],
       answer: 1,
-      explanation: 'He lived from 1835 to 1908 and began accepting pledges of allegiance in 1889.',
+      explanation: 'He lived from about 1835 to 1908 and began accepting pledges of allegiance in 1889.',
     },
     {
       id: 'ahm-q2',
@@ -272,7 +272,7 @@ export const ahmadiyyaOverview: Topic = {
       question: 'What did Pakistan’s constitutional amendment of 1974 do?',
       options: [
         'It made Ahmadiyya the state religion',
-        'It declared in law that those who accept a prophet or religious reformer after Muhammad are not Muslims',
+        'It declared in law that those who accept a claimant to prophethood after Muhammad, as a prophet or religious reformer, are not Muslims',
         'It banned all hadith collections',
         'It expelled Christians from Pakistan',
       ],
