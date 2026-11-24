@@ -10,7 +10,7 @@ export const druze: Topic = {
     {
       heading: 'Who the Druze are',
       body: [
-        'The Druze are an Arabic-speaking community of about one million people. That figure is an estimate, as is every figure in this lesson. Most live in Syria, Lebanon and Israel, with a few thousand in Jordan. In Syria their heartland is the southern province of Suwayda. In Lebanon it is the Chouf and Aley districts of Mount Lebanon and the valley of Wadi al-Taym at the foot of Mount Hermon, around Hasbaya and Rashaya. In Israel it is Galilee and Mount Carmel. There are also Druze villages on the Golan Heights, which Israel took from Syria in 1967, and many Druze there still count themselves Syrian. There are emigrant communities in the Americas, Australia, West Africa and Europe.',
+        'The Druze are an Arabic-speaking community of about one million people. That figure is an estimate, as is every figure in this lesson. Most live in Syria, Lebanon and Israel, with a smaller community in Jordan. In Syria their heartland is the southern province of Suwayda. In Lebanon it is the Chouf and Aley districts of Mount Lebanon and the valley of Wadi al-Taym at the foot of Mount Hermon, around Hasbaya and Rashaya. In Israel it is Galilee and Mount Carmel. There are also Druze villages on the Golan Heights, which Israel took from Syria in 1967, and many Druze there still count themselves Syrian. There are emigrant communities in the Americas, Australia, West Africa and Europe.',
         'Lebanon has held no census since 1932. The polling firm Statistics Lebanon, quoted in United States government reports, puts the Druze at about five percent of the population. The Pew Research Center puts them at roughly two percent of Israel’s population, and American government estimates put them at about three percent of Syria’s.',
         'They call themselves the Muwahhidun, the Unitarians, the people who declare that God is one. Outsiders took the name “Druze” from an early preacher, al-Darazi, whom the Druze themselves regard as a heretic. It is a name they live with, not one they chose.',
         'They are a minority with a long history of persecution, and it is not over. A United Nations Commission of Inquiry reported that more than 1,700 people were killed in Suwayda in July 2025. It documented the execution of Druze civilians by government forces and tribal fighters, and attacks on Bedouin civilians by Druze armed groups. Remember that history when a Druze friend is slow to speak about his faith.',
@@ -20,7 +20,7 @@ export const druze: Topic = {
       heading: 'How the faith began',
       body: [
         'The Druze faith arose in Cairo in the early eleventh century, inside Ismaili Shia Islam. Egypt was then ruled by the Fatimid caliphs, who were Ismailis. The sixth of them, al-Hakim, reigned from 996 to 1021.',
-        'Hamza ibn Ali, a teacher from Persia, came to Cairo, and in 1017 the new teaching was proclaimed openly under the caliph’s protection. The Druze regard Hamza, not al-Darazi, as the authority behind their faith. Al-Darazi was a rival preacher who claimed the leadership for himself. He was killed about 1019, and Druze writings condemn him.',
+        'Hamza ibn Ali, a teacher from Persia, came to Cairo, and in 1017 the new teaching was proclaimed openly. Druze sources say the caliph approved it, and historians are unsure how far he did. The Druze regard Hamza, not al-Darazi, as the authority behind their faith. Al-Darazi was a rival preacher who claimed the leadership for himself. He was killed about 1019, and Druze writings condemn him.',
         'In 1021 al-Hakim set out for the hills east of Cairo and did not return. His body was never found, and historians have not settled what happened to him. Hamza withdrew from public view in the same year. Leadership passed to Baha al-Din, also called al-Muqtana, who guided the scattered believers through years of persecution under the next caliph.',
         'Under Baha al-Din the call was closed. The date usually given is 1043, though Hitti, writing in 1928, put it at 1031. Since then no one has been allowed to join. A Druze is someone born into the community.',
       ],
@@ -31,7 +31,7 @@ export const druze: Topic = {
         'Take care here. The Druze scriptures are not given to outsiders, and most Druze have not read them either. What follows comes from published scholarship, and the scholars do not all agree. Say “I have read that” and ask your friend whether it is so.',
         'The centre is the oneness of God. God is one, and his nature is beyond human description. The sacred book is the Epistles of Wisdom (Rasa’il al-Hikma), a collection of letters and treatises from the first years of the movement, chief among them the writings of Hamza and Baha al-Din. Samy Swayd, writing in the Encyclopedia of Religion, describes it as an interpretation of the teaching of the Bible and the Quran, not a separate book of revelations.',
         'The hardest point is al-Hakim. Outside scholars, among them the historian Philip Hitti, report that the Druze writings teach a series of appearances of God in human form and treat al-Hakim as the last and most perfect of them. Swayd writes that al-Hakim apparently never claimed to be divine, that others attributed the claim to him, and that it was al-Darazi who altered Hamza’s teaching to present the caliph as divine. Do not tell a Druze what he believes about this. Ask him.',
-        'Druze teaching honours seven great messengers: Adam, Noah, Abraham, Moses, Jesus, Muhammad and Muhammad ibn Isma‘il. Jethro, the father-in-law of Moses, whom the Druze know as the prophet Shu‘ayb, holds a special place. His shrine at Hittin, above the Sea of Galilee, is often called the most sacred Druze site, and Druze gather there for a festival each April. Hitti also reports that Baha al-Din, in an epistle on Christianity, identifies Hamza with the Messiah.',
+        'By Swayd’s account Druze teaching honours seven great messengers: Adam, Noah, Abraham, Moses, Jesus, Muhammad and Muhammad ibn Isma‘il. Daniel De Smet, who edited the Epistles, finds Hamza’s letters far harsher towards the lawgiving prophets. Jethro, the father-in-law of Moses, whom the Druze know as the prophet Shu‘ayb, holds a special place. His shrine at Hittin, above the Sea of Galilee, is often called the most sacred Druze site, and Druze gather there for a festival each April. Hitti also reports that Baha al-Din, in an epistle on Christianity, identifies Hamza with the Messiah.',
       ],
     },
     {
@@ -54,8 +54,8 @@ export const druze: Topic = {
     {
       heading: 'Are the Druze Muslims?',
       body: [
-        'The Druze faith grew out of Islam, but most Muslims have not counted it as Islam. It set aside the pillars, it teaches rebirth, and it has a scripture besides the Quran. Many Druze do not call themselves Muslims. Some do. Ask, and do not assume.',
-        'Lebanon shows the ambiguity. It recognises eighteen religious communities and lists the Druze separately from the Sunni, Shia, Alawite and Ismaili Muslims. Yet when seats in parliament are divided equally between Christians and Muslims, the Druze are counted on the Muslim side.',
+        'The Druze faith grew out of Islam, but many Muslims have not counted it as Islam. It set aside the pillars, it teaches rebirth, and it has a scripture besides the Quran. Many Druze do not call themselves Muslims. Some do. Ask, and do not assume.',
+        'Lebanon shows the ambiguity. It recognises eighteen religious communities and counts the Druze among the five Muslim ones, also when seats in parliament are divided equally between Christians and Muslims. Yet the Druze have their own religious courts and elect their own head, the Sheikh al-Aql.',
         'For you the practical point is this. The main Islam track argues from the Quran and from the hadith collections of al-Bukhari and Muslim. A Druze does not treat the hadith as an authority, does not live under Islamic law, and reads the Quran for an inner meaning. Arguments about the preservation of the Quran or the life of Muhammad will mostly miss him. Begin somewhere else.',
       ],
     },
@@ -464,13 +464,13 @@ export const druze: Topic = {
       id: 'drz-q12',
       question: 'How does Lebanon’s political system treat the Druze?',
       options: [
-        'It lists them separately from the Muslim communities but counts them with the Muslims when seats in parliament are shared out',
+        'It counts them with the Muslim communities when seats in parliament are shared out, though they have their own courts and religious head',
         'It counts them as a Christian church',
         'It does not recognise them at all',
         'It counts them as Sunni Muslims in every respect',
       ],
       answer: 0,
-      explanation: 'This reflects the wider ambiguity: the faith grew out of Islam, yet most Muslims and many Druze do not count it as Islam.',
+      explanation: 'This reflects the wider ambiguity: the faith grew out of Islam, yet many Muslims and many Druze do not count it as Islam.',
     },
     {
       id: 'drz-q13',
