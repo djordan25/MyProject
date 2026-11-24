@@ -12,7 +12,7 @@ export const crossAndResurrection: Topic = {
         'Psalm 22, written centuries before Jesus, describes the sufferer’s cry “My God, my God, why have you forsaken me?” (Psalm 22:1), mocking crowds (22:7-8), pierced hands and feet (22:16), and garments divided by lot (22:18). Jesus quoted its first line from the cross (Mark 15:34), and the Gospels record the mocking and the dividing of his garments (Matthew 27:39-43; John 19:23-24).',
         'Be ready for one objection: the standard Hebrew (Masoretic) text of Psalm 22:16 reads “like a lion” where most English Bibles have “pierced”. “Pierced” follows the ancient Greek translation and an early Hebrew manuscript from the Dead Sea region. Whichever reading is original, the rest of the psalm still fits the crucifixion, and Zechariah 12:10 speaks plainly of one who is pierced.',
         'Isaiah 53 describes the servant who is “pierced for our transgressions”, “led like a lamb to the slaughter”, “cut off from the land of the living”, made “a guilt offering”, and who afterwards “will see His offspring, He will prolong His days” — death followed by life (Isaiah 53:5-11).',
-        'Daniel 9:26 foretold that “the Messiah will be cut off” before the city and the sanctuary were destroyed — which happened in AD 70.',
+        'Daniel 9:26 foretold that “the Messiah will be cut off” before the city and the sanctuary were destroyed — which happened in AD 70. Be ready for the reply that critical scholars, and the notes of the New American Bible, apply this verse to the high priest Onias III, murdered in 171 BC.',
       ],
       references: ['Psalm 22:1-18', 'Mark 15:34', 'Matthew 27:39-43', 'John 19:23-24', 'Isaiah 53:3-12', 'Daniel 9:26', 'Zechariah 12:10'],
     },
@@ -27,7 +27,7 @@ export const crossAndResurrection: Topic = {
     {
       heading: 'Witnessed by the apostles',
       body: [
-        'Paul passes on an early creed: “Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures, and that He appeared to Cephas and then to the Twelve. After that, He appeared to more than five hundred brothers at once, most of whom are still living” (1 Corinthians 15:3-6). Paul invites verification from living witnesses.',
+        'Paul passes on an early creed and adds further witnesses to it: “Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures, and that He appeared to Cephas and then to the Twelve. After that, He appeared to more than five hundred brothers at once, most of whom are still living” (1 Corinthians 15:3-6). Paul invites verification from living witnesses.',
         'The apostles preached the death and resurrection in Jerusalem itself, weeks after the event, where it could be checked (Acts 2:22-32). They suffered for this testimony (Acts 5:40-42).',
         'Remember the Quran’s claim that God supported Jesus’ disciples until they prevailed (Quran 61:14). Their message was the crucified and risen Christ.',
       ],
@@ -120,14 +120,14 @@ export const crossAndResurrection: Topic = {
           followUps: [
             {
               reply: 'Watching from a distance is exactly how a mistake is made. They could not see clearly who was on the cross.',
-              answer: 'John places Jesus’ mother and the beloved disciple close enough for Jesus to speak to them (John 19:25-27). The soldiers handled him for hours, and a centurion confirmed his death to Pilate (Mark 15:44-45). Joseph of Arimathea took the body down and wrapped it, and the women saw where it was laid (Mark 15:46-47). Then for forty days his followers saw, heard and touched the risen Jesus, wounds and all (Acts 1:3; John 20:27). No one who knew him doubted who had died.',
+              answer: 'John places Jesus’ mother and the beloved disciple close enough for Jesus to speak to them (John 19:25-27). The soldiers handled him for hours, and a centurion confirmed his death to Pilate (Mark 15:44-45). Joseph of Arimathea took the body down and wrapped it, and the women saw where it was laid (Mark 15:46-47). Then for forty days his followers saw and heard the risen Jesus, who offered his wounds to be touched (Acts 1:3; John 20:27). No one who knew him doubted who had died.',
             },
           ],
         },
       ],
       objection: 'The disciples all fled; none of them saw the crucifixion.',
       response:
-        'Most fled, but not all. John, Mary the mother of Jesus and other women stood by the cross (John 19:25-27), and the women watched where he was buried (Mark 15:47). John says he is reporting as an eyewitness (John 19:35). Roman soldiers and Jerusalem crowds also saw it — it was a public execution.',
+        'Most fled, but not all. The disciple Jesus loved (John, by early tradition), Mary the mother of Jesus and other women stood by the cross (John 19:25-27), and the women watched where he was buried (Mark 15:47). John says he is reporting as an eyewitness (John 19:35). Roman soldiers and Jerusalem crowds also saw it — it was a public execution.',
       keyPoints: ['John and the women were present.', 'Public execution.', 'Eyewitness claim in John 19:35.'],
       references: ['John 19:25-27', 'John 19:35', 'Mark 15:40-47'],
     },
@@ -173,8 +173,8 @@ export const crossAndResurrection: Topic = {
       ],
       objection: 'The Gospels contradict each other on the resurrection details.',
       response:
-        'They differ in which details they include — the number of women and angels mentioned, for example — which is typical of independent eyewitness accounts. They all agree on the core: Jesus died, was buried, the tomb was found empty by women on the first day of the week, and he appeared alive to his followers. Differences in secondary details don’t undermine the central facts.',
-      keyPoints: ['Variation is a mark of independent testimony.', 'Unanimous agreement on the core.', 'Mentioning two doesn’t deny there were more.'],
+        'They differ in which details they include — the number of women and angels mentioned, for example — as accounts that draw on more than one witness usually do. They all agree on the core: Jesus died, was buried, the tomb was found empty by women on the first day of the week, and he appeared alive to his followers. Differences in secondary details don’t undermine the central facts.',
+      keyPoints: ['Variation in detail is normal when several witnesses are reported.', 'Unanimous agreement on the core.', 'Mentioning two doesn’t deny there were more.'],
       references: ['Matthew 28:1-10', 'Mark 16:1-8', 'Luke 24:1-12', 'John 20:1-18'],
     },
   ],
@@ -198,7 +198,7 @@ export const crossAndResurrection: Topic = {
       question: 'Which passage contains the early creed listing resurrection appearances?',
       options: ['1 Corinthians 15:3-8', 'Philippians 2:6-11', 'Romans 1:3-4', 'Isaiah 53:5-6'],
       answer: 0,
-      explanation: 'Including more than 500 witnesses at once.',
+      explanation: 'Paul adds further witnesses to the creed, including more than 500 at once.',
     },
     {
       id: 'cr-q4',
