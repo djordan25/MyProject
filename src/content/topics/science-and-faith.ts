@@ -61,17 +61,17 @@ export const scienceAndFaith: Topic = {
       id: 'sf-1',
       objection: 'Science has disproved God.',
       response:
-        'Which discovery do you have in mind? I ask because science studies nature, and God, if he exists, is the one who made nature. No experiment could show that there is nothing beyond the thing being measured. What science has shown is a universe with a beginning, finely balanced for life and written in mathematics, which is at least as much at home in a world made by a mind as in one that came from nothing.',
+        'Which discovery do you have in mind? I ask because science studies nature, and God, if he exists, is the one who made nature. No experiment could show that there is nothing beyond the thing being measured. What science has found is a universe that appears to have had a beginning, looks finely balanced for life and is written in mathematics, which is at least as much at home in a world made by a mind as in one that came from nothing.',
       keyPoints: ['Ask which discovery.', 'Science studies nature; God is its author.', 'A beginning and fine-tuning fit a Creator.'],
       references: ['Psalm 19:1', 'Romans 1:20'],
       followUps: [
         {
           reply: 'God is just a way of filling the gaps in our knowledge.',
-          answer: 'That would be a bad argument, and it is not mine. I’m not pointing to what we can’t explain but to what we can: that the universe had a beginning, is orderly and can be understood. The more we learn of that, the more it calls for an explanation outside itself.',
+          answer: 'That would be a bad argument, and it is not mine. I’m not pointing to what we can’t explain but to what we can: that the universe, as far as we can tell, had a beginning, is orderly and can be understood. The more we learn of that, the more it calls for an explanation outside itself.',
           followUps: [
             {
               reply: 'It is still a gap. “We do not yet know what caused the Big Bang, therefore God” is god-of-the-gaps reasoning.',
-              answer: 'A gap argument runs: we do not know, therefore God. Mine runs: here is what we know, and here is the kind of cause it requires. Whatever brought space, time and matter into being cannot itself be made of space, time and matter. That follows from the thing being explained, however much more physics we learn. A future theory will describe more of nature. It cannot be the cause of nature without standing outside it.',
+              answer: 'A gap argument runs: we do not know, therefore God. Mine runs: here is what the evidence indicates, and here is the kind of cause it requires. Whatever brought space, time and matter into being cannot itself be made of space, time and matter. That follows from the thing being explained, however much more physics we learn. A future theory will describe more of nature. It cannot be the cause of nature without standing outside it.',
               followUps: [
                 {
                   reply: 'Thunder, disease and the orbits of the planets were all once put down to God. Natural explanations have won every time. Why bet against that record?',
@@ -107,11 +107,11 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'The uniform experience of mankind is that dead men stay dead. Against that, a handful of ancient reports weighs nothing.',
-              answer: 'That is David Hume’s argument, and it counts the wrong thing. Nobody claims that dead people rise in the ordinary course of nature. Experience tells us what nature does when left to itself, and Christians agree with it. The claim is that God raised this one man, and the countless dead who stayed dead do not bear on that. Besides, we can only call the experience against miracles uniform if we already know that every report of one is false. C.S. Lewis pointed out in Miracles that this is arguing in a circle.',
+              answer: 'That is David Hume’s argument, and it counts the wrong thing. Nobody claims that dead people rise in the ordinary course of nature. Experience tells us what nature does when left to itself, and Christians agree with it. The claim is that God raised this one man, and the countless dead who stayed dead do not bear on that. Besides, we can only call the experience against miracles uniform if we already know that every report of one is false. C.S. Lewis argued in Miracles that this is arguing in a circle, though Hume’s defenders dispute that reading.',
               followUps: [
                 {
                   reply: 'Then you must accept every religion’s miracle stories. Why believe yours and reject the rest?',
-                  answer: 'I do not have to accept them all or reject them all. I can weigh each one as I would any report: how early the source is, whether there are several named witnesses, what they gained, and whether there is a simpler explanation. Many miracle stories are late, rest on one source, or serve the teller. The resurrection is reported from within a few years, by named witnesses who suffered for saying it (1 Corinthians 15:3-8). And a Christian is not obliged to hold that nothing beyond nature has ever happened anywhere else.',
+                  answer: 'I do not have to accept them all or reject them all. I can weigh each one as I would any report: how early the source is, whether there are several named witnesses, what they gained, and whether there is a simpler explanation. Many miracle stories are late, rest on one source, or serve the teller. The resurrection is reported in a creed that scholars such as James Dunn date to within a few years, naming witnesses who suffered for saying it (1 Corinthians 15:3-8). And a Christian is not obliged to hold that nothing beyond nature has ever happened anywhere else.',
                   followUps: [
                     {
                       reply: 'People in the ancient world saw miracles everywhere. They were credulous, and their reports cannot count for much.',
@@ -161,7 +161,7 @@ export const scienceAndFaith: Topic = {
         },
         {
           reply: 'Evolution shows that Genesis is false. If the first chapters are wrong, why trust the rest?',
-          answer: 'That assumes Genesis 1 must be read as a scientific report of six ordinary days, and that every other reading is a retreat forced on Christians by Darwin. It is not. Augustine, around AD 400, argued in The Literal Meaning of Genesis that the days were not ordinary days at all, and he warned Christians against making confident claims about nature that would bring Scripture into ridicule. Christians disagreed about the days long before modern science. What Genesis plainly teaches no discovery has touched: one God made everything, made it good, and made us in his image.',
+          answer: 'That assumes Genesis 1 must be read as a scientific report of six ordinary days, and that every other reading is a retreat forced on Christians by Darwin. It is not. Augustine, early in the fifth century, argued in The Literal Meaning of Genesis that the days were not ordinary days at all, and he warned Christians against making confident claims about nature that would bring Scripture into ridicule. Christians disagreed about the days long before modern science. What Genesis plainly teaches no discovery has touched: one God made everything, made it good, and made us in his image.',
           followUps: [
             {
               reply: 'Genetics shows there was never a single first couple. No Adam means no fall, and no fall means no need of a saviour.',
@@ -211,7 +211,7 @@ export const scienceAndFaith: Topic = {
       objection: 'The church has always held science back. Look at Galileo.',
       response:
         'Galileo’s case was real, and the church leaders of his day were wrong. But it was one dispute, tangled up with politics and personalities, and Galileo himself remained a believer to the end. Against it stand the monasteries and universities where science was nursed for centuries, and the long list of scientists who were Christians. One bad episode does not make a war.',
-      keyPoints: ['Admit the church was wrong about Galileo.', 'It was one complex dispute.', 'The wider history is of support.'],
+      keyPoints: ['Admit the church was wrong about Galileo.', 'It was one complex dispute.', 'The wider history is mixed, with much support.'],
       followUps: [
         {
           reply: 'Most scientists today are atheists.',
@@ -219,7 +219,7 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'The more eminent the scientist, the less likely he is to believe. The people who know most about nature have found no God in it.',
-              answer: 'Surveys of elite bodies do show that. In 1998 Edward Larson and Larry Witham reported in Nature that only about seven per cent of the members of the United States National Academy of Sciences who answered them believed in a personal God. But the sociologist Elaine Ecklund, who surveyed scientists at leading American universities, found little sign that they had given up religion because of their science. The best predictor of a scientist’s faith was the home he or she grew up in (Science vs. Religion, 2010). And skill in physics or biology is not skill in philosophy or history, which is where the question of God is argued. There are believers at the top as well, such as Francis Collins, who led the Human Genome Project.',
+              answer: 'Surveys of elite bodies do show that. In 1998 Edward Larson and Larry Witham reported in Nature that only about seven per cent of the members of the United States National Academy of Sciences who answered them believed in a personal God. But the sociologist Elaine Ecklund, who surveyed scientists at leading American universities, found that for most of those she interviewed it was not science itself that had led them away from religion. The best predictor of a scientist’s faith was the home he or she grew up in (Science vs. Religion, 2010). And skill in physics or biology is not skill in philosophy or history, which is where the question of God is argued. There are believers at the top as well, such as Francis Collins, who led the Human Genome Project.',
             },
           ],
         },
@@ -229,13 +229,13 @@ export const scienceAndFaith: Topic = {
           followUps: [
             {
               reply: 'The conflict is not a myth from old books. Churches are still fighting evolution in schools today.',
-              answer: 'I grant that some Christians reject evolution, and that some have fought over what schools teach. It is a dispute about one theory and about how to read Genesis, and there are Christians on both sides of it. It is not a war between Christianity and science as such. The books that spread the war story claimed far more. John William Draper’s History of the Conflict between Religion and Science (1874) and Andrew Dickson White’s A History of the Warfare of Science with Theology in Christendom (1896) said that the church had resisted science throughout its history. That is the picture historians have given up.',
+              answer: 'I grant that some Christians reject evolution, and that some have fought over what schools teach. It is a dispute about one theory, which nearly all scientists accept, and about how to read Genesis, and there are Christians on both sides of it. It is not a war between Christianity and science as such. The books that spread the war story claimed far more. John William Draper’s History of the Conflict between Religion and Science (1874) and Andrew Dickson White’s A History of the Warfare of Science with Theology in Christendom (1896) said that the church had resisted science throughout its history. That is the picture historians have given up.',
             },
           ],
         },
         {
           reply: 'If Christianity fostered science, why did it take fifteen centuries to appear? The Greeks and the Islamic world did science without it.',
-          answer: 'They did, and so did China, and Christian Europe inherited a great deal from them. I am not claiming that Christianity was enough to produce science, or that only Christians could do it. The claim is narrower. When modern science took shape in Europe in the sixteenth and seventeenth centuries, its pioneers gave theological reasons for what they were doing. Nature has laws because it has a lawgiver, and because God was free to make the world as he chose, we cannot work it out from an armchair and must go and look. Historians such as Peter Harrison have traced that connection in detail.',
+          answer: 'They did, and so did China, and Christian Europe inherited a great deal from them. I am not claiming that Christianity was enough to produce science, or that only Christians could do it. The claim is narrower. When modern science took shape in Europe in the sixteenth and seventeenth centuries, its pioneers gave theological reasons for what they were doing. Nature has laws because it has a lawgiver, and because God was free to make the world as he chose, we cannot work it out from an armchair and must go and look. Historians such as Peter Harrison have traced connections of this kind in detail, though Harrison has reservations about the second argument.',
         },
       ],
     },
@@ -243,7 +243,7 @@ export const scienceAndFaith: Topic = {
   quiz: [
     {
       id: 'sf-q1',
-      question: 'Where did the idea of a long war between science and Christianity mainly come from?',
+      question: 'What mainly popularised the idea of a long war between science and Christianity?',
       options: ['The Bible', 'Two nineteenth-century books', 'Galileo’s writings', 'Ancient Greek philosophers'],
       answer: 1,
       explanation: 'Historians of science do not accept the “warfare” picture.',
@@ -331,7 +331,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       id: 'sf-q10',
-      question: 'Hume argued that uniform human experience counts against any miracle report. What is the weakness?',
+      question: 'Hume argued that uniform human experience counts against any miracle report. What did C.S. Lewis reply?',
       options: [
         'Hume was not a real philosopher',
         'Experience has no value as evidence',
@@ -351,7 +351,7 @@ export const scienceAndFaith: Topic = {
         'It shows the Bible teaches that the sun moves round the earth',
       ],
       answer: 0,
-      explanation: 'Admit the wrong plainly. Galileo remained a believer, and the wider history is of Christians supporting science.',
+      explanation: 'Admit the wrong plainly. Galileo remained a believer, and the wider history is mixed, with much Christian support for science.',
     },
     {
       id: 'sf-q12',
