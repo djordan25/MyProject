@@ -28,12 +28,12 @@ export const trinity: Topic = {
     {
       heading: 'One God, more than one person: the Old Testament',
       body: [
-        'The Trinity was not invented by the New Testament. The Hebrew Scriptures, read by Jews long before Jesus, already show the one God as more than one person. Lead with these passages when talking with Muslims.',
+        'The Trinity was not invented by the New Testament. The Hebrew Scriptures, read by Jews long before Jesus, already show the one God as more than one person. Lead with these passages when talking with Muslims, but know that Jewish readers and many Old Testament scholars explain them without a second divine person.',
         'The Angel of the LORD is sent by God, yet speaks as God and is called God. He appears to Hagar, and she names the LORD who spoke to her “the God who sees me” (Genesis 16:7-13). He appears to Moses in the burning bush and says, “I am the God of your father” (Exodus 3:2-6). After seeing him, Samson’s father says, “we have seen God!” (Judges 13:21-22).',
         '“The LORD rained down sulfur and fire on Sodom and Gomorrah—from the LORD out of the heavens” (Genesis 19:24): the LORD on earth and the LORD in heaven.',
         'David calls the Messiah his Lord: “The LORD said to my Lord: ‘Sit at My right hand’” (Psalm 110:1). Jesus used this verse to show that the Messiah is more than David’s son (Mark 12:35-37).',
         'The king is addressed as God, yet has a God: “Your throne, O God, endures forever and ever… therefore God, your God, has anointed you” (Psalm 45:6-7). Hebrews 1:8-9 presents these as God’s words about the Son.',
-        'The LORD says he is sent by the LORD: “I am coming to dwell among you… and you will know that the LORD of Hosts has sent Me to you” (Zechariah 2:10-11). And in Isaiah the speaker says, “the Lord GOD has sent me, accompanied by His Spirit” (Isaiah 48:16).',
+        'One who speaks as the LORD says he is sent by the LORD: “I am coming to dwell among you… and you will know that the LORD of Hosts has sent Me to you” (Zechariah 2:10-11). And in Isaiah the speaker says, “the Lord GOD has sent me, accompanied by His Spirit” (Isaiah 48:16).',
         'These are far stronger than “Let Us make man in Our image” (Genesis 1:26), which Muslims answer by pointing to the royal “We” in the Quran.',
       ],
       references: ['Genesis 16:7-13', 'Exodus 3:2-6', 'Judges 13:21-22', 'Genesis 19:24', 'Psalm 110:1', 'Mark 12:35-37', 'Psalm 45:6-7', 'Hebrews 1:8-9', 'Zechariah 2:10-11', 'Isaiah 48:16', 'Genesis 1:26'],
@@ -61,7 +61,7 @@ export const trinity: Topic = {
               followUps: [
                 {
                   reply: 'Matthew 28:19 is a later addition. The church historian Eusebius quoted it without the three names, and in Acts the apostles baptise only in the name of Jesus (Acts 2:38).',
-                  answer: 'Every Greek manuscript that contains the end of Matthew has the three names. So does the Didache, a church manual from about the end of the first century, in its instructions for baptism. Eusebius often quotes the verse in a shortened form, as writers do, but he also quotes it in full, for instance in the letter he wrote to his own church after the Council of Nicaea. In Acts, “in the name of Jesus Christ” (Acts 2:38) tells us whose authority the convert is coming under. Luke is describing conversions, not recording the words spoken over the water.',
+                  answer: 'Every Greek manuscript that contains the end of Matthew has the three names. So does the Didache, a church manual probably from about the end of the first century, in its instructions for baptism. Eusebius often quotes the verse in a shortened form, as writers do, but he also quotes it in full, for instance in the letter he wrote to his own church after the Council of Nicaea. In Acts, “in the name of Jesus Christ” (Acts 2:38) tells us whose authority the convert is coming under. Luke is describing conversions, not recording the words spoken over the water.',
                 },
               ],
             },
@@ -97,7 +97,7 @@ export const trinity: Topic = {
               followUps: [
                 {
                   reply: '“Being” and “person” are terms from Greek philosophy. Abraham and Moses never spoke like that.',
-                  answer: 'The terms are tools for summarising what the text says, and Muslim theologians use tools of the same kind. They distinguish Allah’s essence from his attributes, words the Quran does not use. Sunni orthodoxy holds that the Quran, as Allah’s speech, is uncreated and eternal, and a classical formula says that his attributes are “not He, nor other than He”. So Islam also confesses something eternal that is distinct from Allah’s essence and yet is not a second god. If that is not polytheism, then distinction within the one God is not polytheism in principle.',
+                  answer: 'The terms are tools for summarising what the text says, and Muslim theologians use tools of the same kind. They distinguish Allah’s essence from his attributes, technical terms the Quran does not use that way. Sunni orthodoxy holds that the Quran, as Allah’s speech, is uncreated and eternal, and a classical formula says that his attributes are “not He, nor other than He”. So Sunni theology also confesses something eternal that is distinct from Allah’s essence and yet is not a second god. If that is not polytheism, then distinction within the one God is not polytheism in principle.',
                   followUps: [
                     {
                       reply: 'An attribute is not a person. Allah’s speech does not pray to Allah or sit at his right hand.',
@@ -131,19 +131,19 @@ export const trinity: Topic = {
       followUps: [
         {
           reply: 'Then why did it take three hundred years to define it?',
-          answer: 'Because a new denial arose that needed a precise answer. Long before, Christians were worshipping Jesus as God and baptising in the name of the Father, Son and Holy Spirit (Matthew 28:19). Defining a belief carefully is not inventing it.',
+          answer: 'Because a dispute arose that needed a precise answer. Long before, Christians were worshipping Jesus as God and baptising in the name of the Father, Son and Holy Spirit (Matthew 28:19). Defining a belief carefully is not inventing it.',
           followUps: [
             {
               reply: 'Show me anyone before 325 who believed it. The first Christians were unitarians.',
-              answer: 'Ignatius, bishop of Antioch, writing about AD 110 on his way to martyrdom, calls Jesus “our God”. About AD 112 the Roman governor Pliny reported to the emperor Trajan that Christians met before dawn to sing a hymn “to Christ as to a god”. About 180 Theophilus of Antioch used the word Trinity of God, his Word and his Wisdom, and soon after 200 Tertullian wrote of three persons of one substance. All of them wrote generations before Nicaea, while Rome was still executing Christians.',
+              answer: 'Ignatius, bishop of Antioch, writing about AD 110 on his way to martyrdom, calls Jesus “our God”. About AD 112 the Roman governor Pliny reported to the emperor Trajan that Christians met before dawn to sing a hymn “to Christ as to a god”. About 180 Theophilus of Antioch used the word Trinity of God, his Word and his Wisdom, and soon after 200 Tertullian wrote of three persons of one substance. Their wording was not yet that of the later creeds, but all of them wrote generations before Nicaea, while Rome was still executing Christians.',
               followUps: [
                 {
                   reply: 'Constantine forced the doctrine through at Nicaea for the sake of political unity, and those who held to one God, like Arius, were crushed.',
-                  answer: 'Constantine called the council and wanted agreement, but the bishops decided the question, and the council’s own letter records that only two of them stood with Arius to the end. Arius was no Muslim before his time. He taught that the Son was a divine being made before the world, through whom God created everything else. Nobody at Nicaea argued that Jesus was only a human prophet. And imperial power soon turned the other way. Constantine recalled Arius, exiled Athanasius, the chief defender of the creed, and was baptised on his deathbed by Eusebius of Nicomedia, who had supported Arius. The doctrine outlasted the emperors. It did not come from them.',
+                  answer: 'Constantine called the council, pressed for agreement, backed the creed’s key word and afterwards exiled Arius, but it was the bishops who condemned Arius’s teaching, and the council’s own letter records that only two of them stood with Arius to the end. Arius was no Muslim before his time. He taught that the Son was a divine being made before the world, through whom God created everything else. Nobody at Nicaea argued that Jesus was only a human prophet. And imperial power soon turned the other way. Constantine recalled Arius, exiled Athanasius, who became the creed’s chief defender, and was baptised on his deathbed by Eusebius of Nicomedia, who had supported Arius. The doctrine outlasted the emperors. It did not come from them.',
                   followUps: [
                     {
                       reply: 'The same council chose which books went into the Bible and destroyed the rest.',
-                      answer: 'It did not. The creed and the twenty rulings of Nicaea survive, and none of them deals with the books of the Bible. That story is a much later legend. Irenaeus named Matthew, Mark, Luke and John as the church’s four Gospels about AD 180, a century and a half before the council. The first list that matches our twenty-seven New Testament books exactly comes from Athanasius in 367, and it records what the churches were already reading.',
+                      answer: 'It did not. The creed and the twenty rulings of Nicaea survive, and none of them deals with the books of the Bible. That story is a much later legend. Irenaeus named Matthew, Mark, Luke and John as the church’s four Gospels about AD 180, a century and a half before the council. The first list that matches our twenty-seven New Testament books exactly comes from Athanasius in 367, and it largely records what the churches were already reading.',
                     },
                   ],
                 },
@@ -154,8 +154,8 @@ export const trinity: Topic = {
       ],
       objection: 'The Trinity was invented at the Council of Nicaea in 325.',
       response:
-        'Nicaea didn’t invent the deity of Christ; it defended what Christians already believed against a new teaching (Arianism). Long before, the New Testament calls Jesus God (John 1:1; 20:28; Titus 2:13), and Christians were baptising in the name of Father, Son and Spirit (Matthew 28:19). The council put existing belief into precise words.',
-      keyPoints: ['Nicaea defended, not invented.', 'NT already calls Jesus God.', 'Trinitarian baptism from the start.'],
+        'Nicaea didn’t invent the deity of Christ; it defended the belief that Christ is truly God against Arius’s teaching that he was created (Arianism). Long before, the New Testament calls Jesus God (John 1:1; 20:28; Titus 2:13), and Christians were baptising in the name of Father, Son and Spirit (Matthew 28:19). The council put that belief into precise words, though how Son and Father are one was debated for decades more.',
+      keyPoints: ['Nicaea defended, not invented.', 'NT already calls Jesus God.', 'Trinitarian baptism from the first century.'],
       references: ['John 1:1', 'John 20:28', 'Titus 2:13', 'Matthew 28:19'],
     },
     {
@@ -167,11 +167,11 @@ export const trinity: Topic = {
           followUps: [
             {
               reply: 'It shows your scribes were willing to add to Scripture to support the Trinity. How do you know they did not do it elsewhere?',
-              answer: 'Because the same evidence that exposes this addition clears the rest. The longer wording is missing from every early Greek manuscript. It arose in the Latin tradition and turns up in Greek only in a handful of very late copies. We can see that because thousands of copies survive from different centuries and regions, and no one ever controlled them all. A change made in one place shows up against the others. Compare the Quran, where the caliph Uthman had the other copies burned (Sahih al-Bukhari 4987), so that kind of comparison can no longer be made.',
+              answer: 'Because the same evidence that exposes this addition clears the rest. The longer wording is missing from every early Greek manuscript. It arose in the Latin tradition and turns up in Greek only in a handful of very late copies. We can see that because thousands of copies survive from different centuries and regions, and no one ever controlled them all. A change made in one place shows up against the others. Compare the Quran, where the caliph Uthman had the other copies burned (Sahih al-Bukhari 4987), so that kind of comparison is far more limited.',
               followUps: [
                 {
                   reply: 'Bart Ehrman has shown that scribes changed many verses to make Jesus divine. That is the argument of his book The Orthodox Corruption of Scripture.',
-                  answer: 'Ehrman argues that some scribes sharpened some verses, and every example he gives is known because the manuscripts let us see the earlier wording. Modern Bibles print that earlier wording. Where the King James Version reads “God was manifest in the flesh”, the Berean Standard Bible reads “He appeared in the flesh” (1 Timothy 3:16). The passages that call Jesus God most plainly, John 1:1 and John 20:28, are secure in the manuscripts. And Ehrman, who is not a Christian, has written on his own blog that losing 1 John 5:7 does not threaten the doctrine of the Trinity, because theology rests on a whole range of passages read together and not on any one verse.',
+                  answer: 'Ehrman argues that some scribes sharpened some verses, and every example he gives is known because the manuscripts let us see the earlier wording. Modern Bibles usually print that earlier wording. Where the King James Version reads “God was manifest in the flesh”, the Berean Standard Bible reads “He appeared in the flesh” (1 Timothy 3:16). The passages that call Jesus God most plainly, John 1:1 and John 20:28, are secure in the manuscripts. And Ehrman, who is not a Christian, writes in Misquoting Jesus that without 1 John 5:7 the doctrine of the Trinity must be inferred from a range of passages combined, which is how Christians taught it before that verse existed in Greek.',
                 },
               ],
             },
@@ -193,7 +193,7 @@ export const trinity: Topic = {
           followUps: [
             {
               reply: 'Your own Bible says God is not the author of confusion (1 Corinthians 14:33). A doctrine nobody can explain is confusion.',
-              answer: 'That verse is about disorderly church meetings: “God is not a God of disorder, but of peace” (1 Corinthians 14:33). A truth that goes beyond us is not the same as a contradiction. Islam has such truths too. The Quran says that Allah is established above the Throne and that he created Adam with his hands (Quran 20:5; 38:75), and the classical Sunni answer is to affirm such verses “without asking how”. If a Muslim may confess what God has revealed about himself without fully grasping it, so may a Christian.',
+              answer: 'That verse is about disorderly church meetings: “God is not a God of disorder, but of peace” (1 Corinthians 14:33). A truth that goes beyond us is not the same as a contradiction. Islam has such truths too. The Quran says that Allah is established above the Throne and that he created Adam with his hands (Quran 20:5; 38:75), and a classical Sunni answer is to affirm such verses “without asking how”. If a Muslim may confess what God has revealed about himself without fully grasping it, so may a Christian.',
             },
           ],
         },
@@ -203,7 +203,7 @@ export const trinity: Topic = {
           followUps: [
             {
               reply: 'Allah’s word is simply his command. There is nothing more to explain.',
-              answer: 'Christians living under Muslim rule were already pressing this point in the eighth century. John of Damascus, whose family served in the caliph’s administration, put it like this: if God’s Word and Spirit are outside God, then God is without word and spirit, and if they are in God, they are divine. Islam met the same question about the Quran, and Sunni orthodoxy answered that Allah’s speech is uncreated. So Muslims too confess an eternal Word of God. Christians say that this Word is the one who became flesh.',
+              answer: 'Christians living under Muslim rule were already pressing this point in the eighth century. John of Damascus, whose family served in the caliph’s administration, put it like this: if God’s Word and Spirit are outside God, then God is without word and spirit, and if they are in God, they are divine. Islam met the same question about the Quran, and Sunni orthodoxy answered that Allah’s speech is uncreated. So Sunni Muslims too confess an eternal word of God. Christians say that this Word is the one who became flesh.',
             },
           ],
         },
@@ -229,11 +229,11 @@ export const trinity: Topic = {
       followUps: [
         {
           reply: 'The Trinity looks just like the Hindu and Egyptian triads.',
-          answer: 'The Egyptian triads are families of separate gods, and the Hindu Trimurti is three forms of one impersonal reality. Neither is one personal God who has always existed as Father, Son and Spirit. A shared number proves no borrowing. The first Christians took their teaching from the Hebrew Scriptures and from Jesus’ command to baptise in the name of the Father, the Son and the Holy Spirit (Matthew 28:19).',
+          answer: 'The Egyptian triads are families of separate gods, and the Hindu Trimurti is three gods seen as aspects of one supreme reality. Neither is one personal God who has always existed as Father, Son and Spirit. A shared number proves no borrowing. The first Christians took their teaching from the Hebrew Scriptures and from Jesus’ command to baptise in the name of the Father, the Son and the Holy Spirit (Matthew 28:19).',
           followUps: [
             {
               reply: 'Constantine was a sun-worshipper, and under him pagan ideas poured into the church. The Trinity came in with them.',
-              answer: 'The worship of Jesus is documented two centuries before Constantine, in the New Testament itself and in the report of the pagan governor Pliny, about AD 112, that Christians sang hymns “to Christ as to a god”. Baptism in the threefold name is in Matthew and in the Didache, a church manual from about the end of the first century. In those centuries Christians were being put to death for refusing to offer incense to the gods of Rome. People who died rather than compromise with paganism did not take their doctrine of God from it.',
+              answer: 'The worship of Jesus is documented two centuries before Constantine, in the New Testament itself and in the report of the pagan governor Pliny, about AD 112, that Christians sang hymns “to Christ as to a god”. Baptism in the threefold name is in Matthew and in the Didache, a church manual probably from about the end of the first century. In those centuries Christians were being put to death for refusing to offer incense to the gods of Rome. People who died rather than compromise with paganism did not take their doctrine of God from it.',
               followUps: [
                 {
                   reply: 'Then it came from Greek philosophy. “Logos” was a term of the Greek philosophers and of Philo. John borrowed it.',
@@ -253,7 +253,7 @@ export const trinity: Topic = {
       objection: 'The Trinity was borrowed from pagan religions with their triads of gods.',
       response:
         'Pagan triads are three separate gods, often a father, a mother and a child. The Trinity is one God. The first Christians were Jews who would die before worshipping more than one God, and they drew their teaching from the Hebrew Scriptures: the LORD who is sent by the LORD (Zechariah 2:10-11), and the Angel of the LORD who is himself God (Exodus 3:2-6). If anything resembles the pagan pattern of a divine father, mother and child, it is the worship of Jesus and his mother as gods beside Allah that the Quran attacks (Quran 5:116), which no church has ever taught.',
-      keyPoints: ['Pagan triads are three gods; the Trinity is one.', 'The teaching comes from the Hebrew Scriptures.', 'Quran 5:116 attacks a belief Christians never held.'],
+      keyPoints: ['Pagan triads are three gods; the Trinity is one.', 'The teaching comes from the Hebrew Scriptures.', 'Quran 5:116 attacks a belief no church has taught.'],
       references: ['Deuteronomy 6:4', 'Zechariah 2:10-11', 'Exodus 3:2-6', 'Quran 5:116'],
     },
   ],
@@ -346,7 +346,7 @@ export const trinity: Topic = {
       question: 'What did the Council of Nicaea (325) do about the deity of Christ?',
       options: [
         'Invented it by a narrow vote',
-        'Defended what Christians already believed against the new teaching of Arius',
+        'Defended the belief that Christ is truly God against the teaching of Arius',
         'Rejected it',
         'Left the question open for a later council',
       ],
