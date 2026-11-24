@@ -37,7 +37,7 @@ export const shiaOverview: Topic = {
     {
       heading: 'Books, scholars and devotion',
       body: [
-        'Twelvers accept the Quran and, beside it, reports from the Prophet and the Imams, since an Imam’s word carries the Prophet’s authority. The chief collections are the Four Books: al-Kafi by al-Kulayni (died about 941), Man La Yahduruhu al-Faqih by Ibn Babawayh, known as al-Shaykh al-Saduq (died 991), and Tahdhib al-Ahkam and al-Istibsar, both by al-Tusi (died 1067). Many Shia also treasure Nahj al-Balagha, a collection of sermons and letters attributed to Ali, compiled by al-Sharif al-Radi, who died in 1015. Unlike Sunnis with Bukhari, Twelver scholars do not call any of these books wholly sound. Each report is weighed on its own.',
+        'Twelvers accept the Quran and, beside it, reports from the Prophet and the Imams, since an Imam’s word carries the Prophet’s authority. The chief collections are the Four Books: al-Kafi by al-Kulayni (died about 941), Man La Yahduruhu al-Faqih by Ibn Babawayh, known as al-Shaykh al-Saduq (died 991), and Tahdhib al-Ahkam and al-Istibsar, both by al-Tusi (died 1067). Many Shia also treasure Nahj al-Balagha, a collection of sermons and letters attributed to Ali, compiled by al-Sharif al-Radi, who died in 1015. Unlike Sunnis with Bukhari, most Twelver scholars today do not call any of these books wholly sound. Each report is weighed on its own.',
         'Because the Imam is hidden, ordinary believers follow a living jurist. The most senior are each called a marja‘ al-taqlid, a “source of emulation”, and are popularly known as grand ayatollahs. A believer chooses one, follows his rulings on practice, and usually pays through him the khums, a fifth of yearly surplus income. The great seminaries are at Najaf in Iraq and Qom in Iran. For many years one of the most widely followed has been Ayatollah Ali al-Sistani of Najaf.',
         'This emulation covers law, not the roots of belief. Ayatollah Sistani’s own manual of rulings opens by saying that a Muslim’s belief in the fundamentals of religion must rest on his own insight, and that he may not follow anyone in them. Remember that when a friend says, “Ask my scholar.” Iran is a further case. Since the revolution of 1979, led by Ayatollah Khomeini, a senior cleric has ruled there as Supreme Leader under a doctrine called the guardianship of the jurist. Not all Shia scholars accept that doctrine. Al-Khoei of Najaf, the leading jurist of his day, did not. Never assume a Shia friend supports the government of Iran.',
         'Devotion centres on the Imams. Each year on Ashura, the tenth day of the month of Muharram, Shia Muslims mourn Husayn with sermons, laments, weeping and processions. Forty days later, at Arba‘in, millions of pilgrims gather at his shrine at Karbala. Visiting the tombs of the Imams (ziyara) at Najaf, Karbala, Kazimayn and Samarra in Iraq and at Mashhad in Iran is a treasured act, and pilgrims ask the Imams to intercede for them with God. The lesson Karbala and the Cross takes this up.',
@@ -47,7 +47,7 @@ export const shiaOverview: Topic = {
       heading: 'The branches',
       body: [
         'Twelvers are the large majority of Shia Muslims. The other branches parted from them when followers disagreed about who the next Imam was.',
-        'Zaydis followed Zayd, a grandson of Husayn who led a failed revolt at Kufa in 740, instead of his half-brother Muhammad al-Baqir. They hold that any learned descendant of Ali and Fatima who rises against injustice may be Imam, and they do not teach that Imams are sinless or hidden. In belief and practice they are the Shia closest to Sunnis. They live mainly in northern Yemen.',
+        'Zaydis followed Zayd, a grandson of Husayn who led a failed revolt at Kufa in 740, instead of the line of his half-brother Muhammad al-Baqir. They hold that any learned descendant of Ali and Fatima who rises against injustice may be Imam, and they do not teach that Imams are sinless or hidden. In belief and practice they are the Shia closest to Sunnis. They live mainly in northern Yemen.',
         'Ismailis parted after the death of Ja‘far al-Sadiq in 765. They traced the Imamate through his son Isma‘il, who had died before his father, and not through Musa al-Kazim. Ismaili Imams founded the Fatimid caliphate, which ruled Egypt until 1171. In 1094 the Ismailis divided again into Nizaris and Musta‘lis. The Nizaris, the larger group today, follow a living, visible Imam, the Aga Khan. Prince Rahim Aga Khan V succeeded his father in February 2025 and is counted by his community as the 50th Imam. The Musta‘li line is represented by the Bohras of India. An Ismaili will usually look to the guidance of his Imam and the inner meaning of the Quran more than to hadith.',
         'Several communities grew from Shia roots and moved far away from them. The Alawites, the Alevis and the Druze each have their own lesson in this course.',
       ],
@@ -75,12 +75,12 @@ export const shiaOverview: Topic = {
       id: 'sho-1',
       objection: 'We follow the Prophet through his own family. He said he was leaving two weighty things, the Book of Allah and his household. Who knows a man’s teaching better than those raised in his house?',
       response:
-        'That is a sound instinct, and I share it. I trust the apostles about Jesus for the same reason: they lived with him. So my question is not whether the Prophet’s family knew his teaching. It is how you know what they taught. Al-Kafi was compiled about three hundred years after Muhammad, your own scholars grade much of it weak, and the Imam who could settle any doubt has been out of reach since 941. How do you get from the family to the page?',
+        'That is a sound instinct, and I share it. I trust the apostles about Jesus for the same reason: they lived with him. So my question is not whether the Prophet’s family knew his teaching. It is how you know what they taught. Al-Kafi was compiled about three hundred years after Muhammad, your own scholars grade the chains of much of it weak, and the Imam who could settle any doubt has been out of reach since 941. How do you get from the family to the page?',
       keyPoints: ['Grant the instinct: closeness to the source matters.', 'The question is the route from the Imams to the books.', 'The living guide has been hidden since 941.'],
       references: ['Sahih Muslim 2408', 'Hebrews 7:23-25', 'Matthew 28:20'],
       followUps: [
         {
-          reply: 'Our reports come through chains of trustworthy narrators back to the Imams, and our scholars sift them carefully. That is more than you can say for your Gospels, written by unknown men decades later.',
+          reply: 'Our reports come from notebooks written by the Imams’ own companions and handed down through chains of trustworthy narrators, and our scholars sift them carefully. That is more than you can say for your Gospels, written by unknown men decades later.',
           answer: 'Sifting reports is honest work, and I respect it. But compare the distances. Al-Kulayni died about 941, three centuries after Muhammad and some 175 years after Ja‘far al-Sadiq, from whom and from whose father most of the reports come. The Gospels were written while people who had known Jesus were still alive, and Paul’s letters within about twenty-five years of the cross, passing on a summary he had received earlier still (1 Corinthians 15:3-4). If lateness is a fault in my book, it is a greater one in yours.',
           followUps: [
             {
@@ -223,7 +223,7 @@ export const shiaOverview: Topic = {
           followUps: [
             {
               reply: 'Husayn died as a martyr and an example. He did not carry anyone’s sins.',
-              answer: 'That is true, and it is the very difference I want you to see. A martyr shows me how to die well. He cannot pay what I owe. Scripture says of the Messiah what it says of no martyr: “the LORD has laid upon Him the iniquity of us all” (Isaiah 53:6), written seven centuries before Jesus came. The question is not whether this seems fitting to us. It is whether God has said it and done it.',
+              answer: 'That is true, and it is the very difference I want you to see. A martyr shows me how to die well. He cannot pay what I owe. Scripture says of the Messiah what it says of no martyr: “the LORD has laid upon Him the iniquity of us all” (Isaiah 53:6), written centuries before Jesus came. The question is not whether this seems fitting to us. It is whether God has said it and done it.',
             },
           ],
         },
@@ -433,6 +433,6 @@ export const shiaOverview: Topic = {
     'Heinz Halm, Shi‘ism (Edinburgh University Press, 2004)',
     'Moojan Momen, An Introduction to Shi‘i Islam (Yale University Press, 1985)',
     'Muhammad Husayn Tabataba’i, Shi‘ite Islam, translated by Seyyed Hossein Nasr (SUNY Press, 1975)',
-    'Abdulaziz Sachedina, Islamic Messianism: The Idea of the Mahdi in Twelver Shi‘ism (SUNY Press, 1981)',
+    'Abdulaziz Sachedina, Islamic Messianism: The Idea of Mahdi in Twelver Shi‘ism (SUNY Press, 1981)',
   ],
 };

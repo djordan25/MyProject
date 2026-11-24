@@ -24,7 +24,7 @@ export const truthAndRelativism: Topic = {
     {
       heading: 'Relativism undoes itself',
       body: [
-        'The slogans of relativism cannot survive being applied to themselves. You do not need to argue; just ask a question.',
+        'The everyday slogans of relativism cannot survive being applied to themselves. A careful relativist will say more: that his own view is only relatively true, or that it covers only morals and religion. That takes a longer conversation, but with the slogans you do not need to argue; just ask a question.',
         '“There is no absolute truth.” Is that absolutely true?',
         '“You can’t know anything for certain.” Are you certain of that?',
         '“It’s wrong to tell other people they’re wrong.” Isn’t that telling me I’m wrong?',
@@ -34,7 +34,7 @@ export const truthAndRelativism: Topic = {
     {
       heading: 'Tolerance, rightly understood',
       body: [
-        'Tolerance used to mean treating people with respect while disagreeing with them. It assumes disagreement: nobody “tolerates” a view they share.',
+        'Tolerance in its classic sense means putting up with views you think are wrong, and at its best treating the people who hold them with respect. It assumes disagreement: nobody “tolerates” a view they share.',
         'The newer idea is that all views are equally valid and that to say otherwise is hateful. Nobody lives this way. The person who insists on it thinks you are wrong not to.',
         'Christians are called to hold truth and kindness together: “speaking the truth in love” (Ephesians 4:15), and answering “with gentleness and respect” (1 Peter 3:15). Disagreeing with someone is not hating them. Often it is the opposite: we only bother to correct what we care about.',
       ],
@@ -72,7 +72,7 @@ export const truthAndRelativism: Topic = {
           followUps: [
             {
               reply: 'Call it a claim about history if you like. Nobody can prove what happened two thousand years ago, so it still comes down to what each person chooses to believe.',
-              answer: 'It cannot be proved the way a sum is proved, but nor can anything else in history, or most of what you and I believe. We weigh the evidence and go with the best explanation. Nobody says the assassination of Julius Caesar is true for some people and not for others. Paul named the witnesses to the risen Jesus and added that most of them were still alive (1 Corinthians 15:5-6). That is how a person writes when he expects to be checked.',
+              answer: 'It cannot be proved the way a sum is proved, but nor can anything else in history, or most of what you and I believe. We weigh the evidence and go with the best explanation. Nobody says the assassination of Julius Caesar is true for some people and not for others. Paul named the witnesses to the risen Jesus and added that most of the five hundred who saw him at one time were still alive (1 Corinthians 15:5-6). That is how a person writes when he expects to be checked.',
               followUps: [
                 {
                   reply: 'Evidence that old can be read either way. In the end people believe what suits them.',
@@ -133,13 +133,13 @@ export const truthAndRelativism: Topic = {
       id: 'tr-rel-3',
       objection: 'All religions teach basically the same thing: be a good person.',
       response:
-        'They overlap on some moral teaching, and that’s worth noticing. But ask each one what the human problem is and how it is solved, and they disagree completely. Christianity is the odd one out: it says we are not good people, and that God came to rescue us because we could not save ourselves (Ephesians 2:8-9). “Be good” is exactly what it says is not enough.',
+        'They overlap on some moral teaching, and that’s worth noticing. But ask each one what the human problem is and how it is solved, and they disagree completely. Christianity in particular does not fit: it says we are not good people, and that God came to rescue us because we could not save ourselves (Ephesians 2:8-9). “Be good” is exactly what it says is not enough.',
       keyPoints: ['Shared morals, opposite answers.', 'They contradict on God, Jesus and salvation.', 'The gospel is rescue, not advice.'],
       references: ['Ephesians 2:8-9', '1 Timothy 2:5'],
       followUps: [
         {
           reply: 'They are different paths up the same mountain.',
-          answer: 'How would we know that, unless we could see the whole mountain from above? Each path claims to lead somewhere different: to a personal God, to the extinction of the self, to release from rebirth. And Christianity says the point is that God came down the mountain to us.',
+          answer: 'How would we know that, unless we could see the whole mountain from above? Each path claims to lead somewhere different: to a personal God, to the end of all sense of self, to release from rebirth. And Christianity says the point is that God came down the mountain to us.',
           followUps: [
             {
               reply: 'The doctrines differ because they are human words for something beyond words. The mystics of every tradition describe the same experience.',
@@ -178,7 +178,7 @@ export const truthAndRelativism: Topic = {
           followUps: [
             {
               reply: 'People in every religion say they have tested theirs and found it true. They cannot all have done it properly.',
-              answer: 'No, they cannot. That shows some of us have got it wrong, not that nobody can get it right. The claims also differ in kind. Many rest on something private: a revelation given to one man with no witness present, or an inner experience. Christianity puts its weight on a public event that friends and enemies could both check. That is why I would start with the resurrection.',
+              answer: 'No, they cannot. That shows some of us have got it wrong, not that nobody can get it right. The claims also differ in kind. Many rest on something private: a revelation given to one man with no witness present, or an inner experience. Christianity puts its weight on an event proclaimed in public, with named witnesses, where friends and enemies could both challenge it. That is why I would start with the resurrection.',
               followUps: [
                 {
                   reply: 'You would say that. Raised a Muslim, you would find the evidence for Islam just as convincing.',
@@ -190,7 +190,7 @@ export const truthAndRelativism: Topic = {
         },
         {
           reply: 'It still shows that religion is culture. Belief follows the map too neatly to be about truth.',
-          answer: 'Beliefs of every kind follow the map: about politics, about human rights, about the equality of women. We do not conclude that those are only local taste. And the map keeps changing. Christianity began as a Jewish movement in the Middle East, and today most Christians live in Africa, Asia and Latin America, where it arrived as a foreign message and was accepted by people raised in something else.',
+          answer: 'Beliefs of every kind follow the map: about politics, about human rights, about the equality of women. We do not conclude that those are only local taste. And the map keeps changing. Christianity began as a Jewish movement in the Middle East, and today most Christians live in Africa, Asia and Latin America, where it mostly arrived as a foreign message, at times with colonial power behind it, and was taken up by people raised in something else, in Africa largely after the colonial powers had left.',
           followUps: [
             {
               reply: 'A fair God would not make salvation depend on the accident of where a person was born.',
@@ -218,7 +218,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       id: 'tr-rel-q3',
-      question: 'What did tolerance originally mean?',
+      question: 'What does tolerance mean in its classic sense?',
       options: ['Agreeing with everyone', 'Treating people with respect while disagreeing', 'Having no opinions', 'Keeping religion private'],
       answer: 1,
       explanation: 'You can only tolerate what you disagree with.',

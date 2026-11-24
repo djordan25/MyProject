@@ -26,8 +26,8 @@ export const havingTheConversation: Topic = {
     {
       heading: 'Ask questions',
       body: [
-        'Jesus asked questions constantly: “Who do you say I am?” (Mark 8:27-29). When challenged, he often replied, “I will also ask you a question” (Luke 20:3-4). Questions keep a conversation friendly, show respect, and make people examine what they have assumed.',
-        'Three questions do most of the work. “What do you mean by that?” makes a vague objection specific. “How did you come to that conclusion?” asks for reasons and gently hands over the burden of proof: you do not have to refute a claim no one has supported. “Have you ever considered…?” introduces your point as something to think about, not a lecture.',
+        'Jesus asked questions constantly: “Who do you say I am?” (Mark 8:27-29). When challenged, he often answered with a question of his own, as in “I will also ask you a question” (Luke 20:3-4). Questions keep a conversation friendly, show respect, and make people examine what they have assumed.',
+        'Three questions, taken from Greg Koukl’s book Tactics, do most of the work. “What do you mean by that?” makes a vague objection specific. “How did you come to that conclusion?” asks for reasons and gently hands over the burden of proof: you do not have to refute a claim no one has supported. “Have you ever considered…?” introduces your point as something to think about, not a lecture.',
         'You are never obliged to have an answer on the spot. “That’s a good question. Let me think about it and come back to you” is honest, and it earns trust.',
       ],
       references: ['Mark 8:27-29', 'Luke 20:3-4'],
@@ -104,7 +104,7 @@ export const havingTheConversation: Topic = {
       id: 'hc-2',
       objection: 'You can’t argue someone into the kingdom of God, so apologetics is a waste of time.',
       response:
-        'It’s true that no one is argued into faith; God has to open a person’s heart. But he uses means, and reasons are one of them. The apostles reasoned, explained and gave evidence wherever they went (Acts 17:2-3), and we are told to be ready with an answer (1 Peter 3:15). Arguments do not create faith, but they clear away the things that stop people from considering it.',
+        'It’s true that no one is argued into faith; God has to open a person’s heart. But he uses means, and reasons are one of them. Paul made it his custom to reason, explain and give evidence (Acts 17:2-3), and we are told to be ready with an answer (1 Peter 3:15). Arguments do not create faith, but they clear away the things that stop people from considering it.',
       keyPoints: ['God opens hearts; he uses means.', 'The apostles reasoned and gave evidence.', 'Arguments remove obstacles.'],
       references: ['Acts 17:2-3', '1 Peter 3:15', '1 Corinthians 2:4-5'],
       followUps: [
@@ -118,7 +118,7 @@ export const havingTheConversation: Topic = {
               followUps: [
                 {
                   reply: 'I have never seen anyone argued into faith. People come through friendship, or a crisis, or reading the Bible.',
-                  answer: 'Mostly they do, and very few come by argument alone. But very few come with no question answered along the way. Friendship wins a hearing, a good reason removes an excuse, and the Spirit gives life. C. S. Lewis called two Christian friends, Tolkien and Dyson, the immediate human causes of his conversion, after a long night of talk with them. It was friendship and reasons together.',
+                  answer: 'Often they do, and few come by argument alone. But many had a question answered along the way. Friendship wins a hearing, a good reason removes an excuse, and the Spirit gives life. C. S. Lewis called two Christian friends, Tolkien and Dyson, the immediate human causes of his conversion, after a long night of talk with them. It was friendship and reasons together.',
                 },
               ],
             },
@@ -148,7 +148,7 @@ export const havingTheConversation: Topic = {
           followUps: [
             {
               reply: 'But what if I lose the argument, and they go away more sure than ever that they are right?',
-              answer: 'Then you have lost an argument. You have not lost a person. People rarely remember who won. They remember how they were treated. If you were honest and kind when you were stuck, they saw something of Christ, and you can come back next week with a better answer.',
+              answer: 'Then you have lost an argument. You have not lost a person. People often forget who won. They remember how they were treated. If you were honest and kind when you were stuck, they saw something of Christ, and you can come back next week with a better answer.',
               followUps: [
                 {
                   reply: 'What if their question shakes my own faith?',
@@ -160,7 +160,7 @@ export const havingTheConversation: Topic = {
         },
         {
           reply: 'I’m not clever enough for this. I should leave it to people who have studied.',
-          answer: 'The council in Jerusalem saw that Peter and John were “unschooled, ordinary men”, and what they noticed was that these men had been with Jesus (Acts 4:13). You do not need to know everything. You need to know him and to know a few things well. The man born blind had one argument: “I was blind, but now I see!” (John 9:25).',
+          answer: 'The council in Jerusalem saw that Peter and John were “unschooled, ordinary men”, and what they noticed was that these men had been with Jesus (Acts 4:13). You do not need to know everything. You need to know him and to know a few things well. The man born blind began with one thing he knew: “I was blind, but now I see!” (John 9:25).',
         },
         {
           reply: 'I don’t even know how to begin. Whenever I try to bring it up, it feels forced.',
