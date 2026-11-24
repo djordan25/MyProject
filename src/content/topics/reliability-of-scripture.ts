@@ -15,7 +15,7 @@ export const reliabilityOfScripture: Topic = {
     {
       heading: 'Manuscript evidence',
       body: [
-        'About 5,800 Greek manuscripts of the New Testament have been catalogued, plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: around a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
+        'About 5,300 Greek manuscripts of the New Testament survive (the official list has some 5,800 entries, but some are duplicates or lost), plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: around a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
         'The gap between writing and earliest surviving copy is also short: P52, a fragment of John 18, is usually dated to the second century. For many classical works the gap is the better part of a thousand years.',
         'Textual variants are numerous, but the vast majority are spelling, word-order or obvious copying slips. No core Christian doctrine depends on a disputed reading.',
       ],
@@ -31,7 +31,7 @@ export const reliabilityOfScripture: Topic = {
     {
       heading: 'Archaeology and external confirmation',
       body: [
-        'Many details have been confirmed: the Pool of Bethesda with five porticoes (John 5:2), the Pilate Stone naming Pontius Pilate as prefect, the Caiaphas ossuary, and Luke’s precise titles for local officials in Acts.',
+        'Many details have been confirmed: the Pool of Bethesda with five porticoes (John 5:2), the Pilate Stone naming Pontius Pilate as prefect, an ossuary that many scholars (not all) assign to Caiaphas, and Luke’s precise titles for local officials in Acts.',
         'Archaeology cannot prove theological claims, but it shows the authors were careful about the details we can check.',
       ],
     },
@@ -71,11 +71,11 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Your earliest substantial copies come from a century or more after the originals. The changes could have been made in that gap, before any copy that survives.',
-              answer: 'The gap is real. For most books the earliest substantial copies are papyri usually dated to around AD 200, such as P46 for Paul’s letters and P66 and P75 for the Gospels. But a change made in the gap would have had to reach every copy, when copies were already spread from Rome to Egypt to Syria and nobody controlled them. What we find instead is lines of copying from different regions that agree closely. Writers inside the gap also quote the New Testament: Clement of Rome in the 90s, Ignatius and Polycarp early in the second century, and Irenaeus at length around AD 180.',
+              answer: 'The gap is real. For most books the earliest substantial copies are papyri usually dated between the late second and the third century, such as P46 for Paul’s letters and P66 and P75 for the Gospels. But a change made in the gap would have had to reach every copy, when copies were already spread from Rome to Egypt to Syria and nobody controlled them. What we find instead is lines of copying from different regions that agree closely. Writers inside the gap also quote the New Testament: Clement of Rome in the 90s, Ignatius and Polycarp early in the second century, and Irenaeus at length around AD 180.',
               followUps: [
                 {
                   reply: 'The earliest scribes were amateurs, and Ehrman says that is when copying was at its wildest and most changes were made.',
-                  answer: 'He does say that, and there is truth in it. Early copyists were less trained than later ones, and most variants arose early. But careless copying leaves evidence, which is differences between copies. A slip in one line of copying is absent from the others, and that is how it is caught. Nor was all early copying careless. P75, from around AD 200, agrees very closely with Codex Vaticanus, made about a century and a half later, which shows that at least one early stream was copied with great care.',
+                  answer: 'He does say that, and there is truth in it. Early copyists were less trained than later ones, and most variants arose early. But careless copying leaves evidence, which is differences between copies. A slip in one line of copying is absent from the others, and that is how it is caught. Nor was all early copying careless. P75, usually dated to the third century (a few scholars now say the fourth), agrees very closely with the fourth-century Codex Vaticanus, which suggests that at least one early stream was copied with great care.',
                 },
               ],
             },
@@ -88,7 +88,7 @@ export const reliabilityOfScripture: Topic = {
       ],
       objection: 'The Bible has been translated so many times — it’s like a game of telephone.',
       response:
-        'Actually, modern translations aren’t made from translations of translations. They go back to the Greek and Hebrew manuscripts directly. And unlike the telephone game, we have thousands of early copies we can compare, so scholars can reconstruct the original wording with a very high degree of confidence.',
+        'Actually, modern translations aren’t made from translations of translations. They go back to the Greek and Hebrew manuscripts directly. And unlike the telephone game, we have thousands of copies we can compare, some of them very early, so scholars can reconstruct the original wording with a very high degree of confidence.',
       keyPoints: [
         'Translations come from original-language texts.',
         'Thousands of manuscripts allow cross-checking.',
@@ -123,7 +123,7 @@ export const reliabilityOfScripture: Topic = {
       ],
       objection: 'There are more textual variants than words in the New Testament.',
       response:
-        'That’s true, but it’s because we have so many manuscripts — more copies means more counted differences. The overwhelming majority are spelling or word-order changes that don’t affect meaning. Only a tiny fraction are both meaningful and viable, and none overturn any central Christian belief.',
+        'That’s true, but it’s because we have so many manuscripts — more copies means more counted differences. The overwhelming majority are spelling differences, word-order changes or plain slips that don’t affect meaning. Only a tiny fraction are both meaningful and viable, and none overturn any central Christian belief.',
       keyPoints: [
         'Variant count reflects abundance of manuscripts.',
         'Most variants are trivial.',
@@ -139,7 +139,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Before anything was written, the stories were passed on by word of mouth for decades. Memory is unreliable, and oral stories change with every telling.',
-              answer: 'Casual memory is unreliable. This was not casual. It was teaching, repeated in public in communities, in a culture where disciples were expected to learn their teacher’s words by heart. Much of what Jesus said is in forms made to be remembered: parables, short sayings, balanced lines. The eyewitnesses were present in the churches for decades as a living check. And Paul uses the regular terms for handing on a fixed tradition: “what I received I passed on to you” (1 Corinthians 15:3).',
+              answer: 'Casual memory is unreliable. This was not casual. It was teaching, repeated in public in communities, in a culture that prized learning a teacher’s words by heart. Much of what Jesus said is in forms made to be remembered: parables, short sayings, balanced lines. The eyewitnesses were present in the churches for decades as a living check. And Paul uses the regular terms for handing on a fixed tradition: “what I received I passed on to you” (1 Corinthians 15:3).',
               followUps: [
                 {
                   reply: 'The Gospels were written in Greek, in other countries, by educated authors. The eyewitnesses were Aramaic-speaking peasants in Galilee. That is a long way apart.',
@@ -147,7 +147,7 @@ export const reliabilityOfScripture: Topic = {
                   followUps: [
                     {
                       reply: 'Sincere eyewitnesses still get things wrong. Psychologists have shown that memory distorts within days, let alone decades.',
-                      answer: 'It does, mostly in the details at the edge: the time of day, the number of people, the order of events. The Gospels differ in details of that kind. The same research finds that people keep the substance of events that were unusual, important to them and often retold. Whether your teacher was executed, and whether you ate with him afterwards, is not a detail at the edge. Nor were these memories left alone for forty years. The summary in 1 Corinthians 15:3-7 had been fixed and handed on within a few years.',
+                      answer: 'It does, mostly in the details at the edge: the time of day, the number of people, the order of events. The Gospels differ in details of that kind. The same research finds that people tend to keep the gist of events that were unusual, important to them and often retold. Whether your teacher was executed, and whether you ate with him afterwards, is not a detail at the edge. Nor were these memories left alone for forty years. The summary in 1 Corinthians 15:3-7 had been fixed and handed on within a few years.',
                     },
                   ],
                 },
@@ -157,16 +157,16 @@ export const reliabilityOfScripture: Topic = {
         },
         {
           reply: 'Most scholars date the Gospels after AD 70. So their authors never met Jesus.',
-          answer: 'Many scholars do date Matthew, Luke and John after 70 and Mark close to it, and I am content to argue on those dates. AD 70 is forty years after the crucifixion, when a disciple who had been twenty-five would be sixty-five. Mark is reported by Papias to have been Peter’s interpreter, and Luke says his material was “handed down to us by the initial eyewitnesses” (Luke 1:2). There is also a serious case for earlier dates. Acts ends with Paul alive in Rome in the early 60s (Acts 28:30-31) and says nothing of his death, of Nero’s persecution or of the fall of Jerusalem. If Acts was written then, Luke’s Gospel is earlier, and Mark earlier still.',
+          answer: 'Most scholars do date Matthew, Luke and John after 70 and Mark close to it, and I am content to argue on those dates. AD 70 is forty years after the crucifixion, when a disciple who had been twenty-five would be sixty-five. Mark is reported by Papias to have been Peter’s interpreter, and Luke says his material was “handed down to us by the initial eyewitnesses” (Luke 1:2). A minority of scholars also argue for earlier dates. Acts ends with Paul alive in Rome in the early 60s (Acts 28:30-31) and says nothing of his death, of Nero’s persecution or of the fall of Jerusalem. If Acts was written then, Luke’s Gospel is earlier, and Mark earlier still.',
         },
       ],
       objection: 'The Gospels were written long after the events by people who weren’t there.',
       response:
-        'Even on standard scholarly dating, the Gospels were written within 30-60 years — while eyewitnesses and opponents were still alive. Paul’s letters are earlier still and quote creeds that go back to the first few years after the crucifixion. Compare that to our main biographies of Alexander the Great, written about 400 years after his death.',
+        'Even on standard scholarly dating, the Gospels were written within about 35-65 years — while eyewitnesses and opponents were still alive. Paul’s letters are earlier still and quote creeds that go back to the first few years after the crucifixion. Compare that to our main surviving biographies of Alexander the Great, written about 400 years after his death, though from earlier accounts now lost.',
       keyPoints: [
         'Within the lifetime of eyewitnesses.',
         'Earlier creeds embedded in Paul.',
-        'Better than most ancient biographies.',
+        'Closer to the events than many ancient biographies.',
       ],
     },
     {
@@ -178,7 +178,7 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'That one is easy. Try a hard one. In Mark the last supper is the Passover meal and Jesus dies the next day. In John he dies before the Passover is eaten.',
-              answer: 'That is the one scholars argue about most, and there is no single agreed solution. All four Gospels agree that he ate a last supper with his disciples and was crucified on the Friday of Passover week. The difficulty comes from two verses in John: the priests wanted to stay clean so as to “eat the Passover” (John 18:28), and the day is called “the day of Preparation for the Passover” (John 19:14). But “Preparation” was the ordinary word for Friday, as in Mark 15:42, and the name Passover was used of the whole seven-day feast and its meals (Luke 22:1). Others think two calendars were in use. On any view the question is about the dating of a meal, not about whether he died.',
+              answer: 'That is the one scholars argue about most, and there is no single agreed solution. All four Gospels agree that he ate a last supper with his disciples and was crucified on the Friday of Passover week. The difficulty comes mainly from two verses in John: the priests wanted to stay clean so as to “eat the Passover” (John 18:28), and the day is called “the day of Preparation for the Passover” (John 19:14). But “Preparation” was the ordinary word for Friday, as in Mark 15:42, and the name Passover was used of the whole seven-day feast and its meals (Luke 22:1). Others think two calendars were in use. On any view the question is about the dating of a meal, not about whether he died.',
               followUps: [
                 {
                   reply: 'Harmonising like that is special pleading. You would not accept it from someone defending another holy book.',
@@ -213,7 +213,7 @@ export const reliabilityOfScripture: Topic = {
       objection: 'The Gospels are anonymous. Nobody knows who wrote them.',
       response:
         'The authors do not name themselves in the text, which was normal for that kind of writing. But no copy that has a title names anyone other than Matthew, Mark, Luke or John. Papias, early in the second century, already names Mark and Matthew, and by about AD 180 Irenaeus names all four. Notice which names they are. Mark and Luke were not apostles. If the church had been inventing authors to win authority, it would have chosen Peter or James.',
-      keyPoints: ['Formally anonymous, like much ancient writing.', 'The titles and early testimony are unanimous.', 'Nobody invents Mark and Luke as authors.'],
+      keyPoints: ['Formally anonymous, like much ancient writing.', 'The titles and early testimony are all but unanimous.', 'Nobody invents Mark and Luke as authors.'],
       references: ['Luke 1:1-4'],
       followUps: [
         {
@@ -222,13 +222,13 @@ export const reliabilityOfScripture: Topic = {
           followUps: [
             {
               reply: 'Acts itself calls Peter and John unschooled. Literacy in Roman Palestine was only a few per cent.',
-              answer: 'Acts says the council saw that they were “unschooled, ordinary men” (Acts 4:13). In context that means they had no training as teachers of the law, not that they could not read. Some scholars do estimate that only a few per cent could write, though the figures are disputed. In any case an ancient author often did not hold the pen. Paul dictated Romans: “I, Tertius, who wrote down this letter, greet you in the Lord” (Romans 16:22). And nobody claims that Peter wrote a Gospel; the early report is that Mark wrote down what Peter taught.',
+              answer: 'Acts says the council saw that they were “unschooled, ordinary men” (Acts 4:13). Many commentators take that to mean they had no training as teachers of the law, though others read it as illiterate. Some scholars do estimate that only a few per cent could write, though the figures are disputed. In any case an ancient author often did not hold the pen. Paul dictated Romans: “I, Tertius, who wrote down this letter, greet you in the Lord” (Romans 16:22). And nobody claims that Peter wrote a Gospel; the early report is that Mark wrote down what Peter taught.',
             },
           ],
         },
         {
           reply: 'The titles were added in the second century. For decades the Gospels circulated with no names on them.',
-          answer: 'That is a common view, and it cannot be disproved, since no copy survives from the first century. But think what it predicts. If four nameless books had circulated for decades across the empire and were named later, we should expect different churches to have guessed different authors. That is what happened with Hebrews, which really is anonymous: Paul, Barnabas, Luke and Clement were all suggested. For the Gospels every titled manuscript and every early writer gives the same four names. The historian Martin Hengel argued that the titles must go back to the time the Gospels first circulated, because a church that owned more than one needed a way to tell them apart.',
+          answer: 'That is a common view, and it cannot be disproved, since no copy survives from the first century. But think what it predicts. If four nameless books had circulated for decades across the empire and were named later, we should expect different churches to have guessed different authors. That is what happened with Hebrews, which really is anonymous: Paul, Barnabas, Luke and Clement were all suggested. For the Gospels every titled manuscript and almost every early writer gives the same four names. The historian Martin Hengel argued that the titles must go back to the time the Gospels first circulated, because a church that owned more than one needed a way to tell them apart.',
           followUps: [
             {
               reply: 'Papias is a weak witness. Eusebius thought little of his intelligence, and the Matthew he describes wrote sayings in Hebrew, which is not our Greek Gospel.',
@@ -247,15 +247,15 @@ export const reliabilityOfScripture: Topic = {
       followUps: [
         {
           reply: 'He says there are more variants than words in the New Testament.',
-          answer: 'There are, because there are so many copies. Nearly all are differences of spelling or word order. Of the small fraction that affect meaning, the main ones are footnoted in any modern Bible, and no core Christian teaching depends on a disputed reading.',
+          answer: 'There are, because there are so many copies. Most are differences of spelling or word order, or plain slips. Of the small fraction that affect meaning, the main ones are footnoted in any modern Bible, and no core Christian teaching depends on a disputed reading.',
           followUps: [
             {
               reply: 'He also says we have no originals, only copies of copies made centuries later. So talk of “the original text” is guesswork.',
-              answer: 'That we have no originals is true of every ancient book. “Centuries later” is true of most of the manuscripts but not of the earliest, which come from within about a hundred and fifty years. What matters is whether the copies allow us to work back, and textual critics, Ehrman among them, spend their careers doing that. His own teacher, Bruce Metzger, the leading textual critic of his generation, judged that they do, and remained a Christian all his life.',
+              answer: 'That we have no originals is true of every ancient book. “Centuries later” is true of most of the manuscripts but not of the earliest, which come from within a century or two. What matters is whether the copies allow us to work back, and textual critics, Ehrman among them, spend their careers doing that. His own teacher, Bruce Metzger, the leading textual critic of his generation, judged that they do, and remained a Christian all his life.',
               followUps: [
                 {
                   reply: 'His larger point is about authorship. He argues that books such as 2 Peter and the letters to Timothy and Titus were not written by the men they name.',
-                  answer: 'He argues that in Forged (2011). The Gospels name no author in their text, so even on his view they are not forgeries. For letters such as 2 Peter and those to Timothy and Titus, many critical scholars do doubt the authorship, mainly from style and vocabulary, and others answer that a different secretary, subject and date account for the differences. That debate is open. But the case for the death and resurrection of Jesus does not use those books. It rests on letters that Ehrman accepts as Paul’s own, Romans, 1 Corinthians and Galatians among them, and on the Gospels read as historical sources.',
+                  answer: 'He argues that in Forged (2011). The Gospels name no author in their text, so even on his view they are not forgeries. For letters such as 2 Peter and those to Timothy and Titus, most critical scholars do doubt the authorship, mainly from style and vocabulary, and others answer that a different secretary, subject and date account for the differences. That debate is open. But the case for the death and resurrection of Jesus does not use those books. It rests on letters that Ehrman accepts as Paul’s own, Romans, 1 Corinthians and Galatians among them, and on the Gospels read as historical sources.',
                   followUps: [
                     {
                       reply: 'And he says a historian can never conclude that a miracle happened, because a miracle is by definition the least probable explanation.',
@@ -278,9 +278,9 @@ export const reliabilityOfScripture: Topic = {
     {
       id: 'ros-q1',
       question: 'Roughly how many Greek manuscripts of the New Testament exist?',
-      options: ['About 50', 'About 600', 'About 5,800', 'Over 100,000'],
+      options: ['About 50', 'About 600', 'About 5,300', 'Over 100,000'],
       answer: 2,
-      explanation: 'About 5,800 catalogued Greek manuscripts. Most are medieval, but they include early papyri and fourth-century codices.',
+      explanation: 'About 5,300, from a catalogue of some 5,800 entries. Most are medieval, but they include early papyri and fourth-century codices.',
     },
     {
       id: 'ros-q2',
@@ -344,7 +344,7 @@ export const reliabilityOfScripture: Topic = {
         'The oldest copy of Paul’s letters',
       ],
       answer: 2,
-      explanation: 'It shows how short the gap is between the writing of John and our earliest surviving copy.',
+      explanation: 'On that dating the gap between the writing of John and our earliest surviving copy is a century or less.',
     },
     {
       id: 'ros-q9',
@@ -374,7 +374,7 @@ export const reliabilityOfScripture: Topic = {
       id: 'ros-q11',
       question: 'How does the gap between the events and the Gospels compare with our main biographies of Alexander the Great?',
       options: [
-        'The Gospels were written 30 to 60 years after the events; the main biographies of Alexander about 400 years after his death',
+        'The Gospels were written about 35 to 65 years after the events; the main biographies of Alexander about 400 years after his death',
         'Both were written within a year of the events',
         'The biographies of Alexander are much closer to the events',
         'The Gospels were written about 400 years after Jesus',
@@ -472,7 +472,7 @@ export const reliabilityOfScripture: Topic = {
       options: [
         'Nobody ever read it',
         'It was left out of the Bible',
-        'Different authors were suggested for it, while for the Gospels every early source gives the same four names',
+        'Different authors were suggested for it, while for the Gospels the early sources give the same four names',
         'It was attributed to Matthew',
       ],
       answer: 2,
