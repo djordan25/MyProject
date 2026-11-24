@@ -27,7 +27,7 @@ export const scientificMiracles: Topic = {
       heading: 'Where does the sun go?',
       body: [
         'Dhul-Qarnayn travelled until “he reached the setting of the sun, he found it [as if] setting in a spring of dark mud” (Quran 18:86). Muslims respond that this is from his perspective — but the verse says he reached the setting place of the sun.',
-        'The hadith settle how Muhammad understood the sun’s movement: asked where the sun goes at sunset, he said, “It goes till it prostrates itself underneath the Throne and takes the permission to rise again” (Sahih al-Bukhari 3199).',
+        'The hadith settle how Muhammad understood the sun’s movement: asking Abu Dharr at sunset where the sun goes, he said, “It goes till it prostrates itself underneath the Throne and takes the permission to rise again” (Sahih al-Bukhari 3199).',
       ],
       references: ['Quran 18:86', 'Sahih al-Bukhari 3199'],
     },
@@ -52,7 +52,7 @@ export const scientificMiracles: Topic = {
     {
       id: 'sm-1',
       followUps: [
-        { reply: 'The Quran also says the universe is expanding.', answer: 'Quran 51:47 says Allah built the heaven and is its expander. Older translations take the same word to mean that Allah made it vast, or has vast power, and classical commentators did not read it as an expanding universe. A prediction that is recognised only after the discovery is not a prediction.',
+        { reply: 'The Quran also says the universe is expanding.', answer: 'Quran 51:47 says Allah built the heaven and is its expander. Older translations take the same word to mean that Allah made it vast, classical commentators took it that way or as a statement of his power, and they did not read it as an expanding universe. A prediction that is recognised only after the discovery is not a prediction.',
           followUps: [
             {
               reply: 'The Arabic word is an active participle: “We are expanding it”, a continuing action. Nobody in the seventh century imagined that the heavens were growing.',
@@ -60,7 +60,7 @@ export const scientificMiracles: Topic = {
               followUps: [
                 {
                   reply: 'Then explain how one book holds so many of these. The heaven was once smoke (Quran 41:11). Every living thing was made from water (Quran 21:30). No human could have known all that.',
-                  answer: 'Each was already said or easily seen. That life depends on water is plain to anyone in a desert, and Greek thinkers had called water the source of all things more than a thousand years earlier. And look at the order in the smoke passage: the earth is made and given its mountains and its food, and only then does Allah turn to the heaven while it is smoke, make seven heavens and set lamps in the nearest (Quran 41:9-12). The earth comes before the stars, when in fact the stars are older than the earth by billions of years. Reading these verses as science does the Quran no favour.',
+                  answer: 'Each was already said or easily seen. That life depends on water is plain to anyone in a desert, and Greek thinkers had called water the source of all things more than a thousand years earlier. And look at the order in the smoke passage: the earth is made and given its mountains and its food, and only then does Allah turn to the heaven while it is smoke, make seven heavens and set lamps in the nearest (Quran 41:9-12). The earth comes before the stars, when in fact the oldest stars are older than the earth by billions of years. Reading these verses as science does the Quran no favour.',
                 },
               ],
             },
@@ -68,11 +68,11 @@ export const scientificMiracles: Topic = {
         },
         {
           reply: 'Cosmology is not the strongest case. Embryology is. Quran 23:12-14 describes the drop, the clinging clot and the chewed lump in order, and Professor Keith Moore, a leading embryologist, said this could not have been known in the seventh century.',
-          answer: 'It was known in the second. The Greek physician Galen, in his book On Semen, divides the growth of the unborn child into four periods: first the form of semen, then a mass filled with blood that has the form of flesh, then an outline of the parts, then the limbs fully formed. He says nature “caused flesh to grow on and around all the bones”. That is close to the Quran’s sequence, five centuries earlier, and it shares the mistake: bones are not formed first and clothed with flesh afterwards. As for Professor Moore, his statements appeared in a special edition of his textbook “with Islamic Additions”, written with Sheikh Abdul Majeed al-Zindani and published in Jeddah in 1983.',
+          answer: 'It was known in the second. The Greek physician Galen, in his book On Semen, divides the growth of the unborn child into four periods: first the form of semen, then a mass filled with blood that has the form of flesh, then an outline of the parts, then the limbs fully formed. He says nature “caused flesh to grow on and around all the bones”. That is close to the Quran’s sequence, more than four centuries earlier, and it shares the mistake: bones are not formed first and clothed with flesh afterwards. As for Professor Moore, his statements appeared in a short paper in an Islamic medical journal in 1986 and in his foreword to a special edition of his textbook “with Islamic Additions” by Sheikh Abdul Majeed al-Zindani, published in Jeddah in 1983. His later standard editions give the Quran only a short paragraph in their history of embryology.',
           followUps: [
             {
               reply: 'How would an unlettered man in Mecca have read a Greek medical book? And the Quran’s terms are more exact than Galen’s. Alaqah means a thing that clings, like a leech, which is what the early embryo looks like.',
-              answer: 'He did not need to read it. Galen says his stages are what is seen “in abortions and in dissections”, and every community that loses pregnancies and slaughters animals has seen as much. As for alaqah, the classical commentators took it as a clot of blood, as the Jalalayn commentary says, and the hadith adds that the drop, the clot and the lump last forty days each (Sahih al-Bukhari 3208). The embryo is never a clot of blood, and at four months it is far beyond a shapeless lump. The leech comparison comes from modern writers.',
+              answer: 'He did not need to read it. Galen says his stages are what is seen “in abortions and in dissections”, and every community that loses pregnancies and slaughters animals has seen as much. As for alaqah, the classical commentators took it as a clot of blood, as the Jalalayn commentary says, and the hadith adds that the first gathering in the womb, the clot and the lump last forty days each (Sahih al-Bukhari 3208). The embryo is never a clot of blood, and at four months it is far beyond a shapeless lump. Commentators did notice that the word can also mean a leech, but the claim that this is exact embryology comes from modern writers.',
               followUps: [
                 {
                   reply: 'That hadith is misread. Another says the angel comes to shape the child after forty-two nights (Sahih Muslim 2645), which is close to what embryologists say.',
@@ -191,7 +191,7 @@ export const scientificMiracles: Topic = {
       question: 'Which ancient physician described the unborn child developing in stages, from semen to a blood-filled mass to formed limbs, centuries before the Quran?',
       options: ['Galen', 'Ptolemy', 'Euclid', 'Avicenna'],
       answer: 0,
-      explanation: 'Galen wrote On Semen in the second century, about five hundred years before the Quran.',
+      explanation: 'Galen wrote On Semen in the second century, more than four hundred years before the Quran.',
     },
     {
       id: 'sm-q6',
@@ -215,7 +215,7 @@ export const scientificMiracles: Topic = {
         'The sun first, then the moon, then the earth',
       ],
       answer: 2,
-      explanation: 'The stars are in fact far older than the earth. Read as science, the passage has the order the wrong way round.',
+      explanation: 'The oldest stars are in fact far older than the earth. Read as science, the passage has the order the wrong way round.',
     },
     {
       id: 'sm-q8',
@@ -246,7 +246,7 @@ export const scientificMiracles: Topic = {
       question: 'According to Sahih al-Bukhari 3208, how long does each of the first three stages in the womb last?',
       options: ['Seven days', 'One night', 'Nine months', 'Forty days'],
       answer: 3,
-      explanation: 'Forty days as a drop, forty as a clot, forty as a lump. A real embryo has a beating heart and limbs long before the end of that time.',
+      explanation: 'Forty days being put together in the womb, forty as a clot, forty as a lump. A real embryo has a beating heart and limbs long before the end of that time.',
     },
     {
       id: 'sm-q11',
@@ -255,10 +255,10 @@ export const scientificMiracles: Topic = {
         'In every edition of his standard medical textbook',
         'In a ruling of a British court',
         'In a book he wrote before he had read the Quran',
-        'In a special edition “with Islamic Additions”, written with Sheikh al-Zindani and published in Jeddah in 1983',
+        'In a special edition “with Islamic Additions” by Sheikh al-Zindani, published in Jeddah in 1983',
       ],
       answer: 3,
-      explanation: 'The claim that no one could have known these stages also overlooks Galen, who described them in the second century.',
+      explanation: 'He also wrote a short paper in 1986, and his later standard editions give the Quran only a short paragraph. The claim that no one could have known these stages overlooks Galen, who described them in the second century.',
     },
     {
       id: 'sm-q12',
