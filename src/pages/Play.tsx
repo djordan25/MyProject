@@ -25,6 +25,7 @@ export default function Play() {
     { to: '/play/timeline', icon: 'ListOrdered', title: 'Timeline', summary: 'Put the sources and events in order, from Merneptah’s monument to the Dome of the Rock.', best: p.games.timeline !== undefined ? `Best ${p.games.timeline}/${HAND}` : undefined },
     { to: '/play/build', icon: 'Puzzle', title: 'Build the argument', summary: 'One step of an argument is missing. Pick the premise or conclusion that makes it hold together.', best: p.games.build !== undefined ? `Best ${p.games.build}/6` : undefined },
     { to: '/quiz', icon: 'ListChecks', title: 'Mixed quiz', summary: 'Random questions from every topic you have opened.' },
+    { to: '/timeline', icon: 'ListOrdered', title: 'The whole timeline', summary: 'Every dated event in the lessons on one axis, from Merneptah to today. Not a game: a map of when things happened.' },
     { to: '/verses', icon: 'Bookmark', title: 'Memory verses', summary: 'Recall the passages you are learning by heart.' },
   ];
   // Section challenges that are open now, one per track at most.

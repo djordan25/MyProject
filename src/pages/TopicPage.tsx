@@ -5,7 +5,10 @@ import { objectionScore, overdueReviews, progress, SEAL_QUIZ, topicSealed, usePr
 import { stepLink, stepTitle, TEST_OUT, topicAccess, topicCleared } from '../lib/path';
 import { buzz } from '../lib/haptics';
 import Seal from '../components/Seal';
-import TopicIcon from '../components/TopicIcon';
+import Emblem from '../components/Emblem';
+import ArgumentDiagram from '../components/ArgumentDiagram';
+import TimeAxis from '../components/TimeAxis';
+import { TIMELINE } from '../content/games';
 import { EdButton, EdIcon, EdNotification, EdStatusBadge } from 'editorial-ui';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
@@ -28,7 +31,7 @@ export default function TopicPage() {
     return (
       <>
         <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
-        <h1 className="track-title"><TopicIcon glyph={topic.icon} size="lg" /> {topic.title}</h1>
+        <h1 className="track-title"><Emblem topic={topic} size={64} /> {topic.title}</h1>
         <section className="card locked-card">
           <span className="lock-tile lg"><EdIcon name="Lock" size="md" aria-hidden /></span>
           <h2>This topic is further along the path</h2>
@@ -56,7 +59,7 @@ export default function TopicPage() {
   return (
     <>
       <Link to={track ? `/track/${track.id}` : '/'} className="back">← {track ? track.title : 'Home'}</Link>
-      <h1 className="track-title"><TopicIcon glyph={topic.icon} size="lg" /> {topic.title}</h1>
+      <h1 className="track-title"><Emblem topic={topic} size={64} /> {topic.title}</h1>
       <SealStatus key={topic.id} topic={topic} />
       {topicCleared(p, topic) && access.next && access.next.state !== 'locked' && (
         <Link to={stepLink(access.next)} className="path-next">
@@ -147,6 +150,7 @@ function SealStatus({ topic }: { topic: Topic }) {
 function Learn({ topic }: { topic: Topic }) {
   const p = useProgress();
   const read = !!p.lessonsRead[topic.id];
+  const dated = TIMELINE.filter((e) => e.topicId === topic.id);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [topic.id]);
@@ -158,13 +162,18 @@ function Learn({ topic }: { topic: Topic }) {
           <h2>{s.heading}</h2>
           {s.body.map((para, i) => <p key={i}><RefText text={para} /></p>)}
           {s.argument && (
-            <ol className="argument">
-              {s.argument.map((a) => <li key={a}><RefText text={a} /></li>)}
-            </ol>
+            <ArgumentDiagram steps={s.argument} />
           )}
           <RefList refs={s.references} />
         </section>
       ))}
+      {dated.length >= 2 && (
+        <section className="card">
+          <h2>Dates in this lesson</h2>
+          <TimeAxis events={dated} />
+          <p className="muted"><Link to="/timeline">See them on the whole timeline →</Link></p>
+        </section>
+      )}
       {topic.furtherReading && (
         <section className="card">
           <h2>Further reading</h2>
