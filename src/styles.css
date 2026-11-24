@@ -559,6 +559,9 @@ mark { background: var(--ed-color-brand-bg-strong); color: inherit; border-radiu
 .verdict.correct { background: var(--ed-color-status-success-bg); border-color: var(--ed-color-status-success); }
 .verdict.wrong { background: var(--ed-color-status-danger-bg); border-color: var(--ed-color-status-danger); }
 .verdict.dim { opacity: 0.55; }
+.argument.build li.gap { color: var(--at-rubric-ink); font-weight: var(--ed-font-weight-semibold); }
+.argument.build li.gap span { display: inline-block; min-width: 8ch; padding: 0 var(--ed-space-2); border: 1px dashed var(--at-rubric); border-radius: var(--ed-radius-sm); text-align: center; }
+.argument.build li.filled { background: var(--ed-color-status-success-bg); }
 .timeline { list-style: none; counter-reset: tl; margin: var(--ed-space-4) 0; padding: 0; border: 1px solid var(--ed-color-hairline); border-radius: var(--ed-radius-md); overflow: hidden; background: var(--ed-color-surface-1); }
 .timeline li { counter-increment: tl; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--ed-space-3); padding: var(--ed-space-3) var(--ed-space-4); border-bottom: 1px solid var(--ed-color-hairline); }
 .timeline li:last-child { border-bottom: 0; }
