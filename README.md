@@ -52,6 +52,15 @@ All training content lives in `src/content/topics/*.ts`, one file per topic (see
 - **Glossary:** Islamic terms in plain English (`src/content/glossary.ts`).
 - **Progress backup:** download or restore progress from the Progress page.
 
+## The guided path, points and games
+
+- **Guided path:** each track is a path. Topics open in order, and a topic is cleared when its lesson is read, every objection has been tried and its quiz is 80% or better. Scoring 90% on the quiz clears it without the lesson (test-out). Topics already begun are never locked, and Search and "They just said…" are always open. Someone who chose "my own questions and doubts" can open the hardest questions at once. The rules are in `src/lib/path.ts`.
+- **Section challenges:** each section ends with a challenge of ten mixed objections and comebacks in random order (`/boss/:trackId/:section`). Two misses are allowed. Passing it opens the next section.
+- **Points and levels:** points are paid for a lesson read, each objection practised (the same whatever the self-rating, a little more for a review done once it is due), right answers in quizzes and games, and a challenge passed. Ten levels run from Inquirer to Sage; each track also shows a rank. The values are in `XP` and `LEVELS` in `src/lib/progress.ts`.
+- **Daily goal and streak:** 30 points a day meets the goal. Days practised in a row make a streak; one freeze covers a single missed day, and a new one is earned for every seventh day of a run.
+- **Fading seals:** a sealed topic whose reviews run more than a week late shows a faded seal until they are done.
+- **Games** (the Play tab): **Volley** plays a topic's follow-up chains as a timed back-and-forth with a combo for answers in a row (the clock can be turned off). **Sound or weak?** asks whether to use an argument as it stands, call it overstated, or leave it alone. **Timeline** asks for sources and events in order. Games draw on topics that are open on the path. The arguments and dates are in `src/content/games.ts`, and each one points to the lesson that settles it.
+
 ## Citation popups
 
 Tapping a Bible, Quran or hadith citation shows the passage text in a popup, with a link to the source site. The texts are bundled in `src/content/data/passages.json` so they work offline:

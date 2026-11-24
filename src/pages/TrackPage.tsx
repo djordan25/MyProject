@@ -1,7 +1,9 @@
 import { Link, useParams } from 'react-router-dom';
-import { getTopic, getTrack, subtracksOf } from '../content';
+import { getTrack, subtracksOf } from '../content';
 import { useProgress } from '../lib/progress';
 import { trackSeals } from '../lib/trackProgress';
+import { trackPath, trackRank } from '../lib/path';
+import BossRow from '../components/BossRow';
 import { EdButton, EdIcon } from 'editorial-ui';
 import Seal from '../components/Seal';
 import TopicRow from '../components/TopicRow';
@@ -17,6 +19,9 @@ export default function TrackPage() {
   const parent = getTrack(track.parent);
   const subs = subtracksOf(track);
   const seals = trackSeals(p, track);
+  const path = trackPath(p, track);
+  const upNext = path.flat().find((s) => s.state !== 'cleared');
+  const rank = trackRank(p, track);
   return (
     <>
       <Link to={parent ? `/track/${parent.id}` : '/'} className="back">← {parent ? parent.title : 'All tracks'}</Link>
@@ -24,6 +29,13 @@ export default function TrackPage() {
       <h1 className="track-title"><TopicIcon glyph={track.icon} size="lg" /> {track.title}</h1>
       <p className="muted seal-line">
         {seals.sealed === seals.total ? <><Seal tone="track" size={20} /> Track complete: every topic sealed.</> : `${seals.sealed} of ${seals.total} topics sealed. A topic earns its seal when the lesson is read, the quiz is 80% or better, and every objection is Solid.`}
+      </p>
+      <p className="path-line">
+        <span className="rank-chip">{rank.name}</span>
+        <span className="muted">
+          {rank.cleared} of {rank.total} steps cleared. Topics open in order: read the lesson, try every objection and score 80% on the quiz,
+          or score 90% on the quiz to test out.
+        </span>
       </p>
       {track.intro && (
         <section className="card intro">
@@ -60,11 +72,14 @@ export default function TrackPage() {
             {s.title}
           </h2>
           <p className="muted">{s.description}</p>
-          <div className="list">
-            {s.topicIds.map((id) => {
-              const t = getTopic(id);
-              return t ? <TopicRow key={id} topic={t} /> : null;
-            })}
+          <div className="list path">
+            {path[i].map((step) =>
+              step.kind === 'topic' ? (
+                <TopicRow key={step.topic.id} topic={step.topic} next={step === upNext} />
+              ) : (
+                <BossRow key={step.key} step={step} next={step === upNext} />
+              ),
+            )}
           </div>
         </section>
       ))}

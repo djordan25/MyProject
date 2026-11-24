@@ -2,9 +2,9 @@ import { describe, expect, it } from 'vitest';
 import { orderedTopics, orderedTracks } from './profile';
 import { forSpeech } from './speech';
 import { buildSession } from './session';
-import type { Progress } from './progress';
+import { emptyProgress, type Progress } from './progress';
 
-const empty: Progress = { lessonsRead: {}, quizBest: {}, drills: {}, review: {}, notes: {}, confidence: {}, days: [], verses: [], conversations: [] };
+const empty: Progress = emptyProgress();
 
 describe('audience ordering', () => {
   it('puts the Islam track first for a Muslim friend', () => {

@@ -15,12 +15,19 @@ import NotFound from './pages/NotFound';
 import Session from './pages/Session';
 import Verses from './pages/Verses';
 import Journal from './pages/Journal';
+import Play from './pages/Play';
+import Volley from './pages/Volley';
+import SortGame from './pages/SortGame';
+import TimelineGame from './pages/TimelineGame';
+import Boss from './pages/Boss';
 import Seal from './components/Seal';
 import { PassageProvider } from './components/PassagePopup';
+import XpToast from './components/XpToast';
 
 const NAV: { to: string; label: string; icon: EdIconName }[] = [
   { to: '/', label: 'Tracks', icon: 'LibraryBig' },
   { to: '/practice', label: 'Practice', icon: 'MessagesSquare' },
+  { to: '/play', label: 'Play', icon: 'Gamepad2' },
   { to: '/progress', label: 'Progress', icon: 'ChartNoAxesColumn' },
   { to: '/search', label: 'Search', icon: 'Search' },
 ];
@@ -28,9 +35,11 @@ const NAV: { to: string; label: string; icon: EdIconName }[] = [
 /** Tracks stays active while browsing a track or topic. */
 const isActive = (to: string, path: string) =>
   to === '/'
-    ? path === '/' || path.startsWith('/track') || path.startsWith('/topic')
+    ? path === '/' || path.startsWith('/track') || path.startsWith('/topic') || path.startsWith('/boss')
     : to === '/practice'
-      ? ['/practice', '/verses', '/quiz'].some((x) => path.startsWith(x))
+      ? ['/practice', '/verses'].some((x) => path.startsWith(x))
+      : to === '/play'
+        ? ['/play', '/quiz'].some((x) => path.startsWith(x))
       : path.startsWith(to) || (to === '/progress' && path.startsWith('/journal'));
 
 export default function App() {
@@ -74,9 +83,15 @@ export default function App() {
             <Route path="/today" element={<Session />} />
             <Route path="/verses" element={<Verses />} />
             <Route path="/journal" element={<Journal />} />
+            <Route path="/play" element={<Play />} />
+            <Route path="/play/volley" element={<Volley />} />
+            <Route path="/play/sound-or-weak" element={<SortGame />} />
+            <Route path="/play/timeline" element={<TimelineGame />} />
+            <Route path="/boss/:trackId/:section" element={<Boss />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
+        <XpToast />
         <nav className="tabbar" aria-label="Main">
           {NAV.map((n) => (
             <Link key={n.to} to={n.to} className={isActive(n.to, path) ? 'active' : undefined} aria-current={isActive(n.to, path) ? 'page' : undefined}>

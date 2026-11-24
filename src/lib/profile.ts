@@ -12,7 +12,7 @@ export const AUDIENCES: { id: Audience; label: string; detail: string; focus: st
 ];
 
 /** Topics to put first for someone working through their own doubts. */
-const DOUBTS_FIRST = ['problem-of-evil', 'hard-passages', 'existence-of-god', 'resurrection', 'reliability-of-scripture'];
+export const DOUBTS_FIRST = ['problem-of-evil', 'hard-passages', 'existence-of-god', 'resurrection', 'reliability-of-scripture'];
 
 const KEY = 'apologetics-audience';
 
@@ -37,6 +37,9 @@ export function setAudience(a: Audience): void {
   }
   listeners.forEach((l) => l());
 }
+
+/** The current choice, for code outside React. */
+export const getAudience = (): Audience | null => audience;
 
 /** The learner's choice, or null before they have made one. */
 export function useAudience(): Audience | null {

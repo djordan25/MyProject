@@ -7,7 +7,8 @@ import { buzz } from '../lib/haptics';
 
 interface Props {
   questions: QuizQuestion[];
-  onFinish: (score: number) => void;
+  /** Called once when the last question is answered, with the score as a fraction and the count of correct answers. */
+  onFinish: (score: number, correct: number, total: number) => void;
   /** Ask at most this many questions per attempt, drawn at random from the bank. */
   limit?: number;
 }
@@ -71,7 +72,7 @@ export default function Quiz({ questions, onFinish, limit }: Props) {
       setPicked(null);
     } else {
       setDone(true);
-      onFinish(correct / order.length);
+      onFinish(correct / order.length, correct, order.length);
     }
   };
 

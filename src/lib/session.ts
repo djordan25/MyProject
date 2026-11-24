@@ -1,6 +1,7 @@
 import type { Objection, QuizQuestion, Topic } from '../content';
 import { orderedTopics, type Audience } from './profile';
 import { isDue, type Progress } from './progress';
+import { lockedTopicIds } from './path';
 import { verseId } from './verses';
 import { shuffle } from './shuffle';
 
@@ -32,7 +33,9 @@ export function buildSession(p: Progress, audience: Audience | null = null, now 
     .slice(0, MAX_REVIEWS)
     .map((d): SessionDrill => ({ ...d, kind: 'review' }));
 
-  const fresh = all.find(({ objection }) => !p.drills[objection.id]);
+  // New material comes only from topics that are open on the path.
+  const locked = lockedTopicIds(p, audience);
+  const fresh = all.find(({ objection, topic }) => !p.drills[objection.id] && !locked.has(topic.id));
   const drills: SessionDrill[] = [...due, ...(fresh ? [{ ...fresh, kind: 'new' as const }] : [])];
 
   // Everything practised and nothing due: refresh the two that are due soonest.

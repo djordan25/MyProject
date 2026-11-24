@@ -6,6 +6,7 @@ import TopicIcon from '../components/TopicIcon';
 import TopicRow from '../components/TopicRow';
 import { trackCompletion } from '../lib/trackProgress';
 import ProgressBar from '../components/ProgressBar';
+import PlayerStrip from '../components/PlayerStrip';
 
 export default function ProgressPage() {
   const p = useProgress();
@@ -22,6 +23,7 @@ export default function ProgressPage() {
           <Link to="/journal"><EdIcon name="NotebookPen" size="sm" /> Conversations{p.conversations.length ? ` · ${p.conversations.length}` : ''}</Link>
         </EdButton>
       </div>
+      <PlayerStrip />
       <div className="stats">
         <EdStatGrid columns={4}>
           <EdStat label="Lessons read" value={`${lessons}/${topics.length}`} />
