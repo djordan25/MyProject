@@ -35,7 +35,7 @@ export const fulfilledProphecy: Topic = {
       body: [
         'Isaiah describes a servant of the LORD who is rejected, “pierced for our transgressions”, silent before his accusers, “cut off from the land of the living”, and buried “with a rich man in His death”, though he had done no wrong (Isaiah 53:5-9). He suffers not for his own sins but for those of others.',
         'Psalm 22 gives the sufferer’s own voice: mocked by onlookers, his hands and feet pierced, his clothes divided by lot (Psalm 22:16-18). Zechariah has the LORD say, “they will look on Me, the One they have pierced” (Zechariah 12:10), a verse John applies to the crucifixion (John 19:36-37).',
-        'One caution: in Psalm 22:16 the standard Hebrew text reads “like a lion” where most English Bibles have “pierced”, which follows the ancient Greek translation and an early Hebrew manuscript. The argument does not rest on that one word.',
+        'One caution: in Psalm 22:16 the standard Hebrew text reads “like a lion” where most English Bibles have “pierced”, which interprets the verb “they dug” found in the ancient Greek translation and in an early Hebrew manuscript. The argument does not rest on that one word.',
       ],
       references: ['Isaiah 53:5-9', 'Psalm 22:16-18', 'Zechariah 12:10', 'John 19:36-37'],
     },
@@ -175,8 +175,8 @@ export const fulfilledProphecy: Topic = {
       id: 'fp-4',
       objection: 'Isaiah 7:14 says “young woman”, not “virgin”. Matthew mistranslated it.',
       response:
-        'The Hebrew word means a young woman of marriageable age, who in that culture would be assumed to be a virgin. The Jewish scholars who translated Isaiah into Greek, well over a century before Jesus, chose the Greek word for virgin, and Matthew quotes their translation (Matthew 1:22-23). In any case the virgin birth does not rest on this verse. Matthew and Luke both report it as something that happened, and then Matthew sees Isaiah’s words filled out by it.',
-      keyPoints: ['The word implies an unmarried young woman.', 'Jewish translators before Jesus rendered it “virgin”.', 'The event is reported independently by Matthew and Luke.'],
+        'The Hebrew word means a young woman of marriageable age, who, if unmarried, would in that culture be assumed to be a virgin. The Jewish scholars who translated Isaiah into Greek, well over a century before Jesus, chose the Greek word for virgin, and Matthew quotes their translation (Matthew 1:22-23). In any case the virgin birth does not rest on this verse. Matthew and Luke both report it as something that happened, and then Matthew sees Isaiah’s words filled out by it.',
+      keyPoints: ['The word means a young woman of marriageable age.', 'Jewish translators before Jesus rendered it “virgin”.', 'The event is reported independently by Matthew and Luke.'],
       references: ['Isaiah 7:14', 'Matthew 1:22-23', 'Luke 1:34-35'],
       followUps: [
         {
@@ -227,7 +227,7 @@ export const fulfilledProphecy: Topic = {
         },
         {
           reply: 'Daniel 9 is not about Jesus. Most critical scholars date the book to the 160s BC and take the anointed one who is cut off to be the high priest Onias III, murdered about 171 BC in the time of Antiochus Epiphanes.',
-          answer: 'That is the majority view among critical scholars, and I will not pretend otherwise, but it has real difficulties. Seventy weeks of years do not fit: counted from any starting point on offer, 490 years runs decades past Antiochus, and scholars who hold the view generally grant that the figures cannot be made to fit exactly. Antiochus defiled the temple, but he did not destroy it or the city, as the passage says will happen (Daniel 9:24-27). Rome did both in AD 70. And Jesus, two centuries after Antiochus, still spoke of Daniel’s desolation as something to come (Matthew 24:15).',
+          answer: 'That is the majority view among critical scholars, and I will not pretend otherwise, but it has real difficulties. Seventy weeks of years do not fit: counted from any starting point on offer, 490 years runs decades past Antiochus, and scholars who hold the view generally grant that the figures cannot be made to fit exactly. Antiochus defiled the temple and his troops plundered the city and set it on fire, but neither was destroyed, as the passage seems to say will happen (Daniel 9:24-27). Rome did both in AD 70. And Jesus, two centuries after Antiochus, still spoke of Daniel’s desolation as something to come (Matthew 24:15).',
           followUps: [
             {
               reply: 'Your sums are no better. Christians cannot agree which decree starts the clock or how the weeks are to be counted.',
@@ -249,7 +249,7 @@ export const fulfilledProphecy: Topic = {
         'Jesus wrote them himself',
       ],
       answer: 1,
-      explanation: 'The text was fixed before the events.',
+      explanation: 'The text existed before the events.',
     },
     {
       id: 'fp-q2',
