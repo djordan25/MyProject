@@ -17,7 +17,7 @@ export const atonementObjections: Topic = {
     {
       heading: 'Sacrifice runs through the whole Bible',
       body: [
-        'From the beginning, God taught that sin brings death and that forgiveness comes through a substitute: the Passover lamb (Exodus 12:13), the sacrifices of the law — “it is the blood that makes atonement for the soul” (Leviticus 17:11), and the Day of Atonement (Leviticus 16).',
+        'From the beginning, God taught that sin brings death and that rescue and forgiveness come through a substitute: the Passover lamb (Exodus 12:13), the sacrifices of the law — “it is the blood that makes atonement for the soul” (Leviticus 17:11), and the Day of Atonement (Leviticus 16).',
         '“Without the shedding of blood there is no forgiveness” (Hebrews 9:22). Those animal sacrifices pointed forward to the one perfect sacrifice (Hebrews 10:1-14).',
         'Isaiah 53 explicitly describes a substitute: “He was pierced for our transgressions… the LORD has laid upon Him the iniquity of us all… He bore the sin of many” (Isaiah 53:5-6, 12).',
         'John the Baptist introduced Jesus as “the Lamb of God, who takes away the sin of the world” (John 1:29).',
@@ -28,7 +28,7 @@ export const atonementObjections: Topic = {
       heading: 'A sacrifice in the Quran',
       body: [
         'The Quran tells of Abraham preparing to sacrifice his son, and then says: “We ransomed him with a great sacrifice” (Quran 37:107). Muslims commemorate this every year at Eid al-Adha.',
-        'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice. Ask: what made it a “great” sacrifice? Genesis 22 tells the same story, and there Abraham says, “God Himself will provide the lamb” (Genesis 22:8). Christ is that Lamb.',
+        'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice, though Muslims keep the yearly sacrifice as a commemoration and not as atonement for sin. Ask: what made it a “great” sacrifice? Muslim commentators answer that it was a ram sent from Paradise. Genesis 22 tells the same story, and there Abraham says, “God Himself will provide the lamb” (Genesis 22:8). Christ is that Lamb.',
       ],
       references: ['Quran 37:101-107', 'Genesis 22:1-14', 'John 1:29'],
     },
@@ -43,7 +43,7 @@ export const atonementObjections: Topic = {
           followUps: [
             {
               reply: 'Read on. Ezekiel says that if the wicked man turns from his sins and does what is right, “he will surely live” (Ezekiel 18:21). Repentance and obedience, with no blood and no substitute. That is Islam.',
-              answer: 'Ezekiel was a priest writing to a people who already had the sacrifices God had given them, and he was not replacing them. The same book speaks of sin offerings “to make atonement for the house of Israel” (Ezekiel 45:17), and has God say, “when I make atonement for all you have done” (Ezekiel 16:63). Repentance is necessary, and Christians preach it. But in the Scriptures repentance is how a sinner comes to the atonement God provides. It does not replace it.',
+              answer: 'Ezekiel was a priest among the exiles in Babylonia, far from the temple, and he was not replacing the sacrifices God had given. The same book speaks of sin offerings “to make atonement for the house of Israel” (Ezekiel 45:17), and has God say, “when I make atonement for all you have done” (Ezekiel 16:63). Repentance is necessary, and Christians preach it. But in the Scriptures repentance is how a sinner comes to the atonement God provides. It does not replace it.',
               followUps: [
                 {
                   reply: 'God forgave Nineveh when they repented, with no sacrifice at all (Jonah 3:10). David said, “You do not delight in sacrifice” (Psalm 51:16), and Hosea said God desires mercy, not sacrifice (Hosea 6:6).',
@@ -55,7 +55,7 @@ export const atonementObjections: Topic = {
         },
         {
           reply: 'The Quran gives the same rule as Ezekiel: “no bearer of burdens will bear the burden of another” (Quran 6:164). God’s justice does not change from one prophet to the next.',
-          answer: 'Then look at what Islam’s own sources do with that rule. The Quran says that those who mislead others will bear their own burdens and “some of the burdens of those whom they misguide” (Quran 16:25). And Muhammad said that on the Day of Resurrection Allah will deliver to every Muslim a Jew or a Christian and say, “That is your rescue from Hell-Fire” (Sahih Muslim 2767). So in Islam too, one person can be handed over where another would have stood. In that hadith the one handed over is unwilling. In the gospel the substitute is the sinless Son, who offers himself.',
+          answer: 'Then look at what Islam’s own sources do with that rule. The Quran says that those who mislead others will bear their own burdens and “some of the burdens of those whom they misguide” (Quran 16:25), though commentators add that the misled still carry their own in full. And Muhammad said that on the Day of Resurrection Allah will deliver to every Muslim a Jew or a Christian and say, “That is your rescue from Hell-Fire” (Sahih Muslim 2767). So in Islam too, one person can be handed over where another would have stood. In that hadith the one handed over is unwilling. In the gospel the substitute is the sinless Son, who offers himself.',
           followUps: [
             {
               reply: 'Scholars have explained that hadith. Al-Nawawi says everyone has a place prepared in Paradise and a place in Hell, and the disbeliever takes the Muslim’s place in Hell because of his own disbelief. Nobody carries another’s sin.',
@@ -109,11 +109,11 @@ export const atonementObjections: Topic = {
           followUps: [
             {
               reply: 'You are reading a sacrifice into a verse about clothing. The Quran is clear: Adam received words from his Lord, and Allah accepted his repentance (Quran 2:37). Nothing more was needed.',
-              answer: 'Genesis 3:21 does not spell it out, and I will not lean on it. Look at what both books do say. Adam was forgiven, and he was still sent out of the garden, and he still died (Genesis 3:19, 23-24; Quran 2:36-38). If repentance wiped the slate clean, why was he not put back? In a hadith Moses says to Adam, “You are our father who disappointed us and turned us out of Paradise” (Sahih al-Bukhari 6614). So Islam’s sources also know that Adam’s sin left a loss which his repentance did not undo, and that the loss fell on his children. The gospel says how it is undone (Romans 5:18-19).',
+              answer: 'Genesis 3:21 does not spell it out, and I will not lean on it. Look at what both books do say. In the Quran Adam was forgiven, and in both books he was still sent out of the garden, and he still died (Genesis 3:19, 23-24; Quran 2:36-38). If repentance wiped the slate clean, why was he not put back? In a hadith Moses says to Adam, “You are our father who disappointed us and turned us out of Paradise” (Sahih al-Bukhari 6614). Adam replies that it had been decreed for him, and Muhammad says Adam won the argument, but no one in the hadith denies the loss. So Islam’s sources also know that Adam’s sin left a loss which his repentance did not undo, and that the loss fell on his children. The gospel says how it is undone (Romans 5:18-19).',
               followUps: [
                 {
                   reply: 'Islam has no original sin. Every child is born pure, on the natural faith (Sahih al-Bukhari 1385). Punishing babies for Adam’s sin would be unjust.',
-                  answer: 'Christians do not say that God punishes babies for what Adam did. We say that we all inherit Adam’s broken nature, and that each of us confirms it by sinning: “death was passed on to all men, because all sinned” (Romans 5:12). Islam’s own sources describe the same thing. “Adam sinned, so his offspring sinned” (Jami at-Tirmidhi 3076). Satan touches every child at birth except Mary and her son (Sahih al-Bukhari 3431). If everyone is born pure and free, why does every one of us go on to sin? The Bible names the disease and provides the cure.',
+                  answer: 'Christians differ on whether Adam’s guilt itself is inherited: Augustine taught that it is, while the Eastern churches say we inherit mortality, not guilt. What Christians hold in common is that we all inherit Adam’s broken nature, and that each of us confirms it by sinning: “death was passed on to all men, because all sinned” (Romans 5:12). Islam’s own sources describe something close to it. “Adam sinned, so his offspring sinned” (Jami at-Tirmidhi 3076). Satan touches every child at birth except Mary and her son (Sahih al-Bukhari 3431). If everyone is born pure and free, why does every one of us go on to sin? The Bible names the disease and provides the cure.',
                 },
               ],
             },
@@ -149,7 +149,7 @@ export const atonementObjections: Topic = {
               followUps: [
                 {
                   reply: 'Then who raised him? A dead man cannot raise himself. If God raised him (Acts 2:24), he is someone other than God.',
-                  answer: 'Scripture says the Father raised him (Galatians 1:1), that the Spirit raised him (Romans 8:11), and that he raised himself: “I have authority to lay it down and authority to take it up again” (John 10:18). That is one God acting, Father, Son and Spirit. His body lay dead in the tomb, but the Son did not stop existing or lose his power. He had said beforehand, “Destroy this temple, and in three days I will raise it up again” (John 2:19).',
+                  answer: 'Scripture says the Father raised him (Galatians 1:1), that he was made alive in the Spirit (1 Peter 3:18), and that he raised himself: “I have authority to lay it down and authority to take it up again” (John 10:18). That is one God acting, Father, Son and Spirit. His body lay dead in the tomb, but the Son did not stop existing or lose his power. He had said beforehand, “Destroy this temple, and in three days I will raise it up again” (John 2:19).',
                   followUps: [
                     {
                       reply: 'Allah is “the Ever-Living who does not die” (Quran 25:58). A god who can be killed by his creatures is weak.',
@@ -213,7 +213,7 @@ export const atonementObjections: Topic = {
         'Allah forgives all sins',
       ],
       answer: 0,
-      explanation: 'Also Quran 53:38. Yet Quran 16:25 speaks of some bearing part of the burdens of those they misled.',
+      explanation: 'Also Quran 53:38. Yet Quran 16:25 speaks of some bearing part of the burdens of those they misled, without the misled being relieved of their own.',
     },
     {
       id: 'ao-q6',
@@ -335,7 +335,7 @@ export const atonementObjections: Topic = {
         'The Father, the Spirit and Jesus himself: one God acting',
       ],
       answer: 3,
-      explanation: 'Galatians 1:1; Romans 8:11; John 10:18.',
+      explanation: 'Galatians 1:1; 1 Peter 3:18; John 10:18.',
     },
     {
       id: 'ao-q17',
