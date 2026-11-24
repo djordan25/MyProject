@@ -35,7 +35,7 @@ export const quranSources: Topic = {
       heading: 'The palm tree and the cradle',
       body: [
         'In the Quran, Mary gives birth beneath a palm tree, is told to shake the trunk for dates, and a stream is provided beneath her (Quran 19:22-26). Then the newborn Jesus speaks from the cradle to defend her (Quran 19:29-30; 3:46).',
-        'In the Gospel of Pseudo-Matthew, a palm tree bends down to feed Mary and a spring bursts out — but during the flight to Egypt, not at the birth. Jesus speaking from the cradle appears in the Arabic Infancy Gospel, which draws on earlier Syriac material (its dating relative to the Quran is debated).',
+        'In the Gospel of Pseudo-Matthew, a palm tree bends down to feed Mary and a spring bursts out — but during the flight to Egypt, not at the birth. Pseudo-Matthew is a Latin work probably no older than the Quran, so it cannot be the source; but the same palm story appears in Eastern accounts of Mary’s last days that go back to the fifth century. Jesus speaking from the cradle appears in the Arabic Infancy Gospel, which draws on earlier Syriac material (its dating relative to the Quran is debated).',
         'The Bible says Jesus was born in Bethlehem and laid in a manger (Luke 2:4-7).',
       ],
       references: ['Quran 19:22-26', 'Quran 19:29-30', 'Luke 2:4-7'],
@@ -46,7 +46,7 @@ export const quranSources: Topic = {
         'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); a raven teaching burial appears in Jewish legend (where it is Adam who learns from it). Be careful with this one: the Jewish book that records it, Pirke de-Rabbi Eliezer, was completed after Islam began, so it cannot be shown that the Quran drew on it. The stronger example follows in the next verse.',
         'The next verse is even more revealing. Quran 5:32 says, “We decreed upon the Children of Israel that whoever kills a soul… it is as if he had slain mankind entirely.” That sentence is not in the Torah — it comes from the Mishnah (Sanhedrin 4:5, compiled about AD 200), in a rabbinic passage that discusses Cain and Abel and the creation of a single Adam. The Quran presents a rabbinic teaching as God’s decree.',
         'Abraham in the fire: in the Quran, Abraham smashes idols and is thrown into a fire that Allah makes cool (Quran 21:68-69). Genesis says nothing of this. It is a Jewish midrash (Genesis Rabbah), possibly arising from the name “Ur” of the Chaldeans, which resembles a word for fire (Genesis 15:7).',
-        'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely parallels a story in the Targum Sheni to Esther, a Jewish expansion whose date is debated but which preserves older Jewish lore — not the account in 1 Kings 10.',
+        'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely parallels a story in the Targum Sheni to Esther, a Jewish expansion whose date is debated (it may be later than the Quran), though it is usually thought to draw on older Jewish lore — not the account in 1 Kings 10.',
         'Satan refusing to bow to Adam (Quran 2:34; 7:11-12) matches the Life of Adam and Eve, a Jewish-Christian legend, not Genesis.',
       ],
       references: ['Quran 5:31-32', 'Genesis 4:8-12', 'Quran 21:68-69', 'Genesis 15:7', 'Quran 27:20-23', '1 Kings 10:1-13', 'Quran 7:11-12'],
@@ -55,7 +55,7 @@ export const quranSources: Topic = {
       heading: 'More Christian legends',
       body: [
         'The companions of the cave (Quran 18:9-26), young men who sleep in a cave for 309 years (Quran 18:25), is the Christian legend of the Seven Sleepers of Ephesus. The Quran even reflects disagreement over how many there were (Quran 18:22).',
-        'Dhul-Qarnayn (Quran 18:83-98), who travels to where the sun sets in a muddy spring (18:86) and builds an iron-and-copper wall against Gog and Magog (18:96-97), parallels the Syriac Alexander Legend about Alexander the Great, a work usually dated to about the time of Muhammad’s last years, though the stories it tells of Alexander are older.',
+        'Dhul-Qarnayn (Quran 18:83-98), who travels to where the sun sets in a muddy spring (18:86) and builds an iron-and-copper wall against Gog and Magog (18:96-97), parallels the Syriac Alexander Legend about Alexander the Great, a work usually dated to about AD 629-630, in Muhammad’s last years, so scholars debate how the two are related, though the stories it tells of Alexander are older.',
       ],
       references: ['Quran 18:9-13', 'Quran 18:22', 'Quran 18:25', 'Quran 18:83-86', 'Quran 18:96-97'],
     },
@@ -95,7 +95,7 @@ export const quranSources: Topic = {
                   followUps: [
                     {
                       reply: 'You cannot date these books securely. Some of them may be later than the Quran and may have taken the stories from it.',
-                      answer: 'Some are hard to date, and I’ll say so: the Arabic Infancy Gospel and the Targum Sheni are debated, and the Jewish book that tells the raven story, Pirke de-Rabbi Eliezer, was finished after Islam began. The main examples are not in doubt. Irenaeus, about AD 180, already quotes a story about the boy Jesus and his teacher that is found in the Infancy Gospel of Thomas, and Origen, early in the third century, mentions the Book of James. The Mishnah was compiled about AD 200. These were circulating four centuries before Muhammad.',
+                      answer: 'Some are hard to date, and I’ll say so: the Arabic Infancy Gospel, Pseudo-Matthew, the Targum Sheni and the Syriac Alexander Legend are debated and may be no older than the Quran, and the Jewish book that tells the raven story, Pirke de-Rabbi Eliezer, was finished after Islam began. The main examples are not in doubt. Irenaeus, about AD 180, already quotes a story about the boy Jesus and his teacher that is found in the Infancy Gospel of Thomas, and Origen, about the middle of the third century, mentions the Book of James. The Mishnah was compiled about AD 200. These were circulating four centuries before Muhammad.',
                     },
                   ],
                 },
@@ -129,7 +129,7 @@ export const quranSources: Topic = {
           followUps: [
             {
               reply: 'Mecca was a pagan town with no church and no synagogue. Name the person who is supposed to have taught him.',
-              answer: 'The Islamic sources name several. His wife’s cousin Waraqa was a Christian who “used to write the writing with Hebrew letters. He would write from the Gospel in Hebrew” (Sahih al-Bukhari 3). A Christian convert wrote for the Prophet, then left Islam saying, “Muhammad knows nothing but what I have written for him” (Sahih al-Bukhari 3617). In Medina the Jews “used to recite the Torah in Hebrew and they used to explain it in Arabic to the Muslims” (Sahih al-Bukhari 4485). I don’t need one teacher, only a setting where these stories were told, and the hadith describe it.',
+              answer: 'The Islamic sources name several. His wife’s cousin Waraqa was a Christian who “used to write the writing with Hebrew letters. He would write from the Gospel in Hebrew” (Sahih al-Bukhari 3). A Christian convert wrote for the Prophet, then left Islam saying, “Muhammad knows nothing but what I have written for him” (Sahih al-Bukhari 3617); the hadith goes on to tell how God caused him to die and the earth cast out his body. In Medina the Jews “used to recite the Torah in Hebrew and they used to explain it in Arabic to the Muslims” (Sahih al-Bukhari 4485). I don’t need one teacher, only a setting where these stories were told, and the hadith describe it.',
               followUps: [
                 {
                   reply: 'Waraqa died a few days after the first revelation. The same hadith says so. He cannot be the source of twenty-three years of Quran.',
@@ -257,7 +257,7 @@ export const quranSources: Topic = {
       question: 'In the Quran, how does Cain learn to bury his brother?',
       options: ['An angel digs the grave', 'Adam shows him', 'He is told in a dream', 'Allah sends a crow that scratches the ground'],
       answer: 3,
-      explanation: 'Quran 5:31. Genesis has no bird in the story (Genesis 4:8-12); a raven that teaches burial belongs to Jewish legend.',
+      explanation: 'Quran 5:31. Genesis has no bird in the story (Genesis 4:8-12); a raven that teaches burial appears in Jewish legend, in a book finished after Islam began.',
     },
     {
       id: 'qs-q9',
@@ -304,7 +304,7 @@ export const quranSources: Topic = {
     },
     {
       id: 'qs-q13',
-      question: 'Which detail shows the Gospel of Barnabas was written in medieval Europe?',
+      question: 'Which detail shows the Gospel of Barnabas was written no earlier than the Middle Ages?',
       options: [
         'It mentions the Council of Nicaea',
         'It is written in Latin verse',
@@ -342,7 +342,7 @@ export const quranSources: Topic = {
       id: 'qs-q16',
       question: 'A Muslim says the apocryphal books may have copied the Quran. Which fact answers this?',
       options: [
-        'Irenaeus (about AD 180) and Origen (early third century) already knew the infancy legends',
+        'Irenaeus (about AD 180) and Origen (mid third century) already knew the infancy legends',
         'All of them were written in Arabic',
         'The Quran names the books it used',
         'None of them survives today',
@@ -367,7 +367,7 @@ export const quranSources: Topic = {
       question: 'In the Gospel of Pseudo-Matthew, when does a palm tree bend down to feed Mary?',
       options: ['At the birth of Jesus', 'In the temple, when she is a child', 'At the crucifixion', 'During the flight to Egypt'],
       answer: 3,
-      explanation: 'The Quran sets a similar scene at the birth itself (Quran 19:23-25). The Bible places the birth in Bethlehem, with a manger (Luke 2:4-7).',
+      explanation: 'The Quran sets a similar scene at the birth itself (Quran 19:23-25). Pseudo-Matthew may be no older than the Quran, but the palm story itself is older. The Bible places the birth in Bethlehem, with a manger (Luke 2:4-7).',
     },
   ],
 };
