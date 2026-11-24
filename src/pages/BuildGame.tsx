@@ -9,6 +9,8 @@ import { openTopics } from '../lib/gamePool';
 import { shuffle } from '../lib/shuffle';
 import { buzz } from '../lib/haptics';
 import RefText from '../components/RefText';
+import ArgumentDiagram from '../components/ArgumentDiagram';
+import Emblem from '../components/Emblem';
 
 const ROUND = 6;
 const KEY = 'build';
@@ -94,14 +96,12 @@ export default function BuildGame() {
       <EdProgressSegmented segments={questions.length} filled={i} tone="brand" ariaLabel="Round progress" valueText={`Argument ${i + 1} of ${questions.length}`} />
       <div className="spacer" />
       <section className="card quiz">
-        <div className="eyebrow">{q.argument.topic.title} · {q.argument.heading}</div>
-        <ol className="argument build">
-          {q.argument.steps.map((step, n) => (
-            <li key={n} className={n === q.gap ? (answered ? 'filled' : 'gap') : undefined}>
-              {n === q.gap ? (answered ? <RefText text={step} /> : <span aria-label="Missing step">?</span>) : <RefText text={step} />}
-            </li>
-          ))}
-        </ol>
+        <div className="game-source"><Emblem topic={q.argument.topic} size={40} /><span className="eyebrow">{q.argument.topic.title} · {q.argument.heading}</span></div>
+        <ArgumentDiagram
+          steps={q.argument.steps}
+          stepClass={(n) => (n === q.gap ? (answered ? 'filled' : 'gap') : undefined)}
+          renderStep={(step, n) => (n === q.gap && !answered ? <span className="arg-missing" aria-label="Missing step">?</span> : <RefText text={step} />)}
+        />
         <div className="options">
           {q.options.map((opt, n) => {
             const state = !answered ? '' : n === q.answer ? 'correct' : n === picked ? 'wrong' : 'dim';

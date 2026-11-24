@@ -5,7 +5,7 @@ import { objectionScore, overdueReviews, topicCompletion, topicSealed, useProgre
 import { stepTitle, topicAccess } from '../lib/path';
 import ReadinessRing from './ReadinessRing';
 import Seal from './Seal';
-import TopicIcon from './TopicIcon';
+import Emblem from './Emblem';
 
 /**
  * A topic as a list row: icon, title, summary, a mono status line, and its readiness ring or seal.
@@ -34,7 +34,7 @@ export default function TopicRow({ topic, summary = true, next = false }: { topi
   const best = p.quizBest[topic.id];
   return (
     <Link to={`/topic/${topic.id}`} className={`list-row${next ? ' next' : ''}`}>
-      <TopicIcon glyph={topic.icon} />
+      <Emblem topic={topic} size={48} />
       <span className="list-row-body">
         {next && <span className="eyebrow next-up">Next up</span>}
         <span className="list-row-title">{topic.title}</span>

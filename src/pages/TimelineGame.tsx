@@ -5,6 +5,7 @@ import type { TimelineEvent } from '../content/games';
 import { drawHand, HAND } from '../lib/games';
 import { progress, useProgress, XP } from '../lib/progress';
 import { buzz } from '../lib/haptics';
+import TimeAxis from '../components/TimeAxis';
 
 const KEY = 'timeline';
 
@@ -68,6 +69,13 @@ export default function TimelineGame() {
           );
         })}
       </ol>
+      {checked && (
+        <section className="card">
+          <h2>How far apart they are</h2>
+          <TimeAxis events={order} links />
+          <p className="muted"><Link to="/timeline">See the whole timeline →</Link></p>
+        </section>
+      )}
       <div className="row end" aria-live="polite">
         {checked ? (
           <>

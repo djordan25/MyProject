@@ -20,6 +20,7 @@ import Volley from './pages/Volley';
 import SortGame from './pages/SortGame';
 import TimelineGame from './pages/TimelineGame';
 import BuildGame from './pages/BuildGame';
+import TimelinePage from './pages/TimelinePage';
 import Boss from './pages/Boss';
 import Seal from './components/Seal';
 import { PassageProvider } from './components/PassagePopup';
@@ -89,6 +90,7 @@ export default function App() {
             <Route path="/play/sound-or-weak" element={<SortGame />} />
             <Route path="/play/timeline" element={<TimelineGame />} />
             <Route path="/play/build" element={<BuildGame />} />
+            <Route path="/timeline" element={<TimelinePage />} />
             <Route path="/boss/:trackId/:section" element={<Boss />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

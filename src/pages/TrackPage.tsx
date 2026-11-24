@@ -4,6 +4,7 @@ import { useProgress } from '../lib/progress';
 import { trackSeals } from '../lib/trackProgress';
 import { trackPath, trackRank } from '../lib/path';
 import BossRow from '../components/BossRow';
+import Trail from '../components/Trail';
 import { EdButton, EdIcon } from 'editorial-ui';
 import Seal from '../components/Seal';
 import TopicRow from '../components/TopicRow';
@@ -65,6 +66,7 @@ export default function TrackPage() {
           ))}
         </nav>
       )}
+      <Trail steps={path.flat()} />
       {track.sections.map((s, i) => (
         <section key={s.title} className="track-section">
           <h2 className="section-title">
