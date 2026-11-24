@@ -48,7 +48,7 @@ export const shiaImamate: Topic = {
       heading: 'Second question: why did the Imams’ followers keep dividing?',
       body: [
         'Twelver teaching says that each Imam clearly named his successor. If so, those nearest the Imams should have known who came next. The history of the Shia themselves tells another story. The Twelver scholar Tabataba’i sets it out plainly in his book Shi‘ite Islam.',
-        'After Husayn was killed, some followed his half-brother Muhammad ibn al-Hanafiyya and held that he was the Mahdi in hiding. After the fourth Imam, some followed his son Zayd and became the Zaydis. After Ja‘far al-Sadiq died in 765, his followers went four ways: to his son Musa al-Kazim, to the line of his dead son Isma‘il (the Ismailis), to another son, Abdullah, or to no one, holding that Ja‘far was the last. After Musa died, a party said he had not died and would return. After the eleventh Imam died in 874, an early Shia writer counted fourteen factions, some of which denied that he had left a son.',
+        'After Husayn was killed, some followed his half-brother Muhammad ibn al-Hanafiyya and held that he was the Mahdi in hiding. After the fourth Imam, some followed his son Zayd and became the Zaydis. After Ja‘far al-Sadiq died in 765, his followers went at least four ways: to his son Musa al-Kazim, to the line of his dead son Isma‘il (the Ismailis), to another son, Abdullah, or to no one, holding that Ja‘far was the last. After Musa died, a party said he had not died and would return. After the eleventh Imam died in 874, an early Shia writer counted fourteen factions, some of which denied that he had left a son.',
         'Sunnis did not cause these divisions. They arose among people who all believed in the Imamate and who lived closest to the Imams. Twelvers answer that the Imams were watched by hostile caliphs and often had to name their successors privately, and that at each stage most of the Shia followed the right man. Tabataba’i himself tells how the sixth Imam named several executors in his will, the caliph among them, to shield his son Musa. That may be so. But a designation that had to be hidden even from an Imam’s own followers is a long way from the public, unmistakable guidance the doctrine promises. The pattern is one of uncertainty.',
       ],
     },
@@ -162,7 +162,7 @@ export const shiaImamate: Topic = {
               followUps: [
                 {
                   reply: 'That promise of one who would come after Jesus is about the Prophet Muhammad.',
-                  answer: 'Read the whole promise. Jesus calls the one who is coming “the Spirit of truth. The world cannot receive Him, because it neither sees Him nor knows Him. But you do know Him, for He abides with you and will be in you” (John 14:17). He was to be with those very disciples for ever. A man born nearly six centuries later, whom the world saw plainly, does not fit those words. I would gladly read John 14 to 16 with you.',
+                  answer: 'Read the whole promise. Jesus calls the one who is coming “the Spirit of truth. The world cannot receive Him, because it neither sees Him nor knows Him. But you do know Him, for He abides with you and will be in you” (John 14:17). He was to be with those very disciples for ever. A man born more than five centuries later, whom the world saw plainly, does not fit those words. I would gladly read John 14 to 16 with you.',
                 },
               ],
             },
@@ -198,7 +198,7 @@ export const shiaImamate: Topic = {
               followUps: [
                 {
                   reply: 'People had no worldly reason to change the Quran. They had every reason to seize the caliphate.',
-                  answer: 'If Ali’s right had been written in it, they would have had the strongest reason of all, and some early Shia books say that is what happened. Your leading scholars have rejected those reports for a thousand years, and I accept that they do. But then you are trusting the companions at the very point where your own early sources accused them. I do not say this to trap you. A foundation that needs so much defending deserves a second look.',
+                  answer: 'If Ali’s right had been written in it, they would have had the strongest reason of all, and some early Shia books say that is what happened. Most of your leading scholars have rejected those reports for a thousand years, and I accept that they do. But then you are trusting the companions at the very point where your own early sources accused them. I do not say this to trap you. A foundation that needs so much defending deserves a second look.',
                 },
               ],
             },
@@ -206,7 +206,7 @@ export const shiaImamate: Topic = {
         },
         {
           reply: 'Ali kept silent for the sake of Islam’s unity. His patience does not cancel his right.',
-          answer: 'Perhaps so. I honour patience under wrong, and I am not Ali’s judge. But notice what the silence did. If the appointed, sinless guide lived under the rule of others for twenty-four years and gave them his pledge, ordinary Muslims of that time had no way to know that a root of their religion was being denied. A Sunni book says he gave that pledge after six months (Sahih al-Bukhari 4240), and a report in al-Kafi says he was brought to it by force. Either way he gave it. A guide who must conceal his office cannot do what the office was for.',
+          answer: 'Perhaps so. I honour patience under wrong, and I am not Ali’s judge. But notice what the silence did. If the appointed, sinless guide lived under the rule of others for twenty-four years and gave them his pledge, ordinary Muslims of that time had no way to know that a root of their religion was being denied. A Sunni book says he gave that pledge after six months (Sahih al-Bukhari 4240), and some Shia reports say he was brought to it by force. Either way he gave it. A guide who must conceal his office cannot do what the office was for.',
           followUps: [
             {
               reply: 'He did protest. He withheld his allegiance, and in the sermon of Shaqshaqiyya he said the caliphate was his by right.',
@@ -226,7 +226,7 @@ export const shiaImamate: Topic = {
       followUps: [
         {
           reply: 'A rightful ruler is still the ruler when a usurper sits in his place. The Imams were the true caliphs whether men obeyed them or not.',
-          answer: 'I understand the thought. But the report says more than that twelve men would hold a title. In Sahih Muslim it says the caliphate would not end until there had been twelve (Sahih Muslim 1821). On your reading the true caliphate was pushed aside on the first day and has been out of sight since 941. And remember what kind of evidence this is: a Sunni report resting on one companion, who says he did not catch the end of the sentence himself and had to ask his father.',
+          answer: 'I understand the thought. But the report says more than that twelve men would hold a title. In Sahih Muslim it says the caliphate would not end until there had been twelve (Sahih Muslim 1821). On your reading the true caliphate was pushed aside on the first day and has been out of sight since 941. And remember what kind of evidence this is: a Sunni report usually traced to one companion, who says he did not catch the end of the sentence himself and had to ask his father.',
           followUps: [
             {
               reply: 'Then tell me who the twelve are. Sunni scholars have guessed for a thousand years and cannot agree.',
@@ -478,6 +478,6 @@ export const shiaImamate: Topic = {
     'Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate (Cambridge University Press, 1997)',
     'Muhammad Husayn Tabataba’i, Shi‘ite Islam, translated by Seyyed Hossein Nasr (SUNY Press, 1975)',
     'Heinz Halm, Shi‘ism (Edinburgh University Press, 2004)',
-    'Abdulaziz Sachedina, Islamic Messianism: The Idea of the Mahdi in Twelver Shi‘ism (SUNY Press, 1981)',
+    'Abdulaziz Sachedina, Islamic Messianism: The Idea of Mahdi in Twelver Shi‘ism (SUNY Press, 1981)',
   ],
 };
