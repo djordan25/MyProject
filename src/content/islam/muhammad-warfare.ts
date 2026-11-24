@@ -26,17 +26,17 @@ export const muhammadWarfare: Topic = {
       heading: 'Raids, booty and captives',
       body: [
         'The Quran regulates the spoils of war: “anything you obtain of war booty — then indeed, for Allah is one fifth of it and for the Messenger…” (Quran 8:41; see 8:1 and 48:20).',
-        'Muhammad “suddenly attacked Bani Mustaliq without warning while they were heedless and their cattle were being watered… Their fighting men were killed and their women and children were taken as captives” (Sahih al-Bukhari 2541).',
+        'Muhammad “suddenly attacked Bani Mustaliq without warning while they were heedless and their cattle were being watered… Their fighting men were killed and their women and children were taken as captives” (Sahih al-Bukhari 2541). Ibn Ishaq says he had heard that they were gathering against him.',
         'Captive women became lawful to their captors as those “your right hand possesses” (Quran 4:24; 23:5-6; 33:50). When soldiers at Awtas hesitated over captive women who had husbands, the verse permitting them was revealed (Sahih Muslim 1456).',
-        'Muhammad said: “I have been made victorious with awe (cast in the hearts of the enemy), and while I was sleeping, the keys of the treasures of the world were brought to me” (Sahih al-Bukhari 2977). The Quran speaks of casting terror into the hearts of disbelievers and striking “upon the necks” (Quran 8:12; 47:4).',
+        'Muhammad said: “I have been made victorious with awe (cast in the hearts of the enemy), and while I was sleeping, the keys of the treasures of the world were brought to me” (Sahih al-Bukhari 2977). Of battle, the Quran speaks of casting terror into the hearts of disbelievers and striking “upon the necks” (Quran 8:12; 47:4): the first verse is about Badr, and the second goes on to have captives freed or ransomed.',
       ],
       references: ['Quran 8:41', 'Quran 48:20', 'Sahih al-Bukhari 2541', 'Sahih Muslim 1456', 'Quran 4:24', 'Quran 23:5-6', 'Quran 33:50', 'Sahih al-Bukhari 2977', 'Quran 8:12', 'Quran 47:4'],
     },
     {
       heading: 'Banu Qurayza and Ka’b bin al-Ashraf',
       body: [
-        'After the Jewish tribe of Banu Qurayza surrendered, Sa’d judged “that their warriors should be killed and their children and women should be taken as prisoners.” Muhammad replied, “You have judged… with the judgment of the King Allah” (Sahih al-Bukhari 3043). The Quran refers to it: “a party you killed, and you took captive a party. And He caused you to inherit their land and their homes and their properties” (Quran 33:26-27). The earliest biography, by Ibn Ishaq, puts the number of men beheaded at six or seven hundred, and adds that some put it at eight or nine hundred.',
-        'When the poet Ka’b bin al-Ashraf opposed him, Muhammad asked, “Who is willing to kill Ka’b bin Al-Ashraf who has hurt Allah and His Messenger?” and gave permission to deceive him in order to do it (Sahih al-Bukhari 4037).',
+        'After the Jewish tribe of Banu Qurayza, accused of breaking their pact during the siege of Medina, surrendered, Sa’d judged “that their warriors should be killed and their children and women should be taken as prisoners.” Muhammad replied, “You have judged… with the judgment of the King Allah” (Sahih al-Bukhari 3043). The Quran refers to it: “a party you killed, and you took captive a party. And He caused you to inherit their land and their homes and their properties” (Quran 33:26-27). One of the earliest biographies, by Ibn Ishaq, puts the number of men beheaded at six or seven hundred, and adds that some put it at eight or nine hundred; another early report says four hundred.',
+        'When the poet Ka’b bin al-Ashraf used his verses to rouse the Meccans against him after Badr, Muhammad asked, “Who is willing to kill Ka’b bin Al-Ashraf who has hurt Allah and His Messenger?” and gave permission to deceive him in order to do it (Sahih al-Bukhari 4037).',
         'And for those who leave Islam: “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922).',
       ],
       references: ['Sahih al-Bukhari 3043', 'Quran 33:26-27', 'Sahih al-Bukhari 4037', 'Sahih al-Bukhari 6922'],
@@ -60,11 +60,11 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'Read the history. The Byzantines were massing against the Muslims, and that is why the Prophet marched to Tabuk. The Quran’s rule is plain: “Fight in the way of Allah those who fight you but do not transgress” (Quran 2:190).',
-              answer: 'Ibn Ishaq’s biography says Muhammad gave orders “to raid the Byzantines”, and it records no battle at Tabuk. He stayed some ten nights, took the poll tax from Ayla, Jarba and Adhruh, and went home, and nothing is said of those towns attacking Medina. That is Quran 9:29 carried out as it is written. Quran 2:190 is an earlier verse, and Surah 9, the last surah to be revealed (Sahih al-Bukhari 4605), gives a different ground for fighting: unbelief.',
+              answer: 'Ibn Ishaq’s biography says Muhammad gave orders “to raid the Byzantines”, and it records no battle at Tabuk; al-Waqidi reports a rumour that the Byzantines were massing and says it was not true. He stayed some ten nights, took the poll tax from Ayla, Jarba and Adhruh, and went home, and nothing is said of those towns attacking Medina. That is Quran 9:29 carried out as it is written. Quran 2:190 is an earlier verse, and Surah 9, by one report the last surah to be revealed (Sahih al-Bukhari 4605), gives a different ground for fighting: unbelief.',
               followUps: [
                 {
                   reply: 'The jurists who made that a standing rule lived in an age of empires at war. Many scholars today, at al-Azhar and elsewhere, teach that jihad is defensive. You are choosing the extremists’ reading.',
-                  answer: 'I am glad that many Muslims read it that way, and I do not think you want war. My question is about Muhammad, because he is the pattern (Quran 33:21). His standing orders to his commanders were to invite the enemy to Islam, then to demand the jizya, and then, “If they refuse to pay the tax, seek Allah’s help and fight them” (Sahih Muslim 1731). All the other side has done in that hadith is decline. And the men who knew him best conquered Syria, Egypt and Persia within about twenty years of his death: either they misunderstood him, or that is what he taught.',
+                  answer: 'I am glad that many Muslims read it that way, and I do not think you want war. My question is about Muhammad, because he is the pattern (Quran 33:21). His standing orders to his commanders were to invite the enemy to Islam, then to demand the jizya, and then, “If they refuse to pay the tax, seek Allah’s help and fight them” (Sahih Muslim 1731). The hadith calls them enemies, but all it has them do is decline. And the men who knew him best conquered Syria, Egypt and Persia within about twenty years of his death: either they misunderstood him, or that is what he taught.',
                   followUps: [
                     {
                       reply: 'Those conquests freed people from Byzantine and Persian tyranny. Many Christians in Syria and Egypt welcomed the Muslims.',
@@ -82,7 +82,7 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'Those caravans carried wealth taken from the emigrants. Mecca and Medina were at war, and striking the enemy’s trade is part of war.',
-              answer: 'Suppose I grant that for Quraish. It does not cover the rest. The Banu Mustaliq were attacked “without warning while they were heedless”, their fighting men killed and their women and children taken (Sahih al-Bukhari 2541). Ibn Ishaq says Muhammad had heard they were gathering against him, so call it a strike made in advance. Sahih Muslim 1730 cites this very raid to show that an enemy need not be invited to Islam before he is attacked, and a raid used as a precedent for that is not self-defence.',
+              answer: 'Suppose I grant that for Quraish. It does not cover the rest. The Banu Mustaliq were attacked “without warning while they were heedless”, their fighting men killed and their women and children taken (Sahih al-Bukhari 2541). Ibn Ishaq and al-Waqidi say Muhammad had heard they were gathering against him (al-Waqidi even prefers a report that they were called to Islam first), so call it a strike made in advance. Sahih Muslim 1730 cites this very raid to show that an enemy need not be invited to Islam before he is attacked, and a raid used as a precedent for that is not self-defence.',
             },
           ],
         },
@@ -100,11 +100,11 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'A command of God is a command of God. If wiping out the Canaanites was moral, you cannot call the Prophet’s far more restrained wars immoral. He offered Islam or the jizya. Joshua offered nothing, and Saul was told to kill even infants (1 Samuel 15:3).',
-              answer: 'I have not argued that God may never judge by war. He did, and those passages are hard. My argument is about limits and direction. Israel’s wars were fenced: God named the nations (Deuteronomy 20:16-17) and forbade Israel to take so much as a footprint of Edom, Moab or Ammon (Deuteronomy 2:4-5, 9, 19). Then God spoke his last word “by His Son” (Hebrews 1:1-2), who told his people to love their enemies, and six centuries later Muhammad brings back the sword with no boundary of land or time.',
+              answer: 'I have not argued that God may never judge by war. He did, and those passages are hard. My argument is about limits and direction. Israel’s wars were fenced: God named the nations to be destroyed (Deuteronomy 20:16-17) and forbade Israel to take so much as a footprint of Edom, Moab or Ammon (Deuteronomy 2:4-5, 9, 19). Then God spoke his last word “by His Son” (Hebrews 1:1-2), who told his people to love their enemies, and six centuries later Muhammad brings back the sword with no boundary of land or time.',
               followUps: [
                 {
                   reply: 'Your Jesus is not so peaceful. In Revelation he returns to strike down the nations and tread the winepress of God’s wrath (Revelation 19:15). Muslims also believe that Jesus will come back and fight.',
-                  answer: 'He will return as judge, and I do not soften that. Judgment belongs to God, and Revelation pictures the sword coming “from His mouth” (Revelation 19:15). The question is who may carry out judgment now. Christians are told, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). The Quran tells Muslims, “Fight them; Allah will punish them by your hands” (Quran 9:14).',
+                  answer: 'He will return as judge, and I do not soften that. Judgment belongs to God, and Revelation pictures the sword coming “from His mouth” (Revelation 19:15). The question is who may carry out judgment now. Christians are told, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). The Quran tells Muslims, of those who broke their oaths and attacked first, “Fight them; Allah will punish them by your hands” (Quran 9:14).',
                 },
               ],
             },
@@ -168,7 +168,7 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'He did not spread the faith by fighting. “There shall be no compulsion in [acceptance of] the religion” (Quran 2:256). The jizya was a tax for protection, in place of the zakat and the military service that Muslims owed. Conquered peoples kept their religion for centuries.',
-              answer: 'Christians and Jews under Muslim rule were not usually forced to convert, and I grant that. What I said is that he fought to extend his rule. The choice put to people who had done nothing was Islam, the jizya or war (Sahih Muslim 1731), and the jizyah was to be paid “while they are humbled” (Quran 9:29). A tax paid on pain of attack is not a free arrangement. And Quran 9:5 offers the polytheists of Arabia no tax at all: “kill the polytheists wherever you find them”, unless they repent, pray and give zakah.',
+              answer: 'Christians and Jews under Muslim rule were not usually forced to convert, and I grant that. What I said is that he fought to extend his rule. The choice his commanders were to put to an enemy was Islam, the jizya or war (Sahih Muslim 1731), and the jizyah was to be paid “while they are humbled” (Quran 9:29). A tax paid on pain of attack is not a free arrangement. And Quran 9:5 offers the polytheists of Arabia no tax at all: “kill the polytheists wherever you find them”, unless they repent, pray and give zakah.',
               followUps: [
                 {
                   reply: 'Quran 9:5 is about the polytheists who broke their treaties. The verse before it exempts those who kept faith, and the verse after it grants protection to any who ask.',
@@ -184,18 +184,18 @@ export const muhammadWarfare: Topic = {
           followUps: [
             {
               reply: 'By the standards of the seventh century, treason meant death. And the figure of six to nine hundred comes from Ibn Ishaq, whom Malik distrusted. Scholars such as W. N. Arafat doubt the whole account.',
-              answer: 'The number is uncertain, and one sound hadith says four hundred (Jami at-Tirmidhi 1582). Arafat did argue, in 1976, that the traditional account cannot be trusted. But the event does not rest on Ibn Ishaq: the Quran says “a party you killed, and you took captive a party” (Quran 33:26), and Bukhari records the sentence and Muhammad’s approval of it (Sahih al-Bukhari 3043). As for the standards of the time, that defence gives up the claim that he is the pattern for all time (Quran 33:21).',
+              answer: 'The number is uncertain, and one sound hadith says four hundred (Jami at-Tirmidhi 1582). Arafat did argue, in 1976, that the traditional account cannot be trusted, and M. J. Kister answered him in detail in 1986. But the event does not rest on Ibn Ishaq: the Quran says “a party you killed, and you took captive a party” (Quran 33:26), and Bukhari records the sentence and Muhammad’s approval of it (Sahih al-Bukhari 3043). As for the standards of the time, that defence gives up the claim that he is the pattern for all time (Quran 33:21).',
             },
             {
               reply: 'Deuteronomy 20 lays down that very sentence: the men put to the sword, the women and children taken. If it was just for Moses, it was just for Muhammad.',
-              answer: 'Deuteronomy 20:10-15 is a rule for Israel’s wars under the old covenant, against a city that refuses peace and fights. I have said that those wars were bounded and are no pattern for anyone now. If the rule is being borrowed, two things follow. Muslims usually say the Torah has been corrupted, so it is strange to rest a prophet’s justice on it. And the appeal grants my point: Muhammad stands with the warfare of the old covenant, while Jesus brought something new (Matthew 5:44).',
+              answer: 'Deuteronomy 20:10-15 is a rule for Israel’s wars under the old covenant, against a city that refuses peace on terms of forced labour and fights. I have said that those wars were bounded and are no pattern for anyone now. If the rule is being borrowed, two things follow. Muslims usually say the Torah has been corrupted, so it is strange to rest a prophet’s justice on it. And the appeal grants my point: Muhammad stands with the warfare of the old covenant, while Jesus brought something new (Matthew 5:44).',
             },
           ],
         },
       ],
       objection: 'Muhammad forbade killing women and children and mutilating the dead.',
       response:
-        'That’s true, and it’s fair to acknowledge it — Sahih al-Bukhari 3015 records him forbidding the killing of women and children, and Sahih Muslim 1731 forbids mutilation and killing children. But Sahih Muslim 1731 instructs his armies to fight those who disbelieve, inviting them to Islam, then demanding the jizya, and fighting if they refuse. Rules for conducting war don’t change the fact that Muhammad led wars to spread his rule. Jesus gave his followers no rules for war, because he gave them no war to fight.',
+        'That’s true, and it’s fair to acknowledge it — Sahih al-Bukhari 3015 records him forbidding the killing of women and children, and Sahih Muslim 1731 forbids mutilation and killing children. Ibn Ishaq also records that when he took Mecca he spared most of the enemies who had fought him for years. But Sahih Muslim 1731 instructs his armies to fight those who disbelieve, inviting them to Islam, then demanding the jizya, and fighting if they refuse. Rules for conducting war don’t change the fact that Muhammad led wars to spread his rule. Jesus gave his followers no rules for war, because he gave them no war to fight.',
       keyPoints: ['Acknowledge the restrictions honestly.', 'Same hadith commands offensive fighting.', 'Jesus gave no war to fight.'],
       references: ['Sahih al-Bukhari 3015', 'Sahih Muslim 1731', 'John 18:36'],
     },
