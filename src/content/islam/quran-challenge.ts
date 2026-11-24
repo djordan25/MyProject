@@ -9,7 +9,7 @@ export const quranChallenge: Topic = {
     {
       heading: 'The challenge',
       body: [
-        'The Quran challenges doubters: “produce a surah the like thereof” (Quran 2:23); “bring forth a surah like it” (Quran 10:38); even if mankind and jinn joined together, they could not produce its like (Quran 17:88). Many Muslims see the Quran’s unmatched eloquence (i’jaz) as the miracle proving Islam.',
+        'The Quran challenges doubters: “produce a surah the like thereof” (Quran 2:23); “bring forth a surah like it” (Quran 10:38); even if mankind and jinn joined together, they could not produce its like (Quran 17:88). Many Muslims see the Quran’s inimitability (i’jaz), above all its eloquence, as the miracle proving Islam.',
       ],
       references: ['Quran 2:23-24', 'Quran 10:38', 'Quran 17:88'],
     },
@@ -54,7 +54,7 @@ export const quranChallenge: Topic = {
               followUps: [
                 {
                   reply: 'Even his enemies admitted its power. Hardened poets were overcome when they heard it, and Western scholars of Arabic praise its style to this day.',
-                  answer: 'I accept that it moved people and still does. But being moved is not evidence that the speaker is God. Muhammad himself said, “Some eloquent speech is as effective as magic” (Sahih al-Bukhari 5767). And Muslims have not always agreed on what exactly cannot be imitated. The early Mu‘tazilite theologian al-Nazzam taught that the Arabs could have matched it, and that God turned them away from trying. If a Muslim theologian could hold that, the miracle is not plain on the face of the text.',
+                  answer: 'I accept that it moved people and still does. But being moved is not evidence that the speaker is God. Muhammad himself said, “Some eloquent speech is as effective as magic” (Sahih al-Bukhari 5767). And Muslims have not always agreed on what exactly cannot be imitated. The early Mu‘tazilite theologian al-Nazzam taught that the Arabs could have matched it, and that God turned them away from trying. Most later scholars rejected his view, but if a Muslim theologian could hold it, the miracle is not plain on the face of the text.',
                   followUps: [
                     {
                       reply: 'Then stop arguing and try. Produce three lines to match the shortest surah.',
@@ -80,7 +80,7 @@ export const quranChallenge: Topic = {
     {
       id: 'qc-2',
       followUps: [
-        { reply: 'No unlettered man could know so much about the earlier prophets.', answer: 'He had contact with Jews and Christians, and their stories circulated by word of mouth. The Quran records his critics saying that a man was teaching him (Quran 16:103). And what it tells of earlier prophets often matches later legends, not the Bible (see Borrowed Stories).',
+        { reply: 'No unlettered man could know so much about the earlier prophets.', answer: 'He had contact with Jews and Christians, and their stories circulated by word of mouth. The Quran records, and rejects, his critics’ charge that a man was teaching him (Quran 16:103). And what it tells of earlier prophets often matches later legends, not the Bible (see Borrowed Stories).',
           followUps: [
             {
               reply: 'For forty years he composed nothing, not one line of verse. Then came a book of law, worship, history and warning unlike anything the poets made. A man does not turn into that overnight.',
@@ -118,7 +118,7 @@ export const quranChallenge: Topic = {
           followUps: [
             {
               reply: 'It was not an even contest. Persia had taken Jerusalem and was overrunning the empire. Even Gibbon wrote that no prophecy could have been more distant from its accomplishment.',
-              answer: 'Gibbon’s sentence begins, “At the time when this prediction is said to have been delivered”. He knew the dating rests on later tradition, and the tradition is not of one mind: one report graded sound says these verses were revealed on the day of Badr, when the Romans had already won (Jami at-Tirmidhi 3192). Grant the usual dating, and the numbers are still loose. Jerusalem fell in 614, and Heraclius did not break Persia until the battle of Nineveh at the end of 627. That is thirteen years, not three to nine.',
+              answer: 'Gibbon’s sentence begins, “At the time when this prediction is said to have been delivered”. The dating rests on later tradition, and the tradition is not of one mind: one report graded sound says these verses were revealed on the day of Badr, when the Romans had already won (Jami at-Tirmidhi 3192). Grant the usual dating, and the numbers are still loose. Jerusalem fell in 614, and Heraclius did not break Persia until the battle of Nineveh at the end of 627. That is thirteen years, not three to nine.',
               followUps: [
                 {
                   reply: 'Count from the right points. Heraclius began winning in 622, and the tide had turned by 624, the year of Badr, when the believers rejoiced as the verse says.',
@@ -130,11 +130,11 @@ export const quranChallenge: Topic = {
         },
         {
           reply: 'Your examples are no better. Micah is speaking of a clan, Isaiah 53 is about Israel, and “pierced” in Psalm 22 is a Christian mistranslation of “like a lion”.',
-          answer: 'Take them one at a time. On Psalm 22:16 you have a point: most medieval Hebrew manuscripts read “like a lion”, while the Greek translation made before Christ has a verb, “they dug”, so I will not rest the case on that word. The psalm still describes a man mocked and surrounded, his bones showing, his clothes divided by lot (Psalm 22:7-8; 22:17-18). Isaiah’s servant cannot be Israel, because he is struck “for the transgression of My people” and has done no violence (Isaiah 53:8-9). And Jewish teachers were reading Micah as naming the Messiah’s town before any Christian argued it (Matthew 2:4-6; John 7:42).',
+          answer: 'Take them one at a time. On Psalm 22:16 you have a point: most medieval Hebrew manuscripts read “like a lion”, while the Greek translation made before Christ has a verb, “they dug”, so I will not rest the case on that word. The psalm still describes a man mocked and surrounded, his bones showing, his clothes divided by lot (Psalm 22:7-8; 22:17-18). Isaiah’s servant cannot be Israel, because he is struck “for the transgression of My people” and has done no violence (Isaiah 53:8-9). And reading Micah as naming the Messiah’s town was a Jewish reading: the Gospels report it of the scribes and the crowd, and the Aramaic Targum of Micah names the Messiah in that verse (Matthew 2:4-6; John 7:42).',
           followUps: [
             {
               reply: 'The Gospel writers knew those texts and shaped their story of Jesus to match them. That is not fulfilment.',
-              answer: 'The texts were certainly there first: a complete scroll of Isaiah among the Dead Sea Scrolls was copied more than a century before Jesus was born. But the writers could not arrange the things that matter. Nobody chooses his birthplace, and the disciples would not have chosen a Roman cross for their Messiah, which Paul calls “a stumbling block to Jews” (1 Corinthians 1:23). People do not invent a fulfilment that wrecks their own hopes. The crucifixion is also reported outside the New Testament, by the Roman historian Tacitus.',
+              answer: 'The texts were certainly there first: a complete scroll of Isaiah among the Dead Sea Scrolls was copied more than a century before Jesus was born. But the writers could not arrange the things that matter. Nobody chooses his birthplace, and the disciples would not have chosen a Roman cross for their Messiah, which Paul calls “a stumbling block to Jews” (1 Corinthians 1:23). People do not invent a fulfilment that wrecks their own hopes. His execution under Pilate is also reported outside the New Testament, by the Roman historian Tacitus.',
             },
           ],
         },

@@ -10,7 +10,7 @@ export const branchesOfIslam: Topic = {
       heading: 'Ask before you argue',
       body: [
         'Much of this course argues from Sahih al-Bukhari and Sahih Muslim. That works with Sunni Muslims, who are the large majority, an estimated 87 to 90 percent. It works less well with others. So ask early, and with real interest: “Which books do you follow besides the Quran?”',
-        'Whatever the answer, arguments drawn from the Quran itself apply to every group below, because all of them accept the Quran.',
+        'Whatever the answer, arguments drawn from the Quran itself apply to nearly every group below, because nearly all of them accept the Quran. The Druze, who have their own scripture, and many Alevis are the exceptions.',
       ],
     },
     {
@@ -56,10 +56,10 @@ export const branchesOfIslam: Topic = {
     {
       heading: 'Other communities',
       body: [
-        'Three more communities grew out of Islam or carry its name, and stand apart from both Sunni and Shia Islam. Each has its own sub-track.',
-        'The Nation of Islam is an American movement that began in Detroit in 1930 with W. D. Fard and was built up by Elijah Muhammad. It teaches that Fard was Allah in person, that Elijah Muhammad was his messenger, and that black people are the original people of the earth, teachings that Sunni and Shia Muslims reject. After Elijah Muhammad died in 1975 his son moved the organisation towards mainstream Islam, and in 1978 Louis Farrakhan formed the present Nation of Islam on the older teachings. See the Nation of Islam sub-track.',
+        'Three more sub-tracks cover communities that grew out of Islam or carry its name, and that stand apart from mainstream Sunni and Twelver Shia Islam, though Alawites and many Alevis count themselves Muslims.',
+        'The Nation of Islam is an American movement that began in Detroit in 1930 with W. D. Fard and was built up by Elijah Muhammad. It teaches that Fard was Allah in person, that Elijah Muhammad was his messenger, and that black people are the original people of the earth, teachings that Sunni and Shia Muslims reject. After Elijah Muhammad died in 1975 his son moved the organisation towards mainstream Islam, and from late 1977 Louis Farrakhan rebuilt the present Nation of Islam on the older teachings. See the Nation of Islam sub-track.',
         'The Druze arose in Egypt in the early eleventh century, out of Ismaili Shia Islam in the reign of the Fatimid caliph al-Hakim. About a million live mainly in Syria, Lebanon and Israel. The community has accepted no converts since 1043, its sacred writings are studied only by its initiated members, and it teaches that souls are reborn in new bodies. See the sub-track The Druze.',
-        'Alawites and Alevis are two different communities whose names both come from Ali. The Alawites, also called Nusayris, live mainly in north-western Syria and trace their teaching to Ibn Nusayr in the ninth century. Their doctrine is kept secret and treats Ali as a manifestation of God. The Alevis live in Turkey and among Turkish and Kurdish migrants in Europe. They revere Ali and the twelve Imams and the thirteenth-century saint Haji Bektash, and their central gathering is the cem, with music and ritual dance, in which women take full part. See the Alawites and Alevis sub-track.',
+        'Alawites and Alevis are two different communities whose names both come from Ali. The Alawites, long known as Nusayris, live mainly in north-western Syria and trace their teaching to Ibn Nusayr in the ninth century. Their traditional doctrine, kept secret, treats Ali as a manifestation of God, though many Alawites today present themselves as Twelver Shia. The Alevis live in Turkey and among Turkish and Kurdish migrants in Europe. They revere Ali and the twelve Imams and the thirteenth-century saint Haji Bektash, and their central gathering is the cem, with music and ritual dance, in which women take full part. See the Alawites and Alevis sub-track.',
       ],
     },
   ],
