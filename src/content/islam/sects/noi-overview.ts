@@ -11,7 +11,7 @@ export const noiOverview: Topic = {
       heading: 'Detroit, 1930',
       body: [
         'The Nation of Islam began in Detroit in 1930, among black families who had left the segregated South for northern factory work and then met the Depression. A man who gave his name as Wallace D. Fard went from door to door selling silks and cloth, and began to teach in the homes of those who would listen. Malcolm X, repeating what Elijah Muhammad told him, describes a peddler who called himself “a brother from the East”, warned against pork, taught from both the Bible and the Quran, and said that the true religion of black people was Islam.',
-        'Fard’s origins are unknown. The Nation teaches that he came from Mecca, and its members keep his birthday, 26 February, as Saviours’ Day. The FBI identified him, by fingerprints, with a Wallie D. Ford who had served a sentence in San Quentin prison in California, and its own files give that man two birthplaces, Portland in Oregon and New Zealand. The Nation rejects the identification and says the records were falsified. What is agreed is short. He taught in Detroit for about four years, gathered a following among the city’s poor, and in 1934 he disappeared. No one has shown what became of him.',
+        'Fard’s origins are unknown. The Nation teaches that he came from Mecca, and its members keep his birthday, 26 February, as Saviours’ Day. The FBI identified him, by fingerprints, with a Wallie D. Ford who had served a sentence in San Quentin prison in California, and its own files give that man two birthplaces, Portland in Oregon and New Zealand. The Nation rejects the identification and says the records were falsified. What is agreed is short. He taught for about four years, mostly in Detroit, gathered a following among the city’s poor, and in 1934 he disappeared. No one has shown what became of him.',
         'One of his hearers was Elijah Poole, born in Sandersville, Georgia, in 1897, who had brought his family north to Detroit. Fard renamed him Elijah Muhammad and made him his chief assistant.',
       ],
     },
@@ -19,7 +19,7 @@ export const noiOverview: Topic = {
       heading: 'Elijah Muhammad, 1934 to 1975',
       body: [
         'After Fard vanished, Elijah Muhammad led the movement from Chicago until his death on 25 February 1975. He was known as the Messenger of Allah. It was he who taught the doctrine that marks the Nation off from every other body that uses the name of Islam: that Fard had been Allah himself, God in person.',
-        'From 1942 to 1946 he was in federal prison for resisting the wartime draft. After his release the Nation grew, most of all in the late 1950s and early 1960s. It opened temples in the large cities, ran its own schools and businesses, and sold its newspaper, Muhammad Speaks, on street corners. In 1965 he published Message to the Blackman in America, the fullest statement of his teaching. This lesson takes the Nation’s doctrines from that book and from the twelve-point statement of belief printed in it, part of what the Nation calls the Muslim Program.',
+        'Arrested in 1942, he was in federal prison until 1946 for resisting the wartime draft. After his release the Nation grew, most of all in the late 1950s and early 1960s. It opened temples in the large cities, ran its own schools and businesses, and sold its newspaper, Muhammad Speaks, on street corners. In 1965 he published Message to the Blackman in America, the fullest statement of his teaching. This lesson takes the Nation’s doctrines from that book and from the twelve-point statement of belief printed in it, part of what the Nation calls the Muslim Program.',
         'He did not hide his view of the churches. He wrote that Christianity is “one of the most perfect black-slave-making religions on our planet”. Most of his first followers had been raised in church, and he himself had grown up in Georgia in the years of lynching. That background has to be understood before anything is said in reply.',
       ],
     },
@@ -34,7 +34,7 @@ export const noiOverview: Topic = {
     {
       heading: 'After 1975: two roads',
       body: [
-        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission in 1978, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
+        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission by 1980, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
         'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change. In the late 1970s he broke away and re-founded the Nation of Islam on Elijah Muhammad’s teachings, with a new newspaper, The Final Call. This is the body that carries the name today. On 16 October 1995 he led the Million Man March in Washington, billed as a day of atonement and reconciliation for black men. Estimates of the crowd run from about 400,000 to more than a million.',
         'The Nation today is small. In a Pew Research Center survey of 2017 only 3 percent of American-born black Muslims said they identified with it. Its influence is far wider than its membership, through its newspaper, its speakers, its work in prisons and its place in the memory of black America.',
       ],
@@ -81,11 +81,11 @@ export const noiOverview: Topic = {
       objection:
         'We are Muslims. We believe in Allah, we read the Holy Quran, we pray, we fast and our people go to Mecca. Who are you, a Christian, to tell us we are not real Muslims?',
       response:
-        'It isn’t my place to rule on that, and I’m not trying to take your name from you. I only notice what each side says in its own words. The Muslim Program says that Allah appeared in the person of Master Fard Muhammad in 1930. The Quran says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that Muhammad is the “last of the prophets” (Quran 33:40). Malcolm X and Elijah Muhammad’s own son Warith Deen Mohammed read those verses and decided the two could not be held together. I would like to understand how you hold them together.',
+        'It isn’t my place to rule on that, and I’m not trying to take your name from you. I only notice what each side says in its own words. The Muslim Program says that Allah appeared in the person of Master Fard Muhammad in 1930. The Quran says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that Muhammad is the “last of the prophets” (Quran 33:40). Malcolm X and Elijah Muhammad’s own son Warith Deen Mohammed both left the Nation’s teaching for the Islam of those verses. I would like to understand how you hold them together.',
       keyPoints: [
         'Do not argue about the name. Compare the Nation’s own statement of belief with the Quran.',
         'God in the person of a man, and a messenger after Muhammad, contradict Quran 42:11, 112:3 and 33:40.',
-        'Malcolm X and Warith Deen Mohammed left the doctrine for that reason.',
+        'Malcolm X and Warith Deen Mohammed both left the doctrine for Sunni Islam.',
       ],
       references: ['Quran 42:11', 'Quran 112:3', 'Quran 33:40', 'Quran 5:3', 'Acts 17:11', 'John 1:14', '1 Corinthians 15:3-8'],
       followUps: [
