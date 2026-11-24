@@ -1,101 +1,125 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { EdIcon } from 'editorial-ui';
-import { topics } from '../content';
-import { isDue, localDate, useProgress } from '../lib/progress';
-import { nextStep, stepLink, stepTitle, topicCleared, topicStarted } from '../lib/path';
-import { getTopic } from '../content';
-import PlayerStrip from '../components/PlayerStrip';
+import { EdButton, EdIcon } from 'editorial-ui';
+import { getTopic, trackForTopic, type Topic, type Track } from '../content';
+import { currentStreak, DAILY_GOAL, levelOf, useProgress, xpToday } from '../lib/progress';
+import { nextStep, stepLink, topicCleared, topicStarted, trackRank } from '../lib/path';
 import { buildSession } from '../lib/session';
 import { AUDIENCES, DOUBTS_FIRST, orderedTracks, useAudience } from '../lib/profile';
 import Onboarding from '../components/Onboarding';
-import TopicIcon from '../components/TopicIcon';
+import Emblem from '../components/Emblem';
+import ProgressBar from '../components/ProgressBar';
 import TrackRow from '../components/TrackRow';
 
-const MAX_SHOWN = 3;
-const DAY = 24 * 60 * 60 * 1000;
+/** The one thing to do now. */
+interface Next {
+  eyebrow: string;
+  title: string;
+  why: string;
+  to: string;
+  button: string;
+  topic?: Topic;
+  track?: Track;
+}
 
+/**
+ * Home answers one question: what do I do now? It shows a single next step with a single button.
+ * Reviews that are due come first, because a short warm-up keeps what was learned; otherwise it is the next step on the path.
+ * Everything else (standing, the other tracks) sits below, quietly.
+ */
 export default function Home() {
   const p = useProgress();
   const audience = useAudience();
   const [changing, setChanging] = useState(false);
-  // The step to suggest: the next one on the path of the track this learner is working through.
+
+  if (!audience || changing) {
+    return (
+      <>
+        <section className="hero">
+          <h1>Be ready with an answer</h1>
+          <p>Learn the arguments, practise answering real objections, and test yourself, a few minutes at a time. One question first, so the app can point you to the right place.</p>
+        </section>
+        <Onboarding current={audience} onDone={() => setChanging(false)} />
+      </>
+    );
+  }
+
+  const tracks = orderedTracks(audience);
   const doubt = audience === 'doubts' ? DOUBTS_FIRST.map((id) => getTopic(id)).find((t) => t && !topicCleared(p, t)) : undefined;
-  const step = orderedTracks(audience).map((t) => nextStep(p, t)).find(Boolean);
-  const next = doubt ? { title: doubt.title, icon: doubt.icon, to: `/topic/${doubt.id}`, started: topicStarted(p, doubt) }
-    : step ? { title: stepTitle(step), icon: step.kind === 'topic' ? step.topic.icon : '⚔', to: stepLink(step), started: step.kind === 'boss' || topicStarted(p, step.topic) }
-    : null;
-  const started = Boolean(next?.started);
-  // Objections already practised at least once whose review date has arrived.
-  const due = topics.flatMap((t) => t.objections).filter((o) => p.drills[o.id] && isDue(p, o.id)).length;
-  const today = buildSession(p, audience);
-  const reviews = today.drills.filter((d) => d.kind !== 'new').length;
-  const fresh = today.drills.length - reviews;
-  const parts = [
-    reviews && `${reviews} review${reviews === 1 ? '' : 's'}`,
-    fresh && `${fresh} new objection`,
-    today.verse && '1 memory verse',
-    today.quiz.length && `${today.quiz.length} quiz questions`,
-  ].filter(Boolean);
-  // The last seven days, oldest first, for the practice strip.
-  const now = Date.now();
-  const week = Array.from({ length: 7 }, (_, i) => {
-    const t = now - (6 - i) * DAY;
-    return { key: localDate(t), label: new Date(t).toLocaleDateString(undefined, { weekday: 'narrow' }), on: p.days.includes(localDate(t)), today: i === 6 };
-  });
-  const practised = week.filter((d) => d.on).length;
+  const step = tracks.map((t) => nextStep(p, t)).find(Boolean);
+  const session = buildSession(p, audience);
+  const reviews = session.drills.filter((d) => d.kind === 'review').length;
+
+  // The step on the path, kept as the second choice when reviews come first.
+  const path: Next | null = doubt
+    ? { eyebrow: topicStarted(p, doubt) ? 'Continue' : 'Start here', title: doubt.title, why: doubt.summary, to: `/topic/${doubt.id}`, button: topicStarted(p, doubt) ? 'Continue the lesson' : 'Start the lesson', topic: doubt, track: trackForTopic(doubt.id) }
+    : step?.kind === 'topic'
+      ? { eyebrow: topicStarted(p, step.topic) ? 'Continue' : p.xp ? 'Next lesson' : 'Start here', title: step.topic.title, why: step.topic.summary, to: stepLink(step), button: topicStarted(p, step.topic) ? 'Continue the lesson' : 'Start the lesson', topic: step.topic, track: trackForTopic(step.topic.id) }
+      : step
+        ? { eyebrow: 'Section challenge', title: step.section.title, why: 'You have cleared every topic in this section. Pass the challenge to open the next one.', to: stepLink(step), button: 'Take the challenge', track: step.track }
+        : null;
+  const next: Next | null = reviews
+    ? { eyebrow: 'Warm up first', title: `${reviews} review${reviews === 1 ? '' : 's'} due`, why: `Answers you have practised are due again. About ${session.minutes} minutes keeps them from fading, then carry on with the path.`, to: '/today', button: 'Start the warm-up' }
+    : path;
+
+  const rank = next?.track ? trackRank(p, next.track) : null;
+  const level = levelOf(p.xp);
+  const today = xpToday(p);
+  const streak = currentStreak(p);
+  const others = next?.track ? tracks.filter((t) => t.id !== next.track!.id) : tracks;
 
   return (
     <>
-      <section className="hero">
-        <h1>Be ready with an answer</h1>
-        <p>Learn the arguments, practise answering real objections, and test yourself — a few minutes at a time.</p>
-        {audience && !changing && (
-          <p className="focus-line">
-            Preparing for <strong>{AUDIENCES.find((a) => a.id === audience)?.focus}</strong> ·{' '}
-            <button type="button" className="link-btn" onClick={() => setChanging(true)}>Change</button>
-          </p>
-        )}
-      </section>
-      {(!audience || changing) && <Onboarding current={audience} onDone={() => setChanging(false)} />}
-
-      <PlayerStrip />
-
-      <Link to="/today" className="card today" aria-label={`Start today’s practice: ${parts.join(', ')}`}>
-        <div className="today-main">
-          <span className="today-body">
-            <span className="eyebrow">Today’s practice · about {today.minutes} min</span>
-            <strong>{parts.join(' · ')}</strong>
-          </span>
-          <span className="btn primary today-start" aria-hidden>
-            Start <EdIcon name="ArrowRight" size="sm" />
-          </span>
-        </div>
-        <div className="today-week" aria-label={`Practised on ${practised} of the last 7 days`}>
-          {week.map((d) => (
-            <span key={d.key} className={`day${d.on ? ' on' : ''}${d.today ? ' today' : ''}`}><i />{d.label}</span>
-          ))}
-          <small>{due > MAX_SHOWN ? `${due} objections due in all` : practised ? `${practised} of 7 days` : 'A few minutes a day'}</small>
-        </div>
-      </Link>
-
-      {next && (
-        <Link to={next.to} className="card card-link continue">
-          <span className="continue-label">
-            <TopicIcon glyph={next.icon} />
-            <span>
-              <span className="eyebrow">{started ? 'Continue on the path' : 'Start here'}</span>
-              <strong>{next.title}</strong>
-            </span>
-          </span>
-          <span className="go">{started ? 'Resume →' : 'Begin →'}</span>
+      {p.xp > 0 && (
+        <Link to="/progress" className="home-stats" aria-label={`Your standing: ${streak} day streak, ${Math.min(today, DAILY_GOAL)} of ${DAILY_GOAL} points today, level ${level.name}`}>
+          <span className={streak ? 'on' : undefined}><EdIcon name="Flame" size="sm" aria-hidden /> {streak} day{streak === 1 ? '' : 's'}</span>
+          <span className={today >= DAILY_GOAL ? 'on' : undefined}><EdIcon name={today >= DAILY_GOAL ? 'CircleCheck' : 'Target'} size="sm" aria-hidden /> {Math.min(today, DAILY_GOAL)}/{DAILY_GOAL} today</span>
+          <span>{level.name}</span>
         </Link>
       )}
 
-      <div className="section-head"><h2>Tracks</h2></div>
-      <div className="list">
-        {orderedTracks(audience).map((t) => <TrackRow key={t.id} track={t} />)}
-      </div>
+      {next ? (
+        <section className="card next-card">
+          <div className="next-art">
+            {next.topic ? <Emblem topic={next.topic} size={96} /> : <span className="next-glyph"><EdIcon name={reviews ? 'RotateCcw' : 'Swords'} size="lg" aria-hidden /></span>}
+          </div>
+          <div className="eyebrow">{next.eyebrow}</div>
+          <h1>{next.title}</h1>
+          <p className="next-why">{next.why}</p>
+          <EdButton asChild variant="primary" size="lg">
+            <Link to={next.to}>{next.button} <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link>
+          </EdButton>
+          {reviews > 0 && path && (
+            <p className="next-alt">Or go straight to <Link to={path.to}>{path.title}</Link></p>
+          )}
+          {rank && next.track && (
+            <Link to={`/track/${next.track.id}`} className="next-progress">
+              <span>{next.track.title} · step {Math.min(rank.cleared + 1, rank.total)} of {rank.total}</span>
+              <ProgressBar value={rank.cleared / rank.total} label={`${rank.cleared} of ${rank.total} steps cleared`} />
+              <span className="go">See the whole path →</span>
+            </Link>
+          )}
+        </section>
+      ) : (
+        <section className="card next-card">
+          <div className="eyebrow">Path complete</div>
+          <h1>Every step is cleared</h1>
+          <p className="next-why">Keep what you have learned fresh with a short round.</p>
+          <EdButton asChild variant="primary" size="lg"><Link to="/play">Play a round <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link></EdButton>
+        </section>
+      )}
+
+      <details className="home-more">
+        <summary>{next?.track ? 'Other tracks' : 'All tracks'}</summary>
+        <div className="list">
+          {others.map((t) => <TrackRow key={t.id} track={t} />)}
+        </div>
+      </details>
+
+      <p className="focus-line">
+        Preparing for <strong>{AUDIENCES.find((a) => a.id === audience)?.focus}</strong> ·{' '}
+        <button type="button" className="link-btn" onClick={() => setChanging(true)}>Change</button>
+      </p>
     </>
   );
 }

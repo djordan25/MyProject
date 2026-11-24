@@ -72,6 +72,7 @@ import {
   ListOrdered as ListOrderedIcon,
   Target as TargetIcon,
   RotateCcw as RotateCcwIcon,
+  House as HouseIcon,
   Puzzle as PuzzleIcon,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
@@ -155,5 +156,6 @@ export const ICONS: Record<string, LucideIcon> = {
   ListOrdered: ListOrderedIcon,
   Target: TargetIcon,
   RotateCcw: RotateCcwIcon,
+  House: HouseIcon,
   Puzzle: PuzzleIcon,
 };

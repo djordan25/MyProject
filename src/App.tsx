@@ -27,14 +27,14 @@ import { PassageProvider } from './components/PassagePopup';
 import XpToast from './components/XpToast';
 
 const NAV: { to: string; label: string; icon: EdIconName }[] = [
-  { to: '/', label: 'Tracks', icon: 'LibraryBig' },
+  { to: '/', label: 'Home', icon: 'House' },
   { to: '/practice', label: 'Practice', icon: 'MessagesSquare' },
   { to: '/play', label: 'Play', icon: 'Gamepad2' },
   { to: '/progress', label: 'Progress', icon: 'ChartNoAxesColumn' },
   { to: '/search', label: 'Search', icon: 'Search' },
 ];
 
-/** Tracks stays active while browsing a track or topic. */
+/** Home stays active while browsing a track or topic. */
 const isActive = (to: string, path: string) =>
   to === '/'
     ? path === '/' || path.startsWith('/track') || path.startsWith('/topic') || path.startsWith('/boss')
