@@ -28,7 +28,7 @@ export const quranConsistency: Topic = {
       body: [
         '“There shall be no compulsion in [acceptance of] the religion” (Quran 2:256).',
         'Yet: “Fight those who do not believe in Allah or in the Last Day… from those who were given the Scripture — [fight] until they give the jizyah willingly while they are humbled” (Quran 9:29). Muhammad said, “I have been ordered to fight against the people until they testify that none has the right to be worshipped but Allah and that Muhammad is Allah’s Messenger” (Sahih al-Bukhari 25). And: “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922).',
-        'Many Muslims answer that 2:256 was abrogated by later verses — which concedes that the Quran’s commands changed (see below).',
+        'Some classical commentators answered that 2:256 was abrogated by later verses — which concedes that the Quran’s commands changed (see below). Others, al-Tabari among them, held that it was never abrogated: it covers the People of the Scripture, whom 9:29 requires to pay, not to convert.',
       ],
       references: ['Quran 2:256', 'Quran 9:29', 'Sahih al-Bukhari 25', 'Sahih al-Bukhari 6922'],
     },
@@ -37,7 +37,7 @@ export const quranConsistency: Topic = {
       body: [
         'Quran 2:62 and 5:69 say that Jews, Christians and Sabeans who believe in Allah and the Last Day and do righteousness need have no fear and will not grieve; 2:62 adds that they “will have their reward with their Lord”.',
         'But the Quran also says, “whoever desires other than Islam as religion - never will it be accepted from him” (Quran 3:85). And Quran 5:72-73 says those who call the Messiah God, or say Allah is “the third of three”, have disbelieved.',
-        'Muslims reconcile these by saying 2:62 refers only to people before Muhammad, or was abrogated. Either way, the plain reading of the verses points in opposite directions.',
+        'Muslims reconcile these by saying 2:62 refers only to people before Muhammad, or, in a view attributed to Ibn Abbas, was abrogated. Either way, the plain reading of the verses points in opposite directions.',
       ],
       references: ['Quran 2:62', 'Quran 5:69', 'Quran 3:85', 'Quran 5:72-73'],
     },
@@ -45,7 +45,7 @@ export const quranConsistency: Topic = {
       heading: 'One hundred lashes — or stoning?',
       body: [
         'The Quran’s penalty for sexual immorality is “a hundred lashes” (Quran 24:2).',
-        'But Umar said the verse of stoning was revealed and Muhammad stoned adulterers (Sahih al-Bukhari 6830; Sahih Muslim 1691), and Islamic law follows the hadith. So the Quran and the most authentic hadith prescribe different punishments — or the Quran is missing a verse.',
+        'But Umar said the verse of stoning was revealed and Muhammad stoned adulterers (Sahih al-Bukhari 6830; Sahih Muslim 1691), and Islamic law stones the married offender, keeping the lashes for the unmarried. So the Quran and the most authentic hadith prescribe different punishments — or the Quran is missing a verse.',
       ],
       references: ['Quran 24:2', 'Sahih al-Bukhari 6830', 'Sahih Muslim 1691'],
     },
@@ -66,7 +66,7 @@ export const quranConsistency: Topic = {
         { reply: 'Scholars of the Quran have an explanation for every one of those verses.', answer: 'I’m sure they do, and I would like to hear them. But notice that explanations are needed at all. Quran 4:82 says a book from anyone but Allah would contain much contradiction, and a book that needs centuries of explanation to remove its contradictions has not plainly passed that test.',
           followUps: [
             {
-              reply: 'Then hear one. In Arabic the “four days” of verse 10 take in the two days of verse 9, as when I say that I reached Basra in two days and Baghdad in four. Ibn Kathir explains it so, and the total is six.',
+              reply: 'Then hear one. In Arabic the “four days” of verse 10 take in the two days of verse 9, as when I say that I reached Basra in two days and Baghdad in four. Ibn Kathir counts the days so, and the total is six.',
               answer: 'That is the standard answer, and the Arabic can bear it. But the verse does not say it, so the figure of six has to be brought in from elsewhere to decide what this passage means. It also leaves the order unsolved. Here the earth and its mountains come first, and then God turns to the heaven (Quran 41:10-11; see 2:29). In Surah 79 the heaven is built first: “And after that He spread the earth” (Quran 79:30).',
               followUps: [
                 {
@@ -117,14 +117,14 @@ export const quranConsistency: Topic = {
           followUps: [
             {
               reply: 'The first figure was the ideal and the second a concession to weakness. Allah always knew. He sent the easier rule when the time was right. Your own Bible relaxes its laws.',
-              answer: 'That is a possible reading, and I grant that God knew. But then the first verse laid down a duty God knew to be beyond them, and replaced it almost at once. The Bible’s great change is of another kind: it was announced centuries ahead (Jeremiah 31:31-34), and it came with the one who fulfilled the law (Matthew 5:17). The Quran’s changes fall within one man’s career, often as his circumstances changed. That pattern is what made his hearers suspicious.',
+              answer: 'That is a possible reading, and I grant that God knew. But then the first verse laid down a duty God knew to be beyond them, and replaced it in the very next verse. The Bible’s great change is of another kind: it was announced centuries ahead (Jeremiah 31:31-34), and it came with the one who fulfilled the law (Matthew 5:17). The Quran’s changes fall within one man’s career, often as his circumstances changed. That pattern is what made his hearers suspicious.',
             },
           ],
         },
       ],
       objection: 'Abrogation isn’t contradiction; Allah gradually revealed His law.',
       response:
-        'If Allah’s words can’t be changed (Quran 6:115), how can verses be replaced? And Quran 4:82 says a book from God would not have much contradiction — abrogation is a mechanism invented to handle verses that otherwise contradict. The Bible does describe a new covenant, but it’s announced in advance (Jeremiah 31:31-34) and fulfilled in Christ, not verses swapped within one book over 23 years.',
+        'If Allah’s words can’t be changed (Quran 6:115), how can verses be replaced? And Quran 4:82 says a book from God would not have much contradiction — abrogation is a mechanism used to handle verses that otherwise contradict. The Bible does describe a new covenant, but it’s announced in advance (Jeremiah 31:31-34) and fulfilled in Christ, not verses swapped within one book over 23 years.',
       keyPoints: ['Unchangeable vs replaced verses.', 'Abrogation manages contradictions.', 'Biblical covenants were foretold.'],
       references: ['Quran 6:115', 'Quran 2:106', 'Quran 4:82', 'Jeremiah 31:31-34'],
     },
@@ -318,7 +318,7 @@ export const quranConsistency: Topic = {
         'That the Quran was not revealed in Arabic',
       ],
       answer: 2,
-      explanation: 'Then “No change is there in the words of Allah” (Quran 10:64) has to be squared with verses that replace verses (Quran 2:106).',
+      explanation: 'Then “No change is there in the words of Allah” (Quran 10:64) has to be squared with verses that replace verses (Quran 2:106), though Ibn Kathir takes those words to mean God’s promise to his friends.',
     },
     {
       id: 'qcn-q17',
