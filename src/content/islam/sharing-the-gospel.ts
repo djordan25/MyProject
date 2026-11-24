@@ -35,7 +35,7 @@ export const sharingTheGospel: Topic = {
     {
       heading: 'Count the cost with them',
       body: [
-        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam is death (Sahih al-Bukhari 6922). Do not treat a Muslim’s hesitation as mere stubbornness.',
+        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam is death (Sahih al-Bukhari 6922). Today only a few states have that penalty in law and a growing number of Muslim scholars reject it, though many still uphold it. Do not treat a Muslim’s hesitation as mere stubbornness.',
         'Jesus was honest about the cost (Luke 14:28), and equally honest about the reward: no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… and in the age to come, eternal life” (Mark 10:29-30).',
         'That promise is kept partly through you. A Muslim who comes to Christ needs a new family at once: a place at your table, people to pray with, practical help. If your church is not ready to be that family, start preparing it now.',
       ],
@@ -45,7 +45,7 @@ export const sharingTheGospel: Topic = {
       heading: 'Your part and God’s part',
       body: [
         'Be a friend, not a salesman. Eat together, ask about their family, keep your word. Speak well: “Let your speech always be gracious, seasoned with salt, so that you may know how to answer everyone” (Colossians 4:6).',
-        'Pray for them by name. No one comes to Jesus unless the Father draws him (John 6:44). Many Muslims who have come to Christ speak of years of quiet witness from a Christian friend before anything seemed to change.',
+        'Pray for them by name. No one comes to Jesus unless the Father draws him (John 6:44). In one survey of about 750 Muslims who had come to Christ, the influence they ranked highest was the way the Christians they knew lived.',
         'And be patient. “I planted the seed and Apollos watered it, but God made it grow” (1 Corinthians 3:6). You are responsible for telling the truth clearly and lovingly. The result is God’s.',
       ],
       references: ['Colossians 4:5-6', 'John 6:44', '1 Corinthians 3:6', 'Romans 10:1'],
