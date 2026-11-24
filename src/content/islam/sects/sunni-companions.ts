@@ -12,7 +12,7 @@ export const sunniCompanions: Topic = {
         'A companion (sahabi) is a person who met Muhammad as a believer and died a Muslim. That is the definition given by the Sunni scholar Ibn Hajar, who died in 1449, and it takes in many thousands of people. Sunni doctrine holds that all of them are upright (‘udul). In practice this means that a hadith scholar examines every narrator in a chain for honesty and memory until he reaches the companion at the top. The companion’s honesty is taken as given.',
         'The texts behind the doctrine are well known. Muhammad said, “The best people are those of my generation, and then those who will come after them” (Sahih al-Bukhari 6429; see also Sahih Muslim 2533). He said, “Do not abuse my companions for if any one of you spent gold equal to Uhud (in Allah’s Cause) it would not be equal to a Mud or even a half Mud spent by one of them” (Sahih al-Bukhari 3673). The Quran says Allah is pleased with the first emigrants and helpers (Quran 9:100) and with those who pledged themselves under the tree (Quran 48:18).',
         'Everything in Sunni Islam passes through these people. Every hadith begins with a companion. The Quran itself was gathered and copied by companions (Sahih al-Bukhari 4986, 4987). An early hadith master, Abu Zur‘a al-Razi, is reported to have said that anyone who belittles a companion is attacking the witnesses in order to bring down the Quran and the Sunna. The creed of al-Tahawi, which is accepted across the Sunni schools, calls love of the companions part of faith and hatred of them unbelief and hypocrisy.',
-        'So this is not a side issue. If the witnesses are in doubt, so is what they handed on. The question for this lesson is what the Sunni books themselves say about them. The hard facts below all come from Sahih al-Bukhari and Sahih Muslim, and nothing comes from Shia books.',
+        'So this is not a side issue. If the witnesses are in doubt, so is what they handed on. The question for this lesson is what the Sunni books themselves say about them. The hard facts below nearly all come from Sahih al-Bukhari and Sahih Muslim, and nothing comes from Shia books.',
       ],
       references: ['Sahih al-Bukhari 6429', 'Sahih Muslim 2533', 'Sahih al-Bukhari 3673', 'Sahih Muslim 2540', 'Quran 9:100', 'Quran 48:18', 'Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987'],
     },
@@ -22,7 +22,7 @@ export const sunniCompanions: Topic = {
         'Muhammad died in 632 without an agreed successor. Days before, he asked for writing materials to set down “a statement after which you will not go astray”. Umar said he was very ill and that “we have got Allah’s Book with us and that is sufficient for us”. The companions quarrelled at the bedside, Muhammad sent them out, and Ibn Abbas called it a great disaster that the statement was never written (Sahih al-Bukhari 114).',
         'Umar later told the story of the succession from the pulpit. As soon as Muhammad was dead, the men of Medina met in a roofed shed to choose a leader of their own. Abu Bakr and Umar hurried there. Umar says, “‘Ali and Zubair and whoever was with them, opposed us”. One of the men of Medina proposed, “There should be one ruler from us and one from you”. Voices rose, Umar feared a split, and he took Abu Bakr’s hand and pledged allegiance on the spot. He admitted afterwards that the pledge “was given suddenly and it was successful. No doubt, it was like that, but Allah saved (the people) from its evil” (Sahih al-Bukhari 6830).',
         'Then came the inheritance. Fatima, Muhammad’s daughter, asked Abu Bakr for her share of her father’s lands. Abu Bakr refused, saying he had heard Muhammad say that prophets leave no inheritance. “Therefore Fatima left Abu Bakr and did not speak to him till she died” (Sahih al-Bukhari 6725). She lived six months more. Ali buried her at night without telling Abu Bakr, and only after her death did he give his own pledge (Sahih al-Bukhari 4240). Yet Muhammad had said, “Fatima is a part of me, and he who makes her angry, makes me angry” (Sahih al-Bukhari 3714).',
-        'Sunnis answer that Abu Bakr was obeying what he had heard from Muhammad. Some read “did not speak to him” as meaning that she did not raise the inheritance again. Many cite a report in al-Bayhaqi, outside the six books, that Abu Bakr visited Fatima in her last illness and she was reconciled to him. Ibn Hajar accepts it, while noting that its chain is incomplete: it stops at a narrator of the next generation. The Shia read these events very differently (see Ali, Ghadir Khumm and the Imamate). You do not need to decide who was right. Notice only what Bukhari records: the best generation was divided over power from the first day, and over property soon after.',
+        'Sunnis answer that Abu Bakr was obeying what he had heard from Muhammad, and that the saying about Fatima’s anger was spoken when Ali proposed to take a second wife. Some read “did not speak to him” as meaning that she did not raise the inheritance again. Many cite a report in al-Bayhaqi, outside the six books, that Abu Bakr visited Fatima in her last illness and she was reconciled to him. Ibn Hajar accepts it, while noting that its chain is incomplete: it stops at a narrator of the next generation. The Shia read these events very differently (see Ali, Ghadir Khumm and the Imamate). You do not need to decide who was right. Notice only what Bukhari records: the best generation was divided over power from the first day, and over property soon after.',
       ],
       references: ['Sahih al-Bukhari 114', 'Sahih al-Bukhari 6830', 'Sahih al-Bukhari 6725', 'Sahih al-Bukhari 4240', 'Sahih al-Bukhari 3714'],
     },
@@ -188,7 +188,7 @@ export const sunniCompanions: Topic = {
       id: 'snc-4',
       objection: 'You are repeating Shia propaganda. These stories come from liars and Rafidi historians. The people of the Sunna do not accept them.',
       response:
-        'I have quoted Sunni books only, and for every hard fact Sahih al-Bukhari or Sahih Muslim. Fatima’s break with Abu Bakr is in Bukhari (Sahih al-Bukhari 6725). The scene in the shed is in Umar’s own words (Sahih al-Bukhari 6830). So are the Camel (Sahih al-Bukhari 7100), Siffin (Sahih al-Bukhari 7308) and the two swords (Sahih al-Bukhari 31). And I am not making the Shia case. Their answer is that Ali and his descendants were infallible, and I do not accept that either. My point is narrower. Sunni books record things that Sunni doctrine finds hard to hold.',
+        'I have quoted Sunni books only, and for nearly every hard fact Sahih al-Bukhari or Sahih Muslim. Fatima’s break with Abu Bakr is in Bukhari (Sahih al-Bukhari 6725). The scene in the shed is in Umar’s own words (Sahih al-Bukhari 6830). So are the Camel (Sahih al-Bukhari 7100), Siffin (Sahih al-Bukhari 7308) and the two swords (Sahih al-Bukhari 31). And I am not making the Shia case. Their answer is that Ali and the imams descended from him were infallible, and I do not accept that either. My point is narrower. Sunni books record things that Sunni doctrine finds hard to hold.',
       keyPoints: ['Quote only Bukhari and Muslim.', 'You are not arguing for the Shia.', 'The difficulty is inside the Sunni sources.'],
       references: ['Sahih al-Bukhari 6725', 'Sahih al-Bukhari 6830', 'Sahih al-Bukhari 7100', 'Sahih al-Bukhari 7308', 'Sahih al-Bukhari 31'],
       followUps: [
@@ -198,7 +198,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Their quarrel was over politics, not over their honesty as reporters. No companion ever lied about the Prophet.',
-              answer: 'That is the very thing that needs showing, and it cannot be shown by reports that come through the companions themselves. In the introduction to Sahih Muslim, Ibn Sirin says that people did not ask for chains of narrators until the strife broke out. Then they said, name your men to us. Sunni scholars usually take that strife to be the civil war. So reports could no longer be taken on trust. And companions corrected one another. When Aisha heard what Umar and his son reported about the dead being punished for their family’s weeping, she said, “By Allah, Allah’s Messenger did not say that a believer is punished by the weeping of his relatives” (Sahih al-Bukhari 1288).',
+              answer: 'That is the very thing that needs showing, and it cannot be shown by reports that come through the companions themselves. In the introduction to Sahih Muslim, Ibn Sirin says that people did not ask for chains of narrators until the strife broke out. Then they said, name your men to us. Sunni scholars usually take that strife to be the first civil war. So reports could no longer be taken on trust. And companions corrected one another. When Aisha heard what Umar and his son reported about the dead being punished for their family’s weeping, she said, “By Allah, Allah’s Messenger did not say that a believer is punished by the weeping of his relatives” (Sahih al-Bukhari 1288).',
               followUps: [
                 {
                   reply: 'A slip of memory is not a lie. Uprightness means they did not lie on purpose, and the scholars compared their reports.',
@@ -214,7 +214,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Ali did give his pledge in the end and served under the three caliphs before him. That shows there was no lasting quarrel.',
-              answer: 'He did, and Bukhari records that the Muslims were glad of it (Sahih al-Bukhari 4240). I grant it fully. But the same report has Ali say that Abu Bakr’s party had not consulted his family and that they felt they had a right in the matter. The wound did not close. Twenty-five years later it opened into the first civil war, and the Sunni and Shia division has never healed.',
+              answer: 'He did, and Bukhari records that the Muslims were glad of it (Sahih al-Bukhari 4240). I grant it fully. But the same report has Ali say that Abu Bakr’s party had not consulted his family and that they felt they had a right in the matter. The wound did not close. Twenty-four years later it opened into the first civil war, and the Sunni and Shia division has never healed.',
             },
           ],
         },
@@ -477,7 +477,7 @@ export const sunniCompanions: Topic = {
         'That the Shia are right about Ali',
         'That al-Tabari is a reliable historian',
         'That Sunni scholars secretly agree with you',
-        'That everything you have quoted is from Sahih al-Bukhari and Sahih Muslim',
+        'That the hard facts you have quoted are in Sahih al-Bukhari and Sahih Muslim',
       ],
       answer: 3,
       explanation: 'Fatima’s anger, the shed, the Camel, Siffin, the two swords and the Pond are all in the two Sahihs.',
@@ -494,9 +494,9 @@ export const sunniCompanions: Topic = {
     'Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate (Cambridge University Press, 1997). A detailed academic history of the first four caliphs.',
     'Hugh Kennedy, The Prophet and the Age of the Caliphates (Routledge, 3rd ed. 2016). A standard history of the period.',
     'Fred M. Donner, Muhammad and the Believers: At the Origins of Islam (Harvard University Press, 2010).',
-    'Lesley Hazleton, After the Prophet: The Epic Story of the Shia-Sunni Split (Doubleday, 2009). A readable narrative drawn from al-Tabari.',
+    'Lesley Hazleton, After the Prophet: The Epic Story of the Shia-Sunni Split in Islam (Doubleday, 2009). A readable narrative drawn from al-Tabari.',
     'The History of al-Tabari, volumes 15 to 17 (State University of New York Press, 1990–1997). The classical Muslim historian’s account of Uthman’s death, the Camel and Siffin, in English.',
-    'Sean McDowell, The Fate of the Apostles (Routledge, 2015). A careful weighing of the evidence for how each apostle died.',
+    'Sean McDowell, The Fate of the Apostles (Ashgate, 2015; reissued by Routledge). A careful weighing of the evidence for how each apostle died.',
     'Richard Bauckham, Jesus and the Eyewitnesses (Eerdmans, 2nd ed. 2017).',
   ],
 };
