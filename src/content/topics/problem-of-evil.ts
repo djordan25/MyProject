@@ -17,7 +17,7 @@ export const problemOfEvil: Topic = {
       heading: 'The logical problem',
       body: [
         'Claim: an all-good, all-powerful God and evil are logically incompatible.',
-        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by atheist philosophers as well, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded in 1982 that evil does not show theism to be logically inconsistent.',
+        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by many atheist philosophers as well, though not all, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded in 1982 that evil does not show theism to be logically inconsistent, though he still judged that the free will defence itself fails.',
       ],
     },
     {
@@ -40,8 +40,8 @@ export const problemOfEvil: Topic = {
       heading: 'What the alternatives offer',
       body: [
         'Every view of the world has to say something about suffering, so it is fair to compare answers.',
-        'If there is no God, there is no one to blame and no one to appeal to. Suffering is simply what happens in an indifferent universe, and our sense that it ought not to be so is a feeling with nothing behind it.',
-        'If the law of karma is true, suffering is the fruit of a person’s own past actions, in this life or an earlier one. The sufferer is reaping what was sown.',
+        'If there is no God, there is no one to blame and no one to appeal to. Suffering is simply what happens in an indifferent universe, and, though some atheist philosophers dispute this, our sense that it ought not to be so seems to be a feeling with nothing behind it.',
+        'If the law of karma is true, much suffering is the fruit of a person’s own past actions, in this life or an earlier one. To that extent the sufferer is reaping what was sown, though Buddhist teaching counts karma as only one cause of suffering among several.',
         'Christianity says that evil is real and is not how things were meant to be; that God is against it; that he entered it himself; and that he will end it. Of the three, only this one takes both the horror of evil and the worth of the sufferer with full seriousness.',
       ],
     },
@@ -124,7 +124,7 @@ export const problemOfEvil: Topic = {
         },
         {
           reply: 'Christians have often said that disasters are God’s punishment on the people they strike. That is a monstrous thing to believe.',
-          answer: 'Some have said it, and Jesus contradicted them. When a tower in Jerusalem fell and killed eighteen people, he asked, “Do you think that they were more sinful than all the others living in Jerusalem? No, I tell you” (Luke 13:4-5). When his disciples assumed a man’s blindness was a punishment, he said, “Neither this man nor his parents sinned” (John 9:2-3). He will not let anyone read a person’s guilt off their suffering; what he does say is that life is short for all of us, so be ready.',
+          answer: 'Some have said it, and Jesus contradicted them. When a tower in Jerusalem fell and killed eighteen people, he asked, “Do you think that they were more sinful than all the others living in Jerusalem? No, I tell you” (Luke 13:4-5). When his disciples assumed a man’s blindness was a punishment, he said, “Neither this man nor his parents sinned” (John 9:2-3). He will not let anyone read a person’s guilt off their suffering; what he does say is that all of us need to repent while there is time.',
         },
       ],
       objection: 'What about natural disasters? Those aren’t caused by free will.',
@@ -304,7 +304,7 @@ export const problemOfEvil: Topic = {
         'By saying that evil is needed for the economy of nature',
       ],
       answer: 1,
-      explanation: 'If there is no God, our sense that suffering ought not to be is a feeling with nothing behind it.',
+      explanation: 'The lesson argues that if there is no God, our sense that suffering ought not to be is a feeling with nothing behind it.',
     },
     {
       id: 'poe-q8',

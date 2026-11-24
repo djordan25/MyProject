@@ -18,7 +18,7 @@ export const hardPassages: Topic = {
       body: [
         'It was judgment, not land-grabbing or racial hatred. God told Abraham his descendants would wait four hundred years, “for the iniquity of the Amorites is not yet complete” (Genesis 15:16). Israel was told plainly that it was “because of their wickedness”, not Israel’s goodness (Deuteronomy 9:4-5). That wickedness included burning children as sacrifices (Deuteronomy 12:31).',
         'God was patient first. Centuries passed between his word to Abraham and the judgment. God says elsewhere that when a nation turns from evil he relents (Jeremiah 18:7-8), and that he takes no pleasure in the death of the wicked (Ezekiel 18:23). Nineveh repented and was spared, to Jonah’s annoyance (Jonah 4:11).',
-        'There was a way out. Rahab, a Canaanite, confessed Israel’s God (Joshua 2:9-11) and was spared with her whole family (Joshua 6:25); she appears in the family line of Jesus. The Gibeonites, who obtained a treaty by a trick, were still spared because Israel had sworn an oath to them (Joshua 9:15-20).',
+        'Some found a way out. Rahab, a Canaanite, confessed Israel’s God (Joshua 2:9-11) and was spared with her whole family (Joshua 6:25); she appears in the family line of Jesus. The Gibeonites, who obtained a treaty by a trick, were still spared because Israel had sworn an oath to them (Joshua 9:15-20).',
         'Israel was held to the same standard. God warned that if Israel did the same things, the land would “vomit you out as it spewed out the nations before you” (Leviticus 18:28). Later he did exactly that, by Assyria and Babylon. This was not favouritism.',
         'It was limited. The command concerned particular peoples in a particular land at one point in history. It was never a general permission to make war on unbelievers, and nothing like it is given to the church.',
       ],
@@ -28,7 +28,7 @@ export const hardPassages: Topic = {
       heading: 'How to think about it',
       body: [
         'If God exists, he is the giver of every life and has the right to judge. Every death is, in the end, in his hands. The question is not whether he may judge but whether he was just in doing so, and the text says he waited centuries and judged real evil.',
-        'Many scholars point out that the conquest accounts use the sweeping language of ancient war reports (“left no survivors”), while the same books go on to describe those peoples still living in the land. The commands focus on driving the nations out. This softens the picture but does not remove the difficulty, so do not lean on it as if it did.',
+        'Many scholars argue that the conquest accounts use the sweeping language of ancient war reports (“left no survivors”), while the same books go on to describe those peoples still living in the land. The commands speak of driving the nations out as well as of destroying them. This softens the picture but does not remove the difficulty, so do not lean on it as if it did.',
         'Christians read the Old Testament through Jesus. When his disciples wanted to call down fire on a village, he rebuked them (Luke 9:54-55). He told his followers, “love your enemies and pray for those who persecute you” (Matthew 5:44). At the cross, God’s judgment on evil fell on himself. That is the clearest picture of what God is like.',
       ],
       references: ['Luke 9:54-55', 'Matthew 5:44', 'Genesis 18:25'],
@@ -37,9 +37,9 @@ export const hardPassages: Topic = {
       heading: 'Slavery: what the Bible actually says',
       body: [
         'The word “slave” makes us think of the Atlantic slave trade: people kidnapped, sold as property for life, on the basis of race. The law of Moses made the kidnapping on which that trade depended a capital crime: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16).',
-        'Most servitude in ancient Israel was debt service. A person who could not pay worked off the debt, and “in the seventh year you must set him free”, and not empty-handed (Deuteronomy 15:12-15). A servant permanently injured by his master went free (Exodus 21:26-27). A slave who fled to Israel for refuge was not to be handed back (Deuteronomy 23:15-16). Israel was to remember that they had been slaves themselves.',
+        'Much servitude in ancient Israel was debt service. A person who could not pay worked off the debt, and “in the seventh year you must set him free”, and not empty-handed (Deuteronomy 15:12-15). A servant permanently injured by his master went free (Exodus 21:26-27). A slave who fled to Israel for refuge was not to be handed back (Deuteronomy 23:15-16). Israel was to remember that they had been slaves themselves.',
         'These laws regulated a practice that existed everywhere in the ancient world; they did not invent it or call it good. Jesus said of another law that Moses permitted something “because of your hardness of heart; but it was not this way from the beginning” (Matthew 19:8). Some laws restrain an evil without approving it.',
-        'Be honest about the hard edges: foreign slaves could be held for life, and the laws fall short of what we would want. The direction, though, is clear when set beside the other law codes of the time.',
+        'Be honest about the hard edges: foreign slaves could be held for life, and the laws fall short of what we would want. The direction, though, is clear at several points when set beside the other law codes of the time.',
       ],
       references: ['Exodus 21:16', 'Deuteronomy 15:12-15', 'Exodus 21:26-27', 'Deuteronomy 23:15-16', 'Matthew 19:8'],
     },
@@ -68,7 +68,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: '“I trust what I don’t understand” is what the follower of any religion says to defend an atrocity. If another faith’s scripture told its people to kill children, you would condemn it at once. This is special pleading.',
-              answer: 'It would be, if I had no reasons. I would ask of any such claim who gave the command, on what grounds, for how long, and whether the one who gave it has shown himself good. Here the text says it was the giver of every life, judging real evil after centuries of patience, at one moment that he never repeated. And he has shown his character in the open, at the cross. I am not saying that killing children is acceptable; I am saying that God alone has authority over life and death (Deuteronomy 32:39), and that no human being may claim it.',
+              answer: 'It would be, if I had no reasons. I would ask of any such claim who gave the command, on what grounds, for how long, and whether the one who gave it has shown himself good. Here the text says it was the giver of every life, judging real evil after centuries of patience, in one early period of Israel’s history, never extended to anyone since. And he has shown his character in the open, at the cross. I am not saying that killing children is acceptable; I am saying that God alone has authority over life and death (Deuteronomy 32:39), and that no human being may claim it.',
               followUps: [
                 {
                   reply: 'William Lane Craig says the children went straight to heaven, so they were not wronged. On that reasoning killing children does them a favour. That is monstrous.',
@@ -80,11 +80,11 @@ export const hardPassages: Topic = {
         },
         {
           reply: 'Rahab was one household. The command itself was total: “you must not leave alive anything that breathes” (Deuteronomy 20:16-17). You cannot make that sound like a judge handing down a measured sentence.',
-          answer: 'The command is as stark as you say, but read how the same books describe what was done. Joshua is said to have conquered the whole region, “leaving no survivors” (Joshua 10:40), and then we are told that those peoples were still there and that Israel could not drive them out (Joshua 15:63; Judges 1:27-28). The command itself goes straight on to forbid marrying them (Deuteronomy 7:1-3), which assumes survivors. “No survivors” was how ancient kings wrote up a victory: an Egyptian pharaoh’s inscription from the end of the thirteenth century BC boasts that Israel’s seed is no more. I do not lean on this too hard, because people died, and not only soldiers.',
+          answer: 'The command is as stark as you say, but read how the same books describe what was done. Joshua is said to have conquered the whole region, “leaving no survivors” (Joshua 10:40), and then we are told that those peoples were still there and that Israel could not drive them out (Joshua 15:63; Judges 1:27-28). The same command, as Deuteronomy 7 gives it, goes straight on to forbid marrying them (Deuteronomy 7:1-3), which seems to assume survivors. “No survivors” was how ancient kings wrote up a victory: an Egyptian pharaoh’s inscription from the end of the thirteenth century BC boasts that Israel’s seed is no more. I do not lean on this too hard, because people died, and not only soldiers.',
           followUps: [
             {
               reply: 'The order against Amalek spells it out: “men and women, children and infants” (1 Samuel 15:3). That is not a figure of speech.',
-              answer: 'It is the same stock list, and the same thing happens. Saul is said to have “devoted all the others to destruction with the sword” (1 Samuel 15:8), yet Amalekites are raiding in force later in the same reign (1 Samuel 27:8; 30:1). So the wording describes a crushing defeat and not the death of every last person. That still leaves a judgment carried out by the sword, and I will not pretend it stops troubling me. I read it knowing the same God bore the sword of judgment himself at the cross.',
+              answer: 'Some scholars read that as a stock list too, and the same thing happens. Saul is said to have “devoted all the others to destruction with the sword” (1 Samuel 15:8), yet Amalekites are raiding in force later in the same reign (1 Samuel 27:8; 30:1). So the wording may describe a crushing defeat and not the death of every last person, though the chapter does condemn Saul for what he spared. That still leaves a judgment carried out by the sword, and I will not pretend it stops troubling me. I read it knowing the same God bore the sword of judgment himself at the cross.',
             },
           ],
         },
@@ -104,7 +104,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: 'They did not think they were disobeying. Crusade preachers and colonial settlers quoted Joshua. As long as those chapters are in the book, somebody will use them.',
-              answer: 'Some did quote Joshua, and any text can be misused. What matters is whether the misuse can be corrected from the text, and here it can. The New Testament gives the church no land, no army and no sword. “The weapons of our warfare are not the weapons of the world” (2 Corinthians 10:3-4), and Jesus told Pilate that if his kingdom were of this world his servants would fight (John 18:36). Those who preached holy war had to read against Jesus’ own words, and other Christians told them so at the time.',
+              answer: 'Some did quote Joshua, and any text can be misused. What matters is whether the misuse can be corrected from the text, and here it can. The New Testament gives the church no land, no army and no sword. “The weapons of our warfare are not the weapons of the world” (2 Corinthians 10:3-4), and Jesus told Pilate that if his kingdom were of this world his servants would fight (John 18:36). Those who preached holy war had to read against Jesus’ own words, and some Christians told them so at the time.',
               followUps: [
                 {
                   reply: 'Jesus said, “I have not come to bring peace, but a sword.” And in Revelation he comes back to strike down the nations. He is not as peaceful as you make out.',
@@ -134,7 +134,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: 'He managed to forbid shellfish, mixed cloth and gathering sticks on the Sabbath. A God who can legislate about fabric can write one line against owning people.',
-              answer: 'I feel the force of that, but look at what he did forbid. Kidnapping a person for sale carried death (Exodus 21:16). A runaway slave was not to be sent back but allowed to settle wherever he chose (Deuteronomy 23:15-16), and a law like that, if it is kept, means nobody can be held who is determined to leave. In a world with no welfare and no bankruptcy courts, working off a debt was how the destitute stayed alive. The law fenced the practice in and pointed beyond it, but I agree that it stops short of abolition.',
+              answer: 'I feel the force of that, but look at what he did forbid. Kidnapping a person for sale carried death (Exodus 21:16). A runaway slave was not to be sent back but allowed to settle wherever he chose (Deuteronomy 23:15-16), a law with no parallel in the other codes of the time, though most scholars think it meant slaves escaping from abroad. In a world with no welfare and no bankruptcy courts, working off a debt was how the destitute stayed alive. The law fenced the practice in and pointed beyond it, but I agree that it stops short of abolition.',
               followUps: [
                 {
                   reply: 'Leviticus 25 lets Israelites buy foreigners, keep them for life and leave them to their children as property. Exodus 21 says a master who beats his slave goes unpunished if the slave survives a day or two, “since the servant is his property”. That is chattel slavery.',
@@ -156,7 +156,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: 'Hints in a private letter. Meanwhile slavery went on for another seventeen centuries. If God wanted it ended, he could have said so plainly.',
-              answer: 'It was not a hint to the people who first lived it, in churches where a slave and his owner ate at one table as brothers. The effect showed early. In the fourth century the bishop Gregory of Nyssa preached that to own a human being made in God’s image is an offence against God, one of the earliest attacks on slavery itself to survive from the ancient world. Over the following centuries slavery faded from much of Christian Europe. It should have gone faster and further, and the delay is the church’s sin, but its cause was profit, not an unclear Bible.',
+              answer: 'It was not a hint to the people who first lived it, in churches where a slave and his owner ate at one table as brothers. At least one preacher drew the conclusion early. In the fourth century the bishop Gregory of Nyssa preached that to own a human being made in God’s image is an offence against God, one of the earliest attacks on slavery itself to survive from the ancient world, though he stood almost alone among the church fathers. Over the following centuries slavery faded from much of Christian Europe. It should have gone faster and further, and the delay is the church’s sin, but its cause was profit, not an unclear Bible.',
             },
           ],
         },
@@ -166,7 +166,7 @@ export const hardPassages: Topic = {
       id: 'hp-4',
       objection: 'Christians used the Bible to defend slavery for centuries.',
       response:
-        'Some did, and it is a stain on the church. But ask where the opposition came from. In a world where almost every society kept slaves and few questioned it, the campaigns to end it were led by people like Wilberforce who argued from the Bible that every person bears God’s image (Genesis 1:27). The Bible was misused by those who profited. It was read rightly by those who paid a price to set others free.',
+        'Some did, and it is a stain on the church. But ask where the opposition came from. In a world where almost every society kept slaves and few questioned it, the campaigns to end it were led by Christians like Wilberforce, and abolitionists argued from the Bible that every person bears God’s image (Genesis 1:27). The Bible was misused by those who profited, and many sincere readers were persuaded by them. It was read rightly by those who paid a price to set others free.',
       keyPoints: ['Admit the misuse plainly.', 'Abolition was led largely by Christians.', 'The image of God is the root of equality.'],
       references: ['Genesis 1:27', 'Galatians 3:28'],
       followUps: [
@@ -176,7 +176,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: 'It came from the Enlightenment. Secular ideas of human rights ended slavery. The churches had seventeen hundred years and did nothing.',
-              answer: 'Look at who did the work. The first protest against slavery by a religious body in the English colonies came from Quakers at Germantown in 1688. Most of the founders of the British society set up in 1787 to end the slave trade were Quakers, and Wilberforce, who led the cause in Parliament, was an evangelical. Several great names of the Enlightenment were on the other side: David Hume wrote that he suspected black people were naturally inferior to whites, and Thomas Jefferson kept slaves all his life. Some Enlightenment writers did oppose slavery, and they deserve credit, but the movement that ended it was driven by Christians.',
+              answer: 'Look at who did the work. The first organised protest against slavery in the English colonies came from four Quakers at Germantown in 1688. Most of the founders of the British society set up in 1787 to end the slave trade were Quakers, and Wilberforce, who led the cause in Parliament, was an evangelical. Several great names of the Enlightenment do not fit that story: David Hume, though he criticised slavery, wrote that he suspected black people were naturally inferior to whites, and Thomas Jefferson kept slaves all his life. Some Enlightenment writers did oppose slavery, and they deserve credit, but the British and American movements that ended it were driven largely by Christians.',
               followUps: [
                 {
                   reply: 'The slave-owners had the better of the biblical argument. They could quote chapter and verse. The abolitionists had to fall back on the “spirit” of the Bible.',
@@ -274,7 +274,7 @@ export const hardPassages: Topic = {
     },
     {
       id: 'hp-q10',
-      question: 'What kind of servitude was most common in ancient Israel, according to the lesson?',
+      question: 'What kind of servitude do the laws for Hebrew servants mainly deal with, according to the lesson?',
       options: [
         'Lifelong slavery based on race',
         'Slavery of prisoners taken in religious wars',
@@ -385,7 +385,7 @@ export const hardPassages: Topic = {
         'Joshua did not know who they were until much later',
       ],
       answer: 1,
-      explanation: 'Joshua 9:15-20. With Rahab, they show that there was a way out.',
+      explanation: 'Joshua 9:15-20. With Rahab, they show that some found a way out.',
     },
     {
       id: 'hp-q20',
