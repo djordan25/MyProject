@@ -693,3 +693,22 @@ mark { background: var(--ed-color-brand-bg-strong); color: inherit; border-radiu
 .trail-stop.boss .trail-flag { transform: rotate(-45deg) translate(-8px, 30px); top: auto; left: auto; }
 @keyframes trail-pulse { 50% { box-shadow: 0 0 0 9px var(--at-rubric-bg); } }
 @media (prefers-reduced-motion: reduce) { .trail-stop.here { animation: none; } }
+
+/* Home: one next step */
+.home-stats { display: flex; flex-wrap: wrap; gap: var(--ed-space-2) var(--ed-space-4); align-items: center; margin: var(--ed-space-2) 0 var(--ed-space-4); font: 12px/18px var(--ed-font-mono); color: var(--ed-color-text-muted); text-decoration: none; }
+.home-stats span { display: inline-flex; align-items: center; gap: var(--ed-space-1); }
+.home-stats .on { color: var(--at-rubric-ink); }
+.next-card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: var(--ed-space-8) var(--ed-space-5) var(--ed-space-5); border-top: 4px solid var(--ed-color-brand); }
+.next-art { margin-bottom: var(--ed-space-4); }
+.next-art .emblem { border-radius: var(--ed-radius-xl); }
+.next-glyph { display: grid; place-items: center; width: 96px; height: 96px; border-radius: var(--ed-radius-xl); background: var(--at-rubric-bg); color: var(--at-rubric-ink); }
+.next-card h1 { margin: var(--ed-space-1) 0 var(--ed-space-2); }
+.next-why { margin: 0 0 var(--ed-space-5); max-width: 44ch; color: var(--ed-color-text-secondary); font-size: var(--ed-font-size-lg); line-height: 24px; }
+.next-card > a[class*="ed-"], .next-card > .ed-button { min-width: min(100%, 280px); }
+.next-alt { margin: var(--ed-space-3) 0 0; font-size: var(--ed-font-size-sm); color: var(--ed-color-text-muted); }
+.next-progress { align-self: stretch; display: grid; gap: var(--ed-space-2); margin-top: var(--ed-space-6); padding-top: var(--ed-space-4); border-top: 1px solid var(--ed-color-hairline); text-align: left; text-decoration: none; color: var(--ed-color-text-secondary); font-size: var(--ed-font-size-sm); }
+.next-progress .go { color: var(--ed-color-text-link); font-weight: var(--ed-font-weight-medium); }
+.home-more { margin-top: var(--ed-space-6); }
+.home-more summary { cursor: pointer; padding: var(--ed-space-2) 0; color: var(--ed-color-text-secondary); font-weight: var(--ed-font-weight-medium); }
+.home-more .list { margin-top: var(--ed-space-2); }
+p.focus-line { margin-top: var(--ed-space-5); font-size: var(--ed-font-size-sm); color: var(--ed-color-text-muted); }
