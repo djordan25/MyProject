@@ -133,7 +133,7 @@ export const ancientWriters: Topic = {
         },
         {
           reply: 'The whole passage was inserted by Christians, like the one in Josephus.',
-          answer: 'The passage stands in the one eleventh-century manuscript from which all our copies descend, the style is Tacitus’s own, and the great majority of scholars accept it. The only alteration there is that a later hand corrected “Chrestians” to “Christians”. The name Christus was not touched. More to the point, no Christian would have written it. The passage calls Christianity a superstition and an evil, and says Christians were hated for their abominations. Forgers flatter. Compare what a Christian hand did to Josephus, where Jesus becomes “the Christ”. In Tacitus, Christianity is an evil that began in Judea.',
+          answer: 'The passage stands in our oldest manuscript, of the eleventh century, the style is Tacitus’s own, and the great majority of scholars accept it. The only alteration there is that “Chrestians” was corrected to “Christians”. The name Christus was not touched. More to the point, no Christian would have written it. The passage calls Christianity a superstition and an evil, and says Christians were hated for their abominations. Forgers flatter. Compare what a Christian hand did to Josephus, where Jesus becomes “the Christ”. In Tacitus, Christianity is an evil that began in Judea.',
         },
       ],
     },
