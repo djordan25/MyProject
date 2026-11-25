@@ -57,7 +57,7 @@ export const bibleCorruption: Topic = {
       ],
       objection: 'Jeremiah 8:8 admits “the lying pen of the scribes” corrupted the law.',
       response:
-        'Read the context. Jeremiah is rebuking teachers who claimed to be wise because they had the law, while rejecting God’s word (Jeremiah 8:8-9). He’s condemning false teaching and handling of the law — and Jeremiah himself goes on quoting and appealing to the law. Muslims also don’t argue that the Torah of Jeremiah’s day was corrupt, since the Quran affirms the Torah centuries later (Quran 5:43).',
+        'Read the context. Jeremiah is rebuking teachers who claimed to be wise because they had the law, while rejecting God’s word (Jeremiah 8:8-9). He’s condemning false teaching and handling of the law — and Jeremiah himself goes on quoting and appealing to the law. And a Muslim cannot easily say that the Torah of Jeremiah’s day was corrupt, since the Quran affirms the Torah centuries later (Quran 5:43).',
       keyPoints: ['Context: false teachers, not textual rewriting.', 'Jeremiah keeps appealing to the law.', 'The Quran affirms the Torah later (5:43).'],
       references: ['Jeremiah 8:8-9', 'Quran 5:43'],
     },
@@ -96,7 +96,7 @@ export const bibleCorruption: Topic = {
           followUps: [
             {
               reply: 'A vision on a road. Anyone can claim a vision, and Acts cannot even agree about what his companions heard (Acts 9:7; 22:9).',
-              answer: 'Paul was the church’s persecutor and had everything to lose. What he gained was beatings, prison and death (2 Corinthians 11:23-27). The churches he had attacked said, “The man who formerly persecuted us is now preaching the faith he once tried to destroy” (Galatians 1:23). And his claim was tested: the Jerusalem apostles heard his message and accepted it (Galatians 2:2, 9). As for Acts, his companions heard a sound and saw a light but “could not understand the voice” (Acts 22:9). Consider your own position too. Islam rests on one man’s report of an angel in a cave, with no earlier apostles to examine him.',
+              answer: 'Paul was the church’s persecutor and had everything to lose. What he gained was beatings, prison and frequent danger of death (2 Corinthians 11:23-27). The churches he had attacked said, “The man who formerly persecuted us is now preaching the faith he once tried to destroy” (Galatians 1:23). And his claim was tested: the Jerusalem apostles heard his message and accepted it (Galatians 2:2, 9). As for Acts, his companions heard a sound and saw a light but “could not understand the voice” (Acts 22:9). Consider your own position too. Islam rests on one man’s report of an angel in a cave, with no earlier apostles to examine him.',
               followUps: [
                 {
                   reply: 'The real disciples opposed him. Paul admits that he clashed with Peter to his face (Galatians 2:11), and he fell out with Barnabas.',
@@ -136,7 +136,7 @@ export const bibleCorruption: Topic = {
               followUps: [
                 {
                   reply: 'Bart Ehrman says they were written thirty-five to sixty-five years later by Greek-speaking Christians who never met Jesus, after decades of stories passed from mouth to mouth.',
-                  answer: 'Take Ehrman’s dates: Mark about AD 70 and John in the 90s. That is within the lifetime of people who had known Jesus, and Paul’s letters are earlier still. Now apply the same standard to Islam. The earliest biography of Muhammad, by Ibn Ishaq, was written more than a century after his death and survives only in later editions and quotations. Al-Bukhari compiled his hadith more than two hundred years after Muhammad. If forty years of oral tradition makes the Gospels worthless, Islam’s sources about its prophet fall first. And Ehrman himself holds that Jesus was crucified under Pontius Pilate, which is the very thing the Quran denies.',
+                  answer: 'Take Ehrman’s dates: Mark about AD 70 and John in the 90s. That is within the lifetime of people who had known Jesus, and Paul’s letters are earlier still. Now apply the same standard to Islam. The earliest biography of Muhammad that we have, by Ibn Ishaq, was written more than a century after his death and survives only in later editions and quotations. Al-Bukhari compiled his hadith more than two hundred years after Muhammad. If forty years of oral tradition makes the Gospels worthless, Islam’s sources about its prophet fall first. And Ehrman himself holds that Jesus was crucified under Pontius Pilate, which is the very thing the Quran denies.',
                   followUps: [
                     {
                       reply: 'At least our hadith have chains of narrators. Your Gospels have no chain at all.',
