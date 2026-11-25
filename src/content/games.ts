@@ -240,6 +240,9 @@ export const ARGUMENTS: Argument[] = [
   { id: 'arg-readings-in-print', topicId: 'islam-quran-readings', verdict: 'sound', claim: 'Muslim scholars accept several readings of the Quran, and printed copies in more than one of them are in use today.', why: 'Hafs, Warsh, Qalun and al-Duri are all recited and printed today. They differ in a great many details of pronunciation and in some words.' },
   { id: 'arg-readings-not-from-god', topicId: 'islam-quran-readings', verdict: 'overstated', claim: 'The different readings prove that the Quran is not from God.', why: 'They tell only against a narrower claim: that perfect, uniform preservation, down to the letter, proves the book divine. Which message is true cannot be settled by counting letters.' },
   { id: 'arg-readings-corrupt', topicId: 'islam-quran-readings', verdict: 'avoid', claim: 'The different readings show that the Quran is hopelessly corrupt.', why: 'The lesson says you are not saying this. The readings agree on the overwhelming bulk of the text, and none of the differences overturns a Muslim doctrine.' },
+  { id: 'arg-shortest-bible-inside', topicId: 'canons-compared', verdict: 'sound', claim: 'Every book in a Protestant Bible is also in a Catholic and an Orthodox Bible, so the shortest Christian Bible sits inside the longer ones.', why: 'All the main traditions share the same twenty-seven New Testament books and the whole Hebrew Bible. The differences are additions at one edge of the Old Testament.' },
+  { id: 'arg-nothing-turns-on-books', topicId: 'canons-compared', verdict: 'overstated', claim: 'Nothing at all turns on the books that Catholics have and Protestants do not.', why: 'Some things do: the Catholic Catechism quotes 2 Maccabees when it explains prayer for the dead. What does not turn on them is the centre of the faith, which is taught in books every Christian tradition receives.' },
+  { id: 'arg-their-bible-false', topicId: 'canons-compared', verdict: 'avoid', claim: 'Catholic, Orthodox and Ethiopian Bibles are wrong, because those churches added false books to Scripture.', why: 'The lesson says never to call their Bible wrong or their books false. Say what you hold and why, and name the weak points in your own case first.' },
 ];
 
 export interface TimelineEvent {
@@ -429,4 +432,5 @@ export const TIMELINE: TimelineEvent[] = [
   { id: 'tl-al-dani', topicId: 'islam-quran-readings', label: 'Al-Dani, who fixed two transmitters for each reading, dies', year: 1053, when: '1053' },
   { id: 'tl-ibn-al-jazari', topicId: 'islam-quran-readings', label: 'Ibn al-Jazari, the great authority on the readings, dies', year: 1429, when: '1429' },
   { id: 'tl-qalun-printed', topicId: 'islam-quran-readings', label: 'The Qalun reading of the Quran is first printed, in Tunisia', year: 1981, when: '1981' },
+  { id: 'tl-peshitta-nt', topicId: 'canons-compared', label: 'The Syriac Peshitta New Testament is made, with 22 books', year: 400, when: 'about AD 400' },
 ];
