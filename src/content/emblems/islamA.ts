@@ -20,12 +20,13 @@ export const islamA: Record<string, string> = {
     <polygon class="e-accent" points="30,28 12,28 5,34 12,40 30,40"/>
     <path class="e-line" d="M20 58 H44"/>`,
   'islam-misunderstands-christianity': `
-    <circle class="e-soft" cx="18" cy="34" r="12"/>
-    <circle class="e-line" cx="18" cy="34" r="12"/>
-    <circle class="e-soft" cx="46" cy="34" r="12"/>
-    <circle class="e-line" cx="46" cy="34" r="12"/>
-    <path class="e-line" d="M30 32 q2 -4 4 0 M6 30 L4 20 M58 30 L60 20"/>
-    <path class="e-accent-line" d="M42 24 l5 8 l-5 4 l6 9"/>`,
+    <path class="e-soft" d="M10 34 V22 Q10 12 20 12 Q30 13 30 34 H52 L50 46 H12 Z"/>
+    <path class="e-line" d="M10 34 V22 Q10 12 20 12 Q30 13 30 34"/>
+    <path class="e-line" d="M10 34 H52 L50 46 H12 Z"/>
+    <path class="e-line" d="M18 46 V52 M44 46 V52"/>
+    <path class="e-ink" d="M5 47 Q32 60 59 47 v4 Q32 64 5 51 Z"/>
+    <path class="e-accent-line" d="M38 6 h18 a2 2 0 0 1 2 2 v10 a2 2 0 0 1 -2 2 h-9 l-6 6 v-6 h-3 a2 2 0 0 1 -2 -2 v-10 a2 2 0 0 1 2 -2 Z"/>
+    <path class="e-accent-line" d="M42 13 h10"/>`,
   'islam-crucifixion': `
     <path class="e-ink" d="M12 8 h12 v4 h-4 l-1 38 l-1 6 l-1 -6 l-1 -38 h-4 Z"/>
     <path class="e-accent" d="M26 8 h12 v4 h-4 l-1 38 l-1 6 l-1 -6 l-1 -38 h-4 Z"/>
@@ -72,10 +73,10 @@ export const islamA: Record<string, string> = {
     <path class="e-line" d="M4 56 H38"/>
     <path class="e-accent" d="M32 14 q9 -6 14 4 q5 -10 14 -8 q-8 4 -9 13 l-5 5 l-4 -6 q-3 -8 -10 -8 Z"/>`,
   'islam-hadith-reliability': `
-    <rect class="e-line" x="5" y="23" width="22" height="18" rx="9"/>
-    <path class="e-accent-line" d="M30 23 a9 9 0 0 0 0 18 M34 23 a9 9 0 0 1 0 18"/>
-    <rect class="e-line" x="37" y="23" width="22" height="18" rx="9"/>
-    <path class="e-accent-line" d="M32 17 v-5 M32 47 v5"/>`,
+    <path class="e-ink" transform="rotate(-35 32 32)" d="M12 24 h5 a8 8 0 0 1 0 16 h-5 a8 8 0 0 1 0 -16 Z M12 29 a3 3 0 0 0 0 6 h5 a3 3 0 0 0 0 -6 Z"/>
+    <path class="e-ink" transform="rotate(-35 32 32)" d="M47 24 h5 a8 8 0 0 1 0 16 h-5 a8 8 0 0 1 0 -16 Z M47 29 a3 3 0 0 0 0 6 h5 a3 3 0 0 0 0 -6 Z"/>
+    <path class="e-accent" transform="rotate(-35 32 32)" d="M28 24 h-1 a8 8 0 0 0 0 16 h1 v-5 h-1 a3 3 0 0 1 0 -6 h1 Z M36 24 h1 a8 8 0 0 1 0 16 h-1 v-5 h1 a3 3 0 0 0 0 -6 h-1 Z"/>
+    <path class="e-accent-line" d="M23 19 l-3 -6 M41 45 l3 6"/>`,
   'islam-scientific-miracles': `
     <path class="e-accent" d="M18 36 a14 14 0 0 1 28 0 Z"/>
     <path class="e-accent-line" d="M32 16 V8 M18 22 l-6 -6 M46 22 l6 -6"/>

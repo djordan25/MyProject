@@ -14,11 +14,12 @@ export const sects: Record<string, string> = {
     <path class="e-line" d="M4 54 H60"/>
     <path class="e-line" d="M16 46 H28 M36 46 H48"/>`,
   'sunni-salafi-sufi': `
-    <path class="e-soft" d="M26 6 H38 V24 L58 50 V58 H6 V50 L26 24 Z"/>
-    <path class="e-line" d="M26 6 V24 L6 52 M38 6 V24 L58 52"/>
-    <path class="e-line" d="M32 30 L20 58 M32 30 L44 58"/>
-    <path class="e-ink" d="M32 30 L24 58 H12 Z"/>
-    <path class="e-accent" d="M32 30 L40 58 H52 Z"/>`,
+    <rect class="e-soft" x="14" y="36" width="36" height="20"/>
+    <rect class="e-line" x="14" y="36" width="36" height="20"/>
+    <path class="e-ink" d="M18 36 C10 24 27 21 32 10 C37 21 54 24 46 36 Z"/>
+    <path class="e-line" d="M32 10 V4"/>
+    <path class="e-accent" d="M27 56 V47 a5 5 0 0 1 10 0 V56 Z"/>
+    <path class="e-line" d="M4 56 H60"/>`,
   'shia-overview': `
     <circle class="e-soft" cx="32" cy="32" r="14"/>
     <path class="e-ink" d="M44.0 7.2 a4 4 0 1 0 0.1 0 Z M52.8 16.0 a4 4 0 1 0 0.1 0 Z M56.0 28.0 a4 4 0 1 0 0.1 0 Z M52.8 40.0 a4 4 0 1 0 0.1 0 Z M44.0 48.8 a4 4 0 1 0 0.1 0 Z M32.0 52.0 a4 4 0 1 0 0.1 0 Z M20.0 48.8 a4 4 0 1 0 0.1 0 Z M11.2 40.0 a4 4 0 1 0 0.1 0 Z M8.0 28.0 a4 4 0 1 0 0.1 0 Z M11.2 16.0 a4 4 0 1 0 0.1 0 Z M20.0 7.2 a4 4 0 1 0 0.1 0 Z"/>
@@ -81,13 +82,8 @@ export const sects: Record<string, string> = {
     <path class="e-accent-line" d="M46 40 v-5 h8 v5"/>
     <path class="e-line" d="M4 56 H60"/>`,
   'noi-answering': `
-    <circle class="e-soft" cx="13" cy="38" r="9"/>
-    <circle class="e-soft" cx="51" cy="38" r="9"/>
-    <path class="e-line" d="M4 38 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0 Z M42 38 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0 Z"/>
-    <path class="e-line" d="M8 38 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0 Z M46 38 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0 Z"/>
-    <ellipse class="e-line" cx="26" cy="38" rx="4" ry="2.5"/>
-    <ellipse class="e-line" cx="38" cy="38" rx="4" ry="2.5"/>
-    <path class="e-accent-line" d="M32 30 V20 M27 31 l-4 -8 M37 31 l4 -8 M32 46 V54"/>`,
+    <polygon class="e-ink" points="14,12 23,8 33,9 36,12 45,12 51,25 59,26 56,31 50,38 49,46 44,54 38,59 32,58 30,48 27,40 26,34 18,33 11,34 6,28 6,20 9,14"/>
+    <path class="e-accent" d="M36 14 h4 v5 h5 v4 h-5 v10 h-4 v-10 h-5 v-4 h5 Z"/>`,
   'druze-overview': `
     <ellipse class="e-soft" cx="32" cy="32" rx="26" ry="10"/>
     <path class="e-line" d="M12 22 H52 a6 10 0 0 1 0 20 H12 a6 10 0 0 1 0 -20 Z"/>

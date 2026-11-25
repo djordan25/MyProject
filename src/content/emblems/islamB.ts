@@ -1,11 +1,12 @@
 /** Emblems: inner SVG markup on a 64 by 64 grid. See index.ts for the classes. */
 export const islamB: Record<string, string> = {
   'islam-muhammad-tested': `
-    <polygon class="e-soft" points="38,56 56,56 60,16 42,16"/>
-    <polygon class="e-line" points="38,56 56,56 60,16 42,16"/>
-    <path class="e-line" d="M39 43 H57 M41 30 H59"/>
-    <path class="e-line" d="M8 10 H34 M22 10 V38"/>
-    <polygon class="e-accent" points="14,38 30,38 22,56"/>`,
+    <polygon class="e-ink" points="4,56 13,40 19,43 29,18 35,9 42,21 46,19 60,56"/>
+    <path class="e-accent" d="M28 40 V33 a5 5 0 0 1 10 0 V40 Z"/>
+    <path class="e-accent-line" d="M33 40 Q36 48 28 56"/>
+    <circle class="e-ink" cx="12" cy="12" r="2"/>
+    <circle class="e-ink" cx="52" cy="8" r="2"/>
+    <circle class="e-ink" cx="20" cy="24" r="1.5"/>`,
   'islam-muhammad-in-bible': `
     <path class="e-soft" d="M32 6 C44 20 48 28 48 38 a16 16 0 0 1 -32 0 C16 30 22 26 24 18 C28 22 30 16 32 6 Z"/>
     <path class="e-line" d="M32 6 C44 20 48 28 48 38 a16 16 0 0 1 -32 0 C16 30 22 26 24 18 C28 22 30 16 32 6 Z"/>
@@ -94,12 +95,14 @@ export const islamB: Record<string, string> = {
     <path class="e-accent-line" d="M47 20 A7 7 0 1 0 43 30"/>
     <path class="e-line" d="M6 57 H58"/>`,
   'islam-bible-corruption': `
-    <rect class="e-soft" x="14" y="8" width="36" height="48" rx="2"/>
-    <rect class="e-line" x="14" y="8" width="36" height="48" rx="2"/>
-    <rect class="e-ink" x="14" y="8" width="7" height="48"/>
-    <path class="e-line" d="M21 38 H28 M42 38 H50"/>
-    <rect class="e-accent" x="28" y="32" width="14" height="12" rx="1"/>
-    <path class="e-accent-line" d="M30 32 V27 A5 5 0 0 1 40 27 V32"/>`,
+    <rect class="e-soft" x="36" y="14" width="22" height="42" rx="2"/>
+    <rect class="e-line" x="36" y="14" width="22" height="42" rx="2"/>
+    <rect class="e-ink" x="36" y="14" width="6" height="42"/>
+    <path class="e-line" d="M46 24 h8 M46 30 h8"/>
+    <path class="e-line" d="M22 56 C22 38 32 18 21 15 C14 14 12 20 12 24"/>
+    <path class="e-accent" d="M12 22 q-10 8 -5 20 q4 -3 5 -9 q1 6 6 9 q4 -12 -6 -20 Z"/>
+    <path class="e-accent" d="M24 49 q5 -4 9 1 q-5 4 -9 -1 Z"/>
+    <path class="e-line" d="M4 56 H60"/>`,
   'islam-sharing-the-gospel': `
     <rect class="e-ink" x="5" y="38" width="54" height="5"/>
     <path class="e-line" d="M12 43 V58 M52 43 V58"/>
