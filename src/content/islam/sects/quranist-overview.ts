@@ -81,7 +81,7 @@ export const quranistOverview: Topic = {
       id: 'qro-1',
       objection: 'The Quran says it is complete, fully detailed and a clarification of all things (Quran 6:114; 16:89). A book like that needs no second source.',
       response:
-        'I agree that this is what those verses say, and I think you read them more honestly than Muslims who say the Quran cannot be understood without the hadith. So let’s test the claim against the book. Prayer is one of the duties the Quran commands most often. Where does it tell you how many times a day to pray, what to say, or how many cycles to perform? If the Book is “explained in detail” (Quran 6:114), I would expect its central act of worship to be explained.',
+        'I agree that this is what those verses say, and I think you read them more plainly than Muslims who say the Quran cannot be understood without the hadith. So let’s test the claim against the book. Prayer is one of the duties the Quran commands most often. Where does it tell you how many times a day to pray, what to say, or how many cycles to perform? If the Book is “explained in detail” (Quran 6:114), I would expect its central act of worship to be explained.',
       keyPoints: ['Grant what the verses say.', 'Test the claim against the book’s contents.', 'Prayer is commanded constantly and never set out.'],
       references: ['Quran 6:114', 'Quran 16:89', 'Quran 12:111'],
       followUps: [
