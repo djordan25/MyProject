@@ -132,7 +132,7 @@ export const gospelOfGrace: Topic = {
               followUps: [
                 {
                   reply: 'Muslims have a promise too. Allah promises gardens to those who believe and do righteous deeds, “and who is more truthful than Allah in statement” (Quran 4:122).',
-                  answer: 'The promise is conditional on your deeds proving enough and on Allah’s will, and no Muslim can know either in advance. The Quran warns that “no one feels secure from the plan of Allah except the losing people” (Quran 7:99). Muhammad said a man may do the deeds of the people of Paradise until he is a cubit or two away from it, and then what was written for him overtakes him, so that he does the deeds of the people of the Fire and enters it (Sahih al-Bukhari 6594). That is why Muslim teachers say a believer must live between fear and hope. Jesus says the one who believes “has eternal life and will not come under judgment” (John 5:24).',
+                  answer: 'The promise is conditional on your deeds proving enough and on Allah’s will, and no Muslim today can know either in advance. The Quran warns that “no one feels secure from the plan of Allah except the losing people” (Quran 7:99). Muhammad said a man may do the deeds of the people of Paradise until he is a cubit or two away from it, and then what was written for him overtakes him, so that he does the deeds of the people of the Fire and enters it (Sahih al-Bukhari 6594). That is why Muslim teachers say a believer must live between fear and hope. Jesus says the one who believes “has eternal life and will not come under judgment” (John 5:24).',
                 },
               ],
             },
