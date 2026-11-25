@@ -186,7 +186,7 @@ export const crucifixionDenial: Topic = {
               followUps: [
                 {
                   reply: 'Afterwards he ate, showed his wounds and said that a spirit does not have flesh and bones. That is a living man who never died, keeping out of sight of his enemies.',
-                  answer: 'He was showing that he had risen in his body and was not a ghost (Luke 24:39). That is what resurrection means. A man who had barely survived flogging, crucifixion and a spear wound would need weeks of nursing. He would not walk the seven miles to Emmaus that same day (Luke 24:13-15), and he would not convince anyone that he had conquered death. Yet that is what his followers at once proclaimed: God raised him, “because it was impossible for Him to be held” by death (Acts 2:24).',
+                  answer: 'He was showing that he had risen in his body and was not a ghost (Luke 24:39). That is what resurrection means. A man who had barely survived flogging, crucifixion and a spear wound would need weeks of nursing. He would not walk the road to Emmaus that same day (Luke 24:13-15), and he would not convince anyone that he had conquered death. Yet that is what his followers at once proclaimed: God raised him, “because it was impossible for Him to be held” by death (Acts 2:24).',
                 },
               ],
             },
