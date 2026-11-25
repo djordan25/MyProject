@@ -560,7 +560,7 @@ export const noiAnswering: Topic = {
       question: 'Which of these did Elijah Muhammad write in Message to the Blackman in America?',
       options: [
         'That Fard would return to Detroit in 1934',
-        'That no one can know the times God has set',
+        'That God has set no time for the end of the white world',
         'That America would stand for another thousand years',
         'That the years 1965 and 1966 would bring in the fall of America',
       ],
