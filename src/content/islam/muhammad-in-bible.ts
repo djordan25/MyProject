@@ -63,7 +63,7 @@ export const muhammadInBible: Topic = {
                   followUps: [
                     {
                       reply: 'Muhammad did work miracles. The moon was split for the people of Mecca, and the Quran itself is his greatest sign.',
-                      answer: 'The hadith do report the splitting of the moon (Sahih al-Bukhari 3637), and I won’t pretend they don’t. But when the Quran records people asking him for a sign, its answer is that he is only a warner (Quran 13:7; 29:50). Those two do not sit easily together. And Deuteronomy’s measure is more than a wonder. It is a man with whom God speaks face to face (Numbers 12:8), while the Quran says Allah speaks to no human being except by revelation, from behind a partition or through a messenger (Quran 42:51). Jesus said of Moses, “he wrote about Me” (John 5:46), and Peter named Jesus as that prophet soon after the resurrection (Acts 3:22-26).',
+                      answer: 'The hadith do report the splitting of the moon (Sahih al-Bukhari 3637), and the Quran’s surah The Moon opens by saying the moon has split. But when the Quran records people asking him for a sign, its answer is that he is only a warner (Quran 13:7; 29:50). Those two do not sit easily together. And Deuteronomy’s measure is more than a wonder. It is a man with whom God speaks face to face (Numbers 12:8), while the Quran says Allah speaks to no human being except by revelation, from behind a partition or through a messenger (Quran 42:51). Jesus said of Moses, “he wrote about Me” (John 5:46), and Peter named Jesus as that prophet soon after the resurrection (Acts 3:22-26).',
                     },
                   ],
                 },
