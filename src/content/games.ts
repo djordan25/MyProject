@@ -431,6 +431,6 @@ export const TIMELINE: TimelineEvent[] = [
   { id: 'tl-ibn-mujahid', topicId: 'islam-quran-readings', label: 'Ibn Mujahid, who set out the seven readings, dies', year: 936, when: '936' },
   { id: 'tl-al-dani', topicId: 'islam-quran-readings', label: 'Al-Dani, who fixed two transmitters for each reading, dies', year: 1053, when: '1053' },
   { id: 'tl-ibn-al-jazari', topicId: 'islam-quran-readings', label: 'Ibn al-Jazari, the great authority on the readings, dies', year: 1429, when: '1429' },
-  { id: 'tl-qalun-printed', topicId: 'islam-quran-readings', label: 'The Qalun reading of the Quran is first printed, in Tunisia', year: 1981, when: '1981' },
+  { id: 'tl-qalun-printed', topicId: 'islam-quran-readings', label: 'The Qalun reading of the Quran is printed in Tunisia', year: 1981, when: '1981' },
   { id: 'tl-peshitta-nt', topicId: 'canons-compared', label: 'The Syriac Peshitta New Testament is made, with 22 books', year: 400, when: 'about AD 400' },
 ];
