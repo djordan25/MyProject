@@ -8,7 +8,7 @@ export const muhammadWarfare: Topic = {
   lesson: [
     {
       heading: 'Why this matters',
-      keyLine: 'The Quran calls Muhammad “an excellent pattern” for believers (Quran 33:21), so his conduct is the standard Islam itself sets.',
+      keyLine: 'The Quran calls Muhammad “an excellent pattern” for believers, so his conduct is the standard Islam itself sets.',
       body: [
         'The Quran calls Muhammad “an excellent pattern” for believers (Quran 33:21), so his conduct is the standard Islam itself sets. Calling him a warlord is not an insult: it is what Islam’s most trusted sources describe. This lesson is about that example, not about ordinary Muslims, many of whom are peaceful people troubled by violence done in Islam’s name.',
       ],
@@ -16,7 +16,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       heading: 'From preacher to military commander',
-      keyLine: 'After moving to Medina he became a political and military leader.',
+      keyLine: 'After moving to Medina, Muhammad became a political and military leader, and the Quran’s commands on fighting develop accordingly.',
       body: [
         'In Mecca, Muhammad preached for about thirteen years. After moving to Medina he became a political and military leader. The Quran’s commands develop accordingly: first permission to fight those who wronged the believers (Quran 22:39-40), then fighting is “enjoined upon you” (Quran 2:216), and finally commands to fight the polytheists (Quran 9:5) and the People of the Scripture “until they give the jizyah willingly while they are humbled” (Quran 9:29).',
         'Muhammad said: “I have been ordered to fight against the people until they testify that none has the right to be worshipped but Allah and that Muhammad is Allah’s Messenger” (Sahih al-Bukhari 25).',
@@ -26,6 +26,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       heading: 'Raids, booty and captives',
+      keyLine: 'The Quran regulates the spoils of war, and a hadith records a surprise attack in which women and children were taken captive.',
       body: [
         'The Quran regulates the spoils of war: “anything you obtain of war booty — then indeed, for Allah is one fifth of it and for the Messenger…” (Quran 8:41; see 8:1 and 48:20).',
         'Muhammad “suddenly attacked Bani Mustaliq without warning while they were heedless and their cattle were being watered… Their fighting men were killed and their women and children were taken as captives” (Sahih al-Bukhari 2541). Ibn Ishaq says he had heard that they were gathering against him.',
@@ -36,6 +37,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       heading: 'Banu Qurayza and Ka’b bin al-Ashraf',
+      keyLine: 'The hadith report that Muhammad approved the judgment that Banu Qurayza’s warriors be killed and asked who would kill Ka’b bin al-Ashraf.',
       body: [
         'After the Jewish tribe of Banu Qurayza, accused of breaking their pact during the siege of Medina, surrendered, Sa’d judged “that their warriors should be killed and their children and women should be taken as prisoners.” Muhammad replied, “You have judged… with the judgment of the King Allah” (Sahih al-Bukhari 3043). The Quran refers to it: “a party you killed, and you took captive a party. And He caused you to inherit their land and their homes and their properties” (Quran 33:26-27). One of the earliest biographies, by Ibn Ishaq, puts the number of men beheaded at six or seven hundred, and adds that some put it at eight or nine hundred; another early report says four hundred.',
         'When the poet Ka’b bin al-Ashraf used his verses to rouse the Meccans against him after Badr, Muhammad asked, “Who is willing to kill Ka’b bin Al-Ashraf who has hurt Allah and His Messenger?” and gave permission to deceive him in order to do it (Sahih al-Bukhari 4037).',
@@ -45,7 +47,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       heading: 'The contrast with Jesus',
-      keyLine: 'Jesus conquered not by killing his enemies but by dying for them (Romans 5:10).',
+      keyLine: 'Jesus conquered not by killing his enemies but by dying for them.',
       body: [
         'Jesus had the power to call on “more than twelve legions of angels”, yet told his disciple, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
         '“My kingdom is not of this world; if it were, My servants would fight” (John 18:36).',

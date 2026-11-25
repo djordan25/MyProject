@@ -1,6 +1,6 @@
 export interface LessonSection {
   heading: string;
-  /** The one sentence to carry away, shown large above the detail. Copied word for word from the body or the argument. */
+  /** The one sentence to carry away, shown large above the detail. A summary that says nothing the section does not, and keeps its hedges. */
   keyLine?: string;
   /** Paragraphs of explanation. Citations like "Quran 5:47", "Sahih al-Bukhari 4987" or "John 14:26" are auto-linked. */
   body: string[];

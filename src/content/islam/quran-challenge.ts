@@ -16,7 +16,7 @@ export const quranChallenge: Topic = {
     },
     {
       heading: 'Why the challenge proves nothing',
-      keyLine: 'Eloquence is not truth: a beautifully written statement can still be false.',
+      keyLine: 'The Quran’s challenge has no objective criteria, and eloquence is not truth, since a beautiful statement can still be false.',
       body: [
         'No criteria: what counts as “like it”? Rhyme? Length? Rhetoric? Without objective criteria, the challenge can never be met, because the judge — a believing Muslim — decides. A test that cannot fail is not a test.',
         'Uniqueness is not divinity: every great author is unique. No one can produce another Shakespeare play “like it”. That shows genius, not revelation.',
@@ -27,7 +27,7 @@ export const quranChallenge: Topic = {
     },
     {
       heading: 'The “no contradictions” claim',
-      keyLine: 'But the Quran contains abrogation — later verses replacing earlier ones (Quran 2:106; 16:101).',
+      keyLine: 'The Quran claims to have no contradiction yet has later verses replacing earlier ones, which Muslim scholars say is not contradiction.',
       body: [
         'Quran 4:82 says that if it were from other than Allah, “they would have found within it much contradiction.” But the Quran contains abrogation — later verses replacing earlier ones (Quran 2:106; 16:101). When opponents noticed verses changing, they called Muhammad an inventor (Quran 16:101). Muslim scholars reply that abrogation replaces one ruling with another, each right for its time, and is not contradiction.',
         'The Quran’s own internal tension on the earlier scriptures — affirming them (Quran 5:47) while contradicting them — is a further example (see The Islamic Dilemma).',
@@ -36,7 +36,7 @@ export const quranChallenge: Topic = {
     },
     {
       heading: 'The prophecy of the Byzantines (Quran 30:2-4)',
-      keyLine: 'A prophecy whose first hearers could not tell when it would come true is hard to call precise.',
+      keyLine: 'The Quran’s prediction of a Byzantine recovery was unclear to its first hearers and is too general to require God.',
       body: [
         '“The Byzantines have been defeated in the nearest land. But they, after their defeat, will overcome within three to nine years” (Quran 30:2-4). Muslims point to Byzantium’s later victory over Persia as fulfilment.',
         'The hadith show how unclear the prediction was to those who first heard it. Abu Bakr wagered with the Meccans that the Romans would win. One report says he set the term at five years and another at six; the time passed with no Roman victory, and the Meccans collected their winnings before the Romans prevailed, in the seventh year by the second report (Jami at-Tirmidhi 3193; 3194). A prophecy whose first hearers could not tell when it would come true is hard to call precise.',

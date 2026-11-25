@@ -17,7 +17,7 @@ export const quranConsistency: Topic = {
     },
     {
       heading: 'How many days of creation?',
-      keyLine: 'Quran 4:82 stakes the Quran’s divine origin on the absence of contradiction, so every passage that needs rescuing counts against its own test.',
+      keyLine: 'The Quran says creation took six days, yet one passage adds up to eight unless the four days include the first two, as commentators say.',
       body: [
         'The Quran says the heavens and earth were created in six days (Quran 7:54; 50:38).',
         'But Quran 41:9-12 gives a breakdown: the earth in two days (41:9), then mountains and sustenance in four days (41:10), then the seven heavens in two days (41:12). That totals eight.',
@@ -27,7 +27,7 @@ export const quranConsistency: Topic = {
     },
     {
       heading: 'No compulsion — or fight until they submit?',
-      keyLine: 'Some classical commentators answered that 2:256 was abrogated by later verses',
+      keyLine: 'The Quran says there is no compulsion in religion yet commands fighting, and classical commentators explained this in different ways.',
       body: [
         '“There shall be no compulsion in [acceptance of] the religion” (Quran 2:256).',
         'Yet: “Fight those who do not believe in Allah or in the Last Day… from those who were given the Scripture — [fight] until they give the jizyah willingly while they are humbled” (Quran 9:29). Muhammad said, “I have been ordered to fight against the people until they testify that none has the right to be worshipped but Allah and that Muhammad is Allah’s Messenger” (Sahih al-Bukhari 25). And: “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922).',
@@ -37,7 +37,7 @@ export const quranConsistency: Topic = {
     },
     {
       heading: 'Are Jews and Christians saved?',
-      keyLine: 'Either way, the plain reading of the verses points in opposite directions.',
+      keyLine: 'One Quran verse promises believing Jews and Christians their reward, while another says nothing but Islam will be accepted.',
       body: [
         'Quran 2:62 and 5:69 say that Jews, Christians and Sabeans who believe in Allah and the Last Day and do righteousness need have no fear and will not grieve; 2:62 adds that they “will have their reward with their Lord”.',
         'But the Quran also says, “whoever desires other than Islam as religion - never will it be accepted from him” (Quran 3:85). And Quran 5:72-73 says those who call the Messiah God, or say Allah is “the third of three”, have disbelieved.',
@@ -47,7 +47,7 @@ export const quranConsistency: Topic = {
     },
     {
       heading: 'One hundred lashes — or stoning?',
-      keyLine: 'So the Quran and the most authentic hadith prescribe different punishments — or the Quran is missing a verse.',
+      keyLine: 'The Quran’s penalty for sexual immorality is a hundred lashes, yet Umar said a verse of stoning was revealed and Muhammad stoned adulterers.',
       body: [
         'The Quran’s penalty for sexual immorality is “a hundred lashes” (Quran 24:2).',
         'But Umar said the verse of stoning was revealed and Muhammad stoned adulterers (Sahih al-Bukhari 6830; Sahih Muslim 1691), and Islamic law stones the married offender, keeping the lashes for the unmarried. So the Quran and the most authentic hadith prescribe different punishments — or the Quran is missing a verse.',
@@ -56,7 +56,7 @@ export const quranConsistency: Topic = {
     },
     {
       heading: 'Unchangeable words — that change',
-      keyLine: 'Even Muhammad’s opponents saw the changing revelation as a sign of human authorship.',
+      keyLine: 'The Quran says none can alter Allah’s words, yet it also describes Allah replacing verses with others.',
       body: [
         'The Quran says “none can alter His words” (Quran 6:115; 10:64), and Muhammad says it is not for him to change it (Quran 10:15).',
         'Yet the Quran describes Allah replacing verses: “We do not abrogate a verse or cause it to be forgotten except that We bring forth [one] better than it or similar to it” (Quran 2:106). “When We substitute a verse in place of a verse… they say, ‘You are but an inventor’” (Quran 16:101). Even Muhammad’s opponents saw the changing revelation as a sign of human authorship.',

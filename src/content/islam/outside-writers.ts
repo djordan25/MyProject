@@ -8,7 +8,7 @@ export const outsideWriters: Topic = {
   lesson: [
     {
       heading: 'What outside sources can and cannot do',
-      keyLine: 'So the traditional account should be tested against these earlier witnesses, and should not be taken on its own word.',
+      keyLine: 'Outside writers cannot show whether God spoke to Muhammad, but they let us check the traditional story against earlier witnesses.',
       body: [
         'The lessons on the Bible asked what writers outside the New Testament say about Jesus. The same question can be put to Islam. Muhammad died, on the traditional date, in AD 632. Within a generation, Christian and Jewish writers in Syria, Armenia, Mesopotamia and North Africa were writing about the Arab conquests, and several of them mention him. This lesson sets out what they say and how much it is worth.',
         'Begin with what these writers cannot do. They cannot show that Muhammad never lived. They show the opposite, and you should say so. Nor can they show whether God spoke to him, which no chronicle could settle. What they can do is narrower and still useful. They let us check the traditional story of Islam’s beginnings against witnesses who wrote long before that story was set down, and they show how the first outsiders judged what they saw.',
@@ -22,7 +22,7 @@ export const outsideWriters: Topic = {
     },
     {
       heading: 'The earliest witnesses',
-      keyLine: 'The first writer who clearly names him is a Syriac chronicler known as Thomas the Presbyter, writing about 640.',
+      keyLine: 'Several outside writers of the seventh century describe Muhammad, and the first who clearly names him was writing about 640.',
       body: [
         'The Teaching of Jacob (in Latin, Doctrina Jacobi) is a Greek Christian tract set in Carthage in the year 634 and, on the usual dating, written within a few years of it. It quotes a letter from a Jew in Palestine named Abraham, who reports that “a prophet has appeared, coming with the Saracens”. Abraham asks an old man learned in the Scriptures what he makes of this prophet, and the old man answers: “He is false, for the prophets do not come armed with a sword.” Abraham then makes his own enquiries and hears that there is no truth to be found in the so-called prophet, only the shedding of blood, and that he claims to hold “the keys of paradise”. The tract does not give the prophet’s name.',
         'The first writer who clearly names him is a Syriac chronicler known as Thomas the Presbyter, writing about 640. He records that on Friday 4 February 634 “there was a battle between the Romans and the Arabs of Muhammad” in Palestine, twelve miles east of Gaza, and that some four thousand villagers were killed. A damaged note on the flyleaf of a Syriac Gospel book, probably written about 637, seems to name him earlier still, in connection with the fighting in Syria.',
@@ -32,7 +32,7 @@ export const outsideWriters: Topic = {
     },
     {
       heading: 'What they confirm',
-      keyLine: 'Muhammad is named by an outside writer within about ten years of his death.',
+      keyLine: 'Outside writers confirm the outline of the Muslim account, so we cannot say that Muhammad is a legend.',
       body: [
         'Put together, these writers give us a man named Muhammad, an Arab and a merchant, who preached the God of Abraham, gave his people laws, was held to be a prophet, and stood at the head of the movement that conquered the Near East. That is the outline of the Muslim account, and it comes from people who had no wish to do Islam a favour.',
         'This is the same reasoning we applied to Tacitus and Josephus on Jesus, and honesty requires us to apply it here. Muhammad is named by an outside writer within about ten years of his death. That is sooner than any writer outside the church names Jesus. Whatever else we say, we cannot say that Muhammad is a legend.',
@@ -40,7 +40,7 @@ export const outsideWriters: Topic = {
     },
     {
       heading: 'Where they differ from the Muslim account',
-      keyLine: 'On some points the earliest witnesses do not match the story as Muslims tell it.',
+      keyLine: 'The earliest witnesses do not simply repeat the Muslim account, though none of the differences overturns it.',
       body: [
         'On some points the earliest witnesses do not match the story as Muslims tell it. The best known concerns the end of Muhammad’s life. Muslim tradition says that he died in Medina in 632, before the armies entered Palestine. The Teaching of Jacob speaks of the prophet as coming with the Saracens when they invaded in 634. The historian Stephen Shoemaker has collected eleven sources from the seventh and eighth centuries that seem to place Muhammad at the head of the Arabs when the conquest of Palestine began. Other historians answer that these writers were far from the events and were speaking loosely of the Arabs as Muhammad’s people, and most keep the traditional date.',
         'The message also sounds different. In Sebeos the preaching is about the land promised to Abraham, and Jewish refugees join the Arabs in claiming it. In the Teaching of Jacob the prophet is announcing the coming of the Messiah. Neither is how the later tradition sums up his message, though both have points of contact with the Quran.',
@@ -50,7 +50,7 @@ export const outsideWriters: Topic = {
     },
     {
       heading: 'How late the Muslim account is',
-      keyLine: 'The earliest biography that survives is by Ibn Ishaq, who died in 767 and wrote for the Abbasid court in Iraq.',
+      keyLine: 'The Quran says very little about Muhammad’s life, and for most of the detail the books we have begin generations after his death.',
       body: [
         'The Quran is early, as the lesson on its manuscripts explained. But it says very little about Muhammad’s life. It uses the name Muhammad only four times (Quran 3:144; 33:40; 47:2; 48:29), and it gives almost no names, dates or places for the events it alludes to. On its own it could not tell us where he was born, whom he married or how he died.',
         'Those things come from the biography (sira) and the hadith. The earliest biography that survives is by Ibn Ishaq, who died in 767 and wrote for the Abbasid court in Iraq. His own book is lost. We have it in the edition of Ibn Hisham, who died about 833 and who says in his preface that he left out, among other things, matters that are disgraceful to discuss and reports that would distress certain people. The great hadith collections were made later still, in the ninth century.',
@@ -70,7 +70,7 @@ export const outsideWriters: Topic = {
     },
     {
       heading: 'How to use this',
-      keyLine: 'The question between Christians and Muslims is not whether Muhammad lived.',
+      keyLine: 'The question is whether Muhammad’s message came from God, and the outside writers show how thin the early record of his life is.',
       body: [
         'The question between Christians and Muslims is not whether Muhammad lived. It is whether his message came from God. On that question the outside writers help in three ways.',
         'First, they show how thin the early record of his life is. Muslims are told to take Muhammad as their pattern (Quran 33:21), and the pattern is drawn almost entirely from books written generations after him. Confident statements about his character and his miracles rest on that late testimony.',

@@ -6,19 +6,15 @@ describe('key lines', () => {
   it('are one short sentence, with no citation and no straight quotes', () => {
     for (const t of topics) {
       for (const s of t.lesson) {
-        if (!s.keyLine) continue;
         const where = `${t.id}: ${s.heading}`;
+        expect(s.keyLine, where).toBeTruthy();
+        if (!s.keyLine) continue;
         expect(s.keyLine.length, where).toBeGreaterThanOrEqual(40);
         expect(s.keyLine.length, where).toBeLessThanOrEqual(175);
         expect(/["']/.test(s.keyLine), where).toBe(false);
         expect(/\d:\d|Sahih (al-Bukhari|Muslim) \d/.test(s.keyLine), where).toBe(false);
       }
     }
-  });
-
-  it('open most sections', () => {
-    const all = topics.flatMap((t) => t.lesson);
-    expect(all.filter((s) => s.keyLine).length / all.length).toBeGreaterThan(0.9);
   });
 });
 
