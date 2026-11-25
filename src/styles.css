@@ -757,3 +757,4 @@ p.focus-line { margin-top: var(--ed-space-5); font-size: var(--ed-font-size-sm);
 
 .option-why { display: block; margin-top: var(--ed-space-1); font-size: var(--ed-font-size-sm); line-height: 1.4; color: var(--ed-color-text-secondary); font-weight: var(--ed-font-weight-regular); }
 .option.dim .option-why, .option.wrong .option-why { opacity: 1; }
+.option.dim:has(.option-why) { opacity: 1; color: var(--ed-color-text-secondary); }
