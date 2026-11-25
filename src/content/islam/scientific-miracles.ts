@@ -10,7 +10,7 @@ export const scientificMiracles: Topic = {
       heading: 'The claim',
       keyLine: 'If the “prediction” is only recognised after the discovery, it isn’t a prediction.',
       body: [
-        'Popular Muslim apologetics argues that the Quran contains scientific facts unknown in the seventh century — proof that it came from God. Common examples: embryology (Quran 23:12-14), the Big Bang (Quran 21:30), and the expanding universe (Quran 51:47).',
+        'Popular Muslim apologetics argues that the Quran contains scientific facts unknown in the seventh century — proof that it came from God. Common examples: embryology (Quran 23:12-14), the Big Bang (Quran 21:30), and the expanding universe (Quran 51:47). Not all Muslims argue this way: scholars such as Mahmud Shaltut and Sayyid Qutb rejected the method outright.',
         'A helpful question to ask: “Did any Muslim scholar read these verses this way before modern science discovered the facts?” If the “prediction” is only recognised after the discovery, it isn’t a prediction.',
       ],
       references: ['Quran 23:12-14', 'Quran 21:30', 'Quran 51:47'],
@@ -77,7 +77,7 @@ export const scientificMiracles: Topic = {
           followUps: [
             {
               reply: 'How would an unlettered man in Mecca have read a Greek medical book? And the Quran’s terms are more exact than Galen’s. Alaqah means a thing that clings, like a leech, which is what the early embryo looks like.',
-              answer: 'He did not need to read it. Galen says his stages are what is seen “in abortions and in dissections”, and every community that loses pregnancies and slaughters animals has seen as much. As for alaqah, the classical commentators took it as a clot of blood, as the Jalalayn commentary says, and the hadith adds that the first gathering in the womb, the clot and the lump last forty days each (Sahih al-Bukhari 3208). The embryo is never a clot of blood, and at four months it is far beyond a shapeless lump. Commentators did notice that the word can also mean a leech, but the claim that this is exact embryology comes from modern writers.',
+              answer: 'He did not need to read it. Galen says his first stage is what is seen “in abortions and in dissections”, and every community that loses pregnancies and slaughters animals has seen as much. As for alaqah, the classical commentators took it as a clot of blood, as the Jalalayn commentary says, and the hadith adds that the first gathering in the womb, the clot and the lump last forty days each (Sahih al-Bukhari 3208). The embryo is never a clot of blood, and at four months it is far beyond a shapeless lump. Commentators did notice that the word can also mean a leech, but the claim that this is exact embryology comes from modern writers.',
               followUps: [
                 {
                   reply: 'That hadith is misread. Another says the angel comes to shape the child after forty-two nights (Sahih Muslim 2645), which is close to what embryologists say.',
