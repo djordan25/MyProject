@@ -106,7 +106,7 @@ python3 scripts/build-passages.py
 
 ## Deploy
 
-**GitHub Pages:** the workflow in `.github/workflows/deploy.yml` builds and deploys on push to `master`. Enable it under *Settings → Pages → Source: GitHub Actions*. (Pages on a private repo needs a paid GitHub plan.)
+**GitHub Pages:** the workflow in `.github/workflows/deploy.yml` builds and deploys on push to `master` (or `main`). Enable it under *Settings → Pages → Source: GitHub Actions*. (Pages on a private repo needs a paid GitHub plan.)
 
 **Cloudflare Pages / Netlify:** build command `npm run build`, output directory `dist`.
 
