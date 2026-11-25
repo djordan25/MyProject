@@ -202,7 +202,7 @@ export const islamicDilemma: Topic = {
           followUps: [
             {
               reply: 'Ibn Kathir explains muhaymin: whatever in the earlier books agrees with the Quran is true, and whatever disagrees with it is false.',
-              answer: 'Ibn Kathir does quote that rule from an earlier scholar. He also reports that Ibn Abbas explained the word as “trustworthy”, as “witness” and as “dominant”, and the Tafsir al-Jalalayn explains it as watching over the earlier Book and testifying to it. The rule is a later inference. It cannot be drawn from the verse, which begins by saying the Quran confirms the earlier Scripture (Quran 5:48). A witness who testifies for a document and then contradicts it is not a trustworthy witness.',
+              answer: 'Ibn Kathir does quote that rule from an earlier scholar. He also reports that Ibn Abbas explained the word as “trustworthy”, as “witness” and as “judge” over the earlier books, and the Tafsir al-Jalalayn explains it as watching over the earlier Book and testifying to it. The rule is an early commentator’s inference. It cannot be drawn from the verse, which begins by saying the Quran confirms the earlier Scripture (Quran 5:48). A witness who testifies for a document and then contradicts it is not a trustworthy witness.',
               followUps: [
                 {
                   reply: 'A later revelation always has authority over an earlier one. You do the same when you read the Old Testament in the light of the New.',
