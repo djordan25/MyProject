@@ -139,7 +139,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: 'He managed to forbid shellfish, mixed cloth and gathering sticks on the Sabbath. A God who can legislate about fabric can write one line against owning people.',
-              answer: 'I feel the force of that, but look at what he did forbid. Kidnapping a person for sale carried death (Exodus 21:16). A runaway slave was not to be sent back but allowed to settle wherever he chose (Deuteronomy 23:15-16), a law with no parallel in the other codes of the time, though most scholars think it meant slaves escaping from abroad. In a world with no welfare and no bankruptcy courts, working off a debt was how the destitute stayed alive. The law fenced the practice in and pointed beyond it, but I agree that it stops short of abolition.',
+              answer: 'I feel the force of that, but look at what he did forbid. Kidnapping a person for sale carried death (Exodus 21:16). A runaway slave was not to be sent back but allowed to settle wherever he chose (Deuteronomy 23:15-16), a law with no known parallel in the other codes of the time, though most scholars think it meant slaves escaping from abroad. In a world with no welfare and no bankruptcy courts, working off a debt was how the destitute stayed alive. The law fenced the practice in and pointed beyond it, but I agree that it stops short of abolition.',
               followUps: [
                 {
                   reply: 'Leviticus 25 lets Israelites buy foreigners, keep them for life and leave them to their children as property. Exodus 21 says a master who beats his slave goes unpunished if the slave survives a day or two, “since the servant is his property”. That is chattel slavery.',
