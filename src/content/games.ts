@@ -365,7 +365,7 @@ export const TIMELINE: TimelineEvent[] = [
   { id: 'tl-golan', topicId: 'druze-overview', label: 'Israel takes the Golan Heights from Syria', year: 1967, when: '1967' },
   { id: 'tl-mufti-ruling', topicId: 'alawites', label: 'The Mufti of Jerusalem rules that the Alawites are Muslims', year: 1936, when: '1936' },
   { id: 'tl-hafez-assad', topicId: 'alawites', label: 'Hafez al-Assad, an Alawite officer, takes power in Syria', year: 1970, when: '1970' },
-  { id: 'tl-alawite-declaration', topicId: 'alawites', label: 'Some eighty Alawite leaders state that they hold Twelver Shia teaching', year: 1973, when: '1973' },
+  { id: 'tl-alawite-declaration', topicId: 'alawites', label: 'Alawite religious leaders state that they hold Twelver Shia teaching', year: 1973, when: '1973' },
   { id: 'tl-hafez-dies', topicId: 'alawites', label: 'Death of Hafez al-Assad, ruler of Syria', year: 2000, when: '2000' },
   { id: 'tl-bashar-falls', topicId: 'alawites', label: 'Bashar al-Assad’s rule in Syria ends', year: 2024, when: 'December 2024' },
   { id: 'tl-coast-killings', topicId: 'alawites', label: 'Alawite civilians are killed along the Syrian coast', year: 2025, when: 'March 2025' },
