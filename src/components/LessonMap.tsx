@@ -39,7 +39,7 @@ export default function LessonMap({ topic }: { topic: Topic }) {
           {places.map((p) => <li key={p.name}>{p.name}</li>)}
         </ol>
         {route && <p className="map-route-key"><span aria-hidden /> {route.label}: {route.from} to {route.to}</p>}
-        <p className="muted">Coastlines from Natural Earth. Positions are approximate.</p>
+        <p className="muted">Coastlines from Natural Earth; places from OpenStreetMap and the Pleiades gazetteer. Positions are approximate.</p>
       </figcaption>
     </figure>
   );
