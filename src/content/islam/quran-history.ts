@@ -34,9 +34,9 @@ export const quranHistory: Topic = {
     },
     {
       heading: 'Mary, sister of Aaron',
-      keyLine: 'Most Muslim commentators take “sister of Aaron” to mean a descendant of Aaron',
+      keyLine: 'Many Muslim commentators take “sister of Aaron” to mean a descendant of Aaron',
       body: [
-        'As covered in The Quran Misunderstands Christianity, the Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12) — the family of Moses’ sister Miriam, some 1,200 to 1,400 years earlier (Numbers 26:59). Christians raised this problem in Muhammad’s own day, and he replied that people used to be named after earlier prophets and righteous men (Sahih Muslim 2135). Most Muslim commentators take “sister of Aaron” to mean a descendant of Aaron, and some Western scholars, Suleiman Mourad among them, also read the titles as claims of descent rather than confusion.',
+        'As covered in The Quran Misunderstands Christianity, the Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12) — the family of Moses’ sister Miriam, some 1,200 to 1,400 years earlier (Numbers 26:59). Christians raised this problem in Muhammad’s own day, and he replied that people used to be named after earlier prophets and righteous men (Sahih Muslim 2135). Many Muslim commentators take “sister of Aaron” to mean a descendant of Aaron, others (al-Tabari among them) a kinsman of her own day named Aaron, and some Western scholars, Suleiman Mourad among them, also read the titles as claims of descent rather than confusion.',
       ],
       references: ['Quran 19:28', 'Quran 66:12', 'Numbers 26:59', 'Sahih Muslim 2135'],
     },
@@ -85,7 +85,7 @@ export const quranHistory: Topic = {
           followUps: [
             {
               reply: 'It goes further than that. Maurice Bucaille found the name Haman in a hieroglyphic inscription now in Vienna, with the title “chief of the quarry workers”. Nobody could read hieroglyphs in the Prophet’s day.',
-              answer: 'That claim is still repeated, but the Muslim website Islamic Awareness, which once put it forward as a possibility, has withdrawn it. The site reports that the Egyptologist Jürgen Osing examined it: the name on the Vienna doorpost is written ḥmn-ḥ, and the final letter belongs to the name, which the Vienna museum reads as Hemen-hetep. Its owner was an overseer of quarry workers, a post of local importance, not a confidant of Pharaoh. The site now says the identification is no longer a possibility. A different name, for a man who was not a minister, is not evidence of hidden knowledge.',
+              answer: 'That claim is still repeated, but the Muslim website Islamic Awareness, which once put it forward as a possibility, has withdrawn it. The site reports that the Egyptologist Jürgen Osing examined it: the name on the Vienna doorpost is written ḥmn-ḥ, and the final letter belongs to the name, which the Vienna museum reads, with a question mark, as Hemen-hetep. Its owner was an overseer of quarry workers, a post of local importance, not a confidant of Pharaoh. The site now says the identification is no longer a possibility. A different name, for a man who was not a minister, is not evidence of hidden knowledge.',
               followUps: [
                 {
                   reply: 'The book of Esther is not history. Many of your own scholars call it a tale, and no Persian record names a Haman. You cannot use Esther to correct the Quran.',
@@ -123,7 +123,7 @@ export const quranHistory: Topic = {
               followUps: [
                 {
                   reply: 'Those were slips, and some came before prophethood. Making an idol is shirk, the one sin no prophet could commit. That is why the Exodus story cannot be true.',
-                  answer: 'Exodus does not say that Aaron worshipped the calf. It says he gave way to a crowd and then made a feeble excuse (Exodus 32:21-24). The Quran agrees about the pressure: Aaron says the people “were about to kill me” (Quran 7:150). So both books show a frightened man who failed to stop an evil, and they differ only on how far he went. The older account, written by his own people, does not spare him, and God still made him high priest.',
+                  answer: 'Exodus does not say that Aaron worshipped the calf. It says he gave way to a crowd, built an altar before the calf and then made a feeble excuse (Exodus 32:21-24). The Quran agrees about the pressure: Aaron says the people “were about to kill me” (Quran 7:150). So both books show a frightened man who failed to stop an evil, and they differ only on how far he went. The older account, written by his own people, does not spare him, and God still made him high priest.',
                 },
               ],
             },
