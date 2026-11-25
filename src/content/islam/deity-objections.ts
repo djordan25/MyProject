@@ -136,7 +136,7 @@ export const deityObjections: Topic = {
               followUps: [
                 {
                   reply: 'God can do everything that befits his majesty. Becoming a creature does not. You may as well ask whether God can make a square circle.',
-                  answer: 'A square circle would be God ceasing to be God, and Christians do not say that. We say the Son added a human nature to himself and lost nothing of his deity: “in Christ all the fullness of the Deity dwells in bodily form” (Colossians 2:9). No contradiction has been shown in that. Muslims already accept that the eternal God acts in time and place, coming down to the nearest heaven each night (Sahih al-Bukhari 1145), in a way that befits him. Who decides what befits God, if not God? The question is what he has done, not what we think he may do.',
+                  answer: 'A square circle would be God ceasing to be God, and Christians do not say that. We say the Son added a human nature to himself and lost nothing of his deity: “in Christ all the fullness of the Deity dwells in bodily form” (Colossians 2:9). No contradiction has been shown in that. Many Muslims already accept that the eternal God acts in time and place, coming down to the nearest heaven each night (Sahih al-Bukhari 1145), in a way that befits him. Who decides what befits God, if not God? The question is what he has done, not what we think he may do.',
                 },
               ],
             },
@@ -509,7 +509,7 @@ export const deityObjections: Topic = {
       options: [
         'He denies that God is his Father',
         'He says the disciples are his equals',
-        'He never says “our”: his relationship to the Father is not the same as ours',
+        'He never says “our”, which many readers take to mean that his relationship to the Father is not the same as ours',
         'He is speaking only about Mary’s family',
       ],
       answer: 2,

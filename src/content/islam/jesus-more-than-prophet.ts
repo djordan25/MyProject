@@ -13,7 +13,7 @@ export const jesusMoreThanProphet: Topic = {
         'Born of a virgin (Quran 3:47; 19:20). Called the Messiah and “a word from Him” (Quran 3:45), “His word… and a soul from Him” (Quran 4:171).',
         'Called “a pure boy” (Quran 19:19). The Quran never records Jesus sinning or asking forgiveness, while it tells Muhammad to ask forgiveness for his sin (Quran 47:19). Sahih al-Bukhari 3431 says every child is touched by Satan at birth, except Mary and her son.',
         'Creates life from clay and gives life to the dead (Quran 3:49; 5:110). The Quran adds “by permission of Allah” — yet no other prophet is described as giving life this way.',
-        'Raised alive to Allah (Quran 4:158) and a sign of the Hour (Quran 43:61) — commonly understood by Muslims as his return. Sahih al-Bukhari 3448: he will descend and judge justly.',
+        'Raised to Allah (Quran 4:158), alive as most Muslims hold, and a sign of the Hour (Quran 43:61) — commonly understood by Muslims as his return. Sahih al-Bukhari 3448: he will descend and judge justly.',
         'Ask your Muslim friend: no other prophet is called God’s Word, said to give life, or expected to return. Why is Jesus so unique? Use this as a conversation opener, not a proof. Muslims will answer that all prophets are protected from sin and that Jesus acted “by permission of Allah”, and the Quran’s titles do not mean to them what they mean in the Bible. The proof is what Jesus himself said and did, below.',
       ],
       references: ['Quran 3:45-49', 'Quran 4:171', 'Quran 19:19', 'Quran 4:158', 'Quran 43:61', 'Sahih al-Bukhari 3431', 'Sahih al-Bukhari 3448'],
