@@ -69,7 +69,7 @@ export const disputedTranslations: Topic = {
       id: 'dt-1',
       objection: 'Your Bible is biased. In the Greek, John 1:1 says the Word was “a god”.',
       response:
-        'I am glad you care what the Greek says, so let us look at it. The word for God has no “the” in that clause because of how Greek marks the subject of a sentence, not because John means a lesser god. He uses the same word without “the” for the Father a few lines on: “No one has ever seen God” (John 1:18). And a second, lesser god beside God is something John, a Jew, could not have written. When Thomas sees the risen Jesus he says, “My Lord and my God!” (John 20:28), and Jesus accepts it.',
+        'I am glad you care what the Greek says, so let us look at it. The word for God has no “the” in that clause because of how Greek marks the subject of a sentence, not because John means a lesser god. He uses the same word without “the” for the Father a few lines on: “No one has ever seen God” (John 1:18). And a second, lesser god beside God is something John, a Jew, would hardly have written. When Thomas sees the risen Jesus he says, “My Lord and my God!” (John 20:28), and Jesus accepts it.',
       keyPoints: [
         'The missing article marks “God” as describing the Word, not as a lesser god.',
         'The same word without the article is used of the Father in John 1:18.',
@@ -163,10 +163,10 @@ export const disputedTranslations: Topic = {
       id: 'dt-6',
       objection: 'The New World Translation is more faithful because it restores God’s name, Jehovah, to the New Testament.',
       response:
-        'God’s name matters, and it is right to want it honoured. But no surviving Greek manuscript of the New Testament contains it, not one out of thousands. The nearest it comes is the short form “Jah” inside the word “Hallelujah” (Revelation 19:1). In every copy we have, where the New Testament writers quote the Old, the word is “Lord”. Putting “Jehovah” back is a guess about what they wrote, and it has an effect: it hides the places where they take a verse about the LORD and apply it to Jesus. Paul says the saving confession is “Jesus is Lord” (Romans 10:9), and four verses later he gives his reason from the prophet Joel: “Everyone who calls on the name of the Lord will be saved” (Romans 10:13). Print “Jehovah” in the second verse and the link between them is cut.',
+        'God’s name matters, and it is right to want it honoured. But no surviving Greek manuscript of the New Testament contains it, not one out of thousands. The nearest it comes is the short form “Jah” inside the word “Hallelujah” (Revelation 19:1). In every copy we have, where the New Testament writers quote the Old, the word is “Lord” or “God”. Putting “Jehovah” back is a guess about what they wrote, and it has an effect: it hides the places where they take a verse about the LORD and apply it to Jesus. Paul says the saving confession is “Jesus is Lord” (Romans 10:9), and four verses later he gives his reason from the prophet Joel: “Everyone who calls on the name of the Lord will be saved” (Romans 10:13). Print “Jehovah” in the second verse and the link between them is cut.',
       keyPoints: [
         'No Greek manuscript of the New Testament has the divine name.',
-        'In every surviving copy, their quotations of the Old Testament read “Lord”.',
+        'In every surviving copy, their quotations of the Old Testament read “Lord” or “God”.',
         'They apply those texts to Jesus, as in Romans 10:9 and Romans 10:13.',
       ],
       references: ['Romans 10:9', 'Romans 10:13', 'Joel 2:32'],
@@ -275,7 +275,7 @@ export const disputedTranslations: Topic = {
       options: [
         'Because it is missing from the oldest manuscripts',
         'Because the Hebrew word for “one” is the ordinary number one and does not by itself mean a unity of several',
-        'Because it is quoted only once in the New Testament',
+        'Because it is never quoted in the New Testament',
         'Because it was written in Aramaic',
       ],
       answer: 1,
