@@ -384,7 +384,7 @@ export const havingTheConversation: Topic = {
   ],
   furtherReading: [
     'Gregory Koukl — Tactics: A Game Plan for Discussing Your Christian Convictions',
-    'Rebecca Manley Pippert — Out of the Saltshaker',
+    'Rebecca Manley Pippert — Out of the Saltshaker and into the World',
     'Randy Newman — Questioning Evangelism',
   ],
 };

@@ -19,7 +19,7 @@ export const problemOfEvil: Topic = {
       keyLine: 'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons',
       body: [
         'Claim: an all-good, all-powerful God and evil are logically incompatible.',
-        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by many atheist philosophers as well, though not all, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded in 1982 that evil does not show theism to be logically inconsistent, though he still judged that the free will defence itself fails.',
+        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by many atheist philosophers as well, though not all, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded, in a book published in 1982, that evil does not show theism to be logically inconsistent, though he still judged that the free will defence itself fails.',
       ],
     },
     {
