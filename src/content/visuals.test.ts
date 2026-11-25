@@ -4,6 +4,7 @@ import { CHARTS } from './charts';
 import { MAPS, PLACES, ROUTES, placeNamed } from './maps';
 import { layoutMap } from '../lib/mapLayout';
 import { trailPoint } from '../lib/trail';
+import { mapQuestion, mapTopics } from '../lib/mapGame';
 
 const textOf = (t: Topic): string => JSON.stringify(t);
 
@@ -75,5 +76,31 @@ describe('journey trail', () => {
     expect(new Set(pts.map((p) => `${p.x},${p.y}`)).size).toBe(pts.length);
     expect(trailPoint(3).x).toBe(trailPoint(4).x);
     expect(trailPoint(4).y).toBeGreaterThan(trailPoint(3).y);
+  });
+});
+
+describe('where was it?', () => {
+  it('marks a place on the lesson map and offers four distinct names, one of them right', () => {
+    for (const id of mapTopics()) {
+      for (let n = 0; n < 25; n++) {
+        const q = mapQuestion(id);
+        expect(MAPS[id]).toContain(q.target.name);
+        expect(q.options).toHaveLength(4);
+        expect(new Set(q.options).size).toBe(4);
+        expect(q.options[q.answer]).toBe(q.target.name);
+      }
+    }
+  });
+
+  it('never offers a place that sits on top of the marked one', () => {
+    for (const id of mapTopics()) {
+      for (let n = 0; n < 25; n++) {
+        const q = mapQuestion(id);
+        for (const name of q.options.filter((o) => o !== q.target.name)) {
+          const other = placeNamed(name)!;
+          expect(other.lat === q.target.lat && other.lon === q.target.lon, `${id}: ${name}/${q.target.name}`).toBe(false);
+        }
+      }
+    }
   });
 });

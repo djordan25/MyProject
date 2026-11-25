@@ -74,6 +74,7 @@ import {
   Target as TargetIcon,
   RotateCcw as RotateCcwIcon,
   House as HouseIcon,
+  MapPin as MapPinIcon,
   Puzzle as PuzzleIcon,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
@@ -159,5 +160,6 @@ export const ICONS: Record<string, LucideIcon> = {
   Target: TargetIcon,
   RotateCcw: RotateCcwIcon,
   House: HouseIcon,
+  MapPin: MapPinIcon,
   Puzzle: PuzzleIcon,
 };

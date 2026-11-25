@@ -758,3 +758,10 @@ p.focus-line { margin-top: var(--ed-space-5); font-size: var(--ed-font-size-sm);
 .option-why { display: block; margin-top: var(--ed-space-1); font-size: var(--ed-font-size-sm); line-height: 1.4; color: var(--ed-color-text-secondary); font-weight: var(--ed-font-weight-regular); }
 .option.dim .option-why, .option.wrong .option-why { opacity: 1; }
 .option.dim:has(.option-why) { opacity: 1; color: var(--ed-color-text-secondary); }
+
+/* Where was it? */
+.quiz-map { margin: 0 0 var(--ed-space-4); }
+.map-other { fill: var(--ed-color-text-muted); opacity: 0.55; }
+.map-ring { fill: none; stroke: var(--at-rubric); animation: map-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes map-pulse { 50% { transform: scale(1.25); opacity: 0.5; } }
+@media (prefers-reduced-motion: reduce) { .map-ring { animation: none; } }
