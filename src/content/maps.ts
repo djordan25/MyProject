@@ -1,5 +1,6 @@
 /**
- * Places the lessons name, with their coordinates, and the places to show on each lesson's map.
+ * Places the lessons name, with their coordinates (checked against OpenStreetMap and, for ancient sites, the Pleiades
+ * gazetteer; Ghadir Khumm is placed at al-Juhfa, the nearest site either one records), and the places to show on each lesson's map.
  * A map only ever shows a place its lesson mentions: the list is checked against the lesson text by a test.
  */
 export interface Place {
@@ -16,8 +17,8 @@ export const PLACES: Place[] = [
   place('Jerusalem', 31.78, 35.22), place('Mecca', 21.42, 39.83), place('Medina', 24.47, 39.61), place('Rome', 41.9, 12.5),
   place('Damascus', 33.51, 36.29), place('Antioch', 36.2, 36.16), place('Bethlehem', 31.7, 35.2), place('Nazareth', 32.7, 35.3),
   place('Nineveh', 36.36, 43.15), place('Nicaea', 40.43, 29.72), place('Athens', 37.98, 23.73), place('Babylon', 32.54, 44.42),
-  place('Cairo', 30.04, 31.24), place('Karbala', 32.62, 44.02), place('Ghadir Khumm', 22.82, 39.08), place('Corinth', 37.91, 22.88),
-  place('Najran', 17.49, 44.13), place('Kufa', 32.03, 44.4), place('Alexandria', 31.2, 29.92), place('Caesarea', 32.5, 34.89),
+  place('Cairo', 30.04, 31.24), place('Karbala', 32.62, 44.02), place('Ghadir Khumm', 22.71, 39.15), place('Corinth', 37.91, 22.88),
+  place('Najran', 17.54, 44.23), place('Kufa', 32.03, 44.4), place('Alexandria', 31.2, 29.92), place('Caesarea', 32.5, 34.89),
   place('Ephesus', 37.94, 27.34), place('Badr', 23.78, 38.79), place('Lahore', 31.55, 74.34), place('Samarra', 34.2, 43.87),
   place('Khaybar', 25.7, 39.29), place('Najaf', 32.0, 44.34), place('Constantinople', 41.01, 28.98), place('Istanbul', 41.01, 28.98),
   place('Delphi', 38.48, 22.5), place('Carthage', 36.85, 10.32), place('Edessa', 37.16, 38.79), place('Gaza', 31.5, 34.47),
@@ -30,7 +31,7 @@ export const PLACES: Place[] = [
   place('Qom', 34.64, 50.88), place('Mashhad', 36.3, 59.61), place('Latakia', 35.52, 35.79), place('Aleppo', 36.2, 37.16),
   place('Oxyrhynchus', 28.54, 30.66), place('Akhmim', 26.56, 31.75), place('Hippo', 36.88, 7.75), place('Trent', 46.07, 11.12),
   place('Masada', 31.32, 35.35), place('Leipzig', 51.34, 12.37), place('Jamnia', 31.87, 34.74), place('Florence', 43.77, 11.25),
-  place('Lyon', 45.76, 4.84), place('Vienna', 48.21, 16.37), place('Rhossus', 36.42, 35.99),
+  place('Lyon', 45.76, 4.84), place('Vienna', 48.21, 16.37), place('Rhossus', 36.42, 35.89),
   place('Homs', 34.73, 36.72), place('Amman', 31.95, 35.93), place('Nag Hammadi', 26.05, 32.24), place('Tashkent', 41.3, 69.24),
 ];
 
