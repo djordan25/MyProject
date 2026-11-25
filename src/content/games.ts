@@ -410,7 +410,7 @@ export const TIMELINE: TimelineEvent[] = [
   { id: 'tl-akhmim', topicId: 'other-gospels', label: 'A portion of the Gospel of Peter is found at Akhmim', year: 1886, when: 'the winter of 1886 to 1887' },
   { id: 'tl-peter-published', topicId: 'other-gospels', label: 'The Akhmim portion of the Gospel of Peter is published', year: 1892, when: '1892' },
   { id: 'tl-oxyrhynchus-thomas', topicId: 'other-gospels', label: 'Greek fragments of the Gospel of Thomas dug up at Oxyrhynchus', year: 1897, when: '1897 (and again in 1903)' },
-  { id: 'tl-nag-hammadi', topicId: 'other-gospels', label: 'The complete Coptic Gospel of Thomas is found near Nag Hammadi', year: 1945, when: 'December 1945' },
+  { id: 'tl-nag-hammadi', topicId: 'other-gospels', label: 'The complete Coptic Gospel of Thomas is found near Nag Hammadi', year: 1945, when: 'late 1945' },
   { id: 'tl-secret-mark', topicId: 'other-gospels', label: 'Morton Smith reports finding a letter quoting a “secret” Mark', year: 1958, when: '1958' },
   { id: 'tl-judas-published', topicId: 'other-gospels', label: 'The Gospel of Judas is published', year: 2006, when: '2006' },
   { id: 'tl-gathercole-goodacre', topicId: 'other-gospels', label: 'Gathercole and Goodacre argue that Thomas knew Matthew and Luke', year: 2012, when: '2012' },
