@@ -168,7 +168,7 @@ export const reliabilityOfScripture: Topic = {
       ],
       objection: 'The Gospels were written long after the events by people who weren’t there.',
       response:
-        'Even on standard scholarly dating, the Gospels were written within about 35-65 years — while eyewitnesses and opponents were still alive. Paul’s letters are earlier still and quote creeds that go back to the first few years after the crucifixion. Compare that to our main surviving biographies of Alexander the Great, written about 400 years after his death, though from earlier accounts now lost.',
+        'Even on standard scholarly dating, the Gospels were written within about 35-65 years — while eyewitnesses and opponents were still alive. Paul’s letters are earlier still and quote creeds that go back to the first few years after the crucifixion. Compare that to our main surviving biographies of Alexander the Great, written about 300 to 450 years after his death, though from earlier accounts now lost.',
       keyPoints: [
         'Within the lifetime of eyewitnesses.',
         'Earlier creeds embedded in Paul.',
@@ -380,7 +380,7 @@ export const reliabilityOfScripture: Topic = {
       id: 'ros-q11',
       question: 'How does the gap between the events and the Gospels compare with our main biographies of Alexander the Great?',
       options: [
-        'The Gospels were written about 35 to 65 years after the events; the main biographies of Alexander about 400 years after his death',
+        'The Gospels were written about 35 to 65 years after the events; the main biographies of Alexander about 300 to 450 years after his death',
         'Both were written within a year of the events',
         'The biographies of Alexander are much closer to the events',
         'The Gospels were written about 400 years after Jesus',

@@ -353,7 +353,7 @@ export const identityOfJesus: Topic = {
         'They said nothing remarkable had happened',
         'They said his disciples had invented them',
         'They said he did them by the power of the prince of demons',
-        'They said they were tricks learned in Egypt',
+        'They said the people he healed had never been ill',
       ],
       answer: 2,
       explanation: '“By the prince of the demons He drives out demons” (Mark 3:21-22). They disputed the source of his power, not the events.',

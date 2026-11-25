@@ -79,7 +79,7 @@ export const fulfilledProphecy: Topic = {
               answer: 'They select different events, and the date of the census is a real difficulty. Several solutions have been proposed and none is certain. But the differences show that neither writer copied the other, and they still agree on the centre: Mary and Joseph, a virgin conception, David’s line, a birth in Bethlehem in the time of Herod, and a childhood in Nazareth (Matthew 2:1; Luke 1:5; 2:4-7). Independent sources that agree on the centre and differ at the edges are what a historian hopes to find.',
               followUps: [
                 {
-                  reply: 'Mark and John never mention Bethlehem. In John 7 the crowd says the Christ must come from Bethlehem and Jesus comes from Galilee, and John does not correct them. The earliest Gospel and the latest seem to know nothing of it.',
+                  reply: 'Mark and John never say he was born in Bethlehem. In John 7 the crowd says the Christ must come from Bethlehem and Jesus comes from Galilee, and John does not correct them. The earliest Gospel and the latest seem to know nothing of it.',
                   answer: 'Mark begins with Jesus as an adult and says nothing about his birth at all, so his silence tells us nothing either way. John often lets people speak in ignorance of what his readers know, and the crowd’s objection at least shows that Jews expected a Messiah from Bethlehem before Christians said anything (John 7:41-42). I grant that the birthplace rests on Matthew and Luke. That is why I would not build the case on it. The centre of the argument is his death, which hardly any historian doubts and which nobody would have invented for a Messiah.',
                 },
               ],
