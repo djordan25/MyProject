@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { getTopic, topics } from '../content';
 import { ARGUMENTS, TIMELINE, VERDICTS } from '../content/games';
+import { TRAPS } from '../content/argumentTraps';
 import { argumentsOf, ask, chainOf, drawHand, exchangesOf, gapQuestion, HAND, missesAllowed, snippet } from './games';
 
 describe('game material', () => {
@@ -84,6 +85,48 @@ describe('build the argument', () => {
         expect(new Set(q.options).size).toBe(4);
         expect(q.options[q.answer]).toBe(a.steps[q.gap]);
         expect(q.options.filter((o) => a.steps.includes(o))).toHaveLength(1);
+      }
+    }
+  });
+});
+
+describe('near misses for build the argument', () => {
+  const all = argumentsOf(topics);
+
+  it('belong to a real argument, with three for every step', () => {
+    for (const t of TRAPS) {
+      const arg = all.find((a) => a.topic.id === t.topicId && a.heading === t.heading);
+      expect(arg, `${t.topicId}: ${t.heading}`).toBeDefined();
+      expect(t.traps, t.heading).toHaveLength(arg!.steps.length);
+      for (const step of t.traps) expect(step, t.heading).toHaveLength(3);
+    }
+    expect(new Set(TRAPS.map((t) => `${t.topicId}|${t.heading}`)).size).toBe(TRAPS.length);
+  });
+
+  it('never repeat a real step or each other, and give a short reason', () => {
+    for (const t of TRAPS) {
+      const arg = all.find((a) => a.topic.id === t.topicId && a.heading === t.heading)!;
+      const texts = t.traps.flat().map((x) => x.text);
+      expect(new Set(texts).size, t.heading).toBe(texts.length);
+      for (const x of t.traps.flat()) {
+        expect(arg.steps, x.text).not.toContain(x.text);
+        expect(x.why.length, x.text).toBeGreaterThan(15);
+        expect(x.why.split(' ').length, x.text).toBeLessThanOrEqual(32);
+        expect(`${x.text}${x.why}`).not.toMatch(/['"]/);
+      }
+    }
+  });
+
+  it('are offered as the wrong options, each with its reason', () => {
+    for (const t of TRAPS) {
+      const arg = all.find((a) => a.topic.id === t.topicId && a.heading === t.heading)!;
+      for (let n = 0; n < 12; n++) {
+        const q = gapQuestion(arg, all);
+        const offered = t.traps[q.gap].map((x) => x.text);
+        q.options.forEach((o, i) => {
+          if (i === q.answer) expect(q.whys[i]).toBeUndefined();
+          else { expect(offered).toContain(o); expect(q.whys[i]).toBeTruthy(); }
+        });
       }
     }
   });

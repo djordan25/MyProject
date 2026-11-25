@@ -754,3 +754,7 @@ p.focus-line { margin-top: var(--ed-space-5); font-size: var(--ed-font-size-sm);
 .count-key { display: flex; flex-wrap: wrap; align-items: center; gap: var(--ed-space-1) var(--ed-space-2); margin: var(--ed-space-3) 0 0; font-size: 10px; color: var(--ed-color-text-muted); }
 .count-key span { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-left: var(--ed-space-2); }
 .count-key span:first-child { margin-left: 0; }
+
+.option-why { display: block; margin-top: var(--ed-space-1); font-size: var(--ed-font-size-sm); line-height: 1.4; color: var(--ed-color-text-secondary); font-weight: var(--ed-font-weight-regular); }
+.option.dim .option-why, .option.wrong .option-why { opacity: 1; }
+.option.dim:has(.option-why) { opacity: 1; color: var(--ed-color-text-secondary); }
