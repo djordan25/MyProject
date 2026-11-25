@@ -20,7 +20,7 @@ export const quranOral: Topic = {
       heading: 'The battle of Yamama: reciters killed',
       keyLine: 'Notice what this admits: the Quran’s survival depended on living memorisers, and when they died, its loss was a real danger in the minds of the leading companions.',
       body: [
-        'Shortly after Muhammad’s death, the hadith report, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared that, unless it was collected, “a large part of the Qur’an may be lost” (Sahih al-Bukhari 4986).',
+        'Shortly after Muhammad’s death, the hadith report, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared that if more fell in other battles before it was collected, “a large part of the Qur’an may be lost” (Sahih al-Bukhari 4986).',
         'Notice what this admits: the Quran’s survival depended on living memorisers, and when they died, its loss was a real danger in the minds of the leading companions.',
         'Abu Bakr hesitated — “How can you do something which Allah’s Messenger did not do?” Zaid said that moving a mountain would have been easier than this task (Sahih al-Bukhari 4986).',
       ],
@@ -65,7 +65,7 @@ export const quranOral: Topic = {
           followUps: [
             {
               reply: 'The reports are right, and you misread them. Umar’s fear shows how carefully the companions acted. Allah kept His promise through their effort, and nothing was in fact lost.',
-              answer: 'I agree that the fear does not prove a loss. It shows what the leading companions believed about memory: that it was not enough. If thousands held the whole Quran by heart, the deaths at Yamama could not have put “a large part of the Qur’an” at risk (Sahih al-Bukhari 4986). As to whether anything was lost, the same collections answer: Abu Musa says he forgot a surah as long as Bara’at, all but one line (Sahih Muslim 1050); Muslim scholars class that surah as abrogated, though the report says only that he forgot it.',
+              answer: 'I agree that the fear does not prove a loss. It shows what the leading companions believed about memory: that it was not enough. If thousands held the whole Quran by heart, more deaths like those at Yamama could not have put “a large part of the Qur’an” at risk (Sahih al-Bukhari 4986). As to whether anything was lost, the same collections answer: Abu Musa says he forgot a surah as long as Bara’at, all but one line (Sahih Muslim 1050); Muslim scholars class that surah as abrogated, though the report says only that he forgot it.',
               followUps: [
                 {
                   reply: 'Zaid was not short of men who knew those verses. He knew them himself. He means that he found them in writing with only one man, because he would accept nothing without a written copy.',
