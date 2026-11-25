@@ -110,14 +110,14 @@ export const oldTestamentApocrypha: Topic = {
             {
               reply: 'Then you have no certain list at all. Without a church that can decide, your table of contents is only your own opinion.',
               answer:
-                'I have no infallible list from a council, that is true, and I would sooner say so than claim more than I have. But I don’t think it is only my opinion. For the Old Testament I follow the Scriptures the Jewish people handed on, the ones Jesus read and taught from. Paul says they were “entrusted with the very words of God” (Romans 3:2). For the New I follow what the churches received from the apostles. And notice that the difficulty does not go away for you. Until 1546 a Catholic cardinal could hold Jerome’s view. For fifteen centuries the church lived without a binding list, and it still knew its Scriptures.',
+                'I have no infallible list from a council, that is true, and I would sooner say so than claim more than I have. But I don’t think it is only my opinion. For the Old Testament I follow the Scriptures the Jewish people handed on, the ones Jesus read and taught from. Paul says they were “entrusted with the very words of God” (Romans 3:2). For the New I follow what the churches received from the apostles. And notice that the difficulty does not go away for you. Until 1546 a Catholic cardinal could hold Jerome’s view. For most of its history the church lived without a list that bound everyone, and it still knew its Scriptures.',
             },
           ],
         },
         {
           reply: 'Jerome himself translated Tobit and Judith, and the whole church went on reading them. In practice he accepted them.',
           answer:
-            'He did translate them, and he valued them, and so do I. But he was explicit about the difference. The church reads these books, he wrote, “for the edification of the people, not to give authority to doctrines of the Church”. That is nearly word for word what the Church of England said twelve hundred years later, and it is how Luther’s Bible and the King James Bible treated them. To read a book in church and to prove doctrine from it are two different things, and Jerome is the one who taught the West to tell them apart.',
+            'He did translate them, and he valued them, and so do I. But he was explicit about the difference. The church reads these books, he wrote, “for the edification of the people, not to give authority to doctrines of the Church”. That is very nearly what the Church of England said almost twelve hundred years later, and it is how Luther’s Bible and the King James Bible treated them. To read a book in church and to prove doctrine from it are two different things, and Jerome is the one who taught the West to tell them apart.',
         },
       ],
     },
@@ -125,7 +125,7 @@ export const oldTestamentApocrypha: Topic = {
       id: 'ota-2',
       objection: 'The apostles used the Greek Septuagint, and the Septuagint contains these books. The New Testament is full of echoes of Wisdom and Sirach. They were part of the apostles’ Bible.',
       response:
-        'The first part is right. The New Testament writers usually quote the Old Testament in Greek, and they knew these books. Hebrews 11 almost certainly has the martyrs of 2 Maccabees in view. But two things need care. The Greek Bibles that contain these books are Christian copies from the fourth and fifth centuries. They differ from one another, and they include 4 Maccabees, which your church does not accept. They cannot tell us what was in a first-century collection. And knowing a book is different from citing it as Scripture. Jude quotes 1 Enoch (Jude 1:14-15), and neither of us has that in our Bible. No New Testament writer introduces one of these books with “it is written”.',
+        'The first part is right. The New Testament writers usually quote the Old Testament in Greek, and they knew these books. Hebrews 11 very probably has the martyrs of 2 Maccabees in view. But two things need care. The Greek Bibles that contain these books are Christian copies from the fourth and fifth centuries. They differ from one another, and they include 4 Maccabees, which your church does not accept. They cannot tell us what was in a first-century collection. And knowing a book is different from citing it as Scripture. Jude quotes 1 Enoch (Jude 1:14-15), and neither of us has that in our Bible. No New Testament writer introduces one of these books with “it is written”.',
       keyPoints: [
         'Grant that the apostles used the Greek Old Testament and knew these books.',
         'The great Septuagint codices are later Christian copies and do not agree with one another.',
@@ -219,7 +219,7 @@ export const oldTestamentApocrypha: Topic = {
       id: 'ota-6',
       objection: '2 Maccabees plainly teaches prayer for the dead, and Tobit teaches that almsgiving cleanses from sin. Luther dropped these books because they contradicted his new doctrine.',
       response:
-        'There is some truth in that, and I will own it. Luther’s challenge to 2 Maccabees came up in debate, at Leipzig in 1519, and the controversy sharpened his view. But the doubt was not new and it was not his alone. Jerome had said eleven centuries earlier that these books should not be used to establish doctrine, and a Catholic cardinal was still printing that judgment in 1520. Nor do I think the passages say as much as is claimed. 2 Maccabees shows that Judas prayed and made an offering for his dead soldiers, and the writer approves. It says nothing of purgatory. Our real difference is about what Christ’s death has done, and we should talk about that directly.',
+        'There is some truth in that, and I will own it. Luther’s challenge to 2 Maccabees came up in debate, at Leipzig in 1519, and the controversy sharpened his view. But the doubt was not new and it was not his alone. Jerome had said eleven centuries earlier that these books should not be used to establish doctrine, and a Bible edited under a Catholic cardinal and approved by the Pope in 1520 still carried that judgment. Nor do I think the passages say as much as is claimed. 2 Maccabees shows that Judas prayed and made an offering for his dead soldiers, and the writer approves. It says nothing of purgatory. Our real difference is about what Christ’s death has done, and we should talk about that directly.',
       keyPoints: [
         'Admit that the Reformation dispute sharpened Luther’s view.',
         'Jerome had already said these books should not establish doctrine.',
