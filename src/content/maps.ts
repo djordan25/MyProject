@@ -28,12 +28,20 @@ export const PLACES: Place[] = [
   place('Amritsar', 31.63, 74.87), place('Ludhiana', 30.9, 75.85), place('Nisibis', 37.07, 41.22), place('Hemis', 33.91, 77.7),
   place('Sivas', 39.75, 37.02), place('Kahramanmaraş', 37.58, 36.93), place('Dersim', 39.11, 39.55), place('Tehran', 35.69, 51.39),
   place('Qom', 34.64, 50.88), place('Mashhad', 36.3, 59.61), place('Latakia', 35.52, 35.79), place('Aleppo', 36.2, 37.16),
+  place('Oxyrhynchus', 28.54, 30.66), place('Akhmim', 26.56, 31.75), place('Hippo', 36.88, 7.75), place('Trent', 46.07, 11.12),
+  place('Masada', 31.32, 35.35), place('Leipzig', 51.34, 12.37), place('Jamnia', 31.87, 34.74), place('Florence', 43.77, 11.25),
+  place('Lyon', 45.76, 4.84), place('Vienna', 48.21, 16.37), place('Rhossus', 36.42, 35.99),
   place('Homs', 34.73, 36.72), place('Amman', 31.95, 35.93), place('Nag Hammadi', 26.05, 32.24), place('Tashkent', 41.3, 69.24),
 ];
 
 /** Topic id to the names of the places on its map, roughly in the order the lesson meets them. */
 export const MAPS: Record<string, string[]> = {
   'archaeology-and-the-bible': ['Tel Dan', 'Hazor', 'Megiddo', 'Jericho', 'Jerusalem', 'Lachish', 'Caesarea', 'Nazareth', 'Babylon', 'Nineveh', 'Corinth', 'Delphi', 'Thessalonica'],
+  'canons-compared': ['Jerusalem', 'Nicaea', 'Hippo', 'Carthage', 'Trent'],
+  'old-testament-apocrypha': ['Jerusalem', 'Alexandria', 'Jamnia', 'Masada', 'Bethlehem', 'Rome', 'Hippo', 'Carthage', 'Florence', 'Trent', 'Leipzig'],
+  'other-gospels': ['Nag Hammadi', 'Oxyrhynchus', 'Akhmim', 'Cairo', 'Alexandria', 'Antioch', 'Rhossus', 'Lyon', 'Nicaea', 'Jerusalem'],
+  'edges-of-the-canon': ['Rome', 'Corinth', 'Alexandria', 'Carthage', 'Hippo', 'Cairo', 'Vienna', 'Jerusalem', 'Nazareth', 'Mecca'],
+  'islam-quran-readings': ['Mecca', 'Medina', 'Kufa', 'Basra', 'Damascus', 'Baghdad', 'Cairo', 'Istanbul'],
   'reliability-of-scripture': ['Jerusalem', 'Caesarea', 'Corinth', 'Delphi', 'Rome', 'Bethlehem'],
   'ancient-writers': ['Rome', 'Jerusalem', 'Caesarea', 'Alexandria', 'Corinth', 'Bethlehem', 'Nazareth'],
   'how-we-got-the-bible': ['Nicaea', 'Constantinople', 'Ephesus', 'Nag Hammadi'],

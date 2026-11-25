@@ -53,6 +53,11 @@ import { shiaSources } from './islam/sects/shia-sources';
 import { shiaKarbalaGospel } from './islam/sects/shia-karbala-gospel';
 import { quranistOverview } from './islam/sects/quranist-overview';
 import { quranistAnswering } from './islam/sects/quranist-answering';
+import { canonsCompared } from './topics/canons-compared';
+import { oldTestamentApocrypha } from './topics/old-testament-apocrypha';
+import { otherGospels } from './topics/other-gospels';
+import { edgesOfTheCanon } from './topics/edges-of-the-canon';
+import { quranReadings } from './islam/quran-readings';
 import { ahmadiyyaOverview } from './islam/sects/ahmadiyya-overview';
 import { ahmadiyyaJesusInIndia } from './islam/sects/ahmadiyya-jesus-in-india';
 import { noiOverview } from './islam/sects/noi-overview';
@@ -62,9 +67,9 @@ import { alawites } from './islam/sects/alawites';
 import { alevis } from './islam/sects/alevis';
 
 export const topics: Topic[] = [
-  truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, disputedTranslations, ancientWriters, archaeologyAndTheBible, resurrection, jesusOnlyWay, problemOfEvil, hardPassages, havingTheConversation,
+  truthAndRelativism, existenceOfGod, scienceAndFaith, identityOfJesus, fulfilledProphecy, reliabilityOfScripture, howWeGotTheBible, disputedTranslations, canonsCompared, oldTestamentApocrypha, otherGospels, edgesOfTheCanon, ancientWriters, archaeologyAndTheBible, resurrection, jesusOnlyWay, problemOfEvil, hardPassages, havingTheConversation,
   understandingIslam, branchesOfIslam, islamicDilemma, quranMisunderstands, crucifixionDenial, muhammadTested, muhammadWarfare,
-  quranOral, quranPreservation, quranManuscripts, quranConsistency, quranHistory, quranSources, hadithReliability,
+  quranOral, quranPreservation, quranManuscripts, quranReadings, quranConsistency, quranHistory, quranSources, hadithReliability,
   outsideWriters, archaeologyIslam, nightJourney, farthestMosque,
   muhammadInBible, quranChallenge, scientificMiracles,
   jesusMoreThanProphet, crossAndResurrection, gospelOfGrace,

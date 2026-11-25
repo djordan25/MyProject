@@ -23,6 +23,11 @@ export const tracks: Track[] = [
         topicIds: ['reliability-of-scripture', 'how-we-got-the-bible', 'disputed-translations'],
       },
       {
+        title: 'Books outside the Bible',
+        description: 'Why Bibles differ in length, and the Apocrypha, the other gospels and the books at the edge: what they are, and why they are not in the Bible.',
+        topicIds: ['canons-compared', 'old-testament-apocrypha', 'other-gospels', 'edges-of-the-canon'],
+      },
+      {
         title: 'Evidence outside the Bible',
         description: 'What ancient writers and archaeology confirm, what they cannot, and the hardest objections drawn from the same evidence.',
         topicIds: ['ancient-writers', 'archaeology-and-the-bible'],
@@ -67,8 +72,8 @@ export const tracks: Track[] = [
       },
       {
         title: 'Reliability of the Quran and hadith',
-        description: 'How the Quran was collected and standardised, its internal and historical problems, the legends it borrowed, and why the hadith are on shaky ground.',
-        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-manuscripts', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
+        description: 'How the Quran was collected and standardised, the readings in print today, its internal and historical problems, the legends it borrowed, and why the hadith are on shaky ground.',
+        topicIds: ['islam-quran-oral', 'islam-quran-preservation', 'islam-quran-manuscripts', 'islam-quran-readings', 'islam-quran-consistency', 'islam-quran-history', 'islam-quran-sources', 'islam-hadith-reliability'],
       },
       {
         title: 'Evidence outside Islam',

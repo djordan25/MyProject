@@ -37,9 +37,44 @@ export interface ContrastChart {
   rows: { label: string; verdict: 'yes' | 'no'; topicId: string; quote: string }[];
 }
 
-export type Chart = GapChart | ContrastChart;
+export interface CountChart {
+  kind: 'count';
+  id: string;
+  title: string;
+  note: string;
+  topics: string[];
+  max: number;
+  rows: {
+    label: string;
+    /** Parts of the bar, in books. `width` draws a part longer than its count where the lesson says the content is the same. */
+    parts: { n: number; tone: 'ot' | 'nt' | 'all'; width?: number }[];
+    says: string;
+    topicId: string;
+    /** Words copied from that lesson, for every figure in the row. */
+    quote: string;
+    also?: string;
+  }[];
+}
+
+export type Chart = GapChart | ContrastChart | CountChart;
 
 export const CHARTS: Chart[] = [
+  {
+    kind: 'count',
+    id: 'books-by-tradition',
+    title: 'How many books?',
+    note: 'Each tradition by its own count. The Jewish bar is drawn as long as the Protestant Old Testament because the lesson says the content is the same and only the counting differs.',
+    topics: ['canons-compared'],
+    max: 81,
+    rows: [
+      { label: 'Jewish Bible (Tanakh)', parts: [{ n: 24, tone: 'ot', width: 39 }], says: '24 books, the same content as the Protestant 39', topicId: 'canons-compared', quote: 'The Jewish Bible has 24 books.', also: 'Its content is the same as the Protestant Old Testament.' },
+      { label: 'Protestant', parts: [{ n: 39, tone: 'ot' }, { n: 27, tone: 'nt' }], says: '66 books', topicId: 'canons-compared', quote: 'Protestant Bibles have 66 books: 39 in the Old Testament and 27 in the New.' },
+      { label: 'Catholic', parts: [{ n: 46, tone: 'ot' }, { n: 27, tone: 'nt' }], says: '73 books', topicId: 'canons-compared', quote: 'Catholic Bibles have 73 books: 46 in the Old Testament and 27 in the New.' },
+      { label: 'Eastern Orthodox', parts: [{ n: 49, tone: 'ot' }, { n: 27, tone: 'nt' }], says: 'about 76 books', topicId: 'canons-compared', quote: 'Eastern Orthodox Bibles have about 76 books: the Orthodox Study Bible counts 49 in the Old Testament and 27 in the New.' },
+      { label: 'Ethiopian Orthodox', parts: [{ n: 81, tone: 'all' }], says: '81 books by its own count', topicId: 'canons-compared', quote: 'The Ethiopian Orthodox Church counts 81 books.' },
+      { label: 'Syriac Peshitta, New Testament only, as first made', parts: [{ n: 22, tone: 'nt' }], says: '22 books', topicId: 'canons-compared', quote: 'The Syriac Peshitta New Testament originally had 22 books.' },
+    ],
+  },
   {
     kind: 'gap',
     id: 'how-long-after',

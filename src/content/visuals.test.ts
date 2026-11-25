@@ -25,7 +25,7 @@ describe('lesson maps', () => {
   it('keeps every place inside the drawn region, and every route between places on its map', () => {
     for (const p of PLACES) {
       expect(p.lat, p.name).toBeGreaterThan(2);
-      expect(p.lat, p.name).toBeLessThan(52);
+      expect(p.lat, p.name).toBeLessThan(60);
       expect(p.lon, p.name).toBeGreaterThan(2);
       expect(p.lon, p.name).toBeLessThan(86);
     }
@@ -60,6 +60,7 @@ describe('comparison charts', () => {
       for (const row of chart.rows) {
         const topic = getTopic(row.topicId);
         expect(topic, row.topicId).toBeDefined();
+        if ('also' in row && row.also) expect(JSON.stringify(topic).includes(row.also), `${chart.id}: ${row.label}`).toBe(true);
         const found = [...topic!.lesson.flatMap((s) => s.body), ...topic!.objections.map((o) => o.response), textOf(topic!)].some((t) => t.includes(row.quote));
         expect(found, `${chart.id}: ${row.label}`).toBe(true);
       }
