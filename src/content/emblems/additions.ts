@@ -1,5 +1,13 @@
 /** Emblems for lessons added later: inner SVG markup on a 64 by 64 grid. See index.ts for the classes. */
 export const additions: Record<string, string> = {
+  'canons-compared': `
+    <rect class="e-soft" x="8" y="34" width="9" height="20"/>
+    <rect class="e-line" x="8" y="34" width="9" height="20"/>
+    <rect class="e-soft" x="21" y="26" width="9" height="28"/>
+    <rect class="e-line" x="21" y="26" width="9" height="28"/>
+    <rect class="e-accent" x="34" y="18" width="9" height="36"/>
+    <rect class="e-ink" x="47" y="10" width="9" height="44"/>
+    <path class="e-line" d="M4 56 H60"/>`,
   'old-testament-apocrypha': `
     <rect class="e-soft" x="8" y="12" width="16" height="42"/>
     <rect class="e-line" x="8" y="12" width="16" height="42"/>

@@ -32,6 +32,23 @@ export default function LessonChart({ chart, topicId }: { chart: Chart; topicId:
           </div>
           <div className="gap-unit mono" aria-hidden>years after</div>
         </>
+      ) : chart.kind === 'count' ? (
+        <>
+          <ul className="gap-chart count-chart">
+            {chart.rows.map((r) => (
+              <li key={r.label}>
+                <span className="gap-label">{r.label}</span>
+                <span className="count-track" aria-hidden>
+                  {r.parts.map((part, i) => (
+                    <i key={i} className={`part-${part.tone}${part.width ? ' same' : ''}`} style={{ width: `${((part.width ?? part.n) / chart.max) * 100}%` }}>{part.n}</i>
+                  ))}
+                </span>
+                <span className="gap-says mono">{r.says}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="count-key mono" aria-hidden><span className="part-ot" /> Old Testament <span className="part-nt" /> New Testament <span className="part-all" /> whole Bible</p>
+        </>
       ) : (
         <div className="contrast-chart">
           {(['yes', 'no'] as const).map((v) => (

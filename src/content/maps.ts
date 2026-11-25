@@ -37,6 +37,7 @@ export const PLACES: Place[] = [
 /** Topic id to the names of the places on its map, roughly in the order the lesson meets them. */
 export const MAPS: Record<string, string[]> = {
   'archaeology-and-the-bible': ['Tel Dan', 'Hazor', 'Megiddo', 'Jericho', 'Jerusalem', 'Lachish', 'Caesarea', 'Nazareth', 'Babylon', 'Nineveh', 'Corinth', 'Delphi', 'Thessalonica'],
+  'canons-compared': ['Jerusalem', 'Nicaea', 'Hippo', 'Carthage', 'Trent'],
   'old-testament-apocrypha': ['Jerusalem', 'Alexandria', 'Jamnia', 'Masada', 'Bethlehem', 'Rome', 'Hippo', 'Carthage', 'Florence', 'Trent', 'Leipzig'],
   'other-gospels': ['Nag Hammadi', 'Oxyrhynchus', 'Akhmim', 'Cairo', 'Alexandria', 'Antioch', 'Rhossus', 'Lyon', 'Nicaea', 'Jerusalem'],
   'edges-of-the-canon': ['Rome', 'Corinth', 'Alexandria', 'Carthage', 'Hippo', 'Cairo', 'Vienna', 'Jerusalem', 'Nazareth', 'Mecca'],

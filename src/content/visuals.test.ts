@@ -60,6 +60,7 @@ describe('comparison charts', () => {
       for (const row of chart.rows) {
         const topic = getTopic(row.topicId);
         expect(topic, row.topicId).toBeDefined();
+        if ('also' in row && row.also) expect(JSON.stringify(topic).includes(row.also), `${chart.id}: ${row.label}`).toBe(true);
         const found = [...topic!.lesson.flatMap((s) => s.body), ...topic!.objections.map((o) => o.response), textOf(topic!)].some((t) => t.includes(row.quote));
         expect(found, `${chart.id}: ${row.label}`).toBe(true);
       }

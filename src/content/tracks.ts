@@ -24,8 +24,8 @@ export const tracks: Track[] = [
       },
       {
         title: 'Books outside the Bible',
-        description: 'The Apocrypha, the other gospels and the books at the edge: what they are, and why they are not in the Bible.',
-        topicIds: ['old-testament-apocrypha', 'other-gospels', 'edges-of-the-canon'],
+        description: 'Why Bibles differ in length, and the Apocrypha, the other gospels and the books at the edge: what they are, and why they are not in the Bible.',
+        topicIds: ['canons-compared', 'old-testament-apocrypha', 'other-gospels', 'edges-of-the-canon'],
       },
       {
         title: 'Evidence outside the Bible',
