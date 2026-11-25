@@ -65,7 +65,7 @@ export const sunniOverview: Topic = {
       keyLine: 'The claim has to be tested by the earliest evidence, not assumed.',
       body: [
         'First: “Sahih al-Bukhari is the most authentic book after the Book of Allah.” Accept this as the Sunni position and hold your friend to it. If the book is that sound, its contents stand: the collection of the Quran under threat of loss and the burning of other copies (Sahih al-Bukhari 4986, 4987), the spell on Muhammad (Sahih al-Bukhari 5763), the apostasy ruling. Be accurate about its standing too. Early hadith critics did question some of its reports. Al-Daraqutni, who died in 995, criticised about two hundred narrations in the two Sahihs, almost all on technical points about their chains and not about their content, and al-Nawawi says that all or most of his criticisms were answered. The lessons Can the Hadith Be Trusted? and Uthman’s Burning and the Lost Verses give the detail.',
-        'Second: “The community will never agree on an error.” Look at the proof. The saying as it stands in Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 is graded weak. Sunni scholars reply that its many chains support one another. Then ask whose agreement counts. In practice it is the agreement of Sunni scholars, with the Shia and others left out, so the rule proves Sunni Islam only to those who are already Sunni. And the classical consensus includes the death penalty for apostasy, which many Sunnis today want to leave behind. A community can agree and be wrong. Sunni scholars agree that Jesus was not crucified (Quran 4:157), against every first-century source that speaks of his death.',
+        'Second: “The community will never agree on an error.” Look at the proof. The saying as it stands in Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 is graded weak. Sunni scholars reply that its many chains support one another, and al-Albani grades the sentence about misguidance sound in both places. Then ask whose agreement counts. In practice it is the agreement of Sunni scholars, with the Shia and others left out, so the rule proves Sunni Islam only to those who are already Sunni. And the classical consensus includes the death penalty for apostasy, which many Sunnis today want to leave behind. A community can agree and be wrong. Sunni scholars agree that Jesus was not crucified (Quran 4:157), against every first-century source that speaks of his death.',
         'Third: “Sunni Islam is simply the original Islam, preserved.” Sunnis do stand in line with the majority of the early community, and their scholars took great care. But the things that mark Sunni Islam took shape over centuries. The jurists behind the four schools died between 767 and 855. The six books were compiled in the ninth century and the first years of the tenth. The creeds took shape in the tenth. The first generation itself was torn by civil war. And Shia and Ibadi Muslims each say the same thing about themselves. The claim has to be tested by the earliest evidence, not assumed.',
       ],
       references: ['Sahih al-Bukhari 4986', 'Sahih al-Bukhari 4987', 'Sahih al-Bukhari 5763', 'Sunan Ibn Majah 3950', 'Jami at-Tirmidhi 2167', 'Quran 4:157'],
@@ -123,7 +123,7 @@ export const sunniOverview: Topic = {
       objection: 'The Prophet said his community would never agree on an error. So the agreement of the Muslims is a proof in itself. Christians have no such protection, which is why you are divided.',
       response:
         'Let’s look at the saying. In Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 it is graded weak, though I know Sunni scholars say the many chains strengthen one another. Suppose it is genuine. Whose agreement does it mean, and when? The community divided over its leadership within a generation, and Sunni consensus leaves out the Shia. And if consensus is a proof, the classical consensus stands, including death for apostasy. Christians do not test truth by counting heads. We test teaching by the Scriptures, as the Bereans did (Acts 17:11).',
-      keyPoints: ['The versions in Ibn Majah and al-Tirmidhi are graded weak.', 'Consensus means the agreement of those already Sunni.', 'Truth is tested by Scripture, not by numbers.'],
+      keyPoints: ['The chains in Ibn Majah and al-Tirmidhi are graded weak, but Sunnis count the saying itself sound.', 'Consensus means the agreement of those already Sunni.', 'Truth is tested by Scripture, not by numbers.'],
       references: ['Sunan Ibn Majah 3950', 'Jami at-Tirmidhi 2167', 'Acts 17:11'],
       followUps: [
         {
@@ -375,7 +375,7 @@ export const sunniOverview: Topic = {
       question: 'How is the saying “My nation will not unite on misguidance” graded in Sunan Ibn Majah 3950?',
       options: ['Sound (sahih)', 'Good (hasan)', 'Weak (da‘if)', 'It has no grade'],
       answer: 2,
-      explanation: 'It is graded weak there, and so is the version in Jami at-Tirmidhi 2167. Sunni scholars reply that the many chains strengthen one another.',
+      explanation: 'It is graded weak there, and so is the version in Jami at-Tirmidhi 2167. Sunni scholars reply that the many chains strengthen one another, and al-Albani grades the sentence about misguidance sound.',
     },
     {
       id: 'sno-q10',
