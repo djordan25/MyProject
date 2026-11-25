@@ -224,7 +224,7 @@ export const fulfilledProphecy: Topic = {
               followUps: [
                 {
                   reply: 'It has been two thousand years. At what point does a delayed promise count as a failed one?',
-                  answer: 'Israel waited many centuries for his first coming, and it came. Peter met this question in the first century: “The Lord is not slow in keeping His promise as some understand slowness, but is patient with you, not wanting anyone to perish” (2 Peter 3:8-9). The delay is mercy. And the interval has not been empty. The turning of the nations to the God of Israel, which the prophets also promised, has been going on the whole time (Psalm 22:27-28).',
+                  answer: 'Israel waited many centuries for his first coming, and it came. Peter’s second letter met this question long ago: “The Lord is not slow in keeping His promise as some understand slowness, but is patient with you, not wanting anyone to perish” (2 Peter 3:8-9). The delay is mercy. And the interval has not been empty. The turning of the nations to the God of Israel, which the prophets also promised, has been going on the whole time (Psalm 22:27-28).',
                 },
               ],
             },
