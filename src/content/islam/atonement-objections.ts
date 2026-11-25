@@ -28,7 +28,7 @@ export const atonementObjections: Topic = {
     },
     {
       heading: 'A sacrifice in the Quran',
-      keyLine: 'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice',
+      keyLine: 'The Quran itself contains the idea of a life ransomed by a sacrifice, though Muslims keep the yearly sacrifice as a commemoration.',
       body: [
         'The Quran tells of Abraham preparing to sacrifice his son, and then says: “We ransomed him with a great sacrifice” (Quran 37:107). Muslims commemorate this every year at Eid al-Adha.',
         'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice, though Muslims keep the yearly sacrifice as a commemoration and not as atonement for sin. Ask: what made it a “great” sacrifice? Muslim commentators answer that it was a ram sent from Paradise. Genesis 22 tells the same story, and there Abraham says, “God Himself will provide the lamb” (Genesis 22:8). Christ is that Lamb.',

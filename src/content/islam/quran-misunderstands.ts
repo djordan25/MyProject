@@ -33,7 +33,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 3: Mary, sister of Aaron, daughter of Imran',
-      keyLine: 'So raise it as a question rather than as a proven error.',
+      keyLine: 'The Quran’s names for Mary match those of Moses’ sister, but raise this as a question, not as a proven error.',
       body: [
         'The Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12). In the Bible, Amram (Imran) was the father of Aaron, Moses and their sister Miriam (Numbers 26:59) — well over a thousand years before Jesus. In Arabic, Mary and Miriam are the same name (Maryam).',
         'Christians raised this exact problem in Muhammad’s time. Sahih Muslim 2135 records that the Christians of Najran asked how Mary could be the sister of Aaron when Moses lived long before Jesus. Muhammad replied that people used to be named after earlier prophets and pious persons.',
@@ -43,7 +43,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 4: The Gospel as a book given to Jesus',
-      keyLine: 'The gospel is the good news about Jesus — his life, death and resurrection — proclaimed by his apostles (Mark 1:1; 1 Corinthians 15:1-4).',
+      keyLine: 'The Quran treats the Gospel as a book given to Jesus, but the gospel is the good news about him proclaimed by his apostles.',
       body: [
         'The Quran presents the Injil as a book God “gave” to Jesus, as the Torah was given to Moses (Quran 5:46, 57:27). But Jesus did not bring a book. The gospel is the good news about Jesus — his life, death and resurrection — proclaimed by his apostles (Mark 1:1; 1 Corinthians 15:1-4).',
       ],
@@ -51,7 +51,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 5: Stories from later legends',
-      keyLine: 'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',
+      keyLine: 'The Quran’s stories of Jesus that match later legends are most naturally explained by an author absorbing what was around him.',
       body: [
         'The Quran includes stories about Jesus that appear nowhere in the Bible: Jesus speaking from the cradle (Quran 19:29-30) and making clay birds come to life (Quran 3:49; 5:110). The clay birds match a legend in the second-century Infancy Gospel of Thomas, and the cradle speech has a parallel in the Arabic Infancy Gospel, which in its present form may be later than the Quran. Neither is in the first-century Gospels, which appeal to eyewitness testimony.',
         'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',

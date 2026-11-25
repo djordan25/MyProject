@@ -8,7 +8,7 @@ export const deityObjections: Topic = {
   lesson: [
     {
       heading: 'The key: two natures',
-      keyLine: 'So passages showing Jesus’ humanity don’t disprove his deity — they confirm the incarnation.',
+      keyLine: 'Passages showing Jesus’ humanity do not disprove his deity, because the eternal Son became fully human while remaining fully God.',
       body: [
         'Most Muslim objections to Jesus’ deity point to his humanity: he prayed, got tired, didn’t know the hour, died. Christians agree he did all these! Christianity teaches that the eternal Son became fully human while remaining fully God (John 1:14; Philippians 2:6-8).',
         'So passages showing Jesus’ humanity don’t disprove his deity — they confirm the incarnation. The question is whether there are also passages showing his deity. There are many (see Jesus: More Than a Prophet).',
@@ -18,7 +18,7 @@ export const deityObjections: Topic = {
     },
     {
       heading: '“Where did Jesus say, ‘I am God, worship me’?”',
-      keyLine: 'But Jesus claimed deity in ways his Jewish audience understood immediately',
+      keyLine: 'Jesus claimed deity in ways his Jewish audience understood immediately, and meaning, not a formula, is the test.',
       body: [
         'This demands a specific wording. But Jesus claimed deity in ways his Jewish audience understood immediately — they tried to stone him for blasphemy (John 8:58-59; 10:30-33) and condemned him to death for it (Mark 14:61-64).',
         'He accepted worship (Matthew 14:33; John 20:28), said all should honour the Son just as they honour the Father (John 5:23), and claimed authority to forgive sins and judge the world (Mark 2:5-10; Matthew 25:31-32).',

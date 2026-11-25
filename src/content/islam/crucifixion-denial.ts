@@ -8,7 +8,7 @@ export const crucifixionDenial: Topic = {
   lesson: [
     {
       heading: 'What the Quran claims',
-      keyLine: 'This single verse is the Quran’s only explicit statement on the matter.',
+      keyLine: 'The Quran’s only explicit denial of the crucifixion is a single verse recited roughly 600 years after the event.',
       body: [
         '“They did not kill him, nor did they crucify him; but [another] was made to resemble him to them… Rather, Allah raised him to Himself” (Quran 4:157-158).',
         'This single verse is the Quran’s only explicit statement on the matter. It was recited in Medina in the 620s — roughly 600 years after the event and hundreds of miles from Jerusalem.',
@@ -17,7 +17,7 @@ export const crucifixionDenial: Topic = {
     },
     {
       heading: 'The crucifixion was predicted and proclaimed',
-      keyLine: 'The crucifixion is the centre of the Christian message, not a detail (1 Corinthians 2:2; Galatians 6:14).',
+      keyLine: 'The Old Testament foretold a dying servant, Jesus predicted his own death, and every main New Testament witness affirms it.',
       body: [
         'The Old Testament foretold a suffering, pierced, dying servant (Psalm 22:16-18; Isaiah 53:5-12; Zechariah 12:10).',
         'Jesus repeatedly predicted his own death and resurrection (Mark 8:31; 9:31; 10:33-34). If he was not crucified, Jesus was a false prophet on this point.',
@@ -28,7 +28,7 @@ export const crucifixionDenial: Topic = {
     },
     {
       heading: 'The Quran’s own problems',
-      keyLine: 'Divine deception: if God made someone else look like Jesus, then God deceived Jesus’ mother, his disciples and the watching crowd.',
+      keyLine: 'If someone else was made to look like Jesus, God deceived the disciples whom the Quran itself praises as true believers.',
       body: [
         'Divine deception: if God made someone else look like Jesus, then God deceived Jesus’ mother, his disciples and the watching crowd. That deception produced the entire Christian faith. Quran 3:54 says “Allah is the best of planners.” (The Arabic word, makr, means plotting or scheming; where God is its subject, the Quran uses it of his counter-plot against plotters.) Would a God of truth found a worldwide false religion by trickery?',
         'The disciples: the Quran praises Jesus’ disciples as true believers whom Allah supported until “they became dominant” (Quran 61:14; 3:52-55). Yet those very disciples proclaimed the death and resurrection of Jesus (Acts 2:23-24, 32). If God supported them, he supported their message.',
@@ -39,7 +39,7 @@ export const crucifixionDenial: Topic = {
     },
     {
       heading: 'What the Muslim commentators say',
-      keyLine: 'The classical commentators did not agree on what happened.',
+      keyLine: 'The classical Muslim commentators did not agree on who was crucified in place of Jesus, and their accounts contradict one another.',
       body: [
         'The classical commentators did not agree on what happened. Al-Tabari records several accounts: that a disciple volunteered to take on Jesus’ appearance and die in his place, that a man named Sergius was made to look like him, and that, as one report says some Christians claimed, it was Judas who was made to look like Jesus and was crucified protesting that he was not the man; that report ends: God knows best which it was. Al-Tabari himself prefers two reports from Wahb ibn Munabbih, in one of which all the disciples present were made to look like Jesus. Ibn Kathir gives the account of the volunteer disciple. The short commentary of the two Jalals says the man killed was an associate of the Jews on whom God cast Jesus’ likeness.',
         'None of these accounts names a source from the time of Jesus, and they contradict one another. The verse itself says that those who differ about it “have no knowledge of it except the following of assumption” (Quran 4:157). That describes the commentators’ position exactly.',

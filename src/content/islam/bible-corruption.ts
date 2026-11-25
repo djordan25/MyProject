@@ -17,7 +17,7 @@ export const bibleCorruption: Topic = {
     },
     {
       heading: 'God preserves his word',
-      keyLine: 'The Quran agrees no one can change Allah’s words (Quran 6:115; 18:27).',
+      keyLine: 'The Bible says God’s word stands forever, and the Quran agrees that no one can change Allah’s words.',
       body: [
         '“The grass withers and the flowers fall, but the word of our God stands forever” (Isaiah 40:8). “Heaven and earth will pass away, but My words will never pass away” (Matthew 24:35).',
         'The Quran agrees no one can change Allah’s words (Quran 6:115; 18:27). If God couldn’t protect the Torah and Gospel, why trust him to protect the Quran?',
@@ -26,7 +26,7 @@ export const bibleCorruption: Topic = {
     },
     {
       heading: 'Paul and the apostles',
-      keyLine: 'Paul says the gospel of Christ’s death and resurrection is what all the apostles preached',
+      keyLine: 'Many Muslims claim Paul corrupted Jesus’ message, yet the apostles gave him fellowship, and he says they preached the same gospel.',
       body: [
         'Many Muslims claim Paul corrupted Jesus’ message. But Paul visited Peter and James in Jerusalem (Galatians 1:18-19), and the apostles gave him “the right hand of fellowship” (Galatians 2:9). Peter calls Paul “our beloved brother” and places his letters alongside “the rest of the Scriptures” (2 Peter 3:15-16).',
         'Paul says the gospel of Christ’s death and resurrection is what all the apostles preached: “Whether, then, it was I or they, this is what we preach, and this is what you believed” (1 Corinthians 15:11).',

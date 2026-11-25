@@ -8,7 +8,7 @@ export const truthAndRelativism: Topic = {
   lesson: [
     {
       heading: 'Why this comes first',
-      keyLine: 'Christians are told to examine claims, not merely to feel them',
+      keyLine: 'Many people assume religious claims cannot be true or false at all, and Jesus thought otherwise.',
       body: [
         'Many people today do not reject Christianity because they have weighed the evidence. They assume that religious claims are not the sort of thing that can be true or false at all: “That’s true for you, but not for me.” If that is right, there is nothing to discuss.',
         'Jesus thought otherwise. He told Pilate that he came into the world “to testify to the truth” (John 18:37-38), and Pilate’s tired reply, “What is truth?”, is the mood of our own age. Christians are told to examine claims, not merely to feel them: “test all things. Hold fast to what is good” (1 Thessalonians 5:21).',
@@ -36,7 +36,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'Tolerance, rightly understood',
-      keyLine: 'Tolerance in its classic sense means putting up with views you think are wrong',
+      keyLine: 'Classic tolerance means putting up with views you think are wrong and, at its best, treating those who hold them with respect.',
       body: [
         'Tolerance in its classic sense means putting up with views you think are wrong, and at its best treating the people who hold them with respect. It assumes disagreement: nobody “tolerates” a view they share.',
         'The newer idea is that all views are equally valid and that to say otherwise is hateful. Nobody lives this way. The person who insists on it thinks you are wrong not to.',
@@ -46,7 +46,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'Are all religions the same?',
-      keyLine: 'On the central questions they contradict one another.',
+      keyLine: 'Religions agree on some moral teaching, but on the central questions they contradict one another and cannot all be true.',
       body: [
         'They agree on some moral teaching. On the central questions they contradict one another. Is there one God, many, or none? Is Jesus God in the flesh, a prophet, or a teacher who has been misunderstood? Are we saved by grace, by our deeds, or by escaping the cycle of rebirth?',
         'These cannot all be right. They could all be wrong, but they cannot all be true. Saying they are “the same underneath” does not respect them; it tells every one of them that what it considers essential does not matter.',

@@ -8,7 +8,7 @@ export const scientificMiracles: Topic = {
   lesson: [
     {
       heading: 'The claim',
-      keyLine: 'If the “prediction” is only recognised after the discovery, it isn’t a prediction.',
+      keyLine: 'A scientific claim seen in the Quran only after science has made the discovery is not a prediction.',
       body: [
         'Popular Muslim apologetics argues that the Quran contains scientific facts unknown in the seventh century — proof that it came from God. Common examples: embryology (Quran 23:12-14), the Big Bang (Quran 21:30), and the expanding universe (Quran 51:47). Not all Muslims argue this way: scholars such as Mahmud Shaltut and Sayyid Qutb rejected the method outright.',
         'A helpful question to ask: “Did any Muslim scholar read these verses this way before modern science discovered the facts?” If the “prediction” is only recognised after the discovery, it isn’t a prediction.',
@@ -17,7 +17,7 @@ export const scientificMiracles: Topic = {
     },
     {
       heading: 'Embryology (Quran 23:14)',
-      keyLine: 'The description reflects ideas common in ancient medicine rather than modern embryology.',
+      keyLine: 'The Quran’s account of the embryo reflects ideas common in ancient medicine, with bones formed first and then clothed with flesh.',
       body: [
         '“We made the sperm-drop into a clinging clot, and We made the clot into a lump [of flesh], and We made [from] the lump, bones, and We covered the bones with flesh” (Quran 23:14).',
         'The sequence says bones form first and are then clothed with flesh. In reality, muscle and skeletal tissue develop together, and the cartilage models of bones are formed alongside the surrounding tissues. The description reflects ideas common in ancient medicine rather than modern embryology.',
@@ -27,7 +27,7 @@ export const scientificMiracles: Topic = {
     },
     {
       heading: 'Where does the sun go?',
-      keyLine: 'The hadith settle how Muhammad understood the sun’s movement',
+      keyLine: 'The Quran speaks of reaching the place where the sun sets, and a hadith has the sun going beneath the Throne.',
       body: [
         'Dhul-Qarnayn travelled until “he reached the setting of the sun, he found it [as if] setting in a spring of dark mud” (Quran 18:86). Muslims respond that this is from his perspective — but the verse says he reached the setting place of the sun.',
         'The hadith settle how Muhammad understood the sun’s movement: asking Abu Dharr at sunset where the sun goes, he said, “It goes till it prostrates itself underneath the Throne and takes the permission to rise again” (Sahih al-Bukhari 3199).',
@@ -36,7 +36,7 @@ export const scientificMiracles: Topic = {
     },
     {
       heading: 'Other hadith on the natural world',
-      keyLine: 'The point is that a Muslim who argues that the Quran proves itself by science must accept the same scrutiny of the scientific statements in Islam’s authoritative sources.',
+      keyLine: 'A Muslim who says science proves the Quran must accept the same scrutiny of the science in Islam’s authoritative sources.',
       body: [
         '“If a house fly falls in the drink of anyone of you, he should dip it… for one of its wings has a disease and the other has the cure” (Sahih al-Bukhari 3320).',
         'Adam was created sixty cubits tall, and people have been decreasing in stature ever since (Sahih al-Bukhari 3326). Human remains from the ancient world show no such giant ancestors.',
@@ -46,7 +46,7 @@ export const scientificMiracles: Topic = {
     },
     {
       heading: 'A better foundation',
-      keyLine: 'Our confidence rests on God’s acts in history',
+      keyLine: 'Christian confidence rests on God’s acts in history, above all the resurrection of Jesus, not on hidden science.',
       body: [
         'Christians don’t claim the Bible proves itself by hidden science. The Bible tells us the heavens declare God’s glory (Psalm 19:1) and that creation reveals his power (Romans 1:20). Our confidence rests on God’s acts in history — above all the resurrection of Jesus (1 Corinthians 15:14-20).',
       ],

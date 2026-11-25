@@ -17,7 +17,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       heading: 'What the earliest objects confirm',
-      keyLine: 'Within about ten years of Muhammad’s death the Arabs were counting years from a new starting point',
+      keyLine: 'The earliest dated objects are a real confirmation of the Muslim account: its calendar from AD 622 and the caliphs Umar and Mu‘awiya.',
       body: [
         'The oldest dated document in Arabic is a papyrus from Egypt, a receipt for sheep handed over to an Arab commander, written in Greek and Arabic in AD 643. It opens “In the name of God” and is dated “year twenty-two”. The oldest securely dated inscription of the Muslim era, cut on a rock in north-west Arabia by a man named Zuhayr, says that he wrote it “at the time Umar died”, in the year twenty-four, which is AD 644. Two dated inscriptions name the caliph Mu‘awiya and call him “commander of the believers”: one at the hot baths of Gadara in Palestine, dated 662–3, and one on a dam near Ta’if, dated 677–8.',
         'These are a real confirmation of the Muslim account. Within about ten years of Muhammad’s death the Arabs were counting years from a new starting point, and it works out to AD 622, the year tradition gives for his migration to Medina. Umar and Mu‘awiya are real, and they ruled when tradition says they did. The conquests happened as the outside writers also report.',
@@ -25,7 +25,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       heading: 'When Muhammad’s name appears',
-      keyLine: 'For about sixty years after the migration, no dated inscription, coin or papyrus that has been published names Muhammad as God’s messenger or uses the word Islam.',
+      keyLine: 'The public Islam we know, with Muhammad’s name set beside God’s, comes into view about two generations after his death.',
       body: [
         'What the earliest objects leave out is just as interesting. For about sixty years after the migration, no dated inscription, coin or papyrus that has been published names Muhammad as God’s messenger or uses the word Islam. A few earlier coins carry the bare name Muhammad, but specialists take it to be a governor’s. The inscriptions call on God and ask his forgiveness. The first coins the Arabs issued copied Roman and Persian ones, some with the cross or the Persian fire altar still on them. The inscription at Gadara is in Greek and begins with a cross.',
         'In the 680s and 690s that changes. A silver coin struck in Persia in 685–6 carries the words “Muhammad is the messenger of God”. It was issued by a governor of Ibn al-Zubayr, a rival who claimed the caliphate. In 691–2 the caliph Abd al-Malik built the Dome of the Rock in Jerusalem, with a long inscription that names Muhammad several times. A few years later he replaced the old coinage with coins that carry no image at all, only religious texts.',
@@ -56,7 +56,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       heading: 'Arabia was not simply pagan',
-      keyLine: 'Jews and Christians had been in Arabia for centuries.',
+      keyLine: 'Jews and Christians had been in Arabia for centuries, and their stories were being told all around Muhammad.',
       body: [
         'Muslims commonly call the time before Muhammad the “age of ignorance” and picture Arabia as given over to idols. Inscriptions tell a more mixed story.',
         'In the south, ancient Yemen left thousands of inscriptions. In its kingdom of Himyar, from about AD 380, the inscriptions to the old gods stop. The kings had adopted a form of Judaism, or a faith of their own modelled on it, and God is soon called Rahmanan, “the Merciful”, the same word as the Quran’s al-Rahman. After Christians from Ethiopia conquered Himyar in the 520s, royal inscriptions open in the name of Rahmanan and his Messiah.',
@@ -68,7 +68,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       heading: 'Abraha and the elephant',
-      keyLine: 'So the inscriptions confirm the man and a campaign to the north.',
+      keyLine: 'Inscriptions confirm Abraha and a campaign to the north, but they do not confirm the attack on Mecca.',
       body: [
         'Surah 105 asks whether the hearer has considered how God dealt with “the companions of the elephant” (Quran 105:1). Muslim tradition explains that Abraha, the Christian ruler of Yemen, marched on Mecca with an elephant to destroy the Kaaba, and that this happened in the year Muhammad was born, about 570.',
         'Abraha is a real figure. His inscriptions survive, among them a long one about repairs to the great dam at Marib. Another, at a well called Murayghan in south-west Arabia, records a campaign into central Arabia and is dated to the year that corresponds to AD 552. It does not mention Mecca, the Kaaba or an elephant. His dated inscriptions run to the end of the 550s, and historians put the end of his reign in the 560s.',
@@ -78,7 +78,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       heading: 'Arguments to leave alone',
-      keyLine: 'Do not say that archaeology has disproved Islam, or that Mecca did not exist in Muhammad’s time.',
+      keyLine: 'Do not use the Petra argument, and do not say that archaeology has disproved Islam or that Muhammad was invented.',
       body: [
         'A Canadian writer, Dan Gibson, has argued in books and a film that the earliest mosques point to Petra in Jordan and that Islam began there. Specialists have not accepted this. David King, a historian of Islamic astronomy, replied that the first Muslims had no means of calculating the direction of a distant city. They set their mosques by the points of sunrise and sunset, by the rising of certain stars and by the cardinal directions, so the “errors” that Gibson measures by satellite are what we should expect. Do not use the Petra argument.',
         'Do not say that archaeology has disproved Islam, or that Mecca did not exist in Muhammad’s time. And do not use the sixty years of silence to argue that Muhammad was invented. The previous lesson explains why.',
@@ -86,7 +86,7 @@ export const archaeologyIslam: Topic = {
     },
     {
       heading: 'How to use this',
-      keyLine: 'Archaeology cannot tell us whether Muhammad was a prophet.',
+      keyLine: 'Archaeology cannot tell us whether Muhammad was a prophet, but it can correct the picture of early Mecca, of Arabia and of Islam’s public form.',
       body: [
         'Archaeology cannot tell us whether Muhammad was a prophet. What it can do is correct the picture on four points.',
         'First, the antiquity of Mecca and its link with Abraham are not facts of history. They rest on the Quran’s word. Genesis, which is far older, has Ishmael grow up in the wilderness of Paran with a wife from Egypt (Genesis 21:20-21), and it never brings Abraham to Mecca.',

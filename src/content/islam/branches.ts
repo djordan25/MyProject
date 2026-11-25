@@ -8,7 +8,7 @@ export const branchesOfIslam: Topic = {
   lesson: [
     {
       heading: 'Ask before you argue',
-      keyLine: 'Whatever the answer, arguments drawn from the Quran itself apply to nearly every group below, because nearly all of them accept the Quran.',
+      keyLine: 'Ask early which books a Muslim follows besides the Quran, because arguments from Bukhari and Muslim work best with Sunnis.',
       body: [
         'Much of this course argues from Sahih al-Bukhari and Sahih Muslim. That works with Sunni Muslims, who are the large majority, an estimated 87 to 90 percent. It works less well with others. So ask early, and with real interest: “Which books do you follow besides the Quran?”',
         'Whatever the answer, arguments drawn from the Quran itself apply to nearly every group below, because nearly all of them accept the Quran. The Druze, who have their own scripture besides, and many Alevis are partial exceptions: they honour the Quran but read it for an inner meaning.',
@@ -52,7 +52,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Sufis, and Muslims in name',
-      keyLine: 'Sufism is a mystical tradition found among both Sunnis and Shia, stressing love for God and inward experience.',
+      keyLine: 'Sufis are often glad to talk about knowing God, and with Muslims by family and culture it is wise to begin with Jesus himself.',
       body: [
         'Sufism is a mystical tradition found among both Sunnis and Shia, stressing love for God and inward experience. Sufis are often glad to talk about knowing God personally. Jesus’ words are a natural place to begin: eternal life is to know the only true God and Jesus Christ whom he sent (John 17:3). The Sunni Islam sub-track has a lesson on the Salafi and Sufi streams.',
         'Many Muslims are Muslim by family and culture and know little of the Quran or the hadith. Detailed arguments about sources may mean nothing to them. Begin with Jesus himself and with the gospel (see Sharing the Gospel with a Muslim).',
@@ -61,7 +61,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Other communities',
-      keyLine: 'Three more sub-tracks cover communities that grew out of Islam or carry its name',
+      keyLine: 'The Nation of Islam, Druze, Alawites and Alevis stand apart from mainstream Sunni and Twelver Shia Islam, though many count themselves Muslims.',
       body: [
         'Three more sub-tracks cover communities that grew out of Islam or carry its name, and that stand apart from mainstream Sunni and Twelver Shia Islam, though members of the Nation of Islam, Alawites, and many Alevis and Druze count themselves Muslims.',
         'The Nation of Islam is an American movement that began in Detroit in 1930 with W. D. Fard and was built up by Elijah Muhammad. It teaches that Fard was Allah in person, that Elijah Muhammad was his messenger, and that black people are the original people of the earth, teachings that Sunni and Shia Muslims reject. After Elijah Muhammad died in 1975 his son moved the organisation towards mainstream Islam, and from late 1977 Louis Farrakhan rebuilt the present Nation of Islam on the older teachings. See the Nation of Islam sub-track.',

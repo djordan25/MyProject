@@ -8,7 +8,7 @@ export const gospelOfGrace: Topic = {
   lesson: [
     {
       heading: 'Salvation in Islam',
-      keyLine: 'But no Muslim today can know in advance which way the scales will fall, or whether that mercy will be given.',
+      keyLine: 'In Islam deeds are weighed and no one is saved without Allah’s mercy, yet no Muslim today can know in advance if that mercy will be given.',
       body: [
         'On Judgment Day deeds are weighed: “those whose scales are heavy — it is they who will be the successful. And those whose scales are light — they are the ones who will lose themselves” (Quran 7:8-9; 23:102-103).',
         'Muslims stress that Allah is merciful, and that no one is saved without his mercy. But no Muslim today can know in advance which way the scales will fall, or whether that mercy will be given. Muhammad himself said, “The deeds of anyone of you will not save you,” and when asked “Even you?”, replied, “No, even I (will not be saved) unless and until Allah bestows His Mercy on me” (Sahih al-Bukhari 6463; Sahih Muslim 2816).',
@@ -27,7 +27,7 @@ export const gospelOfGrace: Topic = {
     },
     {
       heading: 'The gospel answer',
-      keyLine: 'At the cross God acted “so as to be just and to justify the one who has faith in Jesus” (Romans 3:26).',
+      keyLine: 'God himself provides the payment at the cross, so salvation is a gift received through faith, and it brings assurance.',
       body: [
         'God himself provides the payment. “God proves His love for us in this: While we were still sinners, Christ died for us” (Romans 5:8). At the cross God acted “so as to be just and to justify the one who has faith in Jesus” (Romans 3:26).',
         'Salvation is a gift: “it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God, not by works” (Ephesians 2:8-9).',
@@ -37,7 +37,7 @@ export const gospelOfGrace: Topic = {
     },
     {
       heading: 'God’s love',
-      keyLine: 'Many Muslims have been drawn to Christ not first by an argument, but by this love and by the assurance it brings.',
+      keyLine: 'The Bible says God loved us first, while we were his enemies, and many Muslims have been drawn to Christ by that love.',
       body: [
         'The Quran calls Allah the Loving One (al-Wadud), and speaks of him loving those who follow the Messenger (Quran 3:31) and the doers of good (Quran 2:195), and not liking the disbelievers (Quran 3:32). In these verses his love is a response to obedience.',
         'The Bible says “God is love” (1 John 4:8) and that he loved us first, while we were his enemies (Romans 5:8-10; 1 John 4:10, 19). “For God so loved the world that He gave His one and only Son” (John 3:16).',

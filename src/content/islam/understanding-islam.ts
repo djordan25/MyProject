@@ -17,7 +17,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'The sources of authority in Islam',
-      keyLine: 'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections.',
+      keyLine: 'Muslims look to the Quran and to Muhammad’s example in the hadith, and Sunnis hold two hadith collections most authentic.',
       body: [
         'The Quran: believed to be the literal, uncreated word of Allah, revealed to Muhammad through the angel Gabriel (Jibril) between roughly AD 610 and 632. It has 114 surahs (chapters).',
         'The Sunnah: the example of Muhammad — what he said, did and approved — recorded in the hadith. Most of Islamic practice (how to pray, fast, etc.) comes from the hadith, not the Quran alone. The Quran itself commands obedience to the Messenger (Quran 3:32).',
@@ -39,7 +39,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'Core beliefs and practices',
-      keyLine: 'Tawhid — the absolute oneness of God — is the heart of Islam (Quran 112:1-4).',
+      keyLine: 'The absolute oneness of God is the heart of Islam, which is why the Trinity sounds like blasphemy to Muslims.',
       body: [
         'The six articles of faith come from the famous “Hadith of Gabriel”: belief in Allah, His angels, His books, His messengers, the Last Day, and divine decree (Sahih Muslim 8).',
         'The five pillars: the testimony (shahada) that there is no god but Allah and Muhammad is His messenger; the five daily prayers; almsgiving (zakat); fasting in Ramadan; and pilgrimage to Mecca (Sahih al-Bukhari 8).',
@@ -49,7 +49,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'What Islam teaches about Jesus',
-      keyLine: 'Muslims honour Jesus (Isa) as one of the greatest prophets.',
+      keyLine: 'Muslims honour Jesus as one of the greatest prophets, but the Quran denies that he is the Son of God or was crucified.',
       body: [
         'Muslims honour Jesus (Isa) as one of the greatest prophets. The Quran affirms his virgin birth (Quran 3:47), calls him the Messiah and “a word from Him” (Quran 3:45), and credits him with miracles including healing and raising the dead (Quran 3:49).',
         'But the Quran denies that Jesus is the Son of God (Quran 19:88-92), denies that he was crucified (Quran 4:157), and insists he was “but a messenger” (Quran 5:75).',

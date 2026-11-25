@@ -8,7 +8,7 @@ export const identityOfJesus: Topic = {
   lesson: [
     {
       heading: 'Jesus of history',
-      keyLine: 'Virtually all historians — Christian or not — agree that Jesus of Nazareth existed, was baptised by John, gathered disciples, and was crucified under Pontius Pilate.',
+      keyLine: 'Virtually all historians, Christian or not, agree that Jesus existed and was crucified under Pontius Pilate.',
       body: [
         'Virtually all historians — Christian or not — agree that Jesus of Nazareth existed, was baptised by John, gathered disciples, and was crucified under Pontius Pilate.',
         'Besides the New Testament, early non-Christian sources mention him: Tacitus (Annals 15.44), Josephus (Antiquities 18.63; 20.200), and Pliny the Younger (Letters 10.96). Josephus’ first passage shows signs of later Christian editing, but most scholars accept an authentic core that mentions Jesus’ execution under Pilate.',
@@ -16,6 +16,7 @@ export const identityOfJesus: Topic = {
     },
     {
       heading: 'Jesus’ claims about himself',
+      keyLine: 'Jesus did more than teach ethics: he forgave sins, claimed he would judge the world, and accepted worship.',
       body: [
         'Jesus did more than teach ethics. He forgave sins against others (Mark 2:5-7), applied the divine name to himself (“before Abraham was born, I am” — John 8:58), claimed he would judge the world (Matthew 25:31-46), and accepted worship (John 20:28).',
         'Even in the earliest Gospel, Mark, his self-description as the “Son of Man” coming on the clouds (Mark 14:62, drawing on Daniel 7:13-14) led the high priest to charge him with blasphemy.',
@@ -49,7 +50,7 @@ export const identityOfJesus: Topic = {
     },
     {
       heading: 'What his opponents said',
-      keyLine: 'Any account of Jesus has to explain why he was executed.',
+      keyLine: 'Jesus’ enemies charged him with blasphemy, which fits a man who spoke and acted as though he stood in God’s place.',
       body: [
         'Jesus’ enemies did not say that he did nothing remarkable. They said he did it by an evil power: “By the prince of the demons He drives out demons” (Mark 3:21-22).',
         'They did not charge him with teaching ethics. The charge before the Jewish council was blasphemy (Mark 14:61-64), and the charge nailed above him by the Romans read “THE KING OF THE JEWS” (Mark 15:26).',

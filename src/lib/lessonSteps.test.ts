@@ -3,12 +3,15 @@ import { topics } from '../content';
 import { pieces, placeVisuals, sectionChecks, sectionText } from './lessonSteps';
 
 describe('key lines', () => {
-  it('are copied word for word from their own section, and are short', () => {
+  it('are one short sentence, with no citation and no straight quotes', () => {
     for (const t of topics) {
       for (const s of t.lesson) {
         if (!s.keyLine) continue;
-        expect([...s.body, ...(s.argument ?? [])].some((p) => p.includes(s.keyLine!)), `${t.id}: ${s.heading}`).toBe(true);
-        expect(s.keyLine.length, `${t.id}: ${s.heading}`).toBeLessThanOrEqual(175);
+        const where = `${t.id}: ${s.heading}`;
+        expect(s.keyLine.length, where).toBeGreaterThanOrEqual(40);
+        expect(s.keyLine.length, where).toBeLessThanOrEqual(175);
+        expect(/["']/.test(s.keyLine), where).toBe(false);
+        expect(/\d:\d|Sahih (al-Bukhari|Muslim) \d/.test(s.keyLine), where).toBe(false);
       }
     }
   });

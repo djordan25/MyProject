@@ -18,7 +18,7 @@ export const quranOral: Topic = {
     },
     {
       heading: 'The battle of Yamama: reciters killed',
-      keyLine: 'Notice what this admits: the Quran’s survival depended on living memorisers, and when they died, its loss was a real danger in the minds of the leading companions.',
+      keyLine: 'The Quran’s survival depended on living memorisers, and the leading companions feared its loss when reciters died.',
       body: [
         'Shortly after Muhammad’s death, the hadith report, many of the Qurra’ — the men who had memorised the Quran — were killed fighting at Yamama. Umar came to Abu Bakr alarmed: casualties were heavy among the reciters, and he feared that if more fell in other battles before it was collected, “a large part of the Qur’an may be lost” (Sahih al-Bukhari 4986).',
         'Notice what this admits: the Quran’s survival depended on living memorisers, and when they died, its loss was a real danger in the minds of the leading companions.',
@@ -28,7 +28,7 @@ export const quranOral: Topic = {
     },
     {
       heading: 'Verses found with only one man',
-      keyLine: 'Zaid found the last verses of Surat at-Tawba with only one person',
+      keyLine: 'By Zaid’s own report, two Quran passages were each found with only one man, which raises a question about mass memorisation.',
       body: [
         'Zaid found the last verses of Surat at-Tawba with only one person, Abu Khuzaima al-Ansari, “and I did not find it with anybody other than him” (Sahih al-Bukhari 4986).',
         'Later, when copying the manuscripts, Zaid missed a verse of Surat al-Ahzab (Quran 33:23) that he used to hear the Prophet recite, and found it only with Khuzaima bin Thabit (Sahih al-Bukhari 4988).',
@@ -38,7 +38,7 @@ export const quranOral: Topic = {
     },
     {
       heading: 'Seven ways of reciting',
-      keyLine: 'So from the beginning, the Quran existed in multiple oral forms.',
+      keyLine: 'From the beginning the Quran was recited in more than one way, which differs from the claim of a single identical text.',
       body: [
         'Muhammad said Gabriel recited the Quran to him in one way, and he kept asking for more until it was recited “in seven different ways” (Sahih al-Bukhari 4991; 3219).',
         'This produced real disputes. Umar heard Hisham bin Hakim reciting Surat al-Furqan differently from how he had learned it, nearly attacked him in prayer, and dragged him to Muhammad — who said both versions were revealed (Sahih al-Bukhari 4992).',
@@ -48,7 +48,7 @@ export const quranOral: Topic = {
     },
     {
       heading: 'Is it a “telephone game”?',
-      keyLine: 'But the hadith show that communal memory did not prevent disagreement.',
+      keyLine: 'Communal recitation is more stable than a telephone game, but the hadith show it did not prevent disagreement.',
       body: [
         'Muslims often accuse the Bible of being like a game of telephone. Be fair: communal recitation is more stable than one person whispering to the next, because many people check each other.',
         'But the hadith show that communal memory did not prevent disagreement. Leading reciters had different contents and wordings: Ibn Mas’ud recited Quran 92:3 differently (Sahih al-Bukhari 4944) and, as Sahih al-Bukhari 4977 is usually understood, did not count the last two surahs as Quran; and Umar said of Ubai bin Ka’b, the best reciter among them, “we leave some of what he recites” (Sahih al-Bukhari 5005), appealing to abrogation. The dispute became so serious that Uthman ordered all other copies burned (see the next topic).',

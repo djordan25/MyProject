@@ -17,7 +17,7 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'Uthman standardises — and burns the rest',
-      keyLine: 'You only need to burn other copies if they differ.',
+      keyLine: 'Uthman standardised the Quran and had the rival copies burned, so today’s text preserves his edition.',
       body: [
         'Under the third caliph Uthman (about 20 years after Muhammad), Muslims in different provinces were reciting the Quran differently. Hudhaifa urged him to “save this nation before they differ about the Book as Jews and the Christians did before” (Sahih al-Bukhari 4987).',
         'Uthman had a committee led by Zaid bin Thabit copy Hafsa’s manuscript, instructing three Quraishi members that where they differed with Zaid, they should write it in the dialect of Quraish (Sahih al-Bukhari 3506). He sent a copy to every province and “ordered that all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987).',
@@ -28,7 +28,7 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'Verses that were lost',
-      keyLine: 'The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
+      keyLine: 'Sahih hadith report verses that were sent down, such as the verse of stoning, but are not in the Quran today.',
       body: [
         'The verse of stoning: Umar said, “Allah sent Muhammad with truth and He sent down the Book upon him, and the verse of stoning was included in what was sent down to him.” He feared people would one day say, “We do not find the punishment of stoning in the Book of Allah” (Sahih Muslim 1691; see Sahih al-Bukhari 6830). It is not in the Quran today.',
         'The verse of suckling: Aisha said a verse on ten sucklings was revealed, then replaced by five, “and Allah’s Messenger died and it was before that time (found) in the Holy Qur’an” (Sahih Muslim 1452). It is not in the Quran today.',

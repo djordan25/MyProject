@@ -18,7 +18,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Different questions',
-      keyLine: 'But some questions lie outside what measuring can reach.',
+      keyLine: 'A scientific account of how something happens does not rule out a purpose behind it.',
       body: [
         'Science asks how the natural world works, and answers by measuring and testing. It is superb at that. But some questions lie outside what measuring can reach. Why is there a universe at all? Why does it follow laws we can understand? What is a human being for? What is right and wrong?',
         'Ask why the kettle is boiling. One answer is that heat is exciting the water molecules. Another is that someone wants a cup of tea. Both are true, and the second is not made false by the first. In the same way, a scientific account of how something happens does not rule out a purpose behind it.',
@@ -26,7 +26,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'What science takes for granted',
-      keyLine: 'Science assumes things it cannot prove by experiment',
+      keyLine: 'Science takes for granted that nature is orderly and our minds can understand it, and Christianity gives a reason to expect that.',
       body: [
         'Science assumes things it cannot prove by experiment: that nature is orderly, that the same laws hold everywhere, and that human minds can reach the truth about it.',
         'Christianity gives a reason to expect all three. The world was made by a rational God, and we were made in his image. If instead our minds are only the by-product of a process that selects for survival, it is hard to say why we should trust them on questions far from survival, such as cosmology, or the theory of evolution itself.',
@@ -35,7 +35,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Are miracles impossible?',
-      keyLine: 'The laws of nature describe what happens when nothing from outside nature intervenes.',
+      keyLine: 'The laws of nature cannot tell us whether God ever acts; if there is a God, miracles are possible and the question is evidence.',
       body: [
         'The laws of nature describe what happens when nothing from outside nature intervenes. They cannot tell us whether anything ever does. If I drop an apple and you catch it, no law of physics has been broken; another agent has acted.',
         'So a miracle is not nature going wrong. It is the Author of nature acting within it. If there is no God, miracles do not happen. If there is, they are possible, and the question becomes one of evidence in each case.',
@@ -55,7 +55,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Is science the only way to know anything?',
-      keyLine: 'History is known by testimony and evidence, not by repeating the experiment.',
+      keyLine: 'The claim that we should believe only what science can prove cannot itself be proved by science, so it fails its own test.',
       body: [
         'Some say they will believe only what science can prove. That statement is not itself something science can prove, so it fails its own test.',
         'Most of what matters to us is known in other ways: that our memories are broadly reliable, that cruelty is wrong, that another person loves us, that Caesar crossed the Rubicon. History is known by testimony and evidence, not by repeating the experiment. The case for Jesus is made in the way all history is made.',

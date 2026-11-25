@@ -8,13 +8,14 @@ export const reliabilityOfScripture: Topic = {
   lesson: [
     {
       heading: 'Two questions',
+      keyLine: 'Whether we have what was originally written and whether what was written is true are two questions to keep separate.',
       body: [
         'Do we have what was originally written? (Transmission.) And is what was written true? (Historical reliability.) Keep the two separate in conversation.',
       ],
     },
     {
       heading: 'Manuscript evidence',
-      keyLine: 'No core Christian doctrine depends on a disputed reading.',
+      keyLine: 'The New Testament survives in far more copies, made far nearer its writing, than most ancient works, and no core doctrine hangs on a disputed reading.',
       body: [
         'About 5,300 Greek manuscripts of the New Testament survive (the official list has some 5,800 entries, but some are duplicates or lost), plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: around a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
         'The gap between writing and earliest surviving copy is also short: P52, a fragment of John 18, is usually dated to the second century. For many classical works the gap is the better part of a thousand years.',
@@ -23,7 +24,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'Early, eyewitness-based sources',
-      keyLine: 'The Gospels were written within the lifetime of eyewitnesses (most scholars: c. AD 65-95).',
+      keyLine: 'The Gospels were written within the lifetime of eyewitnesses, about AD 65 to 95 on most scholars’ dating, and Paul’s letters are earlier still.',
       body: [
         'Paul’s letters date from roughly AD 48-60, and he quotes even earlier creeds — 1 Corinthians 15:3-7 is widely dated to within a few years of the crucifixion.',
         'The Gospels were written within the lifetime of eyewitnesses (most scholars: c. AD 65-95). Luke explicitly says he investigated eyewitness accounts (Luke 1:1-4).',
@@ -40,7 +41,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'The marks of honest testimony',
-      keyLine: 'People who invent a story make their heroes look good.',
+      keyLine: 'The Gospels keep details that make their own heroes look bad, which people inventing a story would have left out.',
       body: [
         'People who invent a story make their heroes look good. The Gospels do the opposite. The disciples are slow to understand and quick to quarrel. Peter, the leading apostle, denies Jesus three times. Jesus’ own family at one point says, “He is out of His mind” (Mark 3:21-22). The first witnesses of the empty tomb are women, whose word carried little weight in that society.',
         'The Gospels also keep sayings that are hard to explain, such as Jesus not knowing the day of his return (Mark 13:32) and his cry of abandonment on the cross (Mark 15:34). A church making up a divine Saviour would have left these out. They are there because they happened.',

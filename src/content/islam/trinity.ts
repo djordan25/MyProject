@@ -8,7 +8,7 @@ export const trinity: Topic = {
   lesson: [
     {
       heading: 'What the Trinity is — and isn’t',
-      keyLine: 'Helpful distinction: God is one in being (what he is) and three in person (who he is).',
+      keyLine: 'God is one in being and three in person, which is no contradiction because one and three refer to different things.',
       body: [
         'There is one God (Deuteronomy 6:4; Isaiah 44:6). Christians affirm this as firmly as Muslims (Mark 12:29; James 2:19).',
         'Within the one being of God are three distinct persons: the Father, the Son and the Holy Spirit. Each is fully God; they are not three gods, and not three parts of God.',
@@ -19,7 +19,7 @@ export const trinity: Topic = {
     },
     {
       heading: 'The biblical evidence',
-      keyLine: 'They are distinct: at Jesus’ baptism the Son is baptised, the Spirit descends, and the Father speaks from heaven (Matthew 3:16-17).',
+      keyLine: 'The Bible calls the Father, the Son and the Holy Spirit each God, shows them as distinct, and names them together as one.',
       body: [
         'The Father is God (John 6:27; 1 Corinthians 8:6). The Son is God (John 1:1; 20:28; Hebrews 1:8). The Holy Spirit is God — lying to the Spirit is lying to God (Acts 5:3-4) — and is a person who teaches, speaks and can be grieved (John 14:26; Acts 13:2; Ephesians 4:30).',
         'They are distinct: at Jesus’ baptism the Son is baptised, the Spirit descends, and the Father speaks from heaven (Matthew 3:16-17).',
@@ -43,7 +43,7 @@ export const trinity: Topic = {
     },
     {
       heading: 'Why it matters',
-      keyLine: 'In the Trinity, love has existed eternally between Father, Son and Spirit (John 17:24).',
+      keyLine: 'In the Trinity, love has existed eternally between Father, Son and Spirit, so God did not need to create in order to love.',
       body: [
         '“God is love” (1 John 4:8). Love needs someone to love. Before creation, whom did a solitary God love? In the Trinity, love has existed eternally between Father, Son and Spirit (John 17:24). God didn’t need to create in order to be loving.',
         'The Trinity also makes the gospel possible: the Father sends the Son, the Son dies for us, and the Spirit applies salvation to us (Galatians 4:4-6).',
