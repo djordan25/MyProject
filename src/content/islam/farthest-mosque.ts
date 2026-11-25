@@ -20,7 +20,7 @@ export const farthestMosque: Topic = {
       heading: 'What stood in Jerusalem in Muhammad’s day',
       keyLine: 'So at the time Muslims give for the Night Journey, about 621, there was no temple on the Mount and no church, and of course no mosque.',
       body: [
-        'The temple that Jesus knew was destroyed by the Romans in AD 70. After a second Jewish revolt the emperor Hadrian rebuilt Jerusalem as a Roman city called Aelia, the name the hadith still use for it. When the empire became Christian, churches were built in the city, the Church of the Holy Sepulchre above all, but the Temple Mount was left in ruins. In 614 the Persians captured Jerusalem and held it for about fifteen years.',
+        'The temple that Jesus knew was destroyed by the Romans in AD 70. Around the time of a second Jewish revolt the emperor Hadrian rebuilt Jerusalem as a Roman city called Aelia, the name the hadith still use for it. When the empire became Christian, churches were built in the city, the Church of the Holy Sepulchre above all, but the Temple Mount was left in ruins. In 614 the Persians captured Jerusalem and held it for about fifteen years.',
         'So at the time Muslims give for the Night Journey, about 621, there was no temple on the Mount and no church, and of course no mosque. Jerusalem was taken by the Arabs in about 637, five years after Muhammad’s death. A Christian pilgrim named Arculf, who visited around 680, described a plain house of prayer that the Arabs had put up on the site, built of beams and planks over old ruins and said to hold three thousand people. The Dome of the Rock followed in 691–2, and the building now called the al-Aqsa Mosque was put up around the year 700 under the caliphs Abd al-Malik and his son al-Walid.',
       ],
     },
@@ -128,7 +128,7 @@ export const farthestMosque: Topic = {
           followUps: [
             {
               reply: 'Others say it was Jacob who founded the house at Jerusalem, forty years after Abraham built the Kaaba. Your own Bible says Jacob built a house of God.',
-              answer: 'Genesis says that Jacob set up a stone as a pillar, poured oil on it, and named the place Bethel, which means house of God (Genesis 28:18-22). Bethel is not Jerusalem. It lies about ten miles to the north, and Genesis says its older name was Luz. And what Jacob set up was a single stone, not a sanctuary. So the Bible does not support the suggestion. It rests on a later tradition that moved Jacob’s vision to Jerusalem, not on Genesis.',
+              answer: 'Genesis says that Jacob set up a stone as a pillar, poured oil on it, and named the place Bethel, which means house of God (Genesis 28:18-22). Bethel is not Jerusalem. It lies about ten miles to the north, and Genesis says its older name was Luz. And what Jacob set up there was a stone pillar, and later an altar, not a temple. So the Bible does not support the suggestion. It rests on a later tradition that moved Jacob’s vision to Jerusalem, not on Genesis.',
             },
           ],
         },
@@ -156,7 +156,7 @@ export const farthestMosque: Topic = {
       id: 'fm-5',
       objection: 'When the Quraysh doubted him, the Prophet described Jerusalem to them exactly. He could only have known it if he had been there.',
       response:
-        'The hadith says, “Allah displayed Jerusalem in front of me, and I began describing it to them while I was looking at it” (Sahih al-Bukhari 3886). Notice first what that report itself says. He did not describe it from memory of a visit. Another version says he could not recall the things they asked about and was greatly distressed until God raised the city before his eyes (Sahih Muslim 172). Second, the hadith do not record what he said about the city, so there is nothing to check. Third, the Quraysh were merchants who travelled to Syria, and a description of Jerusalem was not beyond what could be learned in Mecca. And last, neither report says that the description changed the minds of the Quraysh. A description whose effect on its hearers is not recorded cannot be offered as proof to us.',
+        'The hadith says, “Allah displayed Jerusalem in front of me, and I began describing it to them while I was looking at it” (Sahih al-Bukhari 3886). Notice first what that report itself says. He did not describe it from memory of a visit. Another version says he could not recall the things they asked about and was greatly distressed until God raised the city before his eyes (Sahih Muslim 172). Second, the hadith do not record what he said about the city, so there is nothing to check. The early biography by Ibn Ishaq has Abu Bakr confirm the description part by part, but it gives no details either. Third, the Quraysh were merchants who travelled to Syria, and a description of Jerusalem was not beyond what could be learned in Mecca. And last, neither report says that the description changed the minds of the Quraysh. A description whose effect on its hearers is not recorded cannot be offered as proof to us.',
       keyPoints: [
         'By the hadith’s own account he described a vision shown to him then, not a memory of the visit.',
         'The description itself is not recorded, so it cannot be checked.',
