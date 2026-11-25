@@ -87,7 +87,7 @@ export const hadithReliability: Topic = {
                   followUps: [
                     {
                       reply: 'The essentials do not depend on single chains. They are mutawatir, passed on by so many people in every generation that agreement on a lie is impossible.',
-                      answer: 'Mass transmission is strong evidence, and I grant it for things like the fact of the five daily prayers. But Muslim scholars themselves class only a small number of hadith as mutawatir. Ibn al-Salah, whose handbook on hadith became the standard one, wrote that examples are hard to find, and the fullest later list, by al-Kattani, has about three hundred. The great majority, including most of the legal detail and most of the Prophet’s biography, are reports from one or a few narrators. So the appeal to mass transmission protects very little of what is in Bukhari and Muslim.',
+                      answer: 'Mass transmission is strong evidence, and I grant it for things like the fact of the five daily prayers. But Muslim scholars themselves class only a small number of hadith as mutawatir. Ibn al-Salah, whose handbook on hadith became the standard one, wrote that examples are hard to find, and the fullest later list, by al-Kattani, runs to a few hundred. The great majority, including most of the legal detail and most of the Prophet’s biography, are reports from one or a few narrators. So the appeal to mass transmission protects very little of what is in Bukhari and Muslim.',
                     },
                   ],
                 },
@@ -102,7 +102,7 @@ export const hadithReliability: Topic = {
       ],
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
       response:
-        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). About a century of largely oral transmission before writing on a large scale, and two centuries before the Sahih collections, is a long time for any method to bridge.',
+        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and one report has him tell people not to write his words down (Sahih Muslim 3004). About a century of largely oral transmission before writing on a large scale, and two centuries before the Sahih collections, is a long time for any method to bridge.',
       keyPoints: ['Acknowledge the effort.', 'Chains can be fabricated too.', 'A century largely oral, two before the Sahih collections.'],
       references: ['Sahih al-Bukhari 107', 'Sahih Muslim 3004'],
     },
