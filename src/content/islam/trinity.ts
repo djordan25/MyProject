@@ -115,7 +115,7 @@ export const trinity: Topic = {
         },
         {
           reply: 'Jesus himself taught pure monotheism. Asked for the greatest commandment, he said, “Hear O Israel, the Lord our God, the Lord is One” (Mark 12:29). That is tawhid, not Trinity.',
-          answer: 'Christians confess that verse with him. It tells us how many gods there are: one. It does not say that God is one person. A few verses later, in the same conversation, Jesus asks how the Messiah can be David’s Lord, seated at God’s right hand (Mark 12:35-37). And Paul restates that very confession with Jesus inside it: “for us there is but one God, the Father, from whom all things came … And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6).',
+          answer: 'Christians confess that verse with him. It tells us how many gods there are: one. It does not say that God is one person. A few verses later, still teaching in the temple, Jesus asks how the Messiah can be David’s Lord, seated at God’s right hand (Mark 12:35-37). And Paul restates that very confession with Jesus inside it: “for us there is but one God, the Father, from whom all things came … And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6).',
           followUps: [
             {
               reply: 'That verse proves my point. Paul says the one God is the Father. Jesus is only called Lord, which means master.',
