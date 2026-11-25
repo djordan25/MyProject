@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { EdButton, EdIcon } from 'editorial-ui';
 import { getTopic, trackForTopic, type Topic, type Track } from '../content';
-import { currentStreak, DAILY_GOAL, levelOf, useProgress, xpToday } from '../lib/progress';
+import { currentStreak, DAILY_GOAL, levelOf, useProgress, warmedUpToday, xpToday } from '../lib/progress';
 import { nextStep, stepLink, topicCleared, topicStarted, trackRank } from '../lib/path';
 import { buildSession } from '../lib/session';
 import { AUDIENCES, DOUBTS_FIRST, orderedTracks, useAudience } from '../lib/profile';
@@ -24,7 +24,8 @@ interface Next {
 
 /**
  * Home answers one question: what do I do now? It shows a single next step with a single button.
- * Reviews that are due come first, because a short warm-up keeps what was learned; otherwise it is the next step on the path.
+ * Reviews that are due come first, once a day, because a short warm-up keeps what was learned. After today's warm-up
+ * (or when nothing is due) it is the next step on the path, and any reviews still due are offered as a second choice.
  * Everything else (standing, the other tracks) sits below, quietly.
  */
 export default function Home() {
@@ -58,8 +59,10 @@ export default function Home() {
       : step
         ? { eyebrow: 'Section challenge', title: step.section.title, why: 'You have cleared every topic in this section. Pass the challenge to open the next one.', to: stepLink(step), button: 'Take the challenge', track: step.track }
         : null;
-  const next: Next | null = reviews
-    ? { eyebrow: 'Warm up first', title: `${reviews} review${reviews === 1 ? '' : 's'} due`, why: `Answers you have practised are due again. About ${session.minutes} minutes keeps them from fading, then carry on with the path.`, to: '/today', button: 'Start the warm-up' }
+  // The warm-up leads only until it has been done today: a backlog must never stand between the learner and the path.
+  const warmFirst = reviews > 0 && (!warmedUpToday(p) || !path);
+  const next: Next | null = warmFirst
+    ? { eyebrow: warmedUpToday(p) ? 'Keep it fresh' : 'Warm up first', title: `${reviews} review${reviews === 1 ? '' : 's'} due`, why: `Answers you have practised are due again. About ${session.minutes} minutes keeps them from fading, then carry on with the path.`, to: '/today', button: 'Start the warm-up' }
     : path;
 
   const rank = next?.track ? trackRank(p, next.track) : null;
@@ -81,7 +84,7 @@ export default function Home() {
       {next ? (
         <section className="card next-card">
           <div className="next-art">
-            {next.topic ? <Emblem topic={next.topic} size={96} /> : <span className="next-glyph"><EdIcon name={reviews ? 'RotateCcw' : 'Swords'} size="lg" aria-hidden /></span>}
+            {next.topic ? <Emblem topic={next.topic} size={96} /> : <span className="next-glyph"><EdIcon name={warmFirst ? 'RotateCcw' : 'Swords'} size="lg" aria-hidden /></span>}
           </div>
           <div className="eyebrow">{next.eyebrow}</div>
           <h1>{next.title}</h1>
@@ -89,8 +92,11 @@ export default function Home() {
           <EdButton asChild variant="primary" size="lg">
             <Link to={next.to}>{next.button} <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link>
           </EdButton>
-          {reviews > 0 && path && (
+          {warmFirst && path && (
             <p className="next-alt">Or go straight to <Link to={path.to}>{path.title}</Link></p>
+          )}
+          {!warmFirst && reviews > 0 && (
+            <p className="next-alt">Today’s warm-up is done. More reviews are due if you want <Link to="/today">another round</Link>.</p>
           )}
           {rank && next.track && (
             <Link to={`/track/${next.track.id}`} className="next-progress">

@@ -43,6 +43,8 @@ export interface Progress {
   bosses: Record<string, number>;
   /** Best score in each game, keyed by game (and topic where it has one). */
   games: Record<string, number>;
+  /** The local date (YYYY-MM-DD) on which the daily warm-up was last finished. */
+  warmUp?: string;
 }
 
 export interface Conversation {
@@ -178,6 +180,11 @@ export interface GainEvent {
 }
 let gainEvent: GainEvent | null = null;
 
+/** Whether the daily warm-up has been finished today. */
+export function warmedUpToday(p: Progress, now = Date.now()): boolean {
+  return p.warmUp === localDate(now);
+}
+
 /** Due if never mastered, marked for review, or its review date has arrived. */
 export function isDue(p: Progress, objectionId: string, now = Date.now()): boolean {
   return p.drills[objectionId] !== 'got' || (p.review[objectionId]?.due ?? 0) <= now;
@@ -242,6 +249,11 @@ export const progress = {
         now,
       ),
     );
+  },
+  /** Marks today's warm-up as done, so that home stops asking for it and leads with the path. */
+  finishWarmUp: () => {
+    const today = localDate(Date.now());
+    if (state.warmUp !== today) set({ ...state, warmUp: today });
   },
   /** Adds points for practice that has no record of its own (the daily session's quiz, a mixed quiz). */
   award: (xp: number) => set(touch(state, xp)),

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { daysPractised, daysUntilReview, emptyProgress, isDue, localDate, nextReview, progress, topicCompletion, topicSealed, type Progress } from './progress';
+import { daysPractised, daysUntilReview, emptyProgress, isDue, localDate, nextReview, progress, topicCompletion, topicSealed, warmedUpToday, type Progress } from './progress';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -111,5 +111,15 @@ describe('conversation journal', () => {
     progress.removeConversation(after.conversations[0].id);
     expect((JSON.parse(progress.exportJson()) as Progress).conversations).toEqual([]);
     progress.reset();
+  });
+});
+
+describe('the daily warm-up', () => {
+  it('counts as done only on the day it was finished', () => {
+    const now = new Date(2026, 0, 10, 9).getTime();
+    expect(warmedUpToday(emptyProgress(), now)).toBe(false);
+    const p: Progress = { ...emptyProgress(), warmUp: localDate(now) };
+    expect(warmedUpToday(p, now)).toBe(true);
+    expect(warmedUpToday(p, now + DAY)).toBe(false);
   });
 });

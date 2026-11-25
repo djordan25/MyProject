@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Drill from '../components/Drill';
 import Quiz from '../components/Quiz';
@@ -29,6 +29,14 @@ export default function Session() {
   const inVerse = Boolean(verse) && step === drills.length;
   const inQuiz = quiz.length > 0 && step === drills.length + (verse ? 1 : 0);
   const done = step >= total;
+
+  // Once this round's reviews are answered (they come first), home stops asking for a warm-up today,
+  // however many are still due and whether or not the rest of the round is finished.
+  const reviewCount = drills.filter((d) => d.kind === 'review').length;
+  const warmedUp = done || (reviewCount > 0 && step >= reviewCount);
+  useEffect(() => {
+    if (warmedUp) progress.finishWarmUp();
+  }, [warmedUp]);
 
   if (done) {
     return (
