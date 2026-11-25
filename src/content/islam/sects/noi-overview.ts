@@ -38,7 +38,7 @@ export const noiOverview: Topic = {
       heading: 'After 1975: two roads',
       keyLine: 'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change.',
       body: [
-        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission by 1980, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
+        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission by 1980, and in the mid-1980s he dissolved it so that its members would simply be Muslims among other Muslims.',
         'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change. In the late 1970s he broke away and re-founded the Nation of Islam on Elijah Muhammad’s teachings, with a new newspaper, The Final Call. This is the body that carries the name today. On 16 October 1995 he led the Million Man March in Washington, billed as a day of atonement and reconciliation for black men. Estimates of the crowd run from about 400,000 to more than a million.',
         'The Nation today is small. In a Pew Research Center survey of 2017 only 3 percent of American-born black Muslims said they identified with it. Its influence is far wider than its membership, through its newspaper, its speakers, its work in prisons and its place in the memory of black America.',
       ],
@@ -466,7 +466,7 @@ export const noiOverview: Topic = {
       question: 'Who led most members of the Nation into Sunni Islam after 1975?',
       options: ['Louis Farrakhan', 'Malcolm X', 'Muhammad Ali', 'Warith Deen Mohammed'],
       answer: 3,
-      explanation: 'Elijah Muhammad’s son rejected the teaching that Fard was God, opened membership to white people, and in 1985 dissolved the organisation.',
+      explanation: 'Elijah Muhammad’s son rejected the teaching that Fard was God, opened membership to white people, and in the mid-1980s dissolved the organisation.',
     },
     {
       id: 'noi-q12',
