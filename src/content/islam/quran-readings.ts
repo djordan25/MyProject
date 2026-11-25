@@ -85,10 +85,10 @@ export const quranReadings: Topic = {
       body: [
         'Start by asking. Has your friend ever seen a Quran in the Warsh reading? Many Muslims have not, and some have never heard of the readings. Do not spring it as a trap. Offer it as something his own scholars teach, and suggest that he ask an imam trained in recitation, or compare two printed copies for himself.',
         'Be clear about what you are not saying. You are not saying that the Quran is hopelessly corrupt, or that Muslims cannot know what it says. The readings agree on the overwhelming bulk of the text, and none of the differences overturns a Muslim doctrine. The claim under test is narrower: that perfect, uniform preservation, down to the letter, proves the book divine.',
-        'The comparison with the New Testament is closer than either side usually admits. Our manuscripts differ in many places, nearly all of them trivial, and two longer passages, Mark 16:9-20 and John 7:53-8:11, are missing from the earliest copies. Our Bibles say so in the footnotes. The Muslim scholars who sifted readings by chain, script and grammar were doing work much like that of Christian scholars who weigh manuscripts. If accepted differences of wording do not undo the Quran, visible differences do not undo the Gospels. Scripture asks for one set of scales: “Differing weights and unequal measures—both are detestable to the LORD” (Proverbs 20:10).',
+        'The comparison with the New Testament is closer than either side usually admits. Our manuscripts differ in many places, nearly all of them trivial, and two longer passages, Mark 16:9-20 and John 8:1-11, are missing from the earliest copies. Our Bibles say so in the footnotes. The Muslim scholars who sifted readings by chain, script and grammar were doing work much like that of Christian scholars who weigh manuscripts. If accepted differences of wording do not undo the Quran, visible differences do not undo the Gospels. Scripture asks for one set of scales: “Differing weights and unequal measures—both are detestable to the LORD” (Proverbs 20:10).',
         'Then move to what matters more. Christians have never rested their faith on a text free of copyists’ differences. We rest it on a person, and on what the witnesses reported of his death and resurrection. Jesus said, “Heaven and earth will pass away, but My words will never pass away” (Matthew 24:35). The question to leave with your friend is which message is true, and counting letters cannot settle that.',
       ],
-      references: ['Mark 16:9-20', 'John 7:53-8:11', 'Proverbs 20:10', 'Matthew 24:35'],
+      references: ['Mark 16:9-20', 'John 8:1-11', 'Proverbs 20:10', 'Matthew 24:35'],
     },
   ],
   objections: [
@@ -167,9 +167,9 @@ export const quranReadings: Topic = {
       id: 'qrd-4',
       objection: 'Your New Testament has thousands of variants and whole passages that were added. You are in no position to raise this.',
       response:
-        'You are right about the New Testament, and I will not pretend otherwise. Our manuscripts differ in many places. Most differences are of spelling and word order, but the ending of Mark and the story in John 7:53-8:11 are missing from the earliest copies, and our Bibles mark them. So I am not claiming that my book has no variants and yours has. I am asking for one standard. Muslims are often taught that variants prove the Bible corrupt and that their absence proves the Quran divine. If the Quran has accepted differences of wording too, that argument has to be given up for both books.',
+        'You are right about the New Testament, and I will not pretend otherwise. Our manuscripts differ in many places. Most differences are of spelling and word order, but the ending of Mark and the story in John 8:1-11 are missing from the earliest copies, and our Bibles mark them. So I am not claiming that my book has no variants and yours has. I am asking for one standard. Muslims are often taught that variants prove the Bible corrupt and that their absence proves the Quran divine. If the Quran has accepted differences of wording too, that argument has to be given up for both books.',
       keyPoints: ['Concede the New Testament’s variants plainly.', 'Ask for one standard for both books.', 'The argument from perfect uniformity fails for the Quran too.'],
-      references: ['Mark 16:9-20', 'John 7:53-8:11'],
+      references: ['Mark 16:9-20', 'John 8:1-11'],
       followUps: [
         {
           reply: 'There is no comparison. Our readings are all revealed and approved by the Prophet. Your variants are the mistakes of copyists, and you do not know which is original.',

@@ -3,7 +3,7 @@ import type { Topic } from '../types';
 export const edgesOfTheCanon: Topic = {
   id: 'edges-of-the-canon',
   title: 'Books at the Edge of the Bible',
-  icon: '◧',
+  icon: '📚',
   summary: 'The books that nearly entered the New Testament, the books that were questioned before they were received, and two that come up in conversation: 1 Enoch and the Gospel of Barnabas.',
   lesson: [
     {
