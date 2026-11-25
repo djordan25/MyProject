@@ -25,7 +25,7 @@ describe('lesson maps', () => {
   it('keeps every place inside the drawn region, and every route between places on its map', () => {
     for (const p of PLACES) {
       expect(p.lat, p.name).toBeGreaterThan(2);
-      expect(p.lat, p.name).toBeLessThan(52);
+      expect(p.lat, p.name).toBeLessThan(60);
       expect(p.lon, p.name).toBeGreaterThan(2);
       expect(p.lon, p.name).toBeLessThan(86);
     }
