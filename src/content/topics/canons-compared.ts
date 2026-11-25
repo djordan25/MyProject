@@ -284,7 +284,7 @@ export const canonsCompared: Topic = {
         'Books of the New Testament',
       ],
       answer: 2,
-      explanation: 'Cowley notes that they are not the same as any of the four Greek books of Maccabees.',
+      explanation: 'Scholars have long noted that they are not the same as any of the Greek books of Maccabees.',
     },
     {
       id: 'cc-q7',
