@@ -123,7 +123,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
               followUps: [
                 {
                   reply: 'Jesus did have help. Nicodemus brought a hundred pounds of myrrh and aloes, which are healing herbs. Books of medicine for a thousand years have described the ointment of Jesus, Marham-i-Isa, made for his wounds.',
-                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it come from the medieval Muslim world, many centuries after the event. In Avicenna’s Canon it is the “ointment of the apostles”, said to be named for its twelve ingredients, and the recipe goes back to older Greek plasters. That shows how a salve came by a Christian name, not what happened in a tomb in Jerusalem.',
+                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it come from the medieval Muslim world, many centuries after the event. In Avicenna’s Canon it is the “ointment of the apostles”, said to hold twelve drugs for the twelve apostles, and the recipe goes back to older Greek plasters. That shows how a salve came by a Christian name, not what happened in a tomb in Jerusalem.',
                 },
               ],
             },
