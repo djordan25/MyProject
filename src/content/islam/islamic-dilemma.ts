@@ -8,6 +8,7 @@ export const islamicDilemma: Topic = {
   lesson: [
     {
       heading: 'What the Quran says about the earlier scriptures',
+      keyLine: 'The Quran repeatedly affirms the Torah (Tawrat) and the Gospel (Injil) as revelations from God',
       body: [
         'The Quran repeatedly affirms the Torah (Tawrat) and the Gospel (Injil) as revelations from God: “He revealed the Torah and the Gospel” (Quran 3:3). It says the Gospel contains “guidance and light” (Quran 5:46).',
         'Crucially, it treats these scriptures as available and authoritative in Muhammad’s own day. “Let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47). Jews are asked why they come to Muhammad for judgment “while they have the Torah, in which is the judgement of Allah” (Quran 5:43).',
@@ -18,6 +19,7 @@ export const islamicDilemma: Topic = {
     },
     {
       heading: 'The scripture “with them”: key Arabic terms',
+      keyLine: 'The Quran does not merely affirm a long-lost original.',
       body: [
         'The Quran does not merely affirm a long-lost original. Again and again it says it confirms the scripture that is “with” the People of the Scripture in Muhammad’s day (Arabic ma‘akum, “with you”; ma‘ahum, “with them”): “confirming that which is [already] with you” (Quran 2:41); “confirming that which is with them” (Quran 2:91). See also Quran 2:89, 2:101 and Quran 4:47. Most of these verses address the Jews of Medina; for Christians the Quran makes the same point in Quran 5:47 and Quran 5:68.',
         'The Quran also calls itself musaddiq — “confirming” — what is literally “between its hands” (bayna yadayhi), an idiom for what lies in front of it. Translations usually render this “what was before it” (Quran 3:3; 35:31; 46:30). A Muslim may take that to mean “earlier in time”, so lean on the clearer “with you” and “with them” verses.',
@@ -29,6 +31,7 @@ export const islamicDilemma: Topic = {
     },
     {
       heading: 'The dilemma',
+      keyLine: 'So either the Torah and Gospel in Christian hands were reliable in Muhammad’s day, or they were not.',
       body: [
         'The Bible that Christians possessed in the seventh century is in substance the same Bible we have today: Greek Bibles such as the fourth-century Codex Sinaiticus (the complete New Testament and about half the Old) and Codex Vaticanus (most of both) were copied centuries before Muhammad and still exist. And that Bible teaches that Jesus is the divine Son of God who died on the cross for sins and rose again (John 1:1-14; 1 Corinthians 15:3-4).',
         'So either the Torah and Gospel in Christian hands were reliable in Muhammad’s day, or they were not.',
@@ -46,6 +49,7 @@ export const islamicDilemma: Topic = {
     },
     {
       heading: 'Walk through it with questions',
+      keyLine: 'In conversation, don’t deliver the dilemma as a speech.',
       body: [
         'In conversation, don’t deliver the dilemma as a speech. Ask short questions and get agreement at each step:',
         '1. Does the Quran say Allah revealed the Torah and the Gospel? (Quran 3:3)',
@@ -59,6 +63,7 @@ export const islamicDilemma: Topic = {
     },
     {
       heading: 'Common escape routes',
+      keyLine: 'Quran 2:75, 4:46 and 5:13 speak of some Jews distorting words — twisting meaning or speech (“twisting their tongues”, Quran 4:46) — not rewriting every copy of the text.',
       body: [
         '“The Injil was a book given to Jesus, not the four Gospels.” But the Quran addresses “the People of the Gospel” living in Muhammad’s day and tells them to judge by what is in it (Quran 5:47). Those people used the four Gospels. There is no other Injil they could have consulted.',
         '“The Quran says they distorted the words.” Read those verses closely. Quran 2:75, 4:46 and 5:13 speak of some Jews distorting words — twisting meaning or speech (“twisting their tongues”, Quran 4:46) — not rewriting every copy of the text. Quran 2:79 condemns some who write a book with their own hands and pass it off as from God — that describes a forgery, not the corruption of the genuine Torah everyone could still consult, though some early commentators took it to mean that the Torah’s description of Muhammad was altered.',

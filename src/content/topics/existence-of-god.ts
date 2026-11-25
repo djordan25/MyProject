@@ -8,6 +8,7 @@ export const existenceOfGod: Topic = {
   lesson: [
     {
       heading: 'Why start here?',
+      keyLine: 'Like strands of a rope, several independent arguments together make a strong cumulative case.',
       body: [
         'Many conversations stall because the other person doubts that God exists at all. Before discussing the Bible or Jesus, it often helps to show that belief in God is reasonable.',
         'No single argument has to carry the whole load. Like strands of a rope, several independent arguments together make a strong cumulative case.',
@@ -29,6 +30,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'The Fine-Tuning Argument',
+      keyLine: 'The fine-tuning of the universe is due to physical necessity, chance, or design.',
       body: [
         'The constants and initial conditions of physics (e.g. the cosmological constant, the strength of gravity, the ratio of electron to proton mass) appear to fall within narrow life-permitting ranges, some of them extraordinarily narrow.',
         'This fine-tuning is due to physical necessity, chance, or design. It is not necessary — the constants appear independent of the laws of nature — and chance is overwhelmingly improbable. Design is the best explanation.',
@@ -42,6 +44,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'The Moral Argument',
+      keyLine: 'If God does not exist, objective moral values and duties do not exist.',
       body: [
         'Most people recognise that some things — torturing children for fun, for example — are really wrong, not just unfashionable. That is a claim about objective moral values: true regardless of anyone’s opinion.',
         'Without God, it is hard to ground such values; morality seems to reduce to evolutionary instinct or social convention. God, whose nature is the standard of goodness, provides a firm foundation.',
@@ -56,6 +59,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'Why is there anything at all?',
+      keyLine: 'The universe is not the kind of thing that has to exist.',
       body: [
         'The Kalam argument depends on the universe having a beginning. A second argument does not. Everything we know of exists either because it must, by its own nature, or because something else explains it. If numbers exist, they exist by necessity: nothing made the number seven. A house, by contrast, exists because someone built it.',
         'The universe is not the kind of thing that has to exist. It could have been different, or not been at all. So its existence calls for an explanation outside itself: something that exists by its own nature, beyond space, time and matter. That is what people have always meant by God.',
@@ -70,6 +74,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'The argument from the mind',
+      keyLine: 'If the universe comes from a Mind, and we are made in the image of that Mind, then consciousness and reason are what we should expect to find.',
       body: [
         'We are not only bodies. We are conscious; we think about things; we reason from evidence to conclusions and expect our reasoning to be valid.',
         'If the universe is at bottom only matter in motion, it is hard to see where any of that comes from. Atoms are not about anything. And if our thinking is only the by-product of a process that rewards survival, we have little reason to trust it on questions far from survival, including the question of whether the universe is only matter in motion.',
@@ -79,6 +84,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'From a Creator to the God of the Bible',
+      keyLine: 'Together they point to a Creator who is beyond the universe, immensely powerful, intelligent and good.',
       body: [
         'Be clear about how far these arguments go. Together they point to a Creator who is beyond the universe, immensely powerful, intelligent and good. They do not tell us that this Creator has spoken, or that he became man.',
         'That is the next step, and it rests on Jesus. Paul took exactly this route in Athens: he began with the God who made the world and gives life to all (Acts 17:24-25), and ended with the man God raised from the dead. “In these last days He has spoken to us by His Son” (Hebrews 1:1-2).',

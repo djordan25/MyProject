@@ -8,12 +8,14 @@ export const quranMisunderstands: Topic = {
   lesson: [
     {
       heading: 'The test',
+      keyLine: 'If the Quran is the word of the all-knowing God, its descriptions of Christian belief should be accurate.',
       body: [
         'If the Quran is the word of the all-knowing God, its descriptions of Christian belief should be accurate. It may reject Christian beliefs — but it should not misdescribe them. Repeated misunderstandings point to a human author relying on what he had heard.',
       ],
     },
     {
       heading: 'Mistake 1: A Trinity that includes Mary',
+      keyLine: 'No Christian creed has ever taught that the Trinity is Allah, Jesus and Mary.',
       body: [
         'Quran 5:116 pictures Allah asking Jesus: “Did you say to the people, ‘Take me and my mother as deities besides Allah?’” (Quran 5:116). Quran 5:73 condemns those who say “Allah is the third of three”, and Quran 5:75 adds that Jesus and his mother “both used to eat food” — as if both were being worshipped as gods.',
         'No Christian creed has ever taught that the Trinity is Allah, Jesus and Mary. The Trinity is Father, Son and Holy Spirit (Matthew 28:19). As these verses are often read, the Quran denies a Trinity Christians never believed. Scholars differ on why: some see a mistake, some a rebuke of excessive devotion to Mary, and others (such as Sidney Griffith and Gabriel Said Reynolds) deliberate polemical exaggeration.',
@@ -22,6 +24,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 2: Sonship as physical reproduction',
+      keyLine: '“Son of God” describes an eternal relationship within God, not biology.',
       body: [
         '“How could He have a son when He does not have a companion?” (Quran 6:101). Quran 112:3 says “He neither begets nor is born.”',
         'Christians agree God has no wife and did not physically father a child! “Son of God” describes an eternal relationship within God, not biology. The Son is the eternal Word who was with God and was God (John 1:1), and who became flesh (John 1:14). The virgin conception was the work of the Holy Spirit, not a union (Luke 1:35).',
@@ -30,6 +33,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 3: Mary, sister of Aaron, daughter of Imran',
+      keyLine: 'So raise it as a question rather than as a proven error.',
       body: [
         'The Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12). In the Bible, Amram (Imran) was the father of Aaron, Moses and their sister Miriam (Numbers 26:59) — well over a thousand years before Jesus. In Arabic, Mary and Miriam are the same name (Maryam).',
         'Christians raised this exact problem in Muhammad’s time. Sahih Muslim 2135 records that the Christians of Najran asked how Mary could be the sister of Aaron when Moses lived long before Jesus. Muhammad replied that people used to be named after earlier prophets and pious persons.',
@@ -39,6 +43,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 4: The Gospel as a book given to Jesus',
+      keyLine: 'The gospel is the good news about Jesus — his life, death and resurrection — proclaimed by his apostles (Mark 1:1; 1 Corinthians 15:1-4).',
       body: [
         'The Quran presents the Injil as a book God “gave” to Jesus, as the Torah was given to Moses (Quran 5:46, 57:27). But Jesus did not bring a book. The gospel is the good news about Jesus — his life, death and resurrection — proclaimed by his apostles (Mark 1:1; 1 Corinthians 15:1-4).',
       ],
@@ -46,6 +51,7 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 5: Stories from later legends',
+      keyLine: 'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',
       body: [
         'The Quran includes stories about Jesus that appear nowhere in the Bible: Jesus speaking from the cradle (Quran 19:29-30) and making clay birds come to life (Quran 3:49; 5:110). These episodes match legends found in apocryphal infancy gospels, the earliest written in the second century, not the first-century Gospels, which appeal to eyewitness testimony.',
         'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',

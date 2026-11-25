@@ -8,6 +8,7 @@ export const quranPreservation: Topic = {
   lesson: [
     {
       heading: 'The claim',
+      keyLine: 'Many Muslims argue the Quran has been preserved perfectly, without a single letter changed — proof of its divine origin, while the Bible was corrupted.',
       body: [
         '“Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9). Many Muslims argue the Quran has been preserved perfectly, without a single letter changed — proof of its divine origin, while the Bible was corrupted.',
         'This claim does not match what Sahih al-Bukhari and Sahih Muslim themselves report.',
@@ -16,6 +17,7 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'Uthman standardises — and burns the rest',
+      keyLine: 'You only need to burn other copies if they differ.',
       body: [
         'Under the third caliph Uthman (about 20 years after Muhammad), Muslims in different provinces were reciting the Quran differently. Hudhaifa urged him to “save this nation before they differ about the Book as Jews and the Christians did before” (Sahih al-Bukhari 4987).',
         'Uthman had a committee led by Zaid bin Thabit copy Hafsa’s manuscript, instructing three Quraishi members that where they differed with Zaid, they should write it in the dialect of Quraish (Sahih al-Bukhari 3506). He sent a copy to every province and “ordered that all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987).',
@@ -26,6 +28,7 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'Verses that were lost',
+      keyLine: 'The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
       body: [
         'The verse of stoning: Umar said, “Allah sent Muhammad with truth and He sent down the Book upon him, and the verse of stoning was included in what was sent down to him.” He feared people would one day say, “We do not find the punishment of stoning in the Book of Allah” (Sahih Muslim 1691; see Sahih al-Bukhari 6830). It is not in the Quran today.',
         'The verse of suckling: Aisha said a verse on ten sucklings was revealed, then replaced by five, “and Allah’s Messenger died and it was before that time (found) in the Holy Qur’an” (Sahih Muslim 1452). It is not in the Quran today.',
@@ -37,6 +40,7 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'The double standard',
+      keyLine: 'If burned variants, lost verses and multiple readings don’t disqualify the Quran, then visible variants can’t disqualify the Bible.',
       body: [
         'Muslims often say the Bible is unreliable because of textual variants. But the Bible’s variants are visible: thousands of manuscripts survive, so scholars can compare them and work back towards the original. The Quran’s rival early copies were ordered burned, and their variants are known mainly from later Muslim reports and one erased manuscript from Sanaa.',
         'Ask your friend to apply one standard to both books. If burned variants, lost verses and multiple readings don’t disqualify the Quran, then visible variants can’t disqualify the Bible.',

@@ -8,6 +8,7 @@ export const problemOfEvil: Topic = {
   lesson: [
     {
       heading: 'Intellectual vs. emotional',
+      keyLine: 'Someone grieving needs compassion before a syllogism (Romans 12:15).',
       body: [
         'Some people raise evil as a philosophical argument; others are hurting. Listen first. Someone grieving needs compassion before a syllogism (Romans 12:15).',
       ],
@@ -15,6 +16,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'The logical problem',
+      keyLine: 'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons',
       body: [
         'Claim: an all-good, all-powerful God and evil are logically incompatible.',
         'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by many atheist philosophers as well, though not all, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded in 1982 that evil does not show theism to be logically inconsistent, though he still judged that the free will defence itself fails.',
@@ -30,6 +32,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'Turning the tables',
+      keyLine: 'Christianity uniquely offers a God who enters suffering himself.',
       body: [
         'To call something truly evil assumes an objective moral standard — which points back to God (see the moral argument).',
         'Christianity uniquely offers a God who enters suffering himself. At the cross, God does not explain evil from a distance; he bears it, and promises to end it (Revelation 21:4).',
@@ -38,6 +41,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'What the alternatives offer',
+      keyLine: 'Every view of the world has to say something about suffering, so it is fair to compare answers.',
       body: [
         'Every view of the world has to say something about suffering, so it is fair to compare answers.',
         'If there is no God, there is no one to blame and no one to appeal to. Suffering is simply what happens in an indifferent universe, and, though some atheist philosophers dispute this, our sense that it ought not to be so seems to be a feeling with nothing behind it.',
@@ -47,6 +51,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'What God has done about it',
+      keyLine: 'The Christian answer to suffering is, in the end, a person and an event.',
       body: [
         'The Christian answer to suffering is, in the end, a person and an event. God did not stay at a distance. In Jesus he took on our life, was betrayed, tortured and killed. “Surely He took on our infirmities and carried our sorrows” (Isaiah 53:4).',
         'At the cross he dealt with the evil in us: “He Himself bore our sins in His body on the tree” (1 Peter 2:24). In the resurrection he broke the power of death. And he has promised a day when “there will be no more death or mourning or crying or pain” (Revelation 21:4).',
@@ -56,6 +61,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'Being there',
+      keyLine: 'With someone in pain, be present, listen, weep, pray and help in practical ways.',
       body: [
         'When Job’s friends first came to him, “they sat on the ground with him for seven days and seven nights, but no one spoke a word to him” (Job 2:13). It was the best thing they did. Their mistakes began when they started explaining.',
         'With someone in pain, be present, listen, weep, pray and help in practical ways. God “comforts us in all our troubles, so that we can comfort those in any trouble” (2 Corinthians 1:3-4). Arguments have their place, usually later, and usually when asked for.',

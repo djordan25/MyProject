@@ -8,6 +8,7 @@ export const shiaOverview: Topic = {
   lesson: [
     {
       heading: 'How the split began',
+      keyLine: 'Others believed the leadership belonged to Ali',
       body: [
         'Muhammad died in Medina in June 632. He left no son, and the question of who should lead the community was settled within hours. A group of his companions met in a roofed meeting place called the Saqifa and gave their allegiance to Abu Bakr, his old friend and father-in-law. By the early accounts Ali was not there. He and the Prophet’s kin were with the body, which had not yet been buried.',
         'Others believed the leadership belonged to Ali, Muhammad’s cousin, the husband of his daughter Fatima and the father of his grandsons Hasan and Husayn. They came to be called shi‘at Ali, the party of Ali, which is where the word Shia comes from. Ali did become the fourth caliph in 656 and was murdered in 661. For the Shia he had been the rightful leader all along, appointed by Muhammad himself at a place called Ghadir Khumm. The next lesson examines that claim.',
@@ -18,6 +19,7 @@ export const shiaOverview: Topic = {
     },
     {
       heading: 'The five roots and the twelve Imams',
+      keyLine: 'For a Twelver the Imamate is not a detail of early history.',
       body: [
         'Most Shia are Twelvers. They sum up their faith in five roots of religion (usul al-din): the oneness of God (tawhid), the justice of God (‘adl), prophethood (nubuwwa), the Imamate (imama) and the resurrection and judgment (ma‘ad). Sunnis share three of these. Divine justice as a separate root, and the Imamate, are distinctively Shia. Notice what this means. For a Twelver the Imamate is not a detail of early history. It is part of the foundation.',
         'For a Sunni an imam is usually the man who leads the prayers. For a Twelver the Imam is far more: a successor to the Prophet chosen by God, sinless and protected from error (ma‘sum), who guards the revelation and explains it. He brings no new scripture, because prophethood ended with Muhammad. Each Imam is named by the one before him.',
@@ -28,6 +30,7 @@ export const shiaOverview: Topic = {
     },
     {
       heading: 'The hidden Imam',
+      keyLine: 'Twelvers believe this twelfth Imam is still alive on earth, unseen, now more than eleven centuries old.',
       body: [
         'The eleventh Imam, Hasan al-Askari, died in Samarra in Iraq in 874. Twelvers believe he left a young son, Muhammad, whom God hid from the caliph’s agents. For about seventy years the boy is said to have communicated with his followers through four deputies, one after another. This is the lesser occultation (874 to 941). When the fourth deputy, Ali ibn Muhammad al-Samarri, died in 941, no successor was named. The greater occultation began, and it continues today.',
         'Twelvers believe this twelfth Imam is still alive on earth, unseen, now more than eleven centuries old. He is the Mahdi, “the rightly guided one”, also called al-Qa’im, “the one who will rise”, and the Imam of the Age. He will return to fill the earth with justice as it has been filled with oppression, and Jesus will come down and pray behind him. When Shia Muslims mention him they often add a prayer that God will hasten his appearing.',
@@ -36,6 +39,7 @@ export const shiaOverview: Topic = {
     },
     {
       heading: 'Books, scholars and devotion',
+      keyLine: 'Because the Imam is hidden, ordinary believers follow a living jurist.',
       body: [
         'Twelvers accept the Quran and, beside it, reports from the Prophet and the Imams, since an Imam’s word carries the Prophet’s authority. The chief collections are the Four Books: al-Kafi by al-Kulayni (died about 941), Man La Yahduruhu al-Faqih by Ibn Babawayh, known as al-Shaykh al-Saduq (died 991), and Tahdhib al-Ahkam and al-Istibsar, both by al-Tusi (died 1067). Many Shia also treasure Nahj al-Balagha, a collection of sermons and letters attributed to Ali, compiled by al-Sharif al-Radi, who died in 1015. Unlike Sunnis with Bukhari, most Twelver scholars today do not call any of these books wholly sound. Each report is weighed on its own.',
         'Because the Imam is hidden, ordinary believers follow a living jurist. The most senior are each called a marja‘ al-taqlid, a “source of emulation”, and are popularly known as grand ayatollahs. A believer chooses one, follows his rulings on practice, and usually pays through him the khums, a fifth of yearly surplus income. The great seminaries are at Najaf in Iraq and Qom in Iran. For many years one of the most widely followed has been Ayatollah Ali al-Sistani of Najaf.',
@@ -45,6 +49,7 @@ export const shiaOverview: Topic = {
     },
     {
       heading: 'The branches',
+      keyLine: 'Twelvers are the large majority of Shia Muslims.',
       body: [
         'Twelvers are the large majority of Shia Muslims. The other branches parted from them when followers disagreed about who the next Imam was.',
         'Zaydis followed Zayd, a grandson of Husayn who led a failed revolt at Kufa in 740, instead of the line of his half-brother Muhammad al-Baqir. They hold that any learned descendant of Ali and Fatima who rises against injustice may be Imam, and they do not teach that Imams are sinless or hidden. In belief and practice they are the Shia closest to Sunnis. They live mainly in northern Yemen.',
@@ -54,6 +59,7 @@ export const shiaOverview: Topic = {
     },
     {
       heading: 'Where the Shia live',
+      keyLine: 'The Pew study of 2009 estimated between 154 and 200 million Shia Muslims, more than a third of them in Iran, where 90 to 95 percent of Muslims are Shia.',
       body: [
         'The Pew study of 2009 estimated between 154 and 200 million Shia Muslims, more than a third of them in Iran, where 90 to 95 percent of Muslims are Shia. Shia are also the majority in Iraq (an estimated 65 to 70 percent of Muslims), Bahrain (65 to 75 percent) and Azerbaijan (65 to 75 percent). Pakistan and India each have many millions, and there are large communities in Yemen, Turkey, Afghanistan, Syria, Saudi Arabia and Kuwait. All such figures are estimates, since few countries count their people by sect.',
         'In Lebanon, Pew estimated that Shia are about half of the country’s Muslims, between one and two million people. Their heartlands are the south, the Bekaa valley in the east and the southern suburbs of Beirut. Two parties speak for most of the community: Amal, founded in 1975 by the cleric Musa al-Sadr, and Hezbollah, which formed with Iranian backing after the Israeli invasion of 1982. Lebanese Shia have also emigrated widely, to West Africa, the Americas and Australia. Do not assume that a Lebanese Shia supports either party.',
@@ -62,6 +68,7 @@ export const shiaOverview: Topic = {
     },
     {
       heading: 'Which lessons in this course apply',
+      keyLine: 'Everything argued from the Quran applies to a Shia in full.',
       body: [
         'Everything argued from the Quran applies to a Shia in full. That includes The Islamic Dilemma, The Quran Misunderstands Christianity, Denying the Crucifixion, Internal Contradictions in the Quran, Historical Errors in the Quran and Borrowed Stories: Legends in the Quran. It includes the answers on the Trinity, the deity of Christ, the atonement and the reliability of the Bible. And it includes the positive case in Jesus: More Than a Prophet, The Cross and Resurrection and Salvation: Scales or Grace?',
         'Lessons that lean on Sahih al-Bukhari and Sahih Muslim carry less weight: Testing Muhammad’s Prophethood, Muhammad: Prophet or Warlord?, Can the Hadith Be Trusted? and the hadith evidence in Uthman’s Burning and the Lost Verses. Twelver teaching holds that prophets are protected from sin and error, so a Shia will often reject a Sunni report that reflects badly on Muhammad. You can still use such reports in two ways: as evidence of what the great majority of Muslims have believed, or where a Shia teacher appeals to the same report himself.',

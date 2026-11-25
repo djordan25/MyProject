@@ -8,6 +8,7 @@ export const howWeGotTheBible: Topic = {
   lesson: [
     {
       heading: 'From the authors to us',
+      keyLine: 'The New Testament was written in the first century by apostles and their close companions.',
       body: [
         'The New Testament was written in the first century by apostles and their close companions. Luke says he wrote “having carefully investigated everything from the beginning” (Luke 1:3), and Peter insists, “we were eyewitnesses of His majesty” (2 Peter 1:16).',
         'Christians believe God spoke through these human authors: “All Scripture is God-breathed” (2 Timothy 3:16), and “men spoke from God as they were carried along by the Holy Spirit” (2 Peter 1:21). The Bible is fully human in its writing and fully from God in its message.',
@@ -17,6 +18,7 @@ export const howWeGotTheBible: Topic = {
     },
     {
       heading: 'Who decided which books belong?',
+      keyLine: 'The churches did not grant these books authority; they recognised the authority the books already had.',
       body: [
         'A popular claim says the emperor Constantine, or the Council of Nicaea in AD 325, chose the books of the Bible. This is false. Nicaea met to answer the teaching of Arius about the deity of Christ; it made no decision about which books belong in the Bible.',
         'The core of the New Testament was recognised long before. Within the New Testament itself, Peter speaks of Paul’s letters alongside “the rest of the Scriptures” (2 Peter 3:15-16), and Paul quotes a saying of Jesus found in Luke as Scripture: “The worker is worthy of his wages” (1 Timothy 5:18; see Luke 10:7).',
@@ -27,6 +29,7 @@ export const howWeGotTheBible: Topic = {
     },
     {
       heading: 'Copying and textual criticism',
+      keyLine: 'With more than 5,000 Greek manuscripts of the New Testament to compare, scholars can see where copies differ and work back to the original wording.',
       body: [
         'Because the books were copied by hand, copies differ in small ways: spellings, word order, a skipped line. With more than 5,000 Greek manuscripts of the New Testament to compare, scholars can see where copies differ and work back to the original wording. This work is called textual criticism.',
         'Christians are open about the results. The two longest passages missing from the earliest manuscripts are the ending of Mark (Mark 16:9-20) and the story of the woman caught in adultery (John 8:1-11). Modern Bibles mark both. No Christian teaching depends on either.',
@@ -36,6 +39,7 @@ export const howWeGotTheBible: Topic = {
     },
     {
       heading: 'Translations',
+      keyLine: 'Mainstream modern Bibles are not translations of translations.',
       body: [
         'Mainstream modern Bibles are not translations of translations. Each is translated directly from the Hebrew, Aramaic and Greek texts.',
         'English versions differ because translators make different choices: some follow the original word order closely, others aim for natural English. Comparing two or three good translations usually shows that they agree on the meaning.',
@@ -43,6 +47,7 @@ export const howWeGotTheBible: Topic = {
     },
     {
       heading: 'The “lost gospels”',
+      keyLine: 'The four Gospels are the only narrative accounts of Jesus’ life generally dated to the first century.',
       body: [
         'Books such as the Gospel of Thomas, the Gospel of Judas and the Gospel of Mary are sometimes presented as suppressed alternatives to the four Gospels. They are generally dated to the second century or later, long after the apostles had died, by authors who borrowed famous names.',
         'They were never part of the Bible and then removed. Early Christians knew them, and rejected them because they came too late and contradicted what the apostles taught. The four Gospels are the only narrative accounts of Jesus’ life generally dated to the first century.',

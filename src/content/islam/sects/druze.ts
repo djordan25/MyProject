@@ -9,6 +9,7 @@ export const druze: Topic = {
   lesson: [
     {
       heading: 'Who the Druze are',
+      keyLine: 'The Druze are an Arabic-speaking community of about one million people.',
       body: [
         'The Druze are an Arabic-speaking community of about one million people. That figure is an estimate, as is every figure in this lesson. Most live in Syria, Lebanon and Israel, with a smaller community in Jordan. In Syria their heartland is the southern province of Suwayda. In Lebanon it is the Chouf and Aley districts of Mount Lebanon and the valley of Wadi al-Taym at the foot of Mount Hermon, around Hasbaya and Rashaya. In Israel it is Galilee and Mount Carmel. There are also Druze villages on the Golan Heights, which Israel took from Syria in 1967, and many Druze there still count themselves Syrian. There are emigrant communities in the Americas, Australia, West Africa and Europe.',
         'Lebanon has held no census since 1932. The polling firm Statistics Lebanon, quoted in United States government reports, puts the Druze at about five percent of the population. The Pew Research Center puts them at roughly two percent of Israel’s population, and American government estimates put them at about three percent of Syria’s.',
@@ -18,6 +19,7 @@ export const druze: Topic = {
     },
     {
       heading: 'How the faith began',
+      keyLine: 'The Druze faith arose in Cairo in the early eleventh century, inside Ismaili Shia Islam.',
       body: [
         'The Druze faith arose in Cairo in the early eleventh century, inside Ismaili Shia Islam. Egypt was then ruled by the Fatimid caliphs, who were Ismailis. The sixth of them, al-Hakim, reigned from 996 to 1021.',
         'Hamza ibn Ali, a teacher from Persia, came to Cairo, and in 1017 the new teaching was proclaimed openly. Druze sources say the caliph approved it, and historians are unsure how far he did. The Druze regard Hamza, not al-Darazi, as the authority behind their faith. Al-Darazi was a rival preacher who claimed the leadership for himself. He was killed about 1019, and Druze writings condemn him.',
@@ -27,6 +29,7 @@ export const druze: Topic = {
     },
     {
       heading: 'What they teach, so far as outsiders can know',
+      keyLine: 'The Druze scriptures are not given to outsiders, and most Druze have not read them either.',
       body: [
         'Take care here. The Druze scriptures are not given to outsiders, and most Druze have not read them either. What follows comes from published scholarship, and the scholars do not all agree. Say “I have read that” and ask your friend whether it is so.',
         'The centre is the oneness of God. God is one, and his nature is beyond human description. The sacred book is the Epistles of Wisdom (Rasa’il al-Hikma), a collection of letters and treatises from the first years of the movement, chief among them the writings of Hamza and Baha al-Din. Samy Swayd, writing in the Encyclopedia of Religion, describes it as an interpretation of the teaching of the Bible and the Quran, not a separate book of revelations.',
@@ -36,6 +39,7 @@ export const druze: Topic = {
     },
     {
       heading: 'The wise and the uninitiated',
+      keyLine: 'So your Druze friend may know less about Druze theology than this lesson has told you.',
       body: [
         'The community has two classes. The ‘uqqal, “the wise”, are men and women who have been admitted, after a long testing, to the reading of the Epistles. They are known by their dark clothes and white head coverings. They meet on Thursday evenings in a plain house of prayer called a khalwa.',
         'Everyone else belongs to the juhhal, “the ignorant”, which here means the uninitiated. They are the large majority. They are expected to live by the community’s moral code, but they are not taught its doctrine in any detail.',
@@ -45,6 +49,7 @@ export const druze: Topic = {
     },
     {
       heading: 'Rebirth, the precepts and the closed door',
+      keyLine: 'One teaching every Druze knows is the return of the soul.',
       body: [
         'One teaching every Druze knows is the return of the soul. The Druze word is taqammus, from the Arabic for a shirt: the soul changes bodies as a man changes his shirt. At death it passes at once into a newborn human body. According to published accounts a Druze is always reborn as a Druze. Reward and punishment come only at the Day of Judgment, after a great many lives. Stories of children who remember a former life and family are common, and they are told in good faith.',
         'Hitti reports that Hamza set aside the five pillars of Islam and put seven precepts in their place. As Swayd lists them they are: to speak the truth, to protect one’s brethren, to abandon false worship, to keep away from evil and oppression, to declare the unity of God, to be content with what he does, and to submit to his will. The fast of Ramadan and the pilgrimage to Mecca are not required of a Druze.',
@@ -53,6 +58,7 @@ export const druze: Topic = {
     },
     {
       heading: 'Are the Druze Muslims?',
+      keyLine: 'The Druze faith grew out of Islam, but many Muslims have not counted it as Islam.',
       body: [
         'The Druze faith grew out of Islam, but many Muslims have not counted it as Islam. It set aside the pillars, it teaches rebirth, and it has a scripture besides the Quran. Many Druze do not call themselves Muslims. Some do. Ask, and do not assume.',
         'Lebanon shows the ambiguity. It recognises eighteen religious communities and counts the Druze among the five Muslim ones, also when seats in parliament are divided equally between Christians and Muslims. Yet the Druze have their own religious courts and elect their own head, the Sheikh al-Aql.',
@@ -61,6 +67,7 @@ export const druze: Topic = {
     },
     {
       heading: 'Where the gospel meets a Druze',
+      keyLine: 'The Christian hope is resurrection, not return',
       body: [
         'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus, and by Swayd’s account the Druze writings count the New Testament among the sources of their teaching. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
         'Then come to the differences, gently and plainly. First, one life. Scripture says that “man is appointed to die once, and after that to face judgment” (Hebrews 9:27). Jesus told the dying thief, “today you will be with Me in Paradise” (Luke 23:43). The Christian hope is resurrection, not return: this same person, raised and made new. And rebirth cannot deal with guilt. On the Druze account itself the judgment still waits at the end of all the lives.',
@@ -71,6 +78,7 @@ export const druze: Topic = {
     },
     {
       heading: 'The cost, and how to walk with a friend',
+      keyLine: 'A Druze who follows Christ may lose family, the hope of marriage, inheritance and home.',
       body: [
         'A Druze who follows Christ may lose family, the hope of marriage, inheritance and home. Do not hide this, and do not hurry him. Jesus was honest about it. He said that no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… along with persecutions—and in the age to come, eternal life” (Mark 10:29-30).',
         'That promise of houses and brothers and sisters is kept through the church. If you are not ready to be family to someone who has lost his own, you are not ready to ask him to pay that price.',

@@ -8,6 +8,7 @@ export const sunniOverview: Topic = {
   lesson: [
     {
       heading: 'Who Sunnis are',
+      keyLine: 'Sunnis are the large majority of Muslims, roughly 85 to 90 percent.',
       body: [
         'Sunnis are the large majority of Muslims, roughly 85 to 90 percent. The usual figure comes from a 2009 Pew Research Center study, which put Sunnis at 87 to 90 percent and said plainly that the figure is an estimate, because few censuses ask the question.',
         'The full name is ahl al-sunna wa’l-jama‘a, the people of the Sunna and the community. It makes two claims. Sunnis follow the Sunna, the example of Muhammad. And they stay with the main body of Muslims instead of breaking away. On the question that first divided Muslims, who should lead after Muhammad, Sunnis accept the first four caliphs in the order they ruled: Abu Bakr, Umar, Uthman and Ali. They call them the rightly guided caliphs. The Shia hold that Ali should have been first. The next lesson, The Companions and the First Caliphs, looks at that history.',
@@ -16,6 +17,7 @@ export const sunniOverview: Topic = {
     },
     {
       heading: 'The four authorities',
+      keyLine: 'Sunni scholars name four sources of the law.',
       body: [
         'Sunni scholars name four sources of the law. The jurist al-Shafi‘i, who died in 820, is traditionally credited with setting them in order.',
         'The first is the Quran. The second is the Sunna, known through the hadith. Sunnis hold that Muhammad’s example binds every Muslim, because the Quran says so: “He who obeys the Messenger has obeyed Allah” (Quran 4:80), and “whatever the Messenger has given you - take; and what he has forbidden you - refrain from” (Quran 59:7). Six hadith collections have special standing. They were compiled by al-Bukhari (died 870), Muslim (died 875), Abu Dawud, al-Tirmidhi, al-Nasa’i and Ibn Majah. The first two are called the two Sahihs, the two sound books, and stand above the rest. The thirteenth-century scholar al-Nawawi wrote that the scholars agree they are the most authentic books after the Quran and that the community has received them with acceptance.',
@@ -26,6 +28,7 @@ export const sunniOverview: Topic = {
     },
     {
       heading: 'Four schools of law, three schools of creed',
+      keyLine: 'Most Sunnis follow one of four schools of law (madhhabs), each named after a jurist.',
       body: [
         'Most Sunnis follow one of four schools of law (madhhabs), each named after a jurist. The Hanafi school follows Abu Hanifa (died 767) and is the largest. It prevails in Turkey, the Balkans, Central Asia and South Asia. The Maliki school follows Malik ibn Anas (died 795) and prevails in North and West Africa. The Shafi‘i school follows al-Shafi‘i (died 820) and prevails in East Africa, Southeast Asia and parts of Egypt and the Levant. The Hanbali school follows Ahmad ibn Hanbal (died 855) and prevails in Saudi Arabia.',
         'The schools differ on details of practice: how to hold the hands in prayer, what breaks ritual purity, the terms of a marriage contract. They accept one another as valid. Following a school’s rulings without weighing the evidence oneself is called taqlid, and traditional Sunnis think it is the right course for anyone who is not a trained jurist.',
@@ -34,6 +37,7 @@ export const sunniOverview: Topic = {
     },
     {
       heading: 'Where you will meet Sunnis',
+      keyLine: 'In the United States, the Pew Research Center estimated about 3.45 million Muslims in 2017.',
       body: [
         'In the United States, the Pew Research Center estimated about 3.45 million Muslims in 2017. In its survey that year 55 percent identified as Sunni and 16 percent as Shia, and 14 percent named no particular tradition. American Sunnis include immigrants and their children from South Asia and the Arab world, and many African Americans. After Elijah Muhammad died in 1975, his son Warith Deen Mohammed led most of the Nation of Islam into Sunni Islam.',
         'In Europe, Pew estimated 25.8 million Muslims in 2016, about 4.9 percent of the population of the European Union as it then was, with Norway and Switzerland. Most are Sunni. The largest group of Germany’s Muslims is of Turkish background and Hanafi. Those of France, Belgium and Spain are largely North African and Maliki. Britain’s are largely South Asian and Hanafi. Bosnia, Albania and Kosovo have Sunni communities centuries old.',
@@ -42,6 +46,7 @@ export const sunniOverview: Topic = {
     },
     {
       heading: 'The example that binds',
+      keyLine: 'It follows that a Sunni cannot wave away a hard hadith in the two Sahihs.',
       body: [
         'The Sunni name carries a doctrine with it. The Quran says: “There has certainly been for you in the Messenger of Allah an excellent pattern” (Quran 33:21). Sunni scholars take the Sunna to be revelation alongside the Quran. Muhammad is reported to have said, “I have been given the Qur’an and something like it” (Sunan Abi Dawud 4604). So the believer has no choice once Allah and his Messenger have decided a matter (Quran 33:36).',
         'It follows that a Sunni cannot wave away a hard hadith in the two Sahihs. Take apostasy. Muhammad said, “Whoever changed his Islamic religion, then kill him” (Sahih al-Bukhari 6922). He listed “the one who reverts from Islam (apostate) and leaves the Muslims” among the three whose blood may be shed (Sahih al-Bukhari 6878). When Mu‘adh found a man in Yemen who had become a Muslim and then gone back to Judaism, he said, “I will not sit down till he has been killed. This is the judgment of Allah and His Messenger” (Sahih al-Bukhari 6923). The four schools drew the same ruling from these reports: the man who leaves Islam and does not return is to be killed. The twelfth-century jurist Ibn Rushd records that the jurists agreed on this, even where the man had not taken up arms. They differed over a woman. Most would kill her too, and the Hanafis imprisoned her until she returned.',
@@ -57,6 +62,7 @@ export const sunniOverview: Topic = {
     },
     {
       heading: 'Three Sunni claims to answer',
+      keyLine: 'The claim has to be tested by the earliest evidence, not assumed.',
       body: [
         'First: “Sahih al-Bukhari is the most authentic book after the Book of Allah.” Accept this as the Sunni position and hold your friend to it. If the book is that sound, its contents stand: the collection of the Quran under threat of loss and the burning of other copies (Sahih al-Bukhari 4986, 4987), the spell on Muhammad (Sahih al-Bukhari 5763), the apostasy ruling. Be accurate about its standing too. Early hadith critics did question some of its reports. Al-Daraqutni, who died in 995, criticised about two hundred narrations in the two Sahihs, almost all on technical points about their chains and not about their content, and al-Nawawi says that all or most of his criticisms were answered. The lessons Can the Hadith Be Trusted? and Uthman’s Burning and the Lost Verses give the detail.',
         'Second: “The community will never agree on an error.” Look at the proof. The saying as it stands in Sunan Ibn Majah 3950 and Jami at-Tirmidhi 2167 is graded weak. Sunni scholars reply that its many chains support one another. Then ask whose agreement counts. In practice it is the agreement of Sunni scholars, with the Shia and others left out, so the rule proves Sunni Islam only to those who are already Sunni. And the classical consensus includes the death penalty for apostasy, which many Sunnis today want to leave behind. A community can agree and be wrong. Sunni scholars agree that Jesus was not crucified (Quran 4:157), against every first-century source that speaks of his death.',
@@ -66,6 +72,7 @@ export const sunniOverview: Topic = {
     },
     {
       heading: 'Bringing it to Christ',
+      keyLine: 'The gospel does not begin with a chain of men handing down rules.',
       body: [
         'A Sunni is asked to trust a long chain: from Muhammad to his companions, from them to the transmitters, then the compilers, then the schools. What stands at the end of the chain is a law to keep and an example to copy. It does not give assurance. Muhammad himself said, “The deeds of anyone of you will not save you”, and when asked if that included him, “No, even I (will not be saved) unless and until Allah bestows His Mercy on me” (Sahih al-Bukhari 6463).',
         'The gospel does not begin with a chain of men handing down rules. It begins with God coming himself. “In these last days He has spoken to us by His Son” (Hebrews 1:1-2). “The Word became flesh and made His dwelling among us” (John 1:14). Those who saw and touched him wrote down what they had seen (1 John 1:1-3).',

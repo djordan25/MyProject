@@ -8,6 +8,7 @@ export const jesusMoreThanProphet: Topic = {
   lesson: [
     {
       heading: 'Jesus in the Quran: unlike any other prophet',
+      keyLine: 'Ask your Muslim friend: no other prophet is called God’s Word, said to give life, or expected to return.',
       body: [
         'Born of a virgin (Quran 3:47; 19:20). Called the Messiah and “a word from Him” (Quran 3:45), “His word… and a soul from Him” (Quran 4:171).',
         'Called “a pure boy” (Quran 19:19). The Quran never records Jesus sinning or asking forgiveness, while it tells Muhammad to ask forgiveness for his sin (Quran 47:19). Sahih al-Bukhari 3431 says every child is touched by Satan at birth, except Mary and her son.',
@@ -19,6 +20,7 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       heading: 'Jesus did what only God does',
+      keyLine: 'He will judge all people, and all are to honour the Son as they honour the Father (John 5:22-23).',
       body: [
         'He forgave sins committed against others, and his critics rightly asked, “Who can forgive sins but God alone?” (Mark 2:5-12).',
         'He claimed to be Lord of the Sabbath (Mark 2:28), which God instituted.',
@@ -29,6 +31,7 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       heading: 'Jesus said who he was',
+      keyLine: '“Before Abraham was born, I am” (John 8:58) — echoing God’s “I am” in Exodus 3:14 and his “I am He” in Isaiah.',
       body: [
         '“Before Abraham was born, I am” (John 8:58) — echoing God’s “I am” in Exodus 3:14 and his “I am He” in Isaiah. The crowd picked up stones to stone him.',
         '“I and the Father are one” — again they picked up stones, “because You, who are a man, declare Yourself to be God” (John 10:30-33).',
@@ -39,6 +42,7 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       heading: 'The New Testament identifies Jesus as the LORD',
+      keyLine: 'Yet they took Old Testament passages about the LORD (Yahweh) and applied them to Jesus.',
       body: [
         'The apostles were Jewish monotheists. Yet they took Old Testament passages about the LORD (Yahweh) and applied them to Jesus.',
         '“Prepare the way for the LORD” (Isaiah 40:3) is fulfilled when John the Baptist prepares the way for Jesus (Mark 1:2-3).',
@@ -52,6 +56,7 @@ export const jesusMoreThanProphet: Topic = {
     },
     {
       heading: 'The Old Testament expected a divine Messiah',
+      keyLine: 'The Son of Man in Daniel 7 receives everlasting dominion and is served by all peoples (Daniel 7:13-14).',
       body: [
         'The child born would be called “Mighty God, Everlasting Father” (Isaiah 9:6). The Son of Man in Daniel 7 receives everlasting dominion and is served by all peoples (Daniel 7:13-14). The ruler from Bethlehem is one “whose origins are of old, from the days of eternity” (Micah 5:2).',
         'The New Testament writers, nearly all of them Jews and all of them monotheists, proclaim him as God: John 1:1; Philippians 2:5-11; Colossians 2:9; Titus 2:13; Hebrews 1:8.',

@@ -8,6 +8,7 @@ export const quranistOverview: Topic = {
   lesson: [
     {
       heading: 'A movement without a centre',
+      keyLine: 'Some Muslims accept the Quran and nothing else as a source of religion.',
       body: [
         'Some Muslims accept the Quran and nothing else as a source of religion. Outsiders call them Quranists. In Arabic the names are Quraniyyun or Ahl al-Quran, “people of the Quran”. One American group calls its members “submitters”, which is simply the word Muslim put into English. Many dislike every label and say they are Muslims who follow the book God sent. Their opponents call them hadith rejecters.',
         'There is no headquarters, no creed and no membership roll, so nobody knows how many there are. They are a small minority everywhere. You are most likely to meet them online, in English-language forums and video channels, and among educated Muslims in the West who have read the hadith for themselves and been troubled by what they found.',
@@ -16,6 +17,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'Where it came from',
+      keyLine: 'The modern movement began under colonial rule',
       body: [
         'The question is old. The jurist al-Shafi‘i, who died in AD 820, wrote against people of his day who refused to accept reports about Muhammad as binding. He won the argument, and for a thousand years almost all Muslims have held that the Quran must be read alongside the Prophet’s example.',
         'The modern movement began under colonial rule, when Western critics were attacking the hadith, but it grew from within Islam: in Punjab it began as a breakaway from the Ahl-i-Hadith, reformers devoted to the hadith. Daniel Brown’s history of the debate, Rethinking Tradition in Modern Islamic Thought, traces it to British India and Egypt in the first years of the twentieth century. In Lahore a little-known religious teacher, Abdullah Chakralawi, founded a society that called itself Ahl-i-Quran, “people of the Quran”. In Cairo in 1906 an Egyptian physician, Muhammad Tawfiq Sidqi, published an article in the journal al-Manar under the title “Islam is the Quran alone”, a view he later withdrew.',
@@ -24,6 +26,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'Rashad Khalifa and the Submitters',
+      keyLine: 'Do not assume the person you are talking to follows Khalifa.',
       body: [
         'The most famous Quran-only teacher in the West was Rashad Khalifa, an Egyptian-born biochemist who led a mosque in Tucson, Arizona, and a group called United Submitters International. He published his own English translation, Quran: The Final Testament.',
         'Khalifa claimed that the Quran contains a mathematical code built on the number 19, which he linked to the verse “Over it are nineteen” (Quran 74:30). By his own account he discovered it in 1974. He counted letters, words and verses and reported that the totals were multiples of 19, and he said this proved the book divine and guarded it against the smallest change.',
@@ -34,6 +37,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'Why they reject the hadith',
+      keyLine: 'Their third reason, and the one they care about most, is the Quran’s description of itself.',
       body: [
         'Their first reason is history. The great collections were compiled about two hundred years after Muhammad, from reports passed on by word of mouth, and Muslim scholars themselves admit that forgery was widespread. The lesson Can the Hadith Be Trusted? covers this. They add that the hadith record Muhammad forbidding his followers to write down anything from him except the Quran (Sahih Muslim 3004), though the same report allows them to narrate from him.',
         'Their second reason is moral. The hadith teach things they cannot believe came from God’s messenger: stoning for adultery (Sahih Muslim 1691), where the Quran prescribes a hundred lashes (Quran 24:2); death for leaving Islam (Sahih al-Bukhari 6922); the marriage to Aisha at six, consummated at nine (Sahih al-Bukhari 5133). They say these reports slander the Prophet, and that the sects and schools of Islam grew out of rival collections.',
@@ -44,6 +48,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'How they pray and practise',
+      keyLine: 'Many Quran-only Muslims still pray five times a day in much the usual way.',
       body: [
         'Practice varies widely. Many Quran-only Muslims still pray five times a day in much the usual way. They say they learned this from the unbroken practice of the community, not from hadith books. Khalifa taught five prayers. When asked where the Quran gives the details, he answered that the prayers came down from Abraham (Quran 21:73; 22:78).',
         'Others find only three prayer times in the Quran and pray three times a day, citing verses such as Quran 11:114 and 24:58. This is the position of the Reformist Translation. Some go further and say the Arabic word salat does not mean a ritual at all but following God’s commands closely, and they keep no set form of prayer. Washing before prayer usually follows the four steps of Quran 5:6 and nothing more. Khalifa’s followers and others recite the confession of faith without Muhammad’s name, because they think adding it puts a man beside God.',
@@ -53,6 +58,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'How other Muslims regard them',
+      keyLine: 'Sunni and Shia scholars alike treat the Quran-only position as a serious error, and many say it puts a person outside Islam.',
       body: [
         'Sunni and Shia scholars alike treat the Quran-only position as a serious error, and many say it puts a person outside Islam. They quote a hadith in which Muhammad warns of a man reclining on his couch who hears a command of the Prophet and says he follows only what he finds in the Book of Allah (Sunan Abi Dawud 4605; Jami at-Tirmidhi 2663). A Quran-only Muslim replies that this is exactly the sort of report someone would invent to protect the hadith.',
         'The hostility is real. Mansour lost his post and his freedom in Egypt, and an Egyptian human rights group reported the arrest of Quran-only Muslims there as recently as 2020. Khalifa was murdered. Many have paid a price for following their conscience, and a Christian should be the first to treat them kindly and to say that no one should be harmed for what he believes.',
@@ -61,6 +67,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'How the conversation changes',
+      keyLine: 'Every argument drawn from the Quran itself still applies in full',
       body: [
         'First, you can agree with much of what they say. Their criticism of the hadith is largely sound, and you need not defend Bukhari to anyone. Say so. It is rare for a Muslim to hear a Christian begin by agreeing with him.',
         'Second, put the hadith away. “Sahih al-Bukhari says” means nothing here, so most of the lessons on Muhammad’s life cannot be used as they stand. Every argument drawn from the Quran itself still applies in full: its affirmation of the Torah and the Gospel (see The Islamic Dilemma), its denial of the crucifixion, its picture of what Christians believe, and its historical and internal difficulties.',

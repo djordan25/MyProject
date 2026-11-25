@@ -8,6 +8,7 @@ export const muhammadTested: Topic = {
   lesson: [
     {
       heading: 'Biblical tests for a prophet',
+      keyLine: 'Scripture tells us to test, not simply accept, those who claim to speak for God (1 John 4:1).',
       body: [
         'Scripture tells us to test, not simply accept, those who claim to speak for God (1 John 4:1).',
         'A prophet who leads people away from the God who has revealed himself is false, even if he performs signs (Deuteronomy 13:1-5).',
@@ -24,6 +25,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'Muhammad’s own doubts about the source',
+      keyLine: 'In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
       body: [
         'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija and her Christian cousin Waraqa who reassured him that it was the angel (Sahih al-Bukhari 3).',
         'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
@@ -33,6 +35,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'The “Satanic verses”',
+      keyLine: 'Present it as what early Muslim sources report, not as an agreed fact',
       body: [
         'Early Muslim historians, among them Ibn Ishaq (as preserved by al-Tabari) and Ibn Sa‘d, report that Muhammad once recited words honouring three goddesses of Mecca as exalted beings whose intercession could be hoped for, and that the pagans of Mecca then bowed down together with the Muslims. Afterwards, they say, he was told that Satan had put the words on his tongue, and the words were withdrawn.',
         'Bukhari confirms the bowing without giving the reason: when Muhammad finished reciting Surat an-Najm, “all the Muslims and pagans” prostrated with him (Sahih al-Bukhari 4862). At that point the Quran now names the three goddesses and dismisses them (Quran 53:19-23). Another verse says that whenever a messenger recited, Satan threw something into it, which Allah then abolished (Quran 22:52).',
@@ -43,6 +46,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'Under a spell',
+      keyLine: 'Sahih al-Bukhari 5763 reports that a man named Labid bin al-A’sam worked magic on Muhammad',
       body: [
         'Sahih al-Bukhari 5763 reports that a man named Labid bin al-A’sam worked magic on Muhammad, so that he “started imagining that he had done a thing that he had not really done.”',
         'If a prophet could be under a spell that affected his perception, how can his followers be sure which of his words came from God? Jesus, by contrast, had complete authority over evil spirits (Mark 1:27; Luke 11:20).',
@@ -51,6 +55,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'The aorta test',
+      keyLine: 'The Arabic words differ: the Quran has al-watin and the hadith has abhar.',
       body: [
         'The Quran sets its own test: “If Muhammad had made up about Us some [false] sayings, We would have seized him by the right hand; then We would have cut from him the aorta” (Quran 69:44-46).',
         'In his final illness, Muhammad said: “O Aisha! I still feel the pain caused by the food I ate at Khaibar, and at this time, I feel as if my aorta is being cut from that poison” (Sahih al-Bukhari 4428).',
@@ -61,6 +66,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'A prophet who needed forgiveness — and lacked assurance',
+      keyLine: 'The Quran tells Muhammad to “ask forgiveness for your sin” (Quran 47:19; 40:55; see 48:2).',
       body: [
         'The Quran tells Muhammad to “ask forgiveness for your sin” (Quran 47:19; 40:55; see 48:2). He said he sought Allah’s forgiveness more than seventy times a day (Sahih al-Bukhari 6307).',
         'He also said, “nor do I know what will be done with me or with you” (Quran 46:9), and at the death of a companion: “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243). Muslims reply that Quran 48:2 later promised Muhammad forgiveness. Even so, that promise was to him alone; the ordinary Muslim is left with the scales (see Salvation: Scales or Grace?).',
@@ -70,6 +76,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'Revelations that served the messenger',
+      keyLine: 'It matters because Muslims hold Muhammad as the perfect moral example for all time.',
       body: [
         'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd (the verse gives the reason: so that believers may marry the former wives of their adopted sons), and Quran 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
         'When Quran 33:51 came, giving Muhammad freedom regarding his wives’ turns, Aisha said: “I feel that your Lord hastens in fulfilling your wishes and desires” (Sahih al-Bukhari 4788).',

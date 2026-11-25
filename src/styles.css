@@ -712,3 +712,34 @@ mark { background: var(--ed-color-brand-bg-strong); color: inherit; border-radiu
 .home-more summary { cursor: pointer; padding: var(--ed-space-2) 0; color: var(--ed-color-text-secondary); font-weight: var(--ed-font-weight-medium); }
 .home-more .list { margin-top: var(--ed-space-2); }
 p.focus-line { margin-top: var(--ed-space-5); font-size: var(--ed-font-size-sm); color: var(--ed-color-text-muted); }
+
+/* Lessons as steps */
+.view-switch { margin: 0 0 var(--ed-space-3); text-align: right; font-size: var(--ed-font-size-sm); }
+.lesson-steps { scroll-margin-top: 72px; }
+.lesson-steps .step { margin-top: var(--ed-space-4); animation: reveal-in var(--ed-transition-slow) ease-out; }
+.step-nav { margin-top: var(--ed-space-6); padding-top: var(--ed-space-4); border-top: 1px solid var(--ed-color-hairline); }
+.key-line { font-size: 22px !important; line-height: 31px !important; font-weight: var(--ed-font-weight-semibold); letter-spacing: var(--ed-tracking-snug); color: var(--ed-color-text-primary); margin: var(--ed-space-2) 0 var(--ed-space-5); padding: var(--ed-space-1) 0 var(--ed-space-1) var(--ed-space-4); border-left: 4px solid var(--at-rubric); max-width: 30em; }
+.scripture { margin: var(--ed-space-4) 0; padding: var(--ed-space-4); max-width: var(--at-measure); border: 1px solid var(--ed-color-hairline); border-left: 4px solid var(--at-source-bible); border-radius: var(--ed-radius-md); background: var(--ed-color-surface-2); }
+.scripture p { margin: 0; font-size: 18px !important; line-height: 28px !important; font-style: italic; }
+.scripture footer { margin-top: var(--ed-space-2); font-size: var(--ed-font-size-sm); }
+.scripture:has(.cite.quran) { border-left-color: var(--at-source-quran); }
+.scripture:has(.cite.bukhari), .scripture:has(.cite.muslim), .scripture:has(.cite.hadith) { border-left-color: var(--at-source-hadith); }
+.lead-in { display: block; font: var(--ed-font-weight-semibold) 11px/18px var(--ed-font-mono); letter-spacing: var(--ed-tracking-wide); text-transform: uppercase; color: var(--at-rubric-ink); }
+.lesson-visual { margin: var(--ed-space-6) 0 var(--ed-space-2); padding-top: var(--ed-space-4); border-top: 1px solid var(--ed-color-hairline); }
+.lesson-visual h3 { margin: 0 0 var(--ed-space-2); font-size: var(--ed-font-size-lg); }
+.recap { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: var(--ed-space-8); }
+.recap h2 { margin: var(--ed-space-1) 0 var(--ed-space-2); }
+.recap .emblem { border-radius: var(--ed-radius-xl); margin-bottom: var(--ed-space-4); }
+.recap-score { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--ed-space-2) var(--ed-space-4); margin: 0 0 var(--ed-space-4); font-size: 12px; color: var(--ed-color-text-secondary); }
+.recap-score .gain { color: var(--at-rubric-ink); font-weight: var(--ed-font-weight-semibold); }
+.recap h3 { align-self: stretch; text-align: left; margin: var(--ed-space-4) 0 var(--ed-space-2); font-size: var(--ed-font-size-md); color: var(--ed-color-text-secondary); }
+.recap-lines { align-self: stretch; text-align: left; margin: 0 0 var(--ed-space-5); padding-left: var(--ed-space-6); display: grid; gap: var(--ed-space-2); font-size: 16px; line-height: 1.5; }
+.recap-lines li::marker { font-family: var(--ed-font-mono); font-size: 12px; color: var(--at-rubric-ink); }
+.recap-reading { align-self: stretch; text-align: left; margin-top: var(--ed-space-5); font-size: var(--ed-font-size-md); }
+.recap-reading summary { cursor: pointer; color: var(--ed-color-text-secondary); }
+
+.step-bar { display: flex; gap: 3px; align-items: center; }
+.step-bar i { flex: 2; height: 6px; border-radius: 3px; background: var(--ed-color-surface-4); transition: background var(--ed-transition-slow); }
+.step-bar i.check { flex: 1; }
+.step-bar i.past { background: var(--ed-color-brand); }
+.step-bar i.now { background: var(--at-rubric); }

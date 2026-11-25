@@ -8,6 +8,7 @@ export const atonementObjections: Topic = {
   lesson: [
     {
       heading: 'The Muslim objection',
+      keyLine: 'Muslims argue that it would be unjust for Jesus to die for others’ sins, and that God can simply forgive the repentant.',
       body: [
         '“No bearer of burdens will bear the burden of another” (Quran 6:164; 53:38). Muslims argue that it would be unjust for Jesus to die for others’ sins, and that God can simply forgive the repentant.',
         'Muslims sometimes cite the prophet Ezekiel: “A son will not bear the iniquity of his father” (Ezekiel 18:20).',
@@ -16,6 +17,7 @@ export const atonementObjections: Topic = {
     },
     {
       heading: 'Sacrifice runs through the whole Bible',
+      keyLine: 'From the beginning, God taught that sin brings death and that rescue and forgiveness come through a substitute',
       body: [
         'From the beginning, God taught that sin brings death and that rescue and forgiveness come through a substitute: the Passover lamb (Exodus 12:13), the sacrifices of the law — “it is the blood that makes atonement for the soul” (Leviticus 17:11), and the Day of Atonement (Leviticus 16).',
         '“Without the shedding of blood there is no forgiveness” (Hebrews 9:22). Those animal sacrifices pointed forward to the one perfect sacrifice (Hebrews 10:1-14).',
@@ -26,6 +28,7 @@ export const atonementObjections: Topic = {
     },
     {
       heading: 'A sacrifice in the Quran',
+      keyLine: 'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice',
       body: [
         'The Quran tells of Abraham preparing to sacrifice his son, and then says: “We ransomed him with a great sacrifice” (Quran 37:107). Muslims commemorate this every year at Eid al-Adha.',
         'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice, though Muslims keep the yearly sacrifice as a commemoration and not as atonement for sin. Ask: what made it a “great” sacrifice? Muslim commentators answer that it was a ram sent from Paradise. Genesis 22 tells the same story, and there Abraham says, “God Himself will provide the lamb” (Genesis 22:8). Christ is that Lamb.',

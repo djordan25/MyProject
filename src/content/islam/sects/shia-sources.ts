@@ -8,6 +8,7 @@ export const shiaSources: Topic = {
   lesson: [
     {
       heading: 'How the Shia see the companions',
+      keyLine: 'Twelver law treats Sunnis as Muslims, and many Shia would never curse a companion.',
       body: [
         'For Sunnis the companions of Muhammad are the best generation, and all of them are trustworthy witnesses. The Shia do not see them so. They honour those who stood by Ali, such as Salman the Persian, Abu Dharr, al-Miqdad and Ammar. They hold that most of the leading companions, with Abu Bakr and Umar at their head, set aside Muhammad’s appointment of Ali and wronged his daughter Fatima over her inheritance.',
         'Sunni books admit part of this. Sahih al-Bukhari records that Abu Bakr refused Fatima’s claim to her father’s property, that she stayed angry with him until she died, and that Ali buried her at night without telling him (Sahih al-Bukhari 4240). The same book has Muhammad say, “Fatima is a part of me, and he who makes her angry, makes me angry” (Sahih al-Bukhari 3714). Shia teachers put the two reports side by side. They also quote the Quran’s warnings that the believers might turn back on their heels when Muhammad died, and that there were hypocrites in Medina whom he did not know (Quran 3:144; 9:101).',
@@ -17,6 +18,7 @@ export const shiaSources: Topic = {
     },
     {
       heading: 'The dilemma: who handed down the Quran?',
+      keyLine: 'Either way the Shia account of the companions creates a difficulty for Shia confidence in Islam’s sources.',
       body: [
         'Now ask how the Quran reached us. By the Sunni reports, Abu Bakr ordered it collected at Umar’s urging after many reciters had been killed in battle, and the work was given to Zaid bin Thabit (Sahih al-Bukhari 4986). Later Uthman had an official text copied, sent it to the provinces, and ordered every other copy burned (Sahih al-Bukhari 4987). The lesson Uthman’s Burning and the Lost Verses sets this out. Abu Bakr, Umar and Uthman are the three men the Shia hold to have taken Ali’s place.',
         'So the Shia believer faces a choice. If those men and the community that followed them were faithful enough to be trusted with the Book of God, their near-unanimous failure to recognise any appointment of Ali is weighty evidence that no such appointment was made. If they were unfaithful enough to overturn the Prophet’s public command within three months, the Book has come to us through unsafe hands.',
@@ -32,6 +34,7 @@ export const shiaSources: Topic = {
     },
     {
       heading: 'Early Shia reports that the Quran was altered',
+      keyLine: 'Some early Shia transmitters of hadith took the second road and held that the text had been tampered with.',
       body: [
         'Some early Shia transmitters of hadith took the second road and held that the text had been tampered with. Al-Kafi has a chapter headed to the effect that no one collected the whole Quran except the Imams, and that they know all of it. In it the fifth Imam is reported as saying that anyone else who claims to have collected the whole Quran as it was revealed is a liar. Another report, in the chapter on the merits of the Quran, says that the Quran Gabriel brought to Muhammad had seventeen thousand verses. Today’s Quran has a little over six thousand. Al-Majlisi, whose copy, like most manuscripts, read seventeen thousand, graded the chain of that report as reliable. Be exact about this one. The Twelver scholar Muhammad Hadi Ma‘rifat points out that al-Fayd al-Kashani, who copied the same report from al-Kafi in the seventeenth century, has seven thousand, and that the Twelver scholar al-Sha‘rani judged the larger figure a copyist’s slip.',
         'Al-Kafi also reports that Ali brought the people his own written copy and they refused it, and that the sixth Imam told a man who recited differently to read as the people read until the one who will rise appears. Al-Majlisi graded this report weak. The early commentary that goes under the name of al-Qummi, who lived about the year 900, contains reports of the same kind.',
@@ -41,6 +44,7 @@ export const shiaSources: Topic = {
     },
     {
       heading: 'What Twelver scholars teach today',
+      keyLine: 'Mainstream Twelver teaching, for a thousand years, has been that the Quran in our hands is complete.',
       body: [
         'Here you must be scrupulously fair. Mainstream Twelver teaching, for a thousand years, has been that the Quran in our hands is complete. Ibn Babawayh counted this among the beliefs of the Twelver community. Al-Tusi and al-Tabrisi said the same in their commentaries. In the twentieth century the great jurist of Najaf, al-Khoei (1899 to 1992), devoted a long chapter of his book al-Bayan to proving it. He calls it the common view of Shia scholars, indeed their agreed view, while noting that a party of Shia traditionists held otherwise.',
         'Al-Khoei goes through the alteration reports group by group. Most of their chains he judges weak, though he grants that so many reports cannot all be false and that some chains are sound. He explains them as speaking of altered meaning, or of explanation that was revealed alongside the text and was never part of it. Any that cannot be read so he rejects as contrary to the Quran itself. He turns the charge round on the Sunnis, arguing that their doctrine of verses whose recitation was withdrawn amounts to admitting alteration. And he rejects the Sunni reports that the Quran was first gathered under the caliphs. In his view it was collected in the Prophet’s lifetime and handed on by the whole community, and Uthman only bound the people to that one text.',
@@ -51,6 +55,7 @@ export const shiaSources: Topic = {
     },
     {
       heading: 'Shia hadith: later still, and sifted by the Shia themselves',
+      keyLine: 'Twelver scholars do not treat these books as Sunnis treat Bukhari.',
       body: [
         'Sunni hadith collections date from about two hundred years after Muhammad (see Can the Hadith Be Trusted?). The Shia collections are later. Al-Kulayni, compiler of al-Kafi, died about 941. Al-Tusi, who compiled two of the Four Books, died in 1067. Al-Kafi holds some sixteen thousand reports.',
         'Twelver scholars do not treat these books as Sunnis treat Bukhari. In the seventeenth century al-Majlisi (died 1699) wrote a commentary on al-Kafi, Mir’at al-‘Uqul, in which he graded the chain of each report. The Thaqalayn digital library of Shia hadith records his gradings beside about fourteen thousand reports of al-Kafi. A count of those entries, made for this lesson, gives a little over half graded weak, of unknown narrators, or incomplete in their chains. About a seventh are graded sound in the strict sense, and about a quarter good or reliable. Some two thousand of the weak gradings read “weak by the common view”, and in a number of places he adds that he himself counts the chain reliable. Shia scholars rightly add that a weak chain does not prove a report false, that reports support one another, and that other scholars grade differently. Still, by the judgment of their most famous commentator, about half of their chief book cannot be shown by its chains to come from the Imams.',
@@ -59,6 +64,7 @@ export const shiaSources: Topic = {
     },
     {
       heading: 'Taqiyya: what it is and what it is not',
+      keyLine: 'Taqiyya is not a licence to lie to outsiders about Islam, and it does not mean that Shia Muslims are less truthful than anyone else.',
       body: [
         'Taqiyya means guarding oneself. It is the teaching that a believer may conceal his faith, or outwardly conform, when he is in danger. Its basis is the Quran, which forbids alliance with unbelievers “except when taking precaution against them in prudence” (Quran 3:28), and excuses one who denies the faith when he “is forced [to renounce his religion] while his heart is secure in faith” (Quran 16:106). Sunnis accept the same principle under compulsion.',
         'Among the Shia it grew in importance because they lived for centuries as a minority under hostile rulers. Al-Kafi has a chapter on it, with sayings attributed to the Imams that taqiyya belongs to their religion and that one who does not practise it has no faith. The same chapter says that it was given to save life and has no place where blood would be shed by it.',
@@ -69,6 +75,7 @@ export const shiaSources: Topic = {
     },
     {
       heading: 'Mut‘a: temporary marriage',
+      keyLine: 'Twelver law permits mut‘a, a marriage contracted for a fixed period in return for a stated payment to the woman.',
       body: [
         'Twelver law permits mut‘a, a marriage contracted for a fixed period in return for a stated payment to the woman. Ayatollah Sistani’s manual of rulings gives an hour, a day, a month, a year or longer as examples of the period. According to the same rulings, the temporary wife has no right to maintenance, even if she becomes pregnant, and the couple do not inherit from each other. No divorce is needed. The contract ends when the time runs out or the man gives up the remainder. The woman must then keep a waiting period. A child of the union is the man’s lawful child and inherits as his other children do.',
         'The Shia ground it in the Quran: “So for whatever you enjoy [of marriage] from them, give them their due compensation as an obligation” (Quran 4:24). Sunnis read that verse of ordinary marriage. But Sunni books agree that Muhammad permitted the practice. Sahih Muslim says his herald announced the permission (Sahih Muslim 1405). One companion tells how he and a friend each offered a woman a cloak, how she chose him, and how he stayed with her three nights until Muhammad told the men to let such women go (Sahih Muslim 1406). Sunni reports then say Muhammad forbade it at Khaybar, on the word of Ali himself (Sahih Muslim 1407; Sahih al-Bukhari 5115), and that Umar later threatened to stone anyone who did it (Sahih Muslim 1217). The Shia reply that the Prophet never withdrew the permission and that Umar banned it on his own authority. A Sunni report gives them some support: the companion Jabir says they practised it in the Prophet’s lifetime and that Umar then forbade it (Sahih Muslim 1249).',

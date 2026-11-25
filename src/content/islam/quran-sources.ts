@@ -8,6 +8,7 @@ export const quranSources: Topic = {
   lesson: [
     {
       heading: 'The argument',
+      keyLine: 'If the Quran came directly from God, its stories about earlier prophets should match what actually happened',
       body: [
         'If the Quran came directly from God, its stories about earlier prophets should match what actually happened — and we would not expect them to echo the folklore circulating in seventh-century Arabia.',
         'Instead, a striking number of Quranic stories appear first in non-biblical writings: later Christian legends (the “infancy gospels” and others) and Jewish commentary. These works were written long after the events, and Christians never accepted them as Scripture.',
@@ -16,6 +17,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'Jesus and the clay birds',
+      keyLine: 'It comes from the Infancy Gospel of Thomas, a second-century collection of legends about Jesus as a boy.',
       body: [
         'The Quran says Jesus made birds from clay and breathed into them, and they became birds (Quran 3:49; 5:110).',
         'This story is not in the four Gospels. It comes from the Infancy Gospel of Thomas, a second-century collection of legends about Jesus as a boy. (This is a different work from the “Gospel of Thomas”, a collection of sayings.) In that legend, the five-year-old Jesus shapes twelve sparrows from clay on the Sabbath and claps his hands to make them fly.',
@@ -25,6 +27,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'Mary in the temple',
+      keyLine: 'It closely follows the Protoevangelium of James (mid-second century)',
       body: [
         'The Quran says Mary was dedicated before birth, placed in Zechariah’s care, and miraculously provided with food in her chamber (Quran 3:35-37), and that men “cast their pens” to decide who would be responsible for her (Quran 3:44).',
         'None of this is in the Bible. It closely follows the Protoevangelium of James (mid-second century), in which Mary is raised in the temple and fed by an angel, and lots are cast with rods to choose her guardian.',
@@ -33,6 +36,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'The palm tree and the cradle',
+      keyLine: 'Pseudo-Matthew is a Latin work probably no older than the Quran, so it cannot be the source',
       body: [
         'In the Quran, Mary gives birth beneath a palm tree, is told to shake the trunk for dates, and a stream is provided beneath her (Quran 19:22-26). Then the newborn Jesus speaks from the cradle to defend her (Quran 19:29-30; 3:46).',
         'In the Gospel of Pseudo-Matthew, a palm tree bends down to feed Mary and a spring bursts out — but during the flight to Egypt, not at the birth. Pseudo-Matthew is a Latin work probably no older than the Quran, so it cannot be the source; but the same palm story appears in Eastern accounts of Mary’s last days that go back to the fifth century. Jesus speaking from the cradle appears in the Arabic Infancy Gospel, which draws on earlier Syriac material (its dating relative to the Quran is debated).',
@@ -42,6 +46,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'Jewish legends',
+      keyLine: 'The Quran presents a rabbinic teaching as God’s decree.',
       body: [
         'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); a raven teaching burial appears in Jewish legend (where it is Adam who learns from it). Be careful with this one: the Jewish book that records it, Pirke de-Rabbi Eliezer, was completed after Islam began, so it cannot be shown that the Quran drew on it. The stronger example follows in the next verse.',
         'The next verse is even more revealing. Quran 5:32 says, “We decreed upon the Children of Israel that whoever kills a soul… it is as if he had slain mankind entirely.” That sentence is not in the Torah — it comes from the Mishnah (Sanhedrin 4:5, compiled about AD 200), in a rabbinic passage that discusses Cain and Abel and the creation of a single Adam. The Quran presents a rabbinic teaching as God’s decree.',
@@ -53,6 +58,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'More Christian legends',
+      keyLine: 'The companions of the cave (Quran 18:9-26), young men who sleep in a cave for 309 years (Quran 18:25), is the Christian legend of the Seven Sleepers of Ephesus.',
       body: [
         'The companions of the cave (Quran 18:9-26), young men who sleep in a cave for 309 years (Quran 18:25), is the Christian legend of the Seven Sleepers of Ephesus. The Quran even reflects disagreement over how many there were (Quran 18:22).',
         'Dhul-Qarnayn (Quran 18:83-98), who travels to where the sun sets in a muddy spring (18:86) and builds an iron-and-copper wall against Gog and Magog (18:96-97), parallels the Syriac Alexander Legend about Alexander the Great, a work usually dated to about AD 629-630, in Muhammad’s last years, so scholars debate how the two are related, though the stories it tells of Alexander are older.',
@@ -61,6 +67,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'Muhammad’s contemporaries noticed',
+      keyLine: 'Jewish and Christian stories clearly circulated in his environment.',
       body: [
         'His opponents said: “Legends of the former peoples which he has written down, and they are dictated to him morning and afternoon” (Quran 25:5; cf. 16:24). They claimed a human taught him (Quran 16:103).',
         'And Muhammad encouraged his followers to “tell others the stories of Bani Israel… for it is not sinful to do so” (Sahih al-Bukhari 3461). Jewish and Christian stories clearly circulated in his environment.',
@@ -69,6 +76,7 @@ export const quranSources: Topic = {
     },
     {
       heading: 'What about the Gospel of Barnabas?',
+      keyLine: 'Be clear: this is not a source the Quran borrowed from — it is a much later forgery.',
       body: [
         'Muslims sometimes cite the “Gospel of Barnabas”, in which Jesus denies being the Messiah and foretells Muhammad. Be clear: this is not a source the Quran borrowed from — it is a much later forgery.',
         'Its only manuscripts date from the late 1500s (Italian) and an 18th-century Spanish copy, it contains medieval European details, and it contradicts the Quran itself: it has Jesus deny being the Messiah, while the Quran calls Jesus the Messiah (Quran 3:45). No early Christian or Muslim writer quotes it.',

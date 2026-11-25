@@ -8,6 +8,7 @@ export const identityOfJesus: Topic = {
   lesson: [
     {
       heading: 'Jesus of history',
+      keyLine: 'Virtually all historians — Christian or not — agree that Jesus of Nazareth existed, was baptised by John, gathered disciples, and was crucified under Pontius Pilate.',
       body: [
         'Virtually all historians — Christian or not — agree that Jesus of Nazareth existed, was baptised by John, gathered disciples, and was crucified under Pontius Pilate.',
         'Besides the New Testament, early non-Christian sources mention him: Tacitus (Annals 15.44), Josephus (Antiquities 18.63; 20.200), and Pliny the Younger (Letters 10.96). Josephus’ first passage shows signs of later Christian editing, but most scholars accept an authentic core that mentions Jesus’ execution under Pilate.',
@@ -23,6 +24,7 @@ export const identityOfJesus: Topic = {
     },
     {
       heading: 'The trilemma',
+      keyLine: 'C.S. Lewis argued that someone who made Jesus’ claims cannot simply be a great moral teacher.',
       body: [
         'C.S. Lewis argued that someone who made Jesus’ claims cannot simply be a great moral teacher. Either he knew the claims were false (a liar), believed them falsely (a lunatic), or they were true (Lord).',
         'A frequent fourth option is “legend” — the claims were added later. That is answered by the early dating of the sources and the presence of high Christology in the earliest material, such as Paul’s letters (e.g. Philippians 2:6-11, written within about thirty years).',
@@ -36,6 +38,7 @@ export const identityOfJesus: Topic = {
     },
     {
       heading: 'The first Christians worshipped him',
+      keyLine: 'The idea that Jesus was made divine centuries later runs into the earliest Christian writings we have.',
       body: [
         'The idea that Jesus was made divine centuries later runs into the earliest Christian writings we have. Paul’s letters were written within about twenty to thirty years of the crucifixion, and they quote hymns and confessions that are older still.',
         'One passage takes Israel’s daily confession that there is one God and places Jesus inside it: “for us there is but one God, the Father, from whom all things came… And there is but one Lord, Jesus Christ, through whom all things came” (1 Corinthians 8:6). Another says that Jesus existed in the form of God and that every knee will bow to him (Philippians 2:6-11), which is how Isaiah speaks of the LORD alone.',
@@ -46,6 +49,7 @@ export const identityOfJesus: Topic = {
     },
     {
       heading: 'What his opponents said',
+      keyLine: 'Any account of Jesus has to explain why he was executed.',
       body: [
         'Jesus’ enemies did not say that he did nothing remarkable. They said he did it by an evil power: “By the prince of the demons He drives out demons” (Mark 3:21-22).',
         'They did not charge him with teaching ethics. The charge before the Jewish council was blasphemy (Mark 14:61-64), and the charge nailed above him by the Romans read “THE KING OF THE JEWS” (Mark 15:26).',

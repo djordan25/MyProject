@@ -14,6 +14,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'Manuscript evidence',
+      keyLine: 'No core Christian doctrine depends on a disputed reading.',
       body: [
         'About 5,300 Greek manuscripts of the New Testament survive (the official list has some 5,800 entries, but some are duplicates or lost), plus thousands in Latin and other languages. Most are medieval, so the raw number matters less than the early witnesses: around a hundred papyri from the second to fourth centuries, and great fourth-century codices such as Sinaiticus and Vaticanus. Most other ancient works survive in far fewer copies, usually made many centuries after their authors.',
         'The gap between writing and earliest surviving copy is also short: P52, a fragment of John 18, is usually dated to the second century. For many classical works the gap is the better part of a thousand years.',
@@ -22,6 +23,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'Early, eyewitness-based sources',
+      keyLine: 'The Gospels were written within the lifetime of eyewitnesses (most scholars: c. AD 65-95).',
       body: [
         'Paul’s letters date from roughly AD 48-60, and he quotes even earlier creeds — 1 Corinthians 15:3-7 is widely dated to within a few years of the crucifixion.',
         'The Gospels were written within the lifetime of eyewitnesses (most scholars: c. AD 65-95). Luke explicitly says he investigated eyewitness accounts (Luke 1:1-4).',
@@ -30,6 +32,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'Archaeology and external confirmation',
+      keyLine: 'Archaeology cannot prove theological claims, but it shows the authors were careful about the details we can check.',
       body: [
         'Many details have been confirmed: the Pool of Bethesda with five porticoes (John 5:2), the Pilate Stone naming Pontius Pilate as prefect, an ossuary that many scholars (not all) assign to Caiaphas, and Luke’s precise titles for local officials in Acts.',
         'Archaeology cannot prove theological claims, but it shows the authors were careful about the details we can check.',
@@ -37,6 +40,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'The marks of honest testimony',
+      keyLine: 'People who invent a story make their heroes look good.',
       body: [
         'People who invent a story make their heroes look good. The Gospels do the opposite. The disciples are slow to understand and quick to quarrel. Peter, the leading apostle, denies Jesus three times. Jesus’ own family at one point says, “He is out of His mind” (Mark 3:21-22). The first witnesses of the empty tomb are women, whose word carried little weight in that society.',
         'The Gospels also keep sayings that are hard to explain, such as Jesus not knowing the day of his return (Mark 13:32) and his cry of abandonment on the cross (Mark 15:34). A church making up a divine Saviour would have left these out. They are there because they happened.',
@@ -45,6 +49,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'Names, places and titles',
+      keyLine: 'Writers who are careful about what we can check have earned a hearing on what we cannot.',
       body: [
         'The Gospels and Acts are full of the kind of detail that is easy to get wrong from a distance: the names of villages, the layout of Jerusalem, local customs, and the exact titles of officials, which differed from city to city and changed over time.',
         'Luke dates the start of John the Baptist’s ministry by five rulers at once (Luke 3:1). He calls Gallio “proconsul of Achaia” (Acts 18:12), and an inscription found at Delphi confirms the title and dates his term to about AD 51. Even the personal names in the Gospels match the names that were most common among Jews in Palestine at that time, which differ from those common among Jews elsewhere.',
@@ -54,6 +59,7 @@ export const reliabilityOfScripture: Topic = {
     },
     {
       heading: 'Paul as an early cross-check',
+      keyLine: 'Even apart from the Gospels, Paul’s letters, written within twenty to thirty years of the crucifixion, confirm the outline of Jesus’ life.',
       body: [
         'Even apart from the Gospels, Paul’s letters, written within twenty to thirty years of the crucifixion, confirm the outline of Jesus’ life. He was born of a woman, under the Jewish law (Galatians 4:4), and descended from David (Romans 1:3). He had a brother named James, whom Paul met (Galatians 1:19). He died, was buried and was raised, and appeared to many (1 Corinthians 15:3-8).',
         'Paul did not get this from the Gospels, which were written later. It is an independent, earlier line of evidence that agrees with them.',

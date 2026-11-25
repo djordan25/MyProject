@@ -8,6 +8,7 @@ export const sunniSalafiSufi: Topic = {
   lesson: [
     {
       heading: 'One name, several streams',
+      keyLine: 'Two Sunnis can share the Quran, the six books and the five pillars and still practise their faith very differently.',
       body: [
         'Two Sunnis can share the Quran, the six books and the five pillars and still practise their faith very differently. One prays at a saint’s tomb and belongs to a Sufi order. Another calls that idolatry and wants every practice proved from a sound hadith. A third follows his family’s school of law and leaves the arguments to the scholars. A fourth is Muslim by birth and rarely thinks about any of it.',
         'So ask, with real interest: “Do you follow a particular school or teacher? Which scholars do you listen to?” The answer will tell you more than the word Sunni does.',
@@ -16,6 +17,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       heading: 'Traditional and cultural Muslims',
+      keyLine: 'Many Muslims you meet are Muslim by family and culture.',
       body: [
         'For many centuries a Sunni scholar normally followed one of the four schools in law, the Ash‘ari or Maturidi school in creed, and very often a Sufi order in his devotional life. Many Sunnis still think of that threefold pattern as normal Islam. Its great centres include al-Azhar in Cairo. Knowledge is handed from teacher to student, and an ordinary believer follows qualified scholars instead of reasoning from the texts himself (taqlid).',
         'A traditional Sunni will often answer a hard hadith by saying, “Ask the scholars,” or by citing a commentary. That is a real answer within his system, so be ready to quote the classical commentators and the rulings of the schools. The lesson Sunni Islam: Beliefs and Authorities deals with the reply “you are not qualified”.',
@@ -24,6 +26,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       heading: 'Salafis',
+      keyLine: 'To treat a Salafi neighbour as a terrorist is false and unjust.',
       body: [
         'Salafis take their name from al-salaf al-salih, the pious predecessors: the first three generations of Muslims, of whom Muhammad said, “The best people are those of my generation, and then those who will come after them” (Sahih al-Bukhari 6429). Their aim is Islam as those generations understood it, cleared of everything added since. Their watchword is the saying “every innovation is error” (Sahih Muslim 867). They go straight to the Quran and the sound hadith, distrust speculative theology, are wary of following a school without evidence, and reject Sufi devotion at tombs as idolatry.',
         'Their heroes are Ahmad ibn Hanbal (died 855), Ibn Taymiyya (1263 to 1328), who died in prison in Damascus, jailed for teaching against journeys to graves to seek the intercession of the dead, and Muhammad ibn Abd al-Wahhab (1703 to 1792) of central Arabia. In 1744 Ibn Abd al-Wahhab made a pact with the house of Saud, and that alliance in time produced Saudi Arabia. Outsiders call his followers Wahhabis, a name they dislike. Among modern Salafi scholars is the hadith specialist al-Albani, who died in 1999. Many of the hadith gradings shown in this app’s popups are his.',
@@ -34,6 +37,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       heading: 'Sufis, Barelvis and Deobandis',
+      keyLine: 'Sufism (tasawwuf) is the inward side of Islam: cleansing the heart, loving God and drawing near to him.',
       body: [
         'Sufism (tasawwuf) is the inward side of Islam: cleansing the heart, loving God and drawing near to him. Sufis point to the hadith of Gabriel, where the third and deepest part of religion, ihsan, is “That you worship Allah as if you are seeing Him, for though you don’t see Him, He, verily, sees you” (Sahih Muslim 8). The theologian al-Ghazali, who died in 1111 and is among the most influential of all Sunni scholars, took the Sufi path himself and wrote it into his teaching.',
         'Sufis are organised in orders, each under a master (shaykh) who traces his authority back through a chain of teachers to Muhammad. The Qadiri order is found almost everywhere, the Naqshbandi in Turkey and Central and South Asia, the Chishti in South Asia, the Shadhili in North Africa and the Tijani in West Africa. Their central practice is dhikr, the repeated remembrance of God’s names, alone or in a circle (Quran 33:41; 13:28). Many also honour dead saints, the friends of God (Quran 10:62-63), visit their tombs, ask for their intercession and celebrate Muhammad’s birthday.',
@@ -44,6 +48,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       heading: 'They accuse one another',
+      keyLine: 'These streams do not regard their differences as small.',
       body: [
         'These streams do not regard their differences as small. Salafis charge Sufis and Barelvis with innovation and with shirk, the sin the Quran says Allah will not forgive (Quran 4:48). They quote the verse about those who say of their patrons, “We only worship them that they may bring us nearer to Allah in position” (Quran 39:3), and Muhammad’s words, “May Allah curse the Jews and Christians for they built the places of worship at the graves of their Prophets” (Sahih al-Bukhari 435). When Ibn Abd al-Wahhab’s followers took Medina in the early 1800s they razed the domes over every grave except Muhammad’s own, and when Saudi forces took Mecca again in the 1920s the domes over its tombs were pulled down.',
         'Sufis and traditional scholars answer in kind. They accuse Salafis of giving God a body by taking his hand and his throne literally, of dishonouring the Prophet, and of the fanaticism of the early Kharijites. Among South Asian Sunnis the quarrel reached formal rulings of unbelief. Ahmad Raza Khan’s fatwa Husam al-Haramayn, written in Mecca in 1906, declared several leading Deobandi scholars to be unbelievers and was endorsed by scholars of Mecca and Medina. Deobandis answered it point by point, and the dispute has never been settled.',
@@ -54,6 +59,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       heading: 'Talking with a Salafi: texts and consistency',
+      keyLine: 'A Salafi respects evidence from the texts and prizes consistency.',
       body: [
         'A Salafi respects evidence from the texts and prizes consistency. That makes him, in one way, the easiest Muslim to reason with. Bring the Quran and the two Sahihs, cite exactly, and expect to be asked for your proof. The arguments of the main track apply at full strength: The Islamic Dilemma, Uthman’s Burning and the Lost Verses, Testing Muhammad’s Prophethood.',
         'Commend his principle and then apply it. He refuses to follow tradition blindly, so ask whether he examined Islam itself or inherited it. He wants to go back to the earliest generation, so go there with him. For Islam, that generation is the companions, and the lesson The Companions and the First Caliphs sets out what the sound hadith say about them. For Jesus, the earliest sources are the first-century writings of the New Testament, more than five centuries nearer to him than the Quran.',
@@ -64,6 +70,7 @@ export const sunniSalafiSufi: Topic = {
     },
     {
       heading: 'Talking with a Sufi: knowing God, love and assurance',
+      keyLine: 'A Sufi longs to know God and to love him.',
       body: [
         'A Sufi longs to know God and to love him. Honour that longing. It is nearer to the heart of the gospel than any argument about sources. Jesus said, “Now this is eternal life, that they may know You, the only true God, and Jesus Christ, whom You have sent” (John 17:3).',
         'Then talk about love. The Quran does speak of God’s love, and of a people “He will love and who will love Him” (Quran 5:54), which Sufis read as God’s love coming before ours. But the Quran promises that love to those who follow: “If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins” (Quran 3:31), and the next verse says, “Allah does not like the disbelievers” (Quran 3:32). A much-loved hadith says the servant draws near by extra acts of devotion “till I love him” (Sahih al-Bukhari 6502). In the gospel God’s love comes first. “God is love… And love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins” (1 John 4:8-10). “While we were still sinners, Christ died for us” (Romans 5:8).',
