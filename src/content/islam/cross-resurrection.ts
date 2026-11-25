@@ -84,7 +84,7 @@ export const crossAndResurrection: Topic = {
         },
         {
           reply: 'Psalm 22:16 does not say “pierced”. The Hebrew says “like a lion”. Christians changed it to make a prophecy.',
-          answer: 'The standard Hebrew text does read “like a lion”, and I won’t hide that. But “pierced” was not made up by Christians. It follows the Greek translation made by Jews before Jesus was born, and an early Hebrew manuscript from the Dead Sea region has a verb there as well. Nothing depends on that one word. The mocking, the thirst, the bones out of joint and the clothes divided by lot are all in the Hebrew text as it stands (Psalm 22:7-8, 14-18).',
+          answer: 'The standard Hebrew text does read “like a lion”, and I won’t hide that. But “pierced” was not made up by Christians. It renders the verb “they dug” in the Greek translation made by Jews before Jesus was born, and an early Hebrew manuscript from the Dead Sea region has a verb there as well. Nothing depends on that one word. The mocking, the thirst, the bones out of joint and the clothes divided by lot are all in the Hebrew text as it stands (Psalm 22:7-8, 14-18).',
           followUps: [
             {
               reply: 'Either way, Psalm 22 is David’s prayer about his own troubles. Nothing in it says it is a prediction.',
