@@ -21,7 +21,7 @@ export const otherGospels: Topic = {
       body: [
         'This is the most important of the other gospels. The only complete copy is in Coptic, the language of Christian Egypt, in a book copied in the fourth century and found near Nag Hammadi in Upper Egypt in December 1945. Three Greek fragments had already been dug up at Oxyrhynchus, also in Egypt, in 1897 and 1903. They come from three different copies, the oldest written around AD 200 or in the decades after. Nobody knew what they were until the Coptic text was found.',
         'It is a list of 114 sayings, most of them introduced with the words “Jesus said”. There is no story: no birth, no miracles, no trial, no cross, no resurrection. It opens by calling itself the secret sayings of the living Jesus, written down by Didymus Judas Thomas, and promises that whoever finds the meaning of these sayings will not taste death. Roughly half the sayings resemble ones in Matthew, Mark and Luke. Others are strange to a reader of the New Testament. In the last saying Peter asks that Mary leave because “females are not worthy of life”, and Jesus answers that he will make her male.',
-        'Its date is disputed, and you should say so. Koester, Stephen Patterson and April DeConick have argued that Thomas, or an early core of it, is independent of the four Gospels and may go back to the first century. Most scholars date the book as we have it to the second century. A main reason is that several sayings seem to follow the wording Matthew and Luke produced when they edited Mark, which would mean the author knew those Gospels. Simon Gathercole and Mark Goodacre set out that case in 2012.',
+        'Its date is disputed, and you should say so. Koester, Stephen Patterson and April DeConick have argued that Thomas, or an early core of it, is independent of the four Gospels and may go back to the first century. Most scholars date the book as we have it to the second century. One reason often given, though it is disputed, is that several sayings seem to follow the wording Matthew and Luke produced when they edited Mark, which would mean the author knew those Gospels. Simon Gathercole and Mark Goodacre set out that case in 2012.',
         'The churches did not receive it for reasons you can check by reading it. It came with no known history linking it to the apostle. It offers life through understanding secret sayings, and it is silent about the death and resurrection that Paul, writing in the 50s, calls “of first importance” (1 Corinthians 15:3). Eusebius, early in the fourth century, lists a Gospel of Thomas among books put forward under apostles’ names that no church writer in the succession had seen fit to mention.',
       ],
       references: ['1 Corinthians 15:3-5'],
@@ -40,8 +40,8 @@ export const otherGospels: Topic = {
       heading: 'The Gospel of Judas',
       keyLine: 'It ends when Judas hands Jesus over, with no crucifixion and no resurrection.',
       body: [
-        'About AD 180 Irenaeus, bishop of Lyon, wrote that a certain group honoured Judas as the one disciple who knew the truth, and that they had produced a “fictitious history” which they called the Gospel of Judas. For centuries that was all anyone knew. Then a Coptic book, now called Codex Tchacos, was reportedly found in Middle Egypt in the 1970s. It passed through dealers’ hands for more than twenty years and was badly damaged before it was restored. Radiocarbon tests placed it between AD 220 and 340. The Gospel of Judas in it was published in 2006. Scholars think it was first written in Greek around the middle of the second century.',
-        'It is a set of conversations between Jesus and the disciples, and then with Judas alone, in the days before the Passover. Jesus laughs at the disciples when they give thanks over bread, because they are praying to “their god”, the lower being who made this world. He tells Judas about a higher realm and a holy race to which the twelve do not belong. It ends when Judas hands Jesus over, with no crucifixion and no resurrection.',
+        'About AD 180 Irenaeus, bishop of Lyon, wrote that a certain group honoured Judas as the one disciple who knew the truth, and that they had produced a “fictitious history” which they called the Gospel of Judas. For centuries that was all anyone knew. Then a Coptic book, now called Codex Tchacos, was reportedly found in Middle Egypt in the 1970s. It passed through dealers’ hands for more than twenty years and was badly damaged before it was restored. Radiocarbon tests placed it in the third or fourth century. The Gospel of Judas in it was published in 2006. Scholars think it was first written in Greek around the middle of the second century.',
+        'It is a set of conversations between Jesus and the disciples, and then with Judas alone, in the days before the Passover. Jesus laughs at the disciples when they give thanks over bread, because they are praying to their own god, the lower being who made this world. He tells Judas about a higher realm and a holy race to which the twelve do not belong. It ends when Judas hands Jesus over, with no crucifixion and no resurrection.',
         'The first publicity said that the book made Judas a hero who betrayed Jesus at Jesus’ own request. Other scholars, April DeConick among them, replied that the text calls Judas the “thirteenth daimon”, a word they translate “demon”, and shuts him out of the holy race, and many now read him as a tragic or even a dark figure. Either way the book tells us about a second-century movement, usually called Sethian Gnosticism, and its quarrel with the wider church. Scholars do not treat it as a source for the historical Judas. And its teaching that the God of Israel is a lesser being is why no church that read the Old Testament as Scripture could receive it.',
       ],
     },
@@ -61,7 +61,7 @@ export const otherGospels: Topic = {
       keyLine: 'They are the work of people who loved the story and wanted more of it.',
       body: [
         'The four Gospels say almost nothing about Jesus between his birth and his baptism. Two popular books filled the gap. The Infancy Gospel of Thomas, usually dated to the second century, tells of Jesus between the ages of five and twelve. He makes twelve sparrows from clay on the Sabbath and they fly away. A boy who runs into him falls dead at his word, and those who complain are struck blind. Later he heals and raises the dead, and the book ends with the visit to the temple from Luke 2. In its earliest form it did not carry the name of Thomas, and it has nothing to do with the sayings gospel.',
-        'The Protoevangelium of James, from the second half of the second century, tells of Mary’s own birth to Joachim and Anna, her childhood in the temple where an angel feeds her, and the choice of Joseph, who protests that he is an old man with children. It was widely loved, well over a hundred Greek copies survive, and it shaped later devotion to Mary and a great deal of Christian art. Neither book was hidden. They were not read as Scripture because they were known to be later than the apostles. They are the work of people who loved the story and wanted more of it. Two of their scenes, the clay birds and Mary fed in the sanctuary, also appear in the Quran (Quran 3:49; Quran 3:37).',
+        'The Protoevangelium of James, from the second half of the second century, tells of Mary’s own birth to Joachim and Anna, her childhood in the temple where an angel feeds her, and the choice of Joseph, who protests that he is an old man with children. It was widely loved, well over a hundred Greek copies survive, and it shaped later devotion to Mary and a great deal of Christian art. Neither book was hidden. They were not read as Scripture: no early list of the New Testament books counts them in. They are the work of people who loved the story and wanted more of it. Two of their scenes, the clay birds and Mary fed in the sanctuary, also appear in the Quran (Quran 3:49; Quran 3:37).',
         'Other gospels are known only from quotations. Writers such as Clement of Alexandria, Origen, Epiphanius and Jerome quote from gospels used by Jewish Christians, which they call the Gospel according to the Hebrews or describe as the gospel of the Ebionites or the Nazarenes. No copy survives, and scholars disagree about whether these were one book, two or three. Eusebius says that some counted the Gospel according to the Hebrews among the disputed books, so it stood closer to acceptance than any of the others.',
         'One more name comes up. In 1958 Morton Smith reported finding, copied into the back of a seventeenth-century printed book at the Mar Saba monastery, a letter of Clement of Alexandria that quotes a longer, “secret” version of Mark. Scholars remain divided over whether the letter is genuine, an old imitation or a modern forgery, so nothing should be built on it.',
       ],
@@ -122,10 +122,10 @@ export const otherGospels: Topic = {
       id: 'og-2',
       objection: 'Scholars say the Gospel of Thomas is as old as the four Gospels, maybe older. It shows the first Christians followed a teacher of wisdom, with no cross and no resurrection.',
       response:
-        'Some scholars do argue that, Helmut Koester and April DeConick among them, and they are serious people. Their case is that some sayings in Thomas look simpler than the versions in Matthew and Luke. Most scholars still date the book to the second century, because other sayings follow the wording that Matthew and Luke created when they edited Mark. Suppose the early date were right. Thomas would be one more first-century source, and it would still be a list of sayings. The earliest Christian writings we can date are Paul’s letters from the 50s, and they are centred on the cross and the resurrection (1 Corinthians 15:3-5).',
+        'Some scholars do argue that, Helmut Koester and April DeConick among them, and they are serious people. Their case is that some sayings in Thomas look simpler than the versions in Matthew and Luke. Most scholars still date the book to the second century, and many argue that other sayings follow the wording that Matthew and Luke created when they edited Mark. Suppose the early date were right. Thomas would be one more first-century source, and it would still be a list of sayings. The earliest Christian writings we can date are Paul’s letters from the 50s, and they are centred on the cross and the resurrection (1 Corinthians 15:3-5).',
       keyPoints: [
         'Grant that a minority of serious scholars date Thomas, or a core of it, early.',
-        'Most date it to the second century because it seems to know Matthew’s and Luke’s editing.',
+        'Most date it to the second century, and many argue that it knows Matthew’s and Luke’s editing.',
         'Paul’s letters, from the 50s, already put the cross and resurrection first.',
       ],
       references: ['1 Corinthians 15:3-5'],
@@ -253,7 +253,7 @@ export const otherGospels: Topic = {
         'Its date was fixed by the Council of Nicaea',
       ],
       answer: 2,
-      explanation: 'State the minority view fairly. A main reason for the later date is that Thomas seems to know Matthew’s and Luke’s editing of Mark.',
+      explanation: 'State the minority view fairly. One argument for the later date, itself disputed, is that Thomas seems to know Matthew’s and Luke’s editing of Mark.',
     },
     {
       id: 'og-q3',
@@ -289,7 +289,7 @@ export const otherGospels: Topic = {
         'In 1611; Jerome',
       ],
       answer: 1,
-      explanation: 'It is in Codex Tchacos, a Coptic book radiocarbon dated to between AD 220 and 340. Irenaeus called it a “fictitious history”.',
+      explanation: 'It is in Codex Tchacos, a Coptic book radiocarbon dated to the third or fourth century. Irenaeus called it a “fictitious history”.',
     },
     {
       id: 'og-q6',
