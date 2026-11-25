@@ -32,7 +32,7 @@ export const alevis: Topic = {
       body: [
         'Alevis revere Ali and the twelve Imams of his line, and speak of God, Muhammad and Ali together (Hak-Muhammed-Ali). They mourn the killing of Ali’s son Husayn at Karbala.',
         'Their central act of worship is the cem, held in a house of gathering called a cemevi. It is led by a dede, a spiritual guide who comes from one of a number of hereditary families. There is sung poetry to the saz, a long-necked lute. There is the semah, a ritual dance in which men and women turn together, which UNESCO has placed on its list of the intangible cultural heritage of humanity. The gathering ends with a shared meal. Men and women worship side by side.',
-        'Alevis generally do not pray in mosques, do not keep the fast of Ramadan and do not treat the pilgrimage to Mecca as a duty. Many fast instead for twelve days in the month of Muharram, in mourning for Karbala. Alevi women are not expected to veil, and the sexes are not separated in worship.',
+        'Alevis generally do not pray in mosques, do not keep the fast of Ramadan and do not treat the pilgrimage to Mecca as a duty. Their own fast is twelve days in the month of Muharram, in mourning for Karbala, though not all keep it. Alevi women are not expected to veil, and the sexes are not separated in worship.',
         'There is no single Alevi creed. One scholar told Canadian government researchers that there is no generally accepted set of beliefs, that many Alevis would deny that Alevism is a religion at all, and that those who practise its rituals are probably a minority. Some Alevis also speak of the soul returning in another body. So ask your friend what being Alevi means to him.',
       ],
     },
@@ -423,7 +423,7 @@ export const alevis: Topic = {
         'Separate worship for men and women',
       ],
       answer: 0,
-      explanation: 'Many Alevis fast for twelve days in Muharram in mourning for Karbala.',
+      explanation: 'The Alevi fast is twelve days in Muharram, in mourning for Karbala, though not all keep it.',
     },
     {
       id: 'alv-q8',

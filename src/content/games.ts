@@ -340,7 +340,7 @@ export const TIMELINE: TimelineEvent[] = [
   { id: 'tl-ahmad-dies', topicId: 'ahmadiyya-overview', label: 'Mirza Ghulam Ahmad dies in Lahore', year: 1908, when: '1908' },
   { id: 'tl-ahmadiyya-split', topicId: 'ahmadiyya-overview', label: 'The Ahmadiyya movement divides after its first caliph dies', year: 1914, when: '1914' },
   { id: 'tl-zia-ordinance', topicId: 'ahmadiyya-overview', label: 'Pakistani ordinance makes it a crime for Ahmadis to preach', year: 1984, when: '1984' },
-  { id: 'tl-lahore-attack', topicId: 'ahmadiyya-overview', label: 'Militants attack two Ahmadi mosques in Lahore, killing 94', year: 2010, when: '28 May 2010' },
+  { id: 'tl-lahore-attack', topicId: 'ahmadiyya-overview', label: 'Militants attack two Ahmadi mosques in Lahore, killing at least 86', year: 2010, when: '28 May 2010' },
   { id: 'tl-notovitch', topicId: 'ahmadiyya-jesus-in-india', label: 'Notovitch publishes his “unknown life” of Jesus', year: 1894, when: '1894' },
   { id: 'tl-douglas-hemis', topicId: 'ahmadiyya-jesus-in-india', label: 'J. Archibald Douglas questions the chief lama at Hemis', year: 1895, when: '1895' },
   { id: 'tl-jesus-in-india', topicId: 'ahmadiyya-jesus-in-india', label: 'Mirza Ghulam Ahmad writes Jesus in India', year: 1899, when: '1899' },
