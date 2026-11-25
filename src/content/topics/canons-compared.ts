@@ -17,7 +17,7 @@ export const canonsCompared: Topic = {
     },
     {
       heading: 'Who has what',
-      keyLine: 'Protestant Bibles have 66 books: 39 in the Old Testament and 27 in the New.',
+      keyLine: 'The Jewish Bible has 24 books, Protestant Bibles 66, Catholic 73, Eastern Orthodox about 76 and Ethiopian 81.',
       body: [
         'The Jewish Bible has 24 books. Jews call it the Tanakh, a word made from the names of its three parts: the Law (Torah, 5 books), the Prophets (Nevi’im, 8 books) and the Writings (Ketuvim, 11 books). Its content is the same as the Protestant Old Testament. The count is lower because Samuel, Kings and Chronicles are each one book, Ezra and Nehemiah are one book, and the twelve shorter prophets are one book. The order differs too. Daniel stands among the Writings, and Chronicles usually comes last.',
         'Protestant Bibles have 66 books: 39 in the Old Testament and 27 in the New. Catholic Bibles have 73 books: 46 in the Old Testament and 27 in the New. The seven further books are Tobit, Judith, the Wisdom of Solomon, Sirach, Baruch, and 1 and 2 Maccabees, and Esther and Daniel have additional passages. The figures are the Catholic Church’s own. Its Catechism gives them and lists the books by name.',
@@ -27,7 +27,7 @@ export const canonsCompared: Topic = {
     },
     {
       heading: 'Three Eastern traditions more closely',
-      keyLine: 'Orthodoxy has no single list of Old Testament books, fixed by a council, that binds every Orthodox church.',
+      keyLine: 'The Eastern Orthodox, Ethiopian and Syriac churches each have their own collection, and the edges are not tightly fixed.',
       body: [
         'Orthodoxy has no single list of Old Testament books, fixed by a council, that binds every Orthodox church. A synod at Jerusalem in 1672 called the longer books genuine Scripture. It was a local synod, and the Orthodox scholar Ştefan Munteanu of the Saint-Serge Institute in Paris writes that its confession cannot be taken as the official answer. The question was put on the agenda of a future council of the whole Orthodox Church in 1961, and when he wrote in 2013 it had not been decided. Orthodox writers often call these books anaginoskomena, “books that are read”. Another Orthodox scholar, Eugen Pentiuc, says they are classed neither as canonical in the Catholic sense nor as apocrypha in the Protestant sense. They are printed in Orthodox Bibles and read in worship.',
         'The contents vary a little by language. The table printed with the New Revised Standard Version sets it out. Greek and Slavonic Bibles both have 1 Esdras, the Prayer of Manasseh, Psalm 151 and 3 Maccabees, none of which is in the Catholic canon. Slavonic Bibles also have the book that English Bibles call 2 Esdras, under the name 3 Esdras, and Greek Bibles do not. Greek Bibles print 4 Maccabees in an appendix. Take care with the names. The same book can be 1 Esdras in one Bible and 2 or 3 Esdras in another.',
@@ -37,7 +37,7 @@ export const canonsCompared: Topic = {
     },
     {
       heading: 'Why they differ',
-      keyLine: 'No council chose the books for the whole church before the churches divided.',
+      keyLine: 'Most of the difference comes from whether the Old Testament follows the Hebrew list or the wider Greek collection.',
       body: [
         'Most of the difference comes from one question. Should the Old Testament follow the list of the Hebrew Bible, or the wider collection that the early church read in Greek? Christians outside the land of Israel mostly read the Jewish Scriptures in the Greek translation called the Septuagint, and alongside it they read books such as Wisdom, Sirach, Tobit and Maccabees. Churches received as Scripture the books they had long heard read in worship.',
         'Geography and language did the rest. The Latin West, the Greek East, the Syriac-speaking churches further east, and the church in Ethiopia, which read in Ge‘ez, each handed on the collection they had. There were no printed Bibles. In the Syriac churches, at least, most manuscripts held only one book or a small group of books. Small differences at the edge could last for centuries without anyone thinking that the faith was at stake.',
@@ -47,7 +47,7 @@ export const canonsCompared: Topic = {
     },
     {
       heading: 'What is the same',
-      keyLine: 'Put simply, the shortest Christian Bible is contained in all the longer ones.',
+      keyLine: 'The shortest Christian Bible is contained in all the longer ones, and all of them carry the same message.',
       body: [
         'Start with the New Testament. Catholic, Orthodox and Protestant Bibles have the same twenty-seven books, and so do the Ethiopian printed Bible and most printed Syriac New Testaments. Be honest about two footnotes. The old Syriac New Testament had twenty-two books, and the other five are still not read in Syriac services. The Ethiopian broader reckoning adds books of church order to the New Testament count, though Cowley observed that in practice these may come to be treated more as commentary. In neither case is a Gospel or a letter of Paul in question.',
         'The Old Testament has a shared core too. Every book of the Protestant Old Testament is in the Catholic, Orthodox, Ethiopian and Syriac Old Testaments, and together those books are the whole of the Jewish Bible. Nobody’s Bible lacks Genesis, the Psalms or Isaiah. The differences are all additions at one edge, and the books added are, for the most part, Jewish writings from the last centuries before Christ.',
@@ -57,7 +57,7 @@ export const canonsCompared: Topic = {
     },
     {
       heading: 'What turns on the disputed books',
-      keyLine: 'What does not turn on them is the centre of the faith.',
+      keyLine: 'Something does turn on the disputed books, but the centre of the faith is taught in books every Christian tradition receives.',
       body: [
         'It would be untrue to say that nothing turns on these books. In chapter 12 of 2 Maccabees, Judas Maccabeus prays and makes an offering for soldiers who have died. The Catechism of the Catholic Church quotes that passage when it explains prayer for the dead, and says that its teaching on the final purification of the faithful is “also based on” that practice. The Catechism appeals as well to the tradition of the church and to its councils. Still, for a Catholic this passage is Scripture and for a Protestant it is not, and that affects the discussion.',
         'What does not turn on them is the centre of the faith. That there is one God who made all things, that Jesus is the Christ and the Son of God, that he died for our sins and rose on the third day: all of this is taught in books that every Christian tradition receives. John says of his Gospel, “these are written so that you may believe that Jesus is the Christ, the Son of God” (John 20:31). That Gospel is in every Bible named in this lesson except the Jewish and the Samaritan.',
@@ -73,7 +73,7 @@ export const canonsCompared: Topic = {
     },
     {
       heading: 'How to use this in conversation',
-      keyLine: 'Never call their Bible wrong or their books false.',
+      keyLine: 'Agree that the lists differ, describe each tradition’s Bible in its own terms, then go to the gospel all of them share.',
       body: [
         'With a sceptic who says, “You can’t even agree what the Bible is,” agree first that the lists differ, and give the numbers without embarrassment. Then show the shape of the difference. All the main traditions share the same twenty-seven New Testament books and the whole Hebrew Bible. The disagreement is over a group of Jewish books at the edge of the Old Testament. It has been carried on in the open since the fourth century, and every one of the books is in print.',
         'A Muslim friend may add that every Muslim has the same Quran, and quote the verse “Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9). Do not answer by attacking. You may say, gently, that Muslim scholars themselves teach that the Quran is recited in ten accepted readings, which differ in pronunciation and in some words, as the lesson “One Quran? The Readings in Print Today” explains. That is a different kind of difference from ours, and neither should be used to score a point. The better reply is that the four Gospels your friend is asking about are the same four in every Christian Bible.',

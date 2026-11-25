@@ -17,7 +17,7 @@ export const shiaImamate: Topic = {
     },
     {
       heading: 'Ghadir Khumm',
-      keyLine: 'Then he said that whoever had him as mawla had Ali as mawla',
+      keyLine: 'At Ghadir Khumm Muhammad is reported to have called Ali mawla, which Sunnis read as friend and the Shia as master.',
       body: [
         'In March 632, on the way back from his last pilgrimage and less than three months before his death, Muhammad halted the caravan at a pool called Ghadir Khumm, between Mecca and Medina. Sahih Muslim records that he preached there and said, “I am leaving among you two weighty things: the one being the Book of Allah in which there is right guidance and light”, and that the second was the members of his household (Sahih Muslim 2408). Shia Muslims call this the saying of the two weighty things. The form their teachers quote most often adds that those who hold fast to both will never go astray. Al-Khoei cites the saying from other Sunni collections as well, among them those of al-Tirmidhi and Ahmad ibn Hanbal.',
         'Other Sunni collections record what he said about Ali that day. In the fuller versions he first asked the people whether he was not closer to the believers than their own selves. Then he said that whoever had him as mawla had Ali as mawla, and he prayed, “O Allah, take as friends those who take him as a friend, and take as enemies those who take him as an enemy” (Musnad Ahmad 950; see 961). The editors grade these two reports sound or good because other chains support them. In another collection a report graded sound has a companion quote him as saying, “If I am a person’s close friend, ‘Ali is also his close friend” (Sunan Ibn Majah 121).',
@@ -28,7 +28,7 @@ export const shiaImamate: Topic = {
     },
     {
       heading: 'The other proofs',
-      keyLine: 'The Shia conclude that Ali holds every rank Aaron held except prophethood.',
+      keyLine: 'Shia teachers find further support for Ali in sayings recorded in Sunni books and in several verses of the Quran.',
       body: [
         'Aaron and Moses. When Muhammad left Ali in charge of Medina during the Tabuk campaign, he said to him, “Will you not be pleased that you will be to me like Aaron to Moses? But there will be no prophet after me” (Sahih al-Bukhari 4416; see Sahih Muslim 2404). In the Quran Aaron is Moses’ helper from his own family, who takes his place among the people when Moses is away (Quran 20:29-32; 7:142). The Shia conclude that Ali holds every rank Aaron held except prophethood.',
         'The pen and paper. Four days before he died, on a Thursday, Muhammad asked for writing materials: “Bring for me (writing) paper and I will write for you a statement after which you will not go astray.” Umar answered that the Prophet was very ill, and said, “we have got Allah’s Book with us and that is sufficient for us” (Sahih al-Bukhari 114). The companions quarrelled, Muhammad sent them out, and nothing was written. Ibn Abbas wept when he told it: “Thursday! What (great thing) took place on Thursday!” (Sahih al-Bukhari 3053). In another version some of those present asked whether the Prophet was delirious (Sahih al-Bukhari 4431). The Shia believe the document would have named Ali, and that Umar knew it.',
@@ -39,7 +39,7 @@ export const shiaImamate: Topic = {
     },
     {
       heading: 'First question: why is the Quran silent?',
-      keyLine: 'Each verse the Shia quote needs a report from outside the Quran to tell you that it means Ali.',
+      keyLine: 'Twelvers call the Imamate a root of religion, yet the Quran never names Ali or mentions twelve Imams.',
       body: [
         'Grant that this is a serious case. Sunni books do record these sayings, and they also record that Ali withheld his allegiance from Abu Bakr for six months (Sahih al-Bukhari 4240). Something went wrong at Muhammad’s death. Now ask four questions. The first is about the Quran.',
         'The Quran describes itself as “the Book explained in detail” (Quran 6:114) and as “clarification for all things” (Quran 16:89). Twelvers hold that the Imamate is a root of religion. Yet the Quran never names Ali, never mentions twelve Imams, and never says that after Muhammad there will be a line of sinless guides. It names Muhammad’s adopted son Zayd to settle a point about marriage (Quran 33:37). It names his uncle Abu Lahab to curse him (Quran 111:1). On the matter said to decide whether the community is rightly guided, it is silent.',
@@ -50,7 +50,7 @@ export const shiaImamate: Topic = {
     },
     {
       heading: 'Second question: why did the Imams’ followers keep dividing?',
-      keyLine: 'But a designation that had to be hidden even from an Imam’s own followers is a long way from the public, unmistakable guidance the doctrine promises.',
+      keyLine: 'Those who lived closest to the Imams kept dividing over who came next, and the pattern is one of uncertainty.',
       body: [
         'Twelver teaching says that each Imam clearly named his successor. If so, those nearest the Imams should have known who came next. The history of the Shia themselves tells another story. The Twelver scholar Tabataba’i sets it out plainly in his book Shi‘ite Islam.',
         'After Husayn was killed, some followed his half-brother Muhammad ibn al-Hanafiyya and held that he was the Mahdi in hiding. After the fourth Imam, some followed his son Zayd and became the Zaydis. After Ja‘far al-Sadiq died in 765, his followers went at least four ways: to his son Musa al-Kazim, to the line of his dead son Isma‘il (the Ismailis), to another son, Abdullah, or to no one, holding that Ja‘far was the last. After Musa died, a party said he had not died and would return. After the eleventh Imam died in 874, an early Shia writer counted fourteen factions, some of which denied that he had left a son.',

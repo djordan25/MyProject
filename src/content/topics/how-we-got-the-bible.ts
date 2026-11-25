@@ -39,7 +39,7 @@ export const howWeGotTheBible: Topic = {
     },
     {
       heading: 'Translations',
-      keyLine: 'Mainstream modern Bibles are not translations of translations.',
+      keyLine: 'Mainstream modern Bibles are translated directly from the Hebrew, Aramaic and Greek, not from other translations.',
       body: [
         'Mainstream modern Bibles are not translations of translations. Each is translated directly from the Hebrew, Aramaic and Greek texts.',
         'English versions differ because translators make different choices: some follow the original word order closely, others aim for natural English. Comparing two or three good translations usually shows that they agree on the meaning.',

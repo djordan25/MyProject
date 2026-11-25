@@ -8,7 +8,7 @@ export const archaeologyAndTheBible: Topic = {
   lesson: [
     {
       heading: 'What archaeology can and cannot do',
-      keyLine: 'So be careful with the phrase “archaeology proves the Bible”.',
+      keyLine: 'Archaeology cannot prove that God spoke, but it can show whether the Bible’s people, places and customs are real.',
       body: [
         'Archaeology studies what people left behind: walls, pottery, tombs, coins and, now and then, writing. It is always partial. Only a fraction of ancient sites have been dug, only a part of each, and most of what was written in the Bible’s world was on papyrus or leather, which rots.',
         'It cannot prove that God spoke or that a miracle happened. It can show whether the people, places, customs and events in the background of the text are real, and whether the writers knew the world they describe.',
@@ -22,7 +22,7 @@ export const archaeologyAndTheBible: Topic = {
     },
     {
       heading: 'Israel and Judah in their neighbours’ records',
-      keyLine: 'Each side tells the story in its own way, and on the main facts they agree.',
+      keyLine: 'Records left by Israel’s neighbours and enemies name Israel, the House of David and several kings the Bible mentions.',
       body: [
         'The earliest mention of Israel outside the Bible is on a victory monument of the Egyptian pharaoh Merneptah, carved about 1208 BC and found at Thebes in 1896. Among the enemies he claims to have crushed in Canaan it says, “Israel is laid waste, his seed is not”. The boast was premature, but it shows a people called Israel living in Canaan by that date.',
         'For a long time no inscription named King David, and some scholars doubted that he had existed. In 1993 and 1994 fragments of a monument were found at Tel Dan in northern Israel. It was set up in the ninth century BC by an Aramean king, probably Hazael of Damascus, who boasts of killing a king of Israel and a king of the “House of David”. Ancient kingdoms were often named after the founder of the ruling family, and this comes from an enemy, about a century and a half after David.',
@@ -37,7 +37,7 @@ export const archaeologyAndTheBible: Topic = {
     },
     {
       heading: 'Names on seals and tablets',
-      keyLine: 'Several of these seal impressions, found in controlled excavations in Jerusalem, carry names known from the Bible.',
+      keyLine: 'Clay seal impressions excavated in Jerusalem carry names known from the Bible, and Babylonian tablets name Belshazzar.',
       body: [
         'Officials in ancient Judah sealed documents with lumps of clay stamped with their names. Several of these seal impressions, found in controlled excavations in Jerusalem, carry names known from the Bible. One reads “Belonging to Hezekiah, son of Ahaz, king of Judah”. Another, from the City of David, reads “Belonging to Gemariah son of Shaphan”, the name of a royal official in Jeremiah 36:10. Two more, found in the same area of the City of David in 2005 and 2008, name Jehucal son of Shelemiah and Gedaliah son of Pashhur, who appear together in Jeremiah 38:1 among the officials who wanted Jeremiah put to death.',
         'The book of Daniel says the last ruler in Babylon was Belshazzar (Daniel 5:1). The Greek historians did not know the name, and for centuries Belshazzar was known only from the Bible. Then Babylonian tablets were deciphered in the nineteenth century. They show that he was the eldest son of the last king, Nabonidus, and governed the kingdom for years while his father was away in Arabia. That may explain a detail in Daniel: the highest reward Belshazzar can offer is to be “the third highest ruler in the kingdom” (Daniel 5:16). Some scholars read the Aramaic word as a court title instead, so the point should not be pressed.',
@@ -46,6 +46,7 @@ export const archaeologyAndTheBible: Topic = {
     },
     {
       heading: 'The New Testament in stone',
+      keyLine: 'Inscriptions and excavations have turned up Pilate, Gallio, the pools John mentions and a title that Luke uses.',
       body: [
         'In 1961 a limestone block was found at Caesarea, the Roman capital of Judea, where it had been reused in the theatre. It carries a dedication by “Pontius Pilatus, Prefect of Judea”. It is the only inscription on stone that names him.',
         'In 1990 a burial cave was found by accident in Jerusalem. One ornate bone box, or ossuary, is inscribed “Joseph son of Caiaphas”. Josephus calls the high priest of Jesus’ trial “Joseph, who was also called Caiaphas” (Antiquities 18.35 and 18.95). Many scholars accept it as the tomb of that family, though some doubt the identification.',
@@ -58,7 +59,7 @@ export const archaeologyAndTheBible: Topic = {
     },
     {
       heading: 'Where archaeology asks hard questions',
-      keyLine: 'The same discipline that confirms so much also asks hard questions, mostly about the earliest periods.',
+      keyLine: 'Archaeology also asks hard questions, mostly about the earliest periods, and the right first move is to grant what is true.',
       body: [
         'The same discipline that confirms so much also asks hard questions, mostly about the earliest periods. An honest apologist knows them, and the objections below take each in turn.',
         'No Egyptian text mentions the exodus, and no camp sites have been found in Sinai.',

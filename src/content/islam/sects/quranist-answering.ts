@@ -8,7 +8,7 @@ export const quranistAnswering: Topic = {
   lesson: [
     {
       heading: 'Meet them on their own ground',
-      keyLine: 'Use no hadith as an authority in this conversation.',
+      keyLine: 'With a Quran-only Muslim, use no hadith as an authority and ask whether the Quran explains itself as it claims.',
       body: [
         'A Quran-only Muslim has done something most Muslims never do. He has looked hard at the hadith and admitted they cannot bear the weight placed on them. Begin by saying that you think he is right about that. Then ask the question his position raises: if the tradition is unreliable, can the Quran do without it?',
         'The test is the Quran’s own claim. It calls itself “the Book explained in detail” (Quran 6:114) and “clarification for all things” (Quran 16:89). So the fair method is to open the book and see whether it explains itself. Use no hadith as an authority in this conversation. You may point out what the hadith supply, but only to show what is missing without them.',
@@ -17,7 +17,7 @@ export const quranistAnswering: Topic = {
     },
     {
       heading: 'The Quran commands obedience to the Messenger',
-      keyLine: 'The Quran does not only say “obey Allah”.',
+      keyLine: 'The Quran tells believers to obey and imitate the Messenger, which cannot be done without a reliable record of him.',
       body: [
         'The Quran does not only say “obey Allah”. Again and again it adds a second name. “Obey Allah and the Messenger” (Quran 3:32). “He who obeys the Messenger has obeyed Allah” (Quran 4:80). Believers do not truly believe until they make Muhammad judge in their disputes and submit to his decision (Quran 4:65). When Allah and his Messenger have decided a matter, a believer has no choice about it (Quran 33:36).',
         'One verse lists three authorities: “obey Allah and obey the Messenger and those in authority among you”, and tells believers to refer disputes “to Allah and the Messenger” (Quran 4:59). Another says “whatever the Messenger has given you - take; and what he has forbidden you - refrain from” (Quran 59:7). That verse is about sharing out property taken from enemies, but its wording is general, and it shows Muhammad giving and forbidding on his own authority.',
@@ -28,7 +28,7 @@ export const quranistAnswering: Topic = {
     },
     {
       heading: 'The book assumes what it does not supply',
-      keyLine: 'The Quran commands prayer constantly, but it never states how many prayers there are each day, how many cycles each has, or what is to be said.',
+      keyLine: 'The Quran commands prayer and mentions people and events without giving the details, and the tradition fills the gaps.',
       body: [
         'Take worship first. The Quran commands prayer constantly, but it never states how many prayers there are each day, how many cycles each has, or what is to be said. It names a dawn prayer and a night prayer (Quran 24:58) and “the middle prayer” (Quran 2:238), sets times only in general terms (Quran 11:114), and mentions a call to prayer on Friday (Quran 62:9) and shortening the prayer when travelling (Quran 4:101). It assumes the reader knows the rest. It says the pilgrimage falls in “well-known months” (Quran 2:197) and that four months are sacred (Quran 9:36), and names none of them.',
         'Then take people and events. Surah 111 curses a man called Abu Lahab and his wife (Quran 111:1-5). The Quran does not say who he was or what he had done. One verse names a man called Zayd and says God married his former wife to Muhammad after Muhammad had hidden something in his heart (Quran 33:37). The verse implies that Zayd was an adopted son. Who the woman was, what Muhammad had hidden, and why he feared the people are not explained. Surah 66 rebukes Muhammad for forbidding himself something lawful to please his wives, and warns two of them to repent (Quran 66:1-5). What he gave up, which wives, and what the secret was, the Quran does not say.',
@@ -64,7 +64,7 @@ export const quranistAnswering: Topic = {
     },
     {
       heading: 'The Quran alone still has to face the Bible',
-      keyLine: 'Setting the hadith aside removes none of the Quran’s own difficulties.',
+      keyLine: 'Even without the hadith, the Quran still appeals to the Torah and Gospel and still denies that Jesus was crucified.',
       body: [
         'Setting the hadith aside removes none of the Quran’s own difficulties. It still says, “let the People of the Gospel judge by what Allah has revealed therein” (Quran 5:47). It still tells Jews and Christians, “you are [standing] on nothing until you uphold [the law of] the Torah, the Gospel” (Quran 5:68). It still tells Muhammad, if he doubts, to “ask those who have been reading the Scripture before you” (Quran 10:94). The lesson The Islamic Dilemma applies to a Quran-only Muslim with full force, and he has no commentary to soften it.',
         'It also still denies the central event of the Gospel: “they did not kill him, nor did they crucify him; but [another] was made to resemble him to them” (Quran 4:157). Against that one verse, recited six centuries later, stands all the evidence from the time, beginning with the creed Paul received within a few years of the event: “Christ died for our sins according to the Scriptures… He was buried… He was raised on the third day” (1 Corinthians 15:3-7).',
@@ -74,7 +74,7 @@ export const quranistAnswering: Topic = {
     },
     {
       heading: 'From the book to the person',
-      keyLine: 'And God’s final word is not a book that needs a second book to explain it.',
+      keyLine: 'The Christian answer to the wish for certainty is eyewitnesses, and God’s final word is Jesus himself.',
       body: [
         'A Quran-only Muslim is looking for something good. He wants God’s word without human additions, and certainty that does not hang on a chain of narrators. Jesus shared the first concern. He rebuked teachers who “disregarded the commandment of God to keep the tradition of men” (Mark 7:8).',
         'For the second, the Christian answer is not a longer chain. It is eyewitnesses. Luke wrote from those who were “eyewitnesses and servants of the word” (Luke 1:1-4). John wrote of what “we have seen with our own eyes” and “touched with our own hands” (1 John 1:1-3). When Paul repeated the creed, most of the five hundred who had seen the risen Jesus were still alive to be asked (1 Corinthians 15:6).',

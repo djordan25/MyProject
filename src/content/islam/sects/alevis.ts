@@ -28,7 +28,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Worship and practice',
-      keyLine: 'Their central act of worship is the cem, held in a house of gathering called a cemevi.',
+      keyLine: 'Alevis worship in a gathering called the cem, men and women side by side, and generally do not pray in mosques.',
       body: [
         'Alevis revere Ali and the twelve Imams of his line, and speak of God, Muhammad and Ali together (Hak-Muhammed-Ali). They mourn the killing of Ali’s son Husayn at Karbala.',
         'Their central act of worship is the cem, held in a house of gathering called a cemevi. It is led by a dede, a spiritual guide who comes from one of a number of hereditary families. There is sung poetry to the saz, a long-necked lute. There is the semah, a ritual dance in which men and women turn together, which UNESCO has placed on its list of the intangible cultural heritage of humanity. The gathering ends with a shared meal. Men and women worship side by side.',
@@ -38,7 +38,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'The path, the four gates and the perfect human',
-      keyLine: 'The goal is to bring a person from a raw state to maturity, to become the insan-ı kâmil, the perfect or complete human being.',
+      keyLine: 'Alevis call their faith the Path, and its goal is to bring a person to maturity as the perfect human being.',
       body: [
         'Alevis call their faith the Yol, the Path. It is described as four gates: şeriat (the law), tarikat (the way), marifet (knowledge) and hakikat (truth), with forty stations along them. The goal is to bring a person from a raw state to maturity, to become the insan-ı kâmil, the perfect or complete human being.',
         'The ethic is summed up in a saying every Alevi knows: “Eline, diline, beline sahip ol.” Be master of your hand, your tongue and your loins. Do not steal or do violence, do not lie or slander, do not be unfaithful.',
@@ -58,7 +58,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Is Alevism Islam?',
-      keyLine: 'Alevis do not follow the Sunni hadith or Islamic law.',
+      keyLine: 'Alevis themselves disagree on whether Alevism is Islam, and arguments from the Quran and hadith mostly do not apply to them.',
       body: [
         'Alevis themselves disagree. Some say Alevism is the true, inward Islam. Some say it is a faith in its own right. Some say it is a culture and a philosophy, not a religion. An Australian government report says that most Alevis see their belief as a distinct religion. The scholar Markus Dressler judges that most understand it as a humanist form of Islam, and that those who hold it to be a religion independent of Islam are a minority, stronger in western Europe than in Turkey.',
         'Abroad the community has won a standing it lacks in Turkey. In Germany the Alevi federation is recognised as a religious community. Alevi religious lessons have been taught in state schools in Berlin since 2002 and in North Rhine-Westphalia since 2008. Hamburg signed an agreement with the Alevi community in 2012, and in 2020 North Rhine-Westphalia gave the federation the status of a public-law corporation, which the main churches also hold. In Austria an Alevi faith community has been a legally recognised religious society since 2013. Even there the question of Islam divides Alevis: in 2022 a separate body of Alevis who do not count their faith as part of Islam was registered as a confessional community.',

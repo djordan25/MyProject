@@ -20,7 +20,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: '“The slave-master’s religion”: concede first',
-      keyLine: 'Do not shorten that list, and do not follow it with “but”.',
+      keyLine: 'Admit in full what slave-holding Christians did, then distinguish their religion from the Christianity of Christ.',
       body: [
         'Elijah Muhammad called Christianity “one of the most perfect black-slave-making religions on our planet”. Before you answer, say what is true. Men who were baptised, sat in church and owned Bibles kidnapped Africans or bought those who had been kidnapped, worked them, whipped them, raped them and sold their children. Preachers told slaves that God willed it. Some taught that black people bore a curse laid on Ham, though the text names Canaan and says nothing of Africa or of colour (Genesis 9:24-25). An abridged Bible printed in London in 1807 for slaves in the British West Indies left out the story of Israel’s escape from Egypt. The Southern Baptist Convention was founded in 1845 in a division over slavery, by Baptists in the South who defended the right to own slaves. After emancipation came lynching and segregation, and many white churches defended them or kept silent.',
         'Do not shorten that list, and do not follow it with “but”. Let it stand. If your own church or family had a part in it, say so.',
@@ -31,7 +31,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: 'What the Bible says about slavery and about humanity',
-      keyLine: 'Beneath the particular laws lies what the Bible says a human being is.',
+      keyLine: 'The Bible has hard texts on servitude, yet it condemns kidnapping and says every human being is made in God’s image.',
       body: [
         'The law of Moses made the act on which the Atlantic trade rested a capital crime: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16). It forbade handing an escaped slave back to his master (Deuteronomy 23:15-16). The New Testament names “slave traders” among the lawless, beside murderers and liars (1 Timothy 1:9-10).',
         'Be honest about the harder texts. The Old Testament regulated servitude in Israel and allowed foreign slaves to be bought and kept (Leviticus 25:44-46). The apostles, writing to small churches with no power over Roman law, told slaves to serve well (Ephesians 6:5-9). But the same passage tells masters to give up threatening, since their slaves’ Master is theirs also, “and there is no favoritism with Him”. Paul told slaves to take their freedom if they could get it (1 Corinthians 7:21), and he sent the runaway Onesimus home with a letter asking his owner to receive him “no longer as a slave, but better than a slave, as a beloved brother” (Philemon 1:15-16). No slave system survives masters who obey that.',
@@ -42,7 +42,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: 'Slavery in the Muslim world and in Muhammad’s practice',
-      keyLine: 'The fair comparison is between the founders.',
+      keyLine: 'The Nation calls Islam free of slavery, yet the Quran permits it and Muhammad owned slaves, while Jesus owned no one.',
       body: [
         'The Nation offers Islam as the black man’s own religion, free of the stain of slavery. That cannot be said truthfully, and it should be answered plainly. This is not raised to excuse anything in the last section. It is raised because the comparison has been made.',
         'Arab and other Muslim traders carried Africans across the Sahara, the Red Sea and the Indian Ocean for more than a thousand years. Numbers are rough estimates and historians differ: totals for 650 to 1900 run from about eleven million to seventeen million or more. East Africans were set to clear the salt lands of southern Iraq until they rose in the Zanj rebellion of 869 to 883. Saudi Arabia abolished slavery only in 1962.',
@@ -53,7 +53,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: 'Yakub and “all have sinned”',
-      keyLine: 'A story meant to show that evil is white shows that evil was already there.',
+      keyLine: 'The Bible traces evil to sin in every human heart, which accounts for more than the story of Yakub can.',
       body: [
         'The story of Yakub says that white people were bred as a race of devils and are wicked by nature. Its force comes from history. The slave trade, lynching and colonial conquest happened, and a person who has suffered under them wants an explanation equal to the facts. Do not dispute the facts. Dispute the explanation.',
         'The Bible’s explanation is wider and harder. “All have sinned and fall short of the glory of God” (Romans 3:23). Sin entered the world through one man, the father of every race, “and death through sin” (Romans 5:12). “There is no one righteous, not even one” (Romans 3:9-10). Evil comes “from within the hearts of men” (Mark 7:21-23). It does the greatest harm wherever it holds the greatest power. That accounts for Europe’s crimes. It also accounts for the African rulers who sold their captives to the ships, for the caravans across the Sahara, and for the men who shot Malcolm X. Yakub’s story can account only for the first.',
@@ -64,7 +64,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: 'Was Fard God?',
-      keyLine: 'A teacher who arrives unnoticed, is known only to his followers and is gone within four years is the kind of claim Jesus told his people to refuse.',
+      keyLine: 'Fard came unnoticed and was gone within four years, which is the kind of claim Jesus told his people to refuse.',
       body: [
         'Elijah Muhammad taught that “God is a man”, that belief in a God who is spirit is belief in a “spook”, and that Allah came in the person of Wallace Fard Muhammad in 1930. Scripture says, “God is not a man, that He should lie, or a son of man, that He should change His mind” (Numbers 23:19). Jesus said, “God is Spirit” (John 4:24). That does not mean unreal. It means that God is not made of the dust he created and has no birthday. “From everlasting to everlasting You are God” (Psalm 90:2). “Before Me no god was formed, and after Me none will come” (Isaiah 43:10).',
         'The Nation applies to Fard the words of Jesus about the Son of Man coming like lightning from the east (Matthew 24:27). Read the verses before it. “If anyone says to you, ‘Look, here is the Christ!’ or ‘There He is!’ do not believe it.” If they say he is in the wilderness or in the inner rooms, do not go, because his coming will be seen from one end of the sky to the other (Matthew 24:23-27). “Every eye will see Him” (Revelation 1:7). A teacher who arrives unnoticed, is known only to his followers and is gone within four years is the kind of claim Jesus told his people to refuse.',
@@ -75,7 +75,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: 'A risen body, and salvation by grace',
-      keyLine: 'Grace does not insult a person’s dignity.',
+      keyLine: 'The Bible promises a bodily resurrection and justice beyond the grave, and says no one frees himself from sin.',
       body: [
         'The Nation’s statement of belief says the resurrection is “not in physical resurrection but mental resurrection”, and Elijah Muhammad wrote that “there is not any life beyond the grave”. Paul was answering people in Corinth who said the same: “how can some of you say that there is no resurrection of the dead?” His reply is that everything depends on it. “If Christ has not been raised, your faith is futile; you are still in your sins” (1 Corinthians 15:12-20). He meant a body. The risen Jesus said, “Touch Me and see—for a spirit does not have flesh and bones, as you see I have” (Luke 24:39), and he ate fish in front of them (Luke 24:42-43).',
         'There is something true in the Nation’s phrase. The Bible also speaks of people who are dead while they live and are made alive (Ephesians 2:4-5). But that awakening comes with the raising of the body, not in its place. And think what is lost without it. Millions died in the holds of the ships and in the fields. If there is no resurrection and no judgment, they are simply gone and those who killed them escaped. Elijah Muhammad wrote, “There is no justice in the sweet bye and bye.” The Bible says there is. “All who are in their graves will hear His voice and come out” (John 5:28-29).',
@@ -86,7 +86,7 @@ export const noiAnswering: Topic = {
     },
     {
       heading: 'How to talk',
-      keyLine: 'Acknowledge injustice without defending yourself.',
+      keyLine: 'Listen first, acknowledge injustice without defending yourself, honour what is good, and then give the gospel.',
       body: [
         'Listen first. “Everyone should be quick to listen, slow to speak, and slow to anger” (James 1:19). Ask how your friend came to the Nation and what it has done for him. You will usually hear about a father, a prison, a street or a church that failed. That is the real conversation. Yakub is seldom the reason anyone joined.',
         'Acknowledge injustice without defending yourself. If you are white you may be told that you are a devil. Do not take offence and do not argue for your own innocence. Agree with every true thing said about the past and the present, and grieve it. “Weep with those who weep” (Romans 12:15). Never mock the teaching. People you are speaking to have staked their dignity on it.',

@@ -39,7 +39,7 @@ export const druze: Topic = {
     },
     {
       heading: 'The wise and the uninitiated',
-      keyLine: 'So your Druze friend may know less about Druze theology than this lesson has told you.',
+      keyLine: 'Most Druze are uninitiated and are not taught the doctrine in detail, so questions serve better than arguments.',
       body: [
         'The community has two classes. The ‘uqqal, “the wise”, are men and women who have been admitted, after a long testing, to the reading of the Epistles. They are known by their dark clothes and white head coverings. They meet on Thursday evenings in a plain house of prayer called a khalwa.',
         'Everyone else belongs to the juhhal, “the ignorant”, which here means the uninitiated. They are the large majority. They are expected to live by the community’s moral code, but they are not taught its doctrine in any detail.',
@@ -67,7 +67,7 @@ export const druze: Topic = {
     },
     {
       heading: 'Where the gospel meets a Druze',
-      keyLine: 'The Christian hope is resurrection, not return',
+      keyLine: 'The gospel offers a Druze friend one life and then resurrection, truth told openly, and assurance of eternal life.',
       body: [
         'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus, and by Swayd’s account the Druze writings count the New Testament among the sources of their teaching. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
         'Then come to the differences, gently and plainly. First, one life. Scripture says that “man is appointed to die once, and after that to face judgment” (Hebrews 9:27). Jesus told the dying thief, “today you will be with Me in Paradise” (Luke 23:43). The Christian hope is resurrection, not return: this same person, raised and made new. And rebirth cannot deal with guilt. On the Druze account itself the judgment still waits at the end of all the lives.',

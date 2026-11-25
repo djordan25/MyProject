@@ -8,7 +8,7 @@ export const edgesOfTheCanon: Topic = {
   lesson: [
     {
       heading: 'A firm centre and a fuzzy edge',
-      keyLine: 'The centre was firm early, and the edge stayed fuzzy for some centuries.',
+      keyLine: 'The centre of the New Testament was firm early, and the edge stayed fuzzy for some centuries.',
       body: [
         'The lesson “How We Got the Bible” showed that the core of the New Testament was in use across the churches by the end of the second century: the four Gospels, Acts, the letters of Paul, 1 Peter and 1 John. This lesson looks at the edge, where things were less tidy.',
         'Be honest about that edge. A few books now in the New Testament were questioned in one region or another, and a few books that are not in it were read with great respect, by some as Scripture. The centre was firm early, and the edge stayed fuzzy for some centuries.',
@@ -17,7 +17,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: 'Books the early churches loved',
-      keyLine: 'Two of the great early Bibles show how close these books came.',
+      keyLine: 'Books such as 1 Clement and the Shepherd of Hermas were loved in the early churches and came close to being counted as Scripture.',
       body: [
         '1 Clement is a letter from the church in Rome to the church in Corinth, usually dated about AD 95 or 96, written after some in Corinth had removed their elders. About AD 170 Dionysius, bishop of Corinth, wrote that it was still read aloud when the church met. The Didache, or “Teaching of the Twelve Apostles”, is a short manual on the Christian way of life, baptism, fasting, prayer and the Lord’s Supper. Most scholars date it to the late first century or the first half of the second. It was known only by name until a copy made in 1056 was found in the 1870s and published in 1883.',
         'The Shepherd of Hermas is a long book of visions, commandments and parables from second-century Rome. It was one of the most popular books in the early church, and Irenaeus and Clement of Alexandria quoted it as Scripture. The Epistle of Barnabas is a tract on how the Old Testament points to Christ. Clement of Alexandria and Origen valued it and thought Paul’s companion Barnabas wrote it. Scholars today regard its author as unknown, and it was written some time after the fall of Jerusalem in AD 70. The Apocalypse of Peter, from the first half of the second century, describes heaven and hell.',
@@ -26,7 +26,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: 'Why they were honoured but not counted',
-      keyLine: '“Not Scripture” is a different verdict from “not worth reading”, and these books are well worth reading.',
+      keyLine: 'Books like the Shepherd were honoured but not counted as Scripture, mainly because of date and origin, and are well worth reading.',
       body: [
         'The earliest comment we have is in the Muratorian fragment, a list usually dated to the late second century, though some scholars place it in the fourth. It says that Hermas wrote the Shepherd “very recently, in our times, in the city of Rome”. So the book ought to be read, but not publicly in church among the prophets or the apostles, “for it is after [their] time” (Bruce Metzger’s translation). The same list receives the Apocalypse of Peter and adds that “some of us are not willing that the latter be read in church”.',
         'Eusebius, writing early in the fourth century, sorted the books into groups. The acknowledged books were the four Gospels, Acts, Paul’s letters, 1 John and 1 Peter, with Revelation “if it really seems right”. The disputed books, “nevertheless familiar to the majority”, were James, Jude, 2 Peter and 2 and 3 John. A third group, which he called “spurious”, included the Shepherd, the Apocalypse of Peter, the Epistle of Barnabas and the Didache. By that word he meant that they did not belong to the New Testament. He kept them apart from a last group, books such as the Gospel of Thomas, which he called the forgeries of heretics.',
@@ -36,7 +36,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: 'Books that were questioned and then received',
-      keyLine: 'The slow acceptance shows that the churches did not take a book just because it carried a great name.',
+      keyLine: 'Books such as Hebrews and Revelation were questioned, then received once the churches judged they came from the apostles’ circle.',
       body: [
         'The fuzziness ran the other way too. Eusebius’s disputed list contains five books now in every New Testament: James, Jude, 2 Peter, and 2 and 3 John. Hebrews and Revelation were also questioned, each in a different half of the church. Jerome, writing in AD 414, said that the Latin churches did not receive Hebrews and the Greek churches did not receive Revelation. He accepted both, because ancient writers quoted them as Scripture.',
         'The doubts had reasons. Hebrews does not name its author, and Eusebius reports that the church at Rome disputed it because it was not written by Paul. Origen said, “who wrote the Epistle, in truth, God knows”. In the East, Dionysius of Alexandria argued from the style of Revelation that the apostle John did not write it. Jerome reports that many rejected Jude because it quotes the Book of Enoch, and that 2 and 3 John were said to be by another John, called the elder.',
@@ -53,7 +53,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: '1 Enoch: the book Jude quotes',
-      keyLine: 'It does not follow that all 108 chapters are Scripture.',
+      keyLine: 'Jude quotes a saying from 1 Enoch as true, but quoting a line as true does not endorse the whole work.',
       body: [
         'Genesis says that Enoch walked with God and was taken (Genesis 5:24). 1 Enoch is a Jewish collection of writings in his name, composed in stages between about the late fourth century BC and the turn of the era. It has five main parts: the Book of the Watchers, the Parables, the Book of the Luminaries, the Dream Visions and the Epistle of Enoch. It tells of angels who sinned, of journeys through heaven and earth, and of a coming judgement.',
         'Most of it, at least, was written in Aramaic. Fragments of eleven Aramaic copies were found among the Dead Sea Scrolls, covering parts of every main section except the Parables. The whole book survives only in Ge‘ez, the old language of Ethiopia, because the Ethiopian Orthodox Tewahedo Church has kept it in its Bible. Christians everywhere owe that church a debt for preserving it.',
@@ -64,7 +64,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: 'The Gospel of Barnabas: what it is',
-      keyLine: 'Do not confuse this with the Epistle of Barnabas.',
+      keyLine: 'The Gospel of Barnabas is a long life of Jesus that foretells Muhammad, and nothing certain is known of it before about 1600.',
       body: [
         'Do not confuse this with the Epistle of Barnabas. The Gospel of Barnabas is a long life of Jesus, written as if by Barnabas, who is made one of the twelve. In it Jesus denies that he is the Son of God, says “I am not the Messiah” (chapter 42, in the translation of Lonsdale and Laura Ragg), and foretells Muhammad by name. Judas is made to look like Jesus and is crucified in his place.',
         'It is known from two texts. One is an Italian manuscript now in the Austrian National Library in Vienna, written in the late sixteenth century. The other is a Spanish text, which survives in an incomplete eighteenth-century copy now in Sydney. The Italian manuscript first comes to light in Amsterdam in 1709, and George Sale described the Spanish text in 1734. Nothing certain is known of the book before about 1600.',
@@ -74,7 +74,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: 'How scholars date the Gospel of Barnabas',
-      keyLine: 'The evidence they point to is inside the book.',
+      keyLine: 'Scholars place the Gospel of Barnabas long after the time of Jesus, pointing to evidence inside the book itself.',
       body: [
         'Scholars who have studied the text place it long after the time of Jesus, though they differ on how long. The Raggs suggested, and Jan Joosten has argued more recently, that an Italian original goes back to the fourteenth century. Luis Bernabé Pons and Gerard Wiegers connect it with the Moriscos, Spanish Muslims who had been made to accept baptism, in the sixteenth or early seventeenth century. The evidence they point to is inside the book.',
         'In chapter 82 Jesus speaks of “the year of jubilee, which now cometh every hundred years”. In the Law of Moses the jubilee is the fiftieth year (Leviticus 25:10-11). A jubilee every hundred years fits the one proclaimed by Pope Boniface VIII in 1300. The next was held in 1350. The Raggs, who noticed this, said that it would point to the years 1300 to 1350 if it could be pressed, and they allowed that it might have another explanation.',
@@ -85,7 +85,7 @@ export const edgesOfTheCanon: Topic = {
     },
     {
       heading: 'How to use this in conversation',
-      keyLine: 'This book denies that Jesus is the Messiah, and the Quran says he is.',
+      keyLine: 'Grant that the edge of the canon was unsettled, thank the church that kept 1 Enoch, and never sneer at the Gospel of Barnabas.',
       body: [
         'With a sceptic, grant what is true. The edge of the canon was unsettled for a long time, and faithful Christians disagreed about a handful of books. Then show what the evidence adds. No single vote created the New Testament. The lists of the fourth century describe what the churches were already reading, and they say openly which books were disputed. People who are hiding something do not publish their doubts.',
         'With an Ethiopian Orthodox friend, begin with thanks. Their church preserved 1 Enoch when it was lost almost everywhere else. You do not need to attack the book. Explain that 1 Enoch was not among the Jewish Scriptures, which Jesus summed up as “the Law of Moses, the Prophets, and the Psalms” (Luke 24:44), and that most churches did not receive it. With any Christian who has just discovered Enoch, encourage them to read it as a window on the Jewish world of Jesus’ day and to weigh it by Scripture: “test all things. Hold fast to what is good” (1 Thessalonians 5:21).',

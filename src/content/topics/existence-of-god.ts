@@ -17,6 +17,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'The Kalam Cosmological Argument',
+      keyLine: 'Whatever begins to exist needs a cause, and both philosophy and science indicate that the universe began to exist.',
       body: [
         'Whatever begins to exist needs a cause. Both philosophy (the impossibility of an actually infinite series of past events) and science (Big Bang cosmology, the second law of thermodynamics) indicate the universe began to exist.',
         'The cause of all space, time and matter must itself be spaceless, timeless, immaterial, enormously powerful, and — because it chose to create a universe from a timeless state — personal.',
@@ -30,7 +31,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'The Fine-Tuning Argument',
-      keyLine: 'The fine-tuning of the universe is due to physical necessity, chance, or design.',
+      keyLine: 'The constants of physics appear finely tuned for life, and design explains that better than necessity or chance.',
       body: [
         'The constants and initial conditions of physics (e.g. the cosmological constant, the strength of gravity, the ratio of electron to proton mass) appear to fall within narrow life-permitting ranges, some of them extraordinarily narrow.',
         'This fine-tuning is due to physical necessity, chance, or design. It is not necessary — the constants appear independent of the laws of nature — and chance is overwhelmingly improbable. Design is the best explanation.',
@@ -44,7 +45,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'The Moral Argument',
-      keyLine: 'If God does not exist, objective moral values and duties do not exist.',
+      keyLine: 'Some things are really wrong whatever anyone thinks, and without God it is hard to ground moral values like that.',
       body: [
         'Most people recognise that some things — torturing children for fun, for example — are really wrong, not just unfashionable. That is a claim about objective moral values: true regardless of anyone’s opinion.',
         'Without God, it is hard to ground such values; morality seems to reduce to evolutionary instinct or social convention. God, whose nature is the standard of goodness, provides a firm foundation.',
@@ -59,7 +60,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'Why is there anything at all?',
-      keyLine: 'The universe is not the kind of thing that has to exist.',
+      keyLine: 'The universe did not have to exist, so its existence calls for an explanation outside itself.',
       body: [
         'The Kalam argument depends on the universe having a beginning. A second argument does not. Everything we know of exists either because it must, by its own nature, or because something else explains it. If numbers exist, they exist by necessity: nothing made the number seven. A house, by contrast, exists because someone built it.',
         'The universe is not the kind of thing that has to exist. It could have been different, or not been at all. So its existence calls for an explanation outside itself: something that exists by its own nature, beyond space, time and matter. That is what people have always meant by God.',
@@ -84,7 +85,7 @@ export const existenceOfGod: Topic = {
     },
     {
       heading: 'From a Creator to the God of the Bible',
-      keyLine: 'Together they point to a Creator who is beyond the universe, immensely powerful, intelligent and good.',
+      keyLine: 'The arguments for God point to a Creator but do not tell us that he has spoken; that next step rests on Jesus.',
       body: [
         'Be clear about how far these arguments go. Together they point to a Creator who is beyond the universe, immensely powerful, intelligent and good. They do not tell us that this Creator has spoken, or that he became man.',
         'That is the next step, and it rests on Jesus. Paul took exactly this route in Athens: he began with the God who made the world and gives life to all (Acts 17:24-25), and ended with the man God raised from the dead. “In these last days He has spoken to us by His Son” (Hebrews 1:1-2).',
