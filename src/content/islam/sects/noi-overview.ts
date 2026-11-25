@@ -18,7 +18,7 @@ export const noiOverview: Topic = {
     },
     {
       heading: 'Elijah Muhammad, 1934 to 1975',
-      keyLine: 'After Fard vanished, Elijah Muhammad led the movement from Chicago until his death on 25 February 1975.',
+      keyLine: 'Elijah Muhammad led the Nation after Fard vanished and taught that Fard had been Allah himself, God in person.',
       body: [
         'After Fard vanished, Elijah Muhammad led the movement from Chicago until his death on 25 February 1975. He was known as the Messenger of Allah. It was he who taught the doctrine that marks the Nation off from every other body that uses the name of Islam: that Fard had been Allah himself, God in person.',
         'Arrested in 1942, he was in federal prison until 1946 for resisting the wartime draft. After his release the Nation grew, most of all in the late 1950s and early 1960s. It opened temples in the large cities, ran its own schools and businesses, and sold its newspaper, Muhammad Speaks, on street corners. In 1965 he published Message to the Blackman in America, the fullest statement of his teaching. This lesson takes the Nation’s doctrines from that book and from the twelve-point statement of belief printed in it, part of what the Nation calls the Muslim Program.',
@@ -27,7 +27,7 @@ export const noiOverview: Topic = {
     },
     {
       heading: 'Malcolm X and Muhammad Ali',
-      keyLine: 'He served the Nation for twelve years, from 1954 as minister of the Harlem temple, and was its best-known speaker.',
+      keyLine: 'Malcolm X, the Nation’s best-known speaker, and Muhammad Ali both left its teaching and became Sunni Muslims.',
       body: [
         'Malcolm Little went to prison in Massachusetts in 1946 for burglary. His brothers and sisters had joined the Nation and wrote to him about it, and in prison he accepted Elijah Muhammad’s teaching, gave up pork and cigarettes, and educated himself from the prison library. Paroled in 1952, he became Malcolm X. He served the Nation for twelve years, from 1954 as minister of the Harlem temple, and was its best-known speaker.',
         'In December 1963 Elijah Muhammad silenced him for ninety days after a remark about the killing of President Kennedy. By then Malcolm had heard, from former secretaries themselves, that Elijah Muhammad had fathered their children. In March 1964 he left the Nation. In April he made the pilgrimage to Mecca, where he prayed and ate with Muslims of every colour. He wrote home that what he had seen had forced him to “re-arrange” much of his thinking and to “toss aside some of my previous conclusions”. He embraced Sunni Islam and took the name El-Hajj Malik El-Shabazz. On 21 February 1965 he was shot dead at the Audubon Ballroom in New York. Three members of the Nation were convicted. One confessed at the trial and said the other two were innocent, and in 2021 those two were cleared.',
@@ -36,16 +36,16 @@ export const noiOverview: Topic = {
     },
     {
       heading: 'After 1975: two roads',
-      keyLine: 'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change.',
+      keyLine: 'After 1975 Elijah Muhammad’s son led most of the movement into Sunni Islam, and Louis Farrakhan re-founded the Nation.',
       body: [
-        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission by 1980, and in 1985 he dissolved it so that its members would simply be Muslims among other Muslims.',
+        'Elijah Muhammad was succeeded by his son Wallace, later known as Warith Deen Mohammed. He rejected the teaching that Fard was God. He dropped the teaching that white people are devils, opened membership to them in June 1975, and led most of the movement into Sunni Islam. The body was renamed more than once, becoming the American Muslim Mission by 1980, and in the mid-1980s he dissolved it so that its members would simply be Muslims among other Muslims.',
         'Louis Farrakhan, who had been one of Elijah Muhammad’s leading ministers, would not accept the change. In the late 1970s he broke away and re-founded the Nation of Islam on Elijah Muhammad’s teachings, with a new newspaper, The Final Call. This is the body that carries the name today. On 16 October 1995 he led the Million Man March in Washington, billed as a day of atonement and reconciliation for black men. Estimates of the crowd run from about 400,000 to more than a million.',
         'The Nation today is small. In a Pew Research Center survey of 2017 only 3 percent of American-born black Muslims said they identified with it. Its influence is far wider than its membership, through its newspaper, its speakers, its work in prisons and its place in the memory of black America.',
       ],
     },
     {
       heading: 'God, the Messenger and the original people',
-      keyLine: 'Black people, in this teaching, are the Original Man, the first people of the earth, of the tribe of Shabazz, and Muslims by nature.',
+      keyLine: 'The Nation teaches that God appeared as Fard, that Elijah Muhammad is his Messenger, and that black people are the Original Man.',
       body: [
         'The last article of the Muslim Program states that “Allah (God) appeared in the Person of Master W. Fard Muhammad, July, 1930”, and calls him the long-awaited Messiah of the Christians and Mahdi of the Muslims. Elijah Muhammad taught that God is not a spirit. The chapter of Message to the Blackman headed “Is God a Spirit or a Man?” opens, “God is a man and we just cannot make Him other than man”, and the book mocks the idea of an unseen God as belief in a “spook”.',
         'Elijah Muhammad is the Messenger of this God. He wrote that orthodox Muslims are mistaken to think that “Muhammad of nearly 1,400 years ago” was the prophet like Moses whom the Bible foretold, and his book calls the apostle raised among black Americans “the last Apostle”.',
@@ -54,7 +54,7 @@ export const noiOverview: Topic = {
     },
     {
       heading: 'Yakub, the Mother Plane, the Bible and the resurrection',
-      keyLine: 'The Nation uses the Bible constantly, but on its own terms.',
+      keyLine: 'The Nation teaches that white people were bred as a race of devils in a programme Yakub began, and that resurrection is only mental.',
       body: [
         'The story of Yakub explains where white people came from. As Elijah Muhammad tells it, about 6,600 years ago a brilliant and discontented black scientist named Yakub was exiled from Mecca with 59,999 followers to an island in the Aegean called Pelan, which the book identifies with Patmos. There, by rules about who might marry and by killing the darker babies, he began a breeding programme, called grafting, that his followers carried on for six hundred years until a white race had been made. This race was wicked by nature, a race of devils, and was given 6,000 years to rule the earth. Elijah Muhammad taught that its time ran out in 1914, though he added that it could be given an extension.',
         'Judgment will come by the Mother Plane. The book describes a wheel-shaped craft, half a mile by half a mile, “a small human planet made for the purpose of destroying the present world of the enemies of Allah”, carrying fifteen hundred bombing planes, and says that this is what Ezekiel saw in his vision of the wheels. Farrakhan teaches the same. By his own account he was taken up to the Wheel in a vision in Mexico in September 1985 and heard the voice of Elijah Muhammad speaking to him there.',
@@ -64,7 +64,7 @@ export const noiOverview: Topic = {
     },
     {
       heading: 'Why people join',
-      keyLine: 'Begin by asking what the Nation gave them.',
+      keyLine: 'The Nation gave people a sense of worth and discipline and went where others would not, and the grievance underneath is true.',
       body: [
         'Do not begin by asking how anyone could believe this. Begin by asking what the Nation gave them. It told people who had been called worthless for three centuries that they were the first and best of mankind. It demanded discipline: no alcohol, no drugs, no tobacco, no pork, no gambling, clean clothes, punctuality, marriage, work. It told men to protect their women and feed their children, and to build their own shops, farms and schools and not to wait for anyone’s charity.',
         'It also went where others would not. The Nation has long worked in prisons, and Malcolm X is only the most famous of the men it reached there. It has stood on corners where drugs were sold. Many black Americans who reject its doctrine respect it for that.',
@@ -73,7 +73,7 @@ export const noiOverview: Topic = {
     },
     {
       heading: 'Outside Islam, and what that means for conversation',
-      keyLine: 'Sunni and Shia Muslims regard these teachings as outside Islam',
+      keyLine: 'Sunni and Shia Muslims regard the Nation’s teachings as outside Islam, so meet its members in the Bible, which they often know well.',
       body: [
         'Sunni and Shia Muslims regard these teachings as outside Islam, for reasons that lie on the surface of the Quran. It says of Allah, “There is nothing like unto Him” (Quran 42:11), that “He neither begets nor is born” (Quran 112:3), and that he is “the Ever-Living who does not die” (Quran 25:58). To associate anything with Allah, which is how Muslims regard calling a man God, is the sin the Quran says he does not forgive (Quran 4:48). It calls Muhammad the “last of the prophets” (Quran 33:40), and the hadith have him say, “There will be no prophet after me” (Sahih al-Bukhari 3455). It teaches a bodily resurrection in which Allah reassembles the bones (Quran 75:3-4). And it treats the variety of human colours as one of God’s signs (Quran 30:22), with no hint of a devil race.',
         'Elijah Muhammad knew this. He wrote that “the Orthodox Muslims will have to bow to the choice of Allah”, and that Allah would bring about “a new Islam”. Malcolm X wrote that the story of Yakub “infuriated the Muslims of the East”. Two of the men closest to Elijah Muhammad, his best-known minister and his own son, both left his doctrine for the Islam of the Quran.',
@@ -466,7 +466,7 @@ export const noiOverview: Topic = {
       question: 'Who led most members of the Nation into Sunni Islam after 1975?',
       options: ['Louis Farrakhan', 'Malcolm X', 'Muhammad Ali', 'Warith Deen Mohammed'],
       answer: 3,
-      explanation: 'Elijah Muhammad’s son rejected the teaching that Fard was God, opened membership to white people, and in 1985 dissolved the organisation.',
+      explanation: 'Elijah Muhammad’s son rejected the teaching that Fard was God, opened membership to white people, and in the mid-1980s dissolved the organisation.',
     },
     {
       id: 'noi-q12',

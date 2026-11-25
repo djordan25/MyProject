@@ -8,7 +8,7 @@ export const sharingTheGospel: Topic = {
   lesson: [
     {
       heading: 'Arguments are not the goal',
-      keyLine: 'Showing that Islam’s claims fail does not make anyone a Christian',
+      keyLine: 'Showing that Islam’s claims fail does not make anyone a Christian, so aim for your friend to come to know Jesus.',
       body: [
         'Everything else in this course removes obstacles. Showing that Islam’s claims fail does not make anyone a Christian; a person can leave Islam and believe nothing at all. The aim is that your friend comes to know Jesus, who said, “I am the way and the truth and the life. No one comes to the Father except through Me” (John 14:6).',
         'So in every conversation, look for the moment to move from “Islam is mistaken about this” to “here is who Jesus is and what he has done”. Paul’s summary is the place to land: “Christ died for our sins according to the Scriptures… He was buried… He was raised on the third day” (1 Corinthians 15:3-4).',
@@ -17,7 +17,7 @@ export const sharingTheGospel: Topic = {
     },
     {
       heading: 'The message in four steps',
-      keyLine: 'Salvation is a gift to be received, not a wage to be earned',
+      keyLine: 'God is holy, we have all sinned, God himself came to rescue us in Jesus, and salvation is a gift to be received.',
       body: [
         'God is holy and made us to know him. A Muslim already agrees that God is holy and that we will answer to him.',
         'We have all sinned: “all have sinned and fall short of the glory of God” (Romans 3:23). Say this clearly. Islam teaches that people are weak and forgetful; the Bible says we are guilty, and that good deeds cannot remove guilt.',
@@ -39,7 +39,7 @@ export const sharingTheGospel: Topic = {
       heading: 'Count the cost with them',
       keyLine: 'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence.',
       body: [
-        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam is death (Sahih al-Bukhari 6922). Today only a few states have that penalty in law and a growing number of Muslim scholars reject it, though many still uphold it. Do not treat a Muslim’s hesitation as mere stubbornness.',
+        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam and refusing to return is death (Sahih al-Bukhari 6922). Today only about ten states have that penalty in law and a growing number of Muslim scholars reject it, though many still uphold it. Do not treat a Muslim’s hesitation as mere stubbornness.',
         'Jesus was honest about the cost (Luke 14:28), and equally honest about the reward: no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… and in the age to come, eternal life” (Mark 10:29-30).',
         'That promise is kept partly through you. A Muslim who comes to Christ needs a new family at once: a place at your table, people to pray with, practical help. If your church is not ready to be that family, start preparing it now.',
       ],
@@ -47,7 +47,7 @@ export const sharingTheGospel: Topic = {
     },
     {
       heading: 'Your part and God’s part',
-      keyLine: 'You are responsible for telling the truth clearly and lovingly.',
+      keyLine: 'You are responsible for telling the truth clearly and lovingly, and the result belongs to God.',
       body: [
         'Be a friend, not a salesman. Eat together, ask about their family, keep your word. Speak well: “Let your speech always be gracious, seasoned with salt, so that you may know how to answer everyone” (Colossians 4:6).',
         'Pray for them by name. No one comes to Jesus unless the Father draws him (John 6:44). In one survey of about 750 Muslims who had come to Christ, the influence they ranked highest was the way the Christians they knew lived.',

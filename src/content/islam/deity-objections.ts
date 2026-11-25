@@ -8,7 +8,7 @@ export const deityObjections: Topic = {
   lesson: [
     {
       heading: 'The key: two natures',
-      keyLine: 'So passages showing Jesus’ humanity don’t disprove his deity — they confirm the incarnation.',
+      keyLine: 'Passages showing Jesus’ humanity do not disprove his deity, because the eternal Son became fully human while remaining fully God.',
       body: [
         'Most Muslim objections to Jesus’ deity point to his humanity: he prayed, got tired, didn’t know the hour, died. Christians agree he did all these! Christianity teaches that the eternal Son became fully human while remaining fully God (John 1:14; Philippians 2:6-8).',
         'So passages showing Jesus’ humanity don’t disprove his deity — they confirm the incarnation. The question is whether there are also passages showing his deity. There are many (see Jesus: More Than a Prophet).',
@@ -18,7 +18,7 @@ export const deityObjections: Topic = {
     },
     {
       heading: '“Where did Jesus say, ‘I am God, worship me’?”',
-      keyLine: 'But Jesus claimed deity in ways his Jewish audience understood immediately',
+      keyLine: 'Jesus claimed deity in ways his Jewish audience understood immediately, and meaning, not a formula, is the test.',
       body: [
         'This demands a specific wording. But Jesus claimed deity in ways his Jewish audience understood immediately — they tried to stone him for blasphemy (John 8:58-59; 10:30-33) and condemned him to death for it (Mark 14:61-64).',
         'He accepted worship (Matthew 14:33; John 20:28), said all should honour the Son just as they honour the Father (John 5:23), and claimed authority to forgive sins and judge the world (Mark 2:5-10; Matthew 25:31-32).',
@@ -136,7 +136,7 @@ export const deityObjections: Topic = {
               followUps: [
                 {
                   reply: 'God can do everything that befits his majesty. Becoming a creature does not. You may as well ask whether God can make a square circle.',
-                  answer: 'A square circle would be God ceasing to be God, and Christians do not say that. We say the Son added a human nature to himself and lost nothing of his deity: “in Christ all the fullness of the Deity dwells in bodily form” (Colossians 2:9). No contradiction has been shown in that. Muslims already accept that the eternal God acts in time and place, coming down to the nearest heaven each night (Sahih al-Bukhari 1145), in a way that befits him. Who decides what befits God, if not God? The question is what he has done, not what we think he may do.',
+                  answer: 'A square circle would be God ceasing to be God, and Christians do not say that. We say the Son added a human nature to himself and lost nothing of his deity: “in Christ all the fullness of the Deity dwells in bodily form” (Colossians 2:9). No contradiction has been shown in that. Many Muslims already accept that the eternal God acts in time and place, coming down to the nearest heaven each night (Sahih al-Bukhari 1145), in a way that befits him. Who decides what befits God, if not God? The question is what he has done, not what we think he may do.',
                 },
               ],
             },
@@ -509,7 +509,7 @@ export const deityObjections: Topic = {
       options: [
         'He denies that God is his Father',
         'He says the disciples are his equals',
-        'He never says “our”: his relationship to the Father is not the same as ours',
+        'He never says “our”, which many readers take to mean that his relationship to the Father is not the same as ours',
         'He is speaking only about Mary’s family',
       ],
       answer: 2,

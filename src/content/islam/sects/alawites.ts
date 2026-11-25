@@ -19,7 +19,7 @@ export const alawites: Topic = {
     },
     {
       heading: 'Where they came from',
-      keyLine: 'As Sunni rule took hold in the towns and plains, the community survived in the coastal mountains, where its teachers had won converts.',
+      keyLine: 'Carried to northern Syria in the tenth century, the community survived in the coastal mountains, for centuries mostly poor and despised.',
       body: [
         'Ibn Nusayr lived in Iraq in the ninth century, in Shia circles. Alawite tradition holds that he was the “gate” (bab) to the eleventh Shia Imam, al-Hasan al-Askari, who died in 874. That is, he was the one through whom the Imam’s hidden teaching could be reached.',
         'In the tenth century a teacher named al-Khasibi carried the movement to northern Syria, where it found favour at the Shia court of Aleppo. Hymns used in Alawite worship are attributed to him. As Sunni rule took hold in the towns and plains, the community survived in the coastal mountains, where its teachers had won converts.',
@@ -28,7 +28,7 @@ export const alawites: Topic = {
     },
     {
       heading: 'What outsiders report of their teaching',
-      keyLine: 'Be careful with everything in this section.',
+      keyLine: 'Published accounts say Alawites treat Ali as a manifestation of God, but the teaching is secret and the sources need care.',
       body: [
         'Be careful with everything in this section. The teaching is kept secret. It is passed on by initiation, in stages, to men only, and by published accounts only men take part in the worship. What outsiders know comes from medieval Muslim writers who were hostile, from a nineteenth-century book by Sulayman al-Adhani, a man who had been initiated, left the community for Christianity and made the teaching public, and from manuscripts studied by modern scholars. Al-Adhani wrote as an opponent, and scholars such as Yaron Friedman judge parts of his account unreliable. One reference work adds that it is uncertain how far that older doctrine is still held by most Alawites today.',
         'With that caution, the published accounts agree on these points. The reverence for Ali goes as far as treating him as a manifestation of God. There is a triad. Ali is the Meaning (ma‘na), the inner reality. Muhammad is the Name (ism), the outward form, also called the veil. Salman the Persian, a companion of Muhammad, is the Gate (bab) through whom the Meaning is approached.',
@@ -38,25 +38,25 @@ export const alawites: Topic = {
     },
     {
       heading: 'How other Muslims have regarded them',
-      keyLine: 'Take your friend’s own account of himself as your starting point.',
+      keyLine: 'Many Sunni scholars never accepted the Alawites as Muslims, while Alawites today present themselves as Muslims.',
       body: [
         'Muslim scholars classed them among the ghulat, the “exaggerators”, meaning those who go too far in their reverence for Ali. The Sunni jurist Ibn Taymiyya, who died in 1328, wrote three rulings against them. In the main one he declared their unbelief worse than that of Jews and Christians, and forbade Muslims to marry them or eat meat they had slaughtered. That ruling has been quoted by those who attack Alawites ever since, including in our own day.',
-        'In the twentieth century there were moves the other way. In 1936 a body of Alawite religious leaders declared that Alawites are simply partisans of Ali, and in the same year the Sunni Mufti of Jerusalem, Hajj Amin al-Husayni, issued a ruling that the Alawites are Muslims. In 1973 some eighty Alawite religious leaders stated that the community holds the teaching of the Twelver Shia. In the 1970s the Lebanese Shia leader Musa al-Sadr brought Alawites of Lebanon into his Shia council, a step that some Alawites in Tripoli protested against in 1973. Historians note that these moves came at politically useful moments. The mufti was probably urged on by Syrian nationalists who wanted the Alawites in the national movement. Many Sunni scholars never accepted the Alawites as Muslims.',
+        'In the twentieth century there were moves the other way. In 1936 a body of Alawite religious leaders declared that Alawites are Muslims who keep the pillars of Islam, and in the same year the Sunni Mufti of Jerusalem, Hajj Amin al-Husayni, issued a ruling that the Alawites are Muslims. In 1973 Alawite religious leaders stated that the community holds the teaching of the Twelver Shia. In the 1970s the Lebanese Shia leader Musa al-Sadr brought Alawites of Lebanon into his Shia council, a step that some Alawites in Tripoli protested against in 1973. Historians note that these moves came at politically useful moments. The mufti was probably urged on by Syrian nationalists who wanted the Alawites in the national movement. Many Sunni scholars never accepted the Alawites as Muslims.',
         'Alawites today present themselves as Muslims. The declaration of 1973 said that anything else attributed to them was the invention of their enemies. In 2016 the BBC reported a document from unnamed Alawite leaders which called their faith a current “of and within Islam”, with the Quran as its only holy book, and said that they are not a branch of Shia Islam. Take your friend’s own account of himself as your starting point.',
       ],
     },
     {
       heading: 'The Assads, and after',
-      keyLine: 'So the Alawite you meet may be grieving and frightened.',
+      keyLine: 'Alawite civilians were killed after the Assad regime fell, so the Alawite you meet may be grieving and frightened.',
       body: [
         'In 1970 an Alawite officer, Hafez al-Assad, took power in Syria. He ruled until his death in 2000, and his son Bashar ruled until December 2024. Under them Alawites held a large share of the senior posts in the army and the security services. Yet many Alawites stayed poor, and the regime’s prisons and guns were turned on Syrians of every community, above all the Sunni majority.',
-        'When the regime fell, many Syrians held the whole Alawite community responsible for it. A United Nations Commission of Inquiry reported in August 2025 on what followed. In March 2025 fighters loyal to Assad ambushed government forces in Latakia. In the days after, members of the new government’s forces and armed men fighting alongside them killed Alawite civilians in towns and villages along the coast. The Commission said that some 1,400 people, most of them civilians, were reported killed in violence aimed mainly at Alawite communities. It found that men identified as Alawites were separated from the women and children, led outside and shot. It concluded that acts likely to amount to war crimes were committed both by members of the government forces and by pro-Assad fighters, and it found no evidence of a government policy or plan to carry out the attacks. The United Nations refugee agency counted tens of thousands of people who fled into northern Lebanon.',
+        'When the regime fell, many Syrians held the whole Alawite community responsible for it. A United Nations Commission of Inquiry reported in August 2025 on what followed. In March 2025, after an arrest operation by the new authorities, fighters loyal to Assad attacked government forces in Latakia and Tartus, killing many. In the days after, members of the new government’s forces and armed men fighting alongside them killed Alawite civilians in towns and villages along the coast. The Commission said that some 1,400 people, most of them civilians, were reported killed in violence aimed mainly at Alawite communities. It found that men identified as Alawites were separated from the women and children, led outside and shot. It concluded that acts likely to amount to war crimes were committed both by members of the government forces and by pro-Assad fighters, and it found no evidence of a government policy or plan to carry out the attacks. The United Nations refugee agency counted tens of thousands of people who fled into northern Lebanon.',
         'So the Alawite you meet may be grieving and frightened. He may have lost relatives. He may be blamed for the crimes of a government that did little for him.',
       ],
     },
     {
       heading: 'Why the usual arguments do not fit',
-      keyLine: 'Earn the right to talk about God by being a friend first, and let him choose what to tell you.',
+      keyLine: 'Arguments from the Quran and the Sunni hadith mostly miss an Alawite, so be a friend first and do not interrogate.',
       body: [
         'The main Islam track argues from the Quran and from the hadith collections of al-Bukhari and Muslim. Those arguments mostly miss an Alawite. He does not take the Sunni hadith as an authority, and his tradition reads the Quran for an inner meaning.',
         'Many Alawites are secular. Being Alawite is for them a matter of family, village and shared danger. Most have never been taught the doctrine, and by every published account women are not taught it at all. Your friend may know less about it than you have just read.',
@@ -65,7 +65,7 @@ export const alawites: Topic = {
     },
     {
       heading: 'Where the gospel speaks',
-      keyLine: 'No part of the gospel is kept for an initiated few.',
+      keyLine: 'The gospel tells of God come in a real human life, a message spoken openly to all, and assurance of eternal life.',
       body: [
         'First, God among us. The claim reported of Alawite teaching is that God appeared in Ali, as he had appeared before. The gospel says something of a different kind: “The Word became flesh and made His dwelling among us” (John 1:14). It happened once, at a known time and place, and it was a real human life. John writes of what “we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands” (1 John 1:1-3). The risen Jesus said, “Touch Me and see—for a spirit does not have flesh and bones, as you see I have” (Luke 24:39).',
         'The apostles were not men who made gods of their heroes. When a crowd tried to worship Paul and Barnabas, they tore their clothes and shouted, “We too are only men, human like you” (Acts 14:11-15). The same apostles worshipped Jesus, because of what they had seen.',
@@ -76,7 +76,7 @@ export const alawites: Topic = {
     },
     {
       heading: 'Walking with an Alawite friend',
-      keyLine: 'Tell him plainly what you believe, and ask about his own hope.',
+      keyLine: 'With an Alawite friend, listen before you speak, do not probe for secrets, and be honest about the cost of following Christ.',
       body: [
         'Listen before you speak. “Weep with those who weep” (Romans 12:15). Do not treat your friend as a spokesman for the Assad government, and do not ask him to account for it.',
         'Do not probe for secrets, and do not tell him what he “really” believes on the strength of a book. Tell him plainly what you believe, and ask about his own hope.',

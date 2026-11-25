@@ -8,10 +8,10 @@ export const gospelOfGrace: Topic = {
   lesson: [
     {
       heading: 'Salvation in Islam',
-      keyLine: 'But no Muslim can know in advance which way the scales will fall, or whether that mercy will be given.',
+      keyLine: 'In Islam deeds are weighed and no one is saved without Allah’s mercy, yet no Muslim today can know in advance if that mercy will be given.',
       body: [
         'On Judgment Day deeds are weighed: “those whose scales are heavy — it is they who will be the successful. And those whose scales are light — they are the ones who will lose themselves” (Quran 7:8-9; 23:102-103).',
-        'Muslims stress that Allah is merciful, and that no one is saved without his mercy. But no Muslim can know in advance which way the scales will fall, or whether that mercy will be given. Muhammad himself said, “The deeds of anyone of you will not save you,” and when asked “Even you?”, replied, “No, even I (will not be saved) unless and until Allah bestows His Mercy on me” (Sahih al-Bukhari 6463; Sahih Muslim 2816).',
+        'Muslims stress that Allah is merciful, and that no one is saved without his mercy. But no Muslim today can know in advance which way the scales will fall, or whether that mercy will be given. Muhammad himself said, “The deeds of anyone of you will not save you,” and when asked “Even you?”, replied, “No, even I (will not be saved) unless and until Allah bestows His Mercy on me” (Sahih al-Bukhari 6463; Sahih Muslim 2816).',
         'He also said, “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243; see Quran 46:9). Muslims reply that Quran 48:2 later promised him forgiveness, but that promise was to Muhammad. The verses that follow promise the gardens to believers in general, and Quran 19:71 says “there is none of you except he will come to it”, which many Muslims understand as every person passing over Hell before the God-fearing are saved (Quran 19:72).',
       ],
       references: ['Quran 7:8-9', 'Quran 23:102-103', 'Sahih al-Bukhari 6463', 'Sahih Muslim 2816', 'Sahih al-Bukhari 1243', 'Quran 46:9', 'Quran 48:2', 'Quran 19:71-72'],
@@ -27,7 +27,7 @@ export const gospelOfGrace: Topic = {
     },
     {
       heading: 'The gospel answer',
-      keyLine: 'At the cross God acted “so as to be just and to justify the one who has faith in Jesus” (Romans 3:26).',
+      keyLine: 'God himself provides the payment at the cross, so salvation is a gift received through faith, and it brings assurance.',
       body: [
         'God himself provides the payment. “God proves His love for us in this: While we were still sinners, Christ died for us” (Romans 5:8). At the cross God acted “so as to be just and to justify the one who has faith in Jesus” (Romans 3:26).',
         'Salvation is a gift: “it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God, not by works” (Ephesians 2:8-9).',
@@ -37,9 +37,9 @@ export const gospelOfGrace: Topic = {
     },
     {
       heading: 'God’s love',
-      keyLine: 'Many Muslims have been drawn to Christ not first by an argument, but by this love and by the assurance it brings.',
+      keyLine: 'The Bible says God loved us first, while we were his enemies, and many Muslims have been drawn to Christ by that love.',
       body: [
-        'The Quran speaks of Allah loving those who follow the Messenger (Quran 3:31) and the doers of good (Quran 2:195), and not liking the disbelievers (Quran 3:32). In these verses his love is a response to obedience.',
+        'The Quran calls Allah the Loving One (al-Wadud), and speaks of him loving those who follow the Messenger (Quran 3:31) and the doers of good (Quran 2:195), and not liking the disbelievers (Quran 3:32). In these verses his love is a response to obedience.',
         'The Bible says “God is love” (1 John 4:8) and that he loved us first, while we were his enemies (Romans 5:8-10; 1 John 4:10, 19). “For God so loved the world that He gave His one and only Son” (John 3:16).',
         'Many Muslims have been drawn to Christ not first by an argument, but by this love and by the assurance it brings. Share it personally.',
       ],
@@ -132,7 +132,7 @@ export const gospelOfGrace: Topic = {
               followUps: [
                 {
                   reply: 'Muslims have a promise too. Allah promises gardens to those who believe and do righteous deeds, “and who is more truthful than Allah in statement” (Quran 4:122).',
-                  answer: 'The promise is conditional on your deeds proving enough and on Allah’s will, and no Muslim can know either in advance. The Quran warns that “no one feels secure from the plan of Allah except the losing people” (Quran 7:99). Muhammad said a man may do the deeds of the people of Paradise until he is a cubit or two away from it, and then what was written for him overtakes him, so that he does the deeds of the people of the Fire and enters it (Sahih al-Bukhari 6594). That is why Muslim teachers say a believer must live between fear and hope. Jesus says the one who believes “has eternal life and will not come under judgment” (John 5:24).',
+                  answer: 'The promise is conditional on your deeds proving enough and on Allah’s will, and no Muslim today can know either in advance. The Quran warns that “no one feels secure from the plan of Allah except the losing people” (Quran 7:99). Muhammad said a man may do the deeds of the people of Paradise until he is a cubit or two away from it, and then what was written for him overtakes him, so that he does the deeds of the people of the Fire and enters it (Sahih al-Bukhari 6594). That is why Muslim teachers say a believer must live between fear and hope. Jesus says the one who believes “has eternal life and will not come under judgment” (John 5:24).',
                 },
               ],
             },
@@ -140,7 +140,7 @@ export const gospelOfGrace: Topic = {
         },
         {
           reply: 'We are not without hope. Allah says, “do not despair of the mercy of Allah. Indeed, Allah forgives all sins” (Quran 39:53).',
-          answer: 'That is a call to repent, and I respect every Muslim who takes sin seriously enough to hear it. But hope is not the same as knowing. The Quran also says Allah forgives what is less than idolatry “for whom He wills” (Quran 4:48), and though Muslims are taught that God accepts sincere repentance, no one is told whether he is among them. Even Muhammad said he did not know what Allah would do with him (Sahih al-Bukhari 1243). The gospel gives a promise that rests on a finished work, written “so that you may know that you have eternal life” (1 John 5:13).',
+          answer: 'That is a call to repent, and I respect every Muslim who takes sin seriously enough to hear it. But hope is not the same as knowing. The Quran also says Allah forgives what is less than idolatry “for whom He wills” (Quran 4:48), and though Muslims are taught that God accepts sincere repentance, no one is told whether he is among them. Before the promise of Quran 48:2, even Muhammad said he did not know what Allah would do with him (Sahih al-Bukhari 1243). The gospel gives a promise that rests on a finished work, written “so that you may know that you have eternal life” (1 John 5:13).',
           followUps: [
             {
               reply: 'The Prophet said that whoever dies believing there is no god but Allah will enter Paradise, even if he has committed adultery and theft (Sahih al-Bukhari 5827). That is assurance.',
@@ -168,7 +168,7 @@ export const gospelOfGrace: Topic = {
               followUps: [
                 {
                   reply: 'The real followers of Jesus were the Jerusalem believers under James, and they were “zealous for the law” (Acts 21:20). Paul was the one who threw the law away.',
-                  answer: 'Jewish believers went on keeping their customs, and Paul joined them in a temple vow (Acts 21:23-26). But in that same passage James repeats that Gentile believers are not bound by the law of Moses (Acts 21:25). That ruling was first given by Peter and James at the Jerusalem council (Acts 15:10-11, 19). So the decision came from Jesus’ own disciples. And Islam does not keep that law either: the Torah forbids camel meat (Leviticus 11:4), which Muslims eat.',
+                  answer: 'Jewish believers went on keeping their customs, and Paul joined them in a temple vow (Acts 21:23-26). But in that same passage James and the elders repeat the council’s decision for Gentile believers, which lays only four abstentions on them (Acts 21:25). That ruling was first given by Peter and James at the Jerusalem council (Acts 15:10-11, 19). So the decision came from Jesus’ own disciples. And Islam does not keep that law either: the Torah forbids camel meat (Leviticus 11:4), which Muslims eat.',
                 },
               ],
             },

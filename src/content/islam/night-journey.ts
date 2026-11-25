@@ -8,7 +8,7 @@ export const nightJourney: Topic = {
   lesson: [
     {
       heading: 'What Muslims believe',
-      keyLine: 'Many Muslims mark the night every year, and most count it among the greatest honours given to their prophet.',
+      keyLine: 'Muslims believe Muhammad was carried one night from Mecca to Jerusalem and up through the seven heavens into God’s presence.',
       body: [
         'Muslims believe that one night, a year or so before the move to Medina, Muhammad was carried from Mecca to Jerusalem and from there up through the seven heavens into the presence of God, and was back in Mecca before morning. The journey to Jerusalem is called the Isra and the ascent the Mi‘raj. Many Muslims mark the night every year, and most count it among the greatest honours given to their prophet.',
         'The story matters for practice as well as for devotion. According to the hadith, it was on this night that the five daily prayers were laid down. It also underlies Muslim reverence for Jerusalem, which the next lesson takes up.',
@@ -17,7 +17,7 @@ export const nightJourney: Topic = {
     },
     {
       heading: 'What the Quran says',
-      keyLine: 'So the Quran itself offers a night journey between two places of worship, a vision at a heavenly tree, and a “sight” that tested people’s faith.',
+      keyLine: 'The Quran gives the Night Journey one verse and does not name Jerusalem or mention an ascent; the rest comes from the hadith and the biography.',
       body: [
         'The Quran gives the journey one verse: “Exalted is He who took His Servant by night from al-Masjid al-Haram to al-Masjid al-Aqsa, whose surroundings We have blessed, to show him of Our signs” (Quran 17:1). It does not name Jerusalem, describe the journey, or mention an ascent.',
         'Muslims connect the ascent with another passage, which says that the Prophet saw a figure “At the Lote Tree of the Utmost Boundary” and “saw of the greatest signs of his Lord” (Quran 53:13-18). That passage does not say when or how he came to be there. A third verse, in the same surah as the journey, speaks of “the sight which We showed you” as a test for the people (Quran 17:60).',
@@ -27,7 +27,7 @@ export const nightJourney: Topic = {
     },
     {
       heading: 'What the hadith add',
-      keyLine: 'The accounts do not agree in their details.',
+      keyLine: 'The hadith add the ride to Jerusalem, the seven heavens and the giving of the prayers, and the accounts do not agree in their details.',
       body: [
         'The fullest accounts are in the two most trusted collections. In one, Muhammad says that he was brought al-Buraq, a white animal larger than a donkey and smaller than a mule, rode it to Jerusalem, and “tethered it to the ring used by the prophets” (Sahih Muslim 162). He prayed there, was offered wine and milk and chose the milk, and was then taken up by Gabriel through seven heavens. At each gate Gabriel was asked who was with him. In each heaven Muhammad met earlier prophets: Adam in the first, Jesus and John in the second, then Joseph, Idris, Aaron, Moses, and Abraham in the seventh.',
         'Beyond the seventh heaven he was commanded fifty prayers a day for his community. On the way down Moses told him, “Return to your Lord and beg for reduction” (Sahih Muslim 162), because the people would not bear it. Muhammad went back again and again until the number stood at five, and then said, “I returned to my Lord until I felt ashamed before Him” (Sahih Muslim 162).',
@@ -37,7 +37,7 @@ export const nightJourney: Topic = {
     },
     {
       heading: 'In the body or in a vision?',
-      keyLine: 'Early Muslims did not agree which it was.',
+      keyLine: 'Early Muslims did not agree whether the Night Journey was a bodily journey or a vision.',
       body: [
         'Most Sunni scholars teach that Muhammad travelled in his body and awake. The sources are less sure. One account in al-Bukhari says that he was “in a state midway between sleep and wakefulness” when it began (Sahih al-Bukhari 3207). Another ends with the words that he “woke while he was in the Sacred Mosque” (Sahih al-Bukhari 7517). That account is unusual in other ways: it opens before his call and puts Moses, not Abraham, in the seventh heaven. The Quran’s word in 17:60, translated “sight”, is the ordinary Arabic word for a vision seen in a dream. Commentators do not all apply that verse to the Night Journey, and Ibn Abbas is quoted as saying that it was a sight seen with the eye (Sahih al-Bukhari 4716).',
         'The earliest surviving biography sets the two views side by side. Ibn Ishaq quotes Muhammad’s wife Aisha as saying that his body stayed where it was and that God took his spirit by night, and he quotes the later caliph Mu‘awiya as calling it a true vision from God. Ibn Ishaq’s own comment is that, asleep or awake, it was true.',
@@ -47,7 +47,7 @@ export const nightJourney: Topic = {
     },
     {
       heading: 'A sign that nobody saw',
-      keyLine: 'Nobody went with Muhammad and nobody saw him go.',
+      keyLine: 'Nobody saw Muhammad go, so the only reason to believe the Night Journey is that Muhammad said so.',
       body: [
         'Nobody went with Muhammad and nobody saw him go. By the hadith’s own account the people of Mecca did not believe him: “When the people of Quraish did not believe me” is how he begins one report (Sahih al-Bukhari 3886). Ibn Ishaq adds that many who had become Muslims gave up their faith over it. What is offered as confirmation is that God showed him Jerusalem so that he could describe it to his questioners (Sahih al-Bukhari 3886; Sahih Muslim 172). We are not told what he said about Jerusalem. Ibn Ishaq adds that he described caravans on the road and that the details were checked. All these reports are part of the tradition written down generations later.',
         'The Quran makes this harder, not easier. In the same surah as the journey, the unbelievers demand signs: that he make a spring gush out, or bring God and the angels, “or you ascend into the sky”. The answer given is: “Exalted is my Lord! Was I ever but a human messenger” (Quran 17:93). Elsewhere, when they ask why no signs are sent down to him, he is told to say, “The signs are only with Allah, and I am only a clear warner” (Quran 29:50). The next verse asks whether the Book is not enough for them (Quran 29:51). Muslims reply that the Night Journey was never offered as a sign to unbelievers, since the Quran says it was to show him God’s signs.',
@@ -67,7 +67,7 @@ export const nightJourney: Topic = {
     },
     {
       heading: 'How to use this',
-      keyLine: 'Jokes about a flying horse will end the conversation and they prove nothing',
+      keyLine: 'Do not mock the Night Journey; ask how we know it happened, and point to the many witnesses of Jesus’ resurrection.',
       body: [
         'Do not mock. Jokes about a flying horse will end the conversation and they prove nothing: Christians believe that Elijah was taken up in a whirlwind and that Jesus ascended. The question is never whether God could do such a thing. The question is how we know that he did.',
         'On that question the contrast with the gospel is plain. Jesus’ resurrection had many witnesses. He appeared to more than five hundred people at once, most of whom were still alive when Paul wrote (1 Corinthians 15:6). His ascension was seen: “they watched as He was taken up” (Acts 1:9). Peter says, “God has raised this Jesus to life, to which we are all witnesses” (Acts 2:32). Paul did have a private vision of heaven, and he refused to build anything on it, “so no one will credit me with more than he sees in me or hears from me” (2 Corinthians 12:6).',
@@ -129,7 +129,7 @@ export const nightJourney: Topic = {
       id: 'nj-3',
       objection: 'It was a real journey in the body. Muslims have always believed that.',
       response:
-        'Most Muslims do believe that, but the earliest sources show that it was disputed from the start. Ibn Ishaq, whose biography is the earliest that survives, quotes Aisha as saying that Muhammad’s body stayed where it was and that God took his spirit by night, and he quotes Mu‘awiya as calling it a true vision. Al-Bukhari has one account in which it begins “in a state midway between sleep and wakefulness” (Sahih al-Bukhari 3207), and another which ends by saying that he woke in the Sacred Mosque (Sahih al-Bukhari 7517). The verse many commentators apply to it, 17:60, uses the usual word for something seen in a dream. I am not telling you which view is right. I am pointing out that early Muslims, Aisha among them, did not agree on whether he left his bed.',
+        'Most Muslims do believe that, but the earliest sources show that it was disputed from the start. Ibn Ishaq, whose biography is the earliest that survives, quotes Aisha as saying that Muhammad’s body stayed where it was and that God took his spirit by night, and he quotes Mu‘awiya as calling it a true vision. Al-Bukhari has one account in which it begins “in a state midway between sleep and wakefulness” (Sahih al-Bukhari 3207), and another which ends by saying that he woke in the Sacred Mosque (Sahih al-Bukhari 7517). The verse many commentators apply to it, 17:60, uses the usual word for something seen in a dream. I am not telling you which view is right. I am pointing out that early Muslims, Aisha among them as Ibn Ishaq reports her, did not agree on whether he left his bed.',
       keyPoints: [
         'Ibn Ishaq records Aisha and Mu‘awiya as treating it as a vision.',
         'Two accounts in al-Bukhari speak of sleep and of waking (3207, 7517).',
@@ -165,7 +165,7 @@ export const nightJourney: Topic = {
       id: 'nj-5',
       objection: 'That night all the prophets, Jesus among them, prayed behind Muhammad. He is the leader and seal of them all.',
       response:
-        'The hadith says that he saw Moses, Jesus and Abraham among the prophets, and adds: “When the time of prayer came I led them” (Sahih Muslim 172). And it places Jesus in the second heaven, below Joseph, Aaron, Moses and Abraham. I can see why that matters to you. But set it beside the New Testament, written in the first century by the apostles and those who learned from them. They say that when he had made purification for sins he “sat down at the right hand of the Majesty on high” (Hebrews 1:3). Stephen, as he died, saw “the Son of Man standing at the right hand of God” (Acts 7:56). Jesus himself said, “No one has ascended into heaven except the One who descended from heaven” (John 3:13). So there are two accounts of where Jesus is. One comes from the first generations of his followers. The other comes from a report about one night, six hundred years later, with no witness. I have to go with the earlier witness.',
+        'The hadith says that he saw Moses, Jesus and Abraham among the prophets, and adds: “When the time of prayer came I led them” (Sahih Muslim 172). And another hadith places Jesus in the second heaven, below Joseph, Aaron, Moses and Abraham. I can see why that matters to you. But set it beside the New Testament, written in the first century by the apostles and those who learned from them. They say that when he had made purification for sins he “sat down at the right hand of the Majesty on high” (Hebrews 1:3). Stephen, as he died, saw “the Son of Man standing at the right hand of God” (Acts 7:56). Jesus himself said, “No one has ascended into heaven except the One who descended from heaven” (John 3:13). So there are two accounts of where Jesus is. One comes from the first generations of his followers. The other comes from a report about one night, six hundred years later, with no witness. I have to go with the earlier witness.',
       keyPoints: [
         'The hadith puts Jesus in the second heaven and has him pray behind Muhammad.',
         'The New Testament puts Jesus at God’s right hand (Hebrews 1:3; Acts 7:56).',

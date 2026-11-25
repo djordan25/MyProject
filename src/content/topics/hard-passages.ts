@@ -8,7 +8,7 @@ export const hardPassages: Topic = {
   lesson: [
     {
       heading: 'Start by admitting it is hard',
-      keyLine: 'These passages are disturbing, and pretending otherwise costs you your credibility.',
+      keyLine: 'Passages about slaughter and slavery are disturbing, and pretending otherwise costs you your credibility.',
       body: [
         'These passages are disturbing, and pretending otherwise costs you your credibility. Thoughtful Christians have wrestled with them for centuries. You can say, “That troubles me too. Here is how I understand it,” and still give a real answer.',
         'Notice also what the objection assumes: that slaughter and slavery are really wrong, for everyone, always. That is a moral conviction the Bible itself did most to plant, and one that is hard to justify if there is no God (see The Existence of God). The critic is standing on Christian ground to make the criticism.',
@@ -16,7 +16,7 @@ export const hardPassages: Topic = {
     },
     {
       heading: 'The conquest of Canaan: what the text says',
-      keyLine: 'It was judgment, not land-grabbing or racial hatred.',
+      keyLine: 'The conquest of Canaan is presented as God’s judgment on wickedness, after long patience, and it was limited.',
       body: [
         'It was judgment, not land-grabbing or racial hatred. God told Abraham his descendants would wait four hundred years, “for the iniquity of the Amorites is not yet complete” (Genesis 15:16). Israel was told plainly that it was “because of their wickedness”, not Israel’s goodness (Deuteronomy 9:4-5). That wickedness included burning children as sacrifices (Deuteronomy 12:31).',
         'God was patient first. Centuries passed between his word to Abraham and the judgment. God says elsewhere that when a nation turns from evil he relents (Jeremiah 18:7-8), and that he takes no pleasure in the death of the wicked (Ezekiel 18:23). Nineveh repented and was spared, to Jonah’s annoyance (Jonah 4:11).',
@@ -28,7 +28,7 @@ export const hardPassages: Topic = {
     },
     {
       heading: 'How to think about it',
-      keyLine: 'Christians read the Old Testament through Jesus.',
+      keyLine: 'Christians read the Old Testament through Jesus, and the cross is the clearest picture of what God is like.',
       body: [
         'If God exists, he is the giver of every life and has the right to judge. Every death is, in the end, in his hands. The question is not whether he may judge but whether he was just in doing so, and the text says he waited centuries and judged real evil.',
         'Many scholars argue that the conquest accounts use the sweeping language of ancient war reports (“left no survivors”), while the same books go on to describe those peoples still living in the land. The commands speak of driving the nations out as well as of destroying them. This softens the picture but does not remove the difficulty, so do not lean on it as if it did.',
@@ -38,7 +38,7 @@ export const hardPassages: Topic = {
     },
     {
       heading: 'Slavery: what the Bible actually says',
-      keyLine: 'These laws regulated a practice that existed everywhere in the ancient world; they did not invent it or call it good.',
+      keyLine: 'The law of Moses regulated slavery, which existed everywhere in the ancient world; it did not invent it or call it good.',
       body: [
         'The word “slave” makes us think of the Atlantic slave trade: people kidnapped, sold as property for life, on the basis of race. The law of Moses made the kidnapping on which that trade depended a capital crime: “Whoever kidnaps another man must be put to death, whether he sells him or the man is found in his possession” (Exodus 21:16).',
         'Much servitude in ancient Israel was debt service. A person who could not pay worked off the debt, and “in the seventh year you must set him free”, and not empty-handed (Deuteronomy 15:12-15). A servant permanently injured by his master went free (Exodus 21:26-27). A slave who fled to Israel for refuge was not to be handed back (Deuteronomy 23:15-16). Israel was to remember that they had been slaves themselves.',
@@ -49,7 +49,7 @@ export const hardPassages: Topic = {
     },
     {
       heading: 'The seeds of abolition',
-      keyLine: 'The Bible begins with every human being made “in the image of God” (Genesis 1:27), which is the root of human equality.',
+      keyLine: 'Every human being is made in God’s image, and Christians arguing from the Bible largely led the movement to abolish slavery.',
       body: [
         'The Bible begins with every human being made “in the image of God” (Genesis 1:27), which is the root of human equality.',
         'The New Testament was written to small churches with no power to change Roman law, in an empire where slaves were a large part of the population. It did something more radical than a decree: it placed master and slave side by side as brothers. Paul lists “slave traders” among the lawless (1 Timothy 1:9-10), tells masters they have a Master in heaven (Colossians 4:1), declares that in Christ “there is neither Jew nor Greek, slave nor free” (Galatians 3:28), and sends the runaway Onesimus back to his owner “no longer as a slave, but better than a slave, as a beloved brother” (Philemon 1:15-16).',
@@ -139,7 +139,7 @@ export const hardPassages: Topic = {
           followUps: [
             {
               reply: 'He managed to forbid shellfish, mixed cloth and gathering sticks on the Sabbath. A God who can legislate about fabric can write one line against owning people.',
-              answer: 'I feel the force of that, but look at what he did forbid. Kidnapping a person for sale carried death (Exodus 21:16). A runaway slave was not to be sent back but allowed to settle wherever he chose (Deuteronomy 23:15-16), a law with no parallel in the other codes of the time, though most scholars think it meant slaves escaping from abroad. In a world with no welfare and no bankruptcy courts, working off a debt was how the destitute stayed alive. The law fenced the practice in and pointed beyond it, but I agree that it stops short of abolition.',
+              answer: 'I feel the force of that, but look at what he did forbid. Kidnapping a person for sale carried death (Exodus 21:16). A runaway slave was not to be sent back but allowed to settle wherever he chose (Deuteronomy 23:15-16), a law with no known parallel in the other codes of the time, though most scholars think it meant slaves escaping from abroad. In a world with no welfare and no bankruptcy courts, working off a debt was how the destitute stayed alive. The law fenced the practice in and pointed beyond it, but I agree that it stops short of abolition.',
               followUps: [
                 {
                   reply: 'Leviticus 25 lets Israelites buy foreigners, keep them for life and leave them to their children as property. Exodus 21 says a master who beats his slave goes unpunished if the slave survives a day or two, “since the servant is his property”. That is chattel slavery.',

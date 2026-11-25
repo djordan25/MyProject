@@ -8,7 +8,7 @@ export const resurrection: Topic = {
   lesson: [
     {
       heading: 'Why the resurrection matters',
-      keyLine: 'Christianity stands or falls on the resurrection (1 Corinthians 15:14-17).',
+      keyLine: 'Christianity stands or falls on the resurrection, and that makes it something we can test.',
       body: [
         'Christianity stands or falls on the resurrection (1 Corinthians 15:14-17). That makes it testable: if Jesus rose, his claims are vindicated.',
       ],
@@ -16,7 +16,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'The minimal facts',
-      keyLine: 'Gary Habermas popularised an approach using only facts that are well-evidenced and accepted by the vast majority of critical scholars, including sceptics',
+      keyLine: 'The minimal facts approach uses only facts that are well-evidenced and accepted by the vast majority of critical scholars.',
       body: [
         'Gary Habermas popularised an approach using only facts that are well-evidenced and accepted by the vast majority of critical scholars, including sceptics:',
       ],
@@ -30,7 +30,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'Weighing the explanations',
-      keyLine: 'The resurrection explains all the facts — and, given that God exists, it is not ruled out in advance.',
+      keyLine: 'Natural alternatives each explain one or two of the facts at best, while the resurrection explains them all.',
       body: [
         'Any theory has to explain all the facts. Natural alternatives each explain one or two at best:',
         'Hallucination: hallucinations are normally individual, not group experiences, and wouldn’t empty a tomb or convert hostile sceptics like Paul and James.',
@@ -52,7 +52,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'What changed the disciples?',
-      keyLine: 'The explanation given for each is the same: they had seen Jesus alive.',
+      keyLine: 'The disciples went from hiding in fear to preaching boldly, and the explanation given is that they had seen Jesus alive.',
       body: [
         'Two days after the crucifixion the disciples were behind locked doors, afraid (John 20:19). Weeks later the same men were preaching in the temple courts, and told the council that had killed Jesus, “We must obey God rather than men” (Acts 5:29). The authorities noticed their boldness (Acts 4:13).',
         'Devout Jews began meeting to worship on the first day of the week, the day he rose. James, who had not believed in his brother, became a leader of the church. Paul turned from hunting Christians to planting churches.',
@@ -62,7 +62,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'What it means',
-      keyLine: 'The resurrection is evidence, but it is more than a proof.',
+      keyLine: 'The resurrection means death is not the end, the sacrifice for sin was accepted, and Jesus is alive and can be known now.',
       body: [
         'The resurrection is evidence, but it is more than a proof. It is the beginning of the remaking of the world. Christ is “the firstfruits of those who have fallen asleep” (1 Corinthians 15:20): what happened to him will happen to all who belong to him.',
         'It means death is not the end, that the sacrifice for sin was accepted, and that Jesus is alive and can be known now. Peter calls it “a living hope through the resurrection of Jesus Christ from the dead” (1 Peter 1:3). When you make the case, do not stop at the evidence. Say what it means.',
@@ -80,7 +80,7 @@ export const resurrection: Topic = {
           followUps: [
             {
               reply: 'Group experiences are documented. Crowds have reported seeing the Virgin Mary, and mass hysteria is a recognised thing. A small, frightened, grieving sect is exactly where you would expect it.',
-              answer: 'Where crowds report visions, they have gathered expecting one, and what they say they saw usually differs from person to person. The disciples were not expecting this: Jews looked for a resurrection of everyone at the end of the age, not of one man in the middle of history, and when the women brought the news the others “did not believe” them (Luke 24:11). The appearances were also spread over weeks, to individuals and groups, indoors and outdoors, with conversation and shared meals (Acts 1:3; 10:40-41). That is a different thing from one excited crowd on one occasion, and the tomb was still empty.',
+              answer: 'Where crowds report visions, they have mostly gathered expecting one, and what they say they saw usually differs from person to person. The disciples were not expecting this: Most Jews looked for a resurrection of everyone at the end of the age, not of one man in the middle of history, and when the women brought the news the others “did not believe” them (Luke 24:11). The appearances were also spread over weeks, to individuals and groups, indoors and outdoors, with conversation and shared meals (Acts 1:3; 10:40-41). That is a different thing from one excited crowd on one occasion, and the tomb was still empty.',
               followUps: [
                 {
                   reply: 'Paul’s own experience was a vision: a light and a voice on the road. He lists it beside the others with the same word, “appeared”. So the earliest witness is telling us that all of the appearances were visions of that kind.',
@@ -260,7 +260,7 @@ export const resurrection: Topic = {
         },
         {
           reply: 'Kirsopp Lake, who proposed this theory, thought the young man at the tomb was trying to tell the women they had come to the wrong place: “He is not here. See the place where they laid him.” They took fright and ran.',
-          answer: 'Lake has to cut the middle out of the sentence. In Mark the young man says, “He has risen! He is not here! See the place where they put Him” (Mark 16:6-8). The theory also needs everybody to stay confused for good: the women, the disciples, Joseph who owned the tomb, and the authorities who wanted the preaching stopped. And it gives no reason why anyone then saw Jesus alive. Lake offered it in 1907 as no more than a suggestion, and very few scholars have taken it up.',
+          answer: 'Lake has to cut the key words out of the sentence. In Mark the young man says, “He has risen! He is not here! See the place where they put Him” (Mark 16:6-8). The theory also needs everybody to stay confused for good: the women, the disciples, Joseph who owned the tomb, and the authorities who wanted the preaching stopped. And it gives no reason why anyone then saw Jesus alive. Lake offered it in 1907 as no more than a suggestion, and very few scholars have taken it up.',
         },
       ],
     },

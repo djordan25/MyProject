@@ -8,7 +8,7 @@ export const havingTheConversation: Topic = {
   lesson: [
     {
       heading: 'What apologetics is for',
-      keyLine: 'It is to remove obstacles so that a person can consider Jesus.',
+      keyLine: 'The aim of apologetics is to remove obstacles so that a person can consider Jesus, and love comes first.',
       body: [
         'The charter verse has three parts: “in your hearts sanctify Christ as Lord. Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But respond with gentleness and respect” (1 Peter 3:15). First the heart, then the answer, then the manner.',
         'The aim is not to win. It is to remove obstacles so that a person can consider Jesus. Paul “reasoned with them from the Scriptures, explaining and proving that the Christ had to suffer and rise from the dead” (Acts 17:2-3): reasoning, with Jesus as the destination.',
@@ -18,7 +18,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Listen first',
-      keyLine: 'Often the stated objection is not the real one.',
+      keyLine: 'Listen before you answer, because the stated objection is often not the real one.',
       body: [
         '“He who answers a matter before he hears it—this is folly and disgrace to him” (Proverbs 18:13). Most people’s objections are not the ones in the books. Find out what this person actually thinks, and why.',
         'Be “quick to listen, slow to speak, and slow to anger” (James 1:19). Often the stated objection is not the real one. Behind “religion causes wars” may be a harsh father, a church that failed them, or a grief. You will only find that out by listening.',
@@ -47,7 +47,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Start where they are',
-      keyLine: 'Find the point of contact: a sense that the world is not as it should be, a longing for justice, the wonder of a new child, a fear of death.',
+      keyLine: 'As Paul did in Athens, find the point of contact, begin there and walk towards Jesus.',
       body: [
         'In Athens, Paul did not begin with Moses. He began with what he had seen in their own city: “I even found an altar with this inscription: TO AN UNKNOWN GOD. Therefore what you worship as something unknown, I now proclaim to you” (Acts 17:22-23). With Jews he began from the Scriptures; with pagans, from creation and their own poets.',
         'Find the point of contact: a sense that the world is not as it should be, a longing for justice, the wonder of a new child, a fear of death. Begin there and walk towards Jesus.',
@@ -56,7 +56,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Get to the gospel',
-      keyLine: 'It is possible to spend an hour on the age of the earth and never mention Jesus.',
+      keyLine: 'Keep asking how to get from the present topic to Jesus, and be ready to say the gospel in a minute.',
       body: [
         'It is possible to spend an hour on the age of the earth and never mention Jesus. Keep asking yourself how to get from here to him.',
         'Be ready to say the gospel in a minute: God made us and we have turned from him; we cannot repair that ourselves; God came in Jesus, who died for our sins and rose again; and he offers forgiveness and new life to anyone who turns and trusts him.',
@@ -384,7 +384,7 @@ export const havingTheConversation: Topic = {
   ],
   furtherReading: [
     'Gregory Koukl — Tactics: A Game Plan for Discussing Your Christian Convictions',
-    'Rebecca Manley Pippert — Out of the Saltshaker',
+    'Rebecca Manley Pippert — Out of the Saltshaker and into the World',
     'Randy Newman — Questioning Evangelism',
   ],
 };

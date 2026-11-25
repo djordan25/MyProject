@@ -8,7 +8,7 @@ export const quranReadings: Topic = {
   lesson: [
     {
       heading: 'What your friend has been told',
-      keyLine: 'But the simple form of the claim is not what Muslim scholarship teaches.',
+      keyLine: 'Muslim scholars have always taught that the Quran is recited in several authorised readings, not one text identical to the letter.',
       body: [
         'Many Muslims grow up hearing that there is one Quran, the same in every mosque and every country, down to the last letter. The verse most often quoted is “Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9). The sameness of the text is then offered as proof that the book is from God, and set against a Bible said to exist in many conflicting versions.',
         'There is real substance behind the confidence. The written consonants of the Quran have been remarkably stable since the first century of Islam, and a Muslim in Jakarta and a Muslim in Istanbul will very probably open the same printed text. Say so plainly.',
@@ -18,7 +18,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'Seven ahruf: what the hadith say',
-      keyLine: 'What were the seven? Muslim scholars have never agreed.',
+      keyLine: 'The hadith say the Quran was revealed in seven ways, and Muslim scholars have never agreed what the seven were.',
       body: [
         'The starting point is a hadith. Umar heard another companion, Hisham bin Hakim, reciting Surat al-Furqan in a way he had not been taught, and dragged him to Muhammad. Muhammad heard each man recite and said of each, “It was revealed in this way” (Sahih al-Bukhari 4992). He then explained that the Quran had been revealed to be recited in seven ways. The Arabic word is ahruf (singular harf), and it is hard to translate: “ways”, “modes”, “styles” and “dialects” are all used.',
         'Other reports agree. Muhammad said that Gabriel recited to him in one way, and that he kept asking for more until Gabriel recited “in seven different ways” (Sahih al-Bukhari 4991). In another report he pleads that his people cannot manage one way only, and is told at last that in whichever of the seven they recite, “they would be right” (Sahih Muslim 821). The reason given is ease for the people.',
@@ -28,7 +28,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'From many reciters to seven, then ten',
-      keyLine: 'So when a Muslim says “the Quran”, the text in his hand is one of these transmissions.',
+      keyLine: 'Sunni scholars recognise ten readings, each taught in two transmissions, and any printed Quran follows one of them.',
       body: [
         'In the first centuries the Quran was taught by reciters in the main cities, and their recitations differed. Early in the tenth century a Baghdad scholar, Ibn Mujahid (d. 936), wrote a book setting out the readings of seven of them: Nafi‘ of Medina, Ibn Kathir of Mecca, Ibn ‘Amir of Damascus, Abu ‘Amr of Basra, and ‘Asim, Hamza and al-Kisa’i of Kufa. These men had died between about 736 and 804, so they stood several generations after Muhammad. Ibn Mujahid did not explain why he chose seven. His choice had the support of the Abbasid government, and within about half a century it was largely accepted.',
         'Readers outside the seven kept their followers, and three more were in time given the same standing: Abu Ja‘far of Medina, Ya‘qub of Basra and Khalaf of Kufa. Their full acceptance is associated above all with Ibn al-Jazari. Since then Sunni scholars have recognised ten readings. Four further readings are known, but most authorities class them as irregular and do not allow them in recitation.',
@@ -38,7 +38,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'Two different things: the ahruf and the readings',
-      keyLine: 'On the majority view, the ten readings are what remains of the seven ahruf within the limits of Uthman’s script.',
+      keyLine: 'The seven ways of the hadith are not the seven readings, and on the majority view some permitted wordings are no longer recited.',
       body: [
         'It is easy to assume that the seven ahruf of the hadith are the seven readings. Muslim scholars say firmly that they are not. Ibn al-Jazari pointed out that the seven readers had not been born when the Prophet spoke, and that Ibn Mujahid was the first to gather those seven together. If your friend treats the two as the same, his own scholars correct him.',
         'How, then, do the ahruf relate to the text Uthman sent out to the provinces (Sahih al-Bukhari 4987)? Ibn al-Jazari calls this a major question and records two views. Some scholars held that Uthman’s copies contain all seven ahruf, because the community could not have let any part of the revelation go. The majority held that the copies keep only as much of the seven as the bare consonantal script, the rasm, can carry, and that this includes everything in the Prophet’s final review of the Quran with Gabriel. Al-Tabari (d. 923) held that reciting in seven had been a permission and never a duty, so the companions were free to agree on one harf and leave the others.',
@@ -49,7 +49,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'How Hafs came to fill the shelves',
-      keyLine: 'So the uniformity most Muslims see is real, and it is recent in its present form.',
+      keyLine: 'The uniformity most Muslims see is real, but in its present form it is recent and owes much to an empire and a printed edition.',
       body: [
         'For centuries different regions used different readings. Nafi‘’s reading took over North Africa and Muslim Spain. Abu ‘Amr’s is reported as dominant in the Hijaz, Syria and Yemen from the eleventh century. Warsh was widespread in Egypt until about the sixteenth century. The great change came in that century, when the Ottoman empire adopted Hafs from ‘Asim, and that transmission became by far the most widespread.',
         'Print carried the process further. An edition prepared in Cairo by a committee under the chief of Egypt’s Quran reciters, and usually dated 1924, was issued by the Egyptian government. It followed Hafs, and it became the model for printed Qurans in much of the world. Its editors did not work from ancient manuscripts. They worked from medieval Muslim handbooks that describe how Uthman’s copies were spelled. Van Putten judges the result a fairly accurate picture of seventh-century spelling.',
@@ -59,7 +59,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'Where the readings differ',
-      keyLine: 'None of these examples changes a doctrine, but each is a place where two printed copies of the Quran do not have the same words.',
+      keyLine: 'Most differences between the readings are of pronunciation, but in some places two printed Qurans do not have the same words.',
       body: [
         'Be honest about proportion first. The great majority of differences are of pronunciation: how long a vowel is held, whether a glottal stop is sounded, how two consonants run together. They do not touch the meaning. Differences of wording are far fewer. Yasin Dutton notes that the index to Ibn Mujahid’s book lists some seven hundred places where the seven readings differ, about forty of them in the written consonants, in a text of roughly 77,000 words. Van Putten speaks of thousands of words affected across the readings. Most of these change the sense slightly or not at all.',
         'Some can be checked by anyone with two printed copies. The verse numbers given here are those of a Hafs copy. Printed Warsh and al-Duri copies count the verses a little differently, so several of these verses carry a number one lower there: if a verse does not seem to match, look at the one before it. In Quran 1:4, Hafs reads maaliki, “owner” or “master” of the Day of Judgment, where Nafi‘ and most of the ten readers have maliki, “king”. In the Hafs text of another verse God gives a command: “And take, [O believers], from the standing place of Abraham a place of prayer” (Quran 2:125). In Nafi‘’s reading, which Warsh and Qalun transmit, the verb is in the past tense: people took it as a place of prayer.',
@@ -70,7 +70,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'The Muslim explanation, and where it strains',
-      keyLine: '“One revelation in several authorised wordings” is a different statement from “one text, identical to the letter”.',
+      keyLine: 'Muslim scholars teach one revelation in several authorised wordings, which is not the same as one text identical to the letter.',
       body: [
         'Muslim scholars have a considered account of all this, and you should be able to give it fairly. Every one of the ten readings, they teach, was recited by the Prophet and came down from him through so many reciters in each generation that error or collusion is ruled out. The term for this is mutawatir. The readers chose among what they had received and invented nothing, and Uthman’s script was written to carry these recitations. The readings may differ in meaning but never contradict one another, and Ibn al-Jazari appealed here to the Quran’s own test: “If it had been from [any] other than Allah, they would have found within it much contradiction” (Quran 4:82). On this account, “one Quran” means one revelation, recited in the ways God authorised.',
         'That account is coherent, and a Christian does not need to show that it is false. Three things sit awkwardly with it. First, it is not the claim most Muslims are given. “One revelation in several authorised wordings” is a different statement from “one text, identical to the letter”. Only the first is what the scholars teach.',
@@ -81,7 +81,7 @@ export const quranReadings: Topic = {
     },
     {
       heading: 'How to use this',
-      keyLine: 'The claim under test is narrower: that perfect, uniform preservation, down to the letter, proves the book divine.',
+      keyLine: 'The readings do not show that the Quran is corrupt, only that letter-perfect sameness cannot prove the book divine.',
       body: [
         'Start by asking. Has your friend ever seen a Quran in the Warsh reading? Many Muslims have not, and some have never heard of the readings. Do not spring it as a trap. Offer it as something his own scholars teach, and suggest that he ask an imam trained in recitation, or compare two printed copies for himself.',
         'Be clear about what you are not saying. You are not saying that the Quran is hopelessly corrupt, or that Muslims cannot know what it says. The readings agree on the overwhelming bulk of the text, and none of the differences overturns a Muslim doctrine. The claim under test is narrower: that perfect, uniform preservation, down to the letter, proves the book divine.',

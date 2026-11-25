@@ -8,7 +8,7 @@ export const problemOfEvil: Topic = {
   lesson: [
     {
       heading: 'Intellectual vs. emotional',
-      keyLine: 'Someone grieving needs compassion before a syllogism (Romans 12:15).',
+      keyLine: 'Listen first, because someone who is grieving needs compassion before an argument.',
       body: [
         'Some people raise evil as a philosophical argument; others are hurting. Listen first. Someone grieving needs compassion before a syllogism (Romans 12:15).',
       ],
@@ -16,14 +16,15 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'The logical problem',
-      keyLine: 'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons',
+      keyLine: 'It is widely agreed, though not by all, that the free will defence answers the logical problem as it was put in the twentieth century.',
       body: [
         'Claim: an all-good, all-powerful God and evil are logically incompatible.',
-        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by many atheist philosophers as well, though not all, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded in 1982 that evil does not show theism to be logically inconsistent, though he still judged that the free will defence itself fails.',
+        'The free will defence (Alvin Plantinga) shows it is possible God has morally sufficient reasons — such as creating free creatures capable of genuine love, which also makes evil possible. It is now widely agreed, by many atheist philosophers as well, though not all, that this answers the logical problem as it was put in the twentieth century. J. L. Mackie, who had pressed that problem, conceded, in a book published in 1982, that evil does not show theism to be logically inconsistent, though he still judged that the free will defence itself fails.',
       ],
     },
     {
       heading: 'The evidential problem',
+      keyLine: 'A finite viewpoint cannot see the whole picture, so we are not in a position to know that God has no good reason for allowing evil.',
       body: [
         'Claim: even if possible, the amount of evil makes God improbable.',
         'Responses: (1) we are not in a position to know God has no good reason — a finite viewpoint can’t see the whole picture (Job 38-42). (2) The other evidence for God must be weighed too. (3) Christianity teaches that this life isn’t the whole story; suffering is temporary compared to eternity (Romans 8:18).',
@@ -32,7 +33,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'Turning the tables',
-      keyLine: 'Christianity uniquely offers a God who enters suffering himself.',
+      keyLine: 'Calling something truly evil assumes an objective moral standard, which points back to God, who entered suffering himself.',
       body: [
         'To call something truly evil assumes an objective moral standard — which points back to God (see the moral argument).',
         'Christianity uniquely offers a God who enters suffering himself. At the cross, God does not explain evil from a distance; he bears it, and promises to end it (Revelation 21:4).',
@@ -41,7 +42,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'What the alternatives offer',
-      keyLine: 'Every view of the world has to say something about suffering, so it is fair to compare answers.',
+      keyLine: 'Of atheism, karma and Christianity, only Christianity takes both the horror of evil and the worth of the sufferer with full seriousness.',
       body: [
         'Every view of the world has to say something about suffering, so it is fair to compare answers.',
         'If there is no God, there is no one to blame and no one to appeal to. Suffering is simply what happens in an indifferent universe, and, though some atheist philosophers dispute this, our sense that it ought not to be so seems to be a feeling with nothing behind it.',
@@ -51,7 +52,7 @@ export const problemOfEvil: Topic = {
     },
     {
       heading: 'What God has done about it',
-      keyLine: 'The Christian answer to suffering is, in the end, a person and an event.',
+      keyLine: 'We are not told why each sorrow was allowed, but the cross shows the reason cannot be that God does not care.',
       body: [
         'The Christian answer to suffering is, in the end, a person and an event. God did not stay at a distance. In Jesus he took on our life, was betrayed, tortured and killed. “Surely He took on our infirmities and carried our sorrows” (Isaiah 53:4).',
         'At the cross he dealt with the evil in us: “He Himself bore our sins in His body on the tree” (1 Peter 2:24). In the resurrection he broke the power of death. And he has promised a day when “there will be no more death or mourning or crying or pain” (Revelation 21:4).',

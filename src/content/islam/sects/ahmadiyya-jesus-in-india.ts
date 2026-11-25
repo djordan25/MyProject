@@ -8,7 +8,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
   lesson: [
     {
       heading: 'The claim',
-      keyLine: 'If Jesus is dead and buried in Kashmir, he is not coming back, and the promise must be fulfilled by someone else.',
+      keyLine: 'Ahmadis teach that Jesus survived the cross and died in Kashmir, which leaves the promised return to be fulfilled by someone else.',
       body: [
         'Mirza Ghulam Ahmad set out his theory in a book called Jesus in India, written in 1899 and published in 1908, after his death. He wrote that Jesus “did not die on the cross, nor did he go up to the heavens”, but “died at the age of 120 years at Srinagar, Kashmir, where his tomb is still to be found in the Khanyar quarter”.',
         'The story runs as follows. Jesus was nailed to the cross but fainted and was taken for dead. His friends took him down, laid him in a roomy tomb and treated his wounds with an ointment. He recovered, met his disciples in secret, and left the country. He travelled through Nisibis, Persia and Afghanistan to the Punjab and Kashmir in search of the ten lost tribes of Israel, who Ahmad believed were the ancestors of the Afghans and Kashmiris. They accepted him, and he lived out a long life among them.',
@@ -18,7 +18,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     },
     {
       heading: 'How Ahmadis argue it',
-      keyLine: 'The witnesses are trusted for the small points and rejected on the main one.',
+      keyLine: 'Ahmadis argue from the Quran and from Gospel details, though the Gospels were written to say that Jesus died and rose.',
       body: [
         'From the Quran, they read “they did not kill him, nor did they crucify him” (Quran 4:157-158) to mean that the Jews did not kill Jesus by any means and did not kill him on the cross. He was put on it, they say, but it only appeared to them that he had died. “Allah raised him to Himself” means that God honoured him, not that he was lifted bodily into the sky. They take “I will take you” (Quran 3:55) as “I will cause you to die”, a natural death at a later time, and they note that the Quran says the messengers before Muhammad have passed away (Quran 3:144).',
         'From the Gospels, they collect details that seem to them to point to survival. Jesus compared himself to Jonah, who was alive inside the fish (Matthew 12:39-40). He was on the cross for hours when crucifixion often took days, and Pilate was surprised he had died so soon. Pilate’s wife had warned her husband about him. His legs were not broken. Blood flowed from the spear wound. Nicodemus brought a great weight of myrrh and aloes. Afterwards Jesus showed his wounds, ate food and said he was not a spirit. And he had said he was sent to “the lost sheep of the house of Israel” (Matthew 15:24).',
@@ -29,7 +29,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     },
     {
       heading: 'Notovitch and the “unknown life”: a different story',
-      keyLine: 'Notovitch’s tale also contradicts Ahmad’s.',
+      keyLine: 'Notovitch’s story of Jesus in India was exposed in its own day, and it contradicts Ahmad’s theory as well.',
       body: [
         'You may be told that a Russian traveller found proof in Tibet that Jesus lived in India. This is a separate claim and should not be confused with Ahmad’s. In 1894 Nicolas Notovitch published La vie inconnue de Jésus-Christ. He said that while laid up with a broken leg at the Buddhist monastery of Hemis in Ladakh, he had been shown an ancient Life of Saint Issa. According to it, Jesus went to India at thirteen, studied with Hindus and Buddhists, came home at twenty-nine, and was put to death under Pilate.',
         'The book was exposed in its own day. The Oxford scholar Max Müller examined it in the journal The Nineteenth Century in 1894 and showed how unlikely the story was. Then J. Archibald Douglas, a professor at Agra, travelled to Hemis in 1895 and questioned the chief lama. The lama’s statement was published in the same journal in 1896. He said that no European with a broken leg had been nursed there, that he knew of no such book, and, when Notovitch’s account was read to him, that it was lies. Edgar Goodspeed tells the whole affair in Strange New Gospels.',
@@ -49,7 +49,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     },
     {
       heading: 'A survivor could not have started the faith',
-      keyLine: 'The swoon theory also makes Jesus a deceiver.',
+      keyLine: 'A barely living survivor could not have given the disciples the impression that he had conquered death.',
       body: [
         'Suppose he had revived. What would the disciples have seen? A man barely alive, with pierced hands and feet and an open wound in his side, needing to be hidden and nursed for weeks. David Friedrich Strauss, a nineteenth-century critic who did not believe in the resurrection, rejected the swoon theory for this very reason. Such a figure, he argued, could never have given the disciples the impression that he was the conqueror of death and the Prince of life.',
         'Yet that is the impression they had. Two days after the crucifixion Jesus walked with two of them towards Emmaus, a village about seven miles from Jerusalem (Luke 24:13-15). He came among them when the doors were locked (John 20:19-20). He was seen over forty days (Acts 1:3), and by more than five hundred people at one time (1 Corinthians 15:6). Then he was taken up before their eyes (Acts 1:9-11). Within weeks they were preaching in Jerusalem that God had raised him and that death could not hold him (Acts 2:23-24).',
@@ -59,7 +59,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     },
     {
       heading: 'The earliest testimony, and the silence of the East',
-      keyLine: 'The story of Yuz Asaf has been traced, and it is not about Jesus.',
+      keyLine: 'The earliest creed says Jesus died and was raised, and no source within many centuries tells of a journey to Kashmir.',
       body: [
         'The earliest statement of Christian belief is a creed that Paul says he “received” and passed on: “that Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures, and that He appeared to Cephas and then to the Twelve” (1 Corinthians 15:3-7). Paul had it within a few years of the event, from men who were there (Galatians 1:18-19). It says died, buried, raised, appeared.',
         'For the journey to Kashmir there is no source of that kind, or of any kind within many centuries. No early Christian, Jewish, Roman, Persian or Indian writer mentions it. The ancient churches of Persia and India traced their beginnings to apostles such as Thomas. They preached Christ crucified and risen, and none of them ever claimed that Jesus had lived or died among them.',
@@ -70,7 +70,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
     },
     {
       heading: 'From the grave in Srinagar to the empty tomb',
-      keyLine: 'So take your Ahmadi friend to the evidence and then to the person.',
+      keyLine: 'Take your Ahmadi friend to the evidence for the empty tomb and then to the risen Jesus himself.',
       body: [
         'Ahmadis and Christians agree on what is at stake. Paul wrote, “if Christ has not been raised, your faith is futile; you are still in your sins” (1 Corinthians 15:14-17). If the body of Jesus lies in Kashmir, Christianity is false. If he rose, Ahmad’s claim to be the Messiah come again is false, because the Messiah who rose is alive and will return himself (Acts 1:11).',
         'So take your Ahmadi friend to the evidence and then to the person. The tomb in Jerusalem was empty, and the message at the tomb was, “Why do you look for the living among the dead? He is not here; He has risen!” (Luke 24:5-7). The risen Jesus says, “I was dead, and behold, now I am alive forever and ever!” (Revelation 1:18). He does not offer a grave to visit. He offers himself: “I am the resurrection and the life. Whoever believes in Me will live, even though he dies” (John 11:25-26).',
@@ -123,7 +123,7 @@ export const ahmadiyyaJesusInIndia: Topic = {
               followUps: [
                 {
                   reply: 'Jesus did have help. Nicodemus brought a hundred pounds of myrrh and aloes, which are healing herbs. Books of medicine for a thousand years have described the ointment of Jesus, Marham-i-Isa, made for his wounds.',
-                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it come from the medieval Muslim world, many centuries after the event. In Avicenna’s Canon it is the “ointment of the apostles”, said to be named for its twelve ingredients, and the recipe goes back to older Greek plasters. That shows how a salve came by a Christian name, not what happened in a tomb in Jerusalem.',
+                  answer: 'John says what the spices were for: they “wrapped it in linen cloths with the spices, according to the Jewish burial custom” (John 19:39-40). Myrrh and aloes were used to honour the dead and cover the smell of decay, and nobody dresses wounds with seventy-five pounds of anything. As for the ointment, the medical books that name it come from the medieval Muslim world, many centuries after the event. In Avicenna’s Canon it is the “ointment of the apostles”, said to hold twelve drugs for the twelve apostles, and the recipe goes back to older Greek plasters. That shows how a salve came by a Christian name, not what happened in a tomb in Jerusalem.',
                 },
               ],
             },

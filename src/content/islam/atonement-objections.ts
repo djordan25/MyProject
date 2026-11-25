@@ -28,7 +28,7 @@ export const atonementObjections: Topic = {
     },
     {
       heading: 'A sacrifice in the Quran',
-      keyLine: 'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice',
+      keyLine: 'The Quran itself contains the idea of a life ransomed by a sacrifice, though Muslims keep the yearly sacrifice as a commemoration.',
       body: [
         'The Quran tells of Abraham preparing to sacrifice his son, and then says: “We ransomed him with a great sacrifice” (Quran 37:107). Muslims commemorate this every year at Eid al-Adha.',
         'So the Quran itself contains the idea of a life ransomed by a substitute sacrifice, though Muslims keep the yearly sacrifice as a commemoration and not as atonement for sin. Ask: what made it a “great” sacrifice? Muslim commentators answer that it was a ram sent from Paradise. Genesis 22 tells the same story, and there Abraham says, “God Himself will provide the lamb” (Genesis 22:8). Christ is that Lamb.',
@@ -112,7 +112,7 @@ export const atonementObjections: Topic = {
           followUps: [
             {
               reply: 'You are reading a sacrifice into a verse about clothing. The Quran is clear: Adam received words from his Lord, and Allah accepted his repentance (Quran 2:37). Nothing more was needed.',
-              answer: 'Genesis 3:21 does not spell it out, and I will not lean on it. Look at what both books do say. In the Quran Adam was forgiven, and in both books he was still sent out of the garden, and he still died (Genesis 3:19, 23-24; Quran 2:36-38). If repentance wiped the slate clean, why was he not put back? In a hadith Moses says to Adam, “You are our father who disappointed us and turned us out of Paradise” (Sahih al-Bukhari 6614). Adam replies that it had been decreed for him, and Muhammad says Adam won the argument, but no one in the hadith denies the loss. So Islam’s sources also know that Adam’s sin left a loss which his repentance did not undo, and that the loss fell on his children. The gospel says how it is undone (Romans 5:18-19).',
+              answer: 'Genesis 3:21 does not spell it out, and I will not lean on it. Look at what both books do say. In the Quran Adam was forgiven, and in both books he was still sent out of the garden, and he still died (Genesis 3:19, 23-24; Quran 2:36-38). If repentance wiped the slate clean, why was he not put back? Muslims answer that he was always meant for the earth. Yet in a hadith Moses says to Adam, “You are our father who disappointed us and turned us out of Paradise” (Sahih al-Bukhari 6614). Adam replies that it had been decreed for him, and Muhammad says Adam won the argument, but no one in the hadith denies the loss. So Islam’s sources also know that Adam’s sin left a loss which his repentance did not undo, and that the loss fell on his children. The gospel says how it is undone (Romans 5:18-19).',
               followUps: [
                 {
                   reply: 'Islam has no original sin. Every child is born pure, on the natural faith (Sahih al-Bukhari 1385). Punishing babies for Adam’s sin would be unjust.',

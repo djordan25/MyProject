@@ -34,12 +34,12 @@ export const druze: Topic = {
         'Take care here. The Druze scriptures are not given to outsiders, and most Druze have not read them either. What follows comes from published scholarship, and the scholars do not all agree. Say “I have read that” and ask your friend whether it is so.',
         'The centre is the oneness of God. God is one, and his nature is beyond human description. The sacred book is the Epistles of Wisdom (Rasa’il al-Hikma), a collection of letters and treatises from the first years of the movement, chief among them the writings of Hamza and Baha al-Din. Samy Swayd, writing in the Encyclopedia of Religion, describes it as an interpretation of the teaching of the Bible and the Quran, not a separate book of revelations.',
         'The hardest point is al-Hakim. Outside scholars, among them the historian Philip Hitti, report that the Druze writings teach a series of appearances of God in human form and treat al-Hakim as the last and most perfect of them. Swayd writes that al-Hakim apparently never claimed to be divine, that others attributed the claim to him, and that it was al-Darazi who altered Hamza’s teaching to present the caliph as divine. Do not tell a Druze what he believes about this. Ask him.',
-        'By Swayd’s account Druze teaching honours seven great messengers: Adam, Noah, Abraham, Moses, Jesus, Muhammad and Muhammad ibn Isma‘il. Daniel De Smet, who edited the Epistles, finds Hamza’s letters far harsher towards the lawgiving prophets. Jethro, the father-in-law of Moses, whom the Druze know as the prophet Shu‘ayb, holds a special place. His shrine at Hittin, above the Sea of Galilee, is often called the most sacred Druze site, and Druze gather there for a festival each April. Hitti also reports that Baha al-Din, in an epistle on Christianity, identifies Hamza with the Messiah.',
+        'By Swayd’s account Druze teaching honours seven great messengers: Adam, Noah, Abraham, Moses, Jesus, Muhammad and Muhammad ibn Isma‘il. Daniel De Smet, who edited the first two volumes of the Epistles, finds Hamza’s letters far harsher towards the lawgiving prophets. Jethro, the father-in-law of Moses, whom the Druze know as the prophet Shu‘ayb, holds a special place. His shrine at Hittin, above the Sea of Galilee, is often called the most sacred Druze site, and Druze gather there for a festival each April. Hitti also reports that Baha al-Din, in an epistle on Christianity, identifies Hamza with the Messiah.',
       ],
     },
     {
       heading: 'The wise and the uninitiated',
-      keyLine: 'So your Druze friend may know less about Druze theology than this lesson has told you.',
+      keyLine: 'Most Druze are uninitiated and are not taught the doctrine in detail, so questions serve better than arguments.',
       body: [
         'The community has two classes. The ‘uqqal, “the wise”, are men and women who have been admitted, after a long testing, to the reading of the Epistles. They are known by their dark clothes and white head coverings. They meet on Thursday evenings in a plain house of prayer called a khalwa.',
         'Everyone else belongs to the juhhal, “the ignorant”, which here means the uninitiated. They are the large majority. They are expected to live by the community’s moral code, but they are not taught its doctrine in any detail.',
@@ -60,14 +60,14 @@ export const druze: Topic = {
       heading: 'Are the Druze Muslims?',
       keyLine: 'The Druze faith grew out of Islam, but many Muslims have not counted it as Islam.',
       body: [
-        'The Druze faith grew out of Islam, but many Muslims have not counted it as Islam. It set aside the pillars, it teaches rebirth, and it has a scripture besides the Quran. Many Druze do not call themselves Muslims. Some do. Ask, and do not assume.',
+        'The Druze faith grew out of Islam, but many Muslims have not counted it as Islam. It set aside the ritual observance of the pillars, it teaches rebirth, and it has a scripture besides the Quran. Many Druze do not call themselves Muslims. Others do, among them many of their religious leaders and scholars. Ask, and do not assume.',
         'Lebanon shows the ambiguity. It recognises eighteen religious communities and counts the Druze among the five Muslim ones, also when seats in parliament are divided equally between Christians and Muslims. Yet the Druze have their own religious courts and elect their own head, the Sheikh al-Aql.',
         'For you the practical point is this. The main Islam track argues from the Quran and from the hadith collections of al-Bukhari and Muslim. A Druze does not treat the hadith as an authority, does not live under Islamic law, and reads the Quran for an inner meaning. Arguments about the preservation of the Quran or the life of Muhammad will mostly miss him. Begin somewhere else.',
       ],
     },
     {
       heading: 'Where the gospel meets a Druze',
-      keyLine: 'The Christian hope is resurrection, not return',
+      keyLine: 'The gospel offers a Druze friend one life and then resurrection, truth told openly, and assurance of eternal life.',
       body: [
         'Start with what you share. You both confess one God. The Druze prize truthful speech, and so did Jesus: “Simply let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’” (Matthew 5:37). They honour Jesus, and by Swayd’s account the Druze writings count the New Testament among the sources of their teaching. And they honour Jethro, who in the Bible rejoices at what the LORD did for Israel and says, “Now I know that the LORD is greater than all other gods” (Exodus 18:11).',
         'Then come to the differences, gently and plainly. First, one life. Scripture says that “man is appointed to die once, and after that to face judgment” (Hebrews 9:27). Jesus told the dying thief, “today you will be with Me in Paradise” (Luke 23:43). The Christian hope is resurrection, not return: this same person, raised and made new. And rebirth cannot deal with guilt. On the Druze account itself the judgment still waits at the end of all the lives.',

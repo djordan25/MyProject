@@ -8,7 +8,7 @@ export const sunniCompanions: Topic = {
   lesson: [
     {
       heading: 'Why the companions matter',
-      keyLine: 'If the witnesses are in doubt, so is what they handed on.',
+      keyLine: 'Everything in Sunni Islam passes through Muhammad’s companions, so doubt about them touches all they handed on.',
       body: [
         'A companion (sahabi) is a person who met Muhammad as a believer and died a Muslim. That is the definition given by the Sunni scholar Ibn Hajar, who died in 1449, and it takes in many thousands of people. Sunni doctrine holds that all of them are upright (‘udul). In practice this means that a hadith scholar examines every narrator in a chain for honesty and memory until he reaches the companion at the top. The companion’s honesty is taken as given.',
         'The texts behind the doctrine are well known. Muhammad said, “The best people are those of my generation, and then those who will come after them” (Sahih al-Bukhari 6429; see also Sahih Muslim 2533). He said, “Do not abuse my companions for if any one of you spent gold equal to Uhud (in Allah’s Cause) it would not be equal to a Mud or even a half Mud spent by one of them” (Sahih al-Bukhari 3673). The Quran says Allah is pleased with the first emigrants and helpers (Quran 9:100) and with those who pledged themselves under the tree (Quran 48:18).',
@@ -19,7 +19,7 @@ export const sunniCompanions: Topic = {
     },
     {
       heading: 'The succession: the shed and the inheritance',
-      keyLine: 'Muhammad died in 632 without an agreed successor.',
+      keyLine: 'Bukhari records that the best generation was divided over power from the first day, and over property soon after.',
       body: [
         'Muhammad died in 632 without an agreed successor. Days before, he asked for writing materials to set down “a statement after which you will not go astray”. Umar said he was very ill and that “we have got Allah’s Book with us and that is sufficient for us”. The companions quarrelled at the bedside, Muhammad sent them out, and Ibn Abbas called it a great disaster that the statement was never written (Sahih al-Bukhari 114).',
         'Umar later told the story of the succession from the pulpit. As soon as Muhammad was dead, the men of Medina met in a roofed shed to choose a leader of their own. Abu Bakr and Umar hurried there. Umar says, “‘Ali and Zubair and whoever was with them, opposed us”. One of the men of Medina proposed, “There should be one ruler from us and one from you”. Voices rose, Umar feared a split, and he took Abu Bakr’s hand and pledged allegiance on the spot. He admitted afterwards that the pledge “was given suddenly and it was successful. No doubt, it was like that, but Allah saved (the people) from its evil” (Sahih al-Bukhari 6830).',
@@ -30,7 +30,7 @@ export const sunniCompanions: Topic = {
     },
     {
       heading: 'Uthman, the Camel and Siffin',
-      keyLine: 'Ali became caliph, and within months he faced an army led by Aisha, Muhammad’s widow, with Talha and al-Zubayr, two of the most senior companions.',
+      keyLine: 'Leading companions went to war with one another, and companions killed companions at the Camel and at Siffin.',
       body: [
         'Abu Bakr ruled for two years and Umar for ten. Umar was stabbed at prayer in 644 by a non-Arab unbeliever (Sahih al-Bukhari 3700). The third caliph, Uthman, was not killed by an outsider. In 656 Muslims from the provinces besieged him in his house in Medina and killed him. Bukhari mentions the siege (Sahih al-Bukhari 695) and calls what followed “the first civil strife”, which “took place because of the murder of ‘Uthman” (Sahih al-Bukhari 4024).',
         'Ali became caliph, and within months he faced an army led by Aisha, Muhammad’s widow, with Talha and al-Zubayr, two of the most senior companions. They met near Basra in 656. The battle is named after the camel Aisha rode. Before it, Ali’s envoy Ammar told the people of Kufa that Aisha was the Prophet’s wife in this world and the next, “But Allah has put you to test whether you obey Him … or her” (Sahih al-Bukhari 7100). Al-Zubayr said to his son on the day, “Today one will be killed either as an oppressor or as an oppressed one” (Sahih al-Bukhari 3129). Talha and al-Zubayr both died. Ali, Talha and al-Zubayr are all on the list of ten men whom Muhammad promised Paradise (Sunan Abi Dawud 4649).',
@@ -41,7 +41,7 @@ export const sunniCompanions: Topic = {
     },
     {
       heading: 'What Muhammad is reported to have said about it',
-      keyLine: 'The same books record Muhammad’s warnings.',
+      keyLine: 'Sunni books record Muhammad warning Muslims not to kill one another and saying some companions would be taken from him.',
       body: [
         'The same books record Muhammad’s warnings. At his last pilgrimage he said, “Do not (become infidels) revert to disbelief after me by striking the necks (cutting the throats) of one another” (Sahih al-Bukhari 121). He said, “Abusing a Muslim is Fusuq (an evil doing) and killing him is Kufr (disbelief)” (Sahih al-Bukhari 48).',
         'And he said, “When two Muslims fight (meet) each other with their swords, both the murderer as well as the murdered will go to the Hell-fire” (Sahih al-Bukhari 31; see also Sahih Muslim 2888). Look at how that report comes to us. A man was on his way to fight for Ali. The companion Abu Bakra stopped him and quoted this saying to turn him back. So a companion applied it to the companions’ own war.',
@@ -52,7 +52,7 @@ export const sunniCompanions: Topic = {
     },
     {
       heading: 'The Sunni answers, stated fairly',
-      keyLine: 'Sunni scholars have faced these reports for a thousand years, and you should know their answers before you raise the subject.',
+      keyLine: 'Sunni scholars have real answers about the companions, and some are sound as far as they go, but others strain.',
       body: [
         'Sunni scholars have faced these reports for a thousand years, and you should know their answers before you raise the subject. First, uprightness does not mean sinlessness. It means that the companions did not lie about the Prophet. Second, the wars were ijtihad, an honest effort to reach the right judgment. Muhammad said that a judge who reasons and is right has two rewards, and one who reasons and is wrong still has one (Sahih al-Bukhari 7352). Most Sunnis hold that Ali was in the right and Mu‘awiya mistaken but excused.',
         'Third, the Quran calls both sides believers: “if two factions among the believers should fight, then make settlement between the two” (Quran 49:9). Fourth, the people turned from the Pond are the tribes who left Islam after Muhammad died. Fifth, Muslims are told to hold their tongues about what passed between the companions and to think well of all of them.',
@@ -68,7 +68,7 @@ export const sunniCompanions: Topic = {
     },
     {
       heading: 'The apostles: an honest comparison',
-      keyLine: 'No apostle raised a hand against another.',
+      keyLine: 'The apostles argued and were reconciled, while the companions won an empire and went to war over who should rule it.',
       body: [
         'A Muslim will say that the apostles were no better, and part of that is true. The disciples deserted Jesus and fled (Mark 14:50). Peter denied him three times and wept (Luke 22:61-62). Years later Paul “opposed him to his face” at Antioch because Peter had drawn back from eating with Gentile believers (Galatians 2:11-14). Paul and Barnabas disagreed so sharply over Mark that they parted company (Acts 15:39). The New Testament hides none of this.',
         'Now look at how the disputes ended. The quarrel over Gentile converts was settled by a meeting and a letter (Acts 15:6-11, 28). James, Peter and John gave Paul “the right hand of fellowship” (Galatians 2:9). Peter later wrote of “our beloved brother Paul” (2 Peter 3:15-16). Paul asked for Mark near the end of his life, “because he is useful to me in the ministry” (2 Timothy 4:11). No apostle raised a hand against another. Jesus had forbidden it: “all who draw the sword will die by the sword” (Matthew 26:52). He told them that rulers lord it over people, but “It shall not be this way among you” (Matthew 20:25-28).',
@@ -79,7 +79,7 @@ export const sunniCompanions: Topic = {
     },
     {
       heading: 'Pointing to Christ',
-      keyLine: 'So the Christian’s trust does not rest on a best generation.',
+      keyLine: 'Christians trust the one the apostles pointed to, who died for sinners and rose, and not the apostles themselves.',
       body: [
         'Christians do not say that the apostles were upright in themselves. “All have sinned and fall short of the glory of God” (Romans 3:23). The apostles pointed away from themselves. When the Corinthians formed parties around their teachers, Paul asked, “Was Paul crucified for you?” (1 Corinthians 1:10-13). He wrote, “we do not proclaim ourselves, but Jesus Christ as Lord” (2 Corinthians 4:5). On the message itself they spoke with one voice: “Whether, then, it was I or they, this is what we preach” (1 Corinthians 15:11).',
         'So the Christian’s trust does not rest on a best generation. It rests on the one the witnesses pointed to, who died for sinners and rose (1 Corinthians 15:3-8). The Psalm says, “Put not your trust in princes, in mortal man, who cannot save” (Psalm 146:3).',
@@ -205,7 +205,7 @@ export const sunniCompanions: Topic = {
           followUps: [
             {
               reply: 'Their quarrel was over politics, not over their honesty as reporters. No companion ever lied about the Prophet.',
-              answer: 'That is the very thing that needs showing, and it cannot be shown by reports that come through the companions themselves. In the introduction to Sahih Muslim, Ibn Sirin says that people did not ask for chains of narrators until the strife broke out. Then they said, name your men to us. Sunni scholars usually take that strife to be the first civil war. So reports could no longer be taken on trust. And companions corrected one another. When Aisha heard what Umar and his son reported about the dead being punished for their family’s weeping, she said, “By Allah, Allah’s Messenger did not say that a believer is punished by the weeping of his relatives” (Sahih al-Bukhari 1288).',
+              answer: 'That is the very thing that needs showing, and it cannot be shown by reports that come through the companions themselves. In the introduction to Sahih Muslim, Ibn Sirin says that people did not ask for chains of narrators until the strife broke out. Then they said, name your men to us. Sunni scholars usually take that strife to be the first civil war, though some academics date it to the second, in the 680s. So reports could no longer be taken on trust. And companions corrected one another. When Aisha heard what Umar and his son reported about the dead being punished for their family’s weeping, she said, “By Allah, Allah’s Messenger did not say that a believer is punished by the weeping of his relatives” (Sahih al-Bukhari 1288).',
               followUps: [
                 {
                   reply: 'A slip of memory is not a lie. Uprightness means they did not lie on purpose, and the scholars compared their reports.',

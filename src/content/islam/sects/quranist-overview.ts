@@ -17,7 +17,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'Where it came from',
-      keyLine: 'The modern movement began under colonial rule',
+      keyLine: 'The modern Quran-only movement grew from within Islam and is traced to British India and Egypt in the early twentieth century.',
       body: [
         'The question is old. The jurist al-Shafi‘i, who died in AD 820, wrote against people of his day who refused to accept reports about Muhammad as binding. He won the argument, and for a thousand years almost all Muslims have held that the Quran must be read alongside the Prophet’s example.',
         'The modern movement began under colonial rule, when Western critics were attacking the hadith, but it grew from within Islam: in Punjab it began as a breakaway from the Ahl-i-Hadith, reformers devoted to the hadith. Daniel Brown’s history of the debate, Rethinking Tradition in Modern Islamic Thought, traces it to British India and Egypt in the first years of the twentieth century. In Lahore a little-known religious teacher, Abdullah Chakralawi, founded a society that called itself Ahl-i-Quran, “people of the Quran”. In Cairo in 1906 an Egyptian physician, Muhammad Tawfiq Sidqi, published an article in the journal al-Manar under the title “Islam is the Quran alone”, a view he later withdrew.',
@@ -26,7 +26,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'Rashad Khalifa and the Submitters',
-      keyLine: 'Do not assume the person you are talking to follows Khalifa.',
+      keyLine: 'Rashad Khalifa claimed a number code in the Quran, but many Quran-only Muslims reject him and his claims.',
       body: [
         'The most famous Quran-only teacher in the West was Rashad Khalifa, an Egyptian-born biochemist who led a mosque in Tucson, Arizona, and a group called United Submitters International. He published his own English translation, Quran: The Final Testament.',
         'Khalifa claimed that the Quran contains a mathematical code built on the number 19, which he linked to the verse “Over it are nineteen” (Quran 74:30). By his own account he discovered it in 1974. He counted letters, words and verses and reported that the totals were multiples of 19, and he said this proved the book divine and guarded it against the smallest change.',
@@ -37,7 +37,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'Why they reject the hadith',
-      keyLine: 'Their third reason, and the one they care about most, is the Quran’s description of itself.',
+      keyLine: 'Quran-only Muslims reject the hadith on historical and moral grounds, and above all because the Quran calls itself “explained in detail”.',
       body: [
         'Their first reason is history. The great collections were compiled about two hundred years after Muhammad, from reports passed on by word of mouth, and Muslim scholars themselves admit that forgery was widespread. The lesson Can the Hadith Be Trusted? covers this. They add that the hadith record Muhammad forbidding his followers to write down anything from him except the Quran (Sahih Muslim 3004), though the same report allows them to narrate from him.',
         'Their second reason is moral. The hadith teach things they cannot believe came from God’s messenger: stoning for adultery (Sahih Muslim 1691), where the Quran prescribes a hundred lashes (Quran 24:2); death for leaving Islam (Sahih al-Bukhari 6922); the marriage to Aisha at six, consummated at nine (Sahih al-Bukhari 5133). They say these reports slander the Prophet, and that the sects and schools of Islam grew out of rival collections.',
@@ -48,7 +48,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'How they pray and practise',
-      keyLine: 'Many Quran-only Muslims still pray five times a day in much the usual way.',
+      keyLine: 'Practice among Quran-only Muslims varies widely, from five daily prayers to three to no set form of prayer.',
       body: [
         'Practice varies widely. Many Quran-only Muslims still pray five times a day in much the usual way. They say they learned this from the unbroken practice of the community, not from hadith books. Khalifa taught five prayers. When asked where the Quran gives the details, he answered that the prayers came down from Abraham (Quran 21:73; 22:78).',
         'Others find only three prayer times in the Quran and pray three times a day, citing verses such as Quran 11:114 and 24:58. This is the position of the Reformist Translation. Some go further and say the Arabic word salat does not mean a ritual at all but following God’s commands closely, and they keep no set form of prayer. Washing before prayer usually follows the four steps of Quran 5:6 and nothing more. Khalifa’s followers and others recite the confession of faith without Muhammad’s name, because they think adding it puts a man beside God.',
@@ -67,7 +67,7 @@ export const quranistOverview: Topic = {
     },
     {
       heading: 'How the conversation changes',
-      keyLine: 'Every argument drawn from the Quran itself still applies in full',
+      keyLine: 'With a Quran-only Muslim, put the hadith away, but every argument drawn from the Quran itself still applies.',
       body: [
         'First, you can agree with much of what they say. Their criticism of the hadith is largely sound, and you need not defend Bukhari to anyone. Say so. It is rare for a Muslim to hear a Christian begin by agreeing with him.',
         'Second, put the hadith away. “Sahih al-Bukhari says” means nothing here, so most of the lessons on Muhammad’s life cannot be used as they stand. Every argument drawn from the Quran itself still applies in full: its affirmation of the Torah and the Gospel (see The Islamic Dilemma), its denial of the crucifixion, its picture of what Christians believe, and its historical and internal difficulties.',
@@ -81,7 +81,7 @@ export const quranistOverview: Topic = {
       id: 'qro-1',
       objection: 'The Quran says it is complete, fully detailed and a clarification of all things (Quran 6:114; 16:89). A book like that needs no second source.',
       response:
-        'I agree that this is what those verses say, and I think you read them more honestly than Muslims who say the Quran cannot be understood without the hadith. So let’s test the claim against the book. Prayer is one of the duties the Quran commands most often. Where does it tell you how many times a day to pray, what to say, or how many cycles to perform? If the Book is “explained in detail” (Quran 6:114), I would expect its central act of worship to be explained.',
+        'I agree that this is what those verses say, and I think you read them more plainly than Muslims who say the Quran cannot be understood without the hadith. So let’s test the claim against the book. Prayer is one of the duties the Quran commands most often. Where does it tell you how many times a day to pray, what to say, or how many cycles to perform? If the Book is “explained in detail” (Quran 6:114), I would expect its central act of worship to be explained.',
       keyPoints: ['Grant what the verses say.', 'Test the claim against the book’s contents.', 'Prayer is commanded constantly and never set out.'],
       references: ['Quran 6:114', 'Quran 16:89', 'Quran 12:111'],
       followUps: [

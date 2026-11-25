@@ -8,7 +8,7 @@ export const oldTestamentApocrypha: Topic = {
   lesson: [
     {
       heading: 'What these books are',
-      keyLine: 'They are Jewish books, written before the time of Jesus or close to it.',
+      keyLine: 'These are Jewish books from before or near the time of Jesus; all sides here think them worth reading, and the question is whether they are Scripture.',
       body: [
         'Open a Catholic Bible and you will find seven books in the Old Testament that most Protestant Bibles lack: Tobit, Judith, the Wisdom of Solomon, Sirach (also called Ecclesiasticus), Baruch (which includes the Letter of Jeremiah), and 1 and 2 Maccabees. Esther and Daniel are also longer. Orthodox Bibles have all of these and a few more, such as 1 Esdras, the Prayer of Manasseh, Psalm 151 and 3 Maccabees.',
         'Protestants usually call these books the Apocrypha, from a Greek word meaning “hidden”. Catholics call them deuterocanonical, a term coined in 1566 for books whose place in the canon was settled later. In Catholic teaching they are no less Scripture than the rest. Orthodox Christians often call them “the books that are read”.',
@@ -18,7 +18,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'The Greek Bible and the Hebrew Bible',
-      keyLine: 'They show what Christians of that time copied and read.',
+      keyLine: 'The books of the Apocrypha are not in the Hebrew Bible and come down to us through the Greek translation used by the church.',
       body: [
         'The Hebrew Bible, the Scriptures of the Jewish people, contains the same books as the Protestant Old Testament, arranged and counted differently. None of the books in this lesson is in it.',
         'They come down to us through the Septuagint, the Greek translation of the Jewish Scriptures that was made in the centuries before Christ and was used by Greek-speaking Jews and then by the church. The great Greek Bibles of the fourth and fifth centuries place them among the other Old Testament books and do not set them apart. Codex Vaticanus has Tobit, Judith, Wisdom, Sirach and Baruch. Codex Sinaiticus has Tobit, Judith, Wisdom, Sirach, and 1 and 4 Maccabees. Codex Alexandrinus has four books of Maccabees.',
@@ -28,7 +28,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'The Jewish Scriptures in the first century',
-      keyLine: 'The core was firm, a few books at the edge were still discussed, and the old story of a council at Jamnia should be dropped.',
+      keyLine: 'In the first century the core of the Jewish Scriptures was firm, though a few books at the edge were still discussed.',
       body: [
         'The clearest statement from the first century comes from the Jewish historian Josephus, writing near its end. In his work Against Apion he says that the Jews have only twenty-two books that are rightly trusted, and that the history written since the Persian king Artaxerxes has not been given the same standing, because the exact succession of prophets had ended. Twenty-two is usually understood as the books of the Hebrew Bible counted in an older way.',
         '1 Maccabees speaks in a similar way about its own times. In chapter 9 it describes a distress such as had not been since “prophets ceased to appear among them” (NRSV), and in chapters 4 and 14 it speaks of waiting until a prophet should come.',
@@ -38,7 +38,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'Jesus, the apostles and these books',
-      keyLine: 'No New Testament writer quotes one of these books with a formula such as “it is written” or “Scripture says”.',
+      keyLine: 'Jesus and the apostles never cite the Apocrypha as Scripture, which is real evidence but falls short of proof.',
       body: [
         'Jesus and the apostles quote the Old Testament constantly, often with the words “it is written”. Jesus speaks of “the Law of Moses, the Prophets, and the Psalms” (Luke 24:44). Paul says of the Jewish people that “they have been entrusted with the very words of God” (Romans 3:2). Jesus argued with the Pharisees and the Sadducees about many things. The Gospels record no argument about which books were Scripture.',
         'Protestants often say that the New Testament never quotes the Apocrypha. Put that carefully. No New Testament writer quotes one of these books with a formula such as “it is written” or “Scripture says”. But the writers knew them. Hebrews speaks of those who “were tortured and refused their release, so that they might gain a better resurrection” (Hebrews 11:35), and most commentators see there the martyrs of chapters 6 and 7 of 2 Maccabees. Paul’s account of idolatry in the first chapter of Romans runs close to chapters 13 and 14 of the Wisdom of Solomon. Jesus was in the temple at the Feast of Dedication (John 10:22), the festival whose origin is told in 1 Maccabees.',
@@ -49,7 +49,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'The early church: Athanasius, Jerome and Augustine',
-      keyLine: 'This is the strongest part of the Catholic and Orthodox case, and Protestants should grant it.',
+      keyLine: 'Many early Christians quoted these books, yet Athanasius and Jerome put Wisdom, Sirach, Judith and Tobit outside the canon and Augustine put them in.',
       body: [
         'Christians of the first centuries read their Old Testament in Greek, and many of them quoted these books alongside the others. The historian J. N. D. Kelly, an Anglican, wrote that the Old Testament received in the early church was bulkier than the twenty-two books of the Hebrew Bible. This is the strongest part of the Catholic and Orthodox case, and Protestants should grant it.',
         'Yet when Christians in the East drew up lists, several followed the Hebrew count. Athanasius of Alexandria, in his Easter letter of 367, lists twenty-two Old Testament books. He then names Wisdom, Sirach, Esther, Judith and Tobit as books that are not in the canon but were appointed by the fathers to be read by new believers. His list is not the Protestant one. It includes Baruch and the Letter of Jeremiah, and it leaves Esther out.',
@@ -59,7 +59,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'The Reformation, Trent and the King James Bible',
-      keyLine: 'When his complete German Bible appeared in 1534 he did not remove these books.',
+      keyLine: 'Luther printed these books in 1534 as useful but not equal to Scripture, and in 1546 Trent declared seven of them sacred and canonical.',
       body: [
         'Both views were alive on the eve of the Reformation. In 1442 the Council of Florence listed Tobit, Judith, Wisdom, Sirach, Baruch and Maccabees with the other books of Scripture. Yet Cardinal Ximenes, in the great Spanish edition of the Bible that Pope Leo X approved in 1520, described them as books outside the canon which the church receives for the edification of the people.',
         'At the Leipzig debate of 1519 Luther disputed whether 2 Maccabees was canonical. When his complete German Bible appeared in 1534 he did not remove these books. He gathered them between the Testaments under a heading which says that they “are not held equal to the sacred Scriptures, and nevertheless are useful and good to read”.',
@@ -69,7 +69,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'Where the churches stand, and what is at stake',
-      keyLine: 'No teaching about who God is, who Jesus is, or how he died and rose depends on these books.',
+      keyLine: 'No teaching about who God is, who Jesus is, or how he died and rose depends on the Apocrypha.',
       body: [
         'The Catholic Church counts forty-six Old Testament books, all equally Scripture. The Orthodox churches receive the longer Greek Old Testament. A synod at Jerusalem in 1672 called Wisdom, Judith, Tobit, Maccabees and Sirach genuine parts of Scripture, though the Orthodox bishop Kallistos Ware writes that most Orthodox scholars today regard these books as part of the Bible but on a lower footing than the rest of the Old Testament. Protestants hold that they are not Scripture. Anglicans and Lutherans have traditionally kept them for reading. Reformed churches have been stricter.',
         'Two passages are usually raised. In chapter 12 of 2 Maccabees, Judas Maccabeus finds that his fallen soldiers had been wearing tokens of idols. He sends money to Jerusalem for a sin offering, and the writer says that he “made atonement for the dead, so that they might be delivered from their sin” (NRSV). The Catholic Catechism cites this verse for the practice of praying for the dead, which it connects with purgatory. The passage shows that some Jews before Christ prayed for the dead, and the writer approves. It does not describe purgatory.',
@@ -80,7 +80,7 @@ export const oldTestamentApocrypha: Topic = {
     },
     {
       heading: 'How to use this',
-      keyLine: 'Do not say that Rome added these books at Trent.',
+      keyLine: 'Be accurate about the history: Rome did not add the Apocrypha at Trent, and Luther did not tear them out.',
       body: [
         'With a Catholic or Orthodox friend, begin with what you share. You have the same twenty-seven New Testament books, the same Law, Prophets and Psalms, and the same Lord. Then be accurate about history. Do not say that Rome added these books at Trent. They had been in the Latin Bible for more than a thousand years. In return you may ask your friend not to say that Luther tore them out. He printed them, and the distinction he drew is as old as Jerome and Athanasius.',
         'State your own position modestly. You might say: “I follow the Scriptures that Jesus and the apostles received from the Jewish people. These books were not in the Hebrew Bible. The New Testament never cites them as Scripture. Teachers as respected as Athanasius and Jerome set them apart. I read them and learn from them, but I do not build doctrine on them.” Admit the weak points before your friend has to raise them.',

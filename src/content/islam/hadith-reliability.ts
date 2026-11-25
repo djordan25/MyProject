@@ -8,7 +8,7 @@ export const hadithReliability: Topic = {
   lesson: [
     {
       heading: 'Why the hadith matter so much',
-      keyLine: 'So the reliability of the hadith is not a side issue.',
+      keyLine: 'The reliability of the hadith is no side issue, because Islam as nearly all Muslims practise it cannot function without them.',
       body: [
         'The Quran rarely explains itself. Its context, the details of the five daily prayers, the story of how the Quran was collected, and almost everything known about Muhammad’s life come from the hadith. The Quran commands obedience to the Messenger (Quran 3:32) and calls him “an excellent pattern” (Quran 33:21) — and his example is known through the hadith.',
         'So the reliability of the hadith is not a side issue. Without them, Islam as practised by nearly all Muslims cannot function.',
@@ -17,7 +17,7 @@ export const hadithReliability: Topic = {
     },
     {
       heading: 'Two hundred years later',
-      keyLine: 'Their collections were compiled roughly 200 to 240 years after Muhammad’s death.',
+      keyLine: 'The authoritative Sahih collections of al-Bukhari and Muslim were compiled roughly 200 to 240 years after Muhammad’s death.',
       body: [
         'Muhammad died in AD 632. Al-Bukhari, compiler of Sahih al-Bukhari, died in AD 870; Muslim ibn al-Hajjaj died in AD 875. Their collections were compiled roughly 200 to 240 years after Muhammad’s death. Earlier collections existed, such as Malik’s Muwatta (before 796) and the eleven-volume Musannaf of Abd al-Razzaq (before 826), but the authoritative Sahih collections come from this later period.',
         'Each hadith comes with a chain of narrators (isnad): “Narrated A: B told me that C said that he heard D…” — usually several links of people passing a report on across generations. Muslims rightly object to “telephone game” transmission of the Bible; here the comparison actually applies.',
@@ -27,7 +27,7 @@ export const hadithReliability: Topic = {
     },
     {
       heading: '“Do not write anything from me”',
-      keyLine: 'So, on this report, the earliest Muslims were told not to write down his words, though other reports have him allow it.',
+      keyLine: 'On one report Muhammad told his followers not to write down his words, and for about a century most hadith were passed on by word of mouth.',
       body: [
         'Muhammad said: “Do not take down anything from me, and he who took down anything from me except the Qur’an, he should efface that” (Sahih Muslim 3004).',
         'So, on this report, the earliest Muslims were told not to write down his words, though other reports have him allow it. Some companions did keep notes — Abu Huraira said Abdullah bin Amr “used to write them” (Sahih al-Bukhari 113) — but most hadith were passed on by word of mouth, with private notes as aids, until writing on a large scale began about a century after Muhammad.',
@@ -46,7 +46,7 @@ export const hadithReliability: Topic = {
     },
     {
       heading: 'The hadith dilemma',
-      keyLine: 'Either way, Islam’s claim to a perfectly preserved and verified revelation is undermined.',
+      keyLine: 'Whether the Sahih hadith are reliable or not, Islam’s claim to a perfectly preserved and verified revelation is undermined.',
       body: [
         'Either the Sahih hadith are reliable, or they are not.',
         'If they are reliable, then Muslims must accept what they report: the Quran’s fragile collection and burned variants (Sahih al-Bukhari 4986, 4987), verses that were lost (Sahih Muslim 1452), Muhammad being under a spell (Sahih al-Bukhari 5763), and his description of his own death (Sahih al-Bukhari 4428).',
@@ -62,7 +62,7 @@ export const hadithReliability: Topic = {
     },
     {
       heading: 'How to use this, and how not to',
-      keyLine: 'In most conversations, lead with the internal critique.',
+      keyLine: 'In most conversations, take Islam’s sources at face value and hold Sunni Muslims to what their trusted books say.',
       body: [
         'Christians answer Islam in two ways. The internal critique takes Islam’s sources at face value: “Your own most authentic books say this.” The historical critique asks whether those sources are reliable at all. Both are legitimate, but they pull in opposite directions, so don’t mix them carelessly.',
         'If you tell a Muslim the hadith are unreliable and then quote Sahih al-Bukhari to prove that verses were lost, you hand them an easy exit: “You said yourself the hadith can’t be trusted.”',
@@ -87,7 +87,7 @@ export const hadithReliability: Topic = {
                   followUps: [
                     {
                       reply: 'The essentials do not depend on single chains. They are mutawatir, passed on by so many people in every generation that agreement on a lie is impossible.',
-                      answer: 'Mass transmission is strong evidence, and I grant it for things like the fact of the five daily prayers. But Muslim scholars themselves class only a small number of hadith as mutawatir. Ibn al-Salah, whose handbook on hadith became the standard one, wrote that examples are hard to find, and the fullest later list, by al-Kattani, has about three hundred. The great majority, including most of the legal detail and most of the Prophet’s biography, are reports from one or a few narrators. So the appeal to mass transmission protects very little of what is in Bukhari and Muslim.',
+                      answer: 'Mass transmission is strong evidence, and I grant it for things like the fact of the five daily prayers. But Muslim scholars themselves class only a small number of hadith as mutawatir. Ibn al-Salah, whose handbook on hadith became the standard one, wrote that examples are hard to find, and the fullest later list, by al-Kattani, runs to a few hundred. The great majority, including most of the legal detail and most of the Prophet’s biography, are reports from one or a few narrators. So the appeal to mass transmission protects very little of what is in Bukhari and Muslim.',
                     },
                   ],
                 },
@@ -102,7 +102,7 @@ export const hadithReliability: Topic = {
       ],
       objection: 'The isnad system is the most rigorous method of verification ever devised.',
       response:
-        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and he told people not to write his words down (Sahih Muslim 3004). About a century of largely oral transmission before writing on a large scale, and two centuries before the Sahih collections, is a long time for any method to bridge.',
+        'Checking chains of narrators is a serious effort, and Muslim scholars deserve credit for it. But a chain only shows who claimed to pass a report on, not that the report is true — and a fabricator can invent a chain as easily as a saying. Muhammad himself warned about people lying in his name (Sahih al-Bukhari 107), and one report has him tell people not to write his words down (Sahih Muslim 3004). About a century of largely oral transmission before writing on a large scale, and two centuries before the Sahih collections, is a long time for any method to bridge.',
       keyPoints: ['Acknowledge the effort.', 'Chains can be fabricated too.', 'A century largely oral, two before the Sahih collections.'],
       references: ['Sahih al-Bukhari 107', 'Sahih Muslim 3004'],
     },

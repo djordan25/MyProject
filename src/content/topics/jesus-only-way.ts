@@ -8,7 +8,7 @@ export const jesusOnlyWay: Topic = {
   lesson: [
     {
       heading: 'It is Jesus’ claim, not ours',
-      keyLine: 'Christians did not invent the idea that Jesus is the only way to God.',
+      keyLine: 'Jesus himself said he is the only way to God, so the question is whether he was right.',
       body: [
         'Christians did not invent the idea that Jesus is the only way to God. Jesus said it: “I am the way and the truth and the life. No one comes to the Father except through Me” (John 14:6). His apostles repeated it: “there is no other name under heaven given to men by which we must be saved” (Acts 4:12), and “there is one God, and there is one mediator between God and men, the man Christ Jesus” (1 Timothy 2:5).',
         'So the question is not whether Christians are narrow-minded. It is whether Jesus was right. If he is who he said he is, and rose from the dead, then what he says about the way to God carries an authority no one else has.',
@@ -17,7 +17,7 @@ export const jesusOnlyWay: Topic = {
     },
     {
       heading: 'Why only one way?',
-      keyLine: 'The Bible says the problem is guilt before a holy God',
+      keyLine: 'The Bible says our problem is guilt before a holy God, and Christianity says God dealt with it himself at the cross.',
       body: [
         'Because of what the problem is. If our problem were ignorance, many teachers could help. If it were weakness, many disciplines could strengthen us. The Bible says the problem is guilt before a holy God: “all have sinned and fall short of the glory of God” (Romans 3:23).',
         'Guilt needs more than advice. It needs to be dealt with. Christianity says God dealt with it himself, at the cross. No other religion even claims that God became man and bore the sins of the world. If that happened, it is not one path among many. It is the only rescue on offer, because it is the only one that addresses the real problem.',
@@ -27,7 +27,7 @@ export const jesusOnlyWay: Topic = {
     },
     {
       heading: 'What about those who have never heard?',
-      keyLine: 'The Bible tells us several things for certain, and leaves some things unsaid.',
+      keyLine: 'God is just and judges people by the light they had, and whoever is saved is saved because of what Jesus did.',
       body: [
         'This is a real question and deserves a careful answer. The Bible tells us several things for certain, and leaves some things unsaid.',
         'God is just. Abraham’s question answers itself: “Will not the Judge of all the earth do what is right?” (Genesis 18:25). No one will be treated unfairly.',

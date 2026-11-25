@@ -8,7 +8,7 @@ export const muhammadInBible: Topic = {
   lesson: [
     {
       heading: 'Why Muslims look for Muhammad in the Bible',
-      keyLine: 'Notice that these verses assume the Torah and Gospel in Christian and Jewish hands were reliable enough to find Muhammad in them (see The Islamic Dilemma).',
+      keyLine: 'The Quran says Muhammad is found written in the Torah and the Gospel, so it is fair to ask whether he is there.',
       body: [
         'The Quran says the unlettered prophet is one “whom they find written in what they have of the Torah and the Gospel” (Quran 7:157), and that Jesus brought “good tidings of a messenger to come after me, whose name is Ahmad” (Quran 61:6).',
         'Notice that these verses assume the Torah and Gospel in Christian and Jewish hands were reliable enough to find Muhammad in them (see The Islamic Dilemma). So the question is fair: is he there?',
@@ -17,7 +17,7 @@ export const muhammadInBible: Topic = {
     },
     {
       heading: 'Deuteronomy 18:15-18: “a prophet like me”',
-      keyLine: 'Context: the prophet comes from within Israel.',
+      keyLine: 'In Deuteronomy “brothers” means fellow Israelites, so the prophet like Moses comes from within Israel, and the apostles applied it to Jesus.',
       body: [
         'Moses says: “The LORD your God will raise up for you a prophet like me from among your brothers” (Deuteronomy 18:15). The Hebrew reads more fully, “from your midst, from your brothers”. Muslims argue “brothers” means the Ishmaelites, Israel’s cousins.',
         'Context: the prophet comes from within Israel. In the same book, Israel’s king must come “from among your brothers; you are not to set over yourselves a foreigner who is not one of your brothers” (Deuteronomy 17:15). And the Levites “have no inheritance among their brothers” (Deuteronomy 18:2) — the other tribes of Israel. “Brothers” means fellow Israelites.',
@@ -28,7 +28,7 @@ export const muhammadInBible: Topic = {
     },
     {
       heading: 'John 14-16: the Advocate (Paraclete)',
-      keyLine: 'Jesus names him plainly: “the Advocate, the Holy Spirit, whom the Father will send in My name” (John 14:26).',
+      keyLine: 'Jesus names the promised Advocate as the Holy Spirit, who would come to the disciples themselves within days.',
       body: [
         'Jesus promised “another Advocate to be with you forever” (John 14:16). The Greek word is parakletos, also translated Helper or Comforter. Some Muslims claim this is Muhammad, linking Quran 61:6 (“Ahmad”).',
         'But read the very next verse: he is “the Spirit of truth. The world cannot receive Him, because it neither sees Him nor knows Him. But you do know Him, for He abides with you and will be in you” (John 14:17). Muhammad was seen by the world and was not known by the disciples 600 years earlier.',
@@ -39,7 +39,7 @@ export const muhammadInBible: Topic = {
     },
     {
       heading: 'Song of Songs 5:16: “machamaddim”',
-      keyLine: 'The word is an ordinary Hebrew noun meaning “desirable things”',
+      keyLine: 'The Hebrew word machamaddim is an ordinary noun meaning “desirable things”, and similar sounds don’t make a prophecy.',
       body: [
         'Some claim the Hebrew word machamaddim (“altogether lovely”) in Song of Songs 5:16 is Muhammad’s name.',
         'The word is an ordinary Hebrew noun meaning “desirable things”, used elsewhere for precious objects (e.g. 1 Kings 20:6; Lamentations 1:10). It is plural, and in the passage it describes a bridegroom in a love poem. Similar sounds don’t make a prophecy — by that logic many unrelated words could be “prophecies”.',
@@ -63,7 +63,7 @@ export const muhammadInBible: Topic = {
                   followUps: [
                     {
                       reply: 'Muhammad did work miracles. The moon was split for the people of Mecca, and the Quran itself is his greatest sign.',
-                      answer: 'The hadith do report the splitting of the moon (Sahih al-Bukhari 3637), and I won’t pretend they don’t. But when the Quran records people asking him for a sign, its answer is that he is only a warner (Quran 13:7; 29:50). Those two do not sit easily together. And Deuteronomy’s measure is more than a wonder. It is a man with whom God speaks face to face (Numbers 12:8), while the Quran says Allah speaks to no human being except by revelation, from behind a partition or through a messenger (Quran 42:51). Jesus said of Moses, “he wrote about Me” (John 5:46), and Peter named Jesus as that prophet soon after the resurrection (Acts 3:22-26).',
+                      answer: 'The hadith do report the splitting of the moon (Sahih al-Bukhari 3637), and the Quran’s surah The Moon opens by saying the moon has split. But when the Quran records people asking him for a sign, its answer is that he is only a warner (Quran 13:7; 29:50). Those two do not sit easily together. And Deuteronomy’s measure is more than a wonder. It is a man with whom God speaks face to face (Numbers 12:8), while the Quran says Allah speaks to no human being except by revelation, from behind a partition or through a messenger (Quran 42:51). Jesus said of Moses, “he wrote about Me” (John 5:46), and Peter named Jesus as that prophet soon after the resurrection (Acts 3:22-26).',
                     },
                   ],
                 },

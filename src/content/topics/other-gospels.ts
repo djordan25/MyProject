@@ -17,7 +17,7 @@ export const otherGospels: Topic = {
     },
     {
       heading: 'The Gospel of Thomas',
-      keyLine: 'It is a list of 114 sayings, most of them introduced with the words “Jesus said”.',
+      keyLine: 'The Gospel of Thomas is a list of sayings with no story, cross or resurrection, and most scholars date it to the second century.',
       body: [
         'This is the most important of the other gospels. The only complete copy is in Coptic, the language of Christian Egypt, in a book copied in the fourth century and found near Nag Hammadi in Upper Egypt in December 1945. Three Greek fragments had already been dug up at Oxyrhynchus, also in Egypt, in 1897 and 1903. They come from three different copies, the oldest written around AD 200 or in the decades after. Nobody knew what they were until the Coptic text was found.',
         'It is a list of 114 sayings, most of them introduced with the words “Jesus said”. There is no story: no birth, no miracles, no trial, no cross, no resurrection. It opens by calling itself the secret sayings of the living Jesus, written down by Didymus Judas Thomas, and promises that whoever finds the meaning of these sayings will not taste death. Roughly half the sayings resemble ones in Matthew, Mark and Luke. Others are strange to a reader of the New Testament. In the last saying Peter asks that Mary leave because “females are not worthy of life”, and Jesus answers that he will make her male.',
@@ -28,7 +28,7 @@ export const otherGospels: Topic = {
     },
     {
       heading: 'The Gospel of Peter',
-      keyLine: 'So we have an account of how one bishop handled such a book around AD 200.',
+      keyLine: 'A bishop around AD 200 read the Gospel of Peter, weighed it, and rejected it as not handed down to the churches.',
       body: [
         'What survives for certain is one portion, found in a grave at Akhmim in Upper Egypt in the winter of 1886 to 1887 and published in 1892. The copy was made in the early Middle Ages. It begins in the middle of the trial of Jesus and breaks off in the middle of a sentence after the resurrection. The narrator speaks as “I, Simon Peter”.',
         'It tells the passion much as the four Gospels do, with differences. Herod gives the order for the execution, and the blame is moved from Pilate to the Jewish leaders. On the cross Jesus is silent “as though having no pain”, and his cry is “My power, my power, thou hast forsaken me”. Then comes the scene that the four Gospels never describe, the resurrection itself. The guards see three men come out of the tomb, two of them holding up the third, with heads reaching to heaven and beyond, and a cross following them. A voice from heaven asks about preaching to those who sleep, and the cross answers, “Yea”.',
@@ -38,7 +38,7 @@ export const otherGospels: Topic = {
     },
     {
       heading: 'The Gospel of Judas',
-      keyLine: 'It ends when Judas hands Jesus over, with no crucifixion and no resurrection.',
+      keyLine: 'The Gospel of Judas tells us about a second-century movement, and scholars do not treat it as a source for the historical Judas.',
       body: [
         'About AD 180 Irenaeus, bishop of Lyon, wrote that a certain group honoured Judas as the one disciple who knew the truth, and that they had produced a “fictitious history” which they called the Gospel of Judas. For centuries that was all anyone knew. Then a Coptic book, now called Codex Tchacos, was reportedly found in Middle Egypt in the 1970s. It passed through dealers’ hands for more than twenty years and was badly damaged before it was restored. Radiocarbon tests placed it in the third or fourth century. The Gospel of Judas in it was published in 2006. Scholars think it was first written in Greek around the middle of the second century.',
         'It is a set of conversations between Jesus and the disciples, and then with Judas alone, in the days before the Passover. Jesus laughs at the disciples when they give thanks over bread, because they are praying to their own god, the lower being who made this world. He tells Judas about a higher realm and a holy race to which the twelve do not belong. It ends when Judas hands Jesus over, with no crucifixion and no resurrection.',
@@ -47,7 +47,7 @@ export const otherGospels: Topic = {
     },
     {
       heading: 'The Gospels of Mary and Philip',
-      keyLine: 'Neither book says in so many words that Jesus and Mary Magdalene were married.',
+      keyLine: 'Neither the Gospel of Mary nor the Gospel of Philip says in so many words that Jesus and Mary Magdalene were married.',
       body: [
         'The Gospel of Mary survives in a Coptic book of about the fifth century, bought in Cairo in 1896 and now in Berlin, and in two small Greek fragments from the third century. More than half of it is missing, including the opening pages. Most scholars place its writing in the second century. The risen Saviour teaches the disciples and leaves. Mary, who is never called Magdalene in the text though most readers take her to be, comforts them and tells of a vision in which a soul rises past hostile powers. Andrew and Peter doubt that the Saviour would have said such things privately to a woman. Levi answers that if the Saviour made her worthy, they have no right to reject her.',
         'The Gospel of Philip is in the same Nag Hammadi book as Thomas. It is a collection of short reflections on sacraments and salvation with no story, and it is usually dated to the late second or the third century and linked with the followers of the teacher Valentinus. It is the source of a famous claim. It calls Mary Magdalene the Lord’s “companion”, and another passage says that he loved her more than the other disciples and used to kiss her often. The papyrus has holes at that point, and the word saying where he kissed her is missing.',
@@ -58,7 +58,7 @@ export const otherGospels: Topic = {
     },
     {
       heading: 'Infancy gospels and gospels known only in pieces',
-      keyLine: 'They are the work of people who loved the story and wanted more of it.',
+      keyLine: 'The infancy gospels were not hidden and not read as Scripture; they came from people who loved the story and wanted more of it.',
       body: [
         'The four Gospels say almost nothing about Jesus between his birth and his baptism. Two popular books filled the gap. The Infancy Gospel of Thomas, usually dated to the second century, tells of Jesus between the ages of five and twelve. He makes twelve sparrows from clay on the Sabbath and they fly away. A boy who runs into him falls dead at his word, and those who complain are struck blind. Later he heals and raises the dead, and the book ends with the visit to the temple from Luke 2. In its earliest form it did not carry the name of Thomas, and it has nothing to do with the sayings gospel.',
         'The Protoevangelium of James, from the second half of the second century, tells of Mary’s own birth to Joachim and Anna, her childhood in the temple where an angel feeds her, and the choice of Joseph, who protests that he is an old man with children. It was widely loved, well over a hundred Greek copies survive, and it shaped later devotion to Mary and a great deal of Christian art. Neither book was hidden. They were not read as Scripture: no early list of the New Testament books counts them in. They are the work of people who loved the story and wanted more of it. Two of their scenes, the clay birds and Mary fed in the sanctuary, also appear in the Quran (Quran 3:49; Quran 3:37).',
@@ -69,7 +69,7 @@ export const otherGospels: Topic = {
     },
     {
       heading: 'Why four',
-      keyLine: 'The books that were left out had been weighed in public argument over the two centuries before.',
+      keyLine: 'No council chose the four Gospels: on most scholars’ dating they are the earliest, and the others were weighed in public argument and left out.',
       body: [
         'Most scholars, sceptical ones included, date Matthew, Mark, Luke and John to the first century, within about seventy years of the crucifixion. Luke says that his account rests on what was handed down by “the initial eyewitnesses and servants of the word” (Luke 1:2). Of the other gospels, only Thomas has serious defenders of a first-century date, and they are a minority.',
         'The four are also attested early and widely. Around AD 170 Tatian wove them into one continuous story, the Diatessaron. Around AD 180 Irenaeus, in Gaul, argued that there are four Gospels and no more, and he noted that the rival groups each leaned on one of them: the Ebionites on Matthew, Marcion on Luke, the followers of Valentinus on John. The list called the Muratorian fragment, usually dated to the late second century though some scholars put it in the fourth, names Luke and John as the third and fourth Gospels.',

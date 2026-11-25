@@ -33,17 +33,17 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 3: Mary, sister of Aaron, daughter of Imran',
-      keyLine: 'So raise it as a question rather than as a proven error.',
+      keyLine: 'The Quran’s names for Mary match those of Moses’ sister, but raise this as a question, not as a proven error.',
       body: [
         'The Quran calls Mary the mother of Jesus “sister of Aaron” (Quran 19:28) and “daughter of Imran” (Quran 66:12). In the Bible, Amram (Imran) was the father of Aaron, Moses and their sister Miriam (Numbers 26:59) — well over a thousand years before Jesus. In Arabic, Mary and Miriam are the same name (Maryam).',
         'Christians raised this exact problem in Muhammad’s time. Sahih Muslim 2135 records that the Christians of Najran asked how Mary could be the sister of Aaron when Moses lived long before Jesus. Muhammad replied that people used to be named after earlier prophets and pious persons.',
-        'Even granting that explanation for “sister of Aaron”, the Quran also gives her the father of the biblical Miriam, Imran. The cluster of names — Miriam, sister of Aaron, daughter of Amram — matches Moses’ sister exactly. Some scholars read this as deliberate typology (Mary as a new Miriam), and most Muslim commentators take “sister of Aaron” as a title of descent from Aaron. So raise it as a question rather than as a proven error.',
+        'Even granting that explanation for “sister of Aaron”, the Quran also gives her the father of the biblical Miriam, Imran. The cluster of names — Miriam, sister of Aaron, daughter of Amram — matches Moses’ sister exactly. Some scholars read this as deliberate typology (Mary as a new Miriam), and Muslim commentators take “sister of Aaron” as likening her to a later man named Aaron or as a title of descent from Aaron. So raise it as a question rather than as a proven error.',
       ],
       references: ['Quran 19:28', 'Quran 66:12', 'Numbers 26:59', 'Exodus 15:20', 'Sahih Muslim 2135'],
     },
     {
       heading: 'Mistake 4: The Gospel as a book given to Jesus',
-      keyLine: 'The gospel is the good news about Jesus — his life, death and resurrection — proclaimed by his apostles (Mark 1:1; 1 Corinthians 15:1-4).',
+      keyLine: 'The Quran treats the Gospel as a book given to Jesus, but the gospel is the good news about him proclaimed by his apostles.',
       body: [
         'The Quran presents the Injil as a book God “gave” to Jesus, as the Torah was given to Moses (Quran 5:46, 57:27). But Jesus did not bring a book. The gospel is the good news about Jesus — his life, death and resurrection — proclaimed by his apostles (Mark 1:1; 1 Corinthians 15:1-4).',
       ],
@@ -51,9 +51,9 @@ export const quranMisunderstands: Topic = {
     },
     {
       heading: 'Mistake 5: Stories from later legends',
-      keyLine: 'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',
+      keyLine: 'The Quran’s stories of Jesus that match later legends are most naturally explained by an author absorbing what was around him.',
       body: [
-        'The Quran includes stories about Jesus that appear nowhere in the Bible: Jesus speaking from the cradle (Quran 19:29-30) and making clay birds come to life (Quran 3:49; 5:110). These episodes match legends found in apocryphal infancy gospels, the earliest written in the second century, not the first-century Gospels, which appeal to eyewitness testimony.',
+        'The Quran includes stories about Jesus that appear nowhere in the Bible: Jesus speaking from the cradle (Quran 19:29-30) and making clay birds come to life (Quran 3:49; 5:110). The clay birds match a legend in the second-century Infancy Gospel of Thomas, and the cradle speech has a parallel in the Arabic Infancy Gospel, which in its present form may be later than the Quran. Neither is in the first-century Gospels, which appeal to eyewitness testimony.',
         'When a revelation reproduces the folklore circulating in its own environment, the most natural explanation is that the author absorbed what was around him.',
       ],
       references: ['Quran 19:29-30', 'Quran 3:49', 'Quran 5:110', 'Luke 1:1-4'],
@@ -73,7 +73,7 @@ export const quranMisunderstands: Topic = {
               followUps: [
                 {
                   reply: 'You are joining two separate verses. Quran 5:73 condemns saying “three”, and 5:116 condemns worshipping Mary. The Quran never says Mary is part of the Trinity.',
-                  answer: 'It is true that no verse lists the three. But look at how the Quran argues. Straight after condemning those who say Allah is the third of three, it answers that the Messiah was only a messenger, that his mother was a supporter of truth, and that “They both used to eat food” (Quran 5:75). Why bring in his mother’s eating unless she is one of the three? Some Muslim commentators read it so, though they generally knew that the church’s Trinity names the Holy Spirit and not Mary: the Tafsir al-Jalalayn says of Quran 5:73 that the other two are Jesus and his mother, and calls those who say so a Christian sect. And the Quran nowhere names the Holy Spirit as one of the three.',
+                  answer: 'It is true that no verse lists the three. But look at how the Quran argues. Straight after condemning those who say Allah is the third of three, it answers that the Messiah was only a messenger, that his mother was a supporter of truth, and that “They both used to eat food” (Quran 5:75). Why bring in his mother’s eating unless she is one of the three? Some Muslim commentators read it so, though several also knew that the church’s Trinity names the Holy Spirit and not Mary: the Tafsir al-Jalalayn says of Quran 5:73 that the other two are Jesus and his mother, and calls those who say so a Christian sect. And the Quran nowhere names the Holy Spirit as one of the three.',
                   followUps: [
                     {
                       reply: 'Whoever the three are, the Quran forbids it: “do not say, Three”. The real Trinity is condemned along with every other.',
@@ -126,7 +126,7 @@ export const quranMisunderstands: Topic = {
           answer: 'It is a fair question, and Christians have discussed it since the early centuries. Matthew and Luke give different lines from David down to Joseph (Matthew 1:16; Luke 3:23). The usual explanations are that one gives the legal, royal line and the other the natural one, or that Luke’s line runs through Mary’s family. I cannot be sure which is right. But a difficulty in my book does not answer the question about yours, and neither genealogy puts anyone in the wrong century.',
         },
       ],
-      objection: '“Sister of Aaron” just means she was a righteous descendant of Aaron’s line — Muhammad explained it.',
+      objection: '“Sister of Aaron” just links her to a later man named after Aaron, or to Aaron’s line — Muhammad explained it.',
       response:
         'I know Sahih Muslim 2135 gives that explanation. But notice that Christians in Muhammad’s own day immediately saw the problem. And the Quran doesn’t stop at “sister of Aaron” — it also calls her “daughter of Imran” (Quran 66:12), the name of Miriam’s father. Mary’s name, her brother and her father all line up with Moses’ sister. That’s a strong sign of confusion between two women.',
       keyPoints: ['The objection was raised in Muhammad’s time.', 'Three identifiers match Miriam, not just one.', 'Explaining one doesn’t explain the cluster.'],
@@ -149,7 +149,7 @@ export const quranMisunderstands: Topic = {
                   followUps: [
                     {
                       reply: 'Those verses answer the pagan Arabs, who said the angels were Allah’s daughters. They are not about Christians.',
-                      answer: 'Quran 6:100 does have the pagans in view. But the Quran puts the Christians in the same class. It says they call the Messiah the son of Allah, and that in saying so they imitate those who disbelieved before them (Quran 9:30). So it treats the Christian confession as the pagan idea over again. That is the misunderstanding. The same verse says the Jews call Ezra the son of Allah, which Jews do not recognise as their belief.',
+                      answer: 'Quran 6:100 does have the pagans in view. But the Quran puts the Christians in the same class. It says they call the Messiah the son of Allah, and that in saying so they imitate those who disbelieved before them (Quran 9:30). Some early commentators took those earlier disbelievers to be the pagans, which makes the Christian confession the pagan idea over again. That is the misunderstanding. The same verse says the Jews call Ezra the son of Allah, which Jews do not recognise as their belief; Muslim commentators ascribe the saying to one man or a small group.',
                     },
                   ],
                 },
@@ -254,7 +254,7 @@ export const quranMisunderstands: Topic = {
       options: [
         'Because the Bible never mentions Miriam',
         'Because the hadith do not discuss it',
-        'Because some scholars read it as deliberate typology, and Muslim commentators as a title of descent',
+        'Because some scholars read it as deliberate typology, and Muslim commentators as a namesake or a title of descent',
         'Because the Quran never calls Mary the sister of Aaron',
       ],
       answer: 2,

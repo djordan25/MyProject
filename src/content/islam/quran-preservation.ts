@@ -17,7 +17,7 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'Uthman standardises — and burns the rest',
-      keyLine: 'You only need to burn other copies if they differ.',
+      keyLine: 'Uthman standardised the Quran and had the rival copies burned, so today’s text preserves his edition.',
       body: [
         'Under the third caliph Uthman (about 20 years after Muhammad), Muslims in different provinces were reciting the Quran differently. Hudhaifa urged him to “save this nation before they differ about the Book as Jews and the Christians did before” (Sahih al-Bukhari 4987).',
         'Uthman had a committee led by Zaid bin Thabit copy Hafsa’s manuscript, instructing three Quraishi members that where they differed with Zaid, they should write it in the dialect of Quraish (Sahih al-Bukhari 3506). He sent a copy to every province and “ordered that all the other Qur’anic materials, whether written in fragmentary manuscripts or whole copies, be burnt” (Sahih al-Bukhari 4987).',
@@ -28,11 +28,11 @@ export const quranPreservation: Topic = {
     },
     {
       heading: 'Verses that were lost',
-      keyLine: 'The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
+      keyLine: 'Sahih hadith report verses that were sent down, such as the verse of stoning, but are not in the Quran today.',
       body: [
         'The verse of stoning: Umar said, “Allah sent Muhammad with truth and He sent down the Book upon him, and the verse of stoning was included in what was sent down to him.” He feared people would one day say, “We do not find the punishment of stoning in the Book of Allah” (Sahih Muslim 1691; see Sahih al-Bukhari 6830). It is not in the Quran today.',
         'The verse of suckling: Aisha said a verse on ten sucklings was revealed, then replaced by five, “and Allah’s Messenger died and it was before that time (found) in the Holy Qur’an” (Sahih Muslim 1452). It is not in the Quran today.',
-        'The sheep: Aisha also reported that the verse of stoning and a verse on breastfeeding were on a sheet kept under her pillow, and that when Muhammad died and the household was busy with his death, “a tame sheep came in and ate it” (Sunan Ibn Majah 1944, graded hasan). Muslim scholars reply that these verses had already been withdrawn from recitation.',
+        'The sheep: Aisha also reported that the verse of stoning and a verse on breastfeeding were on a sheet kept under her pillow, and that when Muhammad died and the household was busy with his death, “a tame sheep came in and ate it” (Sunan Ibn Majah 1944, graded hasan). Muslim scholars reply that these verses had already been withdrawn from recitation, and some, such as al-Sarakhsi, reject the report.',
         'A forgotten surah: Abu Musa al-Ash’ari said they used to recite a surah similar in length to Surat Bara’at (at-Tawba), which he had forgotten except for one line (Sahih Muslim 1050).',
         'Muhammad himself said a man’s recitation reminded him of verses “which I was caused to forget” (Sahih al-Bukhari 5038), though here the reciter still knew them. The Quran allows for verses being abrogated or forgotten (Quran 2:106; 87:6-7).',
       ],
@@ -72,7 +72,7 @@ export const quranPreservation: Topic = {
         },
         {
           reply: 'Scholars explain the stoning verse. Its wording was abrogated and its ruling kept. That is a recognised kind of abrogation.',
-          answer: 'It is a recognised category, and al-Suyuti files these very reports under it in his handbook al-Itqan. But the category was made to fit the reports. Quran 2:106 says an abrogated verse gives way to one better or similar, and here nothing took its place: the law stands, and the words that carried it are gone. Umar did not speak like a man who thought the verse withdrawn. He feared that people would one day say, “We do not find the Verse of the Rajam in Allah’s Book,” and go astray (Sahih al-Bukhari 6830).',
+          answer: 'It is a recognised category, and al-Suyuti files these very reports under it in his handbook al-Itqan. But the category rests on these very reports. Quran 2:106 says an abrogated verse gives way to one better or similar, and here nothing took its place: the law stands, and the words that carried it are gone. Umar did not speak like a man who thought the verse withdrawn. He feared that people would one day say, “We do not find the Verse of the Rajam in Allah’s Book,” and go astray (Sahih al-Bukhari 6830).',
           followUps: [
             {
               reply: 'Umar knew it was abrogated. That is why he never wrote it in, and no companion objected. Their agreement is proof.',

@@ -8,7 +8,7 @@ export const muhammadTested: Topic = {
   lesson: [
     {
       heading: 'Biblical tests for a prophet',
-      keyLine: 'Scripture tells us to test, not simply accept, those who claim to speak for God (1 John 4:1).',
+      keyLine: 'Scripture tells us to test those who claim to speak for God, and by the Bible’s own tests Muhammad’s message fails.',
       body: [
         'Scripture tells us to test, not simply accept, those who claim to speak for God (1 John 4:1).',
         'A prophet who leads people away from the God who has revealed himself is false, even if he performs signs (Deuteronomy 13:1-5).',
@@ -25,9 +25,9 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'Muhammad’s own doubts about the source',
-      keyLine: 'In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
+      keyLine: 'In Bukhari’s account of the first revelation, Muhammad’s assurance came from his wife and her cousin.',
       body: [
-        'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija and her Christian cousin Waraqa who reassured him that it was the angel (Sahih al-Bukhari 3).',
+        'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija who reassured him, and her Christian cousin Waraqa who told him it was the angel sent to Moses (Sahih al-Bukhari 3).',
         'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
         'Bukhari also records that when the revelations paused, Muhammad became so sad that “he intended several times to throw himself from the tops of high mountains” (Sahih al-Bukhari 6982); each time, the report says, Gabriel appeared and told him he was truly Allah’s Messenger. Muslim scholars point out that this part of the report comes from the narrator al-Zuhri without a full chain. The earliest surviving biography, by Ibn Ishaq as preserved by al-Tabari, reports a similar impulse straight after the first revelation, stopped by a voice from heaven telling him he was God’s messenger and that the speaker was Gabriel.',
       ],
@@ -35,7 +35,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'The “Satanic verses”',
-      keyLine: 'Present it as what early Muslim sources report, not as an agreed fact',
+      keyLine: 'Present the story of the “Satanic verses” as what early Muslim sources report, not as an agreed fact.',
       body: [
         'Early Muslim historians, among them Ibn Ishaq (as preserved by al-Tabari) and Ibn Sa‘d, report that Muhammad once recited words honouring three goddesses of Mecca as exalted beings whose intercession could be hoped for, and that the pagans of Mecca then bowed down together with the Muslims. Afterwards, they say, he was told that Satan had put the words on his tongue, and the words were withdrawn.',
         'Bukhari confirms the bowing without giving the reason: when Muhammad finished reciting Surat an-Najm, “all the Muslims and pagans” prostrated with him (Sahih al-Bukhari 4862). At that point the Quran now names the three goddesses and dismisses them (Quran 53:19-23). Another verse says that whenever a messenger recited, Satan threw something into it, which Allah then abolished (Quran 22:52).',
@@ -46,7 +46,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'Under a spell',
-      keyLine: 'Sahih al-Bukhari 5763 reports that a man named Labid bin al-A’sam worked magic on Muhammad',
+      keyLine: 'A hadith in Sahih al-Bukhari reports that magic was worked on Muhammad so that he imagined doing a thing he had not done.',
       body: [
         'Sahih al-Bukhari 5763 reports that a man named Labid bin al-A’sam worked magic on Muhammad, so that he “started imagining that he had done a thing that he had not really done.”',
         'If a prophet could be under a spell that affected his perception, how can his followers be sure which of his words came from God? Jesus, by contrast, had complete authority over evil spirits (Mark 1:27; Luke 11:20).',
@@ -55,18 +55,18 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'The aorta test',
-      keyLine: 'The Arabic words differ: the Quran has al-watin and the hadith has abhar.',
+      keyLine: 'The Quran’s aorta test and Muhammad’s words in his final illness use different Arabic words, so put the link as a question, not a proof.',
       body: [
         'The Quran sets its own test: “If Muhammad had made up about Us some [false] sayings, We would have seized him by the right hand; then We would have cut from him the aorta” (Quran 69:44-46).',
         'In his final illness, Muhammad said: “O Aisha! I still feel the pain caused by the food I ate at Khaibar, and at this time, I feel as if my aorta is being cut from that poison” (Sahih al-Bukhari 4428).',
-        'Be exact when you use this. The Arabic words differ: the Quran has al-watin and the hadith has abhar. Both name the great vessel of the heart, and Muslim translators render both as “aorta”, but a Muslim who knows Arabic will point out the difference. Put it as a question, not a proof: of all the ways to describe his death, why did Muhammad choose this one?',
+        'Be exact when you use this. The Arabic words differ: the Quran has al-watin and the hadith has abhar. Both name the great vessel of the heart, and some Muslim translators render both as “aorta”, but a Muslim who knows Arabic will point out the difference. Put it as a question, not a proof: of all the ways to describe his death, why did Muhammad choose this one?',
         'The question to ask: by the Quran’s own stated criterion, what does Muhammad’s description of his death suggest?',
       ],
       references: ['Quran 69:44-47', 'Sahih al-Bukhari 4428'],
     },
     {
       heading: 'A prophet who needed forgiveness — and lacked assurance',
-      keyLine: 'The Quran tells Muhammad to “ask forgiveness for your sin” (Quran 47:19; 40:55; see 48:2).',
+      keyLine: 'The Quran tells Muhammad to ask forgiveness for his sin, and he said he did not know what Allah would do with him.',
       body: [
         'The Quran tells Muhammad to “ask forgiveness for your sin” (Quran 47:19; 40:55; see 48:2). He said he sought Allah’s forgiveness more than seventy times a day (Sahih al-Bukhari 6307).',
         'He also said, “nor do I know what will be done with me or with you” (Quran 46:9), and at the death of a companion: “By Allah, I do not know what Allah will do with me though I am Allah’s Messenger” (Sahih al-Bukhari 1243). Muslims reply that Quran 48:2 later promised Muhammad forgiveness. Even so, that promise was to him alone; the ordinary Muslim is left with the scales (see Salvation: Scales or Grace?).',
@@ -76,7 +76,7 @@ export const muhammadTested: Topic = {
     },
     {
       heading: 'Revelations that served the messenger',
-      keyLine: 'It matters because Muslims hold Muhammad as the perfect moral example for all time.',
+      keyLine: 'The Quran grants Muhammad marriage privileges for him alone, and Aisha remarked that his Lord hastened to fulfil his wishes.',
       body: [
         'Quran 33:37 records that Muhammad married Zaynab, the former wife of his adopted son Zayd (the verse gives the reason: so that believers may marry the former wives of their adopted sons), and Quran 33:50 grants Muhammad marriage privileges “only for you, excluding the [other] believers.”',
         'When Quran 33:51 came, giving Muhammad freedom regarding his wives’ turns, Aisha said: “I feel that your Lord hastens in fulfilling your wishes and desires” (Sahih al-Bukhari 4788).',
@@ -112,7 +112,7 @@ export const muhammadTested: Topic = {
           followUps: [
             {
               reply: 'That argument is false. The Quran’s word is al-watin and the hadith’s word is abhar. They are different words. And he died years after Khaybar, as a martyr.',
-              answer: 'The words are different, and I will not hide that. But both name the great vessel of the heart. The Tafsir al-Jalalayn explains the Quran’s word as the aorta of the heart, which brings death if it is severed, and Muslim translators put “aorta” in both places. The gap of about four years is real too. Yet it is Muhammad who makes the link, saying in his final illness that he feels his aorta being cut “from that poison” (Sahih al-Bukhari 4428). I put it as a question, not a proof. Of all the ways to describe dying, why this one?',
+              answer: 'The words are different, and I will not hide that. But both name the great vessel of the heart. The Tafsir al-Jalalayn explains the Quran’s word as the aorta of the heart, which brings death if it is severed, and some Muslim translators put “aorta” in both places. The gap of about four years is real too. Yet it is Muhammad who makes the link, saying in his final illness that he feels his aorta being cut “from that poison” (Sahih al-Bukhari 4428). I put it as a question, not a proof. Of all the ways to describe dying, why this one?',
             },
           ],
         },
@@ -252,7 +252,7 @@ export const muhammadTested: Topic = {
         },
         {
           reply: 'Those girls were kept for the soldiers’ use. That is worse than anything in Islam.',
-          answer: 'The text says the girls were spared and shared out among Israel with the rest of the plunder. It does not say what you describe. Where the law of Moses deals with a captive woman, it requires a month of mourning and then marriage, and it forbids selling her afterwards (Deuteronomy 21:10-14). It is still a hard passage, as I said. But compare the law that stands in Islam. The Quran permits men their wives and “those their right hands possess” (Quran 23:5-6), and Sahih Muslim reports that Quran 4:24 was sent down when Muhammad’s men hesitated to have intercourse with captive women whose husbands were living (Sahih Muslim 1456). Numbers 31 records one judgement in one war. It gives no rule for anyone now.',
+          answer: 'The text says the girls were spared and shared out among Israel with the rest of the plunder. It does not say what you describe. Where the law of Moses deals with a captive woman, it requires a month of mourning and then marriage, and it forbids selling her afterwards (Deuteronomy 21:10-14). It is still a hard passage, as I said. But compare the law that stands in Islam. The Quran permits men their wives and “those their right hands possess” (Quran 23:5-6), and Sahih Muslim reports that Quran 4:24 was sent down when Muhammad’s men hesitated to have intercourse with captive women who had polytheist husbands (Sahih Muslim 1456). Numbers 31 records one judgement in one war. It gives no rule for anyone now.',
         },
       ],
       objection: 'The Bible is worse. Moses told his soldiers to keep the young girls for themselves (Numbers 31:17-18).',
@@ -305,7 +305,7 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-q6',
-      question: 'After the first revelation, who reassured Muhammad that what he had met was the angel (Sahih al-Bukhari 3)?',
+      question: 'After the first revelation, who reassured Muhammad and told him that what he had met was the angel (Sahih al-Bukhari 3)?',
       options: ['The angel himself', 'His wife Khadija and her Christian cousin Waraqa', 'Abu Bakr and Umar', 'His uncle Abu Talib'],
       answer: 1,
       explanation: 'In Scripture the heavenly messenger gives the reassurance himself: “Do not be afraid” (Luke 1:11-13). In this report Muhammad’s came from his wife and her cousin.',

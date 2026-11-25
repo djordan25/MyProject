@@ -41,7 +41,7 @@ A new topic also needs an emblem in `src/content/emblems/` (a test fails without
 | `src/content/maps.ts` | places on the lesson's map | every place is named in the lesson |
 | `src/content/charts.ts` | comparison charts | every row quotes the lesson word for word |
 
-**Accuracy.** Every lesson was written from academic sources and then source-checked by an independent pass; the five newest lessons had two passes. Wikipedia, blogs and apologetics or polemic sites were used only as leads, never as sources. A `keyLine` must be a sentence copied from its own section, so it cannot introduce a claim the section does not make.
+**Accuracy.** Every lesson was written from academic sources and then source-checked by an independent pass; every lesson has since had a second pass. Wikipedia, blogs and apologetics or polemic sites were used only as leads, never as sources. A `keyLine` is a one-sentence summary of its own section; each written one was checked against the section by an independent pass, so that it makes no claim the section does not make and keeps the section’s hedges.
 
 ## Lessons
 

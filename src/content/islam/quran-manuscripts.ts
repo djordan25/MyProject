@@ -16,7 +16,7 @@ export const quranManuscripts: Topic = {
     },
     {
       heading: 'The Sana‘a palimpsest',
-      keyLine: 'So the manuscript shows in ink what the hadith describe: more than one form of the Quran existed in the first decades.',
+      keyLine: 'The erased lower text of the Sana‘a palimpsest shows that more than one form of the Quran existed in the first decades.',
       body: [
         'In 1972, workers restoring the Great Mosque of Sana‘a in Yemen found a store of very old Quran fragments. One of them is a palimpsest: a parchment whose first writing was scraped off and written over. The upper writing is the standard Quran. The erased lower writing, which can still be read with imaging, is also Quran, and it is among the oldest Quran texts known, from the seventh century.',
         'The lower text is not the standard text. It differs in words and phrases, sometimes has extra or missing words, and arranges some surahs in a different order. The scholars who published it, Behnam Sadeghi and Mohsen Goudarzi, concluded that it belongs to a different line of text from the one Uthman standardised. A minority of its variants match readings Muslim tradition attributes to Ibn Mas‘ud and Ubayy ibn Ka‘b, but it is the codex of neither: they call it a separate companion codex. Elisabeth Puin, who studied it independently, also judges it a non-Uthmanic Quran. Asma Hilali disagrees: she reads far fewer variants and thinks the lower text was something like a scribe’s exercise, a view Nicolai Sinai has argued does not fit the manuscript.',
@@ -35,7 +35,7 @@ export const quranManuscripts: Topic = {
     },
     {
       heading: 'Corrections in the early copies',
-      keyLine: 'Early Quran manuscripts were corrected by later hands',
+      keyLine: 'Early Quran manuscripts were corrected by later hands, and scholars disagree whether that shows more than copying slips.',
       body: [
         'Early Quran manuscripts were corrected by later hands: words erased and rewritten, letters inserted, text added in the margin. The researcher Daniel Brubaker has documented a great many of these. Often the change brings a manuscript into line with the standard wording.',
         'Many corrections are ordinary slips being fixed, as in any hand-copied book. Brubaker argues that the pattern shows a text still being brought into uniformity after Uthman’s time. His reviewer Hythem Sidky calls that unproven and finds most of the examples best explained as simple copying errors.',
@@ -43,7 +43,7 @@ export const quranManuscripts: Topic = {
     },
     {
       heading: 'Which Quran is printed today?',
-      keyLine: 'Most Qurans printed today follow one reading, called Hafs from ‘Asim.',
+      keyLine: 'Most printed Qurans follow one reading, Hafs, but other accepted readings are still in use and sometimes differ in meaning.',
       body: [
         'Most Qurans printed today follow one reading, called Hafs from ‘Asim. It had already spread widely under the Ottomans, and an edition printed in Cairo in 1924 gave it the standard printed form now used almost everywhere. The editors of that edition worked from the traditional literature on the readings, not from the oldest manuscripts.',
         'Other readings are still in use, above all Warsh from Nafi‘ in North and West Africa. Muslim scholars accept ten readings as valid, each handed down in two transmissions. Seven were selected in the tenth century by the scholar Ibn Mujahid, about three hundred years after Muhammad, and three more, already taught for centuries, were given the same standing through the work of Ibn al-Jazari (d. 1429).',
@@ -54,7 +54,7 @@ export const quranManuscripts: Topic = {
     },
     {
       heading: 'How to use this',
-      keyLine: 'You are not arguing that the Quran is wildly corrupt.',
+      keyLine: 'Show that the Quran has a human history like other ancient books, without overclaiming, and then ask for one standard.',
       body: [
         'Do not overclaim. You are not arguing that the Quran is wildly corrupt. You are showing that it has a human history of variants, editing and standardisation, like other ancient books.',
         'Then ask for one standard. Muslims are taught that variants disqualify the Bible. If erased texts, corrected manuscripts and multiple readings do not disqualify the Quran, the Bible’s openly documented variants cannot disqualify it either (see Uthman’s Burning and the Lost Verses).',

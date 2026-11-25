@@ -24,6 +24,7 @@ export const disputedTranslations: Topic = {
     },
     {
       heading: 'The Old Testament: four verses',
+      keyLine: 'Four Old Testament verses are rendered in more than one way, so be careful not to claim more than the wording supports.',
       body: [
         'Isaiah 7:14: “virgin” or “young woman”. The Hebrew word, almah, means a young woman of marriageable age. It is not the technical term for a virgin. In its few other uses in the Old Testament it is never clearly a married woman, though the dictionaries allow that it could be used of a young wife. The Jewish translators who put Isaiah into Greek before the time of Jesus chose parthenos, the usual Greek word for a virgin, and Matthew quotes their version (Matthew 1:23). Claim no more than that. The virgin birth rests on what Matthew and Luke report, not on this one word. The lesson on fulfilled prophecy takes the objection further.',
         'Psalm 22:16: “pierced” or “like a lion”. The standard Hebrew text has a word meaning “like a lion”, which leaves the line without a verb. The ancient Greek translation has a verb, “they dug” or “they pierced”, and a Hebrew scroll of the Psalms found near the Dead Sea also has a verb here, though scholars debate exactly what that verb means. Most English Bibles follow that reading. The New Testament quotes this psalm for the cry from the cross and for the dividing of the clothes (Matthew 27:46; John 19:24), but it never quotes this line, so do not build on it.',
@@ -34,6 +35,7 @@ export const disputedTranslations: Topic = {
     },
     {
       heading: 'John’s Gospel: three verses',
+      keyLine: 'John’s opening says the Word was everything God is, and however Jesus’ saying about Abraham is translated, he claims to have existed before him.',
       body: [
         'John 1:1: “God” or “a god”. “In the beginning was the Word, and the Word was with God, and the Word was God” (John 1:1). The New World Translation, used by Jehovah’s Witnesses, has “the Word was a god”, on the ground that the Greek word for God has no “the” in front of it in the last clause. But in a Greek sentence of the form “X was Y”, the noun doing the describing normally goes without the article, especially when it is put first, as it is here. That is how the reader knows that “the Word” is the subject. The same word without the article is used of the Father a few lines later: “No one has ever seen God” (John 1:18). Nobody translates that as “a god”. Had John put the article in, he would have said that the Word was the very one he was “with”, which would make the Father and the Son the same person. As it stands, the clause says that the Word was everything God is. One modern version puts it this way: “what God was, the Word was”.',
         'John 1:18: “the one and only Son” or “the only begotten God”. Here the manuscripts differ. The oldest copies read “God”, giving something like “the only one, himself God”; most later copies read “Son”. The Berean Standard Bible follows the older reading and supplies the word “Son” to bring out the sense: “the one and only Son, who is Himself God” (John 1:18). The word behind “one and only”, monogenes, was rendered “only begotten” in older Bibles, which has led some, Muslims especially, to think Christians believe that God fathered a child. Most scholars now take it to mean the only one of its kind. Isaac is called Abraham’s “one and only son” (Hebrews 11:17), though Abraham had another son, Ishmael, who was born first. Whichever reading is original, the verse says that the Son alone has made the Father known.',
@@ -43,6 +45,7 @@ export const disputedTranslations: Topic = {
     },
     {
       heading: 'Paul, Peter and Hebrews: five verses',
+      keyLine: 'In the disputed verses in Paul, Peter and Hebrews, the surrounding passage usually shows what is being said about Christ.',
       body: [
         'Romans 9:5: where the full stop goes. Paul lists Israel’s privileges and ends with the Christ. The Berean Standard Bible reads, “Christ, who is God over all, forever worthy of praise!” (Romans 9:5). Because the first copies had no punctuation, it is also possible to end the sentence at “Christ” and read what follows as a separate word of praise to God the Father, and several translations do, among them the Revised Standard Version, the Good News Bible and the New American Bible. There are three reasons for taking it of Christ. Paul has just spoken of his human descent, which invites a word about what else he is. Paul’s outbursts of praise normally attach to someone he has just named (Romans 1:25). And when he begins a fresh one, the word “blessed” comes first (2 Corinthians 1:3), which it does not here. Most modern versions take it of Christ. Since scholars are divided, use it as support and not as your first text.',
         'Philippians 2:6: “something to be grasped”. Paul writes that Christ, “existing in the form of God, did not consider equality with God something to be grasped” (Philippians 2:6). In English “grasped” can mean snatched at, as though he did not have it, or clung to. The Greek word is rare, and several recent translations take the phrase as an idiom: he did not treat equality with God as something to use for his own advantage. On any rendering the sentence begins with his “existing in the form of God”, and sets that beside “the form of a servant” that he took (Philippians 2:7). He was truly a servant. The passage ends with every knee bowing to Jesus (Philippians 2:10-11), which is what the LORD says of himself in Isaiah: “Every knee will bow before Me” (Isaiah 45:23).',
@@ -69,7 +72,7 @@ export const disputedTranslations: Topic = {
       id: 'dt-1',
       objection: 'Your Bible is biased. In the Greek, John 1:1 says the Word was “a god”.',
       response:
-        'I am glad you care what the Greek says, so let us look at it. The word for God has no “the” in that clause because of how Greek marks the subject of a sentence, not because John means a lesser god. He uses the same word without “the” for the Father a few lines on: “No one has ever seen God” (John 1:18). And a second, lesser god beside God is something John, a Jew, could not have written. When Thomas sees the risen Jesus he says, “My Lord and my God!” (John 20:28), and Jesus accepts it.',
+        'I am glad you care what the Greek says, so let us look at it. The word for God has no “the” in that clause because of how Greek marks the subject of a sentence, not because John means a lesser god. He uses the same word without “the” for the Father a few lines on: “No one has ever seen God” (John 1:18). And a second, lesser god beside God is something John, a Jew, would hardly have written. When Thomas sees the risen Jesus he says, “My Lord and my God!” (John 20:28), and Jesus accepts it.',
       keyPoints: [
         'The missing article marks “God” as describing the Word, not as a lesser god.',
         'The same word without the article is used of the Father in John 1:18.',
@@ -163,10 +166,10 @@ export const disputedTranslations: Topic = {
       id: 'dt-6',
       objection: 'The New World Translation is more faithful because it restores God’s name, Jehovah, to the New Testament.',
       response:
-        'God’s name matters, and it is right to want it honoured. But no surviving Greek manuscript of the New Testament contains it, not one out of thousands. The nearest it comes is the short form “Jah” inside the word “Hallelujah” (Revelation 19:1). In every copy we have, where the New Testament writers quote the Old, the word is “Lord”. Putting “Jehovah” back is a guess about what they wrote, and it has an effect: it hides the places where they take a verse about the LORD and apply it to Jesus. Paul says the saving confession is “Jesus is Lord” (Romans 10:9), and four verses later he gives his reason from the prophet Joel: “Everyone who calls on the name of the Lord will be saved” (Romans 10:13). Print “Jehovah” in the second verse and the link between them is cut.',
+        'God’s name matters, and it is right to want it honoured. But no surviving Greek manuscript of the New Testament contains it, not one out of thousands. The nearest it comes is the short form “Jah” inside the word “Hallelujah” (Revelation 19:1). In every copy we have, where the New Testament writers quote the Old, the word is “Lord” or “God”. Putting “Jehovah” back is a guess about what they wrote, and it has an effect: it hides the places where they take a verse about the LORD and apply it to Jesus. Paul says the saving confession is “Jesus is Lord” (Romans 10:9), and four verses later he gives his reason from the prophet Joel: “Everyone who calls on the name of the Lord will be saved” (Romans 10:13). Print “Jehovah” in the second verse and the link between them is cut.',
       keyPoints: [
         'No Greek manuscript of the New Testament has the divine name.',
-        'In every surviving copy, their quotations of the Old Testament read “Lord”.',
+        'In every surviving copy, their quotations of the Old Testament read “Lord” or “God”.',
         'They apply those texts to Jesus, as in Romans 10:9 and Romans 10:13.',
       ],
       references: ['Romans 10:9', 'Romans 10:13', 'Joel 2:32'],
@@ -275,7 +278,7 @@ export const disputedTranslations: Topic = {
       options: [
         'Because it is missing from the oldest manuscripts',
         'Because the Hebrew word for “one” is the ordinary number one and does not by itself mean a unity of several',
-        'Because it is quoted only once in the New Testament',
+        'Because it is never quoted in the New Testament',
         'Because it was written in Aramaic',
       ],
       answer: 1,

@@ -81,14 +81,14 @@ export const CHARTS: Chart[] = [
     title: 'How long after the events?',
     note: 'The time between a life and the writings about it, as these lessons give it: the solid bar is the shortest gap, the pale bar the longest. A short gap does not prove a source true and a long one does not prove it false; it shows how much room there was for memory to fade.',
     topics: ['reliability-of-scripture', 'resurrection', 'islam-hadith-reliability', 'islam-outside-writers'],
-    max: 400,
+    max: 450,
     rows: [
       { label: 'The creed Paul quotes (1 Corinthians 15)', from: 0, to: 5, says: 'within a few years', topicId: 'reliability-of-scripture', quote: '1 Corinthians 15:3-7 is widely dated to within a few years of the crucifixion', tone: 'bible' },
       { label: 'Paul’s letters', from: 20, to: 30, says: '20 to 30 years', topicId: 'reliability-of-scripture', quote: 'Paul’s letters, written within twenty to thirty years of the crucifixion', tone: 'bible' },
       { label: 'The four Gospels', from: 35, to: 65, says: 'about 35 to 65 years', topicId: 'reliability-of-scripture', quote: 'the Gospels were written within about 35-65 years', tone: 'bible' },
       { label: 'Earliest surviving biography of Muhammad (Ibn Ishaq)', from: 100, to: 135, says: 'more than a century', topicId: 'islam-outside-writers', quote: 'The earliest biography that survives was written by Ibn Ishaq more than a century after Muhammad died', tone: 'quran' },
       { label: 'Sahih al-Bukhari and Sahih Muslim', from: 200, to: 240, says: 'roughly 200 to 240 years', topicId: 'islam-hadith-reliability', quote: 'Their collections were compiled roughly 200 to 240 years after Muhammad’s death', tone: 'quran' },
-      { label: 'Main surviving biographies of Alexander the Great', from: 390, to: 400, says: 'about 400 years', topicId: 'reliability-of-scripture', quote: 'our main surviving biographies of Alexander the Great, written about 400 years after his death, though from earlier accounts now lost', tone: 'other' },
+      { label: 'Main surviving biographies of Alexander the Great', from: 300, to: 450, says: 'about 300 to 450 years', topicId: 'reliability-of-scripture', quote: 'our main surviving biographies of Alexander the Great, written about 300 to 450 years after his death, though from earlier accounts now lost', tone: 'other' },
     ],
   },
   {

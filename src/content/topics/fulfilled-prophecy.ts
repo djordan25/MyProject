@@ -17,6 +17,7 @@ export const fulfilledProphecy: Topic = {
     },
     {
       heading: 'His family and birthplace',
+      keyLine: 'The Messiah was to come from Abraham, from the royal line of David, and from one small town, Bethlehem.',
       body: [
         'The Messiah would come from Abraham, through whom “all the families of the earth will be blessed” (Genesis 12:3), and from the royal line of David, whose throne God promised to establish for ever (2 Samuel 7:12-13; Jeremiah 23:5).',
         'He would come from one small town: “But you, Bethlehem Ephrathah, who are small among the clans of Judah, out of you will come forth for Me One to be ruler over Israel—One whose origins are of old, from the days of eternity” (Micah 5:2). When Herod asked where the Christ was to be born, the scribes answered from this verse (Matthew 2:5-6).',
@@ -25,7 +26,7 @@ export const fulfilledProphecy: Topic = {
     },
     {
       heading: 'His coming and its timing',
-      keyLine: 'Christians read this as follows: the Messiah was to come, and be cut off, before Jerusalem and its temple were destroyed, and that destruction came in AD 70.',
+      keyLine: 'Christians read Daniel as saying the Messiah would come and be cut off before Jerusalem and its temple were destroyed.',
       body: [
         'A messenger would prepare the way, and then “the Lord whom you seek will suddenly come to His temple” (Malachi 3:1). The king would arrive “humble and riding on a donkey” (Zechariah 9:9), which Jesus did on entering Jerusalem (Matthew 21:4-5).',
         'Daniel adds a note of time: “the Messiah will be cut off and will have nothing. Then the people of the prince who is to come will destroy the city and the sanctuary” (Daniel 9:25-26). Christians read this as follows: the Messiah was to come, and be cut off, before Jerusalem and its temple were destroyed, and that destruction came in AD 70. On that reading, anyone still waiting for the Messiah to arrive for the first time is waiting too late. Other interpreters apply the passage to events of the second century BC, so be ready for that reply.',
@@ -34,7 +35,7 @@ export const fulfilledProphecy: Topic = {
     },
     {
       heading: 'His death',
-      keyLine: 'He suffers not for his own sins but for those of others.',
+      keyLine: 'Isaiah describes a servant of the LORD who is rejected, pierced and cut off for the sins of others, not his own.',
       body: [
         'Isaiah describes a servant of the LORD who is rejected, “pierced for our transgressions”, silent before his accusers, “cut off from the land of the living”, and buried “with a rich man in His death”, though he had done no wrong (Isaiah 53:5-9). He suffers not for his own sins but for those of others.',
         'Psalm 22 gives the sufferer’s own voice: mocked by onlookers, his hands and feet pierced, his clothes divided by lot (Psalm 22:16-18). Zechariah has the LORD say, “they will look on Me, the One they have pierced” (Zechariah 12:10), a verse John applies to the crucifixion (John 19:36-37).',
@@ -44,7 +45,7 @@ export const fulfilledProphecy: Topic = {
     },
     {
       heading: 'And what came after',
-      keyLine: 'A man who has died and been buried goes on to live.',
+      keyLine: 'In Isaiah the servant who has died and been buried goes on to live.',
       body: [
         'The same chapter of Isaiah goes on past the servant’s death: “He will see His offspring, He will prolong His days… After the anguish of His soul, He will see the light of life” (Isaiah 53:10-11). A man who has died and been buried goes on to live.',
         'David wrote, “You will not abandon my soul to Sheol, nor will You let Your Holy One see decay” (Psalm 16:10). Peter pointed out that David’s own tomb was still there for anyone to visit, so David must have been speaking of another: the Christ, whose body did not see decay (Acts 2:29-31).',
@@ -53,7 +54,7 @@ export const fulfilledProphecy: Topic = {
     },
     {
       heading: 'Using prophecy well',
-      keyLine: 'Lead with the strongest passages: Isaiah 53, Micah 5:2, Daniel 9 and Psalm 22.',
+      keyLine: 'A few clear passages, read aloud, are far more persuasive than statistics about the odds of fulfilment.',
       body: [
         'Lead with the strongest passages: Isaiah 53, Micah 5:2, Daniel 9 and Psalm 22. They are specific, they are early, and they concern things no one could arrange for himself: his birthplace, the manner of his death, the timing, and what happened to his body.',
         'Be honest that the New Testament uses “fulfil” in more than one way. Sometimes it means a direct prediction came true. Sometimes it means a pattern in Israel’s story reached its goal in Jesus. Do not claim every case is the first kind.',
@@ -79,7 +80,7 @@ export const fulfilledProphecy: Topic = {
               answer: 'They select different events, and the date of the census is a real difficulty. Several solutions have been proposed and none is certain. But the differences show that neither writer copied the other, and they still agree on the centre: Mary and Joseph, a virgin conception, David’s line, a birth in Bethlehem in the time of Herod, and a childhood in Nazareth (Matthew 2:1; Luke 1:5; 2:4-7). Independent sources that agree on the centre and differ at the edges are what a historian hopes to find.',
               followUps: [
                 {
-                  reply: 'Mark and John never mention Bethlehem. In John 7 the crowd says the Christ must come from Bethlehem and Jesus comes from Galilee, and John does not correct them. The earliest Gospel and the latest seem to know nothing of it.',
+                  reply: 'Mark and John never say he was born in Bethlehem. In John 7 the crowd says the Christ must come from Bethlehem and Jesus comes from Galilee, and John does not correct them. The earliest Gospel and the latest seem to know nothing of it.',
                   answer: 'Mark begins with Jesus as an adult and says nothing about his birth at all, so his silence tells us nothing either way. John often lets people speak in ignorance of what his readers know, and the crowd’s objection at least shows that Jews expected a Messiah from Bethlehem before Christians said anything (John 7:41-42). I grant that the birthplace rests on Matthew and Luke. That is why I would not build the case on it. The centre of the argument is his death, which hardly any historian doubts and which nobody would have invented for a Messiah.',
                 },
               ],
@@ -224,7 +225,7 @@ export const fulfilledProphecy: Topic = {
               followUps: [
                 {
                   reply: 'It has been two thousand years. At what point does a delayed promise count as a failed one?',
-                  answer: 'Israel waited many centuries for his first coming, and it came. Peter met this question in the first century: “The Lord is not slow in keeping His promise as some understand slowness, but is patient with you, not wanting anyone to perish” (2 Peter 3:8-9). The delay is mercy. And the interval has not been empty. The turning of the nations to the God of Israel, which the prophets also promised, has been going on the whole time (Psalm 22:27-28).',
+                  answer: 'Israel waited many centuries for his first coming, and it came. Peter’s second letter met this question long ago: “The Lord is not slow in keeping His promise as some understand slowness, but is patient with you, not wanting anyone to perish” (2 Peter 3:8-9). The delay is mercy. And the interval has not been empty. The turning of the nations to the God of Israel, which the prophets also promised, has been going on the whole time (Psalm 22:27-28).',
                 },
               ],
             },
