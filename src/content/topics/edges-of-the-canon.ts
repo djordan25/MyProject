@@ -43,6 +43,12 @@ export const edgesOfTheCanon: Topic = {
         'They were received because, over time, the churches judged that they did come from the apostles’ circle and taught the apostles’ faith. The writer of Hebrews had the message from “those who heard Him” (Hebrews 2:3) and was a companion of Timothy. Jerome says of Jude that “by age and use it has gained authority”. The slow acceptance shows that the churches did not take a book just because it carried a great name.',
         'The lists took time to agree. The list of Athanasius in 367 is the first we have that matches our twenty-seven exactly. Synods at Hippo in 393 and Carthage in 397 gave the same books for North Africa. Even then not everyone followed. Gregory of Nazianzus left out Revelation, and the Syriac Bible, the Peshitta, had twenty-two books, without 2 Peter, 2 and 3 John, Jude and Revelation. The Ethiopian church counts more books still. No Christian teaching rests on the disputed books alone.',
       ],
+      argument: [
+        'The churches asked whether a book came from the apostles or their companions, whether it agreed with the apostles’ teaching, and whether churches everywhere had long used it.',
+        'The Shepherd of Hermas was one of the most popular books in the early church, yet it was not counted, because it was a good book that came too late.',
+        'Hebrews and Revelation were questioned, and were received because, over time, the churches judged that they came from the apostles’ circle and taught the apostles’ faith.',
+        'So the edge of the New Testament was unsettled for a long time, but arbitrary is the wrong word: the reasons given were date and origin, and they are on record.',
+      ],
       references: ['Hebrews 2:3'],
     },
     {

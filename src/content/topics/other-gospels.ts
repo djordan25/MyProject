@@ -76,6 +76,12 @@ export const otherGospels: Topic = {
         'The churches’ tests can be seen in what these writers say. Does the book come from an apostle or someone close to the apostles? Has it been handed down and read in the churches from the beginning? Does it agree with the teaching the churches had already received? Serapion applied all three to the Gospel of Peter. The Muratorian list says of another popular book, the Shepherd of Hermas, that it may be read but was written too recently to stand among the prophets and apostles.',
         'No council chose the four. The Council of Nicaea in AD 325 made no ruling about the books of the Bible. When Athanasius listed the twenty-seven books in AD 367 and warned his churches against apocryphal ones, he was a bishop with real authority, and bishops of that time did use it. The books that were left out had been weighed in public argument over the two centuries before.',
       ],
+      argument: [
+        'Most scholars, sceptical ones included, date Matthew, Mark, Luke and John to the first century, within about seventy years of the crucifixion.',
+        'Of the other gospels, only Thomas has serious defenders of a first-century date, and they are a minority.',
+        'Winning does not make a party right, but being later does make a source weaker.',
+        'So the Gospels the churches kept are the earliest we have, and the other gospels, on most scholars’ dating, are later and weaker sources for Jesus.',
+      ],
       references: ['Luke 1:1-4'],
     },
     {

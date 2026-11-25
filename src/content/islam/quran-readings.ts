@@ -88,6 +88,12 @@ export const quranReadings: Topic = {
         'The comparison with the New Testament is closer than either side usually admits. Our manuscripts differ in many places, nearly all of them trivial, and two longer passages, Mark 16:9-20 and John 8:1-11, are missing from the earliest copies. Our Bibles say so in the footnotes. The Muslim scholars who sifted readings by chain, script and grammar were doing work much like that of Christian scholars who weigh manuscripts. If accepted differences of wording do not undo the Quran, visible differences do not undo the Gospels. Scripture asks for one set of scales: “Differing weights and unequal measures—both are detestable to the LORD” (Proverbs 20:10).',
         'Then move to what matters more. Christians have never rested their faith on a text free of copyists’ differences. We rest it on a person, and on what the witnesses reported of his death and resurrection. Jesus said, “Heaven and earth will pass away, but My words will never pass away” (Matthew 24:35). The question to leave with your friend is which message is true, and counting letters cannot settle that.',
       ],
+      argument: [
+        'Many Muslims grow up hearing that there is one Quran, the same down to the last letter, and this sameness is offered as proof that the book is from God.',
+        'Muslim scholars have always taught that the Quran is recited in several authorised readings, which differ in a great many details of pronunciation and in some words.',
+        'Printed Qurans in more than one reading are in use today, and though none of the differences changes a doctrine, there are places where two printed copies do not have the same words.',
+        'So perfect, uniform preservation, down to the letter, cannot serve as proof that the book is divine. This does not show that the Quran is corrupt.',
+      ],
       references: ['Mark 16:9-20', 'John 8:1-11', 'Proverbs 20:10', 'Matthew 24:35'],
     },
   ],
