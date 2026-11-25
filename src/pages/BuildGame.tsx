@@ -107,7 +107,7 @@ export default function BuildGame() {
             const state = !answered ? '' : n === q.answer ? 'correct' : n === picked ? 'wrong' : 'dim';
             return (
               <button key={n} className={`option ${state}`} data-key={'ABCD'[n]} onClick={() => choose(n)} disabled={answered}>
-                {opt}
+                <span>{opt}{answered && q.whys[n] && <small className="option-why">{q.whys[n]}</small>}</span>
               </button>
             );
           })}

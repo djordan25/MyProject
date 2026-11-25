@@ -65,11 +65,11 @@ export default function LessonSteps({ topic, visuals }: { topic: Topic; visuals:
       <EdButton variant="primary" onClick={() => go(at + 1)} disabled={!canNext} trailingIcon={<EdIcon name="ArrowRight" size="sm" />}>{label}</EdButton>
     </div>
   );
-  const options = (opts: string[], answer: number) => (
+  const options = (opts: string[], answer: number, whys: (string | undefined)[] = []) => (
     <div className="options">
       {opts.map((opt, n) => {
         const state = picked === null ? '' : n === answer ? 'correct' : n === picked ? 'wrong' : 'dim';
-        return <button key={n} className={`option ${state}`} data-key={'ABCD'[n]} onClick={() => choose(n, answer)} disabled={picked !== null}>{opt}</button>;
+        return <button key={n} className={`option ${state}`} data-key={'ABCD'[n]} onClick={() => choose(n, answer)} disabled={picked !== null}><span>{opt}{picked !== null && whys[n] && <small className="option-why">{whys[n]}</small>}</span></button>;
       })}
     </div>
   );
@@ -107,7 +107,7 @@ export default function LessonSteps({ topic, visuals }: { topic: Topic; visuals:
             stepClass={(n) => (n === screen.q.gap ? (picked !== null ? 'filled' : 'gap') : undefined)}
             renderStep={(step, n) => (n === screen.q.gap && picked === null ? <span className="arg-missing" aria-label="Missing step">?</span> : <RefText text={step} />)}
           />
-          {options(screen.q.options, screen.q.answer)}
+          {options(screen.q.options, screen.q.answer, screen.q.whys)}
           {picked !== null && <div className="reveal"><p><strong>{picked === screen.q.answer ? 'Correct.' : 'Not quite.'}</strong> The argument is complete above.</p></div>}
           {nav(picked !== null)}
         </section>

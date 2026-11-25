@@ -1,6 +1,7 @@
 import type { FollowUp, Objection, Topic } from '../content';
 import { TIMELINE, type TimelineEvent } from '../content/games';
 import { shuffle } from './shuffle';
+import { TRAPS } from '../content/argumentTraps';
 
 /** One turn of a conversation: what the other person says, and the lesson's answer to it. */
 export interface Exchange {
@@ -110,6 +111,8 @@ export interface GapQuestion {
   options: string[];
   /** Index into options. */
   answer: number;
+  /** For each option, why it fails as the missing step, where the option is a written near miss. */
+  whys: (string | undefined)[];
 }
 
 /** Every numbered argument in these topics' lessons. */
@@ -129,11 +132,14 @@ export function gapQuestion(argument: LessonArgument, all: LessonArgument[], cou
   const others = [...mixed.filter(near), ...mixed.filter((a) => !near(a))];
   const sameRole = others.flatMap((a) => (conclusion ? [a.steps[a.steps.length - 1]] : a.steps.slice(0, -1)));
   const otherRole = others.flatMap((a) => (conclusion ? a.steps.slice(0, -1) : [a.steps[a.steps.length - 1]]));
+  // Written near misses come first: they look like the missing step and fail as it. Steps from other arguments fill any gap.
+  const traps = shuffle(TRAPS.find((t) => t.topicId === argument.topic.id && t.heading === argument.heading)?.traps[gap] ?? []);
+  const why = new Map(traps.map((t) => [t.text, t.why]));
   const wrong: string[] = [];
-  for (const step of [...sameRole, ...otherRole]) {
-    if (!argument.steps.includes(step) && !wrong.includes(step)) wrong.push(step);
+  for (const step of [...traps.map((t) => t.text), ...sameRole, ...otherRole]) {
     if (wrong.length === count - 1) break;
+    if (!argument.steps.includes(step) && !wrong.includes(step)) wrong.push(step);
   }
   const options = shuffle([right, ...wrong]);
-  return { argument, gap, options, answer: options.indexOf(right) };
+  return { argument, gap, options, answer: options.indexOf(right), whys: options.map((o) => why.get(o)) };
 }
