@@ -27,7 +27,7 @@ export const muhammadTested: Topic = {
       heading: 'Muhammad’s own doubts about the source',
       keyLine: 'In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
       body: [
-        'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija and her Christian cousin Waraqa who reassured him that it was the angel (Sahih al-Bukhari 3).',
+        'After the first revelation in the cave of Hira, Muhammad returned home trembling, saying “Cover me!” and telling Khadija, “I fear that something may happen to me.” It was Khadija who reassured him, and her Christian cousin Waraqa who told him it was the angel sent to Moses (Sahih al-Bukhari 3).',
         'Fear at a divine encounter is not itself the problem: Isaiah and Daniel trembled too (Isaiah 6:5; Daniel 10:8-9). The difference is where the assurance came from. In Scripture the messenger himself gives the reassurance: “Do not be afraid” (Luke 1:11-13; Luke 1:28-30). In Bukhari’s account of that first night, Muhammad’s assurance came from his wife and her cousin.',
         'Bukhari also records that when the revelations paused, Muhammad became so sad that “he intended several times to throw himself from the tops of high mountains” (Sahih al-Bukhari 6982); each time, the report says, Gabriel appeared and told him he was truly Allah’s Messenger. Muslim scholars point out that this part of the report comes from the narrator al-Zuhri without a full chain. The earliest surviving biography, by Ibn Ishaq as preserved by al-Tabari, reports a similar impulse straight after the first revelation, stopped by a voice from heaven telling him he was God’s messenger and that the speaker was Gabriel.',
       ],
@@ -59,7 +59,7 @@ export const muhammadTested: Topic = {
       body: [
         'The Quran sets its own test: “If Muhammad had made up about Us some [false] sayings, We would have seized him by the right hand; then We would have cut from him the aorta” (Quran 69:44-46).',
         'In his final illness, Muhammad said: “O Aisha! I still feel the pain caused by the food I ate at Khaibar, and at this time, I feel as if my aorta is being cut from that poison” (Sahih al-Bukhari 4428).',
-        'Be exact when you use this. The Arabic words differ: the Quran has al-watin and the hadith has abhar. Both name the great vessel of the heart, and Muslim translators render both as “aorta”, but a Muslim who knows Arabic will point out the difference. Put it as a question, not a proof: of all the ways to describe his death, why did Muhammad choose this one?',
+        'Be exact when you use this. The Arabic words differ: the Quran has al-watin and the hadith has abhar. Both name the great vessel of the heart, and some Muslim translators render both as “aorta”, but a Muslim who knows Arabic will point out the difference. Put it as a question, not a proof: of all the ways to describe his death, why did Muhammad choose this one?',
         'The question to ask: by the Quran’s own stated criterion, what does Muhammad’s description of his death suggest?',
       ],
       references: ['Quran 69:44-47', 'Sahih al-Bukhari 4428'],
@@ -112,7 +112,7 @@ export const muhammadTested: Topic = {
           followUps: [
             {
               reply: 'That argument is false. The Quran’s word is al-watin and the hadith’s word is abhar. They are different words. And he died years after Khaybar, as a martyr.',
-              answer: 'The words are different, and I will not hide that. But both name the great vessel of the heart. The Tafsir al-Jalalayn explains the Quran’s word as the aorta of the heart, which brings death if it is severed, and Muslim translators put “aorta” in both places. The gap of about four years is real too. Yet it is Muhammad who makes the link, saying in his final illness that he feels his aorta being cut “from that poison” (Sahih al-Bukhari 4428). I put it as a question, not a proof. Of all the ways to describe dying, why this one?',
+              answer: 'The words are different, and I will not hide that. But both name the great vessel of the heart. The Tafsir al-Jalalayn explains the Quran’s word as the aorta of the heart, which brings death if it is severed, and some Muslim translators put “aorta” in both places. The gap of about four years is real too. Yet it is Muhammad who makes the link, saying in his final illness that he feels his aorta being cut “from that poison” (Sahih al-Bukhari 4428). I put it as a question, not a proof. Of all the ways to describe dying, why this one?',
             },
           ],
         },
@@ -252,7 +252,7 @@ export const muhammadTested: Topic = {
         },
         {
           reply: 'Those girls were kept for the soldiers’ use. That is worse than anything in Islam.',
-          answer: 'The text says the girls were spared and shared out among Israel with the rest of the plunder. It does not say what you describe. Where the law of Moses deals with a captive woman, it requires a month of mourning and then marriage, and it forbids selling her afterwards (Deuteronomy 21:10-14). It is still a hard passage, as I said. But compare the law that stands in Islam. The Quran permits men their wives and “those their right hands possess” (Quran 23:5-6), and Sahih Muslim reports that Quran 4:24 was sent down when Muhammad’s men hesitated to have intercourse with captive women whose husbands were living (Sahih Muslim 1456). Numbers 31 records one judgement in one war. It gives no rule for anyone now.',
+          answer: 'The text says the girls were spared and shared out among Israel with the rest of the plunder. It does not say what you describe. Where the law of Moses deals with a captive woman, it requires a month of mourning and then marriage, and it forbids selling her afterwards (Deuteronomy 21:10-14). It is still a hard passage, as I said. But compare the law that stands in Islam. The Quran permits men their wives and “those their right hands possess” (Quran 23:5-6), and Sahih Muslim reports that Quran 4:24 was sent down when Muhammad’s men hesitated to have intercourse with captive women who had polytheist husbands (Sahih Muslim 1456). Numbers 31 records one judgement in one war. It gives no rule for anyone now.',
         },
       ],
       objection: 'The Bible is worse. Moses told his soldiers to keep the young girls for themselves (Numbers 31:17-18).',
@@ -305,7 +305,7 @@ export const muhammadTested: Topic = {
     },
     {
       id: 'mt-q6',
-      question: 'After the first revelation, who reassured Muhammad that what he had met was the angel (Sahih al-Bukhari 3)?',
+      question: 'After the first revelation, who reassured Muhammad and told him that what he had met was the angel (Sahih al-Bukhari 3)?',
       options: ['The angel himself', 'His wife Khadija and her Christian cousin Waraqa', 'Abu Bakr and Umar', 'His uncle Abu Talib'],
       answer: 1,
       explanation: 'In Scripture the heavenly messenger gives the reassurance himself: “Do not be afraid” (Luke 1:11-13). In this report Muhammad’s came from his wife and her cousin.',

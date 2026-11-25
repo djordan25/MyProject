@@ -21,16 +21,16 @@ export const quranSources: Topic = {
       body: [
         'The Quran says Jesus made birds from clay and breathed into them, and they became birds (Quran 3:49; 5:110).',
         'This story is not in the four Gospels. It comes from the Infancy Gospel of Thomas, a second-century collection of legends about Jesus as a boy. (This is a different work from the “Gospel of Thomas”, a collection of sayings.) In that legend, the five-year-old Jesus shapes twelve sparrows from clay on the Sabbath and claps his hands to make them fly.',
-        'The four Gospels say Jesus’ first sign was at Cana, as an adult (John 2:11).',
+        'John’s Gospel says Jesus’ first sign was at Cana, as an adult (John 2:11).',
       ],
       references: ['Quran 3:49', 'Quran 5:110', 'John 2:11'],
     },
     {
       heading: 'Mary in the temple',
-      keyLine: 'It closely follows the Protoevangelium of James (mid-second century)',
+      keyLine: 'It closely follows the Protoevangelium of James (later second century)',
       body: [
         'The Quran says Mary was dedicated before birth, placed in Zechariah’s care, and miraculously provided with food in her chamber (Quran 3:35-37), and that men “cast their pens” to decide who would be responsible for her (Quran 3:44).',
-        'None of this is in the Bible. It closely follows the Protoevangelium of James (mid-second century), in which Mary is raised in the temple and fed by an angel, and lots are cast with rods to choose her guardian.',
+        'None of this is in the Bible. It closely follows the Protoevangelium of James (later second century), in which Mary is raised in the temple and fed by an angel, and lots are cast with rods to choose her guardian.',
       ],
       references: ['Quran 3:35-37', 'Quran 3:44', 'Luke 1:26-38'],
     },
@@ -51,7 +51,7 @@ export const quranSources: Topic = {
         'Cain and the raven: in the Quran, Allah sends a crow to show Cain how to bury Abel (Quran 5:31). Genesis has no raven (Genesis 4:8-12); a raven teaching burial appears in Jewish legend (where it is Adam who learns from it). Be careful with this one: the Jewish book that records it, Pirke de-Rabbi Eliezer, was completed after Islam began, so it cannot be shown that the Quran drew on it. The stronger example follows in the next verse.',
         'The next verse is even more revealing. Quran 5:32 says, “We decreed upon the Children of Israel that whoever kills a soul… it is as if he had slain mankind entirely.” That sentence is not in the Torah — it comes from the Mishnah (Sanhedrin 4:5, compiled about AD 200), in a rabbinic passage that discusses Cain and Abel and the creation of a single Adam. The Quran presents a rabbinic teaching as God’s decree.',
         'Abraham in the fire: in the Quran, Abraham smashes idols and is thrown into a fire that Allah makes cool (Quran 21:68-69). Genesis says nothing of this. It is a Jewish midrash (Genesis Rabbah), possibly arising from the name “Ur” of the Chaldeans, which resembles a word for fire (Genesis 15:7).',
-        'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely parallels a story in the Targum Sheni to Esther, a Jewish expansion whose date is debated (it may be later than the Quran), though it is usually thought to draw on older Jewish lore — not the account in 1 Kings 10.',
+        'Solomon, the hoopoe and the Queen of Sheba (Quran 27:20-44) closely parallels a story in the Targum Sheni to Esther, a Jewish expansion whose date is debated (it may be later than the Quran), though it is often thought to draw on older Jewish lore — not the account in 1 Kings 10.',
         'Satan refusing to bow to Adam (Quran 2:34; 7:11-12) matches the Life of Adam and Eve, a Jewish-Christian legend, not Genesis.',
       ],
       references: ['Quran 5:31-32', 'Genesis 4:8-12', 'Quran 21:68-69', 'Genesis 15:7', 'Quran 27:20-23', '1 Kings 10:1-13', 'Quran 7:11-12'],
@@ -99,7 +99,7 @@ export const quranSources: Topic = {
               followUps: [
                 {
                   reply: 'The Quran’s versions differ from those books in many details. A borrower would have copied them. The Quran is correcting their mistakes, not repeating them.',
-                  answer: 'Differences in detail are what retelling by word of mouth produces. Nobody claims he copied from a page. And “correcting” assumes there was a real event to correct. The four first-century Gospels know nothing of a child who made clay birds. They say Jesus’ first sign was at Cana, as a grown man (John 2:11), and that his own town was astonished when he began to teach and do miracles (Mark 6:2-3). The clay birds first appear in a second-century book of legends.',
+                  answer: 'Differences in detail are what retelling by word of mouth produces. Nobody claims he copied from a page. And “correcting” assumes there was a real event to correct. The four first-century Gospels know nothing of a child who made clay birds. John says Jesus’ first sign was at Cana, as a grown man (John 2:11), and Mark says that his own town was astonished when he began to teach and do miracles (Mark 6:2-3). The clay birds first appear in a second-century book of legends.',
                   followUps: [
                     {
                       reply: 'You cannot date these books securely. Some of them may be later than the Quran and may have taken the stories from it.',
@@ -141,7 +141,7 @@ export const quranSources: Topic = {
               followUps: [
                 {
                   reply: 'Waraqa died a few days after the first revelation. The same hadith says so. He cannot be the source of twenty-three years of Quran.',
-                  answer: 'Agreed, and I am not saying he was. Waraqa shows that Christian teaching was present in Muhammad’s own household before any revelation came. The stories about Jesus and Mary did not need twenty-three years of tutoring. They needed a man who listened, in a place where Jews and Christians talked. The early biographies also have him travelling to Syria with trading caravans before his call.',
+                  answer: 'Agreed, and I am not saying he was. Waraqa shows that Christian teaching was present in Muhammad’s own family circle before any revelation came. The stories about Jesus and Mary did not need twenty-three years of tutoring. They needed a man who listened, in a place where Jews and Christians talked. The early biographies also have him travelling to Syria with trading caravans before his call.',
                   followUps: [
                     {
                       reply: 'If any man had been feeding him stories, the Quraysh would have produced that man and finished him. They never could.',
@@ -255,7 +255,7 @@ export const quranSources: Topic = {
     },
     {
       id: 'qs-q7',
-      question: 'According to the four Gospels, when and where did Jesus perform his first sign?',
+      question: 'According to John’s Gospel, when and where did Jesus perform his first sign?',
       options: ['As a boy in Nazareth', 'As a child in Egypt', 'As a newborn, in the cradle', 'As an adult, at Cana in Galilee'],
       answer: 3,
       explanation: '“Jesus performed this, the first of His signs, at Cana in Galilee” (John 2:11). That leaves no room for childhood miracles.',
@@ -296,7 +296,7 @@ export const quranSources: Topic = {
         'He wrote down the whole Quran',
       ],
       answer: 2,
-      explanation: 'Christian teaching was present in Muhammad’s own household before the first revelation.',
+      explanation: 'Christian teaching was present in Muhammad’s own family circle before the first revelation.',
     },
     {
       id: 'qs-q12',
