@@ -29,7 +29,7 @@ export const quranChallenge: Topic = {
       heading: 'The “no contradictions” claim',
       keyLine: 'But the Quran contains abrogation — later verses replacing earlier ones (Quran 2:106; 16:101).',
       body: [
-        'Quran 4:82 says that if it were from other than Allah, “they would have found within it much contradiction.” But the Quran contains abrogation — later verses replacing earlier ones (Quran 2:106; 16:101). When opponents noticed verses changing, they called Muhammad an inventor (Quran 16:101).',
+        'Quran 4:82 says that if it were from other than Allah, “they would have found within it much contradiction.” But the Quran contains abrogation — later verses replacing earlier ones (Quran 2:106; 16:101). When opponents noticed verses changing, they called Muhammad an inventor (Quran 16:101). Muslim scholars reply that abrogation replaces one ruling with another, each right for its time, and is not contradiction.',
         'The Quran’s own internal tension on the earlier scriptures — affirming them (Quran 5:47) while contradicting them — is a further example (see The Islamic Dilemma).',
       ],
       references: ['Quran 4:82', 'Quran 2:106', 'Quran 16:101', 'Quran 5:47'],
@@ -39,7 +39,7 @@ export const quranChallenge: Topic = {
       keyLine: 'A prophecy whose first hearers could not tell when it would come true is hard to call precise.',
       body: [
         '“The Byzantines have been defeated in the nearest land. But they, after their defeat, will overcome within three to nine years” (Quran 30:2-4). Muslims point to Byzantium’s later victory over Persia as fulfilment.',
-        'The hadith show how unclear the prediction was to those who first heard it. Abu Bakr wagered with the Meccans that the Romans would win. One report says he set the term at five years and another at six; the time passed with no Roman victory, and the Meccans collected their winnings before the Romans finally prevailed (Jami at-Tirmidhi 3193; 3194). A prophecy whose first hearers could not tell when it would come true is hard to call precise.',
+        'The hadith show how unclear the prediction was to those who first heard it. Abu Bakr wagered with the Meccans that the Romans would win. One report says he set the term at five years and another at six; the time passed with no Roman victory, and the Meccans collected their winnings before the Romans prevailed, in the seventh year by the second report (Jami at-Tirmidhi 3193; 3194). A prophecy whose first hearers could not tell when it would come true is hard to call precise.',
         'This is a general prediction about an ongoing war between two superpowers that had traded victories for centuries. Predicting that one side would recover is not the kind of specific, unlikely prophecy that requires God.',
         'Compare biblical prophecy: specific details given centuries in advance — the Messiah’s birthplace (Micah 5:2), his pierced hands and feet and divided garments (Psalm 22:16-18), his death for sins and burial with the rich (Isaiah 53:5-9).',
       ],
