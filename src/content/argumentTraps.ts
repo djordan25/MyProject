@@ -414,4 +414,129 @@ export const TRAPS: ArgumentTraps[] = [
       ],
     ],
   },
+  {
+    topicId: 'canons-compared',
+    heading: 'What turns on the disputed books',
+    traps: [
+      [
+        { text: 'The Protestant Bible is the true one, and the other main traditions have added false books at the edge of the Old Testament.', why: 'The lesson says never to call another church’s Bible wrong or its books false. The step only says where the lists differ.' },
+        { text: 'Most of the main traditions share some New Testament books and some of the Hebrew Bible, and differ over the rest.', why: 'Too weak: if only some books were shared, the centre of the faith might lie in the disputed ones.' },
+        { text: 'The Jewish Bible has 24 books and the Protestant Old Testament 39, though the content of the two is the same.', why: 'True, but it is about counting. The step must say what all the traditions share and where they differ.' },
+      ],
+      [
+        { text: 'Everything that Christians teach, in every tradition, is taught in books that every Christian tradition receives.', why: 'Overstated. The lesson grants that Catholic teaching on prayer for the dead appeals to 2 Maccabees.' },
+        { text: 'That Jesus is the Christ and the Son of God, and that he died for our sins and rose on the third day, is taught in the books that the Protestant tradition receives.', why: 'Shifted: it must be books every tradition receives, or the dispute over the list could still touch the centre.' },
+        { text: 'The books at the edge of the Old Testament are, for the most part, Jewish writings from the last centuries before Christ.', why: 'True, but it does not say where the centre of the faith is taught, so the conclusion does not follow.' },
+      ],
+      [
+        { text: 'So the disagreement over the list is about the edge of the Old Testament, and nothing at all turns on it.', why: 'Goes too far. The lesson says it would be untrue to say that nothing turns on these books.' },
+        { text: 'So the Protestant list is the right one, and the longer Bibles of the other traditions are wrong.', why: 'The premises say what is shared, not which list is right. The lesson says never to call another Bible wrong.' },
+        { text: 'So Christians do not really disagree about which books belong in the Bible.', why: 'The lists do differ, and the lesson says to admit it plainly. The conclusion is about what turns on the difference.' },
+      ],
+    ],
+  },
+  {
+    topicId: 'old-testament-apocrypha',
+    heading: 'How to use this',
+    traps: [
+      [
+        { text: 'Jesus and the apostles give a list of the books of Scripture, and it is the list of the Hebrew Bible.', why: 'Overstated. They give no list; the lesson says only that they treat the Scriptures as a known body of writings.' },
+        { text: 'A council of rabbis at Jamnia fixed the Hebrew canon in about AD 90, and it shut these books out.', why: 'The lesson says to drop this old story. Scholars no longer hold it, and it says nothing of Jesus and the apostles.' },
+        { text: 'Jesus argued with the Pharisees and the Sadducees about many things, and the Gospels record those arguments.', why: 'True, but it misses the point: what they are never recorded arguing about is which books were Scripture.' },
+      ],
+      [
+        { text: 'None of these books is in the Hebrew Bible, and the New Testament writers show no knowledge of any of them.', why: 'Overstated. The lesson says the writers knew them: most commentators see the martyrs of 2 Maccabees in Hebrews 11:35.' },
+        { text: 'These were Greek books, foreign to the Jews of the land of Israel, and so no New Testament writer used them.', why: 'The lesson calls this too simple: some of these books were read in the land of Israel in their original languages.' },
+        { text: 'No New Testament writer quotes one of these books, and a book that the New Testament does not quote is not Scripture.', why: 'That test would shut out Esther, Ecclesiastes and the Song of Songs, which the New Testament does not quote either.' },
+      ],
+      [
+        { text: 'In the fourth century the whole church agreed that books such as Wisdom, Sirach, Judith and Tobit are not in the canon.', why: 'Overstated. Augustine and the North African councils took the other view; the early church spoke with two voices.' },
+        { text: 'In the fourth century Athanasius gave the same list of Old Testament books that Protestants have today.', why: 'The lesson says his list is not the Protestant one: it includes Baruch and leaves Esther out.' },
+        { text: 'Books such as Wisdom, Sirach, Judith and Tobit were not counted as Scripture until Rome added them at the Council of Trent.', why: 'The lesson says not to say this. They had been in the Latin Bible for more than a thousand years.' },
+      ],
+      [
+        { text: 'So it is proved that these books are not Scripture, and Christians have no reason to read them.', why: 'Too strong twice over: the lesson calls the evidence short of proof, and says to read these books.' },
+        { text: 'So these books are false, and the Catholic and Orthodox churches were wrong to keep them in their Bibles.', why: 'The premises do not show the books false. The lesson says they deserve respect and grants the strength of the other case.' },
+        { text: 'So nobody can say whether these books are Scripture, and the question is best left alone.', why: 'Too weak. The lesson calls the evidence real, and teaches you to state your own position modestly.' },
+      ],
+    ],
+  },
+  {
+    topicId: 'other-gospels',
+    heading: 'Why four',
+    traps: [
+      [
+        { text: 'All scholars agree that Matthew, Mark, Luke and John were written by eyewitnesses, within a few years of the crucifixion.', why: 'Overstated in every part. The lesson says most scholars, the first century, and within about seventy years.' },
+        { text: 'The Council of Nicaea in AD 325 chose Matthew, Mark, Luke and John as the four Gospels of the church.', why: 'The lesson says Nicaea made no ruling about the books, and a council’s choice would not show the four are early.' },
+        { text: 'Around AD 180 Irenaeus, in Gaul, argued that there are four Gospels, Matthew, Mark, Luke and John, and no more.', why: 'True, but it shows the four were accepted by then. The argument needs when they were written.' },
+      ],
+      [
+        { text: 'Of the other gospels, not one has any serious defender of a first-century date.', why: 'Overstated. The lesson says Thomas has serious defenders of an early date, and that you should say so.' },
+        { text: 'The other gospels, Thomas included, are all forgeries written under the false names of apostles.', why: 'The lesson says not to call them forgeries as a class, and the argument is about dates, not names.' },
+        { text: 'The other gospels are all in print, and good translations of them are in any bookshop.', why: 'True, and worth saying, but it does not tell us when those books were written.' },
+      ],
+      [
+        { text: 'Winning does make a party right, and being rejected by the churches does make a source weaker.', why: 'The lesson says winning does not make a party right. A source is weighed by its date.' },
+        { text: 'Winning does not make a party right, but being later does make a source worthless.', why: 'Overstated. The step says a later source is weaker, not that it can tell us nothing.' },
+        { text: 'Winning does not make a party right, and being earlier or later makes no difference to a source.', why: 'Too weak: if date made no difference, the first two steps would lead nowhere.' },
+      ],
+      [
+        { text: 'So the other gospels are worthless forgeries, and no one has any reason to read them.', why: 'The lesson says not to call them forgeries as a class, and encourages people to read them.' },
+        { text: 'So everything in the Gospels the churches kept is proved true, and nothing in the other gospels is.', why: 'The premises are about which sources are earlier. Earlier is stronger evidence; it is not proof of every word.' },
+        { text: 'So there were no other gospels in the early church, and early Christians never disagreed with one another.', why: 'The lesson says to grant both. Denying them loses the trust of anyone who has read a little.' },
+      ],
+    ],
+  },
+  {
+    topicId: 'edges-of-the-canon',
+    heading: 'Books that were questioned and then received',
+    traps: [
+      [
+        { text: 'The churches asked whether a book carried the name of an apostle, and received every book that did.', why: 'The lesson says the opposite: the churches did not take a book just because it carried a great name.' },
+        { text: 'The bishops asked which books they preferred, and a single vote settled the list for churches everywhere.', why: 'The lesson says no single vote created the New Testament, and nobody had the power to impose a list on everyone.' },
+        { text: 'The churches asked whether a book was popular, and whether those who read it loved and respected it.', why: 'The Shepherd was among the most popular books and was still not counted. The tests were origin, teaching and long use.' },
+      ],
+      [
+        { text: 'The Shepherd of Hermas was not counted because it was a forgery of heretics, and it was not worth reading.', why: 'The lesson says the reverse: it was a good book, to be read. Its fault was its date.' },
+        { text: 'The Shepherd of Hermas was one of the most popular books in the early church, and Irenaeus and Clement of Alexandria quoted it as Scripture.', why: 'True, but it leaves out why the book was not counted: it was written after the apostles’ time.' },
+        { text: 'The Shepherd of Hermas was in the New Testament of every church until the bishops voted it out.', why: 'Overstated. Some read it as Scripture, but the reason on record for not counting it is its date, not a vote.' },
+      ],
+      [
+        { text: 'Hebrews and Revelation were never questioned, because every church had received them from the beginning.', why: 'The lesson says to be honest about the edge: both were questioned, each in a different half of the church.' },
+        { text: 'Hebrews was questioned, and was received because, over time, the churches became certain that Paul wrote it.', why: 'The lesson gives a different reason: its writer stood close to the apostles. Origen said only God knows who wrote it.' },
+        { text: 'Hebrews and Revelation were questioned, and were received because the synods at Hippo and Carthage voted them in.', why: 'The lesson says the synods recorded an agreement that had grown up. They did not create one.' },
+      ],
+      [
+        { text: 'So the New Testament was never in any doubt, and no book now in it was ever questioned.', why: 'The lesson says to grant that the edge was unsettled for centuries. Only the centre was firm early.' },
+        { text: 'So the canon was arbitrary, because a few books at the edge were received in some places and not in others.', why: 'It does not follow. The premises show tests of date and origin applied in the open, which is not arbitrary.' },
+        { text: 'So the books that were honoured but not counted are worthless, and Christians should not read them.', why: '“Not Scripture” is a different verdict from “not worth reading”. The lesson says these books are well worth reading.' },
+      ],
+    ],
+  },
+  {
+    topicId: 'islam-quran-readings',
+    heading: 'How to use this',
+    traps: [
+      [
+        { text: 'Many Muslims grow up hearing that the Quran is from God, and Christians do not accept that it is.', why: 'True, but the argument tests one reason given for it: that the text is the same down to the last letter.' },
+        { text: 'Many Muslims grow up hearing that there is one Quran, and there is no real substance behind that confidence.', why: 'The lesson says the opposite: the written consonants have been remarkably stable, and you should say so plainly.' },
+        { text: 'Many Muslims quote the verse, “Indeed, it is We who sent down the Qur’an and indeed, We will be its guardian” (Quran 15:9).', why: 'That is the verse quoted, but the claim under test is the argument built on it: sameness as proof.' },
+      ],
+      [
+        { text: 'Muslim scholars have always taught that the Quran is recited in several authorised readings, which differ only in details of pronunciation.', why: 'Too weak. Pronunciation is most of it, but the readings also differ in some words, and the argument needs that.' },
+        { text: 'Critics of Islam have discovered that the Quran exists in several versions, which differ in a great many words.', why: 'The lesson offers this as what Muslim scholars themselves teach, and says differences of wording are far fewer than those of pronunciation.' },
+        { text: 'The seven ahruf of the hadith are the seven readings, so the Prophet himself named the readings in use today.', why: 'Muslim scholars say firmly that they are not the same: the seven readers had not been born when the Prophet spoke.' },
+      ],
+      [
+        { text: 'Printed Qurans in more than one reading are in use today, and the differences between them change what Muslims believe.', why: 'Overstated. The lesson says none of the differences overturns a Muslim doctrine.' },
+        { text: 'Most printed Qurans in use today follow Hafs from ‘Asim, which became by far the most widespread transmission.', why: 'True, but it points to sameness. The step needed is that other readings are printed too, with some different words.' },
+        { text: 'The manuscripts of the New Testament are in use today too, and they differ in many places, nearly all of them trivial.', why: 'True, and the lesson concedes it, but it is not a premise about whether the Quran is uniform.' },
+      ],
+      [
+        { text: 'So the Quran is hopelessly corrupt, and Muslims cannot know what it says.', why: 'The lesson says you are not saying this. The readings agree on the overwhelming bulk of the text.' },
+        { text: 'So the Quran is not from God, and the Muslim account of the readings is false.', why: 'Goes beyond the premises. They remove one proof, and the lesson says a Christian need not show that account false.' },
+        { text: 'So differences of wording undo the Quran, while the differences in the New Testament manuscripts do not matter.', why: 'That uses two sets of scales. The lesson asks for one standard for both books.' },
+      ],
+    ],
+  },
 ];

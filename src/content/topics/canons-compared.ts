@@ -64,6 +64,11 @@ export const canonsCompared: Topic = {
         'This course takes the Protestant view. The Old Testament is the Scriptures of the Jewish people, which Jesus called “the Law of Moses, the Prophets, and the Psalms” (Luke 24:44), and of which Paul said that the Jews “have been entrusted with the very words of God” (Romans 3:2). Hold that view modestly, because it has difficulties of its own. Much of the early church read the wider collection. The edge of the Hebrew list was still being discussed in the first century. Protestants trust the early churches’ reception of the New Testament books and decline their reception of the wider Old Testament books. And Jude quotes 1 Enoch (Jude 1:14-15), a book that the Ethiopian church has kept in its Bible and Protestants have not.',
         'None of this makes another church’s Bible a false one. Christians have drawn the edge of the Old Testament in different places, each for reasons that can be stated and weighed.',
       ],
+      argument: [
+        'All the main traditions share the same twenty-seven New Testament books and the whole Hebrew Bible, and the differences are additions at the edge of the Old Testament.',
+        'That there is one God who made all things, that Jesus is the Christ and the Son of God, and that he died for our sins and rose on the third day, is all taught in books that every Christian tradition receives.',
+        'So the disagreement over the list is about the edge of the Old Testament, and the centre of the faith does not turn on it.',
+      ],
       references: ['John 20:31', 'Luke 24:44', 'Romans 3:2', 'Jude 1:14-15'],
     },
     {

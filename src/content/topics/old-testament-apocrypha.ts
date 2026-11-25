@@ -87,6 +87,12 @@ export const oldTestamentApocrypha: Topic = {
         'With a sceptic or a Muslim friend the point is different. Nothing has been hidden. These books are printed in every Catholic Bible and sold in ordinary bookshops, and the disagreement about them has been carried on in the open since the fourth century. It concerns Jewish books written before Jesus was born. It does not touch the four Gospels or the letters of Paul.',
         'And read them. 1 Maccabees tells what happened between the Old Testament and the New. Sirach and Wisdom are full of thought about God, creation and the good life. You can say honestly that a book is not Scripture and still be glad of it, as Paul was glad to quote a Greek poet: “We are His offspring” (Acts 17:28).',
       ],
+      argument: [
+        'Jesus and the apostles treat the Scriptures of the Jews as a known body of writings, and they never fault the Jews for having too short a list.',
+        'None of these books is in the Hebrew Bible, and no New Testament writer quotes one with a formula such as “it is written” or “Scripture says”.',
+        'In the fourth century Athanasius and Jerome said that books such as Wisdom, Sirach, Judith and Tobit are not in the canon, though the church reads them.',
+        'So there is real evidence, though it falls short of proof, for setting these books apart from Scripture: reading and learning from them, but not building doctrine on them.',
+      ],
       references: ['Acts 17:28', 'Luke 24:44'],
     },
   ],
