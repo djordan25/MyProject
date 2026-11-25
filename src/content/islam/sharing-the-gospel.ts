@@ -39,7 +39,7 @@ export const sharingTheGospel: Topic = {
       heading: 'Count the cost with them',
       keyLine: 'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence.',
       body: [
-        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam is death (Sahih al-Bukhari 6922). Today only a few states have that penalty in law and a growing number of Muslim scholars reject it, though many still uphold it. Do not treat a Muslim’s hesitation as mere stubbornness.',
+        'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam and refusing to return is death (Sahih al-Bukhari 6922). Today only about ten states have that penalty in law and a growing number of Muslim scholars reject it, though many still uphold it. Do not treat a Muslim’s hesitation as mere stubbornness.',
         'Jesus was honest about the cost (Luke 14:28), and equally honest about the reward: no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… and in the age to come, eternal life” (Mark 10:29-30).',
         'That promise is kept partly through you. A Muslim who comes to Christ needs a new family at once: a place at your table, people to pray with, practical help. If your church is not ready to be that family, start preparing it now.',
       ],
