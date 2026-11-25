@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom';
 import { getTopic, trackForTopic, type Topic } from '../content';
 import { objectionScore, overdueReviews, progress, SEAL_QUIZ, topicSealed, useProgress } from '../lib/progress';
@@ -6,13 +6,9 @@ import { stepLink, stepTitle, TEST_OUT, topicAccess, topicCleared } from '../lib
 import { buzz } from '../lib/haptics';
 import Seal from '../components/Seal';
 import Emblem from '../components/Emblem';
-import ArgumentDiagram from '../components/ArgumentDiagram';
-import TimeAxis from '../components/TimeAxis';
-import { TIMELINE } from '../content/games';
-import { MAPS } from '../content/maps';
-import { chartsFor } from '../content/charts';
-import LessonChart from '../components/LessonChart';
-import LessonMap from '../components/LessonMap';
+import LessonBody from '../components/LessonBody';
+import LessonSteps from '../components/LessonSteps';
+import { placeVisuals } from '../lib/lessonSteps';
 import { EdButton, EdIcon, EdNotification, EdStatusBadge } from 'editorial-ui';
 import Drill, { FormatToggle } from '../components/Drill';
 import { useDrillFormat } from '../lib/drillFormat';
@@ -151,59 +147,56 @@ function SealStatus({ topic }: { topic: Topic }) {
   );
 }
 
+const VIEW_KEY = 'apologetics-lesson-view';
+
 function Learn({ topic }: { topic: Topic }) {
   const p = useProgress();
   const read = !!p.lessonsRead[topic.id];
-  const dated = TIMELINE.filter((e) => e.topicId === topic.id);
+  const visuals = useMemo(() => placeVisuals(topic), [topic]);
+  const [paged, setPaged] = useState(() => {
+    try { return localStorage.getItem(VIEW_KEY) !== 'page'; } catch { return true; }
+  });
+  const switchView = () => {
+    setPaged((v) => {
+      try { localStorage.setItem(VIEW_KEY, v ? 'page' : 'steps'); } catch { /* the choice just will not be remembered */ }
+      return !v;
+    });
+  };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [topic.id]);
 
   return (
     <>
-      {topic.lesson.map((s) => (
-        <section key={s.heading} className="card lesson">
-          <h2>{s.heading}</h2>
-          {s.body.map((para, i) => <p key={i}><RefText text={para} /></p>)}
-          {s.argument && (
-            <ArgumentDiagram steps={s.argument} />
+      <p className="view-switch">
+        <button type="button" className="link-btn" onClick={switchView}>{paged ? 'Read it all on one page' : 'Step through it'}</button>
+      </p>
+      {paged ? (
+        <LessonSteps key={topic.id} topic={topic} visuals={visuals} />
+      ) : (
+        <>
+          {topic.lesson.map((s, i) => (
+            <section key={s.heading} className="card lesson">
+              <h2>{s.heading}</h2>
+              <LessonBody topic={topic} section={s} index={i} visuals={visuals} />
+            </section>
+          ))}
+          {topic.furtherReading && (
+            <section className="card">
+              <h2>Further reading</h2>
+              <ul>{topic.furtherReading.map((r) => <li key={r}>{r}</li>)}</ul>
+            </section>
           )}
-          <RefList refs={s.references} />
-        </section>
-      ))}
-      {chartsFor(topic.id).map((c) => (
-        <section key={c.id} className="card">
-          <h2>{c.title}</h2>
-          <LessonChart chart={c} topicId={topic.id} />
-        </section>
-      ))}
-      {MAPS[topic.id] && (
-        <section className="card">
-          <h2>Places in this lesson</h2>
-          <LessonMap topic={topic} />
-        </section>
+          <div className="row end">
+            {read ? (
+              <EdStatusBadge tone="success" dot>Lesson complete</EdStatusBadge>
+            ) : (
+              <EdButton variant="secondary" leadingIcon={<EdIcon name="Check" size="sm" />} onClick={() => progress.markLessonRead(topic.id)}>Mark lesson complete</EdButton>
+            )}
+            <EdButton asChild variant="primary"><Link to={`/topic/${topic.id}/objections`}>Practise objections <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link></EdButton>
+          </div>
+        </>
       )}
-      {dated.length >= 2 && (
-        <section className="card">
-          <h2>Dates in this lesson</h2>
-          <TimeAxis events={dated} />
-          <p className="muted"><Link to="/timeline">See them on the whole timeline →</Link></p>
-        </section>
-      )}
-      {topic.furtherReading && (
-        <section className="card">
-          <h2>Further reading</h2>
-          <ul>{topic.furtherReading.map((r) => <li key={r}>{r}</li>)}</ul>
-        </section>
-      )}
-      <div className="row end">
-        {read ? (
-          <EdStatusBadge tone="success" dot>Lesson complete</EdStatusBadge>
-        ) : (
-          <EdButton variant="secondary" leadingIcon={<EdIcon name="Check" size="sm" />} onClick={() => progress.markLessonRead(topic.id)}>Mark lesson complete</EdButton>
-        )}
-        <EdButton asChild variant="primary"><Link to={`/topic/${topic.id}/objections`}>Practise objections <EdIcon name="ArrowRight" size="sm" aria-hidden /></Link></EdButton>
-      </div>
     </>
   );
 }

@@ -8,6 +8,7 @@ export const ahmadiyyaOverview: Topic = {
   lesson: [
     {
       heading: 'Who the Ahmadis are',
+      keyLine: 'What sets them apart is what they believe about their founder, and what he taught about Jesus.',
       body: [
         'The Ahmadiyya movement began in the village of Qadian in the Punjab, in British India. Its founder, Mirza Ghulam Ahmad (c. 1835-1908), first became known as a writer defending Islam against Christian missionaries and Hindu reformers. In 1889, at Ludhiana, he began to accept pledges of allegiance, and the community dates its founding from that year.',
         'Ahmadis regard themselves as Muslims. They recite the same confession of faith, pray the five prayers, fast in Ramadan and revere Muhammad and the Quran. What sets them apart is what they believe about their founder, and what he taught about Jesus.',
@@ -16,6 +17,7 @@ export const ahmadiyyaOverview: Topic = {
     },
     {
       heading: 'What Mirza Ghulam Ahmad claimed',
+      keyLine: 'By the early 1890s he had announced that he was both the Mahdi whom Muslims await and the Promised Messiah.',
       body: [
         'His claims grew over time. He first presented himself as a reformer sent to renew Islam, the kind of figure Muslims expect at the head of each century. By the early 1890s he had announced that he was both the Mahdi whom Muslims await and the Promised Messiah. He did not mean that he was Jesus in person. He taught that Jesus had died a natural death long ago and would never return, and that the prophecies of his return were fulfilled in a man who came with his spirit and character, namely himself.',
         'He also claimed to be a prophet. He explained the claim in a short work of 1901, A Misconception Removed, where he wrote: “Wherever I have denied being a Prophet or Messenger, it has only been in the sense that I have not brought an independent law nor am I an independent Prophet.” On this view Muhammad remains the last prophet to bring a law, and Ahmad is a prophet under him who brings no new scripture.',
@@ -24,6 +26,7 @@ export const ahmadiyyaOverview: Topic = {
     },
     {
       heading: 'Two branches',
+      keyLine: 'When that first caliph died in 1914, the movement divided over who should lead and over what the founder had been.',
       body: [
         'When Ahmad died in Lahore in 1908, his followers chose a successor, or caliph. When that first caliph died in 1914, the movement divided over who should lead and over what the founder had been.',
         'The larger group followed Ahmad’s son as second caliph. This is the Ahmadiyya Muslim Community. It holds that Ahmad was truly a prophet, and it has been led by a line of caliphs ever since. The fifth, Mirza Masroor Ahmad, has held office since 2003. The caliph has lived in England since 1984, and since 2019 the headquarters have been at Islamabad, an estate at Tilford in Surrey. Members pledge allegiance to him, and his Friday sermons are broadcast around the world on the community’s own television channel.',
@@ -32,6 +35,7 @@ export const ahmadiyyaOverview: Topic = {
     },
     {
       heading: 'Persecuted, peaceful and missionary',
+      keyLine: 'Most other Muslims hold that Ahmadis have left Islam, and in several countries they have suffered for it.',
       body: [
         'Most other Muslims hold that Ahmadis have left Islam, and in several countries they have suffered for it. In 1974 Pakistan amended its constitution to declare that anyone who recognises a claimant to prophethood after Muhammad “as a Prophet or religious reformer” is not a Muslim in law. In 1984 an ordinance of General Zia-ul-Haq made it a crime, punishable by up to three years in prison, for an Ahmadi to call his place of worship a mosque, to recite the call to prayer, to preach his faith, or in the law’s words to pose “as a Muslim”. The caliph left Pakistan for London within days.',
         'The violence has been worse than the laws. On 28 May 2010 militants attacked two Ahmadi mosques in Lahore during Friday prayers with guns, grenades and suicide bombs and killed 94 people, according to Human Rights Watch. Ahmadis in Pakistan are still jailed under these laws and under the blasphemy law, their graves are desecrated, and their mosques are attacked. They also face hostility in other countries, including from fellow immigrants in the West.',
@@ -42,6 +46,7 @@ export const ahmadiyyaOverview: Topic = {
     },
     {
       heading: 'Why other Muslims reject them',
+      keyLine: 'The dispute is about whether there can be a prophet after Muhammad.',
       body: [
         'The dispute is about whether there can be a prophet after Muhammad. The Quran calls Muhammad “the Messenger of Allah and last of the prophets” (Quran 33:40). The Arabic phrase is khatam an-nabiyyin, literally “seal of the prophets”. In the hadith Muhammad says, “There will be no prophet after me” (Sahih al-Bukhari 3455), and he compares himself to the final brick in a building: “I am the last of the Prophets” (Sahih al-Bukhari 3535).',
         'Ahmadis of the main community answer that “seal” means the best and the one who confirms, not the last in time, and that “no prophet after me” means no prophet with a new law or outside Muhammad’s community. They also point out that Sunni Muslims themselves expect Jesus, a prophet, to come after Muhammad (Sahih al-Bukhari 3448). Sunnis reply that Jesus was made a prophet long before Muhammad and returns as his follower.',
@@ -51,6 +56,7 @@ export const ahmadiyyaOverview: Topic = {
     },
     {
       heading: 'The Bible’s test',
+      keyLine: 'Ahmad staked his mission on his predictions, so this test is one he invited.',
       body: [
         'Scripture tells us to test anyone who claims to speak for God (1 John 4:1), and it gives a plain test for predictions: “When a prophet speaks in the name of the LORD and the message does not come to pass or come true, that is a message the LORD has not spoken” (Deuteronomy 18:21-22). Ahmad staked his mission on his predictions, so this test is one he invited.',
         'There is a second test, because he claimed to be the Messiah come again. Jesus warned about exactly this: “if anyone says to you, ‘Look, here is the Christ!’ or ‘There He is!’ do not believe it” (Matthew 24:23-27). He said false christs and false prophets would show great signs. He said his own coming would need no announcement, since it will be like lightning that lights the sky from east to west.',
@@ -60,6 +66,7 @@ export const ahmadiyyaOverview: Topic = {
     },
     {
       heading: 'His best-known prophecies',
+      keyLine: 'The facts below are taken from the Ahmadiyya community’s own publications, so that nothing rests on the word of its enemies.',
       body: [
         'The facts below are taken from the Ahmadiyya community’s own publications, so that nothing rests on the word of its enemies. The Ahmadi explanations are given in the objections, with replies.',
         'Muhammadi Begum. In 1888 Ahmad announced that God had told him to ask for the hand of Muhammadi Begum, the young daughter of a relative, Mirza Ahmad Beg. The revelation, as he published it, said that if she were married to anyone else her father would die “within three years” and that “the husband of his daughter will also die within two years and a half”. In 1891 he wrote that God would “in any event” bring her to him “as a virgin or a widow”. In April 1892 she was married to Mirza Sultan Muhammad. Her father died that September. Her husband did not die. He was still living, and still married to her, years after Ahmad’s own death in 1908. Ahmad never married her.',

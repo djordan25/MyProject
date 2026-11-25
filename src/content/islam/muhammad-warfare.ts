@@ -8,6 +8,7 @@ export const muhammadWarfare: Topic = {
   lesson: [
     {
       heading: 'Why this matters',
+      keyLine: 'The Quran calls Muhammad “an excellent pattern” for believers (Quran 33:21), so his conduct is the standard Islam itself sets.',
       body: [
         'The Quran calls Muhammad “an excellent pattern” for believers (Quran 33:21), so his conduct is the standard Islam itself sets. Calling him a warlord is not an insult: it is what Islam’s most trusted sources describe. This lesson is about that example, not about ordinary Muslims, many of whom are peaceful people troubled by violence done in Islam’s name.',
       ],
@@ -15,6 +16,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       heading: 'From preacher to military commander',
+      keyLine: 'After moving to Medina he became a political and military leader.',
       body: [
         'In Mecca, Muhammad preached for about thirteen years. After moving to Medina he became a political and military leader. The Quran’s commands develop accordingly: first permission to fight those who wronged the believers (Quran 22:39-40), then fighting is “enjoined upon you” (Quran 2:216), and finally commands to fight the polytheists (Quran 9:5) and the People of the Scripture “until they give the jizyah willingly while they are humbled” (Quran 9:29).',
         'Muhammad said: “I have been ordered to fight against the people until they testify that none has the right to be worshipped but Allah and that Muhammad is Allah’s Messenger” (Sahih al-Bukhari 25).',
@@ -43,6 +45,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       heading: 'The contrast with Jesus',
+      keyLine: 'Jesus conquered not by killing his enemies but by dying for them (Romans 5:10).',
       body: [
         'Jesus had the power to call on “more than twelve legions of angels”, yet told his disciple, “Put your sword back in its place… For all who draw the sword will die by the sword” (Matthew 26:52-53).',
         '“My kingdom is not of this world; if it were, My servants would fight” (John 18:36).',

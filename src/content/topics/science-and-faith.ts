@@ -8,6 +8,7 @@ export const scienceAndFaith: Topic = {
   lesson: [
     {
       heading: 'The myth of a war',
+      keyLine: 'Modern science grew up in a Christian culture, and many of its founders were believers in God',
       body: [
         'Many people assume science and Christian faith have always been enemies. Historians of science do not tell it that way. The picture of a long “warfare” was popularised by two nineteenth-century books, and it does not fit the record.',
         'Modern science grew up in a Christian culture, and many of its founders were believers in God: Kepler, Boyle, Newton, Faraday and Maxwell among them. They expected nature to be orderly and understandable because they believed a rational God had made it, and they saw their work as studying his handiwork. “The heavens declare the glory of God” (Psalm 19:1).',
@@ -17,6 +18,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Different questions',
+      keyLine: 'But some questions lie outside what measuring can reach.',
       body: [
         'Science asks how the natural world works, and answers by measuring and testing. It is superb at that. But some questions lie outside what measuring can reach. Why is there a universe at all? Why does it follow laws we can understand? What is a human being for? What is right and wrong?',
         'Ask why the kettle is boiling. One answer is that heat is exciting the water molecules. Another is that someone wants a cup of tea. Both are true, and the second is not made false by the first. In the same way, a scientific account of how something happens does not rule out a purpose behind it.',
@@ -24,6 +26,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'What science takes for granted',
+      keyLine: 'Science assumes things it cannot prove by experiment',
       body: [
         'Science assumes things it cannot prove by experiment: that nature is orderly, that the same laws hold everywhere, and that human minds can reach the truth about it.',
         'Christianity gives a reason to expect all three. The world was made by a rational God, and we were made in his image. If instead our minds are only the by-product of a process that selects for survival, it is hard to say why we should trust them on questions far from survival, such as cosmology, or the theory of evolution itself.',
@@ -32,6 +35,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Are miracles impossible?',
+      keyLine: 'The laws of nature describe what happens when nothing from outside nature intervenes.',
       body: [
         'The laws of nature describe what happens when nothing from outside nature intervenes. They cannot tell us whether anything ever does. If I drop an apple and you catch it, no law of physics has been broken; another agent has acted.',
         'So a miracle is not nature going wrong. It is the Author of nature acting within it. If there is no God, miracles do not happen. If there is, they are possible, and the question becomes one of evidence in each case.',
@@ -41,6 +45,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Genesis, evolution and the age of the earth',
+      keyLine: 'A sceptic does not have to settle the age of the earth before considering whether Jesus rose from the dead.',
       body: [
         'Christians who take the Bible seriously hold different views here. Some believe the earth is young and the days of Genesis were ordinary days. Some believe the earth is old and the days are long ages or a literary framework. Some believe God created through an evolutionary process.',
         'All of them affirm what Scripture is clearest about: God made everything that exists (Genesis 1:1; Hebrews 11:3), human beings are made in his image, and something has gone wrong with us that we cannot fix ourselves.',
@@ -50,6 +55,7 @@ export const scienceAndFaith: Topic = {
     },
     {
       heading: 'Is science the only way to know anything?',
+      keyLine: 'History is known by testimony and evidence, not by repeating the experiment.',
       body: [
         'Some say they will believe only what science can prove. That statement is not itself something science can prove, so it fails its own test.',
         'Most of what matters to us is known in other ways: that our memories are broadly reliable, that cruelty is wrong, that another person loves us, that Caesar crossed the Rubicon. History is known by testimony and evidence, not by repeating the experiment. The case for Jesus is made in the way all history is made.',

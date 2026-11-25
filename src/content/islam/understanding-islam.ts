@@ -8,6 +8,7 @@ export const understandingIslam: Topic = {
   lesson: [
     {
       heading: 'Why understand before you answer',
+      keyLine: 'You cannot refute what you have not understood.',
       body: [
         'You cannot refute what you have not understood. Muslims rightly object when Christians attack a caricature of Islam — just as Christians object when the Trinity is described as three gods. Represent Islam in a way a Muslim would recognise before you critique it.',
         'Remember who you are talking to: a person made in the image of God whom Christ loves, not an opponent to defeat. Our goal is to win people, not just arguments.',
@@ -16,6 +17,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'The sources of authority in Islam',
+      keyLine: 'Sunni Muslims (the large majority) regard Sahih al-Bukhari and Sahih Muslim as the two most authentic hadith collections.',
       body: [
         'The Quran: believed to be the literal, uncreated word of Allah, revealed to Muhammad through the angel Gabriel (Jibril) between roughly AD 610 and 632. It has 114 surahs (chapters).',
         'The Sunnah: the example of Muhammad — what he said, did and approved — recorded in the hadith. Most of Islamic practice (how to pray, fast, etc.) comes from the hadith, not the Quran alone. The Quran itself commands obedience to the Messenger (Quran 3:32).',
@@ -26,6 +28,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'Other Muslim sources, and how much weight they carry',
+      keyLine: 'Use these in order of strength: the Quran first, then Bukhari and Muslim, then other graded hadith, then commentary and biography.',
       body: [
         'Beyond the Quran and the two Sahih collections, Muslims draw on other writings. Know what each one is, because a Muslim may accept one and brush aside another.',
         'Other hadith collections: Sunan Abi Dawud, Jami at-Tirmidhi, Sunan Ibn Majah, Sunan an-Nasa’i and Musnad Ahmad. Each hadith in them is graded by Muslim scholars as sahih (authentic), hasan (good) or da‘if (weak). When this course cites one, the popup shows its grade. A hadith graded sahih or hasan carries real weight; a weak one does not.',
@@ -36,6 +39,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'Core beliefs and practices',
+      keyLine: 'Tawhid — the absolute oneness of God — is the heart of Islam (Quran 112:1-4).',
       body: [
         'The six articles of faith come from the famous “Hadith of Gabriel”: belief in Allah, His angels, His books, His messengers, the Last Day, and divine decree (Sahih Muslim 8).',
         'The five pillars: the testimony (shahada) that there is no god but Allah and Muhammad is His messenger; the five daily prayers; almsgiving (zakat); fasting in Ramadan; and pilgrimage to Mecca (Sahih al-Bukhari 8).',
@@ -45,6 +49,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'What Islam teaches about Jesus',
+      keyLine: 'Muslims honour Jesus (Isa) as one of the greatest prophets.',
       body: [
         'Muslims honour Jesus (Isa) as one of the greatest prophets. The Quran affirms his virgin birth (Quran 3:47), calls him the Messiah and “a word from Him” (Quran 3:45), and credits him with miracles including healing and raising the dead (Quran 3:49).',
         'But the Quran denies that Jesus is the Son of God (Quran 19:88-92), denies that he was crucified (Quran 4:157), and insists he was “but a messenger” (Quran 5:75).',
@@ -54,6 +59,7 @@ export const understandingIslam: Topic = {
     },
     {
       heading: 'Practical guidelines for conversations',
+      keyLine: 'Arguments clear the way; the gospel is the destination.',
       body: [
         'Ask questions before making statements: “What do you mean by that?” and “How did you come to that conclusion?”',
         'Use their sources. A Muslim is far more likely to be persuaded by the Quran and Sahih hadith than by a Western scholar.',

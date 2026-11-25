@@ -8,6 +8,7 @@ export const ancientWriters: Topic = {
   lesson: [
     {
       heading: 'What outside sources can and cannot do',
+      keyLine: 'Roman and Jewish writers within about a century confirm that Jesus was executed under Pilate and was soon worshipped.',
       body: [
         'Almost everything we know about Jesus comes from the New Testament, and that is no embarrassment: its books are the earliest and fullest sources there are. But people often ask whether anyone else noticed him. A handful of writers who were not Christians did, within about a century of the crucifixion. This lesson sets out what they say, what each is worth, and where writers outside the Bible seem to count against it.',
         'Keep the claim modest. These writers do not prove that Jesus rose from the dead or that he is the Son of God. What they do is confirm the frame of the story from the outside: that Jesus lived in Judea, was executed under Pontius Pilate in the reign of Tiberius, and was worshipped as divine within a lifetime. Several of them were hostile, which makes their agreement on these points worth more, not less.',
@@ -22,6 +23,7 @@ export const ancientWriters: Topic = {
     },
     {
       heading: 'Roman writers',
+      keyLine: 'That is worship of Christ as divine, in a province far from Judea, about eighty years after the crucifixion.',
       body: [
         'Tacitus was a Roman senator and the leading historian of his age. He wrote his Annals about AD 116. Describing how Nero blamed the Christians for the fire of Rome in AD 64, he explains where their name came from: “Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus” (Annals 15.44). He goes on to call the movement “a most mischievous superstition” that broke out again in Judea and reached Rome. Tacitus despised Christians. He is not passing on their preaching with approval.',
         'Pliny the Younger was governor of Bithynia, in what is now northern Turkey. About AD 112 he wrote to the emperor Trajan to ask how Christians should be dealt with. He had questioned people who said they had once been Christians, and reports that they used to meet on a fixed day before dawn, sing a hymn to Christ “as to a god” (in his Latin, Christo quasi deo), and bind themselves by oath not to steal, commit adultery or break their word (Letters 10.96). That is worship of Christ as divine, in a province far from Judea, about eighty years after the crucifixion.',
@@ -32,6 +34,7 @@ export const ancientWriters: Topic = {
     },
     {
       heading: 'Jewish writers',
+      keyLine: 'Do not quote the paragraph as it stands as though Josephus had confessed the faith.',
       body: [
         'Josephus was a Jewish priest and commander, born in Jerusalem in AD 37, who surrendered to the Romans during the Jewish war and wrote his Antiquities of the Jews in Rome about AD 93. He mentions Jesus twice.',
         'The short passage is the secure one. Josephus reports that in AD 62 the high priest Ananus had a man stoned whom he identifies as “the brother of Jesus, who was called Christ, whose name was James” (Antiquities 20.200). The passage is about the high priest, not about Jesus, and it takes no Christian line. Nearly all scholars accept it as genuine. Paul, writing about AD 50, says he met this same man: “James, the Lord’s brother” (Galatians 1:19).',
@@ -43,6 +46,7 @@ export const ancientWriters: Topic = {
     },
     {
       heading: 'Where outside writers seem to disagree with the Bible',
+      keyLine: 'An honest account includes the places where a writer outside the Bible seems to count against it.',
       body: [
         'An honest account includes the places where a writer outside the Bible seems to count against it. Three come up most often, and each is taken further in the objections below.',
         'The census. Luke says Jesus was born at the time of a census that took place “while Quirinius was governor of Syria” (Luke 2:2). Matthew places the birth in the reign of Herod the Great (Matthew 2:1), who died in 4 BC on the usual reckoning, and Luke begins his own account in Herod’s time (Luke 1:5). Josephus dates a census under Quirinius to AD 6, when Judea became a Roman province (Antiquities 18.1-2 and 18.26). Solutions have been proposed, and none has won general agreement.',
@@ -53,6 +57,7 @@ export const ancientWriters: Topic = {
     },
     {
       heading: 'Sources not to lean on',
+      keyLine: 'The safest order is Tacitus, then Josephus on James, then Pliny.',
       body: [
         'Thallus is sometimes quoted as a first-century pagan witness to the darkness at the crucifixion. His work is lost. All we have on this point is a remark by the Christian writer Julius Africanus, about AD 220, itself preserved only by a Byzantine chronicler some six hundred years later, that Thallus explained the darkness as an eclipse. We do not know when Thallus wrote or exactly what he said. Treat it as a curiosity, not as evidence.',
         'Mara bar Serapion, a Syrian writing to his son from prison at some time between the late first century and the third, asks what the Jews gained by executing “their wise king”, and sets him beside Socrates and Pythagoras. He does not name Jesus, the date of the letter is uncertain, and the reference is probable and no more. If you mention it, say so.',

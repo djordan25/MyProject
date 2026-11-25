@@ -8,6 +8,7 @@ export const disputedTranslations: Topic = {
   lesson: [
     {
       heading: 'Why Bibles differ',
+      keyLine: 'What Christians believe about Jesus is taught in passages whose translation nobody disputes.',
       body: [
         'The Old Testament was written in Hebrew, with a little Aramaic, and the New Testament in Greek. Every English Bible is a translation, and now and then translators disagree. Sooner or later someone will tell you that your Bible has a verse wrong, or that theirs says something different. It helps to know the verses where that is likely, and to know in advance how much you can claim.',
         'The disagreements come from three places. A word can have more than one sense, as when a Hebrew verb can mean both “acquire” and “create”. The grammar can be read in two ways, especially because the oldest copies have almost no punctuation. And occasionally the manuscripts themselves differ, so that translators are working from slightly different wording. Good modern Bibles print the alternative in a footnote, which is the first place to look.',
@@ -53,6 +54,7 @@ export const disputedTranslations: Topic = {
     },
     {
       heading: 'In conversation',
+      keyLine: 'The aim is not to win a point of grammar but to bring someone to look at Jesus himself.',
       body: [
         'When someone says your Bible is wrong, ask which verse and which translation they have in mind, and read both aloud. Most of the time the footnote in your own Bible already gives their reading as an alternative, which shows that nothing is being hidden.',
         'Then ask which of the three kinds of difference it is: a word, the grammar, or the manuscripts. Say what is uncertain without waiting to be pushed. People trust a guide who admits where the path is unclear.',

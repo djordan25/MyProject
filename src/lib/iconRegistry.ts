@@ -1,6 +1,7 @@
 import {
   Anchor as AnchorIcon,
   ArrowLeftRight as ArrowLeftRightIcon,
+  ArrowLeft as ArrowLeftIcon,
   ArrowRight as ArrowRightIcon,
   Atom as AtomIcon,
   Bird as BirdIcon,
@@ -85,6 +86,7 @@ import type { LucideIcon } from 'lucide-react';
 export const ICONS: Record<string, LucideIcon> = {
   Anchor: AnchorIcon,
   ArrowLeftRight: ArrowLeftRightIcon,
+  ArrowLeft: ArrowLeftIcon,
   ArrowRight: ArrowRightIcon,
   Atom: AtomIcon,
   Bird: BirdIcon,

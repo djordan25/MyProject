@@ -9,6 +9,7 @@ export const alevis: Topic = {
   lesson: [
     {
       heading: 'A different community from the Alawites',
+      keyLine: 'The Alevis are Turkish- and Kurdish-speaking people of Anatolia whose faith took shape there out of Sufism, devotion to Ali and village tradition.',
       body: [
         'The Alevis are not the Alawites. Both names come from Ali, and they are easily confused, but the communities are distinct. The Alawites are Arabs of the Syrian coast with a secret teaching (see the lesson on the Alawites). The Alevis are Turkish- and Kurdish-speaking people of Anatolia whose faith took shape there out of Sufism, devotion to Ali and village tradition. Turkish usage adds to the confusion, because the Arabic-speaking Alawites of southern Turkey are also called Alevis there, and some reference works count them in.',
         'They are the largest religious minority in Turkey. No census counts them, and estimates vary widely. A United States government report says that experts generally put them at 10 to 15 percent of the population, and that leaders of Alevi foundations claim 25 to 31 percent, while in one large opinion survey only 4 percent called themselves Alevi. Part of the difficulty is that many Alevis have long kept their identity quiet.',
@@ -18,6 +19,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Roots in Anatolian Sufism',
+      keyLine: 'Most Alevis are thought to descend from Kizilbash or Bektashi communities.',
       body: [
         'Alevis look back to Haji Bektash Veli, a mystic who settled in central Anatolia in the thirteenth century. The town that bears his name is still a place of pilgrimage, with a festival each August. The Bektashi order of dervishes grew up around his memory and was closely linked with the Janissaries, the Ottoman infantry. In 1925 the Turkish Republic closed all the Sufi orders and their lodges, the Bektashis among them. Scholars have offered many theories about older, pre-Islamic strands in Alevi belief, and Alevis themselves debate them.',
         'The other root is the Kizilbash, the “red heads”. The name was given to those in Anatolia who in the sixteenth century sided with Shah Ismail, the founder of the Safavid state in Iran, and in Ottoman mouths it was a term of abuse. The Ottoman sultans treated them as heretics and traitors and persecuted them. Most Alevis are thought to descend from Kizilbash or Bektashi communities.',
@@ -26,6 +28,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Worship and practice',
+      keyLine: 'Their central act of worship is the cem, held in a house of gathering called a cemevi.',
       body: [
         'Alevis revere Ali and the twelve Imams of his line, and speak of God, Muhammad and Ali together (Hak-Muhammed-Ali). They mourn the killing of Ali’s son Husayn at Karbala.',
         'Their central act of worship is the cem, held in a house of gathering called a cemevi. It is led by a dede, a spiritual guide who comes from one of a number of hereditary families. There is sung poetry to the saz, a long-necked lute. There is the semah, a ritual dance in which men and women turn together, which UNESCO has placed on its list of the intangible cultural heritage of humanity. The gathering ends with a shared meal. Men and women worship side by side.',
@@ -35,6 +38,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'The path, the four gates and the perfect human',
+      keyLine: 'The goal is to bring a person from a raw state to maturity, to become the insan-ı kâmil, the perfect or complete human being.',
       body: [
         'Alevis call their faith the Yol, the Path. It is described as four gates: şeriat (the law), tarikat (the way), marifet (knowledge) and hakikat (truth), with forty stations along them. The goal is to bring a person from a raw state to maturity, to become the insan-ı kâmil, the perfect or complete human being.',
         'The ethic is summed up in a saying every Alevi knows: “Eline, diline, beline sahip ol.” Be master of your hand, your tongue and your loins. Do not steal or do violence, do not lie or slander, do not be unfaithful.',
@@ -44,6 +48,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'A history of persecution',
+      keyLine: 'Alevis remember their history as a chain of killings.',
       body: [
         'Alevis remember their history as a chain of killings. It begins for them at Karbala in 680 and runs through the Ottoman persecution of the Kizilbash into modern times.',
         'In the late 1930s the Turkish army crushed what the state called a rebellion in Dersim, the heartland of the Kurdish Alevis, bombing the region from the air. Alevis remember it as a massacre. In 2011 the Turkish prime minister apologised for the killings and called Dersim one of the most tragic events in the country’s recent history, and the BBC reported the death toll as more than 13,000. In the late 1970s and in 1980 Alevis were attacked by right-wing and Sunni militants in Malatya, Kahramanmaraş and Çorum. At Kahramanmaraş in December 1978 more than a hundred people were killed, most of them Alevis. On 2 July 1993 a mob set fire to a hotel in Sivas where guests at an Alevi festival were staying. Thirty-three of the guests died, among them poets, writers and Alevi musicians, and two of the hotel staff. In March 1995, after gunmen fired on teahouses in the largely Alevi Gazi district of Istanbul, police fired into crowds of Alevi protesters and killed many.',
@@ -53,6 +58,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Is Alevism Islam?',
+      keyLine: 'Alevis do not follow the Sunni hadith or Islamic law.',
       body: [
         'Alevis themselves disagree. Some say Alevism is the true, inward Islam. Some say it is a faith in its own right. Some say it is a culture and a philosophy, not a religion. An Australian government report says that most Alevis see their belief as a distinct religion. The scholar Markus Dressler judges that most understand it as a humanist form of Islam, and that those who hold it to be a religion independent of Islam are a minority, stronger in western Europe than in Turkey.',
         'Abroad the community has won a standing it lacks in Turkey. In Germany the Alevi federation is recognised as a religious community. Alevi religious lessons have been taught in state schools in Berlin since 2002 and in North Rhine-Westphalia since 2008. Hamburg signed an agreement with the Alevi community in 2012, and in 2020 North Rhine-Westphalia gave the federation the status of a public-law corporation, which the main churches also hold. In Austria an Alevi faith community has been a legally recognised religious society since 2013. Even there the question of Islam divides Alevis: in 2022 a separate body of Alevis who do not count their faith as part of Islam was registered as a confessional community.',
@@ -61,6 +67,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Where to begin: love, dignity and the honest heart',
+      keyLine: 'Begin where an Alevi begins, with the worth of the human being and the call to love.',
       body: [
         'Begin where an Alevi begins, with the worth of the human being and the call to love. The Bible grounds that worth in creation: “God created man in His own image… male and female He created them” (Genesis 1:27). Jesus named the two great commandments as “Love the Lord your God with all your heart and with all your soul and with all your mind” and “Love your neighbor as yourself” (Matthew 22:37-40). He also cared, as Alevis do, about the heart more than outward show. He said that true worshippers worship the Father “in spirit and in truth” (John 4:21-24).',
         'Then be honest about the heart, starting with your own. Take the Alevi rule and set Jesus’ teaching beside it. On the hand: anger at a brother already falls under judgment (Matthew 5:21-22). On the loins: a lustful look is already adultery in the heart (Matthew 5:27-28). On the tongue: “no man can tame the tongue” (James 3:8-10). The verdict of Scripture covers everyone: “The heart is deceitful above all things and beyond cure” (Jeremiah 17:9), and “all have sinned and fall short of the glory of God” (Romans 3:23).',
@@ -70,6 +77,7 @@ export const alevis: Topic = {
     },
     {
       heading: 'Jesus, the truly perfect human',
+      keyLine: 'The gospel says that God has in fact come to us as a human being, once, in Jesus.',
       body: [
         'The Alevi ideal is the perfect human being. Ask your friend who has ever reached it. The New Testament says that one man has. “He committed no sin, and no deceit was found in His mouth” (1 Peter 2:22). He was “tempted in every way that we are, yet was without sin” (Hebrews 4:15). Hand, tongue and loins: he was master of them all.',
         'And he is more than the best of men. “The Son is the image of the invisible God” (Colossians 1:15). “The Word became flesh and made His dwelling among us” (John 1:14). Alevis say that God is to be found in the human being. The gospel says that God has in fact come to us as a human being, once, in Jesus.',

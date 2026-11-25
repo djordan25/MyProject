@@ -8,6 +8,7 @@ export const shiaKarbalaGospel: Topic = {
   lesson: [
     {
       heading: 'What happened at Karbala',
+      keyLine: 'On the tenth day of the month of Muharram, 10 October 680, Husayn and his fighting men were killed.',
       body: [
         'In 680 the caliph Mu‘awiya died and his son Yazid took his place. Husayn, the son of Ali and Fatima and the grandson of Muhammad, refused to give Yazid his allegiance. The people of Kufa in Iraq wrote inviting him to come and lead them. He set out from Mecca with his family and a small band of followers. On the way he learned that Yazid’s governor had killed his envoy in Kufa and that the city would not rise.',
         'He went on. At Karbala, near the Euphrates, his party was surrounded by a far larger army. On the tenth day of the month of Muharram, 10 October 680, Husayn and his fighting men were killed. The Twelver scholar Tabataba’i puts them at fewer than ninety. Among the dead were boys of his family and, Shia tradition says, his infant son. The bodies were beheaded. The women and children, with Husayn’s sister Zaynab and his sick son Ali, who became the fourth Imam, were led as prisoners to Kufa and then to Yazid in Damascus.',
@@ -17,6 +18,7 @@ export const shiaKarbalaGospel: Topic = {
     },
     {
       heading: 'What Ashura means to a Shia',
+      keyLine: 'The tenth of Muharram is called Ashura, and for Shia Muslims it is the centre of the year.',
       body: [
         'The tenth of Muharram is called Ashura, and for Shia Muslims it is the centre of the year. In the days leading up to it they gather to hear the story told, and they weep. There are laments, processions and chest-beating, and in some places plays that act out the events. Karbala is not remembered as a distant battle. It is felt as a present grief.',
         'It carries several meanings at once. It is innocent suffering: the purest of men, with his children, killed by the powerful. It is a stand against tyranny: Husayn chose death over bowing to an unjust ruler, and Shia movements for justice have drawn on him ever since. A well-known slogan says that every day is Ashura and every land is Karbala.',
@@ -27,6 +29,7 @@ export const shiaKarbalaGospel: Topic = {
     },
     {
       heading: 'Speak with respect',
+      keyLine: 'Respect for Husayn does not require you to blur what the Bible says about Christ.',
       body: [
         'Begin by honouring what can be honoured. Husayn refused to call evil good and paid for it with his life. You can say so sincerely. The grief of your friend is real, and Scripture tells us to “weep with those who weep” (Romans 12:15). Jesus himself wept at a grave (John 11:35).',
         'Do not mock the mourning, however strange it looks to you. Do not say that Husayn is “the Shia Jesus”, and do not treat Karbala as a mere illustration for your sermon. Ask your friend to tell you the story and what it means to him. You will learn where his heart is, and he will know that you listened.',
@@ -36,6 +39,7 @@ export const shiaKarbalaGospel: Topic = {
     },
     {
       heading: 'The servant who suffers for others',
+      keyLine: 'This servant does not only suffer at the hands of sinners.',
       body: [
         'A Shia already believes things that many people find hard: that the suffering of an innocent man can matter before God, that it can benefit others, and that God’s chosen one may be rejected and killed by his own people. Centuries before Jesus, the prophet Isaiah described such a person.',
         '“He was despised and rejected by men, a man of sorrows, acquainted with grief” (Isaiah 53:3). “He was led like a lamb to the slaughter” (Isaiah 53:7). “He was assigned a grave with the wicked, and with a rich man in His death, although He had done no violence” (Isaiah 53:9). Read the chapter aloud with your friend. Much of it will sound familiar to him.',
@@ -45,6 +49,7 @@ export const shiaKarbalaGospel: Topic = {
     },
     {
       heading: 'Martyr and sacrifice: the differences',
+      keyLine: 'Jesus gave his life by his own authority and took it back.',
       body: [
         'Jesus gave his life by his own authority and took it back. “I lay down My life in order to take it up again. No one takes it from Me, but I lay it down of My own accord. I have authority to lay it down and authority to take it up again” (John 10:17-18). He could have called on legions of angels and did not (Matthew 26:53-54). Three days later the tomb was empty. Husayn’s shrine at Karbala is visited because he is buried there. At Jesus’ tomb the angels asked, “Why do you look for the living among the dead?” (Luke 24:5).',
         'A martyr leaves an example. Jesus offered a sacrifice. “Christ also suffered for sins once for all, the righteous for the unrighteous, to bring you to God” (1 Peter 3:18). He appeared “to do away with sin by the sacrifice of Himself” (Hebrews 9:26). An example can stir me. It cannot remove my guilt. And because the sacrifice was made once, it needs no yearly renewal and leaves nothing for my tears to add (Hebrews 9:26-28).',
@@ -55,6 +60,7 @@ export const shiaKarbalaGospel: Topic = {
     },
     {
       heading: 'The king who is coming',
+      keyLine: 'In the Bible Jesus does not return as a helper to another man.',
       body: [
         'The longing for justice is right, and the Bible shares it. The martyrs in heaven cry, “How long, O Lord, holy and true, until You avenge our blood?” (Revelation 6:10). God has promised an answer, and has named the one who will bring it.',
         'In the Bible Jesus does not return as a helper to another man. He returns as king. John saw heaven opened and a rider called Faithful and True: “With righteousness He judges and wages war”, and on his robe is written “KING OF KINGS AND LORD OF LORDS” (Revelation 19:11-16). All the dead stand before the throne to be judged (Revelation 20:11-12). God “has set a day when He will judge the world with justice by the Man He has appointed. He has given proof of this to everyone by raising Him from the dead” (Acts 17:31).',
@@ -64,6 +70,7 @@ export const shiaKarbalaGospel: Topic = {
     },
     {
       heading: 'The gospel, and what it costs',
+      keyLine: 'For a Shia, faith is woven into family, mourning and belonging.',
       body: [
         'Say the gospel itself in plain words. God is holy and just. Each of us has sinned against him and cannot repay. In love God sent his Son, who lived without sin, died on the cross bearing the sins of others, and rose on the third day (1 Corinthians 15:3-4). Whoever turns from sin and trusts in him is forgiven and accepted as a gift: “it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God, not by works” (Ephesians 2:8-9).',
         'Know what you are asking. For a Shia, faith is woven into family, mourning and belonging. To confess Christ can feel like betraying Husayn, a mother’s tears and a whole people. In some countries it also brings danger from the law. The lesson Sharing the Gospel with a Muslim says more about this. Jesus was honest about the cost (Luke 14:26-27), and he promised that no one who leaves family for his sake will be left without one (Mark 10:29-30).',

@@ -8,6 +8,7 @@ export const farthestMosque: Topic = {
   lesson: [
     {
       heading: 'The verse and why it matters',
+      keyLine: 'Jerusalem is for most Muslims the third holiest place on earth.',
       body: [
         'The Quran says that God took his servant by night “from al-Masjid al-Haram to al-Masjid al-Aqsa” (Quran 17:1). The first name means the Sacred Mosque, the sanctuary at Mecca. The second means “the farthest mosque”, or more exactly “the farthest place of prostration”. Muslims understand it as the site of the Jewish temple in Jerusalem, which they call Bayt al-Maqdis, the Holy House.',
         'A great deal rests on this. Jerusalem is for most Muslims the third holiest place on earth. A hadith allows a special journey for worship to only three mosques: the one at Mecca, the Prophet’s mosque at Medina, and al-Aqsa (Sahih al-Bukhari 1189). The mosque that stands on the Temple Mount today bears the name from this verse.',
@@ -17,6 +18,7 @@ export const farthestMosque: Topic = {
     },
     {
       heading: 'What stood in Jerusalem in Muhammad’s day',
+      keyLine: 'So at the time Muslims give for the Night Journey, about 621, there was no temple on the Mount and no church, and of course no mosque.',
       body: [
         'The temple that Jesus knew was destroyed by the Romans in AD 70. After a second Jewish revolt the emperor Hadrian rebuilt Jerusalem as a Roman city called Aelia, the name the hadith still use for it. When the empire became Christian, churches were built in the city, the Church of the Holy Sepulchre above all, but the Temple Mount was left in ruins. In 614 the Persians captured Jerusalem and held it for about fifteen years.',
         'So at the time Muslims give for the Night Journey, about 621, there was no temple on the Mount and no church, and of course no mosque. Jerusalem was taken by the Arabs in about 637, five years after Muhammad’s death. A Christian pilgrim named Arculf, who visited around 680, described a plain house of prayer that the Arabs had put up on the site, built of beams and planks over old ruins and said to hold three thousand people. The Dome of the Rock followed in 691–2, and the building now called the al-Aqsa Mosque was put up around the year 700 under the caliphs Abd al-Malik and his son al-Walid.',
@@ -24,6 +26,7 @@ export const farthestMosque: Topic = {
     },
     {
       heading: 'An argument to leave alone',
+      keyLine: 'A Muslim will answer, rightly, that the verse refers to the holy site and not to a building put up afterwards.',
       body: [
         'Many Christians put it this way: the al-Aqsa Mosque was not built until long after Muhammad died, so the Quran has made a mistake, or the verse was written later. Do not use this argument.',
         'The Arabic word masjid means a place where people bow down in worship. It does not have to be a building. The same verse calls the sanctuary at Mecca a masjid at a time when it was an open space around the Kaaba and was still, on the Muslim account, full of idols. A Muslim will answer, rightly, that the verse refers to the holy site and not to a building put up afterwards. A few verses later the same surah speaks of the masjid of the Children of Israel, which their enemies entered and laid waste (Quran 17:7). The translation used in this app renders the word there as “the temple in Jerusalem”.',
@@ -33,6 +36,7 @@ export const farthestMosque: Topic = {
     },
     {
       heading: 'Is the farthest mosque in Jerusalem?',
+      keyLine: 'What can be said is that the link between the verse and Jerusalem depends on tradition outside the Quran',
       body: [
         'The Quran never names Jerusalem, here or anywhere else. That the “farthest mosque” is the Temple Mount is the teaching of the hadith and the commentators. It is a natural reading, since the verse speaks of a place “whose surroundings We have blessed”, and the Quran elsewhere calls the land of the earlier prophets blessed (Quran 21:71).',
         'It has been questioned all the same. Since 1916 many Western scholars have argued that the verse first referred to a sanctuary in heaven, and that it was attached to Jerusalem later, perhaps under the Umayyad caliphs, who ruled from Syria and built the Dome of the Rock. They pointed out that the long inscriptions inside the Dome quote many passages that are in the Quran but do not quote this verse or mention the Night Journey. Other scholars, such as Uri Rubin and Angelika Neuwirth, have argued that Jerusalem was meant from the beginning, and the earliest Muslim commentaries that survive all read it so.',
@@ -41,6 +45,7 @@ export const farthestMosque: Topic = {
     },
     {
       heading: 'The forty years',
+      keyLine: 'The plain sense of the hadith, read beside the Quran, is that the Kaaba and the temple were built forty years apart, and that does not fit the history.',
       body: [
         'A hadith in both of the most trusted collections raises a problem of its own. A companion named Abu Dharr asked Muhammad which mosque was built first on earth. He answered that it was the Sacred Mosque. Abu Dharr asked which came next, and he said al-Aqsa. Asked how long there was between the two, he said, “Forty years” (Sahih al-Bukhari 3366; Sahih Muslim 520).',
         'The Quran says that Abraham and Ishmael raised the foundations of the house at Mecca (Quran 2:127). The temple in Jerusalem was built by Solomon, as the Bible records (1 Kings 6:1) and as another hadith also says (Sunan Ibn Majah 1408). Abraham and Solomon lived roughly a thousand years apart.',
@@ -51,6 +56,7 @@ export const farthestMosque: Topic = {
     },
     {
       heading: 'The temple and Jesus',
+      keyLine: 'We do not travel to a holy place to come near to God, because God has come near to us in his Son.',
       body: [
         'Why did Christians leave the Temple Mount empty for three hundred years? Part of the reason was that Jesus had foretold its ruin. When his disciples pointed out the temple buildings he said, “not one stone here will be left on another; every one will be thrown down” (Matthew 24:2). Forty years later it happened.',
         'But the deeper reason is what Jesus said the temple was for. Standing in its courts he said, “Destroy this temple, and in three days I will raise it up again”, and John explains that he “was speaking about the temple of His body” (John 2:19-21). The temple was the place where God met his people and where sacrifice was offered for sin. Jesus claimed to be that meeting place and that sacrifice in person. He told a Samaritan woman that the time was coming “when you will worship the Father neither on this mountain nor in Jerusalem” (John 4:21). He said of himself, “something greater than the temple is here” (Matthew 12:6).',
@@ -60,6 +66,7 @@ export const farthestMosque: Topic = {
     },
     {
       heading: 'How to use this',
+      keyLine: 'Use the weak argument never and the stronger ones gently.',
       body: [
         'Use the weak argument never and the stronger ones gently. The fair points are three. The Quran does not name Jerusalem, so the identification rests on later tradition. The hadith of the forty years does not fit the history of the two sanctuaries without help. And the journey itself, as the previous lesson showed, has no witness.',
         'Then move to what matters. A Muslim friend honours Jerusalem because he believes God met his prophet there. Tell him where you believe God meets us: not at a place, but in a person who called himself the temple, was destroyed, and was raised in three days.',

@@ -8,6 +8,7 @@ export const truthAndRelativism: Topic = {
   lesson: [
     {
       heading: 'Why this comes first',
+      keyLine: 'Christians are told to examine claims, not merely to feel them',
       body: [
         'Many people today do not reject Christianity because they have weighed the evidence. They assume that religious claims are not the sort of thing that can be true or false at all: “That’s true for you, but not for me.” If that is right, there is nothing to discuss.',
         'Jesus thought otherwise. He told Pilate that he came into the world “to testify to the truth” (John 18:37-38), and Pilate’s tired reply, “What is truth?”, is the mood of our own age. Christians are told to examine claims, not merely to feel them: “test all things. Hold fast to what is good” (1 Thessalonians 5:21).',
@@ -16,6 +17,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'What truth is',
+      keyLine: 'A statement is true when it matches the way things are.',
       body: [
         'A statement is true when it matches the way things are. “There is milk in the fridge” is true if there is milk in the fridge, whatever anyone believes about it.',
         'Some things really are a matter of taste: which ice cream is best. Others are a matter of fact: which pill will cure the infection. Nobody chooses medicine by preference. The question is which kind of claim “Jesus rose from the dead” is. It is a claim about something that either happened or did not, so it is true for everyone or for no one.',
@@ -23,6 +25,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'Relativism undoes itself',
+      keyLine: 'The everyday slogans of relativism cannot survive being applied to themselves.',
       body: [
         'The everyday slogans of relativism cannot survive being applied to themselves. A careful relativist will say more: that his own view is only relatively true, or that it covers only morals and religion. That takes a longer conversation, but with the slogans you do not need to argue; just ask a question.',
         '“There is no absolute truth.” Is that absolutely true?',
@@ -33,6 +36,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'Tolerance, rightly understood',
+      keyLine: 'Tolerance in its classic sense means putting up with views you think are wrong',
       body: [
         'Tolerance in its classic sense means putting up with views you think are wrong, and at its best treating the people who hold them with respect. It assumes disagreement: nobody “tolerates” a view they share.',
         'The newer idea is that all views are equally valid and that to say otherwise is hateful. Nobody lives this way. The person who insists on it thinks you are wrong not to.',
@@ -42,6 +46,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'Are all religions the same?',
+      keyLine: 'On the central questions they contradict one another.',
       body: [
         'They agree on some moral teaching. On the central questions they contradict one another. Is there one God, many, or none? Is Jesus God in the flesh, a prophet, or a teacher who has been misunderstood? Are we saved by grace, by our deeds, or by escaping the cycle of rebirth?',
         'These cannot all be right. They could all be wrong, but they cannot all be true. Saying they are “the same underneath” does not respect them; it tells every one of them that what it considers essential does not matter.',
@@ -50,6 +55,7 @@ export const truthAndRelativism: Topic = {
     },
     {
       heading: 'Truth and humility',
+      keyLine: 'Claiming to know the truth is not a claim to be better than anyone.',
       body: [
         'Claiming to know the truth is not a claim to be better than anyone. A person who has found the way out of a burning building and shouts directions is not being arrogant.',
         'The Christian claim is that we were lost and were found. That gives certainty about Christ and humility about ourselves. Jesus promised, “you will know the truth, and the truth will set you free” (John 8:32).',

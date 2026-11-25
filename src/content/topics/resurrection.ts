@@ -8,6 +8,7 @@ export const resurrection: Topic = {
   lesson: [
     {
       heading: 'Why the resurrection matters',
+      keyLine: 'Christianity stands or falls on the resurrection (1 Corinthians 15:14-17).',
       body: [
         'Christianity stands or falls on the resurrection (1 Corinthians 15:14-17). That makes it testable: if Jesus rose, his claims are vindicated.',
       ],
@@ -15,6 +16,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'The minimal facts',
+      keyLine: 'Gary Habermas popularised an approach using only facts that are well-evidenced and accepted by the vast majority of critical scholars, including sceptics',
       body: [
         'Gary Habermas popularised an approach using only facts that are well-evidenced and accepted by the vast majority of critical scholars, including sceptics:',
       ],
@@ -28,6 +30,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'Weighing the explanations',
+      keyLine: 'The resurrection explains all the facts — and, given that God exists, it is not ruled out in advance.',
       body: [
         'Any theory has to explain all the facts. Natural alternatives each explain one or two at best:',
         'Hallucination: hallucinations are normally individual, not group experiences, and wouldn’t empty a tomb or convert hostile sceptics like Paul and James.',
@@ -39,6 +42,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'Why the empty tomb matters',
+      keyLine: 'If the body had still been there, the authorities could have ended the movement in an afternoon by producing it.',
       body: [
         'The resurrection was first preached in Jerusalem, a short walk from the tomb, within weeks of the crucifixion. If the body had still been there, the authorities could have ended the movement in an afternoon by producing it.',
         'Instead, the earliest reply on record is that the disciples stole the body (Matthew 28:12-13). That is an explanation of an empty tomb, not a denial of one.',
@@ -48,6 +52,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'What changed the disciples?',
+      keyLine: 'The explanation given for each is the same: they had seen Jesus alive.',
       body: [
         'Two days after the crucifixion the disciples were behind locked doors, afraid (John 20:19). Weeks later the same men were preaching in the temple courts, and told the council that had killed Jesus, “We must obey God rather than men” (Acts 5:29). The authorities noticed their boldness (Acts 4:13).',
         'Devout Jews began meeting to worship on the first day of the week, the day he rose. James, who had not believed in his brother, became a leader of the church. Paul turned from hunting Christians to planting churches.',
@@ -57,6 +62,7 @@ export const resurrection: Topic = {
     },
     {
       heading: 'What it means',
+      keyLine: 'The resurrection is evidence, but it is more than a proof.',
       body: [
         'The resurrection is evidence, but it is more than a proof. It is the beginning of the remaking of the world. Christ is “the firstfruits of those who have fallen asleep” (1 Corinthians 15:20): what happened to him will happen to all who belong to him.',
         'It means death is not the end, that the sacrifice for sin was accepted, and that Jesus is alive and can be known now. Peter calls it “a living hope through the resurrection of Jesus Christ from the dead” (1 Peter 1:3). When you make the case, do not stop at the evidence. Say what it means.',

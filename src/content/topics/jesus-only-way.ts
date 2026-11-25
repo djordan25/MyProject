@@ -8,6 +8,7 @@ export const jesusOnlyWay: Topic = {
   lesson: [
     {
       heading: 'It is Jesus’ claim, not ours',
+      keyLine: 'Christians did not invent the idea that Jesus is the only way to God.',
       body: [
         'Christians did not invent the idea that Jesus is the only way to God. Jesus said it: “I am the way and the truth and the life. No one comes to the Father except through Me” (John 14:6). His apostles repeated it: “there is no other name under heaven given to men by which we must be saved” (Acts 4:12), and “there is one God, and there is one mediator between God and men, the man Christ Jesus” (1 Timothy 2:5).',
         'So the question is not whether Christians are narrow-minded. It is whether Jesus was right. If he is who he said he is, and rose from the dead, then what he says about the way to God carries an authority no one else has.',
@@ -16,6 +17,7 @@ export const jesusOnlyWay: Topic = {
     },
     {
       heading: 'Why only one way?',
+      keyLine: 'The Bible says the problem is guilt before a holy God',
       body: [
         'Because of what the problem is. If our problem were ignorance, many teachers could help. If it were weakness, many disciplines could strengthen us. The Bible says the problem is guilt before a holy God: “all have sinned and fall short of the glory of God” (Romans 3:23).',
         'Guilt needs more than advice. It needs to be dealt with. Christianity says God dealt with it himself, at the cross. No other religion even claims that God became man and bore the sins of the world. If that happened, it is not one path among many. It is the only rescue on offer, because it is the only one that addresses the real problem.',
@@ -25,6 +27,7 @@ export const jesusOnlyWay: Topic = {
     },
     {
       heading: 'What about those who have never heard?',
+      keyLine: 'The Bible tells us several things for certain, and leaves some things unsaid.',
       body: [
         'This is a real question and deserves a careful answer. The Bible tells us several things for certain, and leaves some things unsaid.',
         'God is just. Abraham’s question answers itself: “Will not the Judge of all the earth do what is right?” (Genesis 18:25). No one will be treated unfairly.',
@@ -38,6 +41,7 @@ export const jesusOnlyWay: Topic = {
     },
     {
       heading: 'How can a loving God judge?',
+      keyLine: 'A God who did not care about evil would not be loving.',
       body: [
         'A God who did not care about evil would not be loving. We want judges to care about justice; we are right to be angry at cruelty. God’s judgment is his settled opposition to everything that destroys what he loves.',
         'Jesus, the kindest man who ever lived, spoke about judgment more plainly than anyone in the Bible. He described two destinations, “eternal punishment” and “eternal life” (Matthew 25:46), and told people who assumed they were safe, “unless you repent, you too will all perish” (Luke 13:3).',
@@ -48,6 +52,7 @@ export const jesusOnlyWay: Topic = {
     },
     {
       heading: 'How to say it',
+      keyLine: 'Do not soften what Jesus said, and do not go beyond it.',
       body: [
         'Say it with tears, not with relish. Speak as someone who deserved judgment and was rescued, not as someone looking down.',
         'Do not soften what Jesus said, and do not go beyond it. You are not the judge of any individual, and you do not need to pronounce on anyone’s grandmother. You can say what Jesus offers: “whoever hears My word and believes Him who sent Me has eternal life and will not come under judgment” (John 5:24).',

@@ -8,6 +8,7 @@ export const sharingTheGospel: Topic = {
   lesson: [
     {
       heading: 'Arguments are not the goal',
+      keyLine: 'Showing that Islam’s claims fail does not make anyone a Christian',
       body: [
         'Everything else in this course removes obstacles. Showing that Islam’s claims fail does not make anyone a Christian; a person can leave Islam and believe nothing at all. The aim is that your friend comes to know Jesus, who said, “I am the way and the truth and the life. No one comes to the Father except through Me” (John 14:6).',
         'So in every conversation, look for the moment to move from “Islam is mistaken about this” to “here is who Jesus is and what he has done”. Paul’s summary is the place to land: “Christ died for our sins according to the Scriptures… He was buried… He was raised on the third day” (1 Corinthians 15:3-4).',
@@ -16,6 +17,7 @@ export const sharingTheGospel: Topic = {
     },
     {
       heading: 'The message in four steps',
+      keyLine: 'Salvation is a gift to be received, not a wage to be earned',
       body: [
         'God is holy and made us to know him. A Muslim already agrees that God is holy and that we will answer to him.',
         'We have all sinned: “all have sinned and fall short of the glory of God” (Romans 3:23). Say this clearly. Islam teaches that people are weak and forgetful; the Bible says we are guilty, and that good deeds cannot remove guilt.',
@@ -26,6 +28,7 @@ export const sharingTheGospel: Topic = {
     },
     {
       heading: 'Give them the Gospels',
+      keyLine: 'Reading a chapter together and asking, “What does this show us about Jesus?” does more than a hundred debates.',
       body: [
         'Many Muslims have never read a Gospel. Many have been told it is corrupt and have never opened it. Offer one, and suggest starting with Luke or John. Remind them that the Quran tells the people of the Gospel to judge by what is in it (Quran 5:47), so a Muslim has every reason to read it.',
         'Then offer to read it with them. Reading a chapter together and asking, “What does this show us about Jesus?” does more than a hundred debates. Let Jesus’ own words do the work: “Come to Me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28).',
@@ -34,6 +37,7 @@ export const sharingTheGospel: Topic = {
     },
     {
       heading: 'Count the cost with them',
+      keyLine: 'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence.',
       body: [
         'For many Muslims, following Jesus means losing family, community, marriage or work, and in some places facing violence. In the hadith and in classical Islamic law, the penalty for leaving Islam is death (Sahih al-Bukhari 6922). Today only a few states have that penalty in law and a growing number of Muslim scholars reject it, though many still uphold it. Do not treat a Muslim’s hesitation as mere stubbornness.',
         'Jesus was honest about the cost (Luke 14:28), and equally honest about the reward: no one who has left home or family for his sake “will fail to receive a hundredfold in the present age… and in the age to come, eternal life” (Mark 10:29-30).',
@@ -43,6 +47,7 @@ export const sharingTheGospel: Topic = {
     },
     {
       heading: 'Your part and God’s part',
+      keyLine: 'You are responsible for telling the truth clearly and lovingly.',
       body: [
         'Be a friend, not a salesman. Eat together, ask about their family, keep your word. Speak well: “Let your speech always be gracious, seasoned with salt, so that you may know how to answer everyone” (Colossians 4:6).',
         'Pray for them by name. No one comes to Jesus unless the Father draws him (John 6:44). In one survey of about 750 Muslims who had come to Christ, the influence they ranked highest was the way the Christians they knew lived.',

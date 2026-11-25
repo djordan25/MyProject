@@ -8,6 +8,7 @@ export const crossAndResurrection: Topic = {
   lesson: [
     {
       heading: 'Foretold by the prophets',
+      keyLine: 'Whichever reading is original, the rest of the psalm still fits the crucifixion, and Zechariah 12:10 speaks plainly of one who is pierced.',
       body: [
         'Psalm 22, written centuries before Jesus, describes the sufferer’s cry “My God, my God, why have you forsaken me?” (Psalm 22:1), mocking crowds (22:7-8), pierced hands and feet (22:16), and garments divided by lot (22:18). Jesus quoted its first line from the cross (Mark 15:34), and the Gospels record the mocking and the dividing of his garments (Matthew 27:39-43; John 19:23-24).',
         'Be ready for one objection: the standard Hebrew (Masoretic) text of Psalm 22:16 reads “like a lion” where most English Bibles have “pierced”. “Pierced” follows the ancient Greek translation and an early Hebrew manuscript from the Dead Sea region. Whichever reading is original, the rest of the psalm still fits the crucifixion, and Zechariah 12:10 speaks plainly of one who is pierced.',
@@ -18,6 +19,7 @@ export const crossAndResurrection: Topic = {
     },
     {
       heading: 'Predicted by Jesus',
+      keyLine: 'If Jesus was not crucified, then the prophet Muslims honour got the central fact of his own mission wrong.',
       body: [
         'Jesus repeatedly told his disciples he would be killed and rise on the third day (Mark 8:31; 9:31; 10:33-34). He said he came “to give his life as a ransom for many” (Mark 10:45), and at the Last Supper explained his death as the blood of the covenant “poured out for many for the forgiveness of sins” (Matthew 26:28).',
         'If Jesus was not crucified, then the prophet Muslims honour got the central fact of his own mission wrong.',
@@ -26,6 +28,7 @@ export const crossAndResurrection: Topic = {
     },
     {
       heading: 'Witnessed by the apostles',
+      keyLine: 'The apostles preached the death and resurrection in Jerusalem itself, weeks after the event, where it could be checked (Acts 2:22-32).',
       body: [
         'Paul passes on an early creed and adds further witnesses to it: “Christ died for our sins according to the Scriptures, that He was buried, that He was raised on the third day according to the Scriptures, and that He appeared to Cephas and then to the Twelve. After that, He appeared to more than five hundred brothers at once, most of whom are still living” (1 Corinthians 15:3-6). Paul invites verification from living witnesses.',
         'The apostles preached the death and resurrection in Jerusalem itself, weeks after the event, where it could be checked (Acts 2:22-32). They suffered for this testimony (Acts 5:40-42).',
@@ -35,6 +38,7 @@ export const crossAndResurrection: Topic = {
     },
     {
       heading: 'Why it matters',
+      keyLine: 'The resurrection is God’s public vindication of Jesus’ claims',
       body: [
         'The resurrection is God’s public vindication of Jesus’ claims: he “was declared with power to be the Son of God by His resurrection from the dead” (Romans 1:4). God “has given proof of this to everyone by raising Him from the dead” (Acts 17:31).',
         'Without the cross there is no atonement; without the resurrection “your faith is futile; you are still in your sins” (1 Corinthians 15:17). That’s why the cross can’t be negotiated away in conversation with Muslims — it is the gospel.',

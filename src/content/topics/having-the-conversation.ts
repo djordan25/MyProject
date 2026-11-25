@@ -8,6 +8,7 @@ export const havingTheConversation: Topic = {
   lesson: [
     {
       heading: 'What apologetics is for',
+      keyLine: 'It is to remove obstacles so that a person can consider Jesus.',
       body: [
         'The charter verse has three parts: “in your hearts sanctify Christ as Lord. Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But respond with gentleness and respect” (1 Peter 3:15). First the heart, then the answer, then the manner.',
         'The aim is not to win. It is to remove obstacles so that a person can consider Jesus. Paul “reasoned with them from the Scriptures, explaining and proving that the Christ had to suffer and rise from the dead” (Acts 17:2-3): reasoning, with Jesus as the destination.',
@@ -17,6 +18,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Listen first',
+      keyLine: 'Often the stated objection is not the real one.',
       body: [
         '“He who answers a matter before he hears it—this is folly and disgrace to him” (Proverbs 18:13). Most people’s objections are not the ones in the books. Find out what this person actually thinks, and why.',
         'Be “quick to listen, slow to speak, and slow to anger” (James 1:19). Often the stated objection is not the real one. Behind “religion causes wars” may be a harsh father, a church that failed them, or a grief. You will only find that out by listening.',
@@ -25,6 +27,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Ask questions',
+      keyLine: 'Questions keep a conversation friendly, show respect, and make people examine what they have assumed.',
       body: [
         'Jesus asked questions constantly: “Who do you say I am?” (Mark 8:27-29). When challenged, he often answered with a question of his own, as in “I will also ask you a question” (Luke 20:3-4). Questions keep a conversation friendly, show respect, and make people examine what they have assumed.',
         'Three questions, taken from Greg Koukl’s book Tactics, do most of the work. “What do you mean by that?” makes a vague objection specific. “How did you come to that conclusion?” asks for reasons and gently hands over the burden of proof: you do not have to refute a claim no one has supported. “Have you ever considered…?” introduces your point as something to think about, not a lecture.',
@@ -34,6 +37,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Stay calm and kind',
+      keyLine: 'Being kind and being clear are not opposites.',
       body: [
         '“A gentle answer turns away wrath, but a harsh word stirs up anger” (Proverbs 15:1). If you feel yourself getting heated, slow down. The person in front of you is not the enemy.',
         'Paul’s instruction is precise: the Lord’s servant “must not be quarrelsome, but must be kind to everyone, able to teach, and forbearing. He must gently reprove those who oppose him, in the hope that God may grant them repentance” (2 Timothy 2:24-25). Being kind and being clear are not opposites. You can say hard things plainly and still say them kindly.',
@@ -43,6 +47,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Start where they are',
+      keyLine: 'Find the point of contact: a sense that the world is not as it should be, a longing for justice, the wonder of a new child, a fear of death.',
       body: [
         'In Athens, Paul did not begin with Moses. He began with what he had seen in their own city: “I even found an altar with this inscription: TO AN UNKNOWN GOD. Therefore what you worship as something unknown, I now proclaim to you” (Acts 17:22-23). With Jews he began from the Scriptures; with pagans, from creation and their own poets.',
         'Find the point of contact: a sense that the world is not as it should be, a longing for justice, the wonder of a new child, a fear of death. Begin there and walk towards Jesus.',
@@ -51,6 +56,7 @@ export const havingTheConversation: Topic = {
     },
     {
       heading: 'Get to the gospel',
+      keyLine: 'It is possible to spend an hour on the age of the earth and never mention Jesus.',
       body: [
         'It is possible to spend an hour on the age of the earth and never mention Jesus. Keep asking yourself how to get from here to him.',
         'Be ready to say the gospel in a minute: God made us and we have turned from him; we cannot repair that ourselves; God came in Jesus, who died for our sins and rose again; and he offers forgiveness and new life to anyone who turns and trusts him.',

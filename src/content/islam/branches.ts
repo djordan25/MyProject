@@ -8,6 +8,7 @@ export const branchesOfIslam: Topic = {
   lesson: [
     {
       heading: 'Ask before you argue',
+      keyLine: 'Whatever the answer, arguments drawn from the Quran itself apply to nearly every group below, because nearly all of them accept the Quran.',
       body: [
         'Much of this course argues from Sahih al-Bukhari and Sahih Muslim. That works with Sunni Muslims, who are the large majority, an estimated 87 to 90 percent. It works less well with others. So ask early, and with real interest: “Which books do you follow besides the Quran?”',
         'Whatever the answer, arguments drawn from the Quran itself apply to nearly every group below, because nearly all of them accept the Quran. The Druze, who have their own scripture, and many Alevis are the exceptions.',
@@ -15,6 +16,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Sunni Muslims',
+      keyLine: 'Sunnis follow the Quran and the Sunnah, the example of Muhammad, as recorded in six major hadith collections.',
       body: [
         'Sunnis follow the Quran and the Sunnah, the example of Muhammad, as recorded in six major hadith collections. Bukhari and Muslim are the most trusted of the six. Most Sunnis follow one of four schools of law (Hanafi, Maliki, Shafi‘i and Hanbali), which differ on practice more than on belief.',
         'Every lesson in this course applies directly to Sunnis. The Sunni Islam sub-track covers Sunni authorities, the companions, and the Salafi and Sufi streams in depth.',
@@ -22,6 +24,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Shia Muslims',
+      keyLine: 'Shia Muslims have their own hadith collections and do not trust many of the narrators Sunnis rely on.',
       body: [
         'Shia Muslims are an estimated 10 to 13 percent of the Muslim world, and the majority in Iran and Iraq. They believe leadership after Muhammad belonged to his cousin and son-in-law Ali and to a line of Imams from his family. Most are “Twelvers”, who recognise twelve Imams.',
         'Shia Muslims have their own hadith collections and do not trust many of the narrators Sunnis rely on. “Sahih al-Bukhari says” carries little weight with them.',
@@ -32,6 +35,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Quran-only Muslims',
+      keyLine: 'A small minority, often called Quranists, reject the hadith altogether and follow the Quran alone.',
       body: [
         'A small minority, often called Quranists, reject the hadith altogether and follow the Quran alone. Arguments from Bukhari and Muslim will not move them.',
         'Use the Quran-based lessons, and ask two questions. How do you know how to pray, since the Quran does not give the details? And how do you obey the Quran’s command to obey the Messenger (Quran 3:32) without a record of what he said? The Quran-only Muslims sub-track covers their arguments in depth.',
@@ -40,6 +44,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Ahmadi Muslims',
+      keyLine: 'Ahmadis teach that Jesus was crucified but survived, later travelling east and dying a natural death.',
       body: [
         'The Ahmadiyya movement began in India in the late nineteenth century with Mirza Ghulam Ahmad, whom its members regard as the Promised Messiah and Mahdi. Most other Muslims consider Ahmadis to be outside Islam, and they are persecuted in several countries.',
         'Ahmadis teach that Jesus was crucified but survived, later travelling east and dying a natural death. So with an Ahmadi you are answering the “swoon” theory, which the lesson Denying the Crucifixion covers. The Ahmadiyya sub-track covers the founder’s claims and the story of Jesus in India in depth.',
@@ -47,6 +52,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Sufis, and Muslims in name',
+      keyLine: 'Sufism is a mystical tradition found among both Sunnis and Shia, stressing love for God and inward experience.',
       body: [
         'Sufism is a mystical tradition found among both Sunnis and Shia, stressing love for God and inward experience. Sufis are often glad to talk about knowing God personally. Jesus’ words are a natural place to begin: eternal life is to know the only true God and Jesus Christ whom he sent (John 17:3). The Sunni Islam sub-track has a lesson on the Salafi and Sufi streams.',
         'Many Muslims are Muslim by family and culture and know little of the Quran or the hadith. Detailed arguments about sources may mean nothing to them. Begin with Jesus himself and with the gospel (see Sharing the Gospel with a Muslim).',
@@ -55,6 +61,7 @@ export const branchesOfIslam: Topic = {
     },
     {
       heading: 'Other communities',
+      keyLine: 'Three more sub-tracks cover communities that grew out of Islam or carry its name',
       body: [
         'Three more sub-tracks cover communities that grew out of Islam or carry its name, and that stand apart from mainstream Sunni and Twelver Shia Islam, though Alawites and many Alevis count themselves Muslims.',
         'The Nation of Islam is an American movement that began in Detroit in 1930 with W. D. Fard and was built up by Elijah Muhammad. It teaches that Fard was Allah in person, that Elijah Muhammad was his messenger, and that black people are the original people of the earth, teachings that Sunni and Shia Muslims reject. After Elijah Muhammad died in 1975 his son moved the organisation towards mainstream Islam, and from late 1977 Louis Farrakhan rebuilt the present Nation of Islam on the older teachings. See the Nation of Islam sub-track.',

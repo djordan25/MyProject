@@ -1,5 +1,7 @@
 export interface LessonSection {
   heading: string;
+  /** The one sentence to carry away, shown large above the detail. Copied word for word from the body or the argument. */
+  keyLine?: string;
   /** Paragraphs of explanation. Citations like "Quran 5:47", "Sahih al-Bukhari 4987" or "John 14:26" are auto-linked. */
   body: string[];
   /** Optional numbered argument (premises → conclusion). */
