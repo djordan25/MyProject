@@ -232,7 +232,7 @@ export const muhammadWarfare: Topic = {
     },
     {
       id: 'mw-q4',
-      question: 'What happened to the men of Banu Qurayza according to Sahih al-Bukhari 3043?',
+      question: 'What became of the warriors of Banu Qurayza under the sentence recorded in Sahih al-Bukhari 3043?',
       options: ['They were freed', 'They were exiled', 'They were killed', 'They became Muslims'],
       answer: 2,
       explanation: 'The warriors were killed and the women and children taken prisoner (see Quran 33:26).',
@@ -352,12 +352,12 @@ export const muhammadWarfare: Topic = {
       question: 'Which restriction on warfare is it fair to credit to Muhammad?',
       options: [
         'He forbade the taking of booty',
-        'He forbade attacking without warning',
+        'He forbade deceiving an enemy',
         'He forbade the killing of women and children',
         'He forbade the taking of captives',
       ],
       answer: 2,
-      explanation: 'Sahih al-Bukhari 3015. Booty, captives and a raid without warning are all recorded of him (Quran 8:41; Sahih al-Bukhari 2541).',
+      explanation: 'Sahih al-Bukhari 3015. Booty, captives and deceiving an enemy are all recorded of him (Quran 8:41; Sahih al-Bukhari 2541; Sahih al-Bukhari 4037).',
     },
     {
       id: 'mw-q16',
