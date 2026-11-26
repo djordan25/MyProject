@@ -672,6 +672,14 @@ mark { background: var(--ed-color-brand-bg-strong); color: inherit; border-radiu
 .contrast-col ul { margin: 0; padding-left: var(--ed-space-4); font-size: var(--ed-font-size-md); line-height: 1.45; }
 .contrast-col li { margin: var(--ed-space-1) 0; }
 @media (max-width: 420px) { .contrast-chart { grid-template-columns: 1fr; } }
+.contrast-chart.neutral .contrast-col { border-top-color: var(--ed-color-brand); background: var(--ed-color-surface-1); }
+.contrast-chart.neutral .contrast-col.no { border-top-color: var(--at-rubric); background: var(--ed-color-surface-1); }
+.pairs-chart { display: grid; gap: var(--ed-space-2); }
+.pairs-head, .pairs-row { display: grid; grid-template-columns: 1fr 1fr; column-gap: var(--ed-space-3); }
+.pairs-head span { font-weight: var(--ed-font-weight-semibold); font-size: var(--ed-font-size-sm); padding-bottom: var(--ed-space-1); border-bottom: 3px solid var(--ed-color-brand); }
+.pairs-head span + span { border-bottom-color: var(--at-rubric); }
+.pairs-row { row-gap: 2px; padding: var(--ed-space-2) 0; border-bottom: 1px solid var(--ed-color-hairline); font-size: var(--ed-font-size-md); line-height: 1.4; }
+.pairs-label { grid-column: 1 / -1; font-size: var(--ed-font-size-xs); color: var(--ed-color-text-muted); }
 
 /* The track as a journey */
 .trail { position: relative; margin: var(--ed-space-5) 0 var(--ed-space-6); border: 1px solid var(--ed-color-hairline); border-radius: var(--ed-radius-lg); background: var(--ed-color-surface-1); overflow: hidden; }

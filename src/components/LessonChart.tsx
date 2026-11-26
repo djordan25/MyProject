@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { EdIcon } from 'editorial-ui';
 import { getTopic } from '../content';
 import type { Chart } from '../content/charts';
+import RefText from './RefText';
 
 /** A comparison drawn from the lessons: either gaps in years as bars on one scale, or a list of what is affirmed and denied. */
 export default function LessonChart({ chart, topicId }: { chart: Chart; topicId: string }) {
@@ -49,11 +50,25 @@ export default function LessonChart({ chart, topicId }: { chart: Chart; topicId:
           </ul>
           <p className="count-key mono" aria-hidden><span className="part-ot" /> Old Testament <span className="part-nt" /> New Testament <span className="part-all" /> whole Bible</p>
         </>
+      ) : chart.kind === 'pairs' ? (
+        <div className="pairs-chart" role="table" aria-label={chart.title}>
+          <div className="pairs-head" role="row">
+            <span role="columnheader">{chart.left}</span>
+            <span role="columnheader">{chart.right}</span>
+          </div>
+          {chart.rows.map((r) => (
+            <div key={r.label} className="pairs-row" role="row">
+              <span className="pairs-label mono" role="rowheader"><RefText text={r.label} /></span>
+              <span role="cell">{r.left}</span>
+              <span role="cell">{r.right}</span>
+            </div>
+          ))}
+        </div>
       ) : (
-        <div className="contrast-chart">
+        <div className={`contrast-chart${chart.neutral ? ' neutral' : ''}`}>
           {(['yes', 'no'] as const).map((v) => (
             <div key={v} className={`contrast-col ${v}`}>
-              <h3><EdIcon name={v === 'yes' ? 'Check' : 'X'} size="sm" aria-hidden /> {chart[v]}</h3>
+              <h3>{!chart.neutral && <EdIcon name={v === 'yes' ? 'Check' : 'X'} size="sm" aria-hidden />} {chart[v]}</h3>
               <ul>
                 {chart.rows.filter((r) => r.verdict === v).map((r) => <li key={r.label}>{r.label}</li>)}
               </ul>
